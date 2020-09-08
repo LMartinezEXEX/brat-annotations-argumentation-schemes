@@ -1,0 +1,4 @@
+T1	SignScheme 95 186	It takes twelve Germans to work and pay taxes in order to fund the cost of just one migrant
+E1	SignScheme:T1 VerifiableFact:T2 Collective:T3
+T2	VerifiableFact 95 186	It takes twelve Germans to work and pay taxes in order to fund the cost of just one migrant
+T3	Collective 179 186	migrant

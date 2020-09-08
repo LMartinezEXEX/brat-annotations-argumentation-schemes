@@ -1,0 +1,5 @@
+T1	GroupMembers 0 134	“Spain is becoming the Third World,” American tourist almost killed by migrants speaks up https://t.co/En4qKBQzRH via @wordpressdotcom
+E1	GroupMembers:T1 Property:T4 Individual:T3 Collective:T2
+T2	Collective 71 79	migrants
+T3	Individual 71 79	migrants
+T4	Property 37 67	American tourist almost killed

@@ -1,0 +1,5 @@
+T1	NegativeConsequences 0 152	@charliekirk11 We need to improve our country, schools, neighborhoods, hospitals, prisons, by kicking out the illegals. #BuildTheDamnWall #BuildThatWall
+E1	NegativeConsequences:T1 Consequence:T3 Action:T2 Collective:T4
+T2	Action 94 118	kicking out the illegals
+T3	Consequence 26 89	improve our country, schools, neighborhoods, hospitals, prisons
+T4	Collective 106 118	the illegals

@@ -1,0 +1,5 @@
+T1	GroupMembers 0 51	You mean, some of the asylum seekers are criminals?
+E1	GroupMembers:T1 Individual:T2 Collective:T3 Property:T4
+T2	Individual 10 36	some of the asylum seekers
+T3	Collective 22 36	asylum seekers
+T4	Property 37 50	are criminals

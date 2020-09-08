@@ -1,0 +1,5 @@
+T1	Individual 10 79	young fighting age men be the vast majority of the ones escaping a wa
+T3	Property 220 246	they are economic migrants
+T2	Collective 185 193	refugees
+T4	GroupMembers 0 272	Why would young fighting age men be the vast majority of the ones escaping a war &amp; not those who cannot fight like women, children, and the elderly?It's because the majority of the refugees are not actually refugees they are economic migrants trying to get into Europe
+E1	GroupMembers:T4 Individual:T1 Collective:T2 Property:T3

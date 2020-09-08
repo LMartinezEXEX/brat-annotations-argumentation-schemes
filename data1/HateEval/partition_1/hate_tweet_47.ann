@@ -1,0 +1,5 @@
+T1	NegativeConsequences 0 164	Immigration gone crazy 100 trainee doctors from abroad what about Nurse Practitioners who are their equivalent get pain peanuts and are trained and come from the UK
+E1	NegativeConsequences:T1 Collective:T2 Action:T3 Consequence:T4
+T2	Collective 35 54	doctors from abroad
+T3	Action 0 22	Immigration gone crazy
+T4	Consequence 66 164	Nurse Practitioners who are their equivalent get pain peanuts and are trained and come from the UK

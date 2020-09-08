@@ -1,0 +1,5 @@
+T1	AuthorityScheme 0 64	Poland: our country is safe because we haven't taken in refugees
+E1	AuthorityScheme:T1 Authority:T2 Example:T3 Collective:T4
+T2	Authority 0 6	Poland
+T3	Example 8 64	our country is safe because we haven't taken in refugees
+T4	Collective 56 64	refugees

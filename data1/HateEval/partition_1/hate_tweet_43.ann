@@ -1,0 +1,5 @@
+T1	NegativeConsequences 29 157	To ignore the role of the immigration invasion and White Genocide in the housing disaster isn't just irresponsible, its criminal
+E1	NegativeConsequences:T1 Collective:T4 Action:T2 Consequence:T3
+T2	Action 55 94	immigration invasion and White Genocide
+T3	Consequence 102 118	housing disaster
+T4	Collective 55 66	immigration

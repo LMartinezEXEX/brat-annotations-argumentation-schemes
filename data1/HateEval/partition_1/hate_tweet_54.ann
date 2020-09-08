@@ -1,0 +1,5 @@
+T1	FearAndDanger 0 71	Trump stands with victims of immigrant violence https://t.co/aimxNSgdts
+E1	FearAndDanger:T1 Action:T4 Collective:T2 Property:T3
+T2	Collective 29 38	immigrant
+T3	Property 39 47	violence
+T4	Action 6 25	stands with victims

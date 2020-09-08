@@ -1,0 +1,5 @@
+T1	GroupMembers 0 144	Border agent killed, partner injured by illegal immigrants using rocks, report says https://t.co/z3juJvIuXl#OperationBodyCount #PreventableDeath
+E1	GroupMembers:T1 Individual:T4 Collective:T2 Property:T3
+T2	Collective 40 58	illegal immigrants
+T3	Property 0 36	Border agent killed, partner injured
+T4	Individual 40 70	illegal immigrants using rocks

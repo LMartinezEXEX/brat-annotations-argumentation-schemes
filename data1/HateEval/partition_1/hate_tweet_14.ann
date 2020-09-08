@@ -1,0 +1,5 @@
+T1	GroupMembers 0 126	Many lice you will find in Viennese schools. Some refugees has brought us this as gift. To rescue it will cost 30 â‚¬ a person
+E1	GroupMembers:T1 Property:T4 Individual:T2 Collective:T3
+T2	Individual 45 58	Some refugees
+T3	Collective 45 58	Some refugees
+T4	Property 5 9	lice
