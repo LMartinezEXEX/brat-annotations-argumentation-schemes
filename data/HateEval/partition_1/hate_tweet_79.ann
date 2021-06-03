@@ -1,0 +1,6 @@
+T1	Issue 35 48	Reunification
+T2	Consequence 109 140	more illigal refugees will come
+T3	NegativeConsequences 0 225	@chucktodd @MSNBC @SenatorLankford Reunification is the wrong word - never should done this - because always more illigal refugees will come. They have to brought back to the border without food with or without children quick
+E1	NegativeConsequences:T3 Consequence:T2 Issue:T1 Collective:T4
+T4	Collective 114 130	illigal refugees
+T5	Conclusion 142 225	They have to brought back to the border without food with or without children quick

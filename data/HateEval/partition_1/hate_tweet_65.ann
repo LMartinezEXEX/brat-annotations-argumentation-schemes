@@ -1,0 +1,6 @@
+T1	GroupMembers 0 94	Edmonton attacker identified as 30yo Somali refugee Abdulahi Hasan Sharif, was known to police
+E1	GroupMembers:T1 
+T2	Collective 37 51	Somali refugee
+T3	Individual 52 73	Abdulahi Hasan Sharif
+T4	Property 0 17	Edmonton attacker
+T5	Property 79 94	known to police

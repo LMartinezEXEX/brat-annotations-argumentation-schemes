@@ -1,0 +1,14 @@
+T2	Collective 51 59	Refugees
+T4	Premise1Conclusion 163 249	The German government is robbing native Germans to finance the Islamization of Germany
+T5	Premise2Justification 0 70	The German Government Pays for 3 Week Vacation for Refugees to Go Home
+T1	subject 163 184	The German government
+T6	subject 0 21	The German Government
+T7	predicate 22 70	Pays for 3 Week Vacation for Refugees to Go Home
+T8	predicate 185 249	is robbing native Germans to finance the Islamization of Germany
+R1	related Arg1:T1 Arg2:T6	
+R2	subjectOf Arg1:T6 Arg2:T5	
+R3	predicateIn Arg1:T7 Arg2:T5	
+R4	subjectOf Arg1:T1 Arg2:T4	
+R5	predicateIn Arg1:T8 Arg2:T4	
+A1	QuadrantType T5 fact
+A2	QuadrantType T4 fact

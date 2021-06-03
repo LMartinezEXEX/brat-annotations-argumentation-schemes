@@ -1,0 +1,21 @@
+T1	Premise1Conclusion 94 118	kicking out the illegals
+T2	Premise2Justification 15 89	We need to improve our country, schools, neighborhoods, hospitals, prisons
+T3	subject 15 17	We
+R1	subjectOf Arg1:T3 Arg2:T2	
+R2	subjectOf Arg1:T3 Arg2:T1	
+T4	Collective 106 118	the illegals
+R3	firstOrder Arg1:T1 Arg2:T2	
+T5	predicate 94 118	kicking out the illegals
+R4	predicateIn Arg1:T5 Arg2:T1	
+T6	predicate 18 89	need to improve our country, schools, neighborhoods, hospitals, prisons
+R5	predicateIn Arg1:T6 Arg2:T2	
+T7	subject 15 17	We
+R6	related Arg1:T3 Arg2:T7	
+T8	CounterNarrativeA 150 151	l
+#1	AnnotatorNotes T8	It's not true that kicking out the illegals will improve our country, schools, neighborhoods, hospitals or prisons
+A1	QuadrantType T2 policy
+A2	QuadrantType T1 policy
+T9	CounterNarrativeC 149 150	a
+#2	AnnotatorNotes T9	Do we need to improve our country, schools, neighborhoods and prisons?
+T10	CounterNarrativeD 148 149	W
+#3	AnnotatorNotes T10	We don't need to kick out anyone

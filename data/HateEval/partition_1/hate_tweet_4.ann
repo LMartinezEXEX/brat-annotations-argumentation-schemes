@@ -1,0 +1,11 @@
+T1	PositiveReferent 0 210	Rich African Countries don't take in African MigrantsRich muslim countries don't take in muslim migrantsRich latin american countries don't take it latin migrantsBut white countries are suppose to accept them??
+E1	PositiveReferent:T1 Example:T6 Example2:T7 Example3:T5 Authority:T2 Authority2:T3 Authority3:T4 Collective:T10 Collective2:T9 Collective3:T8
+T2	Authority 0 22	Rich African Countries
+T3	Authority 53 74	Rich muslim countries
+T4	Authority 104 133	Rich latin american countries
+T5	Issue 23 53	don't take in African Migrants
+T6	Issue 75 104	don't take in muslim migrants
+T7	Issue 134 162	don't take it latin migrants
+T8	Collective 148 162	latin migrants
+T9	Collective 89 104	muslim migrants
+T10	Collective 37 53	African Migrants

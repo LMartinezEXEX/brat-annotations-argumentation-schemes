@@ -1,0 +1,14 @@
+T3	Collective 90 114	third world "immigrants"
+T1	Premise1Conclusion 47 114	now they are just mass produced to fit the third world "immigrants"
+T2	Premise2Justification 0 46	Homes use to look beautiful and full of effort
+T5	subject 0 5	Homes
+R2	subjectOf Arg1:T5 Arg2:T2	
+T6	predicate 6 46	use to look beautiful and full of effort
+R4	predicateIn Arg1:T6 Arg2:T2	
+R6	firstOrder Arg1:T1 Arg2:T2	
+T4	subject 51 55	they
+R1	subjectOf Arg1:T4 Arg2:T1	
+R3	related Arg1:T4 Arg2:T5	
+T7	predicate 60 114	just mass produced to fit the third world "immigrants"
+R5	predicateIn Arg1:T7 Arg2:T1	
+T8	Property 65 85	mass produced to fit

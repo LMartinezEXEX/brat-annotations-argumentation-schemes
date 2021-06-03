@@ -1,0 +1,14 @@
+T3	Property 164 210	ake jobs from Citizens and steal U.S Resources
+T1	Premise2Justification 0 40	Here Illegally you are breaking the law!
+T2	Premise1Conclusion 42 87	The laws states you get deported not a choice
+T4	Collective 0 14	Here Illegally
+T5	subject 15 18	you
+T6	predicate 19 39	are breaking the law
+T7	subject 58 61	you
+T8	predicate 62 74	get deported
+R1	subjectOf Arg1:T5 Arg2:T1	
+R2	predicateIn Arg1:T6 Arg2:T1	
+R3	subjectOf Arg1:T7 Arg2:T2	
+R4	predicateIn Arg1:T8 Arg2:T2	
+R5	related Arg1:T5 Arg2:T7	
+R6	firstOrder Arg1:T2 Arg2:T1	

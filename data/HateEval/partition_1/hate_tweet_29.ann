@@ -1,0 +1,15 @@
+T1	Premise2Justification 31 100	Even Ordinary People Are Beginning to Take Action Against Immigration
+T2	Premise1Conclusion 69 100	Take Action Against Immigration
+R1	secondOrder Arg1:T2 Arg2:T1	
+T3	subject 36 51	Ordinary People
+R2	subjectOf Arg1:T3 Arg2:T1	
+T4	predicate 69 100	Take Action Against Immigration
+R3	predicateIn Arg1:T4 Arg2:T1	
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy
+T5	CounterNarrativeB 133 134	S
+#1	AnnotatorNotes T5	Ordinary people might be wrong
+T6	CounterNarrativeB 132 133	W
+#2	AnnotatorNotes T6	And you do everything that ordinary people do? What if ordinary people are starting to jump from cliffs?
+T7	CounterNarrativeC 131 132	3
+#3	AnnotatorNotes T7	Do you have any kind of proof that ordinary people are beginning to take action against immigration? Because I believe that ordinary people are tired of xenophobia.

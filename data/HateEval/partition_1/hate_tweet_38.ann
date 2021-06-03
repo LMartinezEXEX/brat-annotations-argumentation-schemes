@@ -1,0 +1,5 @@
+T1	PositiveReferent 0 74	Trump means that immigration to Europe will destroy Europe,hes again right
+E1	PositiveReferent:T1 
+T2	Authority 0 5	Trump
+T3	Collective 17 28	immigration
+T4	Property 39 58	will destroy Europe

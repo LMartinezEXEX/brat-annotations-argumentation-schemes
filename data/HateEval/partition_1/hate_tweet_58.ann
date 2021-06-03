@@ -1,0 +1,4 @@
+T1	NegativeConsequences 0 111	President Obama And #Democrats Illegal Immigration is NOT a Victimless Crime it Cost Taxpayers and lower wages!
+E1	NegativeConsequences:T1 Collective:T3 Consequence:T2
+T2	Consequence 77 110	it Cost Taxpayers and lower wages
+T3	Collective 31 50	Illegal Immigration

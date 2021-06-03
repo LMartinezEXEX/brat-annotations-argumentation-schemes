@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 0 28	2018 the year of the Refugee
+T2	Premise2Justification 29 270	where France cracks down on immigration ðŸ˜…numbers ,2018 Refugees to get more resources and help in the Uk 2018 Sweden's crime rate goes soaring young refugees on the rampage 2018 Greece and Italy still being forced to take in more refugees
+T3	Collective 21 28	Refugee
+T4	Collective 87 95	Refugees
+T5	Collective 262 270	refugees
+T6	Collective 57 68	immigration
+T7	Property 35 53	France cracks down
+T8	Property 142 174	Sweden's crime rate goes soaring
+T9	Property 99 126	get more resources and help
+T10	pivot 87 95	Refugees
+T11	pivot 21 28	Refugee
+R1	related Arg1:T11 Arg2:T10	

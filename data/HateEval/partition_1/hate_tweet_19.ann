@@ -1,0 +1,25 @@
+T2	Collective 11 25	Illegal Aliens
+T3	Property 26 46	Claiming Fake Asylum
+T1	Premise1Conclusion 47 83	are being deported in Record Numbers
+T4	Premise2Justification 11 46	Illegal Aliens Claiming Fake Asylum
+T5	subject 11 25	Illegal Aliens
+T6	predicate 26 46	Claiming Fake Asylum
+T7	subject 11 25	Illegal Aliens
+T8	predicate 47 83	are being deported in Record Numbers
+R1	related Arg1:T5 Arg2:T7	
+R2	predicateIn Arg1:T8 Arg2:T1	
+R3	predicateIn Arg1:T6 Arg2:T4	
+R5	subjectOf Arg1:T7 Arg2:T1	
+R4	subjectOf Arg1:T7 Arg2:T4	
+R6	firstOrder Arg1:T4 Arg2:T1	
+A1	QuadrantType T4 fact
+A2	QuadrantType T1 fact
+T9	CounterNarrativeA 196 197	n
+#1	AnnotatorNotes T9	Illegal Aliens claiming fake asylum don't imply you have to deport them
+T10	Premise1Conclusion 0 9	Good News
+T11	CounterNarrativeB 195 196	a
+#2	AnnotatorNotes T11	It's not true that illegal aliens claim fake asylum. Where did you get that information?
+T12	CounterNarrativeC 194 195	e
+#3	AnnotatorNotes T12	It's not true that illegal aliens claim fake asylum. Where is your source?
+T13	CounterNarrativeD 193 194	s
+#4	AnnotatorNotes T13	Why is it good news that people is being deported in record numbers?

@@ -1,0 +1,5 @@
+T1	NegativeConsequences 0 95	This is what the streets of the #uk will look like in 10 more years #Brexitnow #stopimmigration
+E1	NegativeConsequences:T1 Consequence:T4 Issue:T2
+T2	Issue 79 95	#stopimmigration
+T3	Conclusion 79 95	#stopimmigration
+T4	Consequence 0 67	This is what the streets of the #uk will look like in 10 more years
