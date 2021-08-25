@@ -1,5 +1,0 @@
-T1	FromSign 0 227	In Austria the elder people in homes need 4 Euro for food daily each. Now the goverment like to reduce the benefit for refugees to 5 Euro daily. Why refugees get more money than the originated citiziens ? https://t.co/bSBvU06HX
-E1	FromSign:T1 VerifiableFact:T2 Collective:T3 Collective2:T4
-T2	VerifiableFact 0 143	In Austria the elder people in homes need 4 Euro for food daily each. Now the goverment like to reduce the benefit for refugees to 5 Euro daily
-T3	Collective 119 127	refugees
-T4	Collective 149 157	refugees

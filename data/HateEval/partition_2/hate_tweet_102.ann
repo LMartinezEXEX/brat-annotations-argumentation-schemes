@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 54 105	We want Germany to be Germany, not an Islamic state
+A1	QuadrantType T1 policy
+T2	Premise2Justification 7 52	Germans protest against Islam and immigration
+A2	QuadrantType T2 fact
+T3	Collective 31 36	Islam
+T4	Collective 41 52	immigration
+T5	pivot 92 99	Islamic
+T6	pivot 31 36	Islam
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeFree 128 133	https
+#1	AnnotatorNotes T7	Having Islamic immigrants does not imply that Germany will become an Islamic state.

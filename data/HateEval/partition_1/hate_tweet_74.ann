@@ -1,6 +1,1 @@
-T1	Issue 0 31	Economic growth via immigration
-T2	Consequence 32 128	shifts wealth from young people towards older people by flooding market with cheap foreign labor
-T3	Consequence 131 261	t spikes profits &amp; stocks by cutting salaries for manual &amp; skilled labor offered by blue-collar and white-collar employees
-T4	Collective 20 31	immigration
-T5	NegativeConsequences 0 285	Economic growth via immigration shifts wealth from young people towards older people by flooding market with cheap foreign labor. It spikes profits &amp; stocks by cutting salaries for manual &amp; skilled labor offered by blue-collar and white-collar employees https://t.co/eRsjOpu1hw
-E1	NegativeConsequences:T5 
+T1	NonArgumentative 0 285	Economic growth via immigration shifts wealth from young people towards older people by flooding market with cheap foreign labor. It spikes profits &amp; stocks by cutting salaries for manual &amp; skilled labor offered by blue-collar and white-collar employees https://t.co/eRsjOpu1hw

@@ -1,0 +1,5 @@
+T1	Collective 0 8	Refugees
+T2	Premise1Conclusion 0 20	Refugees not welcome
+A1	QuadrantType T2 policy
+T3	CounterNarrativeA 0 20	Refugees not welcome
+#1	AnnotatorNotes T3	that is decided by the state, not just any citizen

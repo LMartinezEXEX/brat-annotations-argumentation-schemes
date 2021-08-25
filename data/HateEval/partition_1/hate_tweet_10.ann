@@ -1,30 +1,17 @@
-T2	Individual 8 15	Migrant
 T3	Property 16 62	raped 92-year old grandmother on Christmas Eve
 T5	Collective 8 15	Migrant
 T1	Premise1Conclusion 99 112	#SendThemHome
 T6	Premise2Justification 8 92	Migrant raped 92-year old grandmother on Christmas Eve – allowed to remain in Sweden
 T7	Collective 104 108	Them
-T8	subject 8 15	Migrant
-R1	subjectOf Arg1:T8 Arg2:T6	
-T9	predicate 16 62	raped 92-year old grandmother on Christmas Eve
-R2	predicateIn Arg1:T9 Arg2:T6	
 R3	firstOrder Arg1:T1 Arg2:T6	
-T10	subject 104 108	Them
-T11	predicate 100 104	Send
-T12	predicate 108 112	Home
-R4	subjectOf Arg1:T10 Arg2:T1	
-R5	predicateIn Arg1:T11 Arg2:T1	
-R6	predicateIn Arg1:T12 Arg2:T1	
 A1	QuadrantType T6 fact
 A2	QuadrantType T1 policy
-R7	related Arg1:T8 Arg2:T10	
 T13	CounterNarrativeA 170 171	r
 #1	AnnotatorNotes T13	Just because one migrant raped a 92-year old grandmother doesn't mean we need to send anyone home. Rapist go to prison, not home
 T14	CounterNarrativeB 168 169	l
 #2	AnnotatorNotes T14	Are you implying that all migrants are rapists?
 T15	CounterNarrativeC 167 168	l
 #3	AnnotatorNotes T15	Do you have proof that a 92-year old grandmother was actually raped by a migrant on Christmas Eve?
-T4	CounterNarrativeD 167 168	l
-#4	AnnotatorNotes T4	We shouldn't send anyone home
-T16	CounterNarrativeE 164 165	a
-#5	AnnotatorNotes T16	If one migrant commited a crime, why do you want to send "them" home? Who is "them"?
+T2	pivot 8 15	Migrant
+T4	pivot 104 108	Them
+R1	related Arg1:T2 Arg2:T4	

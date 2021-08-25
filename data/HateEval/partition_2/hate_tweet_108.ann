@@ -1,0 +1,5 @@
+T1	Premise2Justification 14 29	1 illegal alien
+T2	Premise1Conclusion 30 83	who opened the floodgates for millions more to follow
+T3	Collective 1 12	BarackObama
+A1	QuadrantType T1 value
+A2	QuadrantType T2 fact

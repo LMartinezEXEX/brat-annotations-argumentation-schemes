@@ -3,12 +3,6 @@ T2	Premise1Conclusion 165 272	the majority of the refugees are not actually refu
 T3	Premise2Justification 10 151	young fighting age men be the vast majority of the ones escaping a war &amp; not those who cannot fight like women, children, and the elderly
 R1	firstOrder Arg1:T2 Arg2:T3	
 T4	Collective 57 80	the ones escaping a war
-T7	predicate 87 151	not those who cannot fight like women, children, and the elderly
-R4	predicateIn Arg1:T7 Arg2:T3	
-T8	subject 165 192	the majority of the refugee
-R5	subjectOf Arg1:T8 Arg2:T2	
-T9	predicate 194 272	are not actually refugees they are economic migrants trying to get into Europe
-R6	predicateIn Arg1:T9 Arg2:T2	
 A1	QuadrantType T3 fact
 A2	QuadrantType T2 fact
 T11	CounterNarrativeA 299 300	n
@@ -18,10 +12,6 @@ T12	CounterNarrativeB 298 299	q
 T10	Property 194 272	are not actually refugees they are economic migrants trying to get into Europe
 T13	CounterNarrativeC 297 298	Y
 #3	AnnotatorNotes T13	Do you have proof to support that young fighting age men are the vast majority of the ones escaping a war and not those who cannot fight like women, children and the elderly?
-T5	subject 10 80	young fighting age men be the vast majority of the ones escaping a war
-R2	subjectOf Arg1:T5 Arg2:T3	
-R3	related Arg1:T5 Arg2:T8	
-T6	CounterNarrativeD 296 297	t
-#4	AnnotatorNotes T6	The majority of refugees are actually refugees. There is people checking that.
-T14	CounterNarrativeE 294 295	H
-#5	AnnotatorNotes T14	How do you know that the majority of refugees are young fighting age men?
+T5	pivot 57 80	the ones escaping a war
+T6	pivot 185 193	refugees
+R2	related Arg1:T6 Arg2:T5	

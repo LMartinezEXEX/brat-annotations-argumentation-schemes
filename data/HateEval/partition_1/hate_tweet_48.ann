@@ -11,6 +11,6 @@ T6	CounterNarrativeB 161 162	K
 #2	AnnotatorNotes T6	The majority of refugees is not allowed to work and the ones who do work get paid very very little.
 T7	CounterNarrativeC 160 161	a
 #3	AnnotatorNotes T7	Most USA citizens earn much much more than immigrants and refugees who accept low paid works that others won't because they are desperate
-T8	subject 112 120	Refugees
-T9	subject 51 60	that much
+T8	pivot 112 120	Refugees
+T9	pivot 51 60	that much
 R2	related Arg1:T9 Arg2:T8	

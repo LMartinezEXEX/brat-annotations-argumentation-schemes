@@ -1,0 +1,12 @@
+T1	Collective 177 185	refugees
+T2	Premise1Conclusion 34 143	NWO intentions are to eradicate all traces of white skinned people, known as the Kalergi White Genocide plan.
+T3	Premise2Justification 144 253	This is why these only so called refugees allowed to settle in Europe are all dark skinned, no white skinned.
+A1	QuadrantType T2 fact
+A2	QuadrantType T3 fact
+T4	pivot 80 100	white skinned people
+T5	pivot 239 252	white skinned
+R1	related Arg1:T5 Arg2:T4	
+T6	CounterNarrativeA 254 277	https://t.co/TuPgWexMtx
+#1	AnnotatorNotes T6	The fact that refugees are mostly dark skinned does not mean that they want to eradicate white people.
+T7	CounterNarrativeC 254 277	https://t.co/TuPgWexMtx
+#2	AnnotatorNotes T7	Not all refugees are dark skinned, some are white skinned, for example, those from Eastern Europe.

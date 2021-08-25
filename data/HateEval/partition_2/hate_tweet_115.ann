@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 17 69	Never Hungary will accept refugees in their homeland
+T2	Property 0 15	Hungary is best
+T3	Premise2Justification 71 115	Even Soros or the EU can make what they want
+A1	QuadrantType T1 fact
+A2	QuadrantType T3 fact
+T4	Collective 43 51	refugees
