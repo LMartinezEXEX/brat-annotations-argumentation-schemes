@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 170 254	Lets see how Illegal Immigrants who work for less than the min wage reduce the wages
+A1	QuadrantType T1 fact
+T2	Premise2Justification 78 168	Again JAnis doesnt under stand  Economics Supply and demand the lesslabor, the more wages!
+A2	QuadrantType T2 fact
+T3	pivot 162 167	wages
+T4	pivot 249 254	wages
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	If someone works for less than the minimum wage, then the one breaking the law is the employer, which in this case would not be an immigrant but a native, right?

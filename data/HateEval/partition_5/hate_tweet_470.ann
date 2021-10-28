@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 59	Take Further note America! They want to do this to America!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 59 115	#BuildThatWall #EndIllegalImmigration #DeportALLIllegals
+A2	QuadrantType T2 policy

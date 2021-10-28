@@ -1,0 +1,8 @@
+T2	Premise2Justification 154 175	to SECURE OUR BORDERS
+A2	QuadrantType T2 fact
+T1	Premise1Conclusion 0 153	#BuildTheWall #EndChainMigration CALL, TWEET, EMAIL your representatives TODAY! Say you are willing to support a government shutdown or whatever it takes
+A1	QuadrantType T1 policy
+T3	CounterNarrativeA 226 227	!
+#1	AnnotatorNotes T3	Because your tweets are going to make our borders more secure, yeah.
+T4	CounterNarrativeC 224 225	g
+#2	AnnotatorNotes T4	Why would we want to further secure our borders? We are not at war, no one is invading us. Stop the paranoia

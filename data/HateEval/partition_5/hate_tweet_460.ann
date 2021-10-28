@@ -1,0 +1,7 @@
+T1	Premise2Justification 58 151	supporting such ferocious illegal migrants,making India further vulnerable to Muslim radicals
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 14 100	Very unfortunate SC not realizing danger of supporting such ferocious illegal migrants
+T3	pivot 84 100	illegal migrants
+A2	QuadrantType T2 fact
+T4	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T4	Supporting the human right to migrate has nothing to do with supporting "radical Muslims". Macro-politics is way more complex than you think.

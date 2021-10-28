@@ -1,0 +1,8 @@
+T1	Premise2Justification 37 74	as ruling bloc damaged by migrant row
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 36	Merkel support falls to all-time low
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 92 93	U
+#1	AnnotatorNotes T3	Okay, both things happened at the same time. Are they related or just a coincidence?
+T4	CounterNarrativeC 94 95	t
+#2	AnnotatorNotes T4	Who says that the ruling bloc is harmed by the migrant conflict? It seems to be invented by the opposition

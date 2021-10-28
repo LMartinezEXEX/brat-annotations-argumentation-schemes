@@ -1,0 +1,6 @@
+T2	Premise2Justification 66 91	AMERICA WANTS JUSTICE NOW
+A2	QuadrantType T2 fact
+T1	Premise1Conclusion 16 65	#BuildThatWall #BuildTheWall #BuildTheDamWall NOW
+A1	QuadrantType T1 policy
+T3	CounterNarrativeA 135 136	a
+#1	AnnotatorNotes T3	This seems like a joke, but... What is the relationship between the justice and a wall?

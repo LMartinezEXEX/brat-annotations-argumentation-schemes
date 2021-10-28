@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 50	Of course they could just go home if it's that bad
+A1	QuadrantType T1 fact
+T2	Premise2Justification 52 77	given they are 'refugees'
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 92 93	/
+#1	AnnotatorNotes T3	Go back home? They are refugees for a reason, you know what i mean...

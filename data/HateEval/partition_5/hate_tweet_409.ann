@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 136 198;220 233	What would YOU do #ForTrump, who has done so much for America? BuildThatWall
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 134	What would I do for Trump? Anything. Yes anything to keep my country FREE, to support are VETS, and to FIGHT radical Islamic terrorism
+A2	QuadrantType T2 value
+T3	pivot 20 25	Trump
+T4	pivot 158 163	Trump
+T5	CounterNarrativeA 211 212	e
+#1	AnnotatorNotes T5	Why should I do anything for a xenophobe like him?
+T6	CounterNarrativeC 210 211	h
+#2	AnnotatorNotes T6	Are you so fanatical about a president, just because he hates immigrants? What a xenophobe

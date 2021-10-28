@@ -1,0 +1,7 @@
+T1	Premise1Conclusion 107 194	it is time to build the wall and keep these SOBs intheir own damn country #BuildThatWal
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 106	@BreitbartNews i like to know what @CNN would have done if the victim was one of their big shots daughter.
+T3	CounterNarrativeA 196 197	#
+#1	AnnotatorNotes T3	We cannot make macro-political decisions based on what happens only in our own lives. Do you know how dangerous that would be for the country?
+T4	CounterNarrativeC 197 198	I
+#2	AnnotatorNotes T4	Did you take the trouble to find out that none of them have had anything similar happen to them? Maybe it happened to one of them, but they know how to set an example and be a civilized person.

@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 28 50	Stop groping my nation
+T3	Property 87 245	represents a plan orchestrated and  prepared for  a long time by international powers to radically alter  Christian and  national identity of European peoples
+T4	Collective 71 78	migrant
+T2	Premise2Justification 51 251	Schneider:  current migrant crisis “represents a plan orchestrated and  prepared for  a long time by international powers to radically alter  Christian and  national identity of European peoples.”http
+T5	pivot 44 50	nation
+T6	pivot 208 225	national identity
+R1	related Arg1:T6 Arg2:T5	
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+T7	CounterNarrativeA 250 251	p
+#1	AnnotatorNotes T7	Whatever Schnerder said it doesn't mean that anyone is groping your nation. And it's not your nation by the way
+T8	CounterNarrativeB 247 248	h
+#2	AnnotatorNotes T8	Migrants are poor people looking for a way to survive difficult conditions. Xenophobic people are always trying to see a conspiracy because they don't understand that there is people having a tougher time than them
+T9	CounterNarrativeC 247 248	h
+#3	AnnotatorNotes T9	Schneider is making no sense. This is just another conspiracy theory. Schneider saying this doesn't make it true. It only makes Schneider a crazy person

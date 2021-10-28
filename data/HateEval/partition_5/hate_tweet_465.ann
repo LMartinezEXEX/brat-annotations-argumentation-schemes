@@ -1,0 +1,8 @@
+T3	Premise1Conclusion 140 258	In reality, they already have by previously “waving-through” hundreds of thousands of unknown migrants to roam Europe.
+A3	QuadrantType T3 fact
+T4	Collective 14 22	refugees
+T5	Property 27 51	aggressive male migrants
+T1	Premise2Justification 0 138	These are not refugees but aggressive male migrants the Med leaders - with exception of @matteosalvinimi -want to kindly “share” w-others.
+A1	QuadrantType T1 fact
+T2	pivot 234 242	migrants
+T6	pivot 43 51	migrants
