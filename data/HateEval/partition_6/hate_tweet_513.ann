@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 104	Hispanics have used immigration to invade America, changing it's demographics and also changing politics
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 106 140	We must begin revoking citizenship
+A2	QuadrantType T2 policy
+T3	Collective 0 9	Hispanics
+T4	Property 10 104	have used immigration to invade America, changing it's demographics and also changing politics
+T5	pivot 129 140	citizenship
+T6	pivot 20 31	immigration
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeA 142 143	
+#1	AnnotatorNotes T7	You can't revoke someone's citizenship just because you don't like the way they voted. It's not YOUR country, you know?
+T8	CounterNarrativeB 141 142	â
+#2	AnnotatorNotes T8	Nobody is invading your country. People have the right to migrate, even if they don't speak the same language as you...
+T9	CounterNarrativeA 143 144	—
+#3	AnnotatorNotes T9	It's not true that hispanics has used immigration to invade America. In fact, almost the entire continent has been Hispanic for several centuries, and nobody has invaded America...

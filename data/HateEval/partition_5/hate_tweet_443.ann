@@ -12,3 +12,4 @@ T8	CounterNarrativeB 260 261	n
 #2	AnnotatorNotes T8	Do you think all foreigners are like that? or do you think immigrating makes you like that? Or do you think no American is that crazy? Or you just don't watch the news?
 T9	CounterNarrativeC 261 262	e
 #3	AnnotatorNotes T9	The problem with your statement is that you are assuming that he does it BECAUSE he is an immigrant and not in spite of it.
+R1	related Arg1:T4 Arg2:T3	

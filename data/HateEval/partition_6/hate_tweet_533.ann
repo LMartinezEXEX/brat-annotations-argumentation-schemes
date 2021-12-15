@@ -1,0 +1,6 @@
+T1	Premise2Justification 70 241	'EU funded report tells journalists not to write negative articles on migrant crisis'  "It even urges them to report colleagues to the authorities for 'hate speech crimes'
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 69	@jordanbpeterson There's an agenda Jprdan:  White genocide is a crime
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 243 244	h
+#1	AnnotatorNotes T3	I don't see the relationship between preventing hate speech and a genocidal agenda. I even think they are contradictory 

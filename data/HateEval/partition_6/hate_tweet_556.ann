@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 120	@realDonaldTrump Please DO NOT listen to lame duck @SpeakerRyan immigration/The Wall is way more important than tax 2.0!
+T2	Premise1Conclusion 121 191	Stick to your instinct #BuildThatWall #BuildTheDamnWall #DeportThemAll
+A1	QuadrantType T2 policy
+T3	pivot 80 84	Wall
+T4	pivot 154 158	Wall
+R1	related Arg1:T3 Arg2:T4	

@@ -12,3 +12,4 @@ T8	CounterNarrativeB 0 1	@
 #2	AnnotatorNotes T8	This is laughable... You have no idea what Marxism is, do you?
 T9	CounterNarrativeC 1 2	P
 #3	AnnotatorNotes T9	That's McCarthyism, you have no idea what Marxism really is.
+R1	related Arg1:T6 Arg2:T5	

@@ -8,3 +8,8 @@ T5	CounterNarrativeA 211 212	e
 #1	AnnotatorNotes T5	Why should I do anything for a xenophobe like him?
 T6	CounterNarrativeC 210 211	h
 #2	AnnotatorNotes T6	Are you so fanatical about a president, just because he hates immigrants? What a xenophobe
+T7	Collective 117 124	Islamic
+T8	Property 109 134	radical Islamic terrorism
+R1	related Arg1:T4 Arg2:T3	
+T9	CounterNarrativeB 209 210	T
+#3	AnnotatorNotes T9	You do know that not all Islamists are radical terrorists, right? Or are you so xenophobic to really believe that?

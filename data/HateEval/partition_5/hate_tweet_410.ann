@@ -14,3 +14,4 @@ T9	CounterNarrativeB 1 2	C
 #3	AnnotatorNotes T9	Nobody is chasing you. Especially refugees, who have too many problems to worry about you.
 T10	CounterNarrativeC 2 3	P
 #1	AnnotatorNotes T10	Please, were they watching ALL of them? They don't "lose" anyone, they just want to show their xenophobia
+R1	related Arg1:T7 Arg2:T6	

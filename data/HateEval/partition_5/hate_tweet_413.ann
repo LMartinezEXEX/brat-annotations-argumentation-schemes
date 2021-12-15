@@ -12,3 +12,6 @@ T8	CounterNarrativeB 298 299	A
 #1	AnnotatorNotes T8	If by crime you mean war, yes, they are fleeing from it, especially the children. Wouldn't you?
 T9	CounterNarrativeC 297 298	h
 #2	AnnotatorNotes T9	Where do you get that refugees are all criminals? Stop making things up to justify your xenophobia.
+R1	related Arg1:T7 Arg2:T6	
+T10	CounterNarrativeA 300 301	x
+#3	AnnotatorNotes T10	Political means living in a community. All religious are political. Why would that make only Muslims dangerous?  They are not so different from Christians, you know.

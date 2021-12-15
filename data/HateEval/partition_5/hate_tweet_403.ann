@@ -12,3 +12,4 @@ T8	CounterNarrativeB 147 148	a
 #2	AnnotatorNotes T8	You know that not all Muslims are like that. On the other hand, every day some crazy Christian does the same thing, are you going to complain about that too, or are you only bothered by Muslims?
 T9	CounterNarrativeC 146 147	r
 #3	AnnotatorNotes T9	How do you know he did it for that reason? Maybe he's just crazy, and that he's a Muslim could be a mere coincidence.
+R1	related Arg1:T4 Arg2:T3	

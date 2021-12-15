@@ -12,3 +12,4 @@ T8	CounterNarrativeB 275 276	k
 #2	AnnotatorNotes T8	You know that not all Africans are deplorable, right? I mean, you know that, at some point, we all come from Africa. 
 T9	CounterNarrativeC 274 275	8
 #3	AnnotatorNotes T9	We live well thanks to everything we stole from them.  We can let some of them come and make a living.
+R1	related Arg1:T5 Arg2:T6	

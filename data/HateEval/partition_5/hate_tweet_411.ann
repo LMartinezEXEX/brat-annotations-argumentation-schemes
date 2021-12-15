@@ -12,3 +12,4 @@ T8	CounterNarrativeB 253 254	T
 #2	AnnotatorNotes T8	How can the "losers" corrupt our society? I mean, if they lose, then they don't rule.
 T9	CounterNarrativeC 250 251	S
 #3	AnnotatorNotes T9	It can't be that hard. You just have to choose the politician who expresses your political ideas. If you lose, maybe it's because the country doesn't agree with you. The Democracy.
+R1	related Arg1:T6 Arg2:T5	

@@ -1,5 +1,3 @@
-T2	Authority 0 13	South Koreans
-T4	Collective 28 47	Islamic Immigration
 T1	Premise1Conclusion 14 47	Stand Against Islamic Immigration
 T3	Premise2Justification 0 47	South Koreans Stand Against Islamic Immigration
 R3	secondOrder Arg1:T1 Arg2:T3	

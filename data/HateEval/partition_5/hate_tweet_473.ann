@@ -6,3 +6,6 @@ T1	pivot 46 51	White
 T4	pivot 153 158	White
 T5	CounterNarrativeA 0 1	h
 #1	AnnotatorNotes T5	A couple of people who happened to be white were denied entry, and automatically it's a scandal. If they cared that much about the real injustices....
+R1	related Arg1:T4 Arg2:T1	
+T6	CounterNarrativeC 3 4	p
+#2	AnnotatorNotes T6	Why shouldn't white South Africans go to America? Nothing forbids it, as far as I know...

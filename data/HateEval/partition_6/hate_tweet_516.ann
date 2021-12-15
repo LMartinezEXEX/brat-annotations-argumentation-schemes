@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 48	Lots of Proud Veterans would lend a hand as well
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 50 64	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 0 1	L
+#1	AnnotatorNotes T3	That many people help is not a good reason to do something. There are economic and ethical aspects to consider
+T4	CounterNarrativeC 1 2	o
+#2	AnnotatorNotes T4	And many are against it, but only the half that agree with you matter, right?         
