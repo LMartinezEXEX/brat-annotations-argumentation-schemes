@@ -13,3 +13,5 @@ T8	CounterNarrativeA 241 242	/
 T4	Collective 89 99	immigrants
 T9	CounterNarrativeB 243 244	5
 #2	AnnotatorNotes T9	Well, I need to see the statistics that support that idea... In the meantime, it's just a rumor
+T10	CounterNarrativeC 244 245	F
+#3	AnnotatorNotes T10	I understand that the parties have a responsibility to their voters, but when the voters are convinced of a lie, it is a different matter...

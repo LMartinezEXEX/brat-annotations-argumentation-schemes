@@ -1,6 +1,3 @@
-T8	Collective 148 162	latin migrants
-T9	Collective 89 104	muslim migrants
-T10	Collective 37 53	African Migrants
 T1	Premise1Conclusion 162 210	But white countries are suppose to accept them??
 T2	Premise2Justification 0 162	Rich African Countries don't take in African MigrantsRich muslim countries don't take in muslim migrantsRich latin american countries don't take it latin migrants
 A1	QuadrantType T2 fact
