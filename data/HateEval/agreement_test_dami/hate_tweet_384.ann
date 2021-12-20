@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 85	A #multibillion-dollarcriminalnetwork is being fueled by inadequate refugee policies,
+T2	Premise2Justification 0 98	A #multibillion-dollarcriminalnetwork is being fueled by inadequate refugee policies, experts say.
+T3	Collective 68 75	refugee
+T4	Property 3 37	multibillion-dollarcriminalnetwork
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact

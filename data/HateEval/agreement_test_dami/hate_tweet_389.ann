@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 74 147	Please shut them down & arrest/prosecute all criminal Governors & Mayors.
+T3	Premise2Justification 36 72	Sanctuary Cities are against the Law
+T4	Collective 36 52	Sanctuary Cities
+T5	Property 57 72	against the Law
+T6	pivot 36 52	Sanctuary Cities
+T7	pivot 191 206	SanctuaryCities
+A1	QuadrantType T3 fact
+A2	QuadrantType T1 policy

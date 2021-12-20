@@ -1,0 +1,7 @@
+T1	Premise1Conclusion 86 140	Of course the vote is for nothing,in reality maybe too
+T2	Premise2Justification 0 85	In Germany refugees can vote just for fun in separte electionplaces to learn to vote.
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	pivot 24 28	vote
+T4	pivot 100 104	vote
+R1	related Arg1:T4 Arg2:T3	

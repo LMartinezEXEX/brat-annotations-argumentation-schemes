@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 206	Certain immigrant groups create the same problems wherever they go, London, New York or Melbourne, yet we are told we are all the same, race doesn't matter &amp; millions of them won't change our societies.
+T2	Premise1Conclusion 208 284	Apart from anything else we are being asked to suspend our belief in reality
+T3	Collective 8 24	immigrant groups
+T4	Property 25 66	create the same problems wherever they go
+T5	CounterNarrativeB 203 204	e
+#1	AnnotatorNotes T5	What kind of "problems" are you referring to? People cause problems, whether they are immigrants or not....
+T6	CounterNarrativeC 202 203	i
+#2	AnnotatorNotes T6	ndeed, "race" does not matter. Problems are everywhere, with or without them. Besides, you can't expect that society "doesn't change"... Time goes on
+T7	CounterNarrativeA 200 201	e
+#3	AnnotatorNotes T7	If it is a belief, it may not be reality. Try to put aside your xenophobia, you might be surprised...

@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 17 131	The increase of gun ownership has led to an overall decrease in homicides. And increasing intolerance towards who?
+T2	Premise2Justification 132 255	People smugglers? Drug cartel members? People who cheat the system essentially flip the bird to legal immigrants waiting in
+T3	Collective 234 244	immigrants
+T4	Property 182 198	cheat the system
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact

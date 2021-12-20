@@ -7,3 +7,5 @@ T4	pivot 106 118	BuildTheWall
 R1	related Arg1:T3 Arg2:T4	
 T5	CounterNarrativeA 0 2	@r
 #1	AnnotatorNotes T5	Just because someone agrees with your idea doesn't make it a good idea.
+T6	CounterNarrativeC 3 4	a
+#2	AnnotatorNotes T6	Terrible idea. The army should be fighting criminals and terrorists, not an entire neighboring country.
