@@ -15,7 +15,7 @@ aI0
 aI0
 aI12
 aa(lp5
-I0
+I1
 aI0
 aI0
 aI0
@@ -205,7 +205,7 @@ aI0
 aI0
 aI0
 aa(lp43
-I0
+I1
 aI0
 aI0
 aI0
@@ -235,10 +235,10 @@ aI0
 aI0
 aI0
 aa(lp49
-I0
+I6
+aI1
 aI0
-aI0
-aI0
+aI4
 aa(lp50
 I9
 aI1
@@ -420,7 +420,7 @@ aI0
 aI0
 aI0
 aa(lp86
-I0
+I4
 aI0
 aI0
 aI0
@@ -440,10 +440,10 @@ aI0
 aI0
 aI0
 aa(lp90
-I0
+I7
 aI0
 aI0
-aI0
+aI10
 aa(lp91
 I11
 aI2

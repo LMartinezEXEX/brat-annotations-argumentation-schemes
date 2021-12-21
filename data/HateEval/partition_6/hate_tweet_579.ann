@@ -1,0 +1,8 @@
+T1	Premise2Justification 90 198	O'Puppet on the other hand threatened to cancel a speech if the fee $$ amt was disclosed to the public. SAD.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 13 88	The first person (Trump) to pack a stadium & not get paid for it. Priceless
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 1 2	P
+#1	AnnotatorNotes T3	The fact that someone does something for free and someone else charges for the same thing does not make one good or the other bad. They are simply different situations.
+T4	CounterNarrativeC 2 3	e
+#2	AnnotatorNotes T4	On what basis do you say someone threatened whom? Where are your sources? Sounds like propaganda
