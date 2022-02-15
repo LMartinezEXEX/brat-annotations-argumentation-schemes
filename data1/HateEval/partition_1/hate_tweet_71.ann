@@ -1,8 +1,0 @@
-T1	NegativeConsequences 0 278	How long will it take for Cinco de Mayo to become a national holiday and the 4th of July to become a day of mournful remembrance?#ImmigrationInvasion #StopTheGreatReplacement #StopTheInvasion #Immigration #SecureTheBorder #NoDACA #NoAmnesty #BuildTheWall #RedWave #RedWaveRising
-E1	NegativeConsequences:T1 
-T2	Consequence 26 128	Cinco de Mayo to become a national holiday and the 4th of July to become a day of mournful remembrance
-T3	Action 130 149	ImmigrationInvasion
-T4	Action 151 174	StopTheGreatReplacement
-T5	Action 176 191	StopTheInvasion
-T6	Action 206 221	SecureTheBorder
-T7	Collective 26 39	Cinco de Mayo

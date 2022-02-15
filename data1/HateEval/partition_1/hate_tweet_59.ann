@@ -1,5 +1,0 @@
-T1	FearAndDanger 0 121	@RepJayapal Families should not bring their kids into a country illegally, would you?  We can’t afford them #sendthemhome
-E1	FearAndDanger:T1 Collective:T2 Property:T3 Action:T4
-T2	Collective 12 20	Families
-T3	Property 21 73	should not bring their kids into a country illegally
-T4	Action 87 107	We can’t afford them

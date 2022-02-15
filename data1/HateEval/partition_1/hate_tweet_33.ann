@@ -1,4 +1,0 @@
-T1	SignScheme 0 203	@louisbeamerboy Good one! “The government predicts that in 2030, immigration will overtake new births as the dominant driver of population growth.” PREDICTS = causes by failure to stop. #BuildTheDamnWall
-E1	SignScheme:T1 VerifiableFact:T2 Collective:T3
-T2	VerifiableFact 26 147	“The government predicts that in 2030, immigration will overtake new births as the dominant driver of population growth.”
-T3	Collective 65 76	immigration

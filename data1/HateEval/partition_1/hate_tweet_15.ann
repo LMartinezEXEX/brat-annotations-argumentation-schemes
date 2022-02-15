@@ -1,6 +1,0 @@
-T1	NegativeConsequences 0 145	@ArvindKejriwal Pl save Delhi from becoming a SLUM CITY&amp;hub of illegal migrants.Pl take LG help in removing encroachments&amp;eviction of IMs
-E1	NegativeConsequences:T1 Action:T4 Action2:T2 Consequence:T3 Collective:T5
-T2	Action 103 125	removing encroachments
-T3	Consequence 35 83	becoming a SLUM CITY&amp;hub of illegal migrants
-T4	Action 19 29	save Delhi
-T5	Collective 67 83	illegal migrants
