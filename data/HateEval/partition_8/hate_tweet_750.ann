@@ -1,0 +1,6 @@
+T1	Premise2Justification 137 194	you make Forrest Gump look like Einstein compared to you!
+T2	Premise1Conclusion 93 136	@ChelseaClinton please stay out of politics
+A1	QuadrantType T2 policy
+A2	QuadrantType T1 fact
+T3	CounterNarrativeC 292 293	o
+#1	AnnotatorNotes T3	You use "Forest Gump" as an insult. You didn't understand the movie, huh?

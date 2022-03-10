@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 78 167	Get the hell out of our country! #DeportThemAll #DeportImmediately #buildthatwall #GetOut
+T2	Premise2Justification 168 229	Wife of undocumented Mexican dad blames Trump for his suicide
+T3	Premise2Justification 0 76	No, bi*ch. You killed him by coming here illegally! You both made the choice
+T4	Collective 168 196	Wife of undocumented Mexican
+T5	Property 15 25	killed him
+A1	QuadrantType T3 fact
+A2	QuadrantType T2 fact
+A3	QuadrantType T1 policy

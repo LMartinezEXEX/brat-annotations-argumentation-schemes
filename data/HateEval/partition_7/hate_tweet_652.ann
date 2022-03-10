@@ -1,0 +1,13 @@
+T1	Premise2Justification 9 126	Can you think of a place that has been improved by mass immigration or the movements of large numbers of refugees?”  
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 127 245	“Not one...the immigration policies in Europe are a disaster, you’re destroying Europe, you’re destroying the cultureâ
+A2	QuadrantType T2 fact
+T3	pivot 65 76	immigration
+T4	pivot 142 153	immigration
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 125 126	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+#1	AnnotatorNotes T5	Just because something hasn't happened yet doesn't mean it can't happen....
+T6	CounterNarrativeC 123 124	”
+#2	AnnotatorNotes T6	Um... maybe, all the countries of the American continent?
+T7	Collective 114 122	refugees
+T8	Property 196 213	destroying Europe

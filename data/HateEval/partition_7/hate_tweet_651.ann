@@ -1,0 +1,8 @@
+T1	Premise2Justification 28 140	A frame trailer with patriotic sound system on the road in and around our capital city. "SAY NO TO IMMIGRATION."
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 116 140	"SAY NO TO IMMIGRATION."
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 190 191	l
+#1	AnnotatorNotes T3	Just because some guy with a truck and a sound system said so? No sir...
+T4	CounterNarrativeC 192 193	n
+#2	AnnotatorNotes T4	A frame trailer, financed by whom, and driven by whom? Let's stop presenting the events as innocent and spontaneous.

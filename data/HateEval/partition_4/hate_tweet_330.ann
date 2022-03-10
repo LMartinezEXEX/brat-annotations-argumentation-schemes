@@ -1,0 +1,8 @@
+T1	Premise2Justification 7 109	Hundreds Irish people took to the streets to protest against Islam and call to ban Islamic immigration
+T2	Premise1Conclusion 29 109	took to the streets to protest against Islam and call to ban Islamic immigration
+A1	QuadrantType T2 policy
+A2	QuadrantType T1 fact
+T3	CounterNarrativeA 112 113	F
+#1	AnnotatorNotes T3	Unluckily there are xenofobous jerks all around the globe
+T4	CounterNarrativeC 117 118	S
+#2	AnnotatorNotes T4	I don't think the source of that news is reliable

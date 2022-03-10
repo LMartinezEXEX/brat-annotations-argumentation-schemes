@@ -1,0 +1,4 @@
+T1	Premise2Justification 64 120	We cannot sustain this and still try to #Help the #World
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 62;126 148	Wake up #America! ! We are currently giving our #Country away! Stopillegalimmigration
+A2	QuadrantType T2 policy

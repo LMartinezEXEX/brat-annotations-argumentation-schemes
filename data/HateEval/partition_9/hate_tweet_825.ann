@@ -1,0 +1,5 @@
+T1	Premise2Justification 14 199	you and your party have lost touch with ordinary people in the Uk ignoring Parliments vote is one thing losing the NHS confidence is a no go ignoring our front line staff pleas on Pay ,
+T2	Premise1Conclusion 199 279	conditions and funding and cuts will make you pay Immigration has costs us much"
+A1	QuadrantType T2 fact
+T3	Collective 249 260	Immigration
+T4	Property 261 278	has costs us much

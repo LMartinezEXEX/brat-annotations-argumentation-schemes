@@ -1,0 +1,4 @@
+T1	Premise2Justification 29 115	Who cares what people say or think. There are getting destroyed just to show tolerance
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 27;117 130	Sweden needs to clean house #sendthemback
+A2	QuadrantType T2 policy

@@ -1,0 +1,9 @@
+T1	Premise2Justification 185 221	We Dont owe Illegals our tax dollars
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 17 184	The Disgrace is the Illegal Parent who brought their kids on their cirme spree to illegally invade the U.S so Taxpayers pay for their kids education WIC, and Medicaid!
+A2	QuadrantType T2 fact
+T3	Collective 37 51	Illegal Parent
+T4	Property 56 183	brought their kids on their cirme spree to illegally invade the U.S so Taxpayers pay for their kids education WIC, and Medicaid
+T5	pivot 127 136	Taxpayers
+T6	pivot 210 221	tax dollars
+R1	related Arg1:T5 Arg2:T6	

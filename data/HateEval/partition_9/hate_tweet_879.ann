@@ -1,0 +1,6 @@
+T1	Premise2Justification 28 268	My fiancee is in Italy right now visiting family. She told me that she feels heartbroken and very uncomfortable because of the immigrants. They stare at all the women there like they want to hurt them and they Italian military is everywhere
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 270 283	#sendthemback
+A2	QuadrantType T2 policy
+T3	Collective 155 165	immigrants
+T4	Property 167 228	They stare at all the women there like they want to hurt them

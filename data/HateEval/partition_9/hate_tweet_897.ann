@@ -1,0 +1,13 @@
+T1	Premise2Justification 0 119	"It is pretty simple equation. Once fake SSN is obtained, nothing stops illegals from voting ( or applying for welfare)
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 121 139	Country-wide fraud
+A2	QuadrantType T2 fact
+T3	Premise1Conclusion 141 226	So sick of millions of criminals taking advantage of Americans in each and every way.
+A3	QuadrantType T3 value
+T4	Premise1Conclusion 227 240	#SendThemBack
+A4	QuadrantType T4 policy
+T5	Collective 72 80	illegals
+T6	Property 164 203	criminals taking advantage of Americans
+T7	pivot 36 40	fake
+T8	pivot 134 139	fraud
+R1	related Arg1:T7 Arg2:T8	

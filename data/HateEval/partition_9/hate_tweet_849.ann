@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 145 255	Well now you got to let their parents in too -- so they too can help destroy the local peoples life's. #InSane
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 143	#IllegalImmigrants #OpenBorders oh yes we can see its all about the little helpless children. These poor babies are all on a boat by themselves
+A2	QuadrantType T2 fact
+T3	Collective 1 18	IllegalImmigrants
+T4	Property 214 246	destroy the local peoples life's
+T5	pivot 84 92	children
+T6	pivot 175 182	parents
+R1	related Arg1:T5 Arg2:T6	

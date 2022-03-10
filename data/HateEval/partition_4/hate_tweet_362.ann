@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 0 84	#SendThemBack! Send the #AsylumSeekers Back to Their Originating Country, Not Italy.
+T2	Premise2Justification 85 162	Migrants Will Feel Most Welcome Culturally in The Country of Their Birthplace
+T3	CounterNarrativeA 224 225	n
+#1	AnnotatorNotes T3	They are seeking asylum. That means they are not going to feel welcome in the country of their birthplace, they are escaping that place.
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+T4	CounterNarrativeC 213 214	@
+#2	AnnotatorNotes T4	Are they going to feel welcome in they country of birthplace? You seem to know what they want better than them, why did they leave in the first place then?
+T5	pivot 53 72	Originating Country
+T6	pivot 135 162	Country of Their Birthplace

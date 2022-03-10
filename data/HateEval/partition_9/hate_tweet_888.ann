@@ -1,0 +1,7 @@
+T1	Premise2Justification 1 100	@RepJoeKennedy Hes wanted for murder but who exactly was paying for their medical bills? #taxpayers
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 101 166	Yet, funds to support tax payers is running out!!!! #sendthemback
+A2	QuadrantType T2 policy
+T3	pivot 91 100	taxpayers
+T4	pivot 123 133	tax payers
+R1	related Arg1:T3 Arg2:T4	

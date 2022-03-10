@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 0 38	"""Please don't call it """"rescue""""
+A1	QuadrantType T1 policy
+T2	Premise2Justification 41 63	it's human trafficking
+A2	QuadrantType T2 fact

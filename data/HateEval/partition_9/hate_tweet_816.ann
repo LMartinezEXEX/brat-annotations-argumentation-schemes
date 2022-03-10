@@ -1,0 +1,4 @@
+T1	Premise2Justification 10 86	.Not to more efficiently judge who enters but to streamline the exit process
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 88 186	We need #BuildThatWall to adjudicate the former and still more #ICE agents to expedite the latter.
+A2	QuadrantType T2 policy

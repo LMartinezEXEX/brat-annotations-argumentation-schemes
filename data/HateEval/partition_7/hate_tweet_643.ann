@@ -1,0 +1,10 @@
+T1	Premise2Justification 17 244	@TuckerCarlson in an interview with @AnnCoulter:"President Trump doesn't need Congress to Build The Wall.We are being invaded by a foreign country; defending our Borders is the # 1 job of the Commander-In-Chief, use DOD funds."
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 65 244	"President Trump doesn't need Congress to Build The Wall.We are being invaded by a foreign country; defending our Borders is the # 1 job of the Commander-In-Chief, use DOD funds."
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 253 254	O
+#1	AnnotatorNotes T3	Ok, let's do anything stupid, just because somebody says so? By the way... who?
+T4	CounterNarrativeC 251 252	@
+#2	AnnotatorNotes T4	He is no one important enough to take his opinion into account. It has no relevance in the matter...
+T5	Collective 148 155	foreign
+T6	Property 129 145	being invaded by

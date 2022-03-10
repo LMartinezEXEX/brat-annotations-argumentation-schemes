@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 106 122	#StopTheInvasion
+T2	Premise2Justification 0 93	Poland: Why don't Qatar and Saudi Arabia take Muslim refugees? This isn't a European problem!
+T3	Collective 53 61	refugees
+T4	Property 68 92	isn't a European problem
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact

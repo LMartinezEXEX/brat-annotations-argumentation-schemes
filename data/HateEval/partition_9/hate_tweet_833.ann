@@ -1,0 +1,9 @@
+T1	Premise2Justification 139 205	If they're here illegally, they broke U.S. law and need to go back
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 14 137	ICE doing it's job. And stop obfuscating the immigration issue by conflating the terms ""immigrant"" with ""illegal alien""
+A2	QuadrantType T2 policy
+T3	Collective 130 136	alien"
+T4	Property 166 185	they broke U.S. law
+T5	pivot 122 129	illegal
+T6	pivot 155 164	illegally
+R1	related Arg1:T5 Arg2:T6	

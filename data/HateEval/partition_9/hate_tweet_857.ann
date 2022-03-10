@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 65	"""Trudeau's """"refugees"""" bring mayhem to hotel migrant camps
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 66 197	Brainless Trudeau + Migrants in Canada = Rapefugees just like England Germany n Sweden!! Specially against children n young teens!!
+A2	QuadrantType T2 fact
+T3	Collective 86 94	Migrants
+T4	Property 36 42	mayhem
+T5	Property 107 111	Rape
+T6	pivot 17 25	refugees
+T7	pivot 86 94	Migrants
+R1	related Arg1:T6 Arg2:T7	

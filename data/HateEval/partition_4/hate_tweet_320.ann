@@ -1,0 +1,14 @@
+T1	Premise1Conclusion 28 69	Under AAP rule,Delhi fast becoming a slum
+T2	Premise2Justification 70 163	Record influx of illegal migrants.Filth all around in his favorite community colonies.See NZM
+T3	Collective 87 103	illegal migrants
+T4	Property 104 109	Filth
+T5	pivot 104 109	Filth
+T6	pivot 65 69	slum
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T7	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T7	The only thing making Delhi a slum are xenophobous racist like you
+T8	CounterNarrativeB 2 3	N
+#2	AnnotatorNotes T8	Migrants are not filthy. Filthy is your xenophobous speech full of hate and predjudice
+T9	CounterNarrativeA 3 4	a
+#3	AnnotatorNotes T9	 I think you are exagerating to make migrants look bad. You are just a xenophobous troll

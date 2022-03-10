@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 157	People in India be worried like where would those 40lakhs immigrants go. But what bout those indigenous people whose communities doesn’t even reach 40 lakhs.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 158 269	Think for those Indians living in Assam. If you care so much for immigrats, you can take them home in your town
+A2	QuadrantType T2 policy
+T3	pivot 10 15	India
+T5	pivot 174 181	Indians
+R1	related Arg1:T3 Arg2:T5	
+T4	CounterNarrativeA 275 276	s
+#1	AnnotatorNotes T4	I don't understand why you would have to choose between one or another. The world is not a competition, and both can be helped.
+T6	CounterNarrativeC 277 278	a
+#2	AnnotatorNotes T6	Take it easy. People in India care about what they care about, not what you tell them they should care about....

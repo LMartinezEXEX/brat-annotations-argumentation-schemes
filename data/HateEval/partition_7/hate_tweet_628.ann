@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 30	Canada is an immigrant country
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 31 72	Don't change it to refugee country please
+A2	QuadrantType T2 policy
+T3	pivot 58 65	country
+T4	pivot 23 30	country
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 70 71	s
+#1	AnnotatorNotes T5	What is the real difference? That one comes from a country at war and the other does not...? How much could that "change" Canada?
+T6	CounterNarrativeC 71 72	e
+#2	AnnotatorNotes T6	It is a country and that's it. Why put so much effort in labeling people?

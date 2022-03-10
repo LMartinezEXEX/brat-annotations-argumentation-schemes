@@ -1,0 +1,6 @@
+T1	Premise2Justification 40 186	If the immigrant is undocumented, or illegal, then he broke the Law. Therefore, he can not stay in any country where the Law has to be respected."
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 39	"I do not understand the minds of some.
+A2	QuadrantType T2 value
+T3	Collective 47 56	immigrant
+T4	Property 94 108	broke the Law.

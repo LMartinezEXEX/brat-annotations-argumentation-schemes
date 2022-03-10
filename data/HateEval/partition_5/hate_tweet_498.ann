@@ -9,3 +9,5 @@ T5	CounterNarrativeA 232 233	p
 R1	related Arg1:T4 Arg2:T3	
 T6	CounterNarrativeC 230 231	7
 #2	AnnotatorNotes T6	In fact, if the law contemplates what to do with them, then they are not "legally unpresent". So maybe it's time to revisit the law. 
+T7	Collective 32 54	undocumented immigrant
+T8	Property 132 187	unlawfully present in the United States (i.e., illegal)

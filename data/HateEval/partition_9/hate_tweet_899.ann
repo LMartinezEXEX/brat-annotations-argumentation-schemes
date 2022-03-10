@@ -1,0 +1,9 @@
+T1	Premise2Justification 47 100	Migrant crime statistics the EU wants to keep secret.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 143 195	#StopIslam #stopimmigration #stopmigrants #SaveEurop
+A2	QuadrantType T2 policy
+T3	Collective 47 54	Migrant
+T4	Property 55 60	crime
+T5	pivot 176 184	migrants
+T6	pivot 47 54	Migrant
+R1	related Arg1:T6 Arg2:T5	

@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 187 276	Europe have to know that it will destroyed if to much refugees will enter their territory
+T2	Premise2Justification 0 185	These funny guys of Austria arent able to stop the imigration of refugees to Austria.(welfare) Italia - Hungary are more strict to bring all refugees home or concentrate them into camps
+T3	pivot 241 249	refugees
+T4	pivot 65 73	refugees
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy
+T5	CounterNarrativeA 289 290	o
+#1	AnnotatorNotes T5	Italy and Hungary don't seem to be less destroyed than Austria so I don't think that refugees are a possible cause of destruction of Europe
+T6	CounterNarrativeC 278 279	h
+#2	AnnotatorNotes T6	You seem to assume that the goal of every country is to stop refugees from going there. Refugees go wherever they can, they are escaping. Trying to get rid of them is cruel and inhuman

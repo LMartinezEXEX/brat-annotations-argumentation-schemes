@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 162 269	Indirect support of illegal migration must end or others must impose sanctions on Serbia to adjust attitude
+T2	Premise2Justification 0 161	Iranians either entered via Greece or Serbia, which recklessly grants visas to Iranians.  Some Iranians now fly into SerbiaðŸ‘‰then leave for richer state in EU.
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy
+T3	pivot 38 44	Serbia
+T4	pivot 244 250	Serbia
+T5	CounterNarrativeA 270 271	@
+#1	AnnotatorNotes T5	You want to sanction other states because they don't follow the immigration policy you would like them to follow? You should respect democracy and the right to autodetermination a little more
+T6	CounterNarrativeC 271 272	e
+#2	AnnotatorNotes T6	Do you have any proof for any of these conspiranoia? 

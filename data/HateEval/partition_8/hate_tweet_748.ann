@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 60	Hungary Referendum: 98% of voters reject Islamic immigration
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 63 83	Muslims are offended
+A2	QuadrantType T2 fact
+T3	pivot 41 48	Islamic
+T4	pivot 63 70	Muslims
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 129 130	@
+#1	AnnotatorNotes T5	I would also be offended if I were deprived of my right to emigrate.... Even more so if I were discriminated because of my religion.
+T6	CounterNarrativeC 131 132	S
+#2	AnnotatorNotes T6	98 according to whom? I don't think you can really trust those numbers....

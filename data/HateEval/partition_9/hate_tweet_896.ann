@@ -1,0 +1,4 @@
+T1	Premise2Justification 30 282	The Democrats don't want to fix immigration because they look at immigrants as Democratic votes. The Republicans don't want to fix immigration because #1 They are spineless #2 They are afraid that the communist #DNC will accuse them of being heartless.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 283 296	#SendThemBack
+A2	QuadrantType T2 policy

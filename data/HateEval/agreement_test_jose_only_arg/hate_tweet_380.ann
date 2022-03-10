@@ -3,7 +3,7 @@ A1	QuadrantType T1 value
 T2	Premise1Conclusion 95 109	#BuildThatWall
 A2	QuadrantType T2 policy
 T3	Collective 44 52	illegals
-T4	Property 37 55	damage illegals do
+T4	Property 37 43	damage
 T5	CounterNarrativeA 90 91	e
 #1	AnnotatorNotes T5	We should not be guided only by money. There are many things that are economically profitable, yet wrong, like drugs.
 T6	CounterNarrativeB 91 92	t

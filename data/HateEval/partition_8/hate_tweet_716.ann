@@ -1,0 +1,10 @@
+T1	Premise2Justification 103 135	we need leaders not sheep listen
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 15 100	Europe ,Commonwealth Get out now less immigration ask the NHS Schools Housing , crime
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	Being a good leader and not letting in immigrants don't really seem to have much of a relationship...
+T4	CounterNarrativeC 2 3	a
+#2	AnnotatorNotes T4	If by "leaders" you mean people who do what YOU want, then I'm sorry buddy, but that's not how democracy works....
+T5	Collective 53 64	immigration
+T6	Property 95 100	crime

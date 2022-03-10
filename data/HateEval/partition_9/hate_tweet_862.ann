@@ -1,0 +1,7 @@
+T1	Premise2Justification 0 149	A LARGE group (100+) of out-of-control African youths have hurled a number of rocks and damaged a police car during a rampage in Melbournes northwest
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 150 219	Thank you @amandavanstone for importing this rubbish into our country
+A2	QuadrantType T2 fact
+T3	Collective 39 46	African
+T4	Property 24 38	out-of-control
+T5	Property 88 108	damaged a police car

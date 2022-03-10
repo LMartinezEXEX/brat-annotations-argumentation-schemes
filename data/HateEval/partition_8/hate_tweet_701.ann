@@ -1,0 +1,12 @@
+T1	Premise2Justification 115 280	Their home country problems are theirs. Let them deal with it. Myanmar can't pretend to be a Nobel Peace prizewinning country if it can't handle its internal issues.
+T2	Premise1Conclusion 0 114	All countries are taking steps to prevent illegal immigration. India too shd send back Rohingyas and Bangladeshis.
+A1	QuadrantType T2 fact
+T3	pivot 50 61	immigration
+T4	pivot 121 133	home country
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 301 302	g
+#1	AnnotatorNotes T5	That most countries approach the problem in this way does not make it right. In fact, in many cases we see that it doesn't even really work....
+T6	CounterNarrativeC 300 301	5
+#2	AnnotatorNotes T6	And pretending that nothing bad is happening in the world, even knowing that we can help? no thanks...
+T7	Collective 42 61	illegal immigration
+T8	Property 121 142	home country problems

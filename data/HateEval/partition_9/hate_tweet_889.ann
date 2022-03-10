@@ -1,0 +1,6 @@
+T1	Premise2Justification 46 226	It may have to do with plain honest speech. So many politicians have the """"political speech"""" bug. Theyre accustomed to stating what people want to hear & not what they need to
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 229 332	Like saying it is #Fucktarded to believe the mass #Refugee/#Rapefugee immigration was good is idiodic""
+A2	QuadrantType T2 fact
+T3	Collective 280 287	Refugee
+T4	Property 289 298	Rapefugee

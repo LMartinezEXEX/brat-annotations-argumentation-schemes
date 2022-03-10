@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 140 217	not solvable by forced mass immigration The debt ratio will be 200 percent by
+T2	Premise2Justification 0 137	Italy is the world’s 9th economy and is on a trajectory that in the long run will end in an economic implosion due to demographic decline
+T3	Collective 163 179	mass immigration
+T4	Property 184 194	debt ratio
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

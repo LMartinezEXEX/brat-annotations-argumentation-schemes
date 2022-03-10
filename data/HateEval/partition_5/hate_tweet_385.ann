@@ -9,3 +9,5 @@ T5	CounterNarrativeA 0 1	@
 #1	AnnotatorNotes T5	A survey, or an explanation of why a given decision would be best, is a good argument. "The people want/do not want" is not.
 T6	CounterNarrativeC 1 2	D
 #2	AnnotatorNotes T6	Who exactly are these "people" who don't want more refugees? Your xenophobic friends at the bar?
+T7	Property 85 108	people do not want more
+T8	Collective 109 117	refugees

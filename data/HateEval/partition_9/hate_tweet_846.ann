@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 19	This is outrageous!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 21 43	StopIllegalImmigration
+A2	QuadrantType T2 policy

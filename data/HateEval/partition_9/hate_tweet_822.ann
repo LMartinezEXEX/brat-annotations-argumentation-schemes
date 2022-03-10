@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 43 134	any action against ISIS ,should be welcomed after that start talking, No more migrants then
+A1	QuadrantType T1 policy
+T2	Premise2Justification 1 42	Russia is building up its forces in Syria
+A2	QuadrantType T2 fact
+T3	Collective 121 129	migrants
+T4	Property 62 66	ISIS

@@ -1,5 +1,5 @@
 T1	Premise2Justification 0 93	Pretty sure the money saved from the damage illegals do will more then compensate our budget.
-A1	QuadrantType T1 value
+A1	QuadrantType T1 fact
 T2	Premise1Conclusion 95 109	#BuildThatWall
 A2	QuadrantType T2 policy
 T3	Collective 44 52	illegals

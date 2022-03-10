@@ -1,0 +1,8 @@
+T1	Premise2Justification 23 81	Any Country that has an #OpenBorders policy is in trouble!
+T2	Premise1Conclusion 82 96	#BuildThatWall
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 131 132	t
+#1	AnnotatorNotes T3	If you are talking about trouble then I can tell you that building that wall is going to be real trouble
+T4	CounterNarrativeC 127 128	F
+#2	AnnotatorNotes T4	In trouble of becoming better countries who prioritize all people over the hate of a small group

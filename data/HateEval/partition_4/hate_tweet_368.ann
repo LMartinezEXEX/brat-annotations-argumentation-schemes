@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 102 118	#StopTheInvasion
+T2	Premise2Justification 0 76	Seven Texas mall robbery suspects are from Mexico, in the country illegally:
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy
+T3	CounterNarrativeA 98 99	n
+#1	AnnotatorNotes T3	There is no invasion to stop, you are just using this to support a xenophobous policy
+T4	Collective 43 49	Mexico
+T5	Property 12 33	mall robbery suspects
+T6	CounterNarrativeB 90 91	w
+#2	AnnotatorNotes T6	Most mexicans are decent hard working people. You are selecting the news to try to make them look like criminals
+T7	CounterNarrativeC 91 92	4
+#3	AnnotatorNotes T7	How do you know they are mexicans and how do you know they were here illegaly?

@@ -1,0 +1,7 @@
+T1	Premise2Justification 40 93	#Burning If this is the effects of #Migrant #Migrants
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 94 144	what about #IllegalImmigration Illegal Migrants ??
+A2	QuadrantType T2 fact
+T3	pivot 76 83	Migrant
+T4	pivot 133 141	Migrants
+R1	related Arg1:T3 Arg2:T4	

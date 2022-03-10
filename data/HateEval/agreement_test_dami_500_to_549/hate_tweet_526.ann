@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 33 101	Please discuss who will pay for all the services immigrants receive.
+T2	Premise2Justification 102 150	10K or more per child per year, education alone.
+T3	Premise1Conclusion 151 190	Who will pay this and everything else??
+T4	Collective 82 92	immigrants
+T5	Property 93 149	receive. 10K or more per child per year, education alone
+T6	Property 57 81	pay for all the services
+T7	pivot 160 163	pay
+T8	pivot 102 113	10K or more
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+A3	QuadrantType T3 policy

@@ -1,0 +1,13 @@
+T1	Premise2Justification 0 41	Hey jackass liberals see a wall DOES work
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 42 56	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	pivot 52 56	Wall
+T4	pivot 27 31	wall
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 54 56	ll
+#1	AnnotatorNotes T5	Just because some random guy says it works? that's not enough for me...
+T6	CounterNarrativeC 53 54	a
+#2	AnnotatorNotes T6	And how exactly does it work? What does it work for? On what data do you base your assertion that it will work when it has never worked before?
+T7	Collective 12 20	liberals
+T8	Property 4 11	jackass

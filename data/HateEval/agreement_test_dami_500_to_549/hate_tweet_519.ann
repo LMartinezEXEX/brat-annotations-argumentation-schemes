@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 191 255	If hiring immigrants puts Americans out of work, we're paying th
+T2	Premise2Justification 0 190	@AlexisinNH American taxpayers are subsidizing labor costs of American employers who hire immigrants, particularly if the employers are not paying a living wage or providing health benefits.
+T3	pivot 85 100	hire immigrants
+T4	pivot 194 211	hiring immigrants
+T5	Collective 201 211	immigrants
+T6	Property 212 238	puts Americans out of work
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

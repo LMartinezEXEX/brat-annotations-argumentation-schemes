@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 142	The illegal aliens are treated better than American children with facilities that are luxurious and the liberal socialists want to abolish ICE
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 144 158	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	Collective 12 18	aliens
+T4	Property 19 95	are treated better than American children with facilities that are luxurious
+T5	CounterNarrativeA 173 174	m
+#1	AnnotatorNotes T5	Assuming that is true, what would you change with the wall? Don't you think it would be more effective to change some internal policies, or are you just trying to get revenge?
+T6	CounterNarrativeB 172 173	u
+#2	AnnotatorNotes T6	On what basis do you claim that "Illegal aliens are treated better than American children"? I doubt all of them are having such a good time, honestly....
+T7	CounterNarrativeC 171 172	r
+#3	AnnotatorNotes T7	The fact that you do not present any evidence in this regard tells us a lot. You're making it up...

@@ -1,8 +1,7 @@
 T2	Premise1Conclusion 173 219	many are not settling and are turning to crime
-T7	Authority 63 69	Israel
 T8	Collective 92 119	young African male migrants
 A2	QuadrantType T2 fact
-T9	Premise2Justification 63 137	Israel for wanting to deport young African male migrants it maybe evidence
+T9	Premise2Justification 11 172	Listening to the world service this am criticism of Israel for wanting to deport young African male migrants it maybe evidence from Europe like France and France
 A1	QuadrantType T9 fact
 R6	firstOrder Arg1:T2 Arg2:T9	
 T1	CounterNarrativeA 253 254	e

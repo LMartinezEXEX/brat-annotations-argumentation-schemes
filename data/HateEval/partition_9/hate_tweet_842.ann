@@ -1,0 +1,7 @@
+T1	Premise2Justification 11 74	You play with ordinary poor peoples lives like a monopoly board
+T2	Premise1Conclusion 75 139	you throw the dice and people never get out of jail migrants win
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	pivot 79 93	throw the dice
+T4	pivot 15 19	play
+R1	related Arg1:T4 Arg2:T3	

@@ -3,7 +3,7 @@ A1	QuadrantType T1 fact
 T2	Premise1Conclusion 0 85	A #multibillion-dollarcriminalnetwork is being fueled by inadequate refugee policies,
 A2	QuadrantType T2 fact
 T3	Collective 68 75	refugee
-T4	Property 0 84	A #multibillion-dollarcriminalnetwork is being fueled by inadequate refugee policies
+T4	Property 2 37	#multibillion-dollarcriminalnetwork
 T5	CounterNarrativeC 145 146	U
 #1	AnnotatorNotes T5	Who exactly are these "experts"?
 T6	CounterNarrativeA 146 147	E

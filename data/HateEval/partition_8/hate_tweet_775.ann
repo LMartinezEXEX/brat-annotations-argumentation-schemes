@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 1 57	No, I am not paying for his wall. It is a waste of money
+A1	QuadrantType T1 fact
+T2	Premise2Justification 58 144	cause it will not stop illegal immigrants. Most come on a visa and just never go home.
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 160 161	i
+#1	AnnotatorNotes T3	That's right, it's not going to work. I also don't understand why we should care. Let them come...
+T4	Collective 81 100	illegal immigrants.
+T5	Property 101 143	Most come on a visa and just never go home

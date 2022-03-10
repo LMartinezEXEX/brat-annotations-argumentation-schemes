@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 125 139	#BuildThatWall
+T2	Premise1Conclusion 153 192	#ImmigrationReform#ImmigrationIsAWeapon
+T3	Premise2Justification 0 86	Remember Kate Steinle today.It is the third anniversary of her deathWe must not forget
+A1	QuadrantType T3 policy
+A2	QuadrantType T1 policy
+A3	QuadrantType T2 policy

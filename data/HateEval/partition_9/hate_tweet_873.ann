@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 107	Why am I no longer shocked when I read about the brutality of women from those that Europe attempts to help
+A1	QuadrantType T1 value
+T2	Premise1Conclusion 109 122	#sendthemback
+A2	QuadrantType T2 policy
+T3	Collective 73 107	those that Europe attempts to help
+T4	Property 49 67	brutality of women

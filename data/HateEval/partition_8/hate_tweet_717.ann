@@ -1,0 +1,6 @@
+T1	Premise2Justification 31 169	unless our own people get the same treatment complaints about being locked out and if they are returned to Afghanistan they will be killed
+A1	QuadrantType T1 policy
+T2	Premise2Justification 177 279	so what is fair about those on waiting lists for housing and NHS who are dying because they can access
+A2	QuadrantType T2 fact
+T3	Premise1Conclusion 0 27	We welcome refugees  not me
+A3	QuadrantType T3 value

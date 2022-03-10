@@ -1,0 +1,3 @@
+T1	Premise1Conclusion 50 64	#BuildThatWall
+T2	Premise2Justification 0 49	Lots of Proud Veterans would lend a hand as well!
+A1	QuadrantType T2 fact

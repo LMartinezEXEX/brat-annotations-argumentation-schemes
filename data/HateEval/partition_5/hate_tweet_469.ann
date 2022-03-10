@@ -5,3 +5,5 @@ A2	QuadrantType T2 fact
 T3	pivot 70 103	millions of migrants and refugees
 T4	pivot 231 277	the mess that is most of the African continent
 R1	related Arg1:T3 Arg2:T4	
+T5	Collective 82 103	migrants and refugees
+T6	Property 206 284	guilt in the creation of the mess that is most of the African continent today.

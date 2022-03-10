@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 110 132	we need to get out now
+T2	Premise2Justification 12 109	Cameron is a coward he attacks the poor yet again because of immigration the numbers don't add up
+T3	Collective 73 84	immigration
+T4	Property 85 109	the numbers don't add up
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy
+T5	CounterNarrativeB 1 2	N
+#1	AnnotatorNotes T5	Are you sure that the numbers don't add up just because of immigration? Do you have proofs?
+T6	CounterNarrativeA 3 4	T
+#2	AnnotatorNotes T6	Have you thought that getting out may have bigger consequences than just immigration and that it may make numbers worst?
+T7	CounterNarrativeC 5 6	T
+#3	AnnotatorNotes T7	Do you have any proof that the numbers don't add up because of immigration? I think it's just an excuse for xenophobia

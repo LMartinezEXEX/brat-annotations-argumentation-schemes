@@ -1,0 +1,9 @@
+T1	Premise2Justification 16 88	The Public Charge Rule has been part of the #Immigration laws since 1882
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 89 255	why would we admit Migrants requiring U.S Taxpayers to pay for them ? We have  poor and homless citizens that need those resources  and should come 1st  #SendThemBack
+A2	QuadrantType T2 policy
+T3	Collective 108 116	Migrants
+T4	Property 117 156	requiring U.S Taxpayers to pay for them
+T5	pivot 61 72	Immigration
+T6	pivot 108 116	Migrants
+R1	related Arg1:T5 Arg2:T6	

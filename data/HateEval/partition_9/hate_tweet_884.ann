@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 37 79	We must stop importing refugee terrorists,
+A1	QuadrantType T1 policy
+T2	Premise2Justification 80 148	we should never play Russian roulette with lives of British citizens
+A2	QuadrantType T2 policy
+T3	Collective 60 67	refugee
+T4	Property 68 78	terrorists

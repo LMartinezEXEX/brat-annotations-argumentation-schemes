@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 41 179	These boats act like a taxi service for economic migrants posing as refugees and only come to Europe to seek welfare benefits of the west?
+A1	QuadrantType T1 fact
+T2	Premise2Justification 180 248	If they were refugees why not stop at Turkey like the real refugees?
+A2	QuadrantType T2 fact
+T3	Collective 81 98	economic migrants
+T4	Property 99 178	posing as refugees and only come to Europe to seek welfare benefits of the west
+T5	pivot 193 201	refugees
+T6	pivot 109 117	refugees
+R1	related Arg1:T6 Arg2:T5	

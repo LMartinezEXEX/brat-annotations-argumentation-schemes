@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 23 73	France’s ‘˜Calais Jungle’ is now a nature preserve
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 21	With refugees evicted
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 120 121	H
+#1	AnnotatorNotes T3	If the only obstacle to make a nature reserve was immigrants, why aren't there thousands of reserves in so many uninhabited places? Sounds like an excuse to justify eviction.
+T4	CounterNarrativeC 119 120	u
+#2	AnnotatorNotes T4	Have you seen the videos of the eviction? That was so wrong...

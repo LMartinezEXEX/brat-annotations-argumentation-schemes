@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 50 84	Continue to Pray for them ðŸ™ðŸ»
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 49	Europe is being invaded by third world "refugees"
+A2	QuadrantType T2 fact
+T3	Collective 39 48	"refugees
+T4	Property 0 26	Europe is being invaded by
+T5	CounterNarrativeA 83 84	»
+#1	AnnotatorNotes T5	Should we pray for the refugees, or for the "invaded" Europeans that no one is hurting?
+T6	CounterNarrativeB 82 83	
+#2	AnnotatorNotes T6	And how exactly are these people, who are fleeing their countries with absolutely NOTHING, "invading" Europe?
+T7	CounterNarrativeC 81 82	Ÿ
+#3	AnnotatorNotes T7	Europe, being invaded? Nice movie, lol...

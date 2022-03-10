@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 185 239	Really didnt care about his Family huh ? #SendthemBack
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 184	An Illegal Alien took his own life because he decide he would break into the U.S Steal IDs and SSN to Work Illegally Robbing the U.S instead of sending for his family he killed himself
+A2	QuadrantType T2 fact
+T3	Collective 11 16	Alien
+T4	Property 62 132	break into the U.S Steal IDs and SSN to Work Illegally Robbing the U.S
+T5	pivot 156 166	his family
+T6	pivot 209 219	his Family
+R1	related Arg1:T5 Arg2:T6	

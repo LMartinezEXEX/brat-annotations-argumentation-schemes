@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 143	Whites have to assimilate to non white immigrants in homelands built for us by our ancestors but if they don't assimilate that's perfectly fine
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 144 163	This is an invasion
+A2	QuadrantType T2 fact
+T3	Collective 39 49	immigrants
+T4	Property 100 121	they don't assimilate

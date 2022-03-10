@@ -1,0 +1,7 @@
+T1	Premise2Justification 1 107	Angry that UN @Refugees does its job and checks Lebanon isn't coercing Syrian refugees into returning home
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 109 187	Lebanon will stop giving residence permits to the agency's international staff
+A2	QuadrantType T2 fact
+T3	pivot 49 56	Lebanon
+T4	pivot 109 116	Lebanon
+R1	related Arg1:T3 Arg2:T4	

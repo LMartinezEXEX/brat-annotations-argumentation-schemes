@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 0 119	Turkish government must immediately take precautions to protect it's borders and find solution for the trouble in Syria
+A1	QuadrantType T1 policy
+T2	Premise2Justification 120 221	or else Turkey will be a refugee storage in the near future and this is a big threat for our survival
+A2	QuadrantType T2 fact
+T3	pivot 128 134	Turkey
+T4	pivot 0 18	Turkish government
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 235 236	e
+#1	AnnotatorNotes T5	Wanting to protect its borders is natural. Not letting in a single refugee is xenophobic, and not at all humanitarian....
+T6	CounterNarrativeC 236 237	s
+#2	AnnotatorNotes T6	Come on... "Refugee storage" means then that there are no opportunities in this country... and we both know that this is not true...
+T7	Collective 145 152	refugee
+T8	Property 194 221	big threat for our survival

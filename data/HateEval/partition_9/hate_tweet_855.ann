@@ -1,0 +1,9 @@
+T1	Collective 5 13	Illegals
+T2	Property 31 58	Take Jobs From U.S Citizens
+T3	Premise2Justification 0 75	DACA Illegals have no Right to Take Jobs From U.S Citizens ! DACA has Ended
+A1	QuadrantType T3 fact
+T4	Premise1Conclusion 76 150	No Business wants to hire illlegals they will have to Fire in a few months
+A2	QuadrantType T4 fact
+T5	pivot 97 101	hire
+T6	pivot 31 40	Take Jobs
+R1	related Arg1:T6 Arg2:T5	

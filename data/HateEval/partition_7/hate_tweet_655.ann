@@ -1,0 +1,15 @@
+T1	Premise2Justification 110 164	2000+ women raped on New Years by migrants in Cologne?
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 38 108	Skyrocketing rapes in Sweden that correlate with increased immigration
+A2	QuadrantType T2 fact
+T3	Collective 144 152	migrants
+T4	Property 110 143	2000+ women raped on New Years by
+T5	pivot 51 56	rapes
+T6	pivot 122 127	raped
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeA 1 2	C
+#1	AnnotatorNotes T7	Are you sure that immigrants are involved in that? I mean, if you assume it, you can't conclude it, it goes against logic....
+T8	CounterNarrativeB 2 4	he
+#2	AnnotatorNotes T8	Not all migrants are rapists. Most of them have not even committed any other crime. You cannot base your argument on such a lie.
+T9	CounterNarrativeC 4 5	n
+#3	AnnotatorNotes T9	Your xenophobia is not sufficient proof of anything. On what basis do you claim that the perpetrators are immigrants?

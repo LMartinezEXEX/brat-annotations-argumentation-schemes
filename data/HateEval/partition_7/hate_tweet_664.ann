@@ -1,0 +1,14 @@
+T1	Premise2Justification 186 234	Illegals can never be good  &amp; loyal citizens
+A1	QuadrantType T1 fact
+T2	Collective 186 194	Illegals
+T3	Property 195 234	can never be good  &amp; loyal citizens
+T4	Premise1Conclusion 0 185	For Burkha it is Nuclear Science to distinguish between Immigrant who  entered a country legally complying with the country's requirement and illegal one who broke the law &amp; cheated
+T5	pivot 142 149	illegal
+T6	pivot 186 194	Illegals
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeA 236 237	t
+#1	AnnotatorNotes T7	In some cases it might be true, but you are assuming that everyone who immigrates illegally does it for fun, when most do it because they have no other choice....
+T8	CounterNarrativeB 239 240	s
+#2	AnnotatorNotes T8	You claim that immigrants can never be good citizens, but your argument is the fact that you did not recognize them as citizens. Maybe the problem is not them...
+T9	CounterNarrativeC 239 240	s
+#3	AnnotatorNotes T9	If you don't recognize their citizenship, it is obvious that they will never be loyal "citizens". You are making a pun, not a good argument.

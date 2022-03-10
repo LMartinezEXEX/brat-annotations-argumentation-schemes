@@ -1,0 +1,6 @@
+T1	Premise2Justification 25 72	Bloody disgraceful keep politics out of schools
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 73 88	#nomoremigrants
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	h
+#1	AnnotatorNotes T3	Why would it be a disgrace? Don't you think it's right to protect children?

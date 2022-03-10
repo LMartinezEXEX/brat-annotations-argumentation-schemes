@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 13 84	Time to leave the uk commonwealth and Europe that would end immigration
+T2	Premise2Justification 85 134	people do not want more refugees enough is enough
+T3	Collective 73 84	immigration
+T4	Collective 109 117	refugees
+T5	Property 85 103	people do not want
+T6	pivot 73 84	immigration
+T7	pivot 109 117	refugees
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact

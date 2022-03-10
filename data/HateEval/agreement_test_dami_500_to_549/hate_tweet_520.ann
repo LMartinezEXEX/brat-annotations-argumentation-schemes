@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 28	* New Balkan route a problem
+T2	Premise1Conclusion 31 177	Croatia ðŸ‡­ðŸ‡· is absolutely correct to tighten patrols to stop the illegal migrants from entering in an effort to reach the “rich” EU countries
+A1	QuadrantType T2 value
+A2	QuadrantType T1 fact
+T3	Collective 109 117	migrants
+T4	Property 123 177	entering in an effort to reach the “rich” EU countries

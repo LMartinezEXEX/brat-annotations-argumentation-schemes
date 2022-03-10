@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 74	55 illegal immigrants rescued from inside 100 degree tractor-trailer AGAIN
+T2	Premise1Conclusion 75 102	#BuildTheWall #SendThemBack
+T3	pivot 0 21	55 illegal immigrants
+T4	pivot 94 98	Them
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy
+T5	CounterNarrativeA 73 74	N
+#1	AnnotatorNotes T5	Doesn't this mean that they are the victims? They were rescued from inhuman conditions on which they were travelling. Why do you want to send them back to where they were escaping from?
+T6	CounterNarrativeC 71 72	A
+#2	AnnotatorNotes T6	How do you know this had happened before?

@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 22	"We are above the law"
+T2	Premise2Justification 25 71	migrants throw garbage at Rome's ancient sites
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T3	Collective 25 33	migrants
+T4	Property 34 71	throw garbage at Rome's ancient sites

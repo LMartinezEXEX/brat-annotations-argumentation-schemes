@@ -1,0 +1,10 @@
+T1	Premise2Justification 71 124	to protect USA from bad elements of illigal refugees.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 40 70	A very high wall must be build
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 33 34	C
+#1	AnnotatorNotes T3	Building a damn wall along the entire border it's probably the worst way to protect a country from crime...
+T4	CounterNarrativeC 30 31	e
+#2	AnnotatorNotes T4	Why should we protect the ENTIRE country from these people who come to look for a job and a better life? I doubt that a SINGLE individual can endanger the country.
+T5	Collective 107 123	illigal refugees
+T6	Property 91 103	bad elements

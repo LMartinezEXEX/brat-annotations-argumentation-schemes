@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 17 70	There's an agenda Jprdan:  White genocide is a crime.
+T2	Premise2Justification 71 242	EU funded report tells journalists not to write negative articles on migrant crisis'  "It even urges them to report colleagues to the authorities for 'hate speech crimes'.
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T3	Collective 140 147	migrant
+T4	Property 44 58	White genocide

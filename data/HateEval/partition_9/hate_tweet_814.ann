@@ -1,0 +1,6 @@
+T1	Premise2Justification 88 141	Once these people settle down they slowly move south.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 87	India should be tough on illegal immigration from Bangladesh and deport the immigrants.
+A2	QuadrantType T2 policy
+T3	Collective 76 86	immigrants
+T4	Property 88 140	Once these people settle down they slowly move south

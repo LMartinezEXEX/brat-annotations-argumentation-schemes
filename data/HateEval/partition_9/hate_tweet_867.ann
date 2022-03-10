@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 80	The U.S must stop importing the Worlds Poor if they cant take care of themselves
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 81 145	#sendthemback Stop allowing Foreigners to live off U.S Taxpayers
+A2	QuadrantType T2 policy
+T3	Collective 109 119	Foreigners
+T4	Property 120 145	to live off U.S Taxpayers

@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 1 173	Germany now worried that the surge of African migrants (aka invaders) welcomed to Spain by new Socialist government will head to dear Deutschland....And, why wouldn't they?
+A1	QuadrantType T1 fact
+T2	Premise2Justification 174 221	Germany put out the welcome mat a few years ago
+A2	QuadrantType T2 fact
+T3	Collective 47 55	migrants
+T4	Property 61 69	invaders
+T5	pivot 1 8	Germany
+T6	pivot 174 181	Germany
+R1	related Arg1:T5 Arg2:T6	

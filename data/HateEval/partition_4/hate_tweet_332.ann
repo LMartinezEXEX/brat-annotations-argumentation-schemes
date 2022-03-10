@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 79	#Muslim #Migrants Reportedly Leaving In Droves Due To Simple 2-Word Requirement
+T2	Premise1Conclusion 159 179	#IslamicRegimeMustGo
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 202 203	Z
+#1	AnnotatorNotes T3	So because there are illegal immigrants that are muslims then that proves that there is an Islamic regime? really?
+T4	CounterNarrativeC 193 194	6
+#2	AnnotatorNotes T4	I think you are distorting reallity to make muslims look bad because you are full with xenophobia. Many muslims are great people integrated to our society and accepted by all who knows them

@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 87 133	no wonder Uk people do not accept its refugees
+T2	Premise2Justification 15 86	Will islam ever be at peace with its self as it goes to war with itself
+T3	Collective 125 133	refugees
+T4	Property 97 120	Uk people do not accept
+T5	pivot 121 124	its
+T6	pivot 20 25	islam
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

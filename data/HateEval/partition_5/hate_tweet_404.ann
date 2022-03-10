@@ -9,3 +9,5 @@ T5	CounterNarrativeA 161 162	F
 T6	CounterNarrativeC 160 161	X
 #2	AnnotatorNotes T6	This is regrettable, but, could it have something to do with the fact that our healthcare system is getting worse every day?
 R1	related Arg1:T3 Arg2:T4	
+T7	Collective 29 39	immigrants
+T8	Property 82 93	Knife Crime

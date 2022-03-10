@@ -1,3 +1,6 @@
 T1	Premise1Conclusion 64 131	better NOT take #AugustRecess until No #IllegalAliens are released!
 T3	Premise2Justification 151 232	#BuildTheWall #ZeroTolerance #SendThemBack  #DeportThemAll do it or u r #TheSwamp
-A2	QuadrantType T1 value
+A2	QuadrantType T1 policy
+T2	pivot 103 117	#IllegalAliens
+T4	pivot 180 193	#SendThemBack
+A1	QuadrantType T3 policy

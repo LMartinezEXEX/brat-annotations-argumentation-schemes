@@ -1,0 +1,6 @@
+T1	Premise2Justification 27 149	The idea is to bring in the "dreamers" so that they vote for Democrats because Dems know they have to import their voters.
+T2	Premise1Conclusion 150 255	That is literally the only reason the Democrats care about this issue. In the meantime, YES THEIR PARENTS
+T3	pivot 188 197	Democrats
+T4	pivot 88 97	Democrats
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

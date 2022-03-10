@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 146 179	They are in a state of emergency.
+T2	Premise2Justification 17 144	Anti American Illegal immigrant uprising in California gets exceedingly worse for American citizens who are now in grave danger
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	Collective 39 48	immigrant
+T4	Property 99 144	American citizens who are now in grave danger

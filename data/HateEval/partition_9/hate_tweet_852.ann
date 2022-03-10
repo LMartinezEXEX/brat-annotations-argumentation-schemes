@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 17 136	I'm convinced the rapefugee invasion is an integral stage leading to this, considering their victims tend to be minors.
+A1	QuadrantType T1 value
+T2	Premise2Justification 137 232	More exposure to an idea, whether positive or negative, has a normalizing effect on the masses.
+A2	QuadrantType T2 fact
+T3	Property 35 39	rape
+T4	Collective 35 44	rapefugee

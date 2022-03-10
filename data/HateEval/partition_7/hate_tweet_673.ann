@@ -1,0 +1,13 @@
+T1	Premise2Justification 57 238	Nobody follow Traffic rules,All pavements have been encroached upon.Illegal constructions across Yumuna go unabated. Influx of illegal migrants have increased.Crime Rate on increase
+T2	Premise1Conclusion 12 56	Delhi in last 3-4 yrs have become slum city.
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	Collective 192 200	migrants
+T4	Property 57 84	Nobody follow Traffic rules
+T5	Property 216 238	Crime Rate on increase
+T6	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T6	Come on! There is a huge distance between being a somewhat disorganized city and being a "slum city."
+T7	CounterNarrativeB 1 2	L
+#2	AnnotatorNotes T7	You assume that migrants don't follow traffic rules, and even if they do, what does that have to do with increased crime rates? because I don't see the relationship...
+T8	CounterNarrativeC 3 4	G
+#3	AnnotatorNotes T8	It's strange that the city is so disorganized in comparison to how it used to be, and yet no one but you has noticed it, you know?

@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 85	After Libs Help Them Avoid Audit, California DMV Finds 23,000 Bad Voter Registrations
+T2	Premise1Conclusion 101 114	#BuildTheWall
+T3	Collective 87 100	IllegalAliens
+T4	Property 62 85	Bad Voter Registrations
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy

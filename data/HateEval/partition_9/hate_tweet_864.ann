@@ -1,0 +1,4 @@
+T1	Premise2Justification 1 240	@maddow Republicans in #congress dont want to see another Republican #impeached. @DevinNunes & @cathymcmorris on #secret #recording said this all goes away if the Republicans dont keep the #House. #NunesTape shows plot to fire #Rosenstein.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 241 261	#VoteBlueNoMatterWho
+A2	QuadrantType T2 policy

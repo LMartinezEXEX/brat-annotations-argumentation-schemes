@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 109 190	How will the lens of history judge our response to today's global refugee crisis?
+T2	Premise2Justification 0 107	Martin Luther King Jr. once said “our lives begin to end the day we become silent about things that matter.
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

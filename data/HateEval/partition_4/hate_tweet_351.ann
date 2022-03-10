@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 0 87	Muslim refugees should go to Muslim countries if they want to keep their Sharia culture
+T2	Premise2Justification 90 130	Sharia has no place in the Western world
+T3	pivot 73 79	Sharia
+T4	pivot 90 96	Sharia
+T5	CounterNarrativeC 188 189	r
+#1	AnnotatorNotes T5	Who said that Sharia has no place in the western world? We live in a society that stands for religious freedom
+T6	CounterNarrativeA 148 149	e
+#2	AnnotatorNotes T6	They are refugees, they are escaping, they can't freely choose where to live! Banning them because of their culture is xenophobous and racist

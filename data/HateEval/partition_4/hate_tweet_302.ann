@@ -1,0 +1,14 @@
+T1	Premise1Conclusion 91 164	"Hate speech" is a tool to hide UN's mass immigration to conquer the West
+T2	Premise2Justification 0 90	Banning "hate speech" is directly proportional to crime rise in Germany by Sharia enablers
+T3	pivot 9 21	hate speech"
+T4	pivot 92 103	Hate speech
+T5	CounterNarrativeA 209 210	a
+#1	AnnotatorNotes T5	So you are fighting this secret plan to conquer the West by spreading hate to anyone that is different from you?
+T6	CounterNarrativeC 208 209	G
+#2	AnnotatorNotes T6	Are you saying that spreading hate messages against anyone that is different from you is a way to fight crime? Your xenophobia have you blinded
+T7	Collective 133 144	immigration
+T8	Property 50 60	crime rise
+T9	CounterNarrativeB 207 208	d
+#3	AnnotatorNotes T9	Do you have any proof that immigration is asociated with crime rise? Because that sounds just like predjudice and xenophobia
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

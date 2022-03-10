@@ -1,0 +1,9 @@
+T1	Premise2Justification 79 111	We Dont Owe them Our Tax Dollars
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 17 78	Should Move to Deport Immigrants on Welfare as Public Charges
+A2	QuadrantType T2 policy
+T3	Collective 39 49	Immigrants
+T4	Property 64 78	Public Charges
+T5	pivot 100 111	Tax Dollars
+T6	pivot 53 60	Welfare
+R1	related Arg1:T6 Arg2:T5	

@@ -7,3 +7,7 @@ T4	pivot 70 84	social welfare
 R1	related Arg1:T4 Arg2:T3	
 T5	Collective 148 156	refugees
 T6	Property 52 102	They will stay in social welfare their whole life.
+T7	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T7	Are you saying that states do not have enough money to take care of people who cannot afford their basic needs? The truth is that you have a problem with "paying" for other people's food, but you don't have a problem with other people paying for your stuff
+T8	CounterNarrativeB 1 2	T
+#2	AnnotatorNotes T8	Why do you assume that refugees will remain on social welfare their whole life? it is not clear to me.

@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 42 56	#BuildThatWall
+T2	Premise2Justification 15 41	Texas is the Tipping Point
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy

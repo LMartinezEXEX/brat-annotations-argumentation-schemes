@@ -1,0 +1,8 @@
+T1	Premise2Justification 108 124	there is no room
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 15 107	Get the navy's of countries to block immigrant boats coming over and be honest with Migrants
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 125 126	M
+#1	AnnotatorNotes T3	What a joke of a government. To go there and tell all those who come from outside that "there is no room" just because a few xenophobes are bothered by foreigners
+T4	CounterNarrativeC 127 129	rk
+#2	AnnotatorNotes T4	We are a huge damn continent. We can't say "there is no room". That's a lie, you know that.

@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 88 275	It was welcomed refugees driven out from their homeland b it Parsis/Jews w open arms but will not welcome illegal infiltrators who come here to change demography&amp;become owners one day
+T2	Premise2Justification 0 85	India is home of one of the oldest civilisations in the world not a land of immigrant
+T3	pivot 76 86	immigrants
+T4	pivot 194 214	illegal infiltrators
+T5	Collective 76 86	immigrants
+T6	Property 219 275	come here to change demography&amp;become owners one day
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy

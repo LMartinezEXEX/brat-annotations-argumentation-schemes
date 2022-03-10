@@ -1,0 +1,6 @@
+T1	Premise2Justification 121 232	Australia is under threat of Turnbulls INSANE immigration policy, he is destroying our our culture and country.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 233 277	WHAT ARE YOU GOING TO DO TO STOP IT today ?"
+A2	QuadrantType T2 policy
+T3	Collective 167 178	immigration
+T4	Property 193 231	destroying our our culture and country

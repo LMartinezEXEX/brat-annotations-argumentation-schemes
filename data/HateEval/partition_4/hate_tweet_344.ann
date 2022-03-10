@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 41	Refugees are not allowed to stay in India
+T2	Premise1Conclusion 55 75	Go back to your home
+T3	CounterNarrativeA 52 53	K
+#1	AnnotatorNotes T3	Refugees don't usually have a place to go back to, they are victims of human traffic, wars or natural or social disasters, where do you want them to go?
+T4	CounterNarrativeC 51 52	A
+#2	AnnotatorNotes T4	Is there a law stating that Refugees are not allowed in India? Because otherwise, they are

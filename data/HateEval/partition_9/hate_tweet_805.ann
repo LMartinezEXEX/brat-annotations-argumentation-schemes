@@ -1,0 +1,4 @@
+T1	Premise2Justification 10 109	We have enough of our own Monsters why do we continue to import more Monsters from other Countries?
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 110 166	#BuildTheWall, #SecureTheBorder, #EnforceImmigrationLaws
+A2	QuadrantType T2 policy

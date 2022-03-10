@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 266 279	Dems are done
+T2	Premise2Justification 0 265	Democrats have been placing refugees and illegals in Parts of the country trying to change the outcome of elections and we stop them Everytime. Democrats have been trying to stop AMERICANS from voting and giving more and more refugees the rights to vote against us.
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	Collective 28 49	refugees and illegals
+T4	Property 84 115	change the outcome of elections
+T5	Property 174 264	stop AMERICANS from voting and giving more and more refugees the rights to vote against us
+T6	pivot 144 153	Democrats
+T7	pivot 266 270	Dems

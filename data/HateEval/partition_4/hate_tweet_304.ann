@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 104 123	What did he expect?
+T2	Premise2Justification 2 102	Spain ðŸ‡ªðŸ‡¸ Socialist PM Pedro Sanchez in panic mode as aggressive male migrants overwhelm Spain.
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	Collective 77 85	migrants
+T4	Property 61 71	aggressive
+T5	Property 86 101	overwhelm Spain
+T6	pivot 113 115	he
+T7	pivot 30 43	Pedro Sanchez
+T8	CounterNarrativeA 125 126	h
+#1	AnnotatorNotes T8	The only ones expecting aggresion and overwhelming of Spain are the xenophobous who attack migrants and anyone different with their hate speech
+T9	CounterNarrativeB 128 129	p
+#2	AnnotatorNotes T9	Migrants are not aggressive and are not overwhelming Spain. Migrants are poor people looking for a better future
+T10	CounterNarrativeC 133 134	t
+#3	AnnotatorNotes T10	I don't think there are really aggressive male migrants overwhelming Spain. I think that just the imagination of a couple of xenophobous racists

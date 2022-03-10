@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 117 131;15 75	#BuildThatWall You left out the 35million illegals that want to be American
+A1	QuadrantType T1 fact
+T2	Premise2Justification 76 117	otherwise y would they invade our country
+A2	QuadrantType T2 fact
+T3	Collective 42 50	illegals
+T4	Property 99 117	invade our country
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	Invade is a strong word. Isn't that precisely what we have immigration laws and policies for? We don't need a wall...
+T6	CounterNarrativeB 1 2	c
+#2	AnnotatorNotes T6	Invade is a strong word. It's also the wrong one... They're just trying to get a better life....
+T7	CounterNarrativeC 3 4	a
+#3	AnnotatorNotes T7	Actually, I didn't see anyone trying to invade our country....

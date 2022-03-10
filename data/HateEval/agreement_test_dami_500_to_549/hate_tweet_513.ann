@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 104	Hispanics have used immigration to invade America, changing it's demographics and also changing politics
+T2	Premise1Conclusion 106 142	We must begin revoking citizenship â
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy

@@ -1,0 +1,14 @@
+T1	Premise2Justification 0 183	Here's a prime example of bringing in the wrong kind of refugees. These vile creatures are only in it for what they can get, they don't want to contribute anything to the new country.
+T2	Premise1Conclusion 184 253	This type of "refugee" needs to stay in the refugee camps or go home.
+A1	QuadrantType T2 policy
+T3	Property 72 182	vile creatures are only in it for what they can get, they don't want to contribute anything to the new country
+T4	Collective 56 64	refugees
+T5	pivot 198 205	refugee
+T6	pivot 56 64	refugees
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeA 292 293	U
+#1	AnnotatorNotes T7	The fact that someone does not "contribute" does not imply that they are " taking". Still, they have as much right to decide how to live their life as anyone else, don't you think?
+T8	CounterNarrativeB 291 292	k
+#2	AnnotatorNotes T8	it's hard to contribute when you have nothing, but "vile creatures who are only in it for what they can get" is a little too much, don't you think?
+T9	CounterNarrativeC 289 290	g
+#3	AnnotatorNotes T9	I don't think there is a "wrong" kind of refugee. Surely there are only those who are given the opportunity, and those who are not.

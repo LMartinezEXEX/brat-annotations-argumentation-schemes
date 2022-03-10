@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 72	Stephen Miller the Public Charge Law has been on the books for 100 years
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 73 179	it prevents Immigrants from burdening the U.S Taxpayer if they cant take care of themselvers or their kids
+A2	QuadrantType T2 fact
+T3	Collective 85 95	Immigrants
+T4	Property 101 179	burdening the U.S Taxpayer if they cant take care of themselvers or their kids
+T5	pivot 19 36	Public Charge Law
+T6	pivot 119 127	Taxpayer
+R1	related Arg1:T5 Arg2:T6	

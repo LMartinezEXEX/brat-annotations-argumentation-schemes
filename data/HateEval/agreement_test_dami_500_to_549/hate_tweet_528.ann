@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 0 58	Send  message to the German Embassy loud and strong resign
+T2	Premise2Justification 59 134	give ordinary Germans the right to say no to Immigration now not next  Year
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 policy

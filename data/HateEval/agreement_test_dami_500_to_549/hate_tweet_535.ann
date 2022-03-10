@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 93	Alabama: Illegals Force 13-Year-Old Girl to Watch Murder of her Grandmother, Then Behead Girl
+T2	Premise1Conclusion 150 192	#LockThemAllUp #SendThemBack #BuildTheWall
+A1	QuadrantType T2 policy
+A2	QuadrantType T1 fact
+T3	Collective 9 17	Illegals
+T4	Property 18 93	Force 13-Year-Old Girl to Watch Murder of her Grandmother, Then Behead Girl
+T5	pivot 9 17	Illegals
+T6	pivot 170 174	Them

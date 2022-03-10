@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 64 151	#Detain and Deport Never let them see a U.S City Stop #CatchNRelease #SendThemBack ASAP
+T2	Premise2Justification 0 63	Time to Stop Illegals from using kids as a get out of jail card
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 policy
+T3	Collective 13 21	Illegals
+T4	Property 27 63	using kids as a get out of jail card
+T5	pivot 54 58	jail
+T6	pivot 65 71	Detain

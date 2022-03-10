@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 218 272	Another neocon nightmare; Bolton a discredited failure
+T2	Premise2Justification 23 218	“Mass migration from the Islamic world, seeded with terrorist cells, is the greatest threat to Europe from Middle East. But would not a U.S. war w-Iran increase rather than diminish that threat”?
+T3	Collective 29 61	migration from the Islamic world
+T4	Property 63 124	seeded with terrorist cells, is the greatest threat to Europe
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

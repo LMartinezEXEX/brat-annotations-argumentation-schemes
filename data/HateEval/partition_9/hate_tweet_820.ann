@@ -1,0 +1,4 @@
+T1	Premise2Justification 50 112	they will go back quick, here the President havnt to do much !
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 8 47	If the refugees dont get food and water
+A2	QuadrantType T2 policy

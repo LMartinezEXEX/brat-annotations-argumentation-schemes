@@ -1,0 +1,6 @@
+T1	Premise2Justification 79 148	you need to follow @StanM3 for your daily dose of cultural enrichment
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 0 78	If you think crimes caused by the #Migrant influx into #Germany is exaggerated
+A2	QuadrantType T2 fact
+T3	Collective 35 42	Migrant
+T4	Property 13 29	crimes caused by

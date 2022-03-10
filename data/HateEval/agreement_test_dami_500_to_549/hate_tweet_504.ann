@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 59	Ingraham: We Demand Our Elected Officials Keep America Safe
+T2	Premise2Justification 61 115	"When a jihadist games our immigration system, gets a‘
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+T3	Collective 88 99	immigration
+T4	Property 69 83	jihadist games

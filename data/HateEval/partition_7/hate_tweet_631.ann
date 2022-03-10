@@ -1,0 +1,11 @@
+T1	Premise2Justification 16 146	One man one vote right?Yet here we have one man assuming he can demand the importation of millions of non citizens for  HIS agenda
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 147 255	He should be allowed a say on ONE migrant at most.  And be personally and directly responsible for everythin
+A2	QuadrantType T2 policy
+T3	pivot 118 130	non citizens
+T4	pivot 181 188	migrant
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	I don't see the link. Are you directly responsible for what you vote for? Ah no, it is true that the vote is secret, at least when it is convenient for you and your "agenda"...
+T6	CounterNarrativeC 2 3	t
+#2	AnnotatorNotes T6	One man one vote, even applies to electing the president. Why are you trying to restrict it only to things you do not disagree with? That's not democratic.

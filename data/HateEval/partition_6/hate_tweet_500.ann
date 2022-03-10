@@ -6,3 +6,5 @@ T3	CounterNarrativeA 295 296	S
 #1	AnnotatorNotes T3	The context in which Martin Luther King Jr. called not to "become silent about things that matter" has nothing to do with the current refugee crisis.
 T4	CounterNarrativeC 296 297	O
 #2	AnnotatorNotes T4	Ok, but do you understand what he really meant? you can't just grab a random phrase and take it out of context, and make that a valid argument...
+T5	Collective 175 182	refugee
+T6	Property 183 189	crisis

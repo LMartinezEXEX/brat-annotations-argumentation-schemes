@@ -1,0 +1,6 @@
+T1	Premise2Justification 131 296	The number of immigrants coming to England and taking all they can is ridiculous. No wonder they fight tirelessly to get through all the other countries into England
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 298 314;45 129	#stopimmigration Correct/incorrect - doesnt really matter, the point is that it should not be allowed
+A2	QuadrantType T2 policy
+T3	Collective 145 155	immigrants
+T4	Property 156 197	coming to England and taking all they can
