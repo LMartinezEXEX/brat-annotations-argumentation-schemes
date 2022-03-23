@@ -2,3 +2,5 @@ T1	Premise2Justification 73 114	IllegalImmigration Is not multiculturism.
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 1 70	So sad the elite, politicians and virtue signallers just don't get it
 A2	QuadrantType T2 value
+T3	CounterNarrativeC 114 115	"
+#1	AnnotatorNotes T3	Are you denying that these people have culture? How xenophobic of you

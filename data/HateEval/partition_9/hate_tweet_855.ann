@@ -7,3 +7,7 @@ A2	QuadrantType T4 fact
 T5	pivot 97 101	hire
 T6	pivot 31 40	Take Jobs
 R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 228 229	m
+#1	AnnotatorNotes T7	There is nothing like "taking someone else's job". You have the job, you either earn it or you lose it. That's all there is to it.
+T8	CounterNarrativeB 227 228	o
+#2	AnnotatorNotes T8	The Daca's have the right to work like everyone else. Besides, the Daca's are Americans, even if some people do not want to recognize it....

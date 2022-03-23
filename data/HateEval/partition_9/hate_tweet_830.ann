@@ -5,3 +5,5 @@ A2	QuadrantType T2 policy
 T3	pivot 130 141	deportation
 T4	pivot 227 235	migrants
 R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 284 285	4
+#1	AnnotatorNotes T5	It always makes me laugh how the word "migrant" is used as a threat...

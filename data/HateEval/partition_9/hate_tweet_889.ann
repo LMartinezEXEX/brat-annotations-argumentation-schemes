@@ -4,3 +4,7 @@ T2	Premise1Conclusion 229 332	Like saying it is #Fucktarded to believe the mass 
 A2	QuadrantType T2 fact
 T3	Collective 280 287	Refugee
 T4	Property 289 298	Rapefugee
+T5	CounterNarrativeC 5 6	a
+#1	AnnotatorNotes T5	And who decides what they "need" to hear? And why does that coincide with what you WANT to hear? Maybe it's you the one who don't want to hear what you need to hear?
+T6	CounterNarrativeB 4 5	C
+#2	AnnotatorNotes T6	Because in the xenophobic thinking, all refugees are rapists. how is that!

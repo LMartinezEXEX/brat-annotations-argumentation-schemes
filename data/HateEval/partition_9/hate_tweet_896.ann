@@ -2,3 +2,5 @@ T1	Premise2Justification 30 282	The Democrats don't want to fix immigration beca
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 283 296	#SendThemBack
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 5 6	i
+#1	AnnotatorNotes T3	Non-citizens don't vote, and communism no longer exists. what world do you live in?

@@ -7,3 +7,7 @@ T4	Property 49 138	Commiting Crimes Stealing IDS, SSN or Using Fake ones (felon)
 T5	pivot 129 138	Americans
 T6	pivot 158 166	U.S Laws
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 233 234	r
+#1	AnnotatorNotes T7	No one believes that illegals are above the law. In fact, if they were, we wouldn't be able to call them "illegals"
+T8	CounterNarrativeB 232 233	e
+#2	AnnotatorNotes T8	Not all aliens are criminals. In fact, most of them are not.

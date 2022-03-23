@@ -2,3 +2,5 @@ T1	Premise2Justification 0 77	@Millwall_Dolbs1 We all know what you mean by 'scu
 A1	QuadrantType T1 value
 T2	Premise1Conclusion 79 92	#SendThemBack
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 77 78	.
+#1	AnnotatorNotes T3	Actually, I don't know, and obviously, I don't agree. So, speak for yourself

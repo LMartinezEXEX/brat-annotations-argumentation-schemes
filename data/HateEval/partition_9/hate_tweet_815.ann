@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 62 68	Europe
 T4	pivot 116 123	Europe.
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 90 91	k
+#1	AnnotatorNotes T5	Why should we care that much about migration? They didn't harm us
+T6	CounterNarrativeA 89 90	5
+#2	AnnotatorNotes T6	Accepting immigrants and destroying a country don't seem to have much to do with each other. In fact, I think most countries were built this way...

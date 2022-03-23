@@ -7,3 +7,7 @@ T4	Property 150 209	Deteriorating social welfare system and sky high crime rate
 T5	pivot 80 86	crisis
 T6	pivot 127 135	problems
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 217 218	n
+#1	AnnotatorNotes T7	There is no such thing as a rapefugee crisis, because it is not true that all refugees are rapists.
+T8	CounterNarrativeB 216 217	e
+#2	AnnotatorNotes T8	You assume that refugees are going to deteriorate the system with their crimes. Did previous waves of immigrants harm the country in any way? They didn't, and you know that's true

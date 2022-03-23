@@ -2,3 +2,5 @@ T1	Premise2Justification 0 92	There's a reason why Canada doesn't open their bor
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 93 120	#SendThemBack #AmericaFirst
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 91 92	?
+#1	AnnotatorNotes T3	Because there are no invaders, perhaps? The term you are looking for is immigrants, and as far as I know, they are welcome in Canada.

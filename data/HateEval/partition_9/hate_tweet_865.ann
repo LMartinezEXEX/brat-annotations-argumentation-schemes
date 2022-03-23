@@ -1,3 +1,5 @@
 T1	Premise2Justification 0 87	The elderly folk of Britain grateful they will soon be gone really does signal the end.
 T2	Premise1Conclusion 88 130	#StopImmigration #BanIslam #GetBritainBack
 A1	QuadrantType T2 policy
+T3	CounterNarrativeC 86 87	.
+#1	AnnotatorNotes T3	What do you mean by "the end"? And why should we believe them? Not all elders are wise

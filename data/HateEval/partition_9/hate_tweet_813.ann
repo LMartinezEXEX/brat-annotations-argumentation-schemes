@@ -1,3 +1,7 @@
 T1	Premise2Justification 0 60	Oversupply of cheap labor. We have parollees that need work.
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 61 75	#BuildThatWall
+T3	CounterNarrativeC 74 75	l
+#1	AnnotatorNotes T3	You know that cheap labor is the employer's fault, right? avoiding immigrants is not going to end it, after all, there will always be someone in need.
+T4	CounterNarrativeA 72 73	a
+#2	AnnotatorNotes T4	Why not spend that money on job creation then?

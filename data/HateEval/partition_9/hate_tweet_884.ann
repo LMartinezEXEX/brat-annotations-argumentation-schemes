@@ -4,3 +4,7 @@ T2	Premise2Justification 80 148	we should never play Russian roulette with lives
 A2	QuadrantType T2 policy
 T3	Collective 60 67	refugee
 T4	Property 68 78	terrorists
+T5	CounterNarrativeC 1 2	@
+#1	AnnotatorNotes T5	We are not playing Russian roulette. We are just accepting some refugees. Stop freaking out
+T6	CounterNarrativeB 2 3	C
+#2	AnnotatorNotes T6	If they were terrorists, I doubt they would be the ones who escape. Think

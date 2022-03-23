@@ -4,3 +4,7 @@ T2	Premise1Conclusion 298 314;45 129	#stopimmigration Correct/incorrect - doesnt
 A2	QuadrantType T2 policy
 T3	Collective 145 155	immigrants
 T4	Property 156 197	coming to England and taking all they can
+T5	CounterNarrativeC 1 2	@
+#1	AnnotatorNotes T5	You call it ridiculous because you can't tolerate a single one, right? Honestly, that's your problem, not ours.
+T6	CounterNarrativeB 3 4	o
+#2	AnnotatorNotes T6	They come in search of a better life, but of course, you consider EVERYTHING yours. Even if they work to earn their food, you think they are "stealing" from you. But that's not true

@@ -8,3 +8,7 @@ T5	Property 107 111	Rape
 T6	pivot 17 25	refugees
 T7	pivot 86 94	Migrants
 R1	related Arg1:T6 Arg2:T7	
+T8	CounterNarrativeC 212 213	"
+#1	AnnotatorNotes T8	You call it mayhem just because you don't tolerate different habits, don't you?
+T9	CounterNarrativeB 211 212	"
+#2	AnnotatorNotes T9	Why the obsession with linking refugees with rapists? You know that most of them have not even committed any kind of minor crime.

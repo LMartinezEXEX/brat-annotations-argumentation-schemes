@@ -4,3 +4,7 @@ T2	Premise1Conclusion 137 165	#BuildThatWall #BuildTheWall
 A2	QuadrantType T2 policy
 T3	Collective 87 94	Migrant
 T4	Property 12 57	Doctor Stabbed to Death in His Own Surgery by
+T5	CounterNarrativeC 208 209	"
+#1	AnnotatorNotes T5	What a confusing situation. What was her 10 year old daughter doing in surgery? It sounds fake.
+T6	CounterNarrativeB 207 208	"
+#2	AnnotatorNotes T6	Suppose this really happened. Are you going to accuse ALL the migrants for what ONE of them did?

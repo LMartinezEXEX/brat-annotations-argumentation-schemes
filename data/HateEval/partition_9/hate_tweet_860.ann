@@ -7,3 +7,7 @@ T4	Property 101 179	burdening the U.S Taxpayer if they cant take care of themsel
 T5	pivot 19 36	Public Charge Law
 T6	pivot 119 127	Taxpayer
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 222 223	g
+#1	AnnotatorNotes T7	"on the books" does not mean "correct"
+T8	CounterNarrativeB 221 222	n
+#2	AnnotatorNotes T8	The fact that there are more or less immigrants does not make you pay more or less taxes. That is a fallacy

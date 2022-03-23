@@ -4,3 +4,7 @@ T2	Premise2Justification 137 232	More exposure to an idea, whether positive or n
 A2	QuadrantType T2 fact
 T3	Property 35 39	rape
 T4	Collective 35 44	rapefugee
+T5	CounterNarrativeC 0 1	"
+#1	AnnotatorNotes T5	This is not necessarily true. In fact, usually, when the ideas are negative, the opposite effect is observed.
+T6	CounterNarrativeB 1 2	@
+#2	AnnotatorNotes T6	There is no invasion of rapefugee, because there are no rapefugees. The rapist rapes, whether they are refugees or not, it doesn't matter....

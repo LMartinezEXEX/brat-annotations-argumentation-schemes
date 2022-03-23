@@ -8,3 +8,7 @@ T5	Property 81 164	Disgusting Savages Destroying #CanadaHotels feces, urine, flo
 T6	pivot 29 37	children
 T7	pivot 218 224	babies
 R1	related Arg1:T6 Arg2:T7	
+T8	CounterNarrativeB 249 250	"
+#1	AnnotatorNotes T8	Let me doubt, I don't think any parent would behave that way. Maybe some crazy people, but you are not going to convince me that they are "the majority".
+T9	CounterNarrativeC 248 249	e
+#2	AnnotatorNotes T9	And the evidence of all this terrible thing you tell? or is it just a "please believe me"?

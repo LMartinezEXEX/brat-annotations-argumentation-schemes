@@ -4,3 +4,7 @@ T2	Premise2Justification 69 131	to make our counties 3rd world slums like where 
 A2	QuadrantType T2 fact
 T3	Collective 44 53	rapefugee
 T4	Property 44 48	rape
+T5	CounterNarrativeC 131 132	.
+#1	AnnotatorNotes T5	It is not true that accepting "third world" immigrants will bring us problems, just as accepting war refugees never brought us war.
+T6	CounterNarrativeB 130 131	m
+#2	AnnotatorNotes T6	Do you really believe that ALL refugees are rapists? Your xenophobia is unbelievable

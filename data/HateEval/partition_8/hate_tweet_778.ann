@@ -4,3 +4,5 @@ T2	Premise1Conclusion 205 245	They must go too. ALL of them!#NoAmnesty
 A2	QuadrantType T2 policy
 T3	CounterNarrativeC 1 2	@
 #1	AnnotatorNotes T3	In fact, it is sad that you refer to immigrants as a plague. The only thing you do is to expose your xenophobia....
+T4	CounterNarrativeA 2 3	b
+#2	AnnotatorNotes T4	But why? Just because you don't like to see them? lol, you're not that important.

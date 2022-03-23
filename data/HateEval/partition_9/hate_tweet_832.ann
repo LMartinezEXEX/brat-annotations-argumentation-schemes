@@ -5,3 +5,5 @@ A2	QuadrantType T2 policy
 T3	pivot 18 21	U.S
 T4	pivot 126 129	U.S
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 211 212	g
+#1	AnnotatorNotes T5	It's almost a pun that you expect "illegals" to play by your rules. In any case, it would make more sense to establish mechanisms by which to legalize them, don't you think? But of course, that implies accepting immigrants...

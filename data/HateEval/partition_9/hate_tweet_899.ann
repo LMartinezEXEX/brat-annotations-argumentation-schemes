@@ -7,3 +7,7 @@ T4	Property 55 60	crime
 T5	pivot 176 184	migrants
 T6	pivot 47 54	Migrant
 R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 45 46	.
+#1	AnnotatorNotes T7	I thought it was public information. How easy it is to make up numbers and accuse the whole continent of being liars. Stop the paranoia
+T8	CounterNarrativeB 43 44	r
+#2	AnnotatorNotes T8	You make up numbers to insist on your lie that all migrants are criminals? Don't count on me

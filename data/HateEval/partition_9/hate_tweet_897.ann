@@ -11,3 +11,7 @@ T6	Property 164 203	criminals taking advantage of Americans
 T7	pivot 36 40	fake
 T8	pivot 134 139	fraud
 R1	related Arg1:T7 Arg2:T8	
+T9	CounterNarrativeC 118 119	)
+#1	AnnotatorNotes T9	If the state allows the fake SSN, clearly the problem lies with the state.
+T10	CounterNarrativeB 117 118	e
+#2	AnnotatorNotes T10	What do you mean by "taking advantage of the citizens"? they are not even allowed to work. Also, calling them criminals just because your government doesn't recognize them as people? not cool at all.

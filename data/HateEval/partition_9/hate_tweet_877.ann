@@ -4,3 +4,7 @@ T2	Premise1Conclusion 73 86	#SendThemBack
 A2	QuadrantType T2 fact
 T3	Collective 1 10	Diversity
 T4	Property 57 70	WhiteGenocide
+T5	CounterNarrativeC 85 86	k
+#1	AnnotatorNotes T5	Which proof? I don't understand how diversity would be white genocide. Can't you tolerate not being the only one here? 
+T6	CounterNarrativeB 84 85	c
+#2	AnnotatorNotes T6	Funny that you consider diversity "white genocide." The fact that it is so rare to see non-whites is the real genocide, not the other way around.

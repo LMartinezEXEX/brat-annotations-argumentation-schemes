@@ -7,3 +7,7 @@ T4	Property 56 183	brought their kids on their cirme spree to illegally invade t
 T5	pivot 127 136	Taxpayers
 T6	pivot 210 221	tax dollars
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 274 275	g
+#1	AnnotatorNotes T7	No, you only owe the state. It decides how it is used
+T8	CounterNarrativeB 273 274	n
+#2	AnnotatorNotes T8	What kind of father would go to another country and leave behind his children? come on!
