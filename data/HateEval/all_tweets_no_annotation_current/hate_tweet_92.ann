@@ -1,0 +1,14 @@
+T1	Premise1Conclusion 0 110	#BozoBeto Says, He's The Best 4 TX He's For:*Ending #ICE*Open Borders*Legalizing DRUGS*Ending Immigration Laws
+T2	Premise2Justification 110 187	4 MS-13 Gang Members BRUTALLY Hacked An Informant To Death W/A Machete In TX!
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T3	Collective 94 105	Immigration
+T4	Property 112 180	MS-13 Gang Members BRUTALLY Hacked An Informant To Death W/A Machete
+T5	CounterNarrativeA 234 235	z
+#1	AnnotatorNotes T5	Do you think that if there were no immigrants there wouldn't be mafias and gangs? If you want to fight crime organizations you vote for criminal laws. If you promote immigration laws is because you are fighting immigrants, not criminals.
+T6	CounterNarrativeB 232 233	r
+#2	AnnotatorNotes T6	Immigrants are not criminals or gang members more than locals are. Most are hard working people looking for a future for them and their families.
+T7	CounterNarrativeC 232 233	r
+#3	AnnotatorNotes T7	How do you know that MS-13 Gang members were immigrants?
+T8	pivot 94 105	Immigration
+T9	pivot 112 130	MS-13 Gang Members

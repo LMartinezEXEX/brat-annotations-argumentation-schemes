@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 23 136	EU states must defy UN-EU “rules” that hold them hostage regarding deportation, denying entry &amp; self-defence.
+A1	QuadrantType T1 policy
+T2	Premise2Justification 136 213	Spain an abomination as migrants, smugglers, NGOs and mafia determine events.
+A2	QuadrantType T2 fact
+T3	pivot 136 141	Spain
+T4	pivot 23 32	EU states
+R1	related Arg1:T4 Arg2:T3	
+T5	Collective 160 168	migrants
+T6	Property 196 212	determine events
+T7	CounterNarrativeA 258 259	o
+#1	AnnotatorNotes T7	Wow, people determine events, we are hostages? That doesn't make sense!
+T8	CounterNarrativeB 259 260	u
+#2	AnnotatorNotes T8	Well, people determine the events, and immigrants are people... This also happens with tourists, and nobody complains, because nobody cares...
+T9	CounterNarrativeC 260 261	t
+#3	AnnotatorNotes T9	Spain, an abomination? I only see a prosperous country with an enormous cultural development.

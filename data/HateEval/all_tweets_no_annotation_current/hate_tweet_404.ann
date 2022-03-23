@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 0 61	Losing! Britain is losing to immigrants &amp; other criminals
+T2	Premise2Justification 61 139	Britain 2018: Record Knife Crime Rates Straining NHS, Depleting Blood Supplies
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	pivot 52 61	criminals
+T4	pivot 88 99	Crime Rates
+T5	CounterNarrativeA 161 162	F
+#1	AnnotatorNotes T5	And which is exactly the relation between knife crimes and immigrants, if there is any?
+T6	CounterNarrativeC 160 161	X
+#2	AnnotatorNotes T6	This is regrettable, but, could it have something to do with the fact that our healthcare system is getting worse every day?
+R1	related Arg1:T3 Arg2:T4	

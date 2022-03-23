@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 0 121	#BuildTheWallNow Sop letting them in! I demand the Federal Government Secure America's Borders! No welfare to immigrants:
+A1	QuadrantType T1 policy
+T2	Premise2Justification 122 206	if they can afford to immigrate, then they can buy their own groceries and pay rent,
+A2	QuadrantType T2 fact
+T3	pivot 110 120	immigrants
+T4	CounterNarrativeA 208 209	P
+#1	AnnotatorNotes T4	many of them spent all their money looking for a better place to live, and you discriminate against them for it! They are not even hurting you in any way
+T5	CounterNarrativeC 209 210	O
+#2	AnnotatorNotes T5	That doesn't make sense, many of them escape by walking, with the few things they have. Some even go days without food in order to make it.
+T6	pivot 144 153	immigrate
+R1	related Arg1:T6 Arg2:T3	

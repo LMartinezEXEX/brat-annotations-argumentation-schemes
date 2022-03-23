@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 94 140	not such a thing as a poor migrant with a phon
+T2	Premise2Justification 15 93	Migrants get here then they phone for the next load to come mobile phones cost
+T3	pivot 15 23	Migrants
+T4	pivot 121 128	migrant
+T5	Property 94 120	not such a thing as a poor
+T6	Collective 121 128	migrant
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T7	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T7	Are you seriously implying that someone can't be poor because she has a phone? A phone is a basic necessity in order to work or survive on today's world and it can costs a tiny fraction of what you need to live
+T8	CounterNarrativeB 1 2	D
+#2	AnnotatorNotes T8	Are you saying that migrants are not poor? So they are some kind of millionaires who like to pretend to be poor to upset xenophobic people like you?
+T9	CounterNarrativeC 3 4	i
+#3	AnnotatorNotes T9	Do you have any proof that migrants get here and then they phone for the next load to come? Or this is just xenophobic nonsense?
+R1	related Arg1:T3 Arg2:T4	

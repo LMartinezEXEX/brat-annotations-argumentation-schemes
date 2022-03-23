@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 215	@PaulineHansonOz UK: Corbyn still maintains Blair's New Labor which is essentially Marxism, a dangerous cult putting migrants first who are members of a political religious cult that would kill members if they left.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 216 255	Those migrants will in return vote Labo
+T3	Collective 83 90	Marxism
+T4	Property 92 214	a dangerous cult putting migrants first who are members of a political religious cult that would kill members if they left
+A2	QuadrantType T2 fact
+T5	pivot 222 230	migrants
+T6	pivot 117 125	migrants
+T7	CounterNarrativeA 252 253	a
+#1	AnnotatorNotes T7	Have you just discovered that people vote based on their political views? Bravo
+T8	CounterNarrativeB 0 1	@
+#2	AnnotatorNotes T8	This is laughable... You have no idea what Marxism is, do you?
+T9	CounterNarrativeC 1 2	P
+#3	AnnotatorNotes T9	That's McCarthyism, you have no idea what Marxism really is.
+R1	related Arg1:T6 Arg2:T5	

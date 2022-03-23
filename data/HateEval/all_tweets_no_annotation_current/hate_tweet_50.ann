@@ -1,0 +1,9 @@
+T1	Collective 71 79	migrants
+T2	Property 61 67	killed
+T3	Premise1Conclusion 0 36	“Spain is becoming the Third World,”
+T4	Premise2Justification 37 89	American tourist almost killed by migrants speaks up
+T5	pivot 23 34	Third World
+T6	pivot 71 79	migrants
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeA 133 134	m
+#1	AnnotatorNotes T7	Associating the so called Third World with murders is racist and xenophobic. There are murderers all over the works.

@@ -1,0 +1,17 @@
+T2	Collective 14 22	Illegals
+T3	Property 23 88	Dump their Kids at the border like Road Kill and Refuse to Unite!
+T4	Property 89 143	They Hope they get Amnesty, Free Education and Welfare
+T10	CounterNarrativeA 254 255	e
+#1	AnnotatorNotes T10	All immigrants pay taxes because they spend money on the country they live. If someone want to find a better future for his kids in another country that doesn't mean you have to imprison her and separate him from his children
+T11	CounterNarrativeB 252 253	T
+#2	AnnotatorNotes T11	It's not true that Illegals dump their kids at the border like road kills and refuse to unite. Migrant families want to be together and they should be
+T12	CounterNarrativeC 251 252	d
+#3	AnnotatorNotes T12	Do you have any proof that migrant families refuse to unite with their children? Why were they separated on the first place?
+T1	Premise1Conclusion 144 227	Illegal #FamilesBelongTogether in their Country not on the Taxpayer Dime Its a SCAM
+T5	Premise2Justification 14 143	Illegals Dump their Kids at the border like Road Kill and Refuse to Unite! They Hope they get Amnesty, Free Education and Welfare
+A1	QuadrantType T5 fact
+A2	QuadrantType T1 value
+T6	pivot 14 22	Illegals
+T7	pivot 144 151	Illegal
+R1	related Arg1:T7 Arg2:T6	
+R2	firstOrder Arg1:T1 Arg2:T5	

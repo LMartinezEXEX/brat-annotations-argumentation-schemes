@@ -1,0 +1,15 @@
+T2	Premise1Conclusion 173 219	many are not settling and are turning to crime
+T7	Authority 63 69	Israel
+T8	Collective 92 119	young African male migrants
+A2	QuadrantType T2 fact
+T9	Premise2Justification 63 137	Israel for wanting to deport young African male migrants it maybe evidence
+A1	QuadrantType T9 fact
+R6	firstOrder Arg1:T2 Arg2:T9	
+T1	CounterNarrativeA 253 254	e
+#1	AnnotatorNotes T1	Unfortunately, many countries are deporting people from many ethnicities. That doesn't mean that they are criminals
+T11	Property 203 219	turning to crime
+T12	CounterNarrativeB 251 252	l
+#2	AnnotatorNotes T12	You don't have any proof that young African migrants are turning to crime. You are just showing your prejudice and xenophobia.
+T3	pivot 92 119	young African male migrants
+T4	pivot 173 177	many
+R1	related Arg1:T3 Arg2:T4	

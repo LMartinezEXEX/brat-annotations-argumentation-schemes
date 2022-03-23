@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 0 62	Poland: Why don't Qatar and Saudi Arabia take Muslim refugees?
+A1	QuadrantType T1 policy
+T2	Premise2Justification 63 93	This isn't a European problem!
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 139 140	K
+#1	AnnotatorNotes T3	It may not be a European problem, but there is nothing wrong with giving a European solution. If they want to emigrate to the EU instead of Qatar or Saudi Arabia, what is the problem?
+T4	CounterNarrativeC 140 141	b
+#2	AnnotatorNotes T4	It's a world problem, do you think Europe is not part of it?

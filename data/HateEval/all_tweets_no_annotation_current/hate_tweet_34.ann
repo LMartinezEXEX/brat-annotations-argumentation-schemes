@@ -1,0 +1,17 @@
+T2	Collective 14 28	Asylum seekers
+T3	Property 129 164	breaking American #immigration law!
+T4	Property 78 93	enter illegally
+T1	Premise1Conclusion 14 94	Asylum seekers should enter at a LEGAL #USA port of entry & not enter illegally!
+T5	Premise2Justification 95 164	Separation only occurs with those breaking American #immigration law!
+R1	firstOrder Arg1:T1 Arg2:T5	
+T6	pivot 14 28	Asylum seekers
+T7	pivot 123 164	those breaking American #immigration law!
+R2	related Arg1:T7 Arg2:T6	
+A1	QuadrantType T1 policy
+A2	QuadrantType T5 fact
+T8	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T8	There is really no excuse to separate children from their families. Less than anything the excuse can be how people doing what they can to escape war entered the country
+T9	CounterNarrativeB 2 3	e
+#2	AnnotatorNotes T9	If someone is formally requesting asylum, he or she is subjecting herself to American law and therefore is not an illegal. It doesn't matter how she entered the country.
+T10	CounterNarrativeC 3 4	p
+#3	AnnotatorNotes T10	Do you have proof that the law states the separation of children from their family and their imprisonment? I doubt that

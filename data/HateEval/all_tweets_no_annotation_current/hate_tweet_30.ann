@@ -1,0 +1,11 @@
+T3	Collective 90 114	third world "immigrants"
+T1	Premise1Conclusion 47 114	now they are just mass produced to fit the third world "immigrants"
+T2	Premise2Justification 0 46	Homes use to look beautiful and full of effort
+R6	firstOrder Arg1:T1 Arg2:T2	
+T8	Property 65 85	mass produced to fit
+T4	CounterNarrativeA 0 1	H
+#1	AnnotatorNotes T4	Immigrants don't decide how houses look. You are just trying to blame them for anything you don't like. That is xenophobia
+T5	CounterNarrativeB 1 2	o
+#2	AnnotatorNotes T5	Do you think immigrants like to live in "mass produced" houses? don't you think they would prefer to live in a beautiful house, just like you?
+T6	CounterNarrativeC 2 3	m
+#3	AnnotatorNotes T6	Do you have any proof that houses used to look beautiful and now they don't? Beauty is in the eye of the beholder  and can also be found on people making an effort to get a better life

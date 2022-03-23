@@ -1,0 +1,15 @@
+T2	Collective 40 58	illegal immigrants
+T3	Property 0 36	Border agent killed, partner injured
+T1	Premise1Conclusion 127 144	#PreventableDeath
+T4	Premise2Justification 0 83	Border agent killed, partner injured by illegal immigrants using rocks, report says
+A1	QuadrantType T4 fact
+A2	QuadrantType T1 fact
+T5	pivot 139 144	Death
+T6	pivot 13 19	killed
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeA 125 126	t
+#1	AnnotatorNotes T7	If people were allowed to enter the country legally there wouldn't be need for border agents risking their life.
+T8	CounterNarrativeB 124 125	n
+#2	AnnotatorNotes T8	Most immigrants are hard working honest people and not criminals. This tweet is biased towards xenophobia
+T9	CounterNarrativeC 123 124	u
+#3	AnnotatorNotes T9	This news is biased towards xenophobia

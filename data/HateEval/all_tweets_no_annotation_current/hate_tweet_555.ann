@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 58	Group of 20 people crisscrossed entire Delhi in one month.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 58 139	Shocking to see 80%encroachments by Muslims/immigrants.Most dirty areas.NO ACTION
+A2	QuadrantType T2 value
+T3	Collective 94 112	Muslims/immigrants
+T4	Property 118 123	dirty
+T5	CounterNarrativeA 138 139	N
+#1	AnnotatorNotes T5	Who are these people and how reliable is their data? We don't even know their names or who they work for.
+T6	CounterNarrativeB 137 138	O
+#2	AnnotatorNotes T6	You are a xenophobe if you really believe that all Muslims are dirty.
+T7	CounterNarrativeC 136 137	I
+#3	AnnotatorNotes T7	Entire Delhi, in just one month? I don't believe you, where are your sources?

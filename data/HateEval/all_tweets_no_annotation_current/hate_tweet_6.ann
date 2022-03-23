@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 70	two children washed up on a barb wired beach another scum photographer
+T2	Premise1Conclusion 71 140	another attempt to get the EU to take more migrants enough propaganda
+T3	Collective 114 122	migrants
+T5	Property 130 140	propaganda
+T4	pivot 0 44	two children washed up on a barb wired beach
+T6	pivot 114 122	migrants
+R1	related Arg1:T4 Arg2:T6	
+A1	QuadrantType T2 policy
+A2	QuadrantType T1 fact
+T7	CounterNarrativeA 0 1	t
+#1	AnnotatorNotes T7	Are you implying that someone drowned two little children on purpose as an attempt to get the EU to take more migrants? Or are you implying that the news of their dead should not be covered because it´s propaganda?
+T8	CounterNarrativeB 1 2	w
+#2	AnnotatorNotes T8	Are you blaming immigrants for the dead of two of their children calling it ¨propaganda¨?
+T9	CounterNarrativeC 2 3	o
+#3	AnnotatorNotes T9	Why are you calling ¨scum photographer¨ to someone who wanted to show the world this horrible tragedy?

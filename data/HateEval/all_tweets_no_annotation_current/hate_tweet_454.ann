@@ -1,0 +1,11 @@
+T1	Premise2Justification 79 129	Crime & welfare are draining our limited resources
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 78	ALL criminal illegals must be deported whether they are DACA recipients or not
+A2	QuadrantType T2 policy
+T3	pivot 4 11	crimina
+T4	pivot 79 84	Crime
+T5	CounterNarrativeA 159 160	e
+#1	AnnotatorNotes T5	And how exactly do you expect to deport all immigrants without "draining our limited resources"? By asking them to "please, leave"?
+R1	related Arg1:T3 Arg2:T4	
+T6	CounterNarrativeC 169 170	r
+#2	AnnotatorNotes T6	I really doubt that crime can drain all our resources. In any case, we have a budget problem rather than a crime problem.

@@ -1,0 +1,11 @@
+T1	Premise2Justification 48 136	So you created the problem by mass immigration, parasitic taxation and deficit spending.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 136 255	Now its time for a 'solution' that involves you too eh???   Problem, reaction, 'solution'.Under socialism, we are expec
+A2	QuadrantType T2 policy
+T3	pivot 67 74	problem
+T4	pivot 156 164	solution
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 1 2	J
+#1	AnnotatorNotes T5	Being humanitarian cannot be the problem. Stop making excuses and, if you're not going to support, at least don't be the problem.
+T6	CounterNarrativeC 3 4	s
+#2	AnnotatorNotes T6	"So you created the problem"... What problem?

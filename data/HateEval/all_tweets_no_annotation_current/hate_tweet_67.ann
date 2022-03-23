@@ -1,0 +1,16 @@
+T1	Premise2Justification 47 70	Its Illegal Immigration
+T2	Premise1Conclusion 76 88	sendthemback
+T3	pivot 59 70	Immigration
+T4	pivot 80 84	them
+R1	related Arg1:T3 Arg2:T4	
+R2	firstOrder Arg1:T2 Arg2:T1	
+T5	Collective 59 70	Immigration
+T6	Property 51 58	Illegal
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy
+T7	CounterNarrativeA 7 8	E
+#1	AnnotatorNotes T7	Just because someone migrated illegally doesn't mean that we have to send him or her back to where she came. You don't know why he or she migrated and if it's safe or possible for her to go back
+T8	CounterNarrativeB 9 10	H
+#2	AnnotatorNotes T8	Legality of migration changes over time, but you shouldn't forget that we are always talking about people and specifically of people under difficult circumstances
+T9	CounterNarrativeC 11 12	n
+#3	AnnotatorNotes T9	How do you know it's illegal immigration?

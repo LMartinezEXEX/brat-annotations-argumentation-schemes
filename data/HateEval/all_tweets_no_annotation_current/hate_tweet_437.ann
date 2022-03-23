@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 207 281	Proposal being “studied” by US bt helping Syrians return desirable for all
+A1	QuadrantType T1 fact
+T2	Premise2Justification 68 205	Big difference between Syrian #refugee in Lebanon &amp; Syrian migrant in EU.No need for UN approval; they are irrelevant/may be obstacle
+A2	QuadrantType T2 fact
+T3	pivot 91 97	Syrian
+T4	pivot 249 256	Syrians
+T5	CounterNarrativeA 302 303	d
+#1	AnnotatorNotes T5	It cannot be desirable for someone who has decided to leave to be forced to return. Also, it violates the human right to migrate.
+T6	CounterNarrativeC 303 304	H
+#2	AnnotatorNotes T6	What would be the difference between one and the other? Besides the fact that some of them are in your country and the others are not?
+R1	related Arg1:T4 Arg2:T3	

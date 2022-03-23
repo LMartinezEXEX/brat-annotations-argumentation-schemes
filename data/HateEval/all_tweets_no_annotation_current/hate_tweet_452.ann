@@ -1,0 +1,14 @@
+T1	Premise1Conclusion 54 88	refugees have committed any crimes
+A1	QuadrantType T1 fact
+T2	Premise2Justification 90 136	but the evidence is... https://t.co/fvkpCri9eA
+T3	Collective 54 62	refugees
+T4	Property 63 88	have committed any crimes
+T5	pivot 82 88	crimes
+T6	pivot 98 106	evidence
+T7	CounterNarrativeC 113 136	https://t.co/fvkpCri9eA
+#1	AnnotatorNotes T7	The evidence is what? a broken link?
+T8	CounterNarrativeB 0 1	Y
+#2	AnnotatorNotes T8	I simply cannot understand why crimes committed by foreigners are "worth more" than those committed by people born here.
+R1	related Arg1:T6 Arg2:T5	
+T9	CounterNarrativeA 24 88	would have us believe that no refugees have committed any crimes
+#3	AnnotatorNotes T9	You would have us believe that the refugees have committed crimes. But there is no evidence

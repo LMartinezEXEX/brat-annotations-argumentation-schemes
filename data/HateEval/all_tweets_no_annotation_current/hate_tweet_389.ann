@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 74 147	Please shut them down & arrest/prosecute all criminal Governors & Mayors.
+A1	QuadrantType T1 policy
+T2	Premise2Justification 36 72	Sanctuary Cities are against the Law
+A2	QuadrantType T2 fact
+T3	pivot 57 72	against the Law
+T4	pivot 119 127	criminal
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 238 239	o
+#1	AnnotatorNotes T5	Against which law exactly?
+T6	CounterNarrativeA 237 238	C
+#2	AnnotatorNotes T6	Or maybe we should review the law in order to understand why this is happening. Besides being more economical, it would be less violent.

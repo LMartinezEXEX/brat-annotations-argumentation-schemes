@@ -1,0 +1,15 @@
+T1	Premise2Justification 14 82	I bit my toungue when l heard Syrian refugees complain about Rothsey
+T2	Premise1Conclusion 83 140	then again , maybe someone can swop them with a high rise
+R7	firstOrder Arg1:T2 Arg2:T1	
+T8	Collective 44 59	Syrian refugees
+T9	Property 60 82	complain about Rothsey
+A1	QuadrantType T2 policy
+A2	QuadrantType T1 fact
+T10	CounterNarrativeA 1 2	D
+#1	AnnotatorNotes T10	Everyone has a right to complain about whatever they want. Nobody forces you to listen to anything. That doesn't mean we can "swop them with a high rise
+T11	CounterNarrativeC 2 3	a
+#2	AnnotatorNotes T11	Who complained about Rothsey? What did they said? Where is your source? Is this real or are you making this up?
+T12	CounterNarrativeB 4 5	l
+#3	AnnotatorNotes T12	Syrian refugees are people who had a very bad time because of the war and are very grateful to have the opportunity to start again. You just want to defame them
+T3	pivot 44 59	Syrian refugees
+T4	pivot 119 123	them

@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 113	How far can you push working people ? a Billion to Syrian refugees and tax credits which top up peoples wages cut
+T2	Premise1Conclusion 116 139	our children starve too
+T3	Collective 51 66	Syrian refugees
+T4	Property 96 113	peoples wages cut
+T5	pivot 96 113	peoples wages cut
+T6	pivot 116 139	our children starve too
+R1	related Arg1:T5 Arg2:T6	
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T7	CounterNarrativeA 0 1	H
+#1	AnnotatorNotes T7	The money that states spend on refugees is really low and is not the cause of children starving. Have you thought about other possible causes for this like war and military budgets, tax exemptions for multinational companies and allowance for companies to cut wages and fire employees at will? 
+T8	CounterNarrativeB 1 2	o
+#2	AnnotatorNotes T8	How do you know that people's wages cut are caused by Syrian refugees? Seems capricious to me
+T9	CounterNarrativeC 2 3	w
+#3	AnnotatorNotes T9	A billion to Syrian refugees? Really? What is you source?

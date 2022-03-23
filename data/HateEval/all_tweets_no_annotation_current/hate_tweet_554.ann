@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 75	Mo Brooks: The 15M Illegals in U.S. Give Blue States 20 Congressional Seats
+T2	Premise1Conclusion 82 129	#WalkAWay #NoDACA #NoAmnesty #DrainTheDeepState
+A1	QuadrantType T2 policy
+T3	CounterNarrativeC 137 138	l
+#1	AnnotatorNotes T3	illegals don't vote, you know that, right?
+T4	CounterNarrativeA 135 136	a
+#2	AnnotatorNotes T4	And how do you think building a wall will stop people ALREADY INSIDE from doing the wrong thing?
+T5	Collective 19 27	Illegals
+T6	Property 36 75	Give Blue States 20 Congressional Seats
+T7	CounterNarrativeB 137 138	l
+#3	AnnotatorNotes T7	And how is it that people who do not vote "give congressional seats" to a political party?

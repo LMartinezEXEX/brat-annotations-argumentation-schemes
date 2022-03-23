@@ -1,0 +1,17 @@
+T1	Collective 185 193	refugees
+T2	Premise1Conclusion 165 272	the majority of the refugees are not actually refugees they are economic migrants trying to get into Europe
+T3	Premise2Justification 10 151	young fighting age men be the vast majority of the ones escaping a war &amp; not those who cannot fight like women, children, and the elderly
+R1	firstOrder Arg1:T2 Arg2:T3	
+T4	Collective 57 80	the ones escaping a war
+A1	QuadrantType T3 fact
+A2	QuadrantType T2 fact
+T11	CounterNarrativeA 299 300	n
+#1	AnnotatorNotes T11	It is not true that the majority of the refugees are not refugees just because they are young or they are not children or elderly.
+T12	CounterNarrativeB 298 299	q
+#2	AnnotatorNotes T12	It is not true that refugees are not actually refugees but economic migrants trying to get into Europe
+T10	Property 194 272	are not actually refugees they are economic migrants trying to get into Europe
+T13	CounterNarrativeC 297 298	Y
+#3	AnnotatorNotes T13	Do you have proof to support that young fighting age men are the vast majority of the ones escaping a war and not those who cannot fight like women, children and the elderly?
+T5	pivot 57 80	the ones escaping a war
+T6	pivot 185 193	refugees
+R2	related Arg1:T6 Arg2:T5	

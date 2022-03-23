@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 0 86	The illegal immigration problem was started by, continued and made worse by government
+A1	QuadrantType T1 fact
+T2	Premise2Justification 89 202	100 years ago we had free and open borders to the south and supply and demand for labor determined how many came.
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 200 201	e
+#1	AnnotatorNotes T3	Are you suggesting that the government should eliminate immigration, or that it should stop controlling it altogether? No to everything. Both decisions would have adverse consequences.
+T4	CounterNarrativeC 199 200	m
+#2	AnnotatorNotes T4	It's not true that 100 years ago we had free and open borders. Actually, the southern borders has been involved in conflicts since the beginning of time.

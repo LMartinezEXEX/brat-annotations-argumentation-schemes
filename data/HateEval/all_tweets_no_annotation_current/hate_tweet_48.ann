@@ -1,0 +1,16 @@
+T1	Premise2Justification 14 110	Lots of USA citizens don’t even earn that much money while working to try to support themselves.
+T2	Premise1Conclusion 112 139	Refugees need to go Home!!!
+T3	Collective 112 120	Refugees
+T4	Property 46 66	earn that much money
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy
+R1	secondOrder Arg1:T2 Arg2:T1	
+T5	CounterNarrativeA 162 163	N
+#1	AnnotatorNotes T5	USA citizen earnings don't depend on refugees. Why don't demand better wages instead of blaming other people?
+T6	CounterNarrativeB 161 162	K
+#2	AnnotatorNotes T6	The majority of refugees is not allowed to work and the ones who do work get paid very very little.
+T7	CounterNarrativeC 160 161	a
+#3	AnnotatorNotes T7	Most USA citizens earn much much more than immigrants and refugees who accept low paid works that others won't because they are desperate
+T8	pivot 112 120	Refugees
+T9	pivot 51 60	that much
+R2	related Arg1:T9 Arg2:T8	

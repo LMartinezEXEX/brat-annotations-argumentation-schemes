@@ -1,0 +1,17 @@
+T1	Premise1Conclusion 136 228	That is likely a contributor to Dems not being able to win Hispanic votes by a bigger margin
+A1	QuadrantType T1 fact
+T2	Premise2Justification 46 135	59 % of Hispanics surveyed here think most immigrants are in the United States illegally.
+A2	QuadrantType T2 fact
+T3	Premise2Justification 0 45	Democrats need to change that Hispanic split:
+A3	QuadrantType T3 policy
+T5	Property 100 134	are in the United States illegally
+T6	pivot 195 203	Hispanic
+T7	pivot 54 63	Hispanics
+R1	related Arg1:T7 Arg2:T6	
+T8	CounterNarrativeA 241 242	/
+#1	AnnotatorNotes T8	If immigrants turn against those who defend them, then they have more freedom than those who oppose them would have us believe. I just hope it doesn't end up hurting them.
+T4	Collective 89 99	immigrants
+T9	CounterNarrativeB 243 244	5
+#2	AnnotatorNotes T9	Well, I need to see the statistics that support that idea... In the meantime, it's just a rumor
+T10	CounterNarrativeC 244 245	F
+#3	AnnotatorNotes T10	I understand that the parties have a responsibility to their voters, but when the voters are convinced of a lie, it is a different matter...

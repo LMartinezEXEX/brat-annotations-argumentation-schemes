@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 165	More Migrants from Terrorist Nation Enter Texas Via Mexico This Week How many terrorists have already successfully crossed n2 the USA from Mexico? We will never know
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 168 195	BuildTheWall #BuildThatWall
+A2	QuadrantType T2 policy
+T3	Collective 5 13	Migrants
+T4	Property 14 58	from Terrorist Nation Enter Texas Via Mexico
+T5	CounterNarrativeA 226 227	#
+#1	AnnotatorNotes T5	Maybe there are better ways to control the entry of criminals without prohibiting access to decent people, don't you think?
+T6	CounterNarrativeB 227 228	T
+#2	AnnotatorNotes T6	What is a "terrorist nation"? Everywhere are good people and bad people, would you say that your country is a "terrorist nation"? cause I don't think so
+T7	CounterNarrativeC 229 230	u
+#3	AnnotatorNotes T7	How can you say " we will never know" and at the same time assure that something is going on? It's contradictory....

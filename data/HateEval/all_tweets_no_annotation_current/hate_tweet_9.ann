@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 133	@RealJamesWoods And this is what we have to look forward to. We made the Arab world RICH while a few here got paid! Now we have this!
+T2	Premise1Conclusion 134 148	#BuildThatWall
+T3	Collective 73 77	Arab
+T4	Property 84 88	RICH
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	What does the arab world have to do with building a wall in the Mexico border?
+T6	CounterNarrativeB 1 2	R
+#2	AnnotatorNotes T6	Most arabs didn't got rich. All the contrary. Least of  the least the ones migrating or asking asylum
+T7	CounterNarrativeC 3 4	a
+#3	AnnotatorNotes T7	Do you have any evidence supporting that we made the arab world rich while a few here got paid?

@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 137	Italy is the world’s 9th economy and is on a trajectory that in the long run will end in an economic implosion due to demographic decline
+T2	Premise1Conclusion 140 219	not solvable by forced mass immigration The debt ratio will be 200 percent by..
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T4	pivot 184 194	debt ratio
+T5	pivot 92 110	economic implosion
+R1	related Arg1:T5 Arg2:T4	
+T3	CounterNarrativeC 226 227	:
+#1	AnnotatorNotes T3	Italy is on a trajectory to the economic implosion according to whom? It's just an invention to blame the immigrants.
+T6	CounterNarrativeA 227 228	/
+#2	AnnotatorNotes T6	What if the economy is bad? Are we going to close the door to everyone just because of that? I don't see any relation, or how that would help.

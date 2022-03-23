@@ -1,0 +1,8 @@
+T1	Premise2Justification 17 92	See 'Canada in Decay' by Ricardo Duchesne for the similar reality of Canada
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 93 126	We are not nations of immigrants.
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	There is nothing worse to understand the reality of our country than watching a documentary about what is happening in another...
+T4	CounterNarrativeC 3 4	m
+#2	AnnotatorNotes T4	Wasn't there a serious documentary to watch?

@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 59	ANY DACA legalization will turn FL & other five states blue
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 61 110	If Texas goes blue, it's over. #EndChainMigration
+A2	QuadrantType T2 policy
+T3	pivot 75 79	blue
+T4	pivot 55 59	blue
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 133 134	2
+#1	AnnotatorNotes T5	If a political decision changes the vote of a state, it is because those people believe that the right thing is being done. Don't try to twist things in your favor....
+T6	CounterNarrativeC 134 135	2
+#2	AnnotatorNotes T6	What would be the repercussions of legalizing something that already happens and does no harm to anyone? I think you are being paranoid

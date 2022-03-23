@@ -1,0 +1,16 @@
+T1	Premise2Justification 0 65	The #AmericanCommunists who live in our country want open borders
+T2	Premise1Conclusion 66 96	#DrainTheSwamp#StopTheInvasion
+T4	pivot 53 65	open borders
+T5	pivot 88 96	Invasion
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy
+T6	CounterNarrativeC 119 120	p
+#1	AnnotatorNotes T6	So if you don't agree with closing the borders you are a communist? Really?
+T7	CounterNarrativeFree 118 119	F
+#2	AnnotatorNotes T7	As far as I know there is currently no invasion in the US. All the contrary, the US have supported many invasions around the world
+T8	CounterNarrativeA 117 118	a
+#3	AnnotatorNotes T8	So your argument is that if #AmerivanCommunist want something you want the opposite? That means that if they want people to feed you want people to starve?
+T3	Collective 5 23	AmericanCommunists
+T9	Property 48 65	want open borders
+T10	CounterNarrativeB 119 120	p
+#4	AnnotatorNotes T10	So according to you, everyone who wants open borders and oppose to massive deportations is a communist?

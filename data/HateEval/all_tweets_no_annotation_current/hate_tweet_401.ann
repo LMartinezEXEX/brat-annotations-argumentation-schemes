@@ -1,0 +1,13 @@
+T1	Premise2Justification 151 255	Americans Are Sick Of Politicians Caring More About Other Countries Citizens Than American Citizens http
+T2	Premise1Conclusion 64 150	Americans Want Our Wall And Immigration Reform! We want Illegal Immigrants To Go Home.
+T3	pivot 64 73	Americans
+T4	pivot 151 160	Americans
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	Just because "Americans" want something doesn't mean the government should do it.The president should be looking out for what is best for our country.
+T6	CounterNarrativeC 1 2	S
+#2	AnnotatorNotes T6	You say "Americans" want something. Have you asked them all, or you're just assuming everyone is like you?
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy
+T7	Premise1Conclusion 0 63	@SenateGOP @HouseGOP Are Cowards For Not Standing Behind @POTUS
+A3	QuadrantType T7 policy
+R1	related Arg1:T4 Arg2:T3	

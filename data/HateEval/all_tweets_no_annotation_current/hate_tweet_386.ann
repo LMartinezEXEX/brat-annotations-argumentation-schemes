@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 17 91	The increase of gun ownership has led to an overall decrease in homicides.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 92 255	And increasing intolerance towards who? People smugglers? Drug cartel members? People who cheat the system essentially flip the bird to legal immigrants waiting in
+A2	QuadrantType T2 value
+T3	pivot 21 36	increase of gun
+T4	pivot 96 118	increasing intolerance
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	Just because the victim is a criminal does not make it not a homicide. They deserve a fair trial and to serve time for their actions, just like any other citizen who has made a mistake.
+T6	CounterNarrativeC 1 2	W
+#2	AnnotatorNotes T6	Intolerance is intolerance. We cannot move the country forward by turning back the clock to the far west.

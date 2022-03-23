@@ -1,0 +1,17 @@
+T5	Collective 67 83	illegal migrants
+T1	Premise2Justification 16 83	Pl save Delhi from becoming a SLUM CITY&amp;hub of illegal migrants
+T2	Premise1Conclusion 84 145	Pl take LG help in removing encroachments&amp;eviction of IMs
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 policy
+T8	Property 24 55	Delhi from becoming a SLUM CITY
+T9	Collective 142 145	IMs
+R2	firstOrder Arg1:T2 Arg2:T1	
+T10	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T10	It's not true that to save Delhi from becoming a slum city it's necessary to remove encroachments and evict migrants
+T11	CounterNarrativeB 1 2	A
+#2	AnnotatorNotes T11	Illegal migrants are not causing Delhi to become a slum city.
+T12	CounterNarrativeC 3 4	v
+#3	AnnotatorNotes T12	We don't need to save Delhi from anything except xenophobia
+T3	pivot 67 83	illegal migrants
+T4	pivot 142 145	IMs
+R1	related Arg1:T3 Arg2:T4	

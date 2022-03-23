@@ -1,0 +1,16 @@
+T2	Authority 0 5	Trump
+T3	Collective 17 28	immigration
+T4	Property 39 58	will destroy Europe
+T1	Premise1Conclusion 76 210	We alive a new president which makes a good job for USA and European rulers have to be his housedogs and make everything what he like.
+T5	Premise2Justification 0 74	Trump means that immigration to Europe will destroy Europe,hes again right
+A1	QuadrantType T1 policy
+A2	QuadrantType T5 fact
+T6	pivot 0 5	Trump
+T7	pivot 87 100	new president
+R1	related Arg1:T6 Arg2:T7	
+T8	CounterNarrativeA 233 234	k
+#1	AnnotatorNotes T8	Trump is a xenophobous and because of that European rulers should oppose him and do the opposite to what he likes
+T9	CounterNarrativeB 232 233	G
+#2	AnnotatorNotes T9	The only thing that is destroying Europe is xenophobia, not immigration. Immigrants are hard working people that just want to progress along with the community where they live
+T10	CounterNarrativeC 231 232	f
+#3	AnnotatorNotes T10	Trump is a xenophobic president that blames immigration for all the problems he is not capable of solving. He's definitely not right about Europe

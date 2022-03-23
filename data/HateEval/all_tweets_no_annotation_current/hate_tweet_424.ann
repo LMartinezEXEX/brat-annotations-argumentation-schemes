@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 158 205	He and his party will be the death of a country
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 157	@JustinTrudeau wants to bring in more of these people into #Canada. He is indifferent to refugees and terrorists coming to his country under the same banner.
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 240 241	t
+#1	AnnotatorNotes T3	Why do you suppose that he are indifferent to immigrants who are criminals and those who are not? or do you suppose that all immigrants are criminals and that is why you are concerned about immigration? if so, it is clear that you are a xenophobe.
+T4	CounterNarrativeA 242 243	o
+#2	AnnotatorNotes T4	How would bringing more people into a country be the death of it? If anything, it is precisely the opposite

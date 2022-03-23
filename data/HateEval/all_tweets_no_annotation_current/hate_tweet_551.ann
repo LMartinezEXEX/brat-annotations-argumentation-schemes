@@ -1,0 +1,14 @@
+T1	Premise2Justification 0 65	Under Trump, Muslim refugees from Burma (Rohingya) are numero uno
+A1	QuadrantType T1 fact
+T2	Premise2Justification 155 270	Islamists never assimilate for the simple reason their religion does not PERMIT assimilation into other societies..
+A2	QuadrantType T2 fact
+T3	Premise1Conclusion 111 154	Why the hell we importing trouble for USA ?
+A3	QuadrantType T3 policy
+T4	Collective 13 28	Muslim refugees
+T5	Property 165 268	never assimilate for the simple reason their religion does not PERMIT assimilation into other societies
+T6	CounterNarrativeA 271 272	P
+#1	AnnotatorNotes T6	Just because Islamists live their lives differently does not make them a problem. 
+T7	CounterNarrativeB 272 273	e
+#2	AnnotatorNotes T7	What do you call assimilation? Do you want everyone to speak your language, eat your food, and believe in your religion? That's not how it works...
+T8	CounterNarrativeC 273 274	r
+#3	AnnotatorNotes T8	It is not true that Muslims do not assimilate. In any case, the cultures of other countries are too intolerant with them...

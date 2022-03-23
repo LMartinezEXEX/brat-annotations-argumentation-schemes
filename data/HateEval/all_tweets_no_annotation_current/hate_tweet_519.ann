@@ -1,0 +1,15 @@
+T1	Premise2Justification 12 190	American taxpayers are subsidizing labor costs of American employers who hire immigrants, particularly if the employers are not paying a living wage or providing health benefits.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 191 255	If hiring immigrants puts Americans out of work, we're paying th
+A2	QuadrantType T2 fact
+T3	pivot 90 100	immigrants
+T4	pivot 201 211	immigrants
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 90 100	immigrants
+T6	Property 12 100	American taxpayers are subsidizing labor costs of American employers who hire immigrants
+T7	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T7	I thought you demanded productive immigrants. How come it bothers you now that they work?
+T8	CounterNarrativeB 1 2	A
+#2	AnnotatorNotes T8	They work for what they are paid. They are earning it. If your problem is with paying taxes, that has nothing to do with immigrants...
+T9	CounterNarrativeC 2 3	l
+#3	AnnotatorNotes T9	I didn't see this anywhere. Are you sure you're not making it up?

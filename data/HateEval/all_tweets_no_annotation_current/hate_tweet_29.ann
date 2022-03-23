@@ -1,0 +1,11 @@
+T1	Premise2Justification 27 100	How Even Ordinary People Are Beginning to Take Action Against Immigration
+A1	QuadrantType T1 fact
+T5	CounterNarrativeFree 133 134	S
+#1	AnnotatorNotes T5	Have you ever considered that maybe ordinary people might be wrong?
+T6	CounterNarrativeFree 132 133	W
+#2	AnnotatorNotes T6	Fortunately a lot of extra-ordinary people still show solidarity with immigrants
+T7	CounterNarrativeC 131 132	3
+#3	AnnotatorNotes T7	Do you have any kind of proof that ordinary people are beginning to take action against immigration? Because I believe that ordinary people are tired of xenophobia.
+T3	Premise1Conclusion 0 24	Europeans Are Waking Up!
+T2	CounterNarrativeA 122 123	o
+#4	AnnotatorNotes T2	Ordinary people taking action against poor people that comes from very difficult situations only means that europeans are waking up to fascism

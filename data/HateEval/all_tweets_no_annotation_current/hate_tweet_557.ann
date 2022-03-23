@@ -1,0 +1,12 @@
+T1	Premise2Justification 84 200	More refugees, more weapons for NATO means less welfare and fine life- OR: No refugees, no weapons means happy life.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 83;201 241	Where Europe will go ? The people will vote different, because they have to decide: I think they will decide the last option
+A2	QuadrantType T2 value
+T3	Collective 89 97	refugees
+T4	Property 121 153	means less welfare and fine life
+T5	CounterNarrativeA 257 258	g
+#1	AnnotatorNotes T5	Do you think everyone thinks like you? I doubt that most of them vote as you say...
+T6	CounterNarrativeB 258 259	0
+#2	AnnotatorNotes T6	I don't see the relationship between more refugees and less welfare and fine life. What are you afraid of?
+T7	CounterNarrativeC 172 173	n
+#3	AnnotatorNotes T7	I don't understand why more refugees equals more weapons, and why no refugees would mean a happy life. Happy for whom? For xenophobes who believe that the problems of neighboring countries don't matter?

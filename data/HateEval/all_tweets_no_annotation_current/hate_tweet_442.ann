@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 34	another German killed and injuries
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 35 76	now will Germany act and stop immigration
+A2	QuadrantType T2 policy
+T3	pivot 8 14	German
+T4	pivot 44 51	Germany
+T5	CounterNarrativeA 73 74	i
+#1	AnnotatorNotes T5	Don't get the connection. Who said the murderer was an immigrant?
+T6	CounterNarrativeC 74 75	o
+#2	AnnotatorNotes T6	Who, when, where and how? What a poor source...
+T7	Collective 65 76	immigration
+T8	Property 15 34	killed and injuries
+R1	related Arg1:T4 Arg2:T3	
+T9	CounterNarrativeB 0 1	a
+#3	AnnotatorNotes T9	Not all immigrants are murderers. We should be thinking of more human (and effective) ways to control crime, rather than stopping immigration.

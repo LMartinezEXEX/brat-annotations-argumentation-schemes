@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 64 131	better NOT take #AugustRecess until No #IllegalAliens are released!
+A1	QuadrantType T1 policy
+T2	Premise2Justification 151 232	#BuildTheWall #ZeroTolerance #SendThemBack  #DeportThemAll do it or u r #TheSwamp
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 245 246	m
+#1	AnnotatorNotes T3	What exactly does "The Swamp" mean? That's the worst threat ever
+T4	CounterNarrativeA 244 245	a
+#2	AnnotatorNotes T4	Are you threatening politicians for not doing exactly what YOU want? Maybe you are "the swamp"
