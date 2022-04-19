@@ -1,1 +1,6 @@
-T1	Collective 82 88	Aliens
+T1	Premise1Conclusion 0 18	Human Trafficking:
+A1	QuadrantType T1 fact
+T2	Premise2Justification 19 88	Border Patrol Agents Take Down 'Stash Houses' with 40+ Illegal Aliens
+A2	QuadrantType T2 policy
+T3	Collective 74 88	Illegal Aliens
+T4	Property 0 17	Human Trafficking

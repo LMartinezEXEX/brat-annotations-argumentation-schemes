@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 56	The blue wave is coming if we don't build that damn wall
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 58 72	#BuildThatWall
+A2	QuadrantType T2 policy

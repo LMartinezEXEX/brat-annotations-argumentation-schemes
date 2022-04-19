@@ -4,3 +4,5 @@ T2	Premise1Conclusion 79 92	#SendThemBack
 A2	QuadrantType T2 policy
 T3	CounterNarrativeC 77 78	.
 #1	AnnotatorNotes T3	Actually, I don't know, and obviously, I don't agree. So, speak for yourself
+T4	CounterNarrativeA 76 77	e
+#2	AnnotatorNotes T4	"Hey, this guy says we should send them back, maybe we should"... Is that what you expect to happen? Well, I'm sorry, but no.

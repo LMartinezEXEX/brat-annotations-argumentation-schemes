@@ -1,0 +1,4 @@
+T1	Premise2Justification 14 88	IT'S 'NICE' OF 'YOU' TO 'ADMIT' THAT '#Labour VOTERS' DO NOT HAVE ANY 'ID'
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 87 139	'I 'WONDER' WHY 'THAT' COULD 'BE'#refugeesNOTwelcome
+A2	QuadrantType T2 policy

@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 111 134	GOOD!!! ONLY THE BEST!!
+A1	QuadrantType T1 value
+T2	Premise1Conclusion 135 166	Welfare leeches Go back home!!!
+A2	QuadrantType T2 policy
+T3	Premise2Justification 0 69	White House wants to make it harder for legal migrants to be citizens
+A3	QuadrantType T3 fact
+T4	Collective 40 54	legal migrants
+T5	Property 135 150	Welfare leeches

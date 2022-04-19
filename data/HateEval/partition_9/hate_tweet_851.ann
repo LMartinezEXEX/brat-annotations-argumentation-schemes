@@ -11,3 +11,5 @@ T7	CounterNarrativeC 82 83	P
 #1	AnnotatorNotes T7	And how many migrants was victimized by Americans? Your information is biased
 T8	CounterNarrativeB 81 82	O
 #2	AnnotatorNotes T8	Just because one immigrant is a criminal does not mean they all are. How many American criminals are there, and no one thinks that all Americans are criminals
+T9	CounterNarrativeA 79 80	e
+#3	AnnotatorNotes T9	It is not fair to fight crimes committed by SOME immigrants by deporting ALL of them. We should consider other ways

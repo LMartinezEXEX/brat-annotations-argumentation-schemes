@@ -4,3 +4,5 @@ T2	Premise1Conclusion 93 120	#SendThemBack #AmericaFirst
 A2	QuadrantType T2 policy
 T3	CounterNarrativeC 91 92	?
 #1	AnnotatorNotes T3	Because there are no invaders, perhaps? The term you are looking for is immigrants, and as far as I know, they are welcome in Canada.
+T4	CounterNarrativeA 90 91	y
+#2	AnnotatorNotes T4	Just because Canada does things differently, should we imitate them? It's kind of funny, because we never try to imitate the things that are actually right...

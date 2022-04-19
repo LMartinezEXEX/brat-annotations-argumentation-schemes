@@ -1,5 +1,7 @@
-T1	Premise2Justification 14 29	1 illegal alien
-T2	Premise1Conclusion 30 83	who opened the floodgates for millions more to follow
-T3	Collective 1 12	BarackObama
-A1	QuadrantType T1 value
-A2	QuadrantType T2 fact
+T1	Premise2Justification 0 84	@BarackObama, 1 illegal alien who opened the floodgates for millions more to follow.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 85 115	#BuildThatWall #DeportIllegals
+A2	QuadrantType T2 policy
+T3	pivot 16 23	illegal
+T4	pivot 107 115	Illegals
+R1	related Arg1:T3 Arg2:T4	

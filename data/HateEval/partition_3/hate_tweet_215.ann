@@ -1,0 +1,6 @@
+T1	Premise2Justification 23 127	Dark-side of OpenBordersðŸ‘‰Greek police arrest 8 migrants (6 Afghans, 2 Pakistani) for killing migrant.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 127 266	What awaits Europe? Why expose Europeans to multicult madness? Afghans?  Many come from violent cultures, bringing “tribal clashes” w-them.
+A2	QuadrantType T2 fact
+T3	Collective 73 81	migrants
+T4	Property 215 231	violent cultures

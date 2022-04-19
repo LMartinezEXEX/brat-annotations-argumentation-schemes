@@ -7,3 +7,5 @@ T4	pivot 50 54	Home
 R1	related Arg1:T3 Arg2:T4	
 T5	CounterNarrativeC 97 98	"
 #1	AnnotatorNotes T5	And what's the problem with that? First they learned to speak your language, and then they went back to their country. I thought those were the things they asked for.
+T6	CounterNarrativeA 96 97	l
+#2	AnnotatorNotes T6	Just because they are trying to get ahead is not a good reason to run someone out of the country. Quite the opposite, in fact.

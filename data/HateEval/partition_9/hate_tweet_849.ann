@@ -7,3 +7,9 @@ T4	Property 214 246	destroy the local peoples life's
 T5	pivot 84 92	children
 T6	pivot 175 182	parents
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeA 254 255	e
+#1	AnnotatorNotes T7	Ok, so, we are going to ignore the helpless kids just because you don't like their parents? That's not ok
+T8	CounterNarrativeB 253 254	n
+#2	AnnotatorNotes T8	What do you call " to destroy the local people's lives"? Speaking a different language in the street? Don't make me laugh
+T9	CounterNarrativeC 252 253	a
+#3	AnnotatorNotes T9	Well, yeah it's pretty much about the little children. What about that? I don't think it's wrong

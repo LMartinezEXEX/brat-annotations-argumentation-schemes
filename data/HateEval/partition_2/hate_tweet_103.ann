@@ -1,6 +1,10 @@
-T1	pivot 39 55	HumanTrafficking
-T2	pivot 152 169	Human trafficking
-R1	related Arg1:T1 Arg2:T2	
-T3	Premise2Justification 0 75	A common occurrence at our borders is #HumanTrafficking and #SexTraffickimg
-T4	Premise1Conclusion 171 225	#TraffickStop #BulldTheWall #EndDACA#EndChainMigration
-T5	Collective 122 127	#DACA
+T1	Premise2Justification 0 171	A common occurrence at our borders is #HumanTrafficking and #SexTraffickimg. Did you know that there are many cases where #DACA recipients arrested for Human trafficking ?
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 185 225	#BulldTheWall #EndDACA#EndChainMigration
+A2	QuadrantType T2 policy
+T3	Collective 123 127	DACA
+T4	Property 152 169	Human trafficking
+T5	Property 61 75	SexTraffickimg
+T6	pivot 203 207	DACA
+T7	pivot 123 127	DACA
+R1	related Arg1:T7 Arg2:T6	

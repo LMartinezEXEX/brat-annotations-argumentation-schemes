@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 78	The EU will keep his refugees and dont realize that its a selfkilling programm
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 80 148	Orban is right: Stop the refugees, otherwise the EU will be finished
+A2	QuadrantType T2 policy
+T3	pivot 21 29	refugees
+T4	pivot 105 113	refugees
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 21 29	refugees
+T6	Property 47 78	that its a selfkilling programm

@@ -2,3 +2,7 @@ T1	Premise2Justification 0 19	This is outrageous!
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 21 43	StopIllegalImmigration
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 57 58	a
+#1	AnnotatorNotes T3	What do you mean by outrageous? It' s not even known what you're talking about
+T4	CounterNarrativeA 58 59	t
+#2	AnnotatorNotes T4	Just because you say it's outrageous, should we listen to you? no, thank you

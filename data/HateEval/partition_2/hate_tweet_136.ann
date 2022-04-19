@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 0 161	For all the people holding up signs regarding illegal immigrants...hand them each a bill to pay the cost of how much these people take from the American taxpayer
+A1	QuadrantType T1 policy
+T2	Premise2Justification 162 217	and I bet they would take down their signs and go home!
+A2	QuadrantType T2 fact
+T3	Collective 46 64	illegal immigrants
+T4	Property 108 161	how much these people take from the American taxpayer
+T5	pivot 199 204	signs
+T6	pivot 30 35	signs
+R1	related Arg1:T5 Arg2:T6	

@@ -1,0 +1,7 @@
+T1	Premise2Justification 46 130	With no assimilating, open borders and the diluting of American #values and #culture
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 10 45;132 158	How long before there becomes here? America is becoming there!
+A2	QuadrantType T2 fact
+T3	pivot 101 109	American
+T4	pivot 132 139	America
+R1	related Arg1:T3 Arg2:T4	

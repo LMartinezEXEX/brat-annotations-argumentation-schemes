@@ -11,3 +11,7 @@ T7	CounterNarrativeC 222 223	g
 #1	AnnotatorNotes T7	"on the books" does not mean "correct"
 T8	CounterNarrativeB 221 222	n
 #2	AnnotatorNotes T8	The fact that there are more or less immigrants does not make you pay more or less taxes. That is a fallacy
+T9	CounterNarrativeC 220 221	i
+#3	AnnotatorNotes T9	Do you have any idea how many laws existed 100 years ago that may have made sense at the time, but no longer do? You would be surprised...
+T10	CounterNarrativeA 219 220	s
+#4	AnnotatorNotes T10	You are assuming that the law actually works. The reality is that the "extra burden on taxpayers" is a myth.

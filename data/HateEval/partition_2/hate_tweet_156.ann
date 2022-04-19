@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 40	How Important is Border Security to you?
+T2	Premise1Conclusion 41 156	Vote on a Scale of 10 to 1 HERE and make your wishes known. (10 is Extremely Important, 1 is Not Important at all.)
+A1	QuadrantType T2 policy
+T3	pivot 4 13	Important
+T4	pivot 118 127	Important
+R1	related Arg1:T3 Arg2:T4	

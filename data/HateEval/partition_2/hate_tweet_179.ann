@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 254	This is a couple who just moved on in to Australia and thought if we behave ourselves and involve ourselves in the Community, and have a child here then we will be allowed to stay.Sorry - if that got you in we would be swamped with MILLIONS just like you
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 255 268	#SendThemBack
+A2	QuadrantType T2 policy

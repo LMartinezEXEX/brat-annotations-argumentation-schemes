@@ -1,0 +1,9 @@
+T1	Premise2Justification 16 94	When you have too many people living in one place you are going to get trouble
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 96 217	Sadiq Khan keeps on encouraging more &amp; more people to come. It won't end well immigration has reached a tipping point
+A2	QuadrantType T2 fact
+T3	Collective 178 189	immigration
+T4	Property 87 94	trouble
+T5	pivot 30 45	too many people
+T6	pivot 139 158	more people to come
+R1	related Arg1:T5 Arg2:T6	

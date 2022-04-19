@@ -1,0 +1,4 @@
+T1	Premise2Justification 12 72	These so called dreamers had 5 years to register they didn't
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 74 118	#EndDACA Democrats against American Citizens
+A2	QuadrantType T2 policy

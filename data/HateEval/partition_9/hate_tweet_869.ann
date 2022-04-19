@@ -7,3 +7,5 @@ T4	pivot 133 141	Illegals
 R1	related Arg1:T3 Arg2:T4	
 T5	CounterNarrativeC 252 253	m
 #1	AnnotatorNotes T5	It's not your country, are not your jobs, and it's not your welfare. This country is a democracy, and decisions are not made based on your opinions.
+T6	CounterNarrativeA 251 252	u
+#2	AnnotatorNotes T6	Have you noticed the fact that, if many people vote for those who do the opposite of what you want, it's because those people don't agree with you? The country is not only yours...
