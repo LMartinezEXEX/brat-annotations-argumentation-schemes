@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 178 237	No immigrants should be granted entry that need assistance!
+A1	QuadrantType T1 policy
+T2	Premise2Justification 30 176	America's public assistance, Medicare Medicaid, SS, et al are strained and Americans "benefits" are being cut not even able to maintain status quo
+A2	QuadrantType T2 fact
+T3	Collective 181 191	immigrants
+T4	Property 221 236	need assistance

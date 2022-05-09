@@ -1,0 +1,4 @@
+T1	Premise2Justification 49 65	Inclusion failed
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 11 48;66 79	Its time for the refugees to go home. #sendthemback
+A2	QuadrantType T2 policy

@@ -1,0 +1,6 @@
+T1	Premise2Justification 11 188	Elizabeth Warren's radical agenda to abolish ICE and create open borders must be stopped. Geoff Diehl is the only candidate with a proven record of fighting illegal immigration.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 101 229	Geoff Diehl is the only candidate with a proven record of fighting illegal immigration. VOTE FOR @RepGeoffDiehl FOR SENATE in MA
+A2	QuadrantType T2 policy
+T3	Collective 168 187	illegal immigration
+T4	Property 30 44	radical agenda

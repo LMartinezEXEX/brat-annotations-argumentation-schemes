@@ -1,0 +1,7 @@
+T1	Collective 85 92	refugee
+T2	Property 73 100	'blue state refugee' exodus
+T3	Premise1Conclusion 164 176	Sad story...
+A1	QuadrantType T3 value
+T4	Premise2Justification 1 132	Let the exodus begin... For the high tax states, it is a disaster' (The 'blue state refugee' exodus began a few years ago actually)
+T5	CounterNarrativeFree 161 162	D
+#1	AnnotatorNotes T5	Why did you call "refugees" to the people who migrate from one state to another if they are not escaping from any war? Are you saying that they are not americans?

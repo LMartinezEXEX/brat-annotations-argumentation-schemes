@@ -1,0 +1,12 @@
+T1	Collective 54 64	Immigrants
+T2	Premise1Conclusion 10 86	Time to start firing Judges who dont detain Immigrants so @ICegov can deport
+A1	QuadrantType T2 policy
+T3	Premise2Justification 90 155	If he was detain and not given a bond that Citizen would be alive
+A2	QuadrantType T3 fact
+T4	pivot 47 53	detain
+T5	pivot 100 106	detain
+R1	related Arg1:T5 Arg2:T4	
+T6	CounterNarrativeA 156 157	!
+#1	AnnotatorNotes T6	Most immigrants don't kill people, they have the same proportion of criminals as any other collective in the same situation.       
+T7	CounterNarrativeFree 1 9	AVIACUSA
+#2	AnnotatorNotes T7	It is not the fact that the killer was an immigrant that made him a killer.

@@ -1,0 +1,7 @@
+T1	Premise2Justification 35 157	just 3 months ago African migrants and asylum seekers in Israel were going to be forcibly 'coming back to Africa' as well!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 33	'Israel is coming back to Africa'
+A2	QuadrantType T2 fact
+T3	pivot 11 32	coming back to Africa
+T4	pivot 126 147	coming back to Africa
+R1	related Arg1:T4 Arg2:T3	

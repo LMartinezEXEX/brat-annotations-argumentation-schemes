@@ -1,0 +1,7 @@
+T1	Premise1Conclusion 0 22	"#SendThemHome #NoDACA
+A1	QuadrantType T1 policy
+T2	Premise2Justification 23 98	#TheyAreReturning To Their Home Countries Educated, Healthy & MultiLingual"
+A2	QuadrantType T2 fact
+T3	pivot 50 54	Home
+T4	pivot 10 14	Home
+R1	related Arg1:T3 Arg2:T4	

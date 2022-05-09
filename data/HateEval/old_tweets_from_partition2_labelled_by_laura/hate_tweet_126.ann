@@ -1,0 +1,12 @@
+T4	pivot 106 117	infiltrator
+T5	pivot 180 190	immigrants
+T6	CounterNarrativeFree 282 283	q
+#1	AnnotatorNotes T6	You're so xenophobic that you couldn't list a single reason about why we should be concerned about immigration
+T1	Premise1Conclusion 0 138	India for Indians.Modiji make the EASTERN BORDER TOTALLY SEALED LIKE WEASTERN BORDER so that not a single infiltrator can come to our land
+T2	Premise2Justification 139 259	Those who are talking on behalf of these immigrants must not get support from all of us.Hindus and nationalist   careful
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 281 282	V
+#2	AnnotatorNotes T3	We live in a country that support the free speech and migrats rights too. Are you questioning our democracy?
+T7	Property 106 117	infiltrator
+T8	Collective 180 190	immigrants

@@ -1,0 +1,7 @@
+T1	Premise2Justification 0 39	Watch: Britons protest against Migrants
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 40 61	"Deport all migrants"
+A2	QuadrantType T2 policy
+T3	pivot 31 39	Migrants
+T4	pivot 52 60	migrants
+R1	related Arg1:T3 Arg2:T4	

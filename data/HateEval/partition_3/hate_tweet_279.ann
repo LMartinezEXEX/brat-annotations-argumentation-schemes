@@ -1,0 +1,7 @@
+T1	Premise2Justification 69 124	That was not bought in store! Black market merchandise.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 125 187	Yet Libs want to crack down on legal owners? Typical delusion.
+A2	QuadrantType T2 value
+T3	pivot 92 97	store
+T4	pivot 162 168	owners
+R1	related Arg1:T3 Arg2:T4	

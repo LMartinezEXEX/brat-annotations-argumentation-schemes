@@ -1,0 +1,5 @@
+T1	Collective 62 72	Immigrants
+T2	Premise2Justification 27 60	Hungary belongs to the Hungarians
+A1	QuadrantType T2 fact
+T3	Premise1Conclusion 62 93	Immigrants are not welcome here
+A2	QuadrantType T3 policy

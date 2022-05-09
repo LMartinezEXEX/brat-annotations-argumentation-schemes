@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 113	Orban declares Easterneurope free of refugees. He says that Soros want to make Europe to a multiculturell society
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 60 113	Soros want to make Europe to a multiculturell society
+A2	QuadrantType T2 fact

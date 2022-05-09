@@ -1,0 +1,6 @@
+T1	Collective 6 19	IllegalAliens
+T2	Property 24 35	Lawbreakers
+T3	Premise2Justification 5 36	#IllegalAliens are Lawbreakers!
+A1	QuadrantType T3 fact
+T4	Premise1Conclusion 37 50	#sendthemhome
+A2	QuadrantType T4 policy

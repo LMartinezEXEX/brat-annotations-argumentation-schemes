@@ -5,7 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 65 76	immigration
 T4	pivot 142 153	immigration
 R1	related Arg1:T3 Arg2:T4	
-T5	CounterNarrativeA 125 126	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+T5	CounterNarrativeA 125 126	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
 #1	AnnotatorNotes T5	Just because something hasn't happened yet doesn't mean it can't happen....
 T6	CounterNarrativeC 123 124	”
 #2	AnnotatorNotes T6	Um... maybe, all the countries of the American continent?

@@ -1,0 +1,6 @@
+T1	Premise2Justification 22 128	Illegal Aliens should all be deported along with their entire family NOT, I repeat NOT given free anything
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 132 243	#NoHealthCare #NoHousing #NoFinancialSupport #NoDACA #NoAmnesty #SendThemBack #StopTheInvasion #BuildTheWallNow
+A2	QuadrantType T2 policy
+T3	Collective 22 36	Illegal Aliens
+T4	Property 109 119	given free

@@ -1,0 +1,7 @@
+T1	Premise2Justification 61 143	Do you leave your home's door wide open when you sleep so that anyone can walk in?
+A1	QuadrantType T1 value
+T2	Premise1Conclusion 144 255	Or do you keep it locked so that if someone tries to enter they have to knock so that you can find out who they
+A2	QuadrantType T2 value
+T3	pivot 96 100	open
+T4	pivot 162 168	locked
+R1	related Arg1:T3 Arg2:T4	

@@ -1,0 +1,16 @@
+T1	Collective 96 104	Illegals
+T2	Property 164 234	the extra crime that the illegal or refugees invaders bring to America
+T3	Premise2Justification 96 234	Illegals can reunite back across the border in Mexico! We dont need the extra crime that the illegal or refugees invaders bring to America
+A1	QuadrantType T3 fact
+T4	Premise1Conclusion 65 95	American Citizens need @ICEgov
+A2	QuadrantType T4 policy
+T7	Premise1Conclusion 235 255	#NoDACA #NoVisaLotte
+A3	QuadrantType T7 policy
+T8	CounterNarrativeA 0 1	@
+#3	AnnotatorNotes T8	Using ICE to fight crimes committed by immigrants is probably the least effective way to proceed, as well as being unethical.
+T9	CounterNarrativeB 1 2	S
+#4	AnnotatorNotes T9	Why do we have to believe that immigrants are going to bring "extra crime" to America? You're just another xenophobe on the internet.
+T10	CounterNarrativeC 2 3	e
+#5	AnnotatorNotes T10	The idea that illegal immigrants can reunite back across the border in Mexico is ridiculous. We should not be spending money on policies against rumors.
+T5	pivot 65 73	American
+T6	pivot 227 234	America

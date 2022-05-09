@@ -1,0 +1,7 @@
+T1	Premise2Justification 12 90	Cameron we need a break from u forget benefits we do not want mass immigration
+A1	QuadrantType T1 value
+T2	Premise1Conclusion 92 139	stop immigration and get out of Europe no probs
+A2	QuadrantType T2 policy
+T3	pivot 79 90	immigration
+T4	pivot 97 108	immigration
+R1	related Arg1:T3 Arg2:T4	

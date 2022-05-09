@@ -1,0 +1,5 @@
+T1	Premise2Justification 17 69	Someone really wants these "migrants" in the country
+T2	Premise1Conclusion 137 188	What kind of people would destroy their own people?
+T3	Collective 45 53	migrants
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 value
