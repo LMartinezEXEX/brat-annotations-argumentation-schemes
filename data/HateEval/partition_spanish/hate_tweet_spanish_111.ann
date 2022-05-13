@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 51	Otras voces: ¿Una sudaca y un discapacitado juntos?
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 52 83	Por los papeles, o por la pasta
+A2	QuadrantType T2 fact

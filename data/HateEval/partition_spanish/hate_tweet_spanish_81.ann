@@ -1,0 +1,4 @@
+T1	Premise2Justification 46 134	@realDonaldTrump dijo que sus comentarios en campaña son nada comparados con la realidad
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 72 134	sus comentarios en campaña son nada comparados con la realidad
+A2	QuadrantType T2 fact

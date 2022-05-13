@@ -1,0 +1,4 @@
+T1	Premise2Justification 31 78	Los inmigrantes en hostales, a pensión completa
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 80 117	y los españoles durmiendo en el coche
+A2	QuadrantType T2 fact

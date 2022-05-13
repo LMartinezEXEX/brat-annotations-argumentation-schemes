@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 24	Algo se pudre en el Perú
+A1	QuadrantType T1 fact
+T2	Premise2Justification 27 93	Es el caos organizado ,surrealista ,subsahariano nuestra realidad.
+A2	QuadrantType T2 fact
+T3	Collective 63 75	subsahariano
+T4	Property 33 48	caos organizado

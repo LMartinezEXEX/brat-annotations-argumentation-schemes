@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 54 100	And you want open borders and more immigration
+A1	QuadrantType T1 policy
+T2	Premise2Justification 122 182	seven masked illegal immigrants storm jewelry store in Texas
+A2	QuadrantType T2 fact
+T3	Collective 143 153	immigrants
+T4	pivot 143 153	immigrants
+T5	pivot 89 100	immigration
+R1	related Arg1:T4 Arg2:T5	

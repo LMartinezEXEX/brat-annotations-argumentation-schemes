@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 67	Where are the Women and Children the Dems are always Bitchin about?
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 68 126	#NoIllegals #NoDACA #NoChainMigration #AmericanPeopleFirst
+A2	QuadrantType T2 policy

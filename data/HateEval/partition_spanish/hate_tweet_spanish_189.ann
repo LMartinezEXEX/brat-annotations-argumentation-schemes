@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 83	Este es el tipo de inmigración que deja muy mal parado al resto de los venezolanos.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 84 97	Desgraciados!
+A2	QuadrantType T2 fact

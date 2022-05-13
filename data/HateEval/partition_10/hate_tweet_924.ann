@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 64	#Immigrants Should Not Be Public Charges Burdening U.S Taxpayers
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 65 99	if they need welfare-#SendThemBack
+A2	QuadrantType T2 policy
+T3	Collective 1 11	Immigrants
+T4	Property 26 40	Public Charges
+T5	pivot 78 85	welfare
+T6	pivot 26 40	Public Charges
+R1	related Arg1:T6 Arg2:T5	

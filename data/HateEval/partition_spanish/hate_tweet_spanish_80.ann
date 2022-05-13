@@ -1,0 +1,7 @@
+T1	Premise2Justification 0 143	El mensaje de Carmena q animaba a asaltar la valla de Melilla como fuera  Los Cuerpos de Seguridad están desbordados. Y la asistencia colapsada
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 145 256	Los asaltos violentos a la valla de Ceuta y Melilla son un gran problema,pero hay políticos q animan a hacerlos
+A2	QuadrantType T2 fact
+T3	pivot 169 177	la valla
+T4	pivot 42 50	la valla
+R1	related Arg1:T4 Arg2:T3	

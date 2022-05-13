@@ -1,0 +1,7 @@
+T1	Premise2Justification 48 134	We stand with @ICEgov & @realDonaldTrump against all enemies both foreign and domestic
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 152 285	No more taxpayer-supported dependentsJobs for citizens not invading criminals & their childrenArrest sanctuary officials#BuildTheWall
+A2	QuadrantType T2 policy
+T3	Collective 114 121	foreign
+T4	Property 211 229	invading criminals
+T5	Property 101 108	enemies

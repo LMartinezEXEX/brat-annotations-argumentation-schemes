@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 48	Jihadists in action more reason to #sendthemback
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 35 48	#sendthemback
+A2	QuadrantType T2 policy

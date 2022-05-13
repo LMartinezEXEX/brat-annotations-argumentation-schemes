@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 43	@pablocasado_ y @Albert_Rivera tienen razón
+A1	QuadrantType T1 fact
+T2	Premise2Justification 45 95	los inmigrantes vienen a imponernos sus costumbres
+A2	QuadrantType T2 fact
+T3	Collective 49 60	inmigrantes
+T4	Property 70 95	imponernos sus costumbres

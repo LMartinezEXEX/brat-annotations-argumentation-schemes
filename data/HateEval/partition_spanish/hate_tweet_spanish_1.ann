@@ -1,0 +1,7 @@
+T1	Premise2Justification 0 111	A ver quién paga la factura y cómo se reparten el marrón de dejar inmigrantes ilegales sueltos por sus ciudades
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 112 170	(y que los votantes no de lo hagan pagar dentro de un año)
+A2	QuadrantType T2 fact
+T3	pivot 147 152	pagar
+T4	pivot 12 16	paga
+R1	related Arg1:T4 Arg2:T3	

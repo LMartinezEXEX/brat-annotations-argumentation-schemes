@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 120	"La ""marcha negra"" acelera el paso: más de 40.000 subsaharianos esperan en Marruecos para entrar ilegalmente en España
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 149 278	Okupa Monclovita,...¿Ya tienes pensado donde cobijar a toda esta gente...?Prepara barracas en Moncloa, creo que hay terreno...!!"
+A2	QuadrantType T2 fact
+T3	Collective 52 65	subsaharianos
+T4	Property 92 120	entrar ilegalmente en España

@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 63	En vez de derrochar el dinero en los inmigrantes indocumentados
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 65 101	preocúpese mejor de nuestro ancianos
+A2	QuadrantType T2 policy

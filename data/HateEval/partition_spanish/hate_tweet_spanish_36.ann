@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 196	Los traficantes de inmigrantes Proactiva Open Arms están dando vueltas entre Cerdeña y Túnez con 87 inmigrantes.Malta e Italia no les dan permiso para desembarcar y otra vez quiere venir a España.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 196 280	Que los desembarque en Túnez,Libia, Egipto...que Europa está llena.Sobran la mayoría
+A2	QuadrantType T2 policy
+T3	Collective 100 111	inmigrantes
+T4	pivot 151 162	desembarcar
+T5	pivot 204 215	desembarque
+R1	related Arg1:T4 Arg2:T5	
+T6	Property 263 269	Sobran

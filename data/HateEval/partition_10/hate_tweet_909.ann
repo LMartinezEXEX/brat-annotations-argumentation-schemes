@@ -1,0 +1,4 @@
+T1	Premise2Justification 26 72	we do not need those #Students here in #Canada
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 12 25	#SendThemHome
+A2	QuadrantType T2 policy

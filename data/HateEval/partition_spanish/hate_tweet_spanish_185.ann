@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 122	Rennes (Francia) :   Un hombre d 28 años salvajemente agredido y atacado con un cuchillo por 6 jovenes inmigrantes afganos
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 124 217	¿Quien quiere llenar su pais de esta gente pensando q a el o a su familia no l puede afectar?
+A2	QuadrantType T2 fact
+T3	Collective 103 122	inmigrantes afganos
+T4	Property 21 88	Un hombre d 28 años salvajemente agredido y atacado con un cuchillo

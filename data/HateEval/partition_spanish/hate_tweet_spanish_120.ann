@@ -1,0 +1,4 @@
+T1	Premise2Justification 37 160	Y ENTRE OTRAS COSAS MENOS RIESGO DE TERRORISTAS INFILTRADOS ¿NO? - Un mando único policial para combatir inmigración ilegal
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 36	INMIGRACION ILEGAL DEPORTACION ¡YAA!
+A2	QuadrantType T2 policy

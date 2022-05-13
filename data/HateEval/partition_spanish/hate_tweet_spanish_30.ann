@@ -1,0 +1,4 @@
+T1	Premise2Justification 46 60	DESTINO SUDACA
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 12 44	Si no te gusta, puedes cambiarlo
+A2	QuadrantType T2 policy

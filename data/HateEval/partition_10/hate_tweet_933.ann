@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 49	500 ex DACA Criminal Gang.Members still at Large.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 49 75	Will they get Amnesty too?
+A2	QuadrantType T2 fact
+T3	Collective 7 11	DACA
+T4	Property 12 33	Criminal Gang.Members

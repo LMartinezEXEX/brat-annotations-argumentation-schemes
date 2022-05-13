@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 56	El enojo de una mujer es como la luz de 'Check Engine'..
+A1	QuadrantType T1 fact
+T2	Premise2Justification 58 137	no tienes ni puta idea qué está pasando y es mejor esperar a que se apague solo
+A2	QuadrantType T2 fact
+T3	Collective 16 21	mujer
+T4	Property 3 8	enojo

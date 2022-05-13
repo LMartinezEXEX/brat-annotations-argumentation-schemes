@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 44	De los moros no se puede esperar nada bueno,
+A1	QuadrantType T1 fact
+T2	Premise2Justification 45 120	y esto te lo dicen los propios árabes. Que también han luchado contra ellos
+A2	QuadrantType T2 fact
+T3	Collective 7 12	moros
+T4	Property 33 43	nada bueno

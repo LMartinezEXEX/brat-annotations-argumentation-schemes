@@ -1,0 +1,6 @@
+T1	Premise2Justification 75 178	sin papeles"" Una joven sufre seis fracturas tras ser arrollada por un grupo de manteros en la Gran Vía
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 1 72	Alguna de sus co secuencias, no siendo las peores que las hay y graves.
+A2	QuadrantType T2 fact
+T3	Collective 155 163	manteros
+T4	Property 74 87	"sin papeles"

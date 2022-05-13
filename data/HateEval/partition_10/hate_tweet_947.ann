@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 52	How often does this have to happen??. #BuildThatWall
+A1	QuadrantType T1 policy
+T2	Premise2Justification 52 133	Criminal Illegal Alien Accused of Sexually Assaulting Eight-Year-Old Florida Girl
+A2	QuadrantType T2 fact
+T3	Collective 61 74	Illegal Alien
+T4	Property 86 105	Sexually Assaulting

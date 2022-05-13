@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 52;144 210	Read about the Muslim migrant communities in Europe. Unfettered immigration is changing Europe, and not for the better.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 53 143	People who have not lived in civilization before do not know how to live life in the West.
+A2	QuadrantType T2 fact
+T3	Collective 15 29	Muslim migrant
+T4	Property 64 94	have not lived in civilization

@@ -1,0 +1,7 @@
+T1	Premise2Justification 160 244	We are losing our legal citizens to those who should not be here in the first place!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 28 159	String him up to show the message that you will pay for your crimes in a COUNTRY where you are NOT supposed to be in!#BuildThatWall
+A2	QuadrantType T2 policy
+T3	pivot 184 192	citizens
+T4	pivot 101 108	COUNTRY
+R1	related Arg1:T4 Arg2:T3	

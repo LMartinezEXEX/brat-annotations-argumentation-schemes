@@ -1,0 +1,4 @@
+T1	Premise2Justification 15 168	Sin papeles, sin dirección conocida... Puede estar en cualquier parte ya. Y aunque lo pillen dará igual, lo defenderá open arms y todas las instituciones
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 14	Menudo chiste.
+A2	QuadrantType T2 value

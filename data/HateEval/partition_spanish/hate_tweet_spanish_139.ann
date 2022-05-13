@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 0 68	JERUSALEM LE PERTENECE A LOS HEBREOS Y NO A LOS LLAMADOS PALESTINOS.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 70 215	Los Palestinos nunca existieron en la historia, los llamados palestinos, son Arabes Musulmanes modernos.. ellos andan diciendo que son Cananeos..
+A2	QuadrantType T2 fact
+T3	Collective 131 141	palestinos
+T4	Property 85 116	nunca existieron en la historia
+T5	pivot 57 67	PALESTINOS
+T6	pivot 74 84	Palestinos
+R1	related Arg1:T5 Arg2:T6	

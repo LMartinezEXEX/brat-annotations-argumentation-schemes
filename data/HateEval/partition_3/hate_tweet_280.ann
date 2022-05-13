@@ -1,0 +1,6 @@
+T1	Premise2Justification 44 100	They would would be opening up a flood gate for migrants
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 102 197	Saudi Arabia does not want the financial burden or possibly the lower class of Muslim influence
+A2	QuadrantType T2 fact
+T3	Collective 181 187	Muslim
+T4	Property 166 177	lower class

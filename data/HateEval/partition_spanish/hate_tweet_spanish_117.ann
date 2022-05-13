@@ -1,0 +1,9 @@
+T1	Premise2Justification 95 270	Se creen que tienen todos los derechos del mundo. Hasta dónde sé, en ningún país desarrollado, te permiten estar viviendo ilegales y sin papeles. Y ni pensar lo de la sanidad.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 94	¿A qué están esperando para regularizar a la mafia de manteros, ilegales y con muy mala leche?
+A2	QuadrantType T2 policy
+T3	Collective 54 62	manteros
+T4	Property 64 93	ilegales y con muy mala leche
+T5	pivot 45 50	mafia
+T6	pivot 217 225	ilegales
+R1	related Arg1:T5 Arg2:T6	

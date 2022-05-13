@@ -1,0 +1,6 @@
+T1	Premise2Justification 29 247	cuando huyes de una guerra no vuelves a tu país de ""vacaciones"" con las ayudas del estado español. Pero que no es nada nuevo, casi la totalidad de las mujeres ""sirias"" llevan velo cuando Siria es un país cristiano.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 1 28	NO huyen de ninguna guerra,
+A2	QuadrantType T2 fact
+T3	Collective 182 199	mujeres ""sirias"
+T4	Property 201 212	llevan velo

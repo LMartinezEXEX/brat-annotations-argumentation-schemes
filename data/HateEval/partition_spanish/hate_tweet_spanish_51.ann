@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 177	Los últimos episodios de violencia ejercida por subsaharianos en Ceuta, Barcelona y Salou nos demuestran que no son buena gente y que no aportan nada positivo a nuestra sociedad
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 179 209	Stop pateras, no a la invasión
+A2	QuadrantType T2 policy
+T3	Collective 48 61	subsaharianos
+T4	Property 12 34	episodios de violencia
+T5	Property 109 127	no son buena gente
+T6	Property 134 158	no aportan nada positivo

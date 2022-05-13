@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 38;118 207	Llegan 900 venezolanos por día al Perú Qué ya no es una inmigración,a las autoridades peruanas no les da ni la tos por este tema
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 208 249;39 117	solo reaccionarán cuando esto se desborde cuantos más tendrán que venir para que ya se ponga coto y fin a esta invasión?
+A2	QuadrantType T2 fact
+T3	Collective 11 22	venezolanos
+T4	Property 108 116	invasión

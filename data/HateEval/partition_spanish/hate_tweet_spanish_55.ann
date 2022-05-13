@@ -1,0 +1,7 @@
+T1	Premise2Justification 0 61	Enseñan al pueblo Español a amedrentarse frente a un enemigo,
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 62 181	yo enseño a mis hijos a saber defenderse, sea mantero, presidente del gobierno o saltador negro de la valla de Melilla!
+A2	QuadrantType T2 fact
+T3	Collective 108 115	mantero
+T4	Property 53 60	enemigo
+T5	Collective 152 157	negro

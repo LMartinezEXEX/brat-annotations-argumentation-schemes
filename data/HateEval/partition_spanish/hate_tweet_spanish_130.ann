@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 77	Y en toda Europa se estan matando y violando a millones y millones de blancos
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 79 165	pero eso ni lo mencionas. Tampoco mencionas que esos negros y arabes causan problemas.
+A2	QuadrantType T2 fact
+T3	Collective 132 147	negros y arabes
+T4	Property 26 44	matando y violando

@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 54	La ropa de los indocumentados es cada vez más horrible
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 56 117	me dan pena chabon, los colores, los modelos, todo, asqueroso
+A2	QuadrantType T2 value
+T3	Collective 15 29	indocumentados
+T4	Property 108 117	asqueroso

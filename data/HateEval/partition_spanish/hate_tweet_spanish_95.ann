@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 60	Me quieren seguir en ig un montón de árabes/turcos/israelíes
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 60 112	,creo que tengo cara de terrorista y no me di cuenta
+A2	QuadrantType T2 value
+T3	Collective 37 60	árabes/turcos/israelíes
+T4	Property 84 94	terrorista

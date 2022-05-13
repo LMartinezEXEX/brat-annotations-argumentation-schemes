@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 108	De hoy en adelante si una mujer te envía una foto desnuda hay que denunciarla por acoso sexual y provocación
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 109 137	Feminazis al ataque en 3-2-1
+A2	QuadrantType T2 fact
+T3	Collective 26 31	mujer
+T4	Property 109 118	Feminazis

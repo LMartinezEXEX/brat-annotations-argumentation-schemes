@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 0 112	"Ojalá haber grabado a todas las señoras que me han mirado mal en el bus y me han hecho pasar momentos incómodos
+A1	QuadrantType T1 fact
+T2	Premise2Justification 114 282	Sobre todo a esa señora que todo el camino vino diciendo en voz alta: ""Las sudacas consiguen lo que quieren en España a cambio de sexo"", claramente refiriéndose a mi.
+A2	QuadrantType T2 fact
+T3	Collective 190 197	sudacas
+T4	Property 198 249	consiguen lo que quieren en España a cambio de sexo
+T5	pivot 33 40	señoras
+T6	pivot 131 137	señora
+R1	related Arg1:T5 Arg2:T6	

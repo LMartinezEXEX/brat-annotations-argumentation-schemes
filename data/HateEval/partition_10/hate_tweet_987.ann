@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 58	Mexican Fugitive Wanted For Murder Found In South Carolina
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 59 125	We need a wall to keep these scum out of our country!#BuildTheWall
+A2	QuadrantType T2 policy
+T3	Collective 0 7	Mexican
+T4	Property 28 34	Murder
+T5	pivot 100 111	our country
+T6	pivot 44 58	South Carolina
+R1	related Arg1:T6 Arg2:T5	

@@ -1,0 +1,10 @@
+T1	Collective 91 97	Aliens
+T2	Collective 49 59	Immigrants
+T3	pivot 49 59	Immigrants
+T4	pivot 91 97	Aliens
+R1	related Arg1:T3 Arg2:T4	
+T5	Premise2Justification 155 209	the Negative Impact it has on Citizens Lives and Wages
+T6	Premise1Conclusion 31 145	Encouages Illegal Immigrants and #Democrats Protect Illegal Aliens and Criminal Illegals in their #SanctuaryCities
+T7	Property 146 154	Ignoring
+T8	CounterNarrativeA 155 209	the Negative Impact it has on Citizens Lives and Wages
+#1	AnnotatorNotes T8	There are also people who are in the same situation as the "aliens" but as they are from your own country you do not complain

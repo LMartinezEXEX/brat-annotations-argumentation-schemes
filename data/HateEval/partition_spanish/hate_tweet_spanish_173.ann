@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 11 113	hace falta mas seguridad donde coloquen orden con comerciantes informales y indocumentados venezolanos
+A1	QuadrantType T1 policy
+T2	Premise2Justification 61 190	comerciantes informales y indocumentados venezolanos que venden productos quitando las ventas a los comercios que pagan impuestos
+A2	QuadrantType T2 fact
+T3	Collective 102 113	venezolanos
+T4	Property 135 190	quitando las ventas a los comercios que pagan impuestos
+T5	pivot 61 73	comerciantes
+T6	pivot 118 134	venden productos
+R1	related Arg1:T5 Arg2:T6	

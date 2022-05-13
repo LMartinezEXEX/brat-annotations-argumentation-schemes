@@ -1,0 +1,6 @@
+T1	pivot 39 55	HumanTrafficking
+T2	pivot 152 169	Human trafficking
+R1	related Arg1:T1 Arg2:T2	
+T3	Premise2Justification 0 75	A common occurrence at our borders is #HumanTrafficking and #SexTraffickimg
+T4	Premise1Conclusion 171 225	#TraffickStop #BulldTheWall #EndDACA#EndChainMigration
+T5	Collective 122 127	#DACA

@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 113 272	Thanks to our great prime minister Ha ha ha he’ll how was these people and hotels allowing them to wreck the places but our homeless still sleep on the street.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 74	Docs reveal SHOCKING damage in hotels housing Syrian refugees | Sheila G..
+A2	QuadrantType T2 fact
+T3	Collective 46 52	Syrian
+T4	Property 12 27	SHOCKING damage
+T5	pivot 188 194	hotels
+T6	pivot 31 37	hotels
+R1	related Arg1:T6 Arg2:T5	

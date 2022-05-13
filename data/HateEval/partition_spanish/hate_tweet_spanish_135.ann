@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 163	El que viene en yate de lujo no viene a pedir, si acaso a negociar. El que viene en patera no viene a dar, viene a consumir los recursos sociales de los españoles.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 164 280	Si cada uno de los 4.000.000 de populistas que los quiere, se llevara un sólo inmigrante a su casa, asunto resuelto.
+A2	QuadrantType T2 policy
+T3	Collective 242 252	inmigrante
+T4	Property 107 162	viene a consumir los recursos sociales de los españoles
+T5	pivot 242 252	inmigrante
+T6	pivot 84 90	patera
+R1	related Arg1:T5 Arg2:T6	

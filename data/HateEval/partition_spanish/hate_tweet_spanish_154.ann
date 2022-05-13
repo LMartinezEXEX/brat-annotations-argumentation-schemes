@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 43	Las aceras son para el tránsito de personas
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 44 146	no para que gente sin papeles venda falsificaciones de manera ilegal bajo el paraguas del Ayuntamiento
+A2	QuadrantType T2 fact
+T3	Collective 56 73	gente sin papeles
+T4	Property 74 112	venda falsificaciones de manera ilegal

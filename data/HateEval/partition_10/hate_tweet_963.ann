@@ -1,0 +1,6 @@
+T1	Premise2Justification 28 143	My question to Obama & the libs: Do you leave your home's door wide open when you sleep so that anyone can walk in?
+T2	Premise1Conclusion 144 298	Or do you keep it locked so that if someone tries to enter they have to knock so that you can find out who they are before letting them in? #BuildThatWall
+A1	QuadrantType T2 policy
+T3	pivot 135 142	walk in
+T4	pivot 197 202	enter
+R1	related Arg1:T3 Arg2:T4	

@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 100	ESAS COSAS Y OTRAS PUEDEN PASAR POR MANTENER A LA INMIGRACION ILEGAL EN ESPAÑA Y NO EXPULSARLOS ¿NO?
+A1	QuadrantType T1 fact
+T2	Premise2Justification 103 170	La agresión de los manteros a un turista pone a Colau en un aprieto
+A2	QuadrantType T2 fact
+T3	Collective 50 68	INMIGRACION ILEGAL
+T4	Property 106 114	agresión

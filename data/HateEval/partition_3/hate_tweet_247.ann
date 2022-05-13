@@ -1,0 +1,6 @@
+T1	Premise2Justification 13 119	Seems ISIS rape document is being followed by young male Arabs immigrants and others in Germany add France
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 120 139	no respect no entry
+A2	QuadrantType T2 policy
+T3	Property 24 28	rape
+T4	Collective 65 86	male Arabs immigrants

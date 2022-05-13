@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 162	Telediario de las 15 h: - alemanes siembran el pánico en metro de Valencia. - rumanas carteristas en metro de Barcelona. - árabes agreden a turistas en Barcelona.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 163 174	Racismo? NO
+A2	QuadrantType T2 fact
+T3	Collective 26 34	alemanes
+T4	Property 35 53	siembran el pánico
+T5	Collective 78 85	rumanas
+T6	Property 86 97	carteristas
+T7	Collective 123 129	árabes
+T8	Property 130 148	agreden a turistas

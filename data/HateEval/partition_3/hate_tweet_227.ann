@@ -1,0 +1,4 @@
+T1	Premise2Justification 13 26	See it WORKS!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 27 55	#BuildThatWall #BuildTheWall
+A2	QuadrantType T2 policy

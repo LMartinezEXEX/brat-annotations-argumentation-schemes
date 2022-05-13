@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 23	Tu peloteo es ridiculo,
+A1	QuadrantType T1 value
+T2	Premise2Justification 24 130	para ti un latinoamericano siempre será un sudaca o panchito, nunca lo trataras h consideraras de tu nivel
+A2	QuadrantType T2 fact
+T3	Collective 35 50	latinoamericano
+T4	Property 67 84	sudaca o panchito

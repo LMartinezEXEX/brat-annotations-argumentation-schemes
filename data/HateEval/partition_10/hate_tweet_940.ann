@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 18 124	Chuck Todd will not debate you for the same reason that Carrot Top would not fight Mike Tyson in his prime
+A1	QuadrantType T1 fact
+T2	Premise2Justification 126 212	BOTH Todd & CT w/be decimated & never the same. Which in Todd's case w/be a good thing
+T3	pivot 131 135	Todd
+T4	pivot 24 28	Todd
+R1	related Arg1:T3 Arg2:T4	

@@ -1,0 +1,9 @@
+T1	Premise2Justification 11 149	The fact that they are here illegally makes them criminals -why reward that behavior? Not coming here for Freedom more like the FREE STUFF
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 150 226	-If we did not give illeagals FREE STUFF they wouldnt be here #BuildThatWall
+A2	QuadrantType T2 policy
+T3	Property 60 69	criminals
+T4	pivot 139 149	FREE STUFF
+T5	pivot 180 190	FREE STUFF
+R1	related Arg1:T4 Arg2:T5	
+T6	Collective 170 179	illeagals

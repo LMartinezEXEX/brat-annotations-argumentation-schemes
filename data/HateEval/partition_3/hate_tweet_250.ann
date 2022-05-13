@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 33 153	@JustinTrudeau will send in Canada's 2 Sea Kings and refuse to give all their illegal immigrants to Canada anymore hugs!
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 32	If Saudi Arabia doesn't back off
+A2	QuadrantType T2 fact
+T3	Collective 3 15	Saudi Arabia
+T4	Property 111 129	illegal immigrants

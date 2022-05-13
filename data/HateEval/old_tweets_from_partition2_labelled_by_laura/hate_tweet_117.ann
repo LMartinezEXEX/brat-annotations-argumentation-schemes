@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 68 158	why should the U.S take in more costing Taxpayers Billions while we have homeless Citizens
+T2	Premise2Justification 0 67	UAE, Saudi Arabia, Qatar and Kuwait, who refuse to take in refugees
+T3	Collective 59 67	refugees
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+T4	pivot 141 158	homeless Citizens
+T5	pivot 59 67	refugees
+R1	related Arg1:T5 Arg2:T4	

@@ -1,0 +1,4 @@
+T1	Premise2Justification 56 108	it will never be a christian-jewish nation in future
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 14 55	If USA not stop the imigration of muslims
+A2	QuadrantType T2 policy

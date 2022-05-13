@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 215	Mientras el común de los mortales padecemos una oleada violenta de musulmanes subsaharianos y una ola de calor 🔥 subsahariano abrasante, los proletarios @sanchezcastejon y sus adlateres de vacaciones de millonario. 
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 216 260	ue bien viven los proletarios de hoy en día.
+A2	QuadrantType T2 fact
+T3	Collective 67 91	musulmanes subsaharianos
+T4	Property 48 63	oleada violenta
+T5	pivot 142 153	roletarios 
+T6	pivot 235 246	roletarios 
+R1	related Arg1:T5 Arg2:T6	

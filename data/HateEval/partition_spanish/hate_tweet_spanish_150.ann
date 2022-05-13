@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 167	Los subsaharianos, conocedores de que nuestro sistema de pensiones está en riesgo, se organizan para asaltar nuestra frontera y hacerse cargo de nuestras jubilaciones.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 168 249	No temáis. Sólo vienen con el ánimo de hacer viables nuestros servicios sociales.
+A2	QuadrantType T2 fact
+T3	Collective 4 17	subsaharianos
+T4	Property 83 166	se organizan para asaltar nuestra frontera y hacerse cargo de nuestras jubilaciones

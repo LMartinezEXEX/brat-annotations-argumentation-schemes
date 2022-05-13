@@ -1,0 +1,9 @@
+T1	Premise2Justification 112 160	Si no puedo hacer esa pregunta, estamos jodidos.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 111	Pregunta: en cuánto incide el desempleo en sectores más básicos de la economía por la presencia de inmigrantes?
+A2	QuadrantType T2 fact
+T3	Collective 99 110	inmigrantes
+T4	Property 30 78	desempleo en sectores más básicos de la economía
+T5	pivot 0 9	Pregunta:
+T6	pivot 134 142	pregunta
+R1	related Arg1:T5 Arg2:T6	
