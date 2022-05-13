@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 150	Suriel hace años en Venezuela vivimos eso mismo, la entrada incontrolable de indocumentados de los paises vecinos llevo todo tipo de personas al país.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 151 247	Que los metan presos o que los deporten. Y extremar medidas para que no entre este tipo de gente
+A2	QuadrantType T2 policy
+T3	Collective 77 91	indocumentados
+T4	Property 120 141	todo tipo de personas

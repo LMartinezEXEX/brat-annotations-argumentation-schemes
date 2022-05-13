@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 89	Todo aquel que quiere ver en esta invasion por el sur un problema migratorio se equivoca.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 90 244	En los que han asaltado la valla de Ceuta solo veo hombres muy jóvenes, fuertes, valientes y desvergonzados dispuestos a poner a España contra las cuerdas
+A2	QuadrantType T2 fact
+T3	Collective 66 76	migratorio
+T4	Property 34 42	invasion

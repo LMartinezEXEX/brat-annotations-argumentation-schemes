@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 52 103	deben abstenerse de acercarse a la valla de Melilla
+A1	QuadrantType T1 policy
+T2	Premise2Justification 105 175	al menos hasta que los ""lindos negritos visitantes"" estén ESTREÑIDOS
+A2	QuadrantType T2 fact

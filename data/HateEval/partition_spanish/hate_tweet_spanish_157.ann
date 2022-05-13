@@ -1,0 +1,7 @@
+T1	Premise2Justification 52 231	El Real Decreto de 2012 esgrimía justificaciones como el turismo sexual: los inmigrantes no vienen por turismo sexual, de hecho, los que vienen son los más sanos, fuertes, jóvenes
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 50	La inmigración también es un determinante de salud
+A2	QuadrantType T2 fact
+T3	pivot 3 14	inmigración
+T4	pivot 129 140	inmigrantes
+R1	related Arg1:T3 Arg2:T4	

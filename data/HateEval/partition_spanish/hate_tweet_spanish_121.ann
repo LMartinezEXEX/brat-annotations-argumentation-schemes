@@ -1,0 +1,4 @@
+T1	Premise2Justification 19 110	los ""malditos sudacas"" son los que tienen en pie a las ligas del fútbol español y europeo
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 1 18	Sea insulto o no,
+A2	QuadrantType T2 fact

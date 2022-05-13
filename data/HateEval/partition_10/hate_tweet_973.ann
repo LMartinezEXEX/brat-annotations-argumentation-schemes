@@ -1,0 +1,4 @@
+T1	Premise2Justification 16 97	Looks like he doesnt keep his front door open.. but they expect everyone else to.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 97 111	#BuildThatWall
+A2	QuadrantType T2 policy

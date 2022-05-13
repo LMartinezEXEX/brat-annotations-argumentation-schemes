@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 46 84	Now lets #BuildthatWall #DeportThemAll
+A1	QuadrantType T1 policy
+T2	Premise2Justification 89 196	Ask a #Democrat Why they Support Illegals and Wont Mention Americans killed by Illegals every chance we get
+A2	QuadrantType T2 fact
+T3	Collective 122 130	Illegals
+T4	Property 148 176	Americans killed by Illegals

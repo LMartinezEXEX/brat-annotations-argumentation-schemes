@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 73	Estos son lo pobrecitos refugiados de Carmena, Ada Colau y Pedro Sánchez.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 74 164	A ver que dicen, cuando empiecen a matar y violar como ya han hecho a las mujeres de aquí.
+A2	QuadrantType T2 fact
+T3	Collective 24 34	refugiados
+T4	Property 109 123	matar y violar

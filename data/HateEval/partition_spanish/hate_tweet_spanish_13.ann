@@ -1,0 +1,7 @@
+T1	Premise2Justification 79 209	pienso que España sólo debería acoger y de una forma ordenada a inmigrantes latinoamericanos de habla española, cristianos, que...
+A1	QuadrantType T1 value
+T2	Premise1Conclusion 0 77	REFUGIADOS SI, INMIGRANTES LOS NECESARIOS Y LOS QUE REALMENTE PODAMOS ATENDER
+A2	QuadrantType T2 policy
+T3	pivot 143 154	inmigrantes
+T4	pivot 15 26	INMIGRANTES
+R1	related Arg1:T3 Arg2:T4	

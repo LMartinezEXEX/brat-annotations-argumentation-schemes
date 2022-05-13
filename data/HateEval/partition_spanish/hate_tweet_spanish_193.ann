@@ -1,0 +1,7 @@
+T1	Premise2Justification 113 213	D_Nacional: Alarma por los más de 50.000 subsaharianos que esperan en Marruecos para cruzar a España
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 214 255;41 97	LA INMIGRACIÓN MASIVA VA A DESTRUIR ESPA… #stopglobalizacion D_Nacional Los españoles, lo primero.
+A2	QuadrantType T2 policy
+T3	pivot 207 213	España
+T4	pivot 75 84	españoles
+R1	related Arg1:T4 Arg2:T3	

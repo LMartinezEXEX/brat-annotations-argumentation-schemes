@@ -1,0 +1,10 @@
+T1	Premise2Justification 113 260	si no tenemos control en los aeropuertos y puertos y frontera estamos jodidos invasión silenciosa vivir con tu enemigo sin contar con los apátridas
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 111;261 278	A pedirle papeles a todas las personas en la calle y pedir visa a todos el que quiera venir y deportar ilegales estamos en guerra
+A2	QuadrantType T2 policy
+T3	Collective 103 111	ilegales
+T4	Property 191 210	invasión silenciosa
+T5	Property 224 231	enemigo
+T6	pivot 2 17	pedirle papeles
+T7	pivot 127 134	control
+R1	related Arg1:T6 Arg2:T7	

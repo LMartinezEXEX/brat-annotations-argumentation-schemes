@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 152	El pueblo exige mas atencion en cuanto al sistema alimentario y contra la especulacion de precios impuesto por los chinos, turcos, arabes y colombianos;
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 153 204	defendamos lo nuestro hagamos patria @NicolasMaduro
+A2	QuadrantType T2 policy
+T3	Collective 115 151	chinos, turcos, arabes y colombianos
+T4	Property 74 97	especulacion de precios
+T5	pivot 3 9	pueblo
+T6	pivot 183 189	patria
+R1	related Arg1:T5 Arg2:T6	

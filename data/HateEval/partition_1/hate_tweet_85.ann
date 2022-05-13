@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 0 84	The wall should have names of Americans who died in the hands of illegal immigration
+T2	Premise2Justification 86 145	As a reminder for why we are building it in the first place
+T3	Property 30 48	Americans who died
+T4	Collective 65 84	illegal immigration
+T5	pivot 0 8	The wall
+T6	pivot 124 126	it
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact

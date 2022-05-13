@@ -1,0 +1,7 @@
+T1	Premise1Conclusion 0 58	Se debería incluir en las escuelas la asignatura del Islam
+A1	QuadrantType T1 policy
+T2	Premise2Justification 60 136	ya que para el 2050 España será mayoría musulmana, y así empezar a adaptarse
+A2	QuadrantType T2 fact
+T3	pivot 53 58	Islam
+T4	pivot 100 109	musulmana
+R1	related Arg1:T3 Arg2:T4	

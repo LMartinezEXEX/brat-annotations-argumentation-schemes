@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 1 90;211 223	We have got to get these Obama DACA illegal alien freeloaders the hell out of our country #BuildTheWal
+A1	QuadrantType T1 policy
+T2	Premise2Justification 90 185	.If they're too broke to afford an application, how much in taxes do you think they contribute?
+A2	QuadrantType T2 fact
+T3	Collective 37 50	illegal alien
+T4	Property 51 62	freeloaders
+T5	pivot 150 155	taxes
+T6	pivot 51 62	freeloaders
+R1	related Arg1:T5 Arg2:T6	

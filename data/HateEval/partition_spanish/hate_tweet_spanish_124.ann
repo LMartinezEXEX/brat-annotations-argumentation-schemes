@@ -1,0 +1,7 @@
+T1	Premise2Justification 114 279	Tendencia a retroceder ante lo nuevo,desprecio por la mujer, por lo inferior según el criterio de estas simple minds; los animales,las mujeres,las niñas los pobres..
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 113	Pues la India de Gandhi Ese país tan espiritual... Son razas dominadas..como los árabes, dominados por un libro..
+A2	QuadrantType T2 fact
+T3	Collective 5 23	la India de Gandhi
+T4	Property 126 173	retroceder ante lo nuevo,desprecio por la mujer
+T5	Property 218 230	simple minds

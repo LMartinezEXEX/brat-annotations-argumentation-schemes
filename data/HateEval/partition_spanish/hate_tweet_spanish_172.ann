@@ -1,0 +1,9 @@
+T1	Premise2Justification 62 261	yer o antier, 7 mexicanos intentaron robar dentro de un centro comercial, una joyería. Los atraparon.....  Los 7 son : Mexicanos, indocumentados y RATEROS ... 😡😡😡😡 Pagamos “justos por pecadores” Me s
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 57	Por primera vez ENTIENDO el ODIO de Trump a los Mexicanos
+A2	QuadrantType T2 value
+T4	Property 193 217	ndocumentados y RATEROS 
+T5	Collective 48 57	Mexicanos
+T3	pivot 48 57	Mexicanos
+T6	pivot 79 88	exicanos 
+R1	related Arg1:T6 Arg2:T3	

@@ -1,0 +1,7 @@
+T1	Premise2Justification 0 120	"Jorge Vestrynge: ""Aquí no vienen cabreros, sino gente emprendedora, valiente, y con formación profesional como mínimo"
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 122 187	Que corra el vino que vinen ingenieros por la valla de Ceuta 😂😂😂😂
+A2	QuadrantType T2 fact
+T3	pivot 150 160	ingenieros
+T4	pivot 86 107	formación profesional
+R1	related Arg1:T4 Arg2:T3	

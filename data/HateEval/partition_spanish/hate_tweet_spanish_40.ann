@@ -1,0 +1,10 @@
+T1	Premise2Justification 42 264	Con q vengan muchos ya sobra, aquí. Hay demasiados d todos. Subsaharianos en las calles tirados, manteros perjudicando comercios legales y vendiendo copias, marroquíes donde trabaja el y viven la mujer 4 niños y 4 abuelos.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 265 313	En ciudades y pueblos estamos llenos. A su casa!
+A2	QuadrantType T2 policy
+T3	Collective 102 115	Subsaharianos
+T4	Property 130 137	tirados
+T5	Property 181 197	vendiendo copias
+T7	pivot 287 301	estamos llenos
+T8	pivot 78 92	Hay demasiados
+R2	related Arg1:T8 Arg2:T7	

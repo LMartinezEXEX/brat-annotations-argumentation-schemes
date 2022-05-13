@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 0 23	A la frontera con ellos
+A1	QuadrantType T1 policy
+T2	Premise2Justification 24 70	a que impidan que la salten los subsaharianos.
+A2	QuadrantType T2 fact

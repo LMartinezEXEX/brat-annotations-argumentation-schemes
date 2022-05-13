@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 0 84	Pues a mi el hebreo o lo que farfullan los sionistas me suena muy parecido al árabe.
+A1	QuadrantType T1 value
+T2	Premise2Justification 85 164	Lo digo por lo racistas que son con todo lo que este relacionado con los árabes
+A2	QuadrantType T2 fact
+T3	Collective 43 52	sionistas
+T5	pivot 78 83	árabe
+T6	pivot 158 164	árabes
+R1	related Arg1:T5 Arg2:T6	
+T4	Property 100 108	racistas

@@ -1,0 +1,9 @@
+T1	Premise2Justification 57 234	If your here illegally, why would you want to draw attention to yourself this way. Illegal aliens have no fear of our legal system & only care about themselves. Awful way to die
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 1 56;235 249	Another fine example of why illegal aliens are problem. #BuildThatWall
+A2	QuadrantType T2 policy
+T3	Collective 29 43	illegal aliens
+T4	Property 48 55	problem
+T5	pivot 140 154	Illegal aliens
+T6	pivot 29 43	illegal aliens
+R1	related Arg1:T6 Arg2:T5	

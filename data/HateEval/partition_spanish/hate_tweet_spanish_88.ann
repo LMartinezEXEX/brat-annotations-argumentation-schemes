@@ -1,0 +1,7 @@
+T1	Premise2Justification 0 136	Y mientras a los que somos españoles trabajamos y cotizamos nos eternizamos esperando k nos operen y nos kitan medicinas ¡manda cojones!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 137 217	Sánchez da Sanidad gratis a los sin papeles... pero no a los inmigrantes legales
+A2	QuadrantType T2 fact
+T3	pivot 148 155	Sanidad
+T4	pivot 111 120	medicinas
+R1	related Arg1:T4 Arg2:T3	

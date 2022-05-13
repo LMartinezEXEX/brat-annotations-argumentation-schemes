@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 60 95	menos mal que yo la tengo en Panamá
+A1	QuadrantType T1 value
+T2	Premise2Justification 0 59	Estos putos negratas noos van a robar toda la pasta Iñaqui,
+A2	QuadrantType T2 fact
+T3	Collective 12 20	negratas
+T4	Property 32 37	robar

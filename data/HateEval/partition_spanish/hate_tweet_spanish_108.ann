@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 33	Acá me ven y ya me hablan español
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 35 58	más sudaca no conseguís
+A2	QuadrantType T2 fact

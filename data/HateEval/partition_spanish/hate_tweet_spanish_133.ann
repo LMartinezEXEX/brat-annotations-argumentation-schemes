@@ -1,0 +1,7 @@
+T1	Premise1Conclusion 36 168	un día los Alemanes, Españoles no será de Alemania y los Árabes impondrán sus religiones y su cultura y los Africanos harán lo mismo
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 35	Con estas emigraciones hacia Europa
+A2	QuadrantType T2 fact
+T3	Collective 93 99	Árabes
+T4	Property 100 137	impondrán sus religiones y su cultura
+T5	Collective 144 153	Africanos

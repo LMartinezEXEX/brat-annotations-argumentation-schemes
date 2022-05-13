@@ -1,0 +1,6 @@
+T2	Premise2Justification 30 65	con la inmigración de los africanos
+A2	QuadrantType T2 fact
+T3	Premise1Conclusion 128 251;67 125	Gracias de todo corazón! Además de acortar nuestras listas de espera en la sanidad, gracias a la sanidad pública universal. nos vais a llenar las calles de heroína y comercio ilegal.
+A3	QuadrantType T3 fact
+T4	Collective 56 65	africanos
+T5	Property 99 124	heroína y comercio ilegal

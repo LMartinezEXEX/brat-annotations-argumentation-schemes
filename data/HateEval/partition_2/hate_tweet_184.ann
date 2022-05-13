@@ -1,0 +1,9 @@
+T1	Premise2Justification 31 114	Where is the Outrage an Illegal Alien Permanently Separated This woman from her son
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 115 170	or does #FamiliesBelongTogether Only apply to ILLEGALS!
+A2	QuadrantType T2 fact
+T3	Collective 55 68	Illegal Alien
+T4	Property 81 114	Separated This woman from her son
+T7	pivot 124 132	Families
+T8	pivot 107 114	her son
+R2	related Arg1:T8 Arg2:T7	

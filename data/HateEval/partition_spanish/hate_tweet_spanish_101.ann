@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 0 23	Como son españoles nada
+A1	QuadrantType T1 fact
+T2	Premise2Justification 27 57	sin fueran refugiados...GLORIA
+A2	QuadrantType T2 fact

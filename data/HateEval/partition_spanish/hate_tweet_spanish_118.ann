@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 139	80,000 menores han entrado en España solos desde Marruecos, luego llegará la reunificación familiar, Padres, Hermanos, Primos, Abuelos etc.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 140 276	¿Para que los envía Marruecos? ¿Alguien pide explicaciones a las autoridades Marroquís? ¿SON INMIGRANTES O ENVIADOS PARA INVADIR ESPAÑA?
+A2	QuadrantType T2 fact
+T3	pivot 49 58	Marruecos
+T4	pivot 160 169	Marruecos
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 233 244	INMIGRANTES
+T6	Property 247 275	ENVIADOS PARA INVADIR ESPAÑA

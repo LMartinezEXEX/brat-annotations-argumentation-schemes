@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 112	Salvini prosecuted for defending Italian sovereignty and finally preventing hundreds of migrants to invade Italy
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 114 188	GRANDE SALVINI!Help us preserve the European culture against the invasion.
+A2	QuadrantType T2 value
+T3	pivot 0 7	Salvini
+T4	pivot 121 128	SALVINI
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 88 96	migrants
+T6	Property 179 187	invasion

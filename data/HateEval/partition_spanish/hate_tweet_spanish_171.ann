@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 0 61	¿Por qué las modelos tienen una neurona más que los caballos?
+A1	QuadrantType T1 fact
+T2	Premise2Justification 62 94	Para no cagarse en los desfiles.
+A2	QuadrantType T2 fact
+T3	Collective 13 20	modelos
+T4	Property 28 39	una neurona
+T5	pivot 13 20	modelos
+T6	pivot 85 93	desfiles
+R1	related Arg1:T5 Arg2:T6	

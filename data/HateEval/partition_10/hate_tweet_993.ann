@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 0 17	#BuildThatWallNow
+A1	QuadrantType T1 policy
+T2	Premise2Justification 18 64	I do not want those vile thugs in our country!
+A2	QuadrantType T2 value

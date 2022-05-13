@@ -1,0 +1,6 @@
+T1	Premise2Justification 65 229	Un inmigrante indocumentado que comparte un cuartucho con otros diez en Madrid y corre ante la policía para poner a salvo las imitaciones baratas de bolsos de moda,
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 63	"El efecto llamada existe. Es una llamada de verdad. Telefónica
+A2	QuadrantType T2 fact
+T3	Collective 68 78	inmigrante
+T4	Property 191 210	imitaciones baratas

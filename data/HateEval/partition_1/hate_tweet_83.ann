@@ -1,0 +1,6 @@
+T1	Premise2Justification 21 80	Sanctuary Cities Government Aid (Taxpayer $$$) for Illegals
+T2	Premise1Conclusion 81 124	No excuses#BuildThatWall #BuildThatDamnWall
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy
+T3	Collective 72 80	Illegals
+T4	Property 54 66	Taxpayer $$$

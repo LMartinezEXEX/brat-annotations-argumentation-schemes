@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 81	¿Esto podría explicar el brutismo caribeño y el subsahariano? ¿Habrá correlación?
+A1	QuadrantType T1 fact
+T2	Premise2Justification 83 189	Extreme heat linked with reduced cognitive performance among young adults in non-air-conditioned buildings
+A2	QuadrantType T2 fact
+T3	Collective 34 60	caribeño y el subsahariano
+T4	Property 25 33	brutismo

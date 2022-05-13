@@ -1,0 +1,6 @@
+T1	Premise2Justification 47 158	un país del tercer mundo sometido a USA que puso a Somoza, Trujillo y muchos otros patéticos dictadores sudacas
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 45	Que patético, vergonzosa la historia de chile
+A2	QuadrantType T2 value
+T3	Collective 40 45	chile
+T4	Property 47 86	un país del tercer mundo sometido a USA

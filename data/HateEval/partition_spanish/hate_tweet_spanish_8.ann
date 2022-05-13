@@ -1,0 +1,6 @@
+T1	Premise2Justification 16 276	Le estaba diciendo a este chico que mi padre pegaba e insultaba a mi madre, que tiene dos denuncias por violencia de género y órdenes de alejamiento y se puso a decirme que él jamás pensaría que la mujer tiene razón, que si eso me pasó a mí es porque soy árabe
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 14	Estoy FLIPANDO
+A2	QuadrantType T2 value
+T3	Collective 271 276	árabe
+T4	Property 120 139	violencia de género

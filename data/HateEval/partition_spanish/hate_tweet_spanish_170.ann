@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 0 57	#SabiasQue el cerebro de la mujer esta conectado al culo?
+A1	QuadrantType T1 fact
+T2	Premise2Justification 58 94	Porque cada vez que piensan la cagan
+A2	QuadrantType T2 fact
+T3	Collective 28 33	mujer
+T4	Property 65 94	cada vez que piensan la cagan
+T5	pivot 52 56	culo
+T6	pivot 89 94	cagan
+R1	related Arg1:T6 Arg2:T5	

@@ -1,0 +1,9 @@
+T1	Premise2Justification 133 223	La inteligencia norteamericana advierte de una invasión inminente de 100.000 subsaharianos
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 130	Que sabrán esos Yankis....si #GrandeMarlaska dice que no haay colapso en los centros de acogida de inmigrantes, adelante con ellos
+A2	QuadrantType T2 fact
+T3	Collective 210 223	subsaharianos
+T4	Property 180 198	invasión inminente
+T7	pivot 16 22	Yankis
+T8	pivot 149 163	norteamericana
+R2	related Arg1:T7 Arg2:T8	

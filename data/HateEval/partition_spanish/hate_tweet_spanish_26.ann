@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 0 31	Dios los cría y ellos se juntan
+A1	QuadrantType T1 fact
+T2	Premise2Justification 31 67	,los sin papeles con los sin papeles
+A2	QuadrantType T2 fact

@@ -1,0 +1,7 @@
+T1	Premise2Justification 1 85	KamalaHarris Again going on record that you care more for illegals than US Citizens.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 86 127	Theyre here illegally! #NoDACA #NoAmnesty
+A2	QuadrantType T2 policy
+T3	pivot 59 67	illegals
+T4	pivot 98 107	illegally
+R1	related Arg1:T3 Arg2:T4	

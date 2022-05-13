@@ -1,0 +1,9 @@
+T1	Premise2Justification 166 241	muy bien su trabajo las calles de Providencia parecian interminables ferias
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 17 165	Alcaldesa los extranjeros que estan vendiendo en las calles los fiscalizan si estan legal en el País por que no los deportan si estan indocumentados
+A2	QuadrantType T2 policy
+T3	pivot 186 196	las calles
+T4	pivot 66 76	las calles
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 31 42	extranjeros
+T6	Property 151 165	indocumentados

@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 36	@DRUDGE_REPORT Looks like an army!!!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 37 51	#BuildThatWall
+A2	QuadrantType T2 policy

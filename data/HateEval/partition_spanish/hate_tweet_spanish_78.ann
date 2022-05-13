@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 47;78 98	Crece a 1.402 la entrada de inmigrantes a Ceuta en lo que va de 2018
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 49 76	la mitad de ellos al asalto
+A2	QuadrantType T2 fact

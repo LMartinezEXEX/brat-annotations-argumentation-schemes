@@ -1,0 +1,6 @@
+T1	Premise2Justification 65 116	3 moromierdas que han abusado en Tudela de una niña
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 66	Obviamente, @A3Noticias no iba a desvelar la nacionalidad de los 3
+A2	QuadrantType T2 fact
+T3	Collective 67 71	moro
+T4	Property 71 116	mierdas que han abusado en Tudela de una niña
