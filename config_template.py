@@ -21,7 +21,7 @@
 
 
 # Contact email for users to use if the software encounters errors
-ADMIN_CONTACT_EMAIL = CHANGE_ME
+ADMIN_CONTACT_EMAIL = damian.a.furman@gmail.com
 
 # Directories required by the brat server:
 #
@@ -29,8 +29,8 @@ ADMIN_CONTACT_EMAIL = CHANGE_ME
 #     DATA_DIR: directory containing texts and annotations
 #     WORK_DIR: directory that the server uses for temporary files
 #
-BASE_DIR = CHANGE_ME
-DATA_DIR = CHANGE_ME
+BASE_DIR = /home/fotos_fotos_dami3/brat-annotations-argumentation-schemes
+DATA_DIR = /home/fotos_fotos_dami3/brat-annotations-argumentation-schemes/data/HateEval
 WORK_DIR = CHANGE_ME
 
 # If you have installed brat as suggested in the installation
@@ -53,6 +53,7 @@ WORK_DIR = CHANGE_ME
 #     'editor': 'annotate',
 
 USER_PASSWORD = {
+        'dfurman': 'WagemannRules*'
 #     (add USERNAME:PASSWORD pairs below this line.)
 }
 
