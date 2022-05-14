@@ -4,6 +4,7 @@ T2	Premise1Conclusion 74 276	Visa-free status or EU membership would be an absol
 A2	QuadrantType T2 fact
 T3	Collective 199 207	migrants
 T4	Property 183 198	aggressive male
+T5	Collective 248 266	Islamic extremists
 T6	CounterNarrativeA 4 5	s
 #1	AnnotatorNotes T6	Just because Sebastian Kurz says so? As if he's never been wrong, ha...
 T7	CounterNarrativeB 6 7	/
