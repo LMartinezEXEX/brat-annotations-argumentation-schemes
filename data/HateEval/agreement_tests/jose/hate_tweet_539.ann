@@ -3,7 +3,7 @@ A1	QuadrantType T1 fact
 T2	Premise2Justification 15 86	Will islam ever be at peace with its self as it goes to war with itself
 A2	QuadrantType T2 fact
 T3	Collective 20 25	islam
-T4	Property 60 85	it goes to war with itsel
+T4	Property 60 86	it goes to war with itself
 T5	pivot 125 133	refugees
 T6	pivot 20 25	islam
 R1	related Arg1:T5 Arg2:T6	
