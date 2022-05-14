@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 0 45	Orban declares Easterneurope free of refugees
+T2	Premise2Justification 47 129	He says that Soros want to make Europe to a multiculturell society, which is poor.
+T3	Collective 37 45	refugees
+T4	Property 74 128	make Europe to a multiculturell society, which is poor
+T5	CounterNarrativeA 130 131	h
+#1	AnnotatorNotes T5	What really makes a society poor is being proud of not helping those escaping wars, victims of human traffic and abandoned children, among others
+T6	CounterNarrativeB 132 133	t
+#2	AnnotatorNotes T6	What refugees say about a society is that they don't abandon those in need.
+T7	CounterNarrativeA 140 141	c
+#3	AnnotatorNotes T7	Really? A multicultural society is poor compared to a unicultural society where everyone thinks the same? That seems like a nightmare to me
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 110	Street Interview whit Italians "Send all migrants back to where they came from. They block streets to pray..."
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 31 110	"Send all migrants back to where they came from. They block streets to pray..."
+A2	QuadrantType T2 policy
+T3	Collective 41 49	migrants
+T4	Property 85 106	block streets to pray

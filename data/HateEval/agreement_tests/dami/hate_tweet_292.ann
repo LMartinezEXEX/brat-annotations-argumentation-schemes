@@ -1,0 +1,8 @@
+T1	Premise2Justification 7 61	Britons protest against Migrants "Deport all migrants"
+T2	Premise1Conclusion 41 60	Deport all migrants
+T3	CounterNarrativeA 121 122	e
+#1	AnnotatorNotes T3	Do you think it's ok to deport someone just because you are against him?
+T4	CounterNarrativeC 119 120	r
+#2	AnnotatorNotes T4	I don't think those "protests" are representative of what the Britons think
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy

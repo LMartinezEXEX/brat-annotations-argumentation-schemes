@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 31 178	Croatia ðŸ‡­ðŸ‡· is absolutely correct to tighten patrols to stop the illegal migrants from entering in an effort to reach the “rich” EU countries.
+T2	Premise2Justification 2 28	New Balkan route a problem
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	Collective 109 117	migrants
+T4	Property 123 177	entering in an effort to reach the “rich” EU countries
+T5	CounterNarrativeA 218 219	t
+#1	AnnotatorNotes T5	So your problem is not with immigrants, but with sharing "rich people's countries"? sounds like Apartheid to me.
+T6	CounterNarrativeB 220 221	p
+#2	AnnotatorNotes T6	They only escape from war and hunger. Nobody tries to "invade the rich countries". Stop your paranoia
+T7	CounterNarrativeC 221 224	s:/
+#3	AnnotatorNotes T7	exactly what kind of problem does the new balkan route represent?

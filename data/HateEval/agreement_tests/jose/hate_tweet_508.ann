@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 42 56	#BuildThatWall
+A1	QuadrantType T1 policy
+T2	Premise2Justification 15 41	Texas is the Tipping Point
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	If Texas is the tipping point, then we could improve our immigration system. The wall will serve no purpose other than to win elections.
+T4	CounterNarrativeC 2 3	s
+#2	AnnotatorNotes T4	Tipping point for what? It is not clear what you mean

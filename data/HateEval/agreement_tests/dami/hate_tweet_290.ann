@@ -1,0 +1,14 @@
+T1	Premise2Justification 0 73	Exactly - and many that can have no inkling of what being "British" means
+T2	Premise1Conclusion 74 154	- 2nd generation sheltered immigrant whisked into being MPs etc. - how can they?
+T3	Property 33 73	no inkling of what being "British" means
+T4	Collective 76 110	2nd generation sheltered immigrant
+T5	pivot 14 18	many
+T6	pivot 76 110	2nd generation sheltered immigrant
+T7	CounterNarrativeA 177 178	O
+#1	AnnotatorNotes T7	So because someone doesn't fit in your definition of what it is being British then she can't be elected MP by the people? Do you think that's democratic?
+T8	CounterNarrativeB 176 177	h
+#2	AnnotatorNotes T8	Someone that has lived in England all her life definitevly has inkling of what being "British" means. The problem is what being "British" means to you, it's just an excuse for xenophobia and racism
+T9	CounterNarrativeC 175 176	H
+#3	AnnotatorNotes T9	How do you know they don't have no inkling of what being 'British' means? Did you make a poll? What did the poll said? "Are you white, right winged and have at least 5 generations of english-born ancesters? If yes then you are British otherwise don't bother?
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 value

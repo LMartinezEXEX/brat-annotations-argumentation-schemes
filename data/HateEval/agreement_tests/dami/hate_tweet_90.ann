@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 127 154	#BuildTheWall #SendThemBack
+T2	Premise2Justification 0 126	Is this one of hard working immigrants just looking for a better life in the US that we hear about from the left all the time?
+T3	Collective 28 38	immigrants
+T4	Property 15 27	hard working
+T5	Property 39 69	just looking for a better life
+T6	CounterNarrativeA 177 178	8
+#1	AnnotatorNotes T6	You are proposing to send back all immigrants based on what a single person did
+T7	CounterNarrativeB 176 177	R
+#2	AnnotatorNotes T7	Most immigrants are hard working people looking for a better life. That doesn't mean that you can't find one that it's not. You'll probably find examples of not hard working people in every country
+T8	CounterNarrativeC 175 176	7
+#3	AnnotatorNotes T8	No. That's the point. There are many others that are not like him
+T9	pivot 28 38	immigrants
+T10	pivot 146 150	Them

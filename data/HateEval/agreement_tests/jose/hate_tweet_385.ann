@@ -1,0 +1,13 @@
+T1	Premise2Justification 85 134	people do not want more refugees enough is enough
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 13 84	Time to leave the uk commonwealth and Europe that would end immigration
+A2	QuadrantType T2 policy
+T3	pivot 109 117	refugees
+T4	pivot 73 84	immigration
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	A survey, or an explanation of why a given decision would be best, is a good argument. "The people want/do not want" is not.
+T6	CounterNarrativeC 1 2	D
+#2	AnnotatorNotes T6	Who exactly are these "people" who don't want more refugees? Your xenophobic friends at the bar?
+T7	Property 85 108	people do not want more
+T8	Collective 109 117	refugees

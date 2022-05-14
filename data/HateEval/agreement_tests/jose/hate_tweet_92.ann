@@ -1,0 +1,7 @@
+T1	Premise2Justification 35 187	He's For:*Ending #ICE*Open Borders*Legalizing DRUGS*Ending Immigration Laws4 MS-13 Gang Members BRUTALLY Hacked An Informant To Death W/A Machete In TX!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 34	#BozoBeto Says, He's The Best 4 TX
+A2	QuadrantType T2 fact
+T3	pivot 32 34	TX
+T4	pivot 184 186	TX
+R1	related Arg1:T3 Arg2:T4	

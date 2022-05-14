@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 66 138	Centre must go ahead&amp;deport all illegal migrants from all over India
+T2	Premise2Justification 14 65	Sir,pl don't bow to mad Mamta/TMC whims&amp;threats
+T3	Premise2Justification 140 255	India must not be made home to Muslim illegal migrants. Pl don't abt consequences.Entire India is with u in throwin
+T4	pivot 102 118	illegal migrants
+T5	pivot 178 194	illegal migrants
+T6	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T6	Why do you hate migrants so much that you don't even care about the consequences of deporting them?
+T7	CounterNarrativeC 2 3	a
+#2	AnnotatorNotes T7	Do you think entire India supports this xenophobous policies? I think not
+A1	QuadrantType T2 policy
+A2	QuadrantType T3 policy
+A3	QuadrantType T1 policy

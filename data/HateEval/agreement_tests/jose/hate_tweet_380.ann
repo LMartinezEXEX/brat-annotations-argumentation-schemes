@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 93	Pretty sure the money saved from the damage illegals do will more then compensate our budget.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 95 109	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	Collective 44 52	illegals
+T4	Property 37 55	damage illegals do
+T5	CounterNarrativeA 90 91	e
+#1	AnnotatorNotes T5	We should not be guided only by money. There are many things that are economically profitable, yet wrong, like drugs.
+T6	CounterNarrativeB 91 92	t
+#2	AnnotatorNotes T6	Not all immigrants do damage. If we are looking to save money, we could deport the actual citizens who do damage, and there are many more of them. But, of course, that would be wrong...
+T7	CounterNarrativeC 91 92	t
+#3	AnnotatorNotes T7	I doubt that the money we save for a couple of criminals will compensate the construction of a wall along the ENTIRE border. Where are your sources?

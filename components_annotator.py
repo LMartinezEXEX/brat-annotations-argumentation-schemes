@@ -7,7 +7,6 @@ components = sys.argv[1:]
 
 all_tweets = []
 labels_justifications_dami = []
-labels_justifications_laura = []
 labels_justifications_jose = []
 
 def labelComponents(text, justifications):
@@ -23,11 +22,12 @@ def labelComponents(text, justifications):
         return rec1 + [1] * len(justifications[0].strip().split()) + rec2
     return [0] * len(text.strip().split())
 
-filePatterns = ["./data/HateEval/agreement_test_dami_only_arg/*.ann", "./data/HateEval/agreement_test_laura_only_arg/*.ann", "./data/HateEval/agreement_test_jose_only_arg/*.ann"]
+filePatterns = ["./data/HateEval/agreement_tests/dami/*.ann", "./data/HateEval/agreement_tests/jose/*.ann"]
 
 def labelComponentsFromAllExamples(filePattern, component):
     labels_per_example = []
     for f in glob.glob(filePattern):
+        print(f)
         annotations = open(f, 'r')
         tweet = open(f.replace(".ann", ".txt"), 'r')
         # TODO: sacar todos los caracteres especiales
@@ -56,32 +56,21 @@ for component in components:
 
     print("Data for component " + component)
     dami_examples = labelComponentsFromAllExamples(filePatterns[0], component)
-    laura_examples = labelComponentsFromAllExamples(filePatterns[1], component)
-    jose_examples = labelComponentsFromAllExamples(filePatterns[2], component)
+    jose_examples = labelComponentsFromAllExamples(filePatterns[1], component)
+
+    for dami, jose in zip(dami_examples, jose_examples):
+        print("{} - {}".format(len(dami), len(jose)))
 
     dami_k = [l for label in dami_examples for l in label]
-    laura_k = [l for label in laura_examples for l in label]
     jose_k = [l for label in jose_examples for l in label]
 
     print("Length of examples to compare (all the following numbers should be equal)")
     print(len(dami_k))
-    print(len(laura_k))
     print(len(jose_k))
 
     print("\n")
     print("Agreement between annotator 1 and 3")
     print(cohen_kappa_score(dami_k, jose_k))
-    print("\n")
-    print("Agreement between annotators 1 and 2")
-    print(cohen_kappa_score(dami_k, laura_k))
-    print("\n")
-    print("Agreement between annotators 2 and 3")
-    print(cohen_kappa_score(jose_k, laura_k))
 
     print("F1 score between annotators 1 and 3")
     print(f1_score(dami_k, jose_k))
-    print("F1 score between annotators 1 and 2")
-    print(f1_score(dami_k, laura_k))
-    print("F1 score between annotators 2 and 3")
-    print(f1_score(laura_k, jose_k))
-
