@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 98	A #multibillion-dollarcriminalnetwork is being fueled by inadequate refugee policies, experts say.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 85	A #multibillion-dollarcriminalnetwork is being fueled by inadequate refugee policies,
+A2	QuadrantType T2 fact
+T3	Collective 68 75	refugee
+T4	Property 0 84	A #multibillion-dollarcriminalnetwork is being fueled by inadequate refugee policies
+T5	CounterNarrativeC 145 146	U
+#1	AnnotatorNotes T5	Who exactly are these "experts"?
+T6	CounterNarrativeA 146 147	E
+#2	AnnotatorNotes T6	We should not take too seriously the opinion of those who do not even give their name when giving their opinion.
+T7	CounterNarrativeB 144 145	V
+#3	AnnotatorNotes T7	Where exactly is this "multi-billion dollar criminal network" and what responsibility do the refugees have? It sounds like a xenophobic excuse to stop providing humanitarian aid

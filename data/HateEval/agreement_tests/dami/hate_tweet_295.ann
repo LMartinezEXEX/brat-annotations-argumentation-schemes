@@ -1,0 +1,12 @@
+T1	Premise2Justification 23 116	Get off your left wing high horse @cbc Certainly not the average person's take on a "refugee"
+T2	Premise1Conclusion 118 252	Remove the country shoppers, the opportunist migrants, those with criminal or terrorist ties, those with hidden wealth and who's left?
+T3	Collective 108 115	refugee
+T4	Property 129 236	country shoppers, the opportunist migrants, those with criminal or terrorist ties, those with hidden wealth
+T5	CounterNarrativeA 275 276	B
+#1	AnnotatorNotes T5	So you spend your time trying to find refugees that can not be taken as example to blame on all refugees. Don't you have better things to do?
+T6	CounterNarrativeB 273 274	x
+#2	AnnotatorNotes T6	Most refugees are people fleeing war and disastrous situations. You ignoring their reality doesn't mean that they must be county shoppers, criminals or opportunists
+T7	CounterNarrativeC 267 268	o
+#3	AnnotatorNotes T7	How do you know that this is even true? it looks like xenophobous propaganda
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact

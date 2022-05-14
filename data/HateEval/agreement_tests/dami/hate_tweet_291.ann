@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 225 276	trouble is Migrants can demand not what they earned
+T2	Premise2Justification 0 224	not a big enough spade for Mr shit himself to dig himself out The UK did vote to stop shitty nations and immigration on the whole but as he puts it time to put our own people first ask Germany and Sweden about crime going up
+T4	Property 210 224	crime going up
+T3	Collective 236 244	Migrants
+T5	CounterNarrativeB 0 1	n
+#1	AnnotatorNotes T5	There is no single proof that migration is related to crime going up anywhere. This is just xenophobia
+T6	CounterNarrativeA 1 2	o
+#2	AnnotatorNotes T6	So you are saying that all people problems are because migrants demand too much? Really?
+T7	CounterNarrativeC 2 3	t
+#3	AnnotatorNotes T7	Puting our own people first is not a fight you have to give against the ones that are most abandoned and desperate
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

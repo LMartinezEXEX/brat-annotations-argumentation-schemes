@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 103 136	#StopTheInvasion #SecureTheBorder
+T2	Premise2Justification 0 79	ICE officers arrest 32 sex offenders on Long Island as part of 'Operation SOAR'
+T3	CounterNarrativeA 80 81	h
+#1	AnnotatorNotes T3	Blaming immigrants for sex offending crimes doesn't attack sex criminals. It only gives a cover to all the non-migrants sex offenders
+T4	Property 23 36	sex offenders
+T5	Collective 111 119	Invasion
+T6	CounterNarrativeB 81 82	t
+#2	AnnotatorNotes T6	Are you suggesting that all immigrants are sex offenders? Have you ever even met one? Talked with him or her?
+T7	CounterNarrativeC 82 84	tp
+#3	AnnotatorNotes T7	How do you know that the arrested people were all illegal immigrants?
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy

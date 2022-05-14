@@ -13,10 +13,12 @@ from transformers import EvalPrediction
 from sklearn import metrics
 import argparse
 from transformers import EarlyStoppingCallback
+from pysentimiento import preprocessing
 
 parser = argparse.ArgumentParser(description="Train models for identifying argumentative components inside the ASFOCONG dataset")
 parser.add_argument('--modelname', type=str, default="roberta-base", help="Name of the language model to be downloaded from huggingface")
 parser.add_argument('--lr', type=float, default=2e-05, help="Learning rate for training the model. Default value is 2e-05")
+parser.add_argument('--batch_size', type=int, default=16, help="Batch size for training and evaluation. Default is 16")
 
 args = parser.parse_args()
 
@@ -25,7 +27,7 @@ LEARNING_RATE = args.lr
 NUMBER_OF_PARTITIONS = 10
 device = "cuda"
 EPOCHS = 10
-BATCH_SIZE=16
+BATCH_SIZE=args.batch_size
 MODEL_NAME = args.modelname
 
 def compute_metrics_f1(p: EvalPrediction):
@@ -92,7 +94,8 @@ def labelAllExamples(filePatterns):
                         is_not_argumentative = 1
                         break
          
-            all_tweets.append(tweet_text)
+            preprocessed_text = pysentimiento.preprocess_tweet(tweet_text)
+            all_tweets.append(preprocessed_text)
             all_labels.append(is_not_argumentative)
     ans = {"text": all_tweets, "label": all_labels}
     return Dataset.from_dict(ans)
@@ -152,7 +155,7 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, add_prefix_space=True)
 data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME, num_labels=2)
 model.to(device)
-filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS)]
-train(0, model, tokenizer, filePatterns[:7], filePatterns[7:8], filePatterns[8:9])
+filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS+1)]
+train(0, model, tokenizer, filePatterns[:8], filePatterns[8:9], filePatterns[9:])
 
 

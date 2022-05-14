@@ -13,11 +13,13 @@ from transformers import EvalPrediction
 from sklearn import metrics
 import argparse
 from transformers import EarlyStoppingCallback
+from pysentimiento import preprocessing
 
 parser = argparse.ArgumentParser(description="Train models for identifying argumentative components inside the ASFOCONG dataset")
 parser.add_argument('components', type=str, nargs='+', help="Name of the component that wants to be identified")
 parser.add_argument('--modelname', type=str, default="roberta-base", help="Name of the language model to be downloaded from huggingface")
 parser.add_argument('--lr', type=float, default=2e-05, help="Learning rate for training the model. Default value is 2e-05")
+parser.add_argument('--batch_size', type=int, default=16, help="Batch size for training and evaluation. Default is 16")
 
 args = parser.parse_args()
 
@@ -26,7 +28,7 @@ LEARNING_RATE = args.lr
 NUMBER_OF_PARTITIONS = 10
 device = "cuda"
 EPOCHS = 20
-BATCH_SIZE=16
+BATCH_SIZE=args.batch_size
 MODEL_NAME = args.modelname
 type_of_premises = args.components
 component = type_of_premises[0]
@@ -110,7 +112,8 @@ def labelAllExamples(filePatterns, type_of_prem):
             if filesize == 0 or not is_argumentative:
                 continue
             tweet_text += " " + type_of_prem + ": " + text_of_quadrant
-            all_tweets.append(tweet_text)
+            processed_text = preprocessing.preprocess_text(tweet_text)
+            all_tweets.append(preprocessed_text)
             all_labels.append(type_of_quadrant)
     ans = {"text": all_tweets, "label": all_labels}
     return Dataset.from_dict(ans)
@@ -171,7 +174,7 @@ for premise in type_of_premises:
     data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
     model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME, num_labels=3)
     model.to(device)
-    filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS)]
-    train(0, model, tokenizer, filePatterns[:7], filePatterns[7:8], filePatterns[8:9], premise)
+    filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS+1)]
+    train(0, model, tokenizer, filePatterns[:8], filePatterns[8:9], filePatterns[9:], premise)
 
 

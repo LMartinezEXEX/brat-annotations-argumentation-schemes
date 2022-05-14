@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 100	After Libs Help Them Avoid Audit, California DMV Finds 23,000 Bad Voter Registrations #IllegalAliens
+T2	Premise1Conclusion 102 114	BuildTheWall
+A1	QuadrantType T2 policy
+T3	Collective 87 100	IllegalAliens
+T4	Property 55 85	23,000 Bad Voter Registrations
+T5	CounterNarrativeA 166 167	T
+#1	AnnotatorNotes T5	If there are people voting who should not, the problem is not in the immigration system, but in the electoral one...
+T6	CounterNarrativeB 168 169	S
+#2	AnnotatorNotes T6	How can immigrants be blamed for voting irregularities? They have nothing to do with it...
+T7	CounterNarrativeC 169 170	a
+#3	AnnotatorNotes T7	Well, it doesn't say anywhere that these irregularities are related to immigrants. Stop assuming things and let them do their job.

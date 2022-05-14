@@ -13,11 +13,13 @@ from transformers import EvalPrediction
 from sklearn import metrics
 import argparse
 from transformers import EarlyStoppingCallback
+from pysentimiento import preprocessing
 
 parser = argparse.ArgumentParser(description="Train models for identifying argumentative components inside the ASFOCONG dataset")
 parser.add_argument('components', type=str, nargs='+', help="Name of the component that wants to be identified")
 parser.add_argument('--modelname', type=str, default="roberta-base", help="Name of the language model to be downloaded from huggingface")
 parser.add_argument('--lr', type=float, default=2e-05, help="Learning rate for training the model. Default value is 2e-05")
+parser.add_argument('--batch_size', type=int, default=16, help="Batch size for training and evaluation. Default size is 16")
 
 args = parser.parse_args()
 
@@ -26,7 +28,7 @@ LEARNING_RATE = args.lr
 NUMBER_OF_PARTITIONS = 10
 device = "cuda"
 EPOCHS = 20
-BATCH_SIZE=16
+BATCH_SIZE = args.batch_size
 MODEL_NAME = args.modelname
 components = args.components
 component = components[0]
@@ -67,7 +69,7 @@ def compute_metrics_f1(p: EvalPrediction):
     print(precision_micro)
 
 
-    w = open("./results_{}_{}_{}-metrics".format(LEARNING_RATE, MODEL_NAME, component), "a")
+    w = open("./results_{}_{}_{}-metrics".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), component), "a")
 
     w.write("{},{},{},{},{},{},{}\n".format(str(acc), str(f1), str(precision), str(recall), str(f1_micro), str(precision_micro), str(recall_micro)))
     w.close()
@@ -125,7 +127,8 @@ def labelComponentsFromAllExamples(filePatterns, component):
             if not is_argumentative or filesize == 0:
                 continue
             else:
-                normalized_text = normalize_text(tweet_text, component_text)
+                preprocessed_text = preprocessing.preprocess_tweet(tweet_text)
+                normalized_text = normalize_text(preprocessed_text, component_text)
                 labels = labelComponents(" ".join(normalized_text), component_text)
     
                 all_tweets.append(normalized_text)
@@ -196,7 +199,7 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
     test_set = tokenize_and_align_labels(labelComponentsFromAllExamples(test_partition_patterns, component), tokenizer)
     
     training_args = TrainingArguments(
-        output_dir="./results_eval_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME, component),
+        output_dir="./results_eval_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), component),
         evaluation_strategy="steps",
         eval_steps=20,
         save_total_limit=15,
@@ -218,7 +221,7 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
         tokenizer=tokenizer,
         data_collator=data_collator,
         compute_metrics= compute_metrics_f1,
-        callbacks = [EarlyStoppingCallback(early_stopping_patience=2)]
+        callbacks = [EarlyStoppingCallback(early_stopping_patience=30)]
     ) 
 
     trainer.train()
@@ -226,18 +229,19 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
     print(trainer.evaluate())
 
     results = trainer.predict(test_set)
-    filename = "./results_test_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME, component)
+    filename = "./results_test_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), component)
     with open(filename, "w") as writer:
         writer.write("{},{},{},{}".format(results.metrics["test_accuracy"], results.metrics["test_f1"], results.metrics["test_precision"], results.metrics["test_recall"]))
 
 
 
 for cmpnent in components:
+    component = cmpnent
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, add_prefix_space=True)
     data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer)
     model = AutoModelForTokenClassification.from_pretrained(MODEL_NAME, num_labels=2)
     model.to(device)
-    filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS)]
-    train(0, model, tokenizer, filePatterns[:7], filePatterns[7:8], filePatterns[8:9], cmpnent)
+    filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS + 1)]
+    train(0, model, tokenizer, filePatterns[:8], filePatterns[8:9], filePatterns[9:], cmpnent)
 
 

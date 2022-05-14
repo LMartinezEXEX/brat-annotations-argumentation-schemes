@@ -1,0 +1,13 @@
+T1	Premise2Justification 0 85	In Germany refugees can vote just for fun in separte electionplaces to learn to vote.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 86 140	Of course the vote is for nothing,in reality maybe too
+A2	QuadrantType T2 fact
+T3	pivot 24 28	vote
+T4	pivot 100 104	vote
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 158 159	D
+#1	AnnotatorNotes T5	What is the problem with refugees learning to live with the host country system? That could even make life easier for the new generations, whether they are the sons and daughters of immigrants or not.
+T6	CounterNarrativeC 159 160	l
+#2	AnnotatorNotes T6	Is this state policy? Is this a game you saw at your local library? Or did you just make it up?
+T7	Collective 11 19	refugees
+T8	Property 20 41	can vote just for fun
