@@ -26,19 +26,27 @@ filePatterns = ["./data/HateEval/agreement_tests/dami/*.ann", "./data/HateEval/a
 
 def labelComponentsFromAllExamples(filePattern, component):
     labels_per_example = []
-    for f in glob.glob(filePattern):
-        print(f)
+    for idxx, f in enumerate(glob.glob(filePattern)):
+        print("{}: {}".format(idxx, f))
         annotations = open(f, 'r')
         tweet = open(f.replace(".ann", ".txt"), 'r')
         # TODO: sacar todos los caracteres especiales
         tweet_text = tweet.read().replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "")
         component_text = []
+        is_argumentative = True
         for idx, word in enumerate(annotations):
             ann = word.replace("\n", "").split("\t")
             #TODO: Si la justificacion esta dividida en mas de una parte esto no va a funcionar. Tampoco funciona si la anotacion corta una palabra a la mitad (por ejemplo, deja el punto final afuera)
+            if ann[1].lstrip().startswith("NonArgumentative"):
+                is_argumentative = False
+                break
             if ann[1].lstrip().startswith(component):
                 component_text.append(ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", ""))
-        labels_per_example.append(labelComponents(tweet_text, component_text))
+
+        labels = [-1]
+        if is_argumentative:
+            labels = labelComponents(tweet_text, component_text)
+        labels_per_example.append((f, labelComponents(tweet_text, component_text)))
 
     return labels_per_example
 
@@ -58,8 +66,16 @@ for component in components:
     dami_examples = labelComponentsFromAllExamples(filePatterns[0], component)
     jose_examples = labelComponentsFromAllExamples(filePatterns[1], component)
 
-    for dami, jose in zip(dami_examples, jose_examples):
-        print("{} - {}".format(len(dami), len(jose)))
+    only_argumentative_dami = [dami for dami, jose in zip(dami_examples, jose_examples) if dami[1][0] != -1 and jose[1][0] != -1]
+    only_argumentative_jose = [jose for dami, jose in zip(dami_examples, jose_examples) if dami[1][0] != -1 and jose[1][0] != -1]
+
+    idx = 1
+    for dami, jose in zip(only_argumentative_dami, only_argumentative_jose):
+        print("{}: {} - {}".format(idx, len(dami[1]), len(jose[1])))
+        if len(dami[1]) != len(jose[1]):
+            print(dami)
+            print(jose)
+        idx += 1
 
     dami_k = [l for label in dami_examples for l in label]
     jose_k = [l for label in jose_examples for l in label]
