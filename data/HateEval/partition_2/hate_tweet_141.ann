@@ -1,3 +1,4 @@
 T1	Premise2Justification 1 66	Knifeman is arrested after injuring seven people in central Paris
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 99 113	#BuildThatWall
+A2	QuadrantType T2 policy

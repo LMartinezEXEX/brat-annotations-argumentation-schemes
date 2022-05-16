@@ -8,3 +8,5 @@ T8	CounterNarrativeC 175 176	7
 #3	AnnotatorNotes T8	No. That's the point. There are many others that are not like him
 T9	pivot 28 38	immigrants
 T10	pivot 146 150	Them
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy

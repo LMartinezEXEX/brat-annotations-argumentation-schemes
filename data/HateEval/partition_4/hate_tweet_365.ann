@@ -4,3 +4,5 @@ T3	CounterNarrativeA 273 274	a
 #1	AnnotatorNotes T3	All those diseases can get in when american tourists come back from other countries. Should we close the border for them too?
 T4	CounterNarrativeC 264 265	u
 #2	AnnotatorNotes T4	How many cases have there been? How many that were brought by immigrants? You are just making up inexistent problems
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact

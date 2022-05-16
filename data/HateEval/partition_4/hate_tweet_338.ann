@@ -4,3 +4,5 @@ T3	CounterNarrativeA 0 1	C
 #1	AnnotatorNotes T3	If someone is a murderer then he should be in jail, not free in his country. Must immigrants are not criminals though and there is no reason to send them back other than predjudice and fear                                       
 T4	CounterNarrativeC 1 2	r
 #2	AnnotatorNotes T4	This sounds like lies used to attack migrants and spread hate an xenophobia. Where did you get this data from?
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 policy

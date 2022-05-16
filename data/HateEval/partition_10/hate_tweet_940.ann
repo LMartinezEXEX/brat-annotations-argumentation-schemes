@@ -4,3 +4,4 @@ T2	Premise2Justification 126 212	BOTH Todd & CT w/be decimated & never the same.
 T3	pivot 131 135	Todd
 T4	pivot 24 28	Todd
 R1	related Arg1:T3 Arg2:T4	
+A2	QuadrantType T2 fact

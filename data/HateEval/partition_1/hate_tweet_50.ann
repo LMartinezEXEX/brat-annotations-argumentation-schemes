@@ -7,3 +7,5 @@ T6	pivot 71 79	migrants
 R1	related Arg1:T6 Arg2:T5	
 T7	CounterNarrativeA 133 134	m
 #1	AnnotatorNotes T7	Associating the so called Third World with murders is racist and xenophobic. There are murderers all over the works.
+A1	QuadrantType T3 fact
+A2	QuadrantType T4 fact

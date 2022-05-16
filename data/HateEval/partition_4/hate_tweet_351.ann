@@ -6,3 +6,5 @@ T5	CounterNarrativeC 188 189	r
 #1	AnnotatorNotes T5	Who said that Sharia has no place in the western world? We live in a society that stands for religious freedom
 T6	CounterNarrativeA 148 149	e
 #2	AnnotatorNotes T6	They are refugees, they are escaping, they can't freely choose where to live! Banning them because of their culture is xenophobous and racist
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact

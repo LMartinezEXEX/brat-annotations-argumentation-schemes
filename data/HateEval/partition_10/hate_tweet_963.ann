@@ -4,3 +4,4 @@ A1	QuadrantType T2 policy
 T3	pivot 135 142	walk in
 T4	pivot 197 202	enter
 R1	related Arg1:T3 Arg2:T4	
+A2	QuadrantType T1 fact

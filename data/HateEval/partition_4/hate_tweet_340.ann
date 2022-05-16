@@ -6,3 +6,5 @@ T4	CounterNarrativeC 10 11	c
 #2	AnnotatorNotes T4	You are actually lying. Christian refugees are as welcomed as any other refugee. In any case, all refugees should be welcomed
 T5	pivot 112 123	The British
 T6	pivot 125 127	UK
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact

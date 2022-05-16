@@ -4,3 +4,4 @@ A1	QuadrantType T2 policy
 T3	pivot 80 84	Wall
 T4	pivot 154 158	Wall
 R1	related Arg1:T3 Arg2:T4	
+A2	QuadrantType T1 policy

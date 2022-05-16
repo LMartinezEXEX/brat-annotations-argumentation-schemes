@@ -1,3 +1,4 @@
 T1	Premise1Conclusion 0 14	#BuildThatWall
 A1	QuadrantType T1 policy
 T2	Premise2Justification 15 79	We can't afford any more dummies who can't make it on their own.
+A2	QuadrantType T2 fact

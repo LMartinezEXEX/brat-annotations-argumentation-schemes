@@ -10,3 +10,5 @@ T9	Property 99 126	get more resources and help
 T10	pivot 87 95	Refugees
 T11	pivot 21 28	Refugee
 R1	related Arg1:T11 Arg2:T10	
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact

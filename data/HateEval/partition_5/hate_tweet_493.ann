@@ -8,3 +8,5 @@ T6	CounterNarrativeC 202 203	i
 #2	AnnotatorNotes T6	ndeed, "race" does not matter. Problems are everywhere, with or without them. Besides, you can't expect that society "doesn't change"... Time goes on
 T7	CounterNarrativeA 200 201	e
 #3	AnnotatorNotes T7	If it is a belief, it may not be reality. Try to put aside your xenophobia, you might be surprised...
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
