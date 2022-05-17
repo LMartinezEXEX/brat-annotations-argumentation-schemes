@@ -159,6 +159,8 @@ def tokenize_and_align_labels(dataset, tokenizer):
 #        for example, labels in zip(example["tokens"], example["labels"]):
         tkns = example["tokens"]
         labels = example["labels"]
+        if len(tkns) == 0 and len(labels) == 0:
+            return {"input_ids": [], "labels": [], "attention_mask": []}
         tokenized_input = tokenizer(tkns, truncation=True, is_split_into_words=True)
         print(tokenized_input)
         label_ids = [-100]
