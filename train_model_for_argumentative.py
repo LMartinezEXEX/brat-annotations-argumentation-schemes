@@ -63,7 +63,7 @@ def compute_metrics_f1(p: EvalPrediction):
     print(precision_micro)
 
 
-    w = open("./results_{}_{}_{}-metrics".format(LEARNING_RATE, MODEL_NAME, "NonArgumentatives"), "a")
+    w = open("./results_{}_{}_{}-metrics".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), "NonArgumentatives"), "a")
 
     w.write("{},{},{},{},{},{},{}\n".format(str(acc), str(f1), str(precision), str(recall), str(f1_micro), str(precision_micro), str(recall_micro)))
     w.close()
@@ -94,7 +94,7 @@ def labelAllExamples(filePatterns):
                         is_not_argumentative = 1
                         break
          
-            preprocessed_text = pysentimiento.preprocess_tweet(tweet_text)
+            preprocessed_text = preprocessing.preprocess_tweet(tweet_text)
             all_tweets.append(preprocessed_text)
             all_labels.append(is_not_argumentative)
     ans = {"text": all_tweets, "label": all_labels}
@@ -114,7 +114,7 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
     test_set = tokenize_preprocess(labelAllExamples(test_partition_patterns), tokenizer)
     
     training_args = TrainingArguments(
-        output_dir="./results_eval_{}_{}_ARGUMENTATIVE".format(LEARNING_RATE, MODEL_NAME),
+        output_dir="./results_eval_{}_{}_ARGUMENTATIVE".format(LEARNING_RATE, MODEL_NAME.replace("/", "-")),
         evaluation_strategy="steps",
         eval_steps=50,
         save_total_limit=5,
@@ -144,7 +144,7 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
     print(trainer.evaluate())
 
     results = trainer.predict(test_set)
-    filename = "./results_test_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME, "NonArgumentative")
+    filename = "./results_test_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), "NonArgumentative")
     with open(filename, "w") as writer:
         print(results.metrics)
         writer.write("{},{},{},{}".format(results.metrics["test_accuracy"], results.metrics["test_f1"], results.metrics["test_precision"], results.metrics["test_recall"]))

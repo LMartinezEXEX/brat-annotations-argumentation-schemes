@@ -66,7 +66,7 @@ def compute_metrics_f1(p: EvalPrediction):
     print(precision_micro)
 
 
-    w = open("./results_{}_{}_{}_{}-metrics".format(LEARNING_RATE, MODEL_NAME, "type_of_premise", component), "a")
+    w = open("./results_{}_{}_{}_{}-metrics".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), "type_of_premise", component), "a")
 
     w.write("{},{},{},{},{},{},{}\n".format(str(acc), str(f1), str(precision), str(recall), str(f1_micro), str(precision_micro), str(recall_micro)))
     w.close()
@@ -112,7 +112,7 @@ def labelAllExamples(filePatterns, type_of_prem):
             if filesize == 0 or not is_argumentative:
                 continue
             tweet_text += " " + type_of_prem + ": " + text_of_quadrant
-            processed_text = preprocessing.preprocess_text(tweet_text)
+            preprocessed_text = preprocessing.preprocess_tweet(tweet_text)
             all_tweets.append(preprocessed_text)
             all_labels.append(type_of_quadrant)
     ans = {"text": all_tweets, "label": all_labels}
@@ -132,7 +132,7 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
     test_set = tokenize_preprocess(labelAllExamples(test_partition_patterns, premise), tokenizer)
     
     training_args = TrainingArguments(
-        output_dir="./results_eval_{}_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME, "Type_of_premise", premise),
+        output_dir="./results_eval_{}_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), "Type_of_premise", premise),
         evaluation_strategy="steps",
         eval_steps=20,
         save_total_limit=15,
@@ -162,7 +162,7 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
     print(trainer.evaluate())
 
     results = trainer.predict(test_set)
-    filename = "./results_test_{}_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME, "Type_of_premise", premise)
+    filename = "./results_test_{}_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), "Type_of_premise", premise)
     with open(filename, "w") as writer:
         print(results.metrics)
         writer.write("{},{},{},{}".format(results.metrics["test_accuracy"], results.metrics["test_f1"], results.metrics["test_precision"], results.metrics["test_recall"]))
