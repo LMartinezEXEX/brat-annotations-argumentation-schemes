@@ -76,9 +76,11 @@ def compute_metrics_f1(p: EvalPrediction):
     }
 
 
-def labelAllExamples(filePatterns):
+def labelAllExamples(filePatterns, multidataset = False):
     all_tweets = []
     all_labels = []
+    if multidataset:
+        datasets = []
     for filePattern in filePatterns:
         for f in glob.glob(filePattern):
             annotations = open(f, 'r')
@@ -95,14 +97,25 @@ def labelAllExamples(filePatterns):
                         break
          
             preprocessed_text = preprocessing.preprocess_tweet(tweet_text)
-            all_tweets.append(preprocessed_text)
-            all_labels.append(is_not_argumentative)
+            if multidataset:
+                dicc = {"text": [preprocessed_text], "label": [is_not_argumentative]}
+                datasets.append([Dataset.from_dict(dicc), preprocessed_text])
+            else:
+                all_tweets.append(preprocessed_text)
+                all_labels.append(is_not_argumentative)
+    if multidataset:
+        return datasets
+
     ans = {"text": all_tweets, "label": all_labels}
     return Dataset.from_dict(ans)
 
-def tokenize_preprocess(dataset, tokenizer):
+
+def tokenize_preprocess(dataset, tokenizer, is_multi = False):
     def tokenize_preprocess_per_example(example):
         return tokenizer(example["text"], truncation=True)
+
+    if is_multi:
+        return [{"dataset": data[0].map(tokenize_preprocess_per_example, batched=True), "text": data[1]} for data in dataset]
 
     return dataset.map(tokenize_preprocess_per_example, batched=True)
 
@@ -112,6 +125,7 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
     training_set = tokenize_preprocess(labelAllExamples(train_partition_patterns), tokenizer)
     dev_set = tokenize_preprocess(labelAllExamples(dev_partition_patterns), tokenizer)
     test_set = tokenize_preprocess(labelAllExamples(test_partition_patterns), tokenizer)
+    test_set_one_example = tokenize_preprocess(labelAllExamples(test_partition_patterns, multidataset = True), tokenizer, is_multi=True)
     
     training_args = TrainingArguments(
         output_dir="./results_eval_{}_{}_ARGUMENTATIVE".format(LEARNING_RATE, MODEL_NAME.replace("/", "-")),
@@ -149,6 +163,14 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
         print(results.metrics)
         writer.write("{},{},{},{}".format(results.metrics["test_accuracy"], results.metrics["test_f1"], results.metrics["test_precision"], results.metrics["test_recall"]))
 
+    examples_filename = "./examples_test_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), "NonArgumentative")
+    with open(examples_filename, "w") as writer:
+        for dtset in test_set_one_example:
+            result = trainer.predict(dtset["dataset"])
+            writer.write("{}\t{}\t{}\n".format(dtset["text"], result.predictions.argmax(-1), result.label_ids))
+    
+        
+        
 
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, add_prefix_space=True)
