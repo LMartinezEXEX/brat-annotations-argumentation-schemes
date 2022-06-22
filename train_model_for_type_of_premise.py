@@ -79,10 +79,12 @@ def compute_metrics_f1(p: EvalPrediction):
     }
 
 
-def labelAllExamples(filePatterns, type_of_prem):
+def labelAllExamples(filePatterns, type_of_prem, multidataset = False):
     quadrant_types_to_label = {"fact": 0, "value": 1, "policy": 2}
     all_tweets = []
     all_labels = []
+    if multidataset:
+        datasets = []
     for filePattern in filePatterns:
         for f in glob.glob(filePattern):
             name_of_premise = ""
@@ -113,14 +115,24 @@ def labelAllExamples(filePatterns, type_of_prem):
                 continue
             tweet_text += " " + type_of_prem + ": " + text_of_quadrant
             preprocessed_text = preprocessing.preprocess_tweet(tweet_text)
-            all_tweets.append(preprocessed_text)
-            all_labels.append(type_of_quadrant)
+            if multidataset:
+                dicc = {"text": [preprocessed_text], "label": [type_of_quadrant]}
+                datasets.append([Dataset.from_dict(dicc), preprocessed_text])
+            else:
+                all_tweets.append(preprocessed_text)
+                all_labels.append(type_of_quadrant)
+
+    if multidataset:
+        return datasets
     ans = {"text": all_tweets, "label": all_labels}
     return Dataset.from_dict(ans)
 
-def tokenize_preprocess(dataset, tokenizer):
+def tokenize_preprocess(dataset, tokenizer, is_multi = False):
     def tokenize_preprocess_per_example(example):
         return tokenizer(example["text"], truncation=True)
+
+    if is_multi:
+        return [{"dataset": data[0].map(tokenize_preprocess_per_example, batched=True), "text": data[1]} for data in dataset]
 
     return dataset.map(tokenize_preprocess_per_example, batched=True)
 
@@ -130,6 +142,7 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
     training_set = tokenize_preprocess(labelAllExamples(train_partition_patterns, premise), tokenizer)
     dev_set = tokenize_preprocess(labelAllExamples(dev_partition_patterns, premise), tokenizer)
     test_set = tokenize_preprocess(labelAllExamples(test_partition_patterns, premise), tokenizer)
+    test_set_one_example = tokenize_preprocess(labelAllExamples(test_partition_patterns, premise, multidataset = True), tokenizer, is_multi=True)
     
     training_args = TrainingArguments(
         output_dir="./results_eval_{}_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), "Type_of_premise", premise),
@@ -167,8 +180,15 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
         print(results.metrics)
         writer.write("{},{},{},{}".format(results.metrics["test_accuracy"], results.metrics["test_f1"], results.metrics["test_precision"], results.metrics["test_recall"]))
 
+    examples_filename = "./examples_test_{}_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), "Type_of_premise", premise)
+    with open(examples_filename, "w") as writer:
+        for dtset in test_set_one_example:
+            result = trainer.predict(dtset["dataset"])
+            writer.write("{}\t{}\t{}\n".format(dtset["text"], result.predictions.argmax(-1), result.label_ids))
+
 
 for premise in type_of_premises:
+    #TODO: Pass this as a parameter to train and succesive functions.
     component = premise
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, add_prefix_space=True)
     data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
