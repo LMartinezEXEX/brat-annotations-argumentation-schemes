@@ -9,6 +9,9 @@ import argparse
 from pysentimiento import preprocessing
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
+from sklearn.feature_extraction import DictVectorizer
+from sklearn.model_selection import train_test_split
+import numpy as np
 
 parser = argparse.ArgumentParser(description="Train models for identifying argumentative components inside the ASFOCONG dataset")
 parser.add_argument('components', type=str, nargs='+', help="Name of the component that wants to be identified")
@@ -47,7 +50,7 @@ def labelComponents(text, component_text):
     return [0] * len(text.strip().split())
 
 
-def labelComponentsFromAllExamples(filePatterns, component, multidataset = False):
+def labelComponentsFromAllExamples(filePatterns, component):
     all_tweets = []
     all_labels = []
 #    if multidataset:
@@ -96,7 +99,9 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
 #        return datasets
 
 #    ans = {"tokens": all_tweets, "labels": all_labels}
-    return pd.DataFrame([all_tweets, all_labels], index=["text", "labels"]).T
+    all_tweets_flattened = [word for tweet in all_tweets for word in tweet]
+    all_labels_flattened = [label for labels in all_labels for label in labels]
+    return pd.DataFrame([all_tweets_flattened, all_labels_flattened], index=["text", "labels"]).T
 
 #def tokenize_and_align_labels(dataset, tokenizer, is_multi = False):
 #    def tokenize_and_align_labels_per_example(example):
@@ -161,15 +166,35 @@ def train(model, train_partition_patterns, dev_partition_patterns, test_partitio
     
 
     training_set = labelComponentsFromAllExamples(train_partition_patterns, component)
-    dev_set = labelComponentsFromAllExamples(dev_partition_patterns, component)
-    test_set = labelComponentsFromAllExamples(test_partition_patterns, component)
-    test_set_one_example = labelComponentsFromAllExamples(test_partition_patterns, component, multidataset = True)
     
     X = training_set.drop("labels", axis=1)
+    X.fillna(0, inplace=True)
+
+
     v = DictVectorizer(sparse=False)
     X = v.fit_transform(X.to_dict('records'))
+    y = training_set.labels.values
+    y = y.astype('int')
 
-    print(X.head())
+
+    classes = np.unique(y)
+    print(classes.tolist())
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.1, shuffle=False)
+
+    logreg = LogisticRegression(C=1e-5, class_weight = "balanced")
+    logreg.fit(X_train, y_train)
+
+    y_pred = logreg.predict(X_test)
+
+    print(y_pred)
+
+    print(f1_score(y_test, y_pred))
+
+
+#    print(list(zip(y_test, y_pred)))
+
+#    print(X)
 
 
 
@@ -177,6 +202,6 @@ for cmpnent in components:
     component = cmpnent
     model = LogisticRegression()
     filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS + 1)]
-    train(model, filePatterns[:8], filePatterns[8:9], filePatterns[9:], cmpnent)
+    train(model, filePatterns, filePatterns[8:9], filePatterns[9:], cmpnent)
 
 
