@@ -50,6 +50,8 @@ def compute_metrics_f1(p: EvalPrediction):
     f1 = metrics.f1_score(all_true_labels, all_true_preds, average="macro")
     print("F1: {}".format(f1))
 
+    f1_binary = metrics.f1_score(all_true_labels, all_true_preds, average="binary", pos_label='1')
+
     acc = metrics.accuracy_score(all_true_labels, all_true_preds)
     print("ACC: {}".format(acc))
 
@@ -73,7 +75,7 @@ def compute_metrics_f1(p: EvalPrediction):
 
     w = open("./results_{}_{}_{}-metrics".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), component), "a")
 
-    w.write("{},{},{},{},{},{},{}\n".format(str(acc), str(f1), str(precision), str(recall), str(f1_micro), str(precision_micro), str(recall_micro)))
+    w.write("{},{},{},{},{},{},{},{}\n".format(str(acc), str(f1), str(precision), str(recall), str(f1_micro), str(precision_micro), str(recall_micro), str(f1_binary)))
     w.close()
 
     return {
@@ -81,7 +83,8 @@ def compute_metrics_f1(p: EvalPrediction):
         'f1': f1,
         'precision': precision,
         'recall': recall,
-        'confusion_matrix': confusion_matrix
+        'confusion_matrix': confusion_matrix,
+        'f1_binary': f1_binary
     }
 
 
@@ -231,7 +234,7 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
         num_train_epochs=EPOCHS,
         weight_decay=0.01,
         report_to="none",
-        metric_for_best_model='f1',
+        metric_for_best_model='f1_binary',
         load_best_model_at_end=True
     )
 
@@ -253,7 +256,7 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
     results = trainer.predict(test_set)
     filename = "./results_test_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), component)
     with open(filename, "w") as writer:
-        writer.write("{},{},{},{}\n".format(results.metrics["test_accuracy"], results.metrics["test_f1"], results.metrics["test_precision"], results.metrics["test_recall"]))
+        writer.write("{},{},{},{},{}\n".format(results.metrics["test_accuracy"], results.metrics["test_f1"], results.metrics["test_precision"], results.metrics["test_recall"], results.metrics["test_f1_binary"]))
         writer.write("{}".format(str(results.metrics["test_confusion_matrix"])))
 
     examples_filename = "./examples_test_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), component)
