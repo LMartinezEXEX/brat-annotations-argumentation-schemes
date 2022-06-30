@@ -106,6 +106,8 @@ def labelComponents(text, component_text):
         return rec1 + [1] * len(component_text[0].strip().split()) + rec2
     return [0] * len(text.strip().split())
 
+def delete_unwanted_chars(text):
+    return text.replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "").replace("·", "")
 
 def labelComponentsFromAllExamples(filePatterns, component, multidataset = False):
     all_tweets = []
@@ -117,7 +119,7 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
             annotations = open(f, 'r')
             tweet = open(f.replace(".ann", ".txt"), 'r')
              # TODO: sacar todos los caracteres especiales
-            tweet_text = tweet.read().replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "").replace("·", "")
+            tweet_text = delete_unwanted_chars(tweet.read())
             component_text = []
             if component == "Collective":
                 property_text = []
@@ -132,14 +134,14 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
                         is_argumentative = False
                         break
                     if current_component.startswith(component):
-                        component_text.append([ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "").replace("·", "")])
+                        component_text.append([delete_unwanted_chars(ann[2].lstrip())])
                     if component == "Collective" and current_component.startswith("Property"):
-                        property_text.append(ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "").replace("·", ""))
+                        property_text.append(delete_unwanted_chars(ann[2].lstrip()))
 
 
             if component == "Collective":
                 tweet_text += " Property: " + " ".join(property_text)
-            preprocessed_text = preprocessing.preprocess_tweet(tweet_text, lang='en') + " " + f
+            preprocessed_text = preprocessing.preprocess_tweet(tweet_text, lang='en')
             component_text = [preprocessing.preprocess_tweet(comp, lang='en') for comp in component_text] 
             normalized_text = normalize_text(preprocessed_text, component_text)
             labels = labelComponents(" ".join(normalized_text), component_text)

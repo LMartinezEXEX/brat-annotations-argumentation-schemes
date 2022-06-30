@@ -84,6 +84,9 @@ def compute_metrics_f1(p: EvalPrediction):
     }
 
 
+def delete_unwanted_chars(text):
+    return text.replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "").replace("·", "")
+
 
 def labelComponents(text, component_text):
     if len(text.strip()) == 0:
@@ -111,7 +114,7 @@ def labelComponentsFromAllExamples(filePatterns, component):
             annotations = open(f, 'r')
             tweet = open(f.replace(".ann", ".txt"), 'r')
              # TODO: sacar todos los caracteres especiales
-            tweet_text = tweet.read().replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "")
+            tweet_text = delete_unwanted_chars(tweet.read())
             component_text = []
             is_argumentative = True
             filesize = 0
@@ -124,7 +127,10 @@ def labelComponentsFromAllExamples(filePatterns, component):
                         is_argumentative = False
                         break
                     if ann[1].lstrip().startswith(component):
-                        component_text.append(ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", ""))
+                        component_text.append([delete_unwanted_chars(ann[2].lstrip())])
+
+            if component == "Collective":
+                tweet_text += " Property: " + " ".join(property_text)
         
             if not is_argumentative or filesize == 0:
                 continue
@@ -267,9 +273,9 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
 
 for cmpnent in components:
     component = cmpnent
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, add_prefix_space=True)
+    tokenizer = AutoTokenizer.from_pretrained("./bertweet-base", add_prefix_space=True)
     data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer)
-    model = AutoModelForTokenClassification.from_pretrained(MODEL_NAME, num_labels=2)
+    model = AutoModelForTokenClassification.from_pretrained("./bertweet-base", num_labels=2)
     model.to(device)
     filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS + 1)]
     train(0, model, tokenizer, filePatterns[:8], filePatterns[8:9], filePatterns[9:], cmpnent)
