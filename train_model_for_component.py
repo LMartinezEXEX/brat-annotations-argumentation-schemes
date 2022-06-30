@@ -117,7 +117,7 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
             annotations = open(f, 'r')
             tweet = open(f.replace(".ann", ".txt"), 'r')
              # TODO: sacar todos los caracteres especiales
-            tweet_text = tweet.read().replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "")
+            tweet_text = tweet.read().replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "")
             component_text = []
             if component == "Collective":
                 property_text = []
@@ -132,14 +132,15 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
                         is_argumentative = False
                         break
                     if current_component.startswith(component):
-                        component_text.append(ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", ""))
+                        component_text.append([ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "")])
                     if component == "Collective" and current_component.startswith("Property"):
-                        property_text.append(ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", ""))
+                        property_text.append(ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", ""))
 
 
             if component == "Collective":
                 tweet_text += " Property: " + " ".join(property_text)
-            preprocessed_text = preprocessing.preprocess_tweet(tweet_text) 
+            preprocessed_text = preprocessing.preprocess_tweet(tweet_text) + " " + f
+            component_text = [preprocessing.preprocess_tweet(comp) for comp in component_text] 
             normalized_text = normalize_text(preprocessed_text, component_text)
             labels = labelComponents(" ".join(normalized_text), component_text)
             if not is_argumentative or filesize == 0:
@@ -188,6 +189,12 @@ def normalize_text(tweet_text, arg_components_text):
     parts_processed = []
     splitted_text = [tweet_text]
     for splitter in arg_components_text:
+        if (not splitter in tweet_text):
+            print("ERRORRRRRRR")
+            print(arg_components_text)
+            print(splitter)
+            print(tweet_text)
+        assert (splitter in tweet_text)
         for segment in splitted_text:
             new_splitted_text = []
             new_split = segment.split(splitter)
@@ -264,6 +271,7 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
         for dtset in test_set_one_example:
             result = trainer.predict(dtset["dataset"])
             preds = result.predictions.argmax(-1)[0]
+            assert (len(preds) == len(result.label_ids[0]))
             comparison = [(truth, pred) for truth, pred in zip(result.label_ids[0], preds) if truth != -100]
             writer.write("Tweet:\n")
             writer.write("{}\n".format(dtset["dataset"]["tokens"][0]))
