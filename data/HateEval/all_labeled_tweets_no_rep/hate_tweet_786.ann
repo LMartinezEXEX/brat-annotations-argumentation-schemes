@@ -1,0 +1,11 @@
+T1	Premise2Justification 65 167	We shouldn't be paying for this back charge the countries their coming from and add it to their bills.
+A1	QuadrantType T1 value
+T2	Premise1Conclusion 168 255;9 64	They created it charge them for it Stop being so dam nice we need the border BS handled Just release them back to Mexico they can deal with it.
+A2	QuadrantType T2 policy
+T3	pivot 102 108	charge
+T4	pivot 184 190	charge
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	Are you willing to pay for every citizen of your country living somewhere else? I thought so...
+T6	CounterNarrativeA 1 2	F
+#2	AnnotatorNotes T6	Do you have any idea how many mistakes people in your country have made? I don't see you lining up to pay for them...

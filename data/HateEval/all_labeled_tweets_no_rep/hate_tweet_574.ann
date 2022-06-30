@@ -1,0 +1,14 @@
+T1	Premise2Justification 118 168	coz u r encouraging illegal migrants,encroachments
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 169 255	Ur naked Appeasement of Muslims is highly condemnable.URGE U TO VISIT NIZZM TILL INDIA
+T3	pivot 193 200	Muslims
+T4	pivot 146 154	migrants
+R1	related Arg1:T4 Arg2:T3	
+T5	Premise1Conclusion 63 117	.But in pursuit of power,Delhi have fast become a Slum
+A2	QuadrantType T5 fact
+T6	CounterNarrativeA 58 59	p
+#1	AnnotatorNotes T6	 What is the relation between being humanitarian with suffering neighboring countries and "to pursuit of power"? 
+T7	CounterNarrativeC 60 61	w
+#2	AnnotatorNotes T7	Just lies. No one is encouraging anything illegal. But, maybe the laws need to be revised.
+T8	Collective 138 154	illegal migrants
+T9	Property 155 168	encroachments

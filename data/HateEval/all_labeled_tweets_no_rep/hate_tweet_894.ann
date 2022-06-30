@@ -1,0 +1,10 @@
+T1	Premise2Justification 32 209	The USA is not supposed to make the world a better place. It is supposed to make our liberty and earnings safe from politicians. And we are not supposed to play world cop either
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 211 305	Nor are we a rapefugee hostel dumping ground for toxic cultures, illegals, and the death cult.
+A2	QuadrantType T2 fact
+T3	Collective 224 233	rapefugee
+T4	Property 260 304	toxic cultures, illegals, and the death cult
+T5	CounterNarrativeC 1 2	@
+#1	AnnotatorNotes T5	Well, maybe not supposed to, but the last time I checked they were trying....
+T6	CounterNarrativeB 2 3	J
+#2	AnnotatorNotes T6	Refugees had to deal with the war, now they have to deal with all your prejudices. What a world

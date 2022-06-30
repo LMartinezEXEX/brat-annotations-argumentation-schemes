@@ -1,0 +1,6 @@
+T1	Premise2Justification 65 201	Crime is low in Slovakia etc but all the scumbags come to to commit crimes as they know they can get away with it - THEY NEVER RETURN!!!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 15 64;202 218	And this is exactly how it should be in England!! #stopimmigration
+A2	QuadrantType T2 value
+T3	Collective 207 218	immigration
+T4	Property 106 114	scumbags

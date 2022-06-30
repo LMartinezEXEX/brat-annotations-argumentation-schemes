@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 97	Citizens Call @SpeakerRyan 202 225-3031 tell him to bring the Mandatory E-Verify Bill to a Vote !
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 52 126	bring the Mandatory E-Verify Bill to a Vote !  $HireAmericans Not Illegals
+A2	QuadrantType T2 policy

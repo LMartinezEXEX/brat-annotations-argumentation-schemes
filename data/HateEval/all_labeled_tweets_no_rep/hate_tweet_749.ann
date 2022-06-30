@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 147 249	The lesson of which is: if you pander, they’ll take everything you give them and keep pushing for more
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 146	Problem for the PM re Johnson is that a person who sent round vans telling immigrants to GO HOME is not in a position to lecture anyone on racism.
+A2	QuadrantType T2 fact
+T3	Collective 75 85	immigrants
+T4	Property 228 249	keep pushing for more
+T5	CounterNarrativeA 147 148	T
+#1	AnnotatorNotes T5	What do you call "to pander"? Giving asylum to refugees? Come on... You are mixing things up 
+T6	CounterNarrativeB 148 149	h
+#2	AnnotatorNotes T6	What do you mean by "pushing for more"? Trying to get the same rights as everyone else? Well, maybe...

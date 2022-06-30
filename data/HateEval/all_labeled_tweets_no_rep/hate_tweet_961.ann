@@ -1,0 +1,4 @@
+T1	Premise2Justification 34 54	USA NEEDS TO WAKE UP
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 55 77	#NoRefugees#NoMigrants
+A2	QuadrantType T2 policy

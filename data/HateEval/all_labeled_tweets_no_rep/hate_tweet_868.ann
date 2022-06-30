@@ -1,0 +1,15 @@
+T1	Premise2Justification 79 111	We Dont Owe them Our Tax Dollars
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 17 78	Should Move to Deport Immigrants on Welfare as Public Charges
+A2	QuadrantType T2 policy
+T3	Collective 39 49	Immigrants
+T4	Property 64 78	Public Charges
+T5	pivot 100 111	Tax Dollars
+T6	pivot 53 60	Welfare
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 157 158	i
+#1	AnnotatorNotes T7	No, but you owe the State, and the State decides how best to use that money.
+T8	CounterNarrativeB 156 157	v
+#2	AnnotatorNotes T8	Immigrants are not a public charge, not even those on welfare. They are even significantly less than citizens on welfare
+T9	CounterNarrativeA 158 159	a
+#3	AnnotatorNotes T9	You will continue paying taxes, whether you like how that money is used or not. So stop suggesting more spending. Deporting someone is not free

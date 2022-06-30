@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 26 72	she can accommodate lots of illegal immigrants
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 21	She likes big  houses
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 89 90	z
+#1	AnnotatorNotes T3	Everyone loves big houses, you're going to accuse everyone of what exactly?
+T4	CounterNarrativeC 91 92	A
+#2	AnnotatorNotes T4	So what? What's the problem?

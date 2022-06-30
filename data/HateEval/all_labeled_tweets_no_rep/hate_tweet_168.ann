@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 71	My #Amsterdam is being un-created by mass #immigration | Joost de Vries
+T2	Premise1Conclusion 0 54	My #Amsterdam is being un-created by mass #immigration
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

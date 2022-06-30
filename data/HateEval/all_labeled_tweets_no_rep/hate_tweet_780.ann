@@ -1,0 +1,10 @@
+T1	Premise2Justification 58 139	Rampant encroachment by appeased class,illegal migrants Jhugis sprung up all over
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 57	"Delhi depicts a pathetic scene after AAP coming to power
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 138 139	r
+#1	AnnotatorNotes T3	invasion is a strong word... Did this hurt you in any way? I don't think so...
+T4	Collective 97 113	illegal migrants
+T5	Property 58 78	Rampant encroachment
+T6	CounterNarrativeA 136 137	v
+#2	AnnotatorNotes T6	I get it, you don't like the poor to do well. I'm sorry, but that is why people vote for them.

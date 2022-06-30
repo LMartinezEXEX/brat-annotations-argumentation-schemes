@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 69 89	Pay their fares only
+T2	Premise2Justification 0 68	@NickFerrariLBC Why are illegal immigrants bribed at all to go home?
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	Do you have any proof that immigrants are being bribed to go home? That sounds just like a xenophous interpretation
+T4	CounterNarrativeA 1 2	N
+#2	AnnotatorNotes T4	So you are not just worried of them coming but you also want to punish them when you are kicking them out. Why are you so cruel?
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

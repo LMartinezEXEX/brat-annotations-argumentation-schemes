@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 106	Danish #Muslims Insist On Wearing A #Niqab (or FaceVeil) &amp; Still Desire To Live As A Non-Person Ghost.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 107 166	Muslims Are Hopelessly Unable To Assimilate.  #SendThemBack
+A2	QuadrantType T2 fact
+T3	pivot 107 114	Muslims
+T4	pivot 8 15	Muslims
+R1	related Arg1:T4 Arg2:T3	
+T5	Property 16 105	Insist On Wearing A #Niqab (or FaceVeil) &amp; Still Desire To Live As A Non-Person Ghost
+T6	Collective 0 15	Danish #Muslims
+T7	CounterNarrativeC 204 205	s
+#1	AnnotatorNotes T7	Why does it bother you that others dress the way they want? Would you like people to go around criticizing your clothes?
+T8	CounterNarrativeB 206 207	p
+#2	AnnotatorNotes T8	Not necessarily Muslims, and I don't think all of them. In any case, the reason is that this is the way they dressed all their lives, and not because they wanted to be "ghosts".
+T9	CounterNarrativeA 208 209	e
+#3	AnnotatorNotes T9	If assimilating means dressing like you... it's obvious that no one wants to do it.

@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 182 253	She musta heard that we were gonna use a merit-based immigration system
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 181	A Valedictorian DACA Illegal(is there any other kind?)took time out of her busy brain surgeon scheduleto SMUGGLE s'more4.0 Med Students &amp; Quantum Physicists ILLEGALS into the US
+A2	QuadrantType T2 fact
+T3	Collective 21 28	Illegal
+T4	Property 105 112	SMUGGLE
+T5	pivot 235 246	immigration
+T6	pivot 161 169	ILLEGALS
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 271 272	v
+#1	AnnotatorNotes T7	I don't understand your sarcasm... Or do you really think there are no doctors outside this country?
+T8	CounterNarrativeB 269 270	P
+#2	AnnotatorNotes T8	Of course, because all immigrants are smugglers, or criminals of any kind...You know that this is not the only country in the world where there are hard-working people, right?
+T9	CounterNarrativeA 267 268	B
+#3	AnnotatorNotes T9	What a great sarcasm. It's funny you talk about merits while wasting your time here. Tell me, doctor, are you on your break?

@@ -1,0 +1,6 @@
+T1	Premise2Justification 16 97	Massive explosion in Muslim population,illegal migrants r root cause of pollution
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 98 137	Focus on aligning them as good citizens
+A2	QuadrantType T2 policy
+T3	Collective 54 71	,illegal migrants
+T4	Property 79 97	cause of pollution

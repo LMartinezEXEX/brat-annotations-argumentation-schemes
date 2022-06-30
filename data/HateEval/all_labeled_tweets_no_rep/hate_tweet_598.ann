@@ -1,0 +1,12 @@
+T1	Collective 21 28	Muslims
+T2	Property 29 72	coming illegally across the Southern Border
+T3	Premise2Justification 21 73	Muslims coming illegally across the Southern Border.
+A1	QuadrantType T3 fact
+T4	Premise1Conclusion 85 126	#BuildThatWall #votered #BuildTheDamnWall
+A2	QuadrantType T4 policy
+T5	CounterNarrativeA 76 77	a
+#1	AnnotatorNotes T5	Or maybe we could not force them into this situation, by revising our archaic laws...
+T6	CounterNarrativeB 77 78	g
+#2	AnnotatorNotes T6	That is not true, most try to enter the country legally. Some do, others are rejected just because of their religion, which by the way, is illegal.
+T7	CounterNarrativeC 78 79	a
+#3	AnnotatorNotes T7	Have you seen them? When? because I haven't...

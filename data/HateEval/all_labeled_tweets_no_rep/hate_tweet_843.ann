@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 199	Two thirds of the British public think that immigration is too high.Almost three quarters think that the UK is crowded.70% think that immigration has a negative effect on the availability of housing.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 134 198;44 67	immigration has a negative effect on the availability of housing immigration is too high
+A2	QuadrantType T2 fact
+T3	Collective 134 145	immigration
+T4	Property 146 198	has a negative effect on the availability of housing
+T5	pivot 44 55	immigration
+T6	pivot 134 145	immigration
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeA 203 204	X
+#1	AnnotatorNotes T7	Just because the public believes something does not make it real.
+T8	CounterNarrativeC 202 203	E
+#2	AnnotatorNotes T8	Based on what study? Who did the surveys? Where is the data?
+T9	CounterNarrativeB 201 202	R
+#3	AnnotatorNotes T9	Why would immigration have negative effects on housing availability? There is enough room for everyone...

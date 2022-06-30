@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 135	70% of Credible Fear Migrants Caught By Border Patrol Once Released into the U.S they never file Asylum ICE has to find them amd deport
+T2	Premise1Conclusion 181 276	#StopAsylumScam  Illegal #FamiliesBelongTogether in their Country Not the U.S Stop #immigration
+T3	CounterNarrativeA 280 281	p
+#1	AnnotatorNotes T3	What this prooves is that asylum system works. If Asylum were a scam then everyone would file Asylum but not everyone does.
+T4	CounterNarrativeC 285 286	t
+#2	AnnotatorNotes T4	This only means that people who claim asylum are not making it up, otherwise everyone would do it
+T5	pivot 97 103	Asylum
+T6	pivot 186 192	Asylum
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy

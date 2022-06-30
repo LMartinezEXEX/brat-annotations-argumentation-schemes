@@ -1,0 +1,9 @@
+T1	Premise2Justification 15 161	Million Illegal Aliens Costing U.S Taxpyers $135 Billion a year! Now Illegals Refuse to take their kids back want them to stay in U.S for Freebies
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 162 223	thats an Illegal #Immigration CRISIS ! #WalkAway #VoteDemsOut
+A2	QuadrantType T2 policy
+T3	Collective 23 37	Illegal Aliens
+T4	Property 38 79	Costing U.S Taxpyers $135 Billion a year!
+T5	pivot 171 177	Illega
+T6	pivot 84 92	Illegals
+R1	related Arg1:T6 Arg2:T5	

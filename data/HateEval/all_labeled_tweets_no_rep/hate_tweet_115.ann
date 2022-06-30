@@ -1,0 +1,7 @@
+T1	Premise1Conclusion 0 16	Hungary is best.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 17 70	Never Hungary will accept refugees in their homeland.
+A2	QuadrantType T2 fact
+T3	pivot 23 30	Hungary
+T4	pivot 0 7	Hungary
+R1	related Arg1:T3 Arg2:T4	

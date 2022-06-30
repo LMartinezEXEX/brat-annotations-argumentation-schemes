@@ -1,0 +1,12 @@
+T1	Premise2Justification 79 148	you need to follow @StanM3 for your daily dose of cultural enrichment
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 0 78	If you think crimes caused by the #Migrant influx into #Germany is exaggerated
+A2	QuadrantType T2 fact
+T3	Collective 35 42	Migrant
+T4	Property 13 29	crimes caused by
+T5	CounterNarrativeC 152 153	w
+#1	AnnotatorNotes T5	Who is this guy and why should we believe him? I am not convinced
+T6	CounterNarrativeA 153 154	s
+#2	AnnotatorNotes T6	Watch out. The fact that this guy (that i don't know) and I don't agree may also be because he is wrong.
+T7	CounterNarrativeB 151 152	e
+#3	AnnotatorNotes T7	What crimes? Where is the evidence? You can't go around the world accusing anyone you don't like...

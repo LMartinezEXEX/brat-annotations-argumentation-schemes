@@ -1,4 +1,5 @@
-T1	Premise2Justification 0 26;76 179	Why do you lock your door? We love & want to protect those inside our homes & country. We welcome those who enter America LEGALLY.
+T1	Premise2Justification 0 26	Why do you lock your door?
+T5	Premise2Justification 76 179	We love & want to protect those inside our homes & country. We welcome those who enter America LEGALLY.
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 26 75	It's the same reason why we need to #BuildTheWall
 A2	QuadrantType T2 policy

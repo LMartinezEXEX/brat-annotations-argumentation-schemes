@@ -1,0 +1,7 @@
+T1	Premise2Justification 219 266;73 195	Women citizens and illegals dont have the honor Male illegal aliens dont have the honor to sign up for selective services which is obligatory by law for all male citizens
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 197 218;268 318	No signature, NO JOB! Yep, I see EQUALITY happening all over this place.
+A2	QuadrantType T2 policy
+T3	pivot 200 209	signature
+T4	pivot 116 123	sign up
+R1	related Arg1:T4 Arg2:T3	

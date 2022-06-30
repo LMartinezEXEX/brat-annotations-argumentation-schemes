@@ -1,0 +1,7 @@
+T1	Premise2Justification 0 94	Hungarian Prime Minister: "Hungary belongs to the Hungarians. Immigrants are not welcome here"
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 26 94	"Hungary belongs to the Hungarians. Immigrants are not welcome here"
+A2	QuadrantType T2 policy
+T3	pivot 0 9	Hungarian
+T4	pivot 50 60	Hungarians
+R1	related Arg1:T3 Arg2:T4	

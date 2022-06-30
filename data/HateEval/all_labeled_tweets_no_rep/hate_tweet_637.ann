@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 71 116	We don't need their money and their programs.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 69	Why do foreign individual dump money (and refugees) into our country?
+A2	QuadrantType T2 fact
+T3	pivot 31 36	money
+T4	pivot 91 96	money
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 136 137	w
+#1	AnnotatorNotes T5	Technically you need almost nothing. Things just happen, and that's it....
+T6	CounterNarrativeA 138 139	P
+#2	AnnotatorNotes T6	lol, who is dumping money in our country, and why didn't I hear about it before?
+T7	Collective 7 25	foreign individual
+T8	Property 26 68	dump money (and refugees) into our country

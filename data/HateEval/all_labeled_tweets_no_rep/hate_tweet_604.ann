@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 103 214	This means social welfare must cutted or the refugees have to go home, otherwise the countries will go bankrupt
+A1	QuadrantType T1 fact
+T2	Premise2Justification 14 102	90 % are not able to take over a job. They will stay in social welfare their whole life.
+A2	QuadrantType T2 fact
+T3	pivot 114 128	social welfare
+T4	pivot 70 84	social welfare
+R1	related Arg1:T4 Arg2:T3	
+T5	Collective 148 156	refugees
+T6	Property 52 102	They will stay in social welfare their whole life.
+T7	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T7	Are you saying that states do not have enough money to take care of people who cannot afford their basic needs? The truth is that you have a problem with "paying" for other people's food, but you don't have a problem with other people paying for your stuff
+T8	CounterNarrativeB 1 2	T
+#2	AnnotatorNotes T8	Why do you assume that refugees will remain on social welfare their whole life? it is not clear to me.

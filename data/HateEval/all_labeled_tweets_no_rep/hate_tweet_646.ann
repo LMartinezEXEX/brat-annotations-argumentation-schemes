@@ -1,0 +1,8 @@
+T1	Premise2Justification 40 111	this is the mindset of the people the left are aligning themselves with
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 113 161	#BuildThatWall and tighten our immigration laws.
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 20 21	S
+#1	AnnotatorNotes T3	Are we really going to dictate our laws based on not liking this or that person? I'm glad you're just a citizen, and not a member of the government...
+T4	CounterNarrativeC 21 22	e
+#2	AnnotatorNotes T4	What is "this"? I love how these people give no information, but expect us to believe/take them seriously.

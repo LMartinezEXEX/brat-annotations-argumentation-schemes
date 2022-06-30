@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 113	Austria Public TV #Propaganda#Soros club Amnesty accusing migration policy of #EU of increment^^ of dead migrants
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 114 233	Nice extortion...China, Russia, SA etc  NOT responsible, only Europe is blamedWhy not their boss Soros for incitation ?
+A2	QuadrantType T2 policy
+T3	pivot 211 216	Soros
+T4	pivot 30 35	Soros
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 254 255	c
+#1	AnnotatorNotes T5	Why would it be an incitation to point out a problem? Just because you are not pointing out ALL the problems in the world? How pretentious
+T6	CounterNarrativeC 259 260	T
+#2	AnnotatorNotes T6	Where do you get this information from, and why are you so sure it is "Soros propaganda"? Sounds like an excuse to complain about the immigrants.

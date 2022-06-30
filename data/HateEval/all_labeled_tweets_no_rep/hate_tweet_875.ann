@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 0 68	How about no we don't have to take in these rapefugee or not-doctors
+A1	QuadrantType T1 policy
+T2	Premise2Justification 69 131	to make our counties 3rd world slums like where they came from
+A2	QuadrantType T2 fact
+T3	Collective 44 53	rapefugee
+T4	Property 44 48	rape
+T5	CounterNarrativeC 131 132	.
+#1	AnnotatorNotes T5	It is not true that accepting "third world" immigrants will bring us problems, just as accepting war refugees never brought us war.
+T6	CounterNarrativeB 130 131	m
+#2	AnnotatorNotes T6	Do you really believe that ALL refugees are rapists? Your xenophobia is unbelievable
+T7	CounterNarrativeA 129 130	o
+#3	AnnotatorNotes T7	Just because someone does not have a university degree does not make a country "third world". Is everyone in your country a doctor, or it is a third world country?

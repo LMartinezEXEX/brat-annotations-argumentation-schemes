@@ -1,0 +1,12 @@
+T1	Collective 9 17	Illegals
+T2	Property 18 93	Force 13-Year-Old Girl to Watch Murder of her Grandmother, Then Behead Girl
+T3	Premise2Justification 0 93	Alabama: Illegals Force 13-Year-Old Girl to Watch Murder of her Grandmother, Then Behead Girl
+A1	QuadrantType T3 fact
+T4	Premise1Conclusion 150 192	#LockThemAllUp #SendThemBack #BuildTheWall
+A2	QuadrantType T4 policy
+T5	CounterNarrativeA 199 200	#
+#1	AnnotatorNotes T5	You're generalizing. You're going to prevent immigration because of something ONE person did?
+T6	CounterNarrativeB 200 201	T
+#2	AnnotatorNotes T6	That is sad. But could you be so xenophobic to think that ALL immigrants are like that? That's even sadder
+T7	CounterNarrativeC 202 203	u
+#3	AnnotatorNotes T7	Why does the media focus on the fact that they are immigrants only when they are criminals and not when they make contributions to society, with doctors or scientists, for example?

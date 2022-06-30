@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 107	Why am I no longer shocked when I read about the brutality of women from those that Europe attempts to help
+A1	QuadrantType T1 value
+T2	Premise1Conclusion 109 122	#sendthemback
+A2	QuadrantType T2 policy
+T3	Collective 73 107	those that Europe attempts to help
+T4	Property 49 67	brutality of women
+T5	CounterNarrativeC 107 108	!
+#1	AnnotatorNotes T5	Maybe because you were convinced that it is something normal. But believe me, it's not.
+T6	CounterNarrativeB 107 108	!
+#2	AnnotatorNotes T6	What do you mean by brutality? I haven't seen anything like that
+T7	CounterNarrativeA 107 108	!
+#3	AnnotatorNotes T7	You talk about people outside your country, and you conclude "send them back"... the sense is sold separately?

@@ -1,0 +1,6 @@
+T1	Premise2Justification 7 100	The red line is being drawn, and we are sick of illegals killing innocent Americans or almost
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 102 150	#DeportThemAll #ImmigrationReform #BuildThatWall
+A2	QuadrantType T2 policy
+T3	Collective 55 63	illegals
+T4	Property 64 90	killing innocent Americans

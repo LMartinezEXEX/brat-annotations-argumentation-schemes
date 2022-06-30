@@ -1,0 +1,10 @@
+T1	Collective 88 103	Muslim migrants
+T2	Property 61 82	"cultural enrichment"
+T3	Premise2Justification 32 109	for closing its doors to the "cultural enrichment" that Muslim migrants bring
+T4	Premise1Conclusion 0 31	EU LEADERS are upset with Italy
+A1	QuadrantType T3 fact
+A2	QuadrantType T4 fact
+T5	CounterNarrativeFree 0 195	EU LEADERS are upset with Italy for closing its doors to the "cultural enrichment" that Muslim migrants bring https://t.co/ndd17dxKOC via @barenakedislam Enrichment update https://t.co/4OwEEIRJbq
+#1	AnnotatorNotes T5	It is understandable that EU Leaders are upset with Italy for putting barriers to immigration because that is against the principles of the Union.        
+T6	CounterNarrativeB 0 195	EU LEADERS are upset with Italy for closing its doors to the "cultural enrichment" that Muslim migrants bring https://t.co/ndd17dxKOC via @barenakedislam Enrichment update https://t.co/4OwEEIRJbq
+#2	AnnotatorNotes T6	Muslims do bring cultural enrichment to Europe.

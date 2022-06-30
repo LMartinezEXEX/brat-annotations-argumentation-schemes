@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 165	Californias U.S. Senator, Kamala Harris, her first piece of legislation, the Access to Counsel Act, by providing lawyers to anyone arriving at U.S. border crossings.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 166 204	#BuildTheWall#NoDACA#EndChainMigration
+A2	QuadrantType T2 policy

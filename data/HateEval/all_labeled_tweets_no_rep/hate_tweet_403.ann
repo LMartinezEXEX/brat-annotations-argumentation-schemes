@@ -1,0 +1,15 @@
+T1	Premise2Justification 20 88	Syrian Muslim refugee beheaded his wife because she did not obey him
+T2	Premise1Conclusion 0 17	Sharia in Germany
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	pivot 27 33	Muslim
+T4	pivot 0 6	Sharia
+T5	CounterNarrativeA 149 150	l
+#1	AnnotatorNotes T5	Just because a refugee commits an atrocity is not a sufficient reason to generalize.  Don't you think that talking about "Sharia" is a bit hasty?
+T6	Collective 27 33	Muslim
+T7	Property 42 88	beheaded his wife because she did not obey him
+T8	CounterNarrativeB 147 148	a
+#2	AnnotatorNotes T8	You know that not all Muslims are like that. On the other hand, every day some crazy Christian does the same thing, are you going to complain about that too, or are you only bothered by Muslims?
+T9	CounterNarrativeC 146 147	r
+#3	AnnotatorNotes T9	How do you know he did it for that reason? Maybe he's just crazy, and that he's a Muslim could be a mere coincidence.
+R1	related Arg1:T4 Arg2:T3	

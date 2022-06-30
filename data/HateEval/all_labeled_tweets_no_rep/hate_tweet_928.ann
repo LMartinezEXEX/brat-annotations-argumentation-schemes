@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 196	#DREAMER Stomps 83 yr old man to death in TXSSilvano Echavarria stomped the victims head 74 times and punched him 25 times before leaving his body in a parking lotHis rap sheetincludesother crimes
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 208 222	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	Collective 1 8	DREAMER
+T4	Property 190 196	crimes

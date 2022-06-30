@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 161	Enforce National security by enforcing ALL Immigration and VISA lawsCome On, Feds: it is not that hard to do the few jobs the federal government was formed to do
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 164 229	so #DeportAliens they are called "Scofflaws" they scoff our laws!
+A2	QuadrantType T2 policy
+T3	pivot 43 54	Immigration
+T4	pivot 168 174	Deport
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 174 180	Aliens
+T6	Property 209 228	they scoff our laws
+T7	CounterNarrativeA 283 284	o
+#1	AnnotatorNotes T7	"You must do your job", ergo, "do what I want"?  That's not how the system works.
+T8	CounterNarrativeB 285 286	w
+#2	AnnotatorNotes T8	What exactly would be to scoff the law? The problem is that we only give it a name when an alien does it.
+T9	CounterNarrativeC 288 289	I
+#3	AnnotatorNotes T9	I don't think that's exactly their job. In fact, there are established processes regarding how laws should be modified....

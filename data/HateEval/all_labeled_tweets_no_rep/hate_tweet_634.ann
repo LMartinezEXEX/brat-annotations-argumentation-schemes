@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 91 134	handing out things wont change peoples mind
+A1	QuadrantType T1 fact
+T2	Premise2Justification 13 90	Why do those who have neen accepted as refugees want the uk to take in more ?
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	Why would asking for your family to be accepted as refugees be "trying to change people's minds"?
+T4	CounterNarrativeC 2 3	a
+#2	AnnotatorNotes T4	According to whom? Did you go and ask them one by one, or are you generalizing? Worse yet, you might even be making it up...
+T5	Collective 52 60	refugees
+T6	Property 61 88	want the uk to take in more

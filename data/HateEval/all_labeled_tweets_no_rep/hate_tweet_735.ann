@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 164	It's unfair to immigrants apply and wait for a VISA to reside,work or go to school, here in the U.S., that ILLEGAL ALIENS are allowed to stay without documentation.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 165 266	Let them go home and apply for a VISA like all the LEGAL IMMIGRANTS HAVE. WHAT MAKES ILLEGALS EXEMPT?
+A2	QuadrantType T2 policy
+T3	pivot 47 51	VISA
+T4	pivot 198 202	VISA
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 107 121	ILLEGAL ALIENS
+T6	Property 122 163	are allowed to stay without documentation
+T7	CounterNarrativeA 265 266	?
+#1	AnnotatorNotes T7	It may be unfair, but wasting funds to solve the problem in this way, instead of using them to allow more immigrants to enter legally, is even more unfair....
+T8	CounterNarrativeB 264 265	T
+#2	AnnotatorNotes T8	In fact illegal immigrants are persecuted and deported, you already know that.... 
+T9	CounterNarrativeC 263 264	P
+#3	AnnotatorNotes T9	In fact, they are not allowed, otherwise they would not be "illegal"... That the deportation policies are not so tough is a different thing...

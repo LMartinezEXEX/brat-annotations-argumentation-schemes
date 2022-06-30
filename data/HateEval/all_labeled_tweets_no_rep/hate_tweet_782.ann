@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 78	Stephen Miller -Public Charge Rule is not New its been on the books since 1882
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 79 174	50% of Immigrants on Welfare 90% will Remain on Welfare after 20 years  burdening U.S Taxpayers
+A2	QuadrantType T2 fact
+T3	pivot 16 29	Public Charge
+T4	pivot 165 174	Taxpayers
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 199 200	A
+#1	AnnotatorNotes T5	Just because something is in a book doesn't make it real....
+T6	Collective 86 96	Immigrants
+T7	Property 151 174	burdening U.S Taxpayers
+T8	CounterNarrativeB 198 199	G
+#2	AnnotatorNotes T8	Those who come with the desire to work and get ahead, become a public charge? I mean, maybe a few, but I don't think it will affect enough to make you get angry with the rest of them...
+T9	CounterNarrativeA 196 197	M
+#3	AnnotatorNotes T9	So, this guy said some made-up statistics in an interview. Why should we believe him?

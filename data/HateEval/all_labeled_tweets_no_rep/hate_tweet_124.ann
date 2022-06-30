@@ -1,0 +1,7 @@
+T1	Premise2Justification 55 232	A Mexican asked me whether I was saying that Hispanic immigrants had no right to a country, meaning OURS. I replied, "Immigrants HAVE a country, or they wouldn't be IMMIGRANTS."
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 7 43	Dogs in America, or dogs in Mexico??
+A2	QuadrantType T2 policy
+T3	pivot 100 108	Hispanic
+T4	pivot 35 41	Mexico
+R1	related Arg1:T3 Arg2:T4	

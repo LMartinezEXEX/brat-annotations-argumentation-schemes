@@ -1,0 +1,12 @@
+T1	Premise2Justification 52 176	who do you think pays for their healthcare and emergency room visits my #ObamaCare costs me $36,000 per year because of them
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 51	#IllegalAliens are robbing #Americans of retirement
+A2	QuadrantType T2 fact
+T3	Collective 1 14	IllegalAliens
+T4	Property 15 51	are robbing #Americans of retirement
+T5	CounterNarrativeC 271 272	a
+#1	AnnotatorNotes T5	I don't know, maybe it comes out of taxes. How can you be sure it doesn't?
+T6	CounterNarrativeA 270 271	W
+#2	AnnotatorNotes T6	That the government allocates funds to solve a problem, and that immigrants are " robbing" are two very different things. You can't link them without evidence
+T7	CounterNarrativeB 268 269	a
+#3	AnnotatorNotes T7	So, do you have any proof that aliens are robbing Americans, or is that just your racism talking?

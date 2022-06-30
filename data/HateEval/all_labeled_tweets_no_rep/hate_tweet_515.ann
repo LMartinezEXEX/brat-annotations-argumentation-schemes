@@ -1,0 +1,18 @@
+T1	Premise2Justification 0 142	Democrats have been placing refugees and illegals in Parts of the country trying to change the outcome of elections and we stop them Everytime
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 144 280	Democrats have been trying to stop AMERICANS from voting and giving more and more refugees the rights to vote against us. Dems are done.
+A2	QuadrantType T2 fact
+T3	pivot 0 9	Democrats
+T4	pivot 144 153	Democrats
+R1	related Arg1:T3 Arg2:T4	
+T5	pivot 28 36	refugees
+T6	pivot 226 234	refugees
+R2	related Arg1:T5 Arg2:T6	
+T7	Collective 0 9	Democrats
+T8	Property 10 115	have been placing refugees and illegals in Parts of the country trying to change the outcome of elections
+T9	CounterNarrativeA 277 278	n
+#1	AnnotatorNotes T9	You are assuming that there was electoral fraud just because they defend the right to immigrate. If they were "stopped every time" what are you so worried about?
+T10	CounterNarrativeB 134 135	v
+#2	AnnotatorNotes T10	That is a very serious accusation. What is your evidence? "Please believe me"?
+T11	CounterNarrativeC 278 279	e
+#3	AnnotatorNotes T11	"We stop them every time."... I really doubt the Democrats would have tried to do that. Do you have proofs?

@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 77	No, bi*ch. You killed him by coming here illegally! You both made the choice.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 78 109	Get the hell out of our country
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 145 146	#
+#1	AnnotatorNotes T3	Ok, let's kick out everyone who made a bad decision, let's start with... those who made the wrong college choice. Don't you see how ridiculous that sounds?
+T4	CounterNarrativeC 148 149	i
+#2	AnnotatorNotes T4	I don't think you can attribute someone's death to the fact that they decided to emigrate. You are looking for excuses instead of looking at what really happened.

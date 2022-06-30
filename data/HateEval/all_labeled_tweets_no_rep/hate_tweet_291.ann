@@ -1,0 +1,9 @@
+T1	Premise2Justification 181 224;62 144	ask Germany and Sweden about crime going up The UK did vote to stop shitty nations and immigration on the whole but as he puts
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 145 180;225 276	it time to put our own people first trouble is Migrants can demand not what they earned
+A2	QuadrantType T2 policy
+T3	Collective 105 116	immigration
+T4	Property 210 224	crime going up
+T5	pivot 105 116	immigration
+T6	pivot 236 244	Migrants
+R1	related Arg1:T5 Arg2:T6	

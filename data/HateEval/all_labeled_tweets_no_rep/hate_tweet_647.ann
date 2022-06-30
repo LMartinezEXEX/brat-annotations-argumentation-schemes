@@ -1,0 +1,10 @@
+T1	Premise2Justification 27 56	Subramanian Swamy makes sense
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 58 186	Illegal immigrants have two options:-1. _Go back Home. Because you wanted partition._2. _Merge Pakistan and Bangladesh with us._
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 21 22	0
+#1	AnnotatorNotes T3	just because this is coming from... who?
+T4	CounterNarrativeC 23 24	D
+#2	AnnotatorNotes T4	Submaranian swammy makes sense about what? or based on what evidence? at least you could be specific about what he said, I mean, everyone is right at least once in their life, its not the big deal....
+T5	Collective 58 76	Illegal immigrants
+T6	Property 125 141	wanted partition

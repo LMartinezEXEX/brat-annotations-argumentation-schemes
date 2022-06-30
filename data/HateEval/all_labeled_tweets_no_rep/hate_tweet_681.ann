@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 183	National Counter Terror Coordinator Dean Haydon says, "The current terrorism threat here in the UK is at severe." Police &amp; security services thwarting 1 terror attack every month.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 184 269	This is the result of Lib-Lab-Con creating a multicultural mess from mass immigration
+A2	QuadrantType T2 fact
+T3	Collective 258 269	immigration
+T4	Property 67 83	terrorism threat
+T5	CounterNarrativeA 281 282	d
+#1	AnnotatorNotes T5	That the government recognizes that it has a problem with terrorism does not imply that immigration is somehow to blame for it....
+T6	CounterNarrativeB 282 283	g
+#2	AnnotatorNotes T6	Not all migrants are terrorists! and you should know that.... After all, some of your ancestors, if not all of them, were surely... 
+T7	CounterNarrativeC 279 280	r
+#3	AnnotatorNotes T7	Maybe he said so, but is he right? Do you have any extra information that allows you to sustain that this guy is not wrong?

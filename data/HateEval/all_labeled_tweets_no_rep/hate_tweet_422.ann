@@ -1,0 +1,12 @@
+T1	Premise2Justification 98 170	it impacts their wages, jobs and communites as well as African Americans
+T2	Premise1Conclusion 45 97	Hispanics are the hardest hit by Illegal Immigration
+A1	QuadrantType T2 fact
+T3	Collective 78 97	Illegal Immigration
+T4	Property 101 141	impacts their wages, jobs and communites
+T5	CounterNarrativeB 198 199	o
+#1	AnnotatorNotes T5	If immigration affects wages or jobs, then they are doing something wrong. At the end of the day, new adults are added to the system every year, and they should be prepared to deal with it.
+T6	CounterNarrativeC 197 198	m
+#2	AnnotatorNotes T6	How could that happen? The system is not going to fall apart just because a few new workers show up. If it did, the system would have collapsed year after year.
+T7	CounterNarrativeA 200 201	r
+#3	AnnotatorNotes T7	The fact that someone is " hardest hit" does not mean that they has been "hit hardest".
+A2	QuadrantType T1 fact

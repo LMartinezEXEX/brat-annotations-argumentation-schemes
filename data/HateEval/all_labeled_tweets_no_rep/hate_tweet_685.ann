@@ -1,0 +1,12 @@
+T1	Premise2Justification 15 101	in the jailing of the smugglers the families of migrants called the emergency services
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 102 140	seems its a team effort to get into uk
+A2	QuadrantType T2 fact
+T3	Collective 63 71	migrants
+T4	Property 114 140	team effort to get into uk
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	Because the best way to invade a country is clearly by calling the emergency services, as was never seen at .... anywhere.
+T6	CounterNarrativeB 1 2	D
+#2	AnnotatorNotes T6	With so many countries accepting them, I doubt they will make much effort to enter yours ...
+T7	CounterNarrativeC 3 4	i
+#3	AnnotatorNotes T7	Not even a link, not even a reference to a newspaper... Where did this come from? 

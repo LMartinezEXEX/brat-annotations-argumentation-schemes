@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 186 203	#BuildTheDamnWall
+T2	Premise2Justification 26 184	“The government predicts that in 2030, immigration will overtake new births as the dominant driver of population growth.” PREDICTS = causes by failure to stop
+T3	Collective 65 76	immigration
+T4	Property 77 145	will overtake new births as the dominant driver of population growth
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+R1	secondOrder Arg1:T1 Arg2:T2	
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	Immigration being the dominant driver of population growth doesn't have anything wrong on itself. Definitively doesn't mean you have to surround yourself of walls
+T6	CounterNarrativeB 2 3	o
+#2	AnnotatorNotes T6	What is the problem with population growing?
+T7	CounterNarrativeC 4 5	i
+#3	AnnotatorNotes T7	Do you have any proof of this? It sounds fake

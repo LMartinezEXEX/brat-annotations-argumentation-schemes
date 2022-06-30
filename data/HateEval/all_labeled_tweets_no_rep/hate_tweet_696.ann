@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 53;137 252	Syrian Refugees destroy hotel BIBLE'S &amp; property. The prime victims in the Mid East are Coptic Christians who been unable to travel with violent Muslims to the West.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 54 136	They are not Coptic Christian refugees. Can I guess that they are Muslim refugees?
+A2	QuadrantType T2 fact
+T3	pivot 30 35	BIBLE
+T4	pivot 74 83	Christian
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 0 15	Syrian Refugees
+T6	Property 224 239	violent Muslims
+T7	CounterNarrativeA 269 270	G
+#1	AnnotatorNotes T7	Just because they destroyed a bible does not mean that they are not Christians, nor that they are Muslims. Please try to be more informed and not get carried away by your biases.
+T8	CounterNarrativeB 270 271	5
+#2	AnnotatorNotes T8	There are many religions in Syria. Not all of them are Muslims, and even fewer are radicals.
+T9	CounterNarrativeC 271 272	C
+#3	AnnotatorNotes T9	Perhaps ONE of them broke a bible (for reasons unknown to us). Yet you dare to say that ALL of them are radical Muslims. Xenophobia is clouding your judgement my friend....

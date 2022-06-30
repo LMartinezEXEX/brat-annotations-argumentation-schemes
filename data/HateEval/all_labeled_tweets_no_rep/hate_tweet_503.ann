@@ -1,0 +1,13 @@
+T1	Premise2Justification 27 73	Rep. agrees w-Sebastian Kurz regarding Turkey.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 74 276	Visa-free status or EU membership would be an absolute disaster.Erdogan a global tyrant who flooded Europe w-aggressive male migrants, helped destabilize Syria and supported Islamic extremists.#Visegrad
+A2	QuadrantType T2 fact
+T3	Collective 199 207	migrants
+T4	Property 183 198	aggressive male
+T5	Collective 248 266	Islamic extremists
+T6	CounterNarrativeA 4 5	s
+#1	AnnotatorNotes T6	Just because Sebastian Kurz says so? As if he's never been wrong, ha...
+T7	CounterNarrativeB 6 7	/
+#2	AnnotatorNotes T7	It is not true that refugees are mainly aggressive males. In fact, they are mostly women and children.
+T8	CounterNarrativeC 7 8	/
+#3	AnnotatorNotes T8	Well, agreeing with someone doesn't make you right, no matter who that someone is....

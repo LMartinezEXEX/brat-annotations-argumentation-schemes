@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 0 32	Another reason to #BuildThatWall
+A1	QuadrantType T1 policy
+T2	Premise2Justification 34 177	it's just as easy for jihadists from Islamic countries to slide across our border illegally as it is for folks from Mexico and Central America.
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 276 277	o
+#1	AnnotatorNotes T3	Are you suggesting that people who live on the other side of the world are going to walk into our country? Come on...
+T4	Property 89 125	to slide across our border illegally
+T5	Collective 56 88	jihadists from Islamic countries
+T6	CounterNarrativeB 275 276	n
+#2	AnnotatorNotes T6	Of course, because walking across the ocean is sooo easy. In your country they don't study geography? for god sake...
+T7	CounterNarrativeA 277 278	w
+#3	AnnotatorNotes T7	Do you really believe that if someone from the other side of the world wants to travel to your country, a wall will prevent them from doing so? Don't make me laugh...

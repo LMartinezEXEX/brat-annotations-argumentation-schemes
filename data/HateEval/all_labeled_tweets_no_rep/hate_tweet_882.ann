@@ -1,0 +1,12 @@
+T1	Premise2Justification 39 193	to prevent #WhiteGenocide!#DeportThemALL!There is no virtue in self-imposed cultural and societal suicide!Vote out evil open-border globalist politicians!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 38	#SaveEurope! Stop the #IslamicInvasion
+A2	QuadrantType T2 policy
+T3	Collective 23 30	Islamic
+T4	Property 30 38	Invasion
+T5	CounterNarrativeC 272 273	d
+#1	AnnotatorNotes T5	I don't understand how you would avoid genocide by eliminating a minority. Wait, isn't that the definition of genocide?
+T6	CounterNarrativeB 271 272	n
+#2	AnnotatorNotes T6	It is not an invasion, they are escaping from there. They have no preference for this country or another as long as there is no war in that place.
+T7	CounterNarrativeA 272 273	d
+#3	AnnotatorNotes T7	There may be no virtue in it, but that doesn't mean that Europe is in danger... there is no invasion to stop....

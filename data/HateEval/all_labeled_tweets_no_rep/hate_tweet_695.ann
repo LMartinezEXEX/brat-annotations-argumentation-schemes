@@ -1,0 +1,13 @@
+T1	Premise2Justification 128 192	#ParisAttack' IS THE 'NEW OFFICIAL PERMANENT HASHTAG' OF '#Paris
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 9 119	THE 'COUNTRY' FORMERLY KNOWN AS '#France' IS 'SO FAR GONE' THAT THEY DON'T EVEN CALL '#Terrorism' '#Terrorism'
+A2	QuadrantType T2 fact
+T3	pivot 186 192	#Paris
+T4	pivot 42 49	#France
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 221 222	#
+#1	AnnotatorNotes T5	You claim as a problem that France does not call terrorism, to something that perhaps they do not consider terrorism
+T6	CounterNarrativeC 222 223	M
+#2	AnnotatorNotes T6	By "official" do you mean the government adopted it, or is that just saying? Because I haven't seen anything about it...        
+T7	Collective 194 202	refugees
+T8	Property 96 105	Terrorism

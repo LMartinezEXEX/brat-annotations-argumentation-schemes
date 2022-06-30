@@ -1,4 +1,5 @@
-T1	Premise2Justification 0 53;137 252	Syrian Refugees destroy hotel BIBLE'S &amp; property. The prime victims in the Mid East are Coptic Christians who been unable to travel with violent Muslims to the West.
+T1	Premise2Justification 0 53	Syrian Refugees destroy hotel BIBLE'S &amp; property.
+T10	Premise2Justification 137 252	The prime victims in the Mid East are Coptic Christians who been unable to travel with violent Muslims to the West.
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 54 136	They are not Coptic Christian refugees. Can I guess that they are Muslim refugees?
 A2	QuadrantType T2 fact

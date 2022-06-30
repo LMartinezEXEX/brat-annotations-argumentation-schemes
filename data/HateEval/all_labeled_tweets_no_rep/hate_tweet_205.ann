@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 68	The world divided over trumped up charges and more refugees drowning
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 71 138	blame the refugees who burnt and murdered Christians their religion
+A2	QuadrantType T2 policy
+T3	Collective 81 89	refugees
+T4	Property 94 123	burnt and murdered Christians
+T5	pivot 51 59	refugees
+T6	pivot 81 89	refugees
+R1	related Arg1:T5 Arg2:T6	

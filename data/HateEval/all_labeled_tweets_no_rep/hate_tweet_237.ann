@@ -1,0 +1,4 @@
+T1	Premise2Justification 45 214	Conservative party is run by a vicar's daughter who organised a van to drive around telling immigrants to 'go home' and openly supports UKIP and DUP racism and thuggery.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 44	Labour has mishandled cases of antisemitism.
+A2	QuadrantType T2 fact

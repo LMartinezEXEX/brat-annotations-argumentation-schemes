@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 67	This is what the streets of the #uk will look like in 10 more years
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 68 95	#Brexitnow #stopimmigration
+A2	QuadrantType T2 policy

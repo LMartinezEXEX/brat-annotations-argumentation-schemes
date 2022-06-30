@@ -1,0 +1,9 @@
+T1	Premise2Justification 91 145	You and your party have done enough to destroy America
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 89;147 175	@SenSchumer You know something Chucky. We the people dont give a rats behind what you say We are done with your ideals
+A2	QuadrantType T2 value
+T3	pivot 164 175	your ideals
+T4	pivot 99 109	your party
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 218 219	W
+#1	AnnotatorNotes T5	That's opposition propaganda. You can't speak for "the people" if you haven't won elections.

@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 107	Martin Luther King Jr. once said “our lives begin to end the day we become silent about things that matter.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 109 248	How will the lens of history judge our response to today's global refugee crisis? World Relief CEO Tim Breene reflects on #WorldRefugeeDay.
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 295 296	S
+#1	AnnotatorNotes T3	The context in which Martin Luther King Jr. called not to "become silent about things that matter" has nothing to do with the current refugee crisis.
+T4	CounterNarrativeC 296 297	O
+#2	AnnotatorNotes T4	Ok, but do you understand what he really meant? you can't just grab a random phrase and take it out of context, and make that a valid argument...
+T5	Collective 175 182	refugee
+T6	Property 183 189	crisis

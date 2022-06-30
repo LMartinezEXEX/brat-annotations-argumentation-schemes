@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 63	Time to Stop Illegals from using kids as a get out of jail card
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 64 117	#Detain and Deport Never let them see a U.S City Stop
+A2	QuadrantType T2 policy
+T3	Collective 13 21	Illegals
+T4	Property 27 63	using kids as a get out of jail card
+T5	CounterNarrativeA 168 169	d
+#1	AnnotatorNotes T5	Who do you want to deport? The parents for having children while in jail, or the children (who were born here)? You would have to be crazy to consider either of those two ideas...
+T6	CounterNarrativeB 169 170	N
+#2	AnnotatorNotes T6	I never saw anyone get out of jail for having children. Unless their only "crime" was to be born in another country, of course...
+T7	CounterNarrativeC 170 171	a
+#3	AnnotatorNotes T7	It can't be "time to stop" something that doesn't happen.

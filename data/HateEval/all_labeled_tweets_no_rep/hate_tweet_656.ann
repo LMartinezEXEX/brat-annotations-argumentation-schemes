@@ -1,0 +1,8 @@
+T1	Premise2Justification 15 74	Sheme there is no attention on our own people and foodbanks
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 81 136	do you have to be a migrant to be treated with respect?
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 7 8	R
+#1	AnnotatorNotes T3	Who disrespects you? Are you sure it was because you are a citizen, or is it just a coincidence?
+T4	CounterNarrativeC 8 9	e
+#2	AnnotatorNotes T4	Are you sure our people are not being served? I don't know, do you have evidence?

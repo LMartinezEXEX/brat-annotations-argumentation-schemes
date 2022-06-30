@@ -1,0 +1,10 @@
+T1	Premise2Justification 14 55;142 204	And you want to restart Catch and Release Illegal Alien Accused of Raping, Trafficking Girl in Louisiana
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 80 142	until labor participation rate is at least 80%#NoCatch&Release
+A2	QuadrantType T2 policy
+T3	Collective 150 155	Alien
+T4	Property 156 204	Accused of Raping, Trafficking Girl in Louisiana
+T5	CounterNarrativeB 218 219	i
+#1	AnnotatorNotes T5	And since he is an immigrant, he is surely guilty, although the courts have not yet ruled on the matter, right? that is so wrong
+T6	CounterNarrativeC 221 222	@
+#2	AnnotatorNotes T6	Ok, but you know that "accused" means that we still don't know if he is guilty, right? You can't use it as an example, what if he is innocent?

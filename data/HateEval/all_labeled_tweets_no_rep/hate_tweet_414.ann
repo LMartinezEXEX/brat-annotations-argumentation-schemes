@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 114 126	SendThemHome
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 98	More Than 130 Homes and 170 Square Miles Burned Due to Wildfire Allegedly Started by Illegal Alien
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 128 129	R
+#1	AnnotatorNotes T3	Are you going to send them all back, just because one of them is a criminal. That's no fair
+T4	CounterNarrativeC 130 131	d
+#2	AnnotatorNotes T4	You said "allegedly" yourself. Stop drawing foolish conclusions from something you don't know to be true.
+T5	Collective 93 98	Alien
+T6	Property 41 63	Burned Due to Wildfire
+T7	CounterNarrativeB 136 137	n
+#3	AnnotatorNotes T7	Imagine if all immigrants were pyromaniacs. The world (and not only 170 squares miles of our country) would be on fire.

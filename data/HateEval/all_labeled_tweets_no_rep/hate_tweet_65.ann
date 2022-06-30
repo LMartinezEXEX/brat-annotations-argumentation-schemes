@@ -1,0 +1,14 @@
+T2	Collective 37 51	Somali refugee
+T4	Property 0 17	Edmonton attacker
+T5	Property 79 94	known to police
+T1	Premise2Justification 0 94	Edmonton attacker identified as 30yo Somali refugee Abdulahi Hasan Sharif, was known to police
+T3	Premise1Conclusion 96 121	CHThis is my shocked face
+A1	QuadrantType T3 value
+A2	QuadrantType T1 fact
+R1	secondOrder Arg1:T3 Arg2:T1	
+T6	CounterNarrativeA 128 129	d
+#1	AnnotatorNotes T6	The fact that a Somali refugee committed a crime doesn't mean that all refugees are criminals. Irony is a good resource when  used smartly. It's not your case though
+T7	CounterNarrativeB 127 128	E
+#2	AnnotatorNotes T7	Are you implicating that all refugees are attackers or criminals? I think you are just showing off your xenophobia
+T8	CounterNarrativeC 123 124	ð
+#3	AnnotatorNotes T8	Do you have any proof that this Somali refugee was known to the police? What is that supposed to prove?

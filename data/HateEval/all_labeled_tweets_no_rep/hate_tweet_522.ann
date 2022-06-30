@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 108	@ScotExpress Please be warned SNP the scots people did not give u a mandate for mass immigration in our name
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 109 133	dont under estimate this
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	One chooses authorities because one believes them capable of making decisions for the rest, and not to do exactly what one would do. It is called democracy...
+T4	CounterNarrativeC 1 2	S
+#2	AnnotatorNotes T4	I think he was actually voted to do exactly what he said he would 

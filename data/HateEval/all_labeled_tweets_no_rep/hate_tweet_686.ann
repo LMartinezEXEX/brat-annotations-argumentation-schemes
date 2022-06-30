@@ -1,0 +1,12 @@
+T1	Premise2Justification 163 244	They come here with a welcome wagon waiting to get on welfare and public benefits
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 14 161	As for U.S. immigration, I don't think we need hordes of people coming in not refugees, not smart, not willing to pledge their lives to this nation
+A2	QuadrantType T2 value
+T3	Collective 26 38	immigration,
+T4	Property 88 161	not refugees, not smart, not willing to pledge their lives to this nation
+T5	CounterNarrativeA 252 253	a
+#1	AnnotatorNotes T5	Well, no one is really needed, not even you or me. I don't think that's a good enough reason to close the doors to anyone...
+T6	CounterNarrativeB 251 252	w
+#2	AnnotatorNotes T6	you suggest that there is a difference in intelligence between those immigrants who escaped the war and those who didn't but migrates for some other reasons? that's the most random thing i heard today.
+T7	CounterNarrativeC 254 255	t
+#3	AnnotatorNotes T7	It is not true, they usually come without shelter or security of any kind, looking for a job and a decent life....

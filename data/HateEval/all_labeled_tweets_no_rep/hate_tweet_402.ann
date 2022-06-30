@@ -1,0 +1,14 @@
+T1	Premise1Conclusion 89 118	They all have a good buisness
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 214 230	There isnt a wil
+A2	QuadrantType T2 value
+T3	Premise2Justification 0 88;120 213	Frontex ships, NGO ships and criminal elements transport refugees from Africa to Europe. because only few goverments of Europe will and are able to ban refugees from their territory.
+T4	Collective 57 65	refugees
+T5	Property 0 88	Frontex ships, NGO ships and criminal elements transport refugees from Africa to Europe.
+A3	QuadrantType T3 fact
+T6	CounterNarrativeB 252 253	t
+#1	AnnotatorNotes T6	There are "criminal elements" transporting refugees according to whom? or is it just an excuse to denigrate immigrants?
+T7	CounterNarrativeC 251 252	B
+#2	AnnotatorNotes T7	Why should they be able to prohibit the entry of refugees into their territory? Is it not a human right to emigrate?
+T8	CounterNarrativeA 250 251	2
+#3	AnnotatorNotes T8	People have always emigrated, and this has never generated big problems. Why should be a will to stop it?

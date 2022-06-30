@@ -1,0 +1,7 @@
+T1	Premise2Justification 0 26;76 179	Why do you lock your door? We love & want to protect those inside our homes & country. We welcome those who enter America LEGALLY.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 26 75	It's the same reason why we need to #BuildTheWall
+A2	QuadrantType T2 policy
+T3	pivot 0 3	Why
+T4	pivot 40 50	reason why
+R1	related Arg1:T3 Arg2:T4	

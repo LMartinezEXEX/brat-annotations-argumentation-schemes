@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 39 60	we should do the same
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 38	Our ancestors called migrants invaders
+A2	QuadrantType T2 fact
+T3	Collective 21 29	migrants
+T4	Property 30 38	invaders
+T5	CounterNarrativeA 59 60	e
+#1	AnnotatorNotes T5	Just because our ancestors did something doesn't mean we should too. If you want to live like them, start by stopping using twitter.
+T6	CounterNarrativeC 57 58	a
+#2	AnnotatorNotes T6	Our ancestors? Nope, mine were not as xenophobic than yours.
+T7	CounterNarrativeB 58 59	m
+#3	AnnotatorNotes T7	By definition, invader and immigrant cannot be the same. One of them enters to conquer, and the other comes to live in the community.

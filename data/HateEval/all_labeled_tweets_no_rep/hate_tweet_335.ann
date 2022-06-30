@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 115 181	But refugees which always want to enter USA its a good information
+T2	Premise2Justification 185 206	They would get slaves
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	Collective 119 127	refugees
+T4	Property 200 206	slaves

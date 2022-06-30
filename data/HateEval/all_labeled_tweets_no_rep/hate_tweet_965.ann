@@ -1,0 +1,9 @@
+T1	Premise2Justification 1 77	@KamalaHarris says Dreamers represent the best of what #America has to offer
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 78 114	60K with arrest records NOT OUR BEST
+A2	QuadrantType T2 fact
+T3	Collective 20 28	Dreamers
+T4	Property 87 101	arrest records
+T5	pivot 110 114	BEST
+T6	pivot 43 47	best
+R1	related Arg1:T6 Arg2:T5	

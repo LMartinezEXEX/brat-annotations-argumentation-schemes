@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 15 94	Its no different in Canada folks:  Access to  White people is NOT a human right
+T2	Premise2Justification 95 186	It takes twelve Germans to work and pay taxes in order to fund the cost of just one migrant
+T3	pivot 61 73	White people
+T4	pivot 111 118	Germans
+T5	Collective 179 186	migrant
+T6	Property 111 140	Germans to work and pay taxes
+T7	Property 162 166	cost
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T8	CounterNarrativeA 1 2	b
+#1	AnnotatorNotes T8	Granting rights for migrants doesn't imply anyone else losing rights. Why do you say that there are no rights for white people? Can you provide an example? Haven't you though that white people migrates too?
+T9	CounterNarrativeB 2 3	r
+#2	AnnotatorNotes T9	Migrants pay taxes too and proportionally they pay higher taxes than the rest given than in many countries the most expensive taxes are the ones taxing the consumption of primary goods. Migrants are not a cost for taxpayers
+T10	CounterNarrativeC 4 5	c
+#3	AnnotatorNotes T10	Do you have any proof that it takes twelve Germans to work and pay taxes in order to fund the cost of one migrant? Because porportionally, migrants pay very high taxes on the goods they consume

@@ -1,0 +1,4 @@
+T1	Premise2Justification 8 63	they are not asylum seekers they are illegal immigrants
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 64 77	#sendthemback
+A2	QuadrantType T2 policy

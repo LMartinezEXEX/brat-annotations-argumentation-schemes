@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 17 136	I'm convinced the rapefugee invasion is an integral stage leading to this, considering their victims tend to be minors.
+A1	QuadrantType T1 value
+T2	Premise2Justification 137 232	More exposure to an idea, whether positive or negative, has a normalizing effect on the masses.
+A2	QuadrantType T2 fact
+T3	Property 35 39	rape
+T4	Collective 35 44	rapefugee
+T5	CounterNarrativeC 0 1	"
+#1	AnnotatorNotes T5	This is not necessarily true. In fact, usually, when the ideas are negative, the opposite effect is observed.
+T6	CounterNarrativeB 1 2	@
+#2	AnnotatorNotes T6	There is no invasion of rapefugee, because there are no rapefugees. The rapist rapes, whether they are refugees or not, it doesn't matter....
+T7	CounterNarrativeA 2 3	R
+#3	AnnotatorNotes T7	Perhaps this association you make is also the result of having been "very exposed to the idea". But it is not true

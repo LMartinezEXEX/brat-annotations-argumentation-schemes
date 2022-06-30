@@ -1,0 +1,13 @@
+T1	Premise2Justification 37 139	American Kids Killed by Illegals are Permanently Separated from their families were is the Protest!!!!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 140 200	Illegal #FamiliesBelongTogether in their Country Not the U.S
+A2	QuadrantType T2 policy
+T3	pivot 61 69	Illegals
+T4	pivot 140 147	Illegal
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 216 217	h
+#1	AnnotatorNotes T5	That sounds like revenge, or even worse, quenching your thirst for revenge on innocents. That's so wrong, and you know that
+T6	CounterNarrativeC 218 219	g
+#2	AnnotatorNotes T6	You protest to claim rights. Protesting for something we all agree on makes no sense. Is it really that hard to understand?
+T7	Collective 61 69	Illegals
+T8	Property 37 60	American Kids Killed by

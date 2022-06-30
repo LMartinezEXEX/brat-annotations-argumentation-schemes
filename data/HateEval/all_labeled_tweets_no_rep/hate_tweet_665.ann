@@ -1,0 +1,8 @@
+T1	Premise2Justification 177 197;41 109	we can't afford them 'we have to worry about the children' No we do not-many R >20yrs old
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 110 176	Go home and make your country better or enter ours legally #NoDACA
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 14 15	a
+#1	AnnotatorNotes T3	The government can't deport people just because YOU don't agree to live with them. Grow up.
+T4	CounterNarrativeC 13 14	m
+#2	AnnotatorNotes T4	Why can't we? show me the numbers.

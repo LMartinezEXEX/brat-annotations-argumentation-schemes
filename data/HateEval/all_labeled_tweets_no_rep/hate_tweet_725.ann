@@ -1,0 +1,11 @@
+T1	Premise2Justification 100 180	YOu know, diversity for thee, but not for me.Your virtue signalling is tiresome.
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 12 98	Its not about Trump kids.When are you putting up all those refugees in your home jk???
+A2	QuadrantType T2 policy
+T3	pivot 71 79	refugees
+T4	pivot 110 119	diversity
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	You don't own the country. What the government decides to do in places that do NOT belong to you, is NOT your decision...
+T6	CounterNarrativeC 1 2	j
+#2	AnnotatorNotes T6	Well, there is no diversity for you. No one is forcing you, just as you can't force anyone else...

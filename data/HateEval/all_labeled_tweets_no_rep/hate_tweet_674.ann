@@ -1,0 +1,15 @@
+T1	Premise2Justification 14 90	Unchecked Population&amp;migration to cities is biggest evil for dirty India
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 90 144	.Disincentive large families,such as withdrawl of sops
+A2	QuadrantType T2 policy
+T3	pivot 24 34	Population
+T4	pivot 104 118	large families
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 39 48	migration
+T6	Property 59 90	is biggest evil for dirty India
+T7	CounterNarrativeA 2 4	ar
+#1	AnnotatorNotes T7	Perhaps there are better ways to discourage population accumulation without taking away the money that many families count on to eat. Why not encourage more opportunities away from the big cities?
+T8	CounterNarrativeB 4 5	e
+#2	AnnotatorNotes T8	I mean... Dirty is the biggest evil for dirty cities. With or without immigrants
+T9	CounterNarrativeC 7 8	r
+#3	AnnotatorNotes T9	Why would migration be so bad for cities? I don't think it really makes any difference...

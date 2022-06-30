@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 150 233	Embarrassing that we pay these lying losers large salaries to corrupt our democracy
+A1	QuadrantType T1 value
+T2	Premise2Justification 0 149	@dbongino Dan, WAY too tough to choose between all the lying, deceitful corrupt losers representing Dems (& some GOP). The list is long & disgusting.
+A2	QuadrantType T2 fact
+T3	Property 209 233	to corrupt our democracy
+T4	Collective 72 86	corrupt losers
+T5	pivot 72 79	corrupt
+T6	pivot 212 219	corrupt
+T7	CounterNarrativeA 254 255	r
+#1	AnnotatorNotes T7	f they are losers, why is anyone paying them? I thought the only politicians with a salary were the ones who won.
+T8	CounterNarrativeB 253 254	T
+#2	AnnotatorNotes T8	How can the "losers" corrupt our society? I mean, if they lose, then they don't rule.
+T9	CounterNarrativeC 250 251	S
+#3	AnnotatorNotes T9	It can't be that hard. You just have to choose the politician who expresses your political ideas. If you lose, maybe it's because the country doesn't agree with you. The Democracy.
+R1	related Arg1:T6 Arg2:T5	

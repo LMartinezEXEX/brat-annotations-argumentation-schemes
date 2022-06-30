@@ -1,0 +1,14 @@
+T1	Premise1Conclusion 111 137	Stop immigration to Europe
+T2	Premise2Justification 0 109	After IS is soon finished (US+Turkey secretserv. action), IS fighter have 11000 open Syrian passports for use
+R4	secondOrder Arg1:T1 Arg2:T2	
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+#1	AnnotatorNotes R4	Gamma quadrant
+T6	Collective 116 127	immigration
+T7	Property 58 68	IS fighter
+T8	CounterNarrativeA 161 162	W
+#2	AnnotatorNotes T8	Are you suggesting that being in favor of the right to free movement for all human beings is being a terrorist? Should we ban tourism too in case some turists are IS fighters?
+T9	CounterNarrativeB 160 161	P
+#3	AnnotatorNotes T9	Immigrants are not IS fighters, immigrants are people escaping desperate situations or seeking for a better life
+T10	CounterNarrativeC 159 160	a
+#4	AnnotatorNotes T10	Do you have an actual proof for claming that IS is infiltrating fighters as refugees? Or is just conspiranoia?

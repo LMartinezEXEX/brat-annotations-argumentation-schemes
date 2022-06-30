@@ -1,0 +1,12 @@
+T1	Premise2Justification 17 144	Anti American Illegal immigrant uprising in California gets exceedingly worse for American citizens who are now in grave danger
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 146 179	They are in a state of emergency.
+A2	QuadrantType T2 fact
+T3	Collective 39 48	immigrant
+T4	Property 39 144	immigrant uprising in California gets exceedingly worse for American citizens who are now in grave danger
+T5	CounterNarrativeA 200 201	f
+#1	AnnotatorNotes T5	You can't declare a state of emergency just because a couple of people have lost their minds. Stop exaggerating
+T6	CounterNarrativeB 201 202	h
+#2	AnnotatorNotes T6	And how exactly do immigrants represent "a danger to Americans"? And why only now and not in the last 200 years? Or does it only bother you when the immigrant is not your grandfather?
+T7	CounterNarrativeC 202 203	f
+#3	AnnotatorNotes T7	There have never been any "anti-American" immigrants. What kind of sketchy media are you reporting on?

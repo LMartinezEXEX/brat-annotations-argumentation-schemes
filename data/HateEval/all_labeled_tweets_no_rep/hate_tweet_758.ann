@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 44	They are not 'immigrants' they are invaders.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 45 58	#sendthemback
+A2	QuadrantType T2 policy
+T3	Collective 14 24	immigrants
+T4	Property 35 43	invaders
+T5	CounterNarrativeC 109 110	6
+#1	AnnotatorNotes T5	It is not YOUR land, and emigrating is a human right.
+T6	CounterNarrativeB 108 109	Q
+#2	AnnotatorNotes T6	No, they are immigrants, almost certainly from a country that would let you in if you tried to go on vacation....
+T7	CounterNarrativeA 106 107	B
+#3	AnnotatorNotes T7	Where are you going to send them back to? Most of them have no place to go back.

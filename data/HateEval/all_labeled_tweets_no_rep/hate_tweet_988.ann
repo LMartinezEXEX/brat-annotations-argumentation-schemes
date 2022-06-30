@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 17	Enough is enough.
+T2	Premise1Conclusion 18 31	#SENDTHEMBACK
+A1	QuadrantType T2 policy
+A2	QuadrantType T1 fact

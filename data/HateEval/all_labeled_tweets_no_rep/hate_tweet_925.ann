@@ -1,0 +1,4 @@
+T1	Premise2Justification 24 73	There are NO INNOCENT people in detention centres
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 74 87	#SendThemBack
+A2	QuadrantType T2 policy

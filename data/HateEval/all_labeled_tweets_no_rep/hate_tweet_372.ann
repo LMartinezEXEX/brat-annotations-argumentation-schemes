@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 0 14	#BuildThatWall
+T2	Premise2Justification 14 127	This is like an army of men coming thru to the USA Looks like new camouflage clothes on them and drugs coming in!
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 145 146	@
+#1	AnnotatorNotes T3	You are going to spend an entire health and education budget on building a wall based on a made up supposed army of immigrants
+T4	CounterNarrativeC 156 157	y
+#2	AnnotatorNotes T4	You are blinded by predjudice. Most immigrants are not drug dealers and are not a threat to us, it's just people trying to find somewhere with opportunities to work and improve their lives

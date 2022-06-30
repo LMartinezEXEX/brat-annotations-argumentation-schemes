@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 87 133	no wonder Uk people do not accept its refugees
+A1	QuadrantType T1 fact
+T2	Premise2Justification 15 86	Will islam ever be at peace with its self as it goes to war with itself
+A2	QuadrantType T2 fact
+T3	Collective 20 25	islam
+T4	Property 60 85	it goes to war with itsel
+T5	pivot 125 133	refugees
+T6	pivot 20 25	islam
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T7	Its refugees are fleeing precisely that war. There are no excuses, only xenophobia.
+T8	CounterNarrativeB 1 2	D
+#2	AnnotatorNotes T8	To say that it is at war with itself is like saying that Christianity cannot be peaceful because two Christian countries are at war with each other. It is a lie and you know it...
+T9	CounterNarrativeC 3 4	i
+#3	AnnotatorNotes T9	Well, in many countries they are. But if you only focus on those that are at war...

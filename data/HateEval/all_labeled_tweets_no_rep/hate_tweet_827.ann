@@ -1,0 +1,12 @@
+T1	Premise2Justification 138 255;40 119	a lot of the migrants did not pick their kids up they left them so they can get welfare and a free Education on taxpa Majority of them never file an asylum claim once the are release inside the U.S
+A1	QuadrantType T1 fact
+T2	Collective 151 159	migrants
+T3	Property 160 201	did not pick their kids up they left them
+T4	Premise1Conclusion 120 134	its a big SCAM
+A2	QuadrantType T4 fact
+T5	CounterNarrativeC 1 2	F
+#1	AnnotatorNotes T5	Maybe because they are afraid of being deported. Do you really think the system doesn't need to be reviewed?
+T6	CounterNarrativeB 2 3	A
+#2	AnnotatorNotes T6	What kind of beasts do you think these people really are? If they usually decide to take the risks they take just for their family.
+T7	CounterNarrativeA 3 4	I
+#3	AnnotatorNotes T7	What kind of scam is it, if the system you refuse to review allows it? Think about it

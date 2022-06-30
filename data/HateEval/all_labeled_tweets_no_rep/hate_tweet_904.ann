@@ -1,0 +1,4 @@
+T1	Premise2Justification 27 69	You saw what they did in their own country
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 71 84	#SendThemBack
+A2	QuadrantType T2 policy

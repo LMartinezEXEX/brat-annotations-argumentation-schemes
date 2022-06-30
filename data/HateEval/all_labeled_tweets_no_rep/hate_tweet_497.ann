@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 97 193	But dont call a refugee a rapefugee or the Soros sponsored police of the UK will not let you go.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 10 95	I just read the guy that broke into many homes including Chef Jaime Oliver was let go
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	it's called presumption of innocence. You can't call a thief a "rapist". By the way, is he really a refugee or did you just make him up?
+T4	Collective 113 120	refugee
+T6	Property 123 132;35 56	rapefugee broke into many homes
+T5	CounterNarrativeB 2 3	y
+#2	AnnotatorNotes T5	Not all refugees are rapists. In fact, I don't understand why you assume that guy is a refugee. No one has said he is.
+T7	CounterNarrativeC 7 8	e
+#3	AnnotatorNotes T7	Where did you read it? Those gossip magazines are not a serious source, you know that, don't you?

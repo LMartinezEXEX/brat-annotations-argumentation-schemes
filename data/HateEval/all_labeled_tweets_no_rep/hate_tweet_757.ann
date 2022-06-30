@@ -1,0 +1,15 @@
+T1	Premise2Justification 1 131	@realDonaldTrump 2977 people were murdered by illegal aliens in New York City, Washington DC & Shanksville Pennsylvania on 9/11/01
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 132 199	Help memorialize them today! Visit https://t.co/NK58yRjGej to help.
+A2	QuadrantType T2 policy
+T3	pivot 137 148	memorialize
+T4	pivot 35 43	murdered
+R1	related Arg1:T4 Arg2:T3	
+T5	Collective 55 61	aliens
+T6	Property 23 46	people were murdered by
+T7	CounterNarrativeC 253 254	d
+#1	AnnotatorNotes T7	Ok, but what does that have to do with anything?
+T8	CounterNarrativeB 250 251	u
+#2	AnnotatorNotes T8	Two crazy people did something a long time ago. That doesn't make ALL aliens murderers, does it?
+T9	CounterNarrativeA 254 255	T
+#3	AnnotatorNotes T9	Memorize how? by discriminating innocent people? no thanks....

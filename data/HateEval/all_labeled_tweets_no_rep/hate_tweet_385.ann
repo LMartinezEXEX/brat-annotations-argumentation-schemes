@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 13 84	Time to leave the uk commonwealth and Europe that would end immigration
+T2	Premise2Justification 85 134	people do not want more refugees enough is enough
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+T5	CounterNarrativeA 13 84	Time to leave the uk commonwealth and Europe that would end immigration
+#1	AnnotatorNotes T5	Leaving the UK and European Union will not end immigration because it is a global problem, and migrants usually migrate because they have the necessity, even if they have no facilites.
+T3	pivot 73 84	immigration
+T4	pivot 109 117	refugees
+R1	related Arg1:T3 Arg2:T4	

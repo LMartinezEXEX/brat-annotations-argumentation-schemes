@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 79	Australian Senator tells the UN to shove it, Australia will not accept refugees
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 45 79	Australia will not accept refugees
+A2	QuadrantType T2 fact
+T3	pivot 0 10	Australian
+T4	pivot 45 54	Australia
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 124 125	o
+#1	AnnotatorNotes T5	Just because ONE senator said so? it doesn't work that way, you know that, don't you?
+T6	CounterNarrativeC 126 127	Y
+#2	AnnotatorNotes T6	Who is this Australian senator, and why should we take him seriously?

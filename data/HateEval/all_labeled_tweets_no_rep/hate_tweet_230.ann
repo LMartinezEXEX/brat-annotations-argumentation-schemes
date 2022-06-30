@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 242	Did you know?Government statistics of crimes committed by illegalsIllegals comprise 7% of populationIllegals account for72% of all drug possession33& of all money laundering29% of all drug trafficking22% of all federal murders18%of all frauds
+A1	QuadrantType T1 fact
+T2	Collective 58 66	illegals
+T3	Property 131 146	drug possession
+T4	Property 157 173	money laundering
+T5	Property 184 200	drug trafficking
+T6	Property 211 226	federal murders
+T7	Property 236 242	frauds
+T8	Premise1Conclusion 242 249	#NODACA
+A2	QuadrantType T8 policy

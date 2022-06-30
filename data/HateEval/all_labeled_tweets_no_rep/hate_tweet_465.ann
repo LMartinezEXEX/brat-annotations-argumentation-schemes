@@ -1,0 +1,15 @@
+T3	Premise1Conclusion 140 258	In reality, they already have by previously “waving-through” hundreds of thousands of unknown migrants to roam Europe.
+A3	QuadrantType T3 fact
+T4	Collective 14 22	refugees
+T5	Property 27 51	aggressive male migrants
+T1	Premise2Justification 0 138	These are not refugees but aggressive male migrants the Med leaders - with exception of @matteosalvinimi -want to kindly “share” w-others.
+A1	QuadrantType T1 fact
+T2	pivot 234 242	migrants
+T6	pivot 43 51	migrants
+R1	related Arg1:T2 Arg2:T6	
+T7	CounterNarrativeB 294 295	a
+#1	AnnotatorNotes T7	They are aggressive male migrants, especially women, right? haha.
+T8	CounterNarrativeA 295 296	Q
+#2	AnnotatorNotes T8	I don't understand how you can identify them from your pc, among thousands of "unknown migrants". Please, just stop making things up about these poor people.
+T9	CounterNarrativeC 293 294	2
+#3	AnnotatorNotes T9	How is it that those who come escaping from war are not refugees?  I think that's exactly what that word means

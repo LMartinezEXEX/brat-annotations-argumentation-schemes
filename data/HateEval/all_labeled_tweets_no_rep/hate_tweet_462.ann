@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 72	Tomorrow Sept 11, 2018 is 17 years after terrorists attacked our country
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 223 235	BuildTheWall
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 272 273	D
+#1	AnnotatorNotes T3	We were attacked by planes, how would a wall protect us?
+T4	CounterNarrativeC 271 272	R
+#2	AnnotatorNotes T4	Did they do it? or was it just an excuse?

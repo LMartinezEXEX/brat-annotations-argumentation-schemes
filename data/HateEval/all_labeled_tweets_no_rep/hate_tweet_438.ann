@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 108 126	#sendthemback!!!!!
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 106	@ABCPolitics A illegal aliens showing exactly what they were coming to this country for in the first place
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	I don't understand what are they showing exactly, and why should we send them back...
+T4	CounterNarrativeC 1 2	A
+#2	AnnotatorNotes T4	I'm sure they came, primarily, to make a living. Why does it bother you?

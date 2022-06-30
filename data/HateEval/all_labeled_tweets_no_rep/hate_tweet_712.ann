@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 0 53	@rajnathsingh Must stop &amp;deport illegal migrants.
+A1	QuadrantType T1 policy
+T2	Premise2Justification 53 130	India tops the list in the world for having Max foreigners with expired VISAS
+A2	QuadrantType T2 fact
+T3	pivot 125 130	VISAS
+T4	pivot 44 52	migrants
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	I don't see any problem with having flexible policies in this regard. no one gets harmed...
+T6	CounterNarrativeC 1 2	r
+#2	AnnotatorNotes T6	Where did you get those statistics from? It sounds like you made them up...
+T7	Collective 36 52	illegal migrants
+T8	Property 117 130	expired VISAS

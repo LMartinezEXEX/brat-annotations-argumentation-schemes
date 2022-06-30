@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 47 114	now they are just mass produced to fit the third world "immigrants"
+T2	Premise2Justification 0 46	Homes use to look beautiful and full of effort
+T4	CounterNarrativeA 0 1	H
+#1	AnnotatorNotes T4	Immigrants don't decide how houses look. You are just trying to blame them for anything you don't like. That is xenophobia
+T6	CounterNarrativeC 2 3	m
+#3	AnnotatorNotes T6	Do you have any proof that houses used to look beautiful and now they don't? Beauty is in the eye of the beholder  and can also be found on people making an effort to get a better life
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 78 183	No go back to Algeria. Better yet tell Algeria to open its borders to African migrants instead of Europe.
+A1	QuadrantType T1 policy
+T2	Premise2Justification 17 78	''I’ll pay Denmark niqab fines': French-Algerian millionaire'
+A2	QuadrantType T2 fact
+T3	pivot 57 65	Algerian
+T4	pivot 117 124	Algeria
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 8 9	D
+#1	AnnotatorNotes T5	Stop making stupid demands. Everyone helps as they can... I mean, some at least are helpful...
+T6	CounterNarrativeC 10 11	n
+#2	AnnotatorNotes T6	A millionaire paying the fines of others. What's wrong with that? Stop complaining about everything...

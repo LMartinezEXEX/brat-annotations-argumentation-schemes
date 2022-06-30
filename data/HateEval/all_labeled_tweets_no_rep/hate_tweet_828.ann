@@ -1,0 +1,13 @@
+T1	Premise2Justification 205 257	Govt then must ensure immediate deportation for the"
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 15 203	A special team of 100 people be made under a most respected Rtd Judge. Let them visit each Indian State ,camp there &amp; identify all the illegal  migrants &amp; people with expired Visas
+A2	QuadrantType T2 policy
+T3	Collective 163 171	migrants
+T4	Property 154 161;172 203	illegal &amp; people with expired Visas
+T5	pivot 190 203	expired Visas
+T6	pivot 237 248	deportation
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 0 1	"
+#1	AnnotatorNotes T7	"deportation of the..." what? those who you don't like?
+T8	CounterNarrativeB 1 2	@
+#2	AnnotatorNotes T8	If they had visas they are not illegal, they was allowed to come in. At worst, they are in an irregular situation.

@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 80	Mexico’s not sending their best. They’re dumping their killers aka garbage on us
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 83 140	#StopTheInvasion #DeportThemAll  #NoAmnesty #BuildTheWall
+A2	QuadrantType T2 policy
+T3	Collective 0 7	Mexico’
+T4	Property 33 80	They’re dumping their killers aka garbage on us
+T5	CounterNarrativeA 159 160	n
+#1	AnnotatorNotes T5	Or maybe we just need to improve the immigration system. Building a wall is a waste of money we can't afford.
+T6	CounterNarrativeB 160 161	Z
+#2	AnnotatorNotes T6	Do you think that in other countries there is no justice, and that criminals can walk freely, even leave the country as if nothing happened?
+T7	CounterNarrativeC 161 162	e
+#3	AnnotatorNotes T7	No country lets "its best" emigrate. But you are being very unfair if you think they are all criminals. Accept that some people are just "normal" and stop making excuses for your xenophobia.

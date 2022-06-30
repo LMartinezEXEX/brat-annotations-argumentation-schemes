@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 67	Germany’s Seehofer pushes migrant take-back deal with Italy, Greece
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 103 178	UK should be sending our asylum seekers back to where they first entered EU
+A2	QuadrantType T2 policy
+T3	pivot 34 43	take-back
+T4	pivot 116 123;143 147	sending back
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 100 101	2
+#1	AnnotatorNotes T5	Should we do it just because Germany did it? We don't even know yet what repercussions it will have over there....
+T6	CounterNarrativeC 99 100	Q
+#2	AnnotatorNotes T6	Ok, someone did something stupid, what with that?

@@ -1,0 +1,13 @@
+T4	Collective 55 66	immigration
+T1	Premise1Conclusion 29 157	To ignore the role of the immigration invasion and White Genocide in the housing disaster isn't just irresponsible, its criminal
+T2	Premise2Justification 39 118	the role of the immigration invasion and White Genocide in the housing disaster
+R1	secondOrder Arg1:T1 Arg2:T2	
+T3	Property 67 94	invasion and White Genocide
+A1	QuadrantType T1 value
+A2	QuadrantType T2 fact
+T5	CounterNarrativeC 203 204	k
+#1	AnnotatorNotes T5	Immigrants are not the cause of the housing disaster, real state speculation and gentrification is. Immigrants are the victims
+T6	CounterNarrativeB 202 203	1
+#2	AnnotatorNotes T6	There is not such a thing as an immigrant invasion and a white genocide. Those are only racist and xenophobic justifications for hate
+T7	CounterNarrativeA 201 202	g
+#3	AnnotatorNotes T7	The only crime I reckon here is the incitement and promotion of hate and violence against immigrants

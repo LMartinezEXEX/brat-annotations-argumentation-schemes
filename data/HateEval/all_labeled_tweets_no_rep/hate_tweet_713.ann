@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 93 168	Now each country has to clear this problems without refugees and immigrants
+A1	QuadrantType T1 fact
+T2	Premise2Justification 29 91	This is old and past thinking, 100 years ago. Time has changed
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	But, if it worked in the past, why shouldn't it work again?
+T4	CounterNarrativeC 1 2	B
+#2	AnnotatorNotes T4	Of course time has changed, but that doesn't necessarily mean it's a bad idea. It worked before, it's going to work again....
+T5	Collective 145 168	refugees and immigrants
+T6	Property 34 58	is old and past thinking

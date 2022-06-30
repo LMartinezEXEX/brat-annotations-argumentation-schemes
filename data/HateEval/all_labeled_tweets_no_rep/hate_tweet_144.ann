@@ -1,0 +1,9 @@
+T1	Premise2Justification 134 229	In the meantime hypocrises Franciscus pray and dont open the St.Petersdom for refugees to stay.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 133	Black catolic bishops are against their pope Franciscus. They dont want to loose their sheep, which like to go to Europe as refugees.
+A2	QuadrantType T2 fact
+T3	Collective 124 132	refugees
+T4	Property 87 92	sheep
+T5	pivot 212 220	refugees
+T6	pivot 124 132	refugees
+R1	related Arg1:T6 Arg2:T5	

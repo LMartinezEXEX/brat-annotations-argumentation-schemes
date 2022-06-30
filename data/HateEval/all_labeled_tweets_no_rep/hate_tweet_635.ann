@@ -1,0 +1,10 @@
+T1	Premise2Justification 40 107	The #Trump #MuslimBan is about keeping Americans fearful, not safe.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 38	Lost in the hysteria over #immigration
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 126 127	q
+#1	AnnotatorNotes T3	Hysteria and fearful are two sides of the same coin. if you forget one, the other disappears. If you make someone feel fear, they will never feel safe even if they are.
+T4	CounterNarrativeC 127 128	b
+#2	AnnotatorNotes T4	It doesn't matter if what you demand is done, you will always find something negative to complain about, right? That's why we can't take your opinion seriously...
+T5	Collective 27 38	immigration
+T6	Property 71 106	keeping Americans fearful, not safe

@@ -1,0 +1,13 @@
+T4	Collective 56 64	refugees
+T1	Premise1Conclusion 0 27	Poland: our country is safe
+T2	Premise2Justification 28 64	because we haven't taken in refugees
+T3	Property 23 27	safe
+R1	secondOrder Arg1:T1 Arg2:T2	
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T5	CounterNarrativeA 114 115	D
+#1	AnnotatorNotes T5	Are you suggesting that insecurity is caused all around the world exclusively by refugees? You must be mistaken
+T6	CounterNarrativeB 113 114	J
+#2	AnnotatorNotes T6	Refugees don't provoke insecurity or unsafeness. Refugees are victims of wars and crimes committed by states and armies
+T7	CounterNarrativeC 112 113	P
+#3	AnnotatorNotes T7	How do you know that Poland haven't accepted refugees? Or you only notice those in need when they bother you?

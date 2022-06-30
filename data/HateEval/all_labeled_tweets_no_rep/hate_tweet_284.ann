@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 0 64	@TheEconomist All illigal refugees in USA must be deported quick
+A1	QuadrantType T1 policy
+T2	Premise2Justification 65 85	by homeland security
+A2	QuadrantType T2 fact

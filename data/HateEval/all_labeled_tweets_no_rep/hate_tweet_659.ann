@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 116	Under Obama Illegal Aliens Claim Credible Fear at the Border once released into the US they never applied for Asylum
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 119 152	Deport ASAP  stop the #AsylumScam
+A2	QuadrantType T2 policy
+T3	pivot 142 148	Asylum
+T4	pivot 110 116	Asylum
+R1	related Arg1:T4 Arg2:T3	
+T5	Collective 20 26	Aliens
+T6	Property 27 116	Claim Credible Fear at the Border once released into the US they never applied for Asylum
+T7	CounterNarrativeA 162 163	A
+#1	AnnotatorNotes T7	Okay, someone found a little glitch in the system, let's fix it by kicking out all the immigrants... Typical xenophobe...v
+T8	CounterNarrativeB 163 164	G
+#2	AnnotatorNotes T8	Perhaps precisely because of fear. You can't judge the persecuted for hiding! especially if they have done nothing wrong.
+T9	CounterNarrativeC 166 167	#
+#3	AnnotatorNotes T9	I assume there is some official documentation, or a statistical study to back this up... or maybe not?

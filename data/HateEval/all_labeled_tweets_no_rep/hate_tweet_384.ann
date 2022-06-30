@@ -1,0 +1,10 @@
+T1	Collective 68 75	refugee
+T2	Premise1Conclusion 0 84	A #multibillion-dollarcriminalnetwork is being fueled by inadequate refugee policies
+T3	Premise2Justification 0 98	A #multibillion-dollarcriminalnetwork is being fueled by inadequate refugee policies, experts say.
+A1	QuadrantType T3 fact
+A2	QuadrantType T2 fact
+T4	CounterNarrativeA 0 148	A #multibillion-dollarcriminalnetwork is being fueled by inadequate refugee policies, experts say... https://t.co/yzbKcYGlQX https://t.co/rV0b5bVUEL
+#1	AnnotatorNotes T4	Even if some experts say that a criminal network is fueled by inadequate refugee policies, it doesn't make it true.
+T5	CounterNarrativeFree 0 148	A #multibillion-dollarcriminalnetwork is being fueled by inadequate refugee policies, experts say... https://t.co/yzbKcYGlQX https://t.co/rV0b5bVUEL
+#2	AnnotatorNotes T5	Which experts are saying that, and based on what? please provide the source for that claim
+T6	Property 2 37	#multibillion-dollarcriminalnetwork

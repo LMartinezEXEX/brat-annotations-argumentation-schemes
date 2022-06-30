@@ -1,0 +1,10 @@
+T1	Premise2Justification 29 115	Who cares what people say or think. There are getting destroyed just to show tolerance
+T2	Premise1Conclusion 0 28	Sweden needs to clean house.
+T3	Premise1Conclusion 117 130	#sendthemback
+T4	CounterNarrativeC 153 154	b
+#1	AnnotatorNotes T4	Are they getting destroyed by immigration? Perhaps if you cared for what people say of think a little more you'd notice that that's not how people see it.
+T5	CounterNarrativeA 151 152	5
+#2	AnnotatorNotes T5	And where are you going to stop? Are you going to deport everyone coming from immigrant families too? Maybe we'll be completelly destroyed the moment we stop showing tolerance
+A1	QuadrantType T2 policy
+A2	QuadrantType T3 policy
+A3	QuadrantType T1 fact

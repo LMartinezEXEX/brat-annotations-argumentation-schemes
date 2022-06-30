@@ -1,0 +1,17 @@
+T1	Premise1Conclusion 218 225	Enough.
+A1	QuadrantType T1 policy
+T2	Premise2Justification 8 160	Immigration Expert: Trudeau Has Lost Track Of ‘˜Tens Of Thousands’ Of Syrian Refugeeshttps://t.co/cUpRvxwZAZAccess to white people is not a human right:
+T3	Premise1Conclusion 162 216	Diversityâ„¢ means chasing DOWN the last White person.
+A2	QuadrantType T3 fact
+A3	QuadrantType T2 fact
+T4	Collective 78 93	Syrian Refugees
+T5	Property 162 215	Diversityâ„¢ means chasing DOWN the last White person
+T6	pivot 126 138	white people
+T7	pivot 203 215	White person
+T8	CounterNarrativeA 0 1	@
+#2	AnnotatorNotes T8	 I don't get it, you're tired of what exactly? Of the state not being able to watch over all the refugees like big brother? I don't get it, you're tired of what exactly? Of the state not being able to police all refugees like big brother?
+T9	CounterNarrativeB 1 2	C
+#3	AnnotatorNotes T9	Nobody is chasing you. Especially refugees, who have too many problems to worry about you.
+T10	CounterNarrativeC 2 3	P
+#1	AnnotatorNotes T10	Please, were they watching ALL of them? They don't "lose" anyone, they just want to show their xenophobia
+R1	related Arg1:T7 Arg2:T6	

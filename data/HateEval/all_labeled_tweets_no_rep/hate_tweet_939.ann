@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 74	"That 'anonymous source' piece in the NYT is so over-the-top & anti-#POTUS
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 77 127	it smells like Omarosa had something to do with it
+A2	QuadrantType T2 fact
