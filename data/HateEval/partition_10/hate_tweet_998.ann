@@ -1,5 +1,5 @@
 T1	Premise2Justification 1 59	@RepKevinYoderAnd you want to restart Catch and Release???
-T5	Premise2Justification 143 205	Illegal Alien Accused of Raping, Trafficking Girl in Louisiana
+T7	Premise2Justification 143 205	Illegal Alien Accused of Raping, Trafficking Girl in Louisiana
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 60 127	NoHR392#NoDACA#NoH1b until labor participation rate is at least 80%
 A2	QuadrantType T2 policy

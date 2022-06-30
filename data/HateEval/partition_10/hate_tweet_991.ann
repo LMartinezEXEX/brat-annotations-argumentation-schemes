@@ -1,5 +1,5 @@
 T1	Premise2Justification 177 197	we can't afford them
-T3	Premise2Justification 34 109	stop w 'we have to worry about the children' No we do not-many R >20yrs old
+T5	Premise2Justification 34 109	stop w 'we have to worry about the children' No we do not-many R >20yrs old
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 110 176	Go home and make your country better or enter ours legally #NoDACA
 A2	QuadrantType T2 policy

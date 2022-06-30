@@ -1,5 +1,5 @@
 T1	Premise2Justification 181 224	ask Germany and Sweden about crime going up
-T7	Premise2Justification 62 144	The UK did vote to stop shitty nations and immigration on the whole but as he puts
+T10	Premise2Justification 62 144	The UK did vote to stop shitty nations and immigration on the whole but as he puts
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 145 180;225 276	it time to put our own people first trouble is Migrants can demand not what they earned
 A2	QuadrantType T2 policy

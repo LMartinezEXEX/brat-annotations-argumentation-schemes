@@ -3,7 +3,7 @@ A1	QuadrantType T1 fact
 T2	Premise1Conclusion 214 230	There isnt a wil
 A2	QuadrantType T2 value
 T3	Premise2Justification 0 88	Frontex ships, NGO ships and criminal elements transport refugees from Africa to Europe.
-T8	Premise2Justification 120 213	because only few goverments of Europe will and are able to ban refugees from their territory.
+T9	Premise2Justification 120 213	because only few goverments of Europe will and are able to ban refugees from their territory.
 T4	Collective 57 65	refugees
 T5	Property 0 88	Frontex ships, NGO ships and criminal elements transport refugees from Africa to Europe.
 A3	QuadrantType T3 fact
