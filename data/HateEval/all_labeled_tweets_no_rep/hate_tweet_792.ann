@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 30	@RealJamesWoods This is crazy.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 31 87	Someone should open a ham sandwich chain right next door
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 93 94	r
+#1	AnnotatorNotes T3	I don't understand what you are going for... what is crazy and why exactly?

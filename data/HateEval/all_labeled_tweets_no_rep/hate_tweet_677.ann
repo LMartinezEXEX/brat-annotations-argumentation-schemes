@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 88 129	Daca is caca,end this democrat fantasy...
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 61	DACA fix will spur new wave of illegal immigration: ICE chief
+A2	QuadrantType T2 fact
+T3	pivot 0 4	DACA
+T4	pivot 88 92	Daca
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 82 84	iL
+#1	AnnotatorNotes T5	You should get used to it, new "waves" of immigrants will not stop arriving. It happens all over the world, it is not a "fantasy", and it is not a bad thing.
+T6	CounterNarrativeC 81 82	9
+#2	AnnotatorNotes T6	If we review a law, it is because we consider that there are ethical reasons to allow/prohibit something new. It makes no sense to complain about the same thing we are doing it for....
+T7	Collective 31 50	illegal immigration
+T8	Property 110 126	democrat fantasy

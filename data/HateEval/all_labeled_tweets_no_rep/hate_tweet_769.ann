@@ -1,0 +1,8 @@
+T1	Premise2Justification 30 153	.@realDonaldTrump i wonder how many are legally here, sounds terrible to hear myself say this, but that is a lot of people.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 10 29	Wow, #BuildThatWall
+T3	CounterNarrativeC 2 3	l
+#1	AnnotatorNotes T3	How many are legally here? Isn't that what you really demanded all this time?
+T4	CounterNarrativeA 3 4	a
+#2	AnnotatorNotes T4	Because building a giant wall will solve all our problems... How's that!
+A2	QuadrantType T2 policy

@@ -1,0 +1,12 @@
+T4	Collective 122 130	refugees
+T1	Premise1Conclusion 142 225	They have to brought back to the border without food with or without children quick
+T2	Premise2Justification 35 140	Reunification is the wrong word - never should done this - because always more illigal refugees will come
+A1	QuadrantType T2 value
+A2	QuadrantType T1 policy
+T3	Property 114 121	illigal
+T5	CounterNarrativeA 19 20	S
+#1	AnnotatorNotes T5	You are justifying leaving people, children included, in the desert without food because "otherwise more illegal refugees will come". Why are you so full of hate?
+T6	CounterNarrativeB 20 21	e
+#2	AnnotatorNotes T6	Refugees are legal migrants claiming asylum - in other words, asking for help. Calling them illegal means not only refusing to help but also disrespecting them when they are vulnerable
+T7	CounterNarrativeC 21 22	n
+#3	AnnotatorNotes T7	As long as our neighbours continue to have different problems in their society there will be immigrants. As long as wars continue around the world there will be refugees. Separating them from their children won't reduce immigration. It will only make us look like the monsters we are

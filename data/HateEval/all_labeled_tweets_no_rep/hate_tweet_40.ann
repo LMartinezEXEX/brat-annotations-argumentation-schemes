@@ -1,0 +1,15 @@
+T2	Premise2Justification 0 66	100 Bangladeshi Nationals Apprehended near Texas Border in 3 Weeks
+T3	Premise1Conclusion 97 127	#DeportIllegals #BuildThatWall
+T1	Collective 4 15	Bangladeshi
+T4	Property 104 112	Illegals
+A1	QuadrantType T2 fact
+A2	QuadrantType T3 policy
+T5	pivot 4 15	Bangladeshi
+T6	pivot 104 112	Illegals
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeB 145 146	A
+#1	AnnotatorNotes T7	Are you implying that all Bangladeshi are illegal? You are a racist
+T8	CounterNarrativeA 144 145	S
+#2	AnnotatorNotes T8	Do you know why where they apprehended? Why do you assume they were illegals?
+T9	CounterNarrativeC 143 144	A
+#3	AnnotatorNotes T9	How do you know there are more apprehensions than usual?

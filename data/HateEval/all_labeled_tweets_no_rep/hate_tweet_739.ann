@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 196	Chilton has warned government about the dangers of leaving southwest border secured by nothing more than a barbed wire fence. He set up surveillance cameras to document the trespassers from Mexico
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 198 226	#BorderPatrol #BuildThatWall
+A2	QuadrantType T2 policy
+T3	pivot 69 75	border
+T4	pivot 199 205	Border
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 239 240	T
+#1	AnnotatorNotes T5	Build the wall just because this "chilton" says so?  I think the government has too many things to worry about to attend to the whims of this guy.
+T6	CounterNarrativeC 240 241	U
+#2	AnnotatorNotes T6	Who? Did what? And you saw it where? You know that not everything you read on the internet is true, right?

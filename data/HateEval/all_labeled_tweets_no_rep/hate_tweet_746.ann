@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 131 206	UN fears up to 200,000 more may follow while Jordan says "no more refugees"
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 129	As 1000s of civilians flee regime assault on opposition-held areas in southern Syria &amp; end up stuck near closed Jordan border
+A2	QuadrantType T2 fact
+T3	pivot 116 122	Jordan
+T4	pivot 176 182	Jordan
+R1	related Arg1:T3 Arg2:T4	
+T5	pivot 22 26	flee
+T6	pivot 197 205	refugees
+R2	related Arg1:T5 Arg2:T6	

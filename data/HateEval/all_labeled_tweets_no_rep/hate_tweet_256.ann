@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 78	About 3700 refugeemedicinedoctors are allowed to work in Germany in hospitals.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 79 241	Now they realize that some of them are not on the standard of western medicine and often some buyed the certificats home without knowledge. So some patients died.
+A2	QuadrantType T2 fact
+T3	Collective 11 18	refugee
+T4	Property 173 217	buyed the certificats home without knowledge
+T5	pivot 18 33	medicinedoctors
+T6	pivot 149 157	medicine
+R1	related Arg1:T5 Arg2:T6	

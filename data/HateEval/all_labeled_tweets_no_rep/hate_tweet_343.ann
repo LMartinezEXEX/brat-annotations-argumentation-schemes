@@ -1,0 +1,8 @@
+T1	Premise2Justification 170 255	Yep,USA on the march to national suicide.Third world immigrants will never assimilate
+T2	Premise1Conclusion 0 145	Are we looking at, as Pat Buchanan puts it, 'an ideology of Western suicide'?, Is it wrong to challenge an influx from outside of the US, Europe?
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	CounterNarrativeA 146 147	h
+#1	AnnotatorNotes T3	Accepting immigrants means national suicide or Western suicide? Then the US commited suicide many times, we are a country of sons and daughters of immigrants so it seems they assimilated. The ones who don't seem to assimilate are the xenophous hate-spreaders.
+T4	CounterNarrativeC 149 150	p
+#2	AnnotatorNotes T4	I think they are assimilating just fine. What will never assimilate is xenophobia.

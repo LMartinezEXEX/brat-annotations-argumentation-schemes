@@ -1,0 +1,15 @@
+T1	Premise2Justification 131 255	IMAGINE migrating to China &amp; wandering around streets with knife. You can not imagine it because Chinese would not allow
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 17 130	Immigrants sometimes act like they can do whatever they want without accountability (because of Liberal friends).
+T3	Collective 17 27	Immigrants
+T4	Property 38 100	act like they can do whatever they want without accountability
+T5	pivot 139 148	migrating
+T6	pivot 17 27	Immigrants
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T7	I mean, China probably wouldn't allow it... Nor any other country in the world....
+T8	CounterNarrativeB 1 2	m
+#2	AnnotatorNotes T8	What do you mean when you say "do whatever they want"? to live as if they were common people... I mean, they are...
+T9	CounterNarrativeA 3 4	t
+#3	AnnotatorNotes T9	The law does not allow that kind of thing anywhere, but if your country does not control it, then it is your fault, not the immigrants', isn't it?
+A2	QuadrantType T2 fact

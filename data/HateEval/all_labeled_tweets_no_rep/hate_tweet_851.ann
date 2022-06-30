@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 84 245	Why won't you STOP this constant assault on American citizens and the steady invasion by foreigners on US soil?We the People Demand an end to this!#DeportThemAll
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 60	13 Americans Victimized by Illegal Migrant Crime in One Week
+A2	QuadrantType T2 fact
+T3	Collective 35 42	Migrant
+T4	Property 43 48	Crime
+T5	pivot 3 12	Americans
+T6	pivot 128 136	American
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 82 83	P
+#1	AnnotatorNotes T7	And how many migrants was victimized by Americans? Your information is biased
+T8	CounterNarrativeB 81 82	O
+#2	AnnotatorNotes T8	Just because one immigrant is a criminal does not mean they all are. How many American criminals are there, and no one thinks that all Americans are criminals
+T9	CounterNarrativeA 79 80	e
+#3	AnnotatorNotes T9	It is not fair to fight crimes committed by SOME immigrants by deporting ALL of them. We should consider other ways

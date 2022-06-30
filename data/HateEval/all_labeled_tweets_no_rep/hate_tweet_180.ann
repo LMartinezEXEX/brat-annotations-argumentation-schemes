@@ -1,0 +1,6 @@
+T1	Premise2Justification 15 118	Immigration comes with punishments for our people foodbanks pension cuts ,NHS ,School ,Housing problems
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 119 132	enough enough
+A2	QuadrantType T2 policy
+T3	Collective 15 26	Immigration
+T4	Property 38 64	punishments for our people

@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 41 103	Obama Used Dreamer Illegal AliensTo Defraud The American Dream
+T2	Premise2Justification 129 248	Clint Eastwood was mocked forhis 2012 RNC speech, yet the new#ObamaPainting confirms ObamaIS nothing but an empty chair
+T3	Collective 60 74	Illegal Aliens
+T4	Property 77 103	Defraud The American Dream
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T5	pivot 41 46	Obama
+T6	pivot 214 219	Obama

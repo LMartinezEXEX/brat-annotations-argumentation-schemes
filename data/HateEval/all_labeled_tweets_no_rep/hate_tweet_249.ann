@@ -1,0 +1,8 @@
+T1	Premise2Justification 49 120	Illegal Immigrant Philly Refused To Hand Over To The Feds Raped A Child
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 47	@janeslusser & @PhillyMayor must feel so proud.
+A2	QuadrantType T2 fact
+T3	Premise1Conclusion 145 216	#BanSanctuaryCities #MakeAmericaSafeAgain #DeportIllegals #BuildTheWall
+A3	QuadrantType T3 policy
+T4	Collective 49 66	Illegal Immigrant
+T5	Property 107 120	Raped A Child

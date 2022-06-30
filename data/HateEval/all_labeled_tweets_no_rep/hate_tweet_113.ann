@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 43 107	will Scotland have Immigration controls if they stayed in Europe
+A1	QuadrantType T1 policy
+T2	Premise2Justification 108 136	or will we have more beggers
+A2	QuadrantType T2 fact

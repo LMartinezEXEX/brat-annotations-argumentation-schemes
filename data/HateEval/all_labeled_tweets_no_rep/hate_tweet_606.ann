@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 146 274	How about taking or Our OWN Citizens, Veterans and other AMERICANS in need?  To HELL with these ungrateful idiots; #SendThemBack
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 144	These savages invade Our Country, disrupt cities, turn many into shitholes like where they came from and WE THE PEOPLE are paying for this SHIT.
+A2	QuadrantType T2 fact
+T3	Property 14 100	invade Our Country, disrupt cities, turn many into shitholes like where they came from
+T4	Collective 6 13	savages
+T5	CounterNarrativeA 292 293	a
+#1	AnnotatorNotes T5	I don't think we have to choose between us and them. There is enough room for everyone
+T6	CounterNarrativeB 294 295	1
+#2	AnnotatorNotes T6	Are you saying that there are savages who have "invaded Our Country" and "disrupt cities". Who are they? Do you mean immigrants? What a xenophobe
+T7	CounterNarrativeC 295 297	Jl
+#3	AnnotatorNotes T7	Nobody invades us. And what have you paid? I've never seen anyone charge us for "have immigrants in the country."

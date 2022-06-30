@@ -1,0 +1,8 @@
+T1	Premise2Justification 17 109	How and why do you think this man got his reputation you fools it wasn't mail order or email
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 165 255	he speaks folks listen dignitaries and peasants accomplishments speak mega he doesn't blow
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 1 2	T
+#1	AnnotatorNotes T3	And by reputation you mean...?
+T4	CounterNarrativeA 2 3	h
+#2	AnnotatorNotes T4	How enlightened! People didn't listen for a reason, try to figure it out

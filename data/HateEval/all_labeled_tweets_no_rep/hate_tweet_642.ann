@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 119;167 216	With todays #JalalabadAttack &amp; other vicious attacks claimed by ISIS, I smell a spillover of refugees in Pak again. We cant afford terrorists taking undue advantage.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 120 165;217 267	This time we should not open borders for them Let Americans deal with it.#Afghanistan #Jalalabad
+A2	QuadrantType T2 policy
+T3	Collective 97 105	refugees
+T4	Property 182 192	terrorists
+T5	CounterNarrativeA 115 116	a
+#1	AnnotatorNotes T5	We can't afford terrorists, so we're going to close our borders to everyone? the world is going to be laughing at us.

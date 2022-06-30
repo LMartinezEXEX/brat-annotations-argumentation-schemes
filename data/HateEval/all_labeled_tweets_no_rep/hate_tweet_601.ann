@@ -1,0 +1,8 @@
+T1	Premise2Justification 28 83	You come out with the usual ignorance, lies and insults
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 85 255	Fact is that mass immigration into Ireland has been ongoing for decades now, most legal and from other EU countries, still trans-formative All the people seeking Asylum s
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	Where are your sources? Your only argument that things are the way you think they are is that someone else is "lying"
+T4	CounterNarrativeC 1 2	m
+#2	AnnotatorNotes T4	What insults? Do you have arguments to say that I'm lying, or is it just a "please, believe me"? Hm...

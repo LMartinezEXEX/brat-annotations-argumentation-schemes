@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 1 173	Germany now worried that the surge of African migrants (aka invaders) welcomed to Spain by new Socialist government will head to dear Deutschland....And, why wouldn't they?
+A1	QuadrantType T1 fact
+T2	Premise2Justification 174 221	Germany put out the welcome mat a few years ago
+A2	QuadrantType T2 fact
+T3	Collective 47 55	migrants
+T4	Property 61 69	invaders
+T5	pivot 1 8	Germany
+T6	pivot 174 181	Germany
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeA 243 244	l
+#1	AnnotatorNotes T7	If they decided to go to Spain, maybe it is because they want to go to Spain, and not to Germany. Not everybody wants to go to your country, you know?
+T8	CounterNarrativeB 244 245	k
+#2	AnnotatorNotes T8	You can't call them invaders if you have opened the door of your house and invited them in. That's not how an invasion works...
+T9	CounterNarrativeC 241 242	q
+#3	AnnotatorNotes T9	"Germany put out the welcome mat a few years ago" so what? There is nothing wrong with receiving people from other countries, just as other countries receive Germans without any problem.

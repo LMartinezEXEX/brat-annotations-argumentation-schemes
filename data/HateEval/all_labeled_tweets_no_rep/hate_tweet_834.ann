@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 143	Whites have to assimilate to non white immigrants in homelands built for us by our ancestors but if they don't assimilate that's perfectly fine
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 144 163	This is an invasion
+A2	QuadrantType T2 fact
+T3	Collective 39 49	immigrants
+T4	Property 100 121	they don't assimilate
+T5	CounterNarrativeA 170 171	Ÿ
+#1	AnnotatorNotes T5	Assimilation goes both ways, just as it did when your ancestors "invaded" this land. Unless you want to start by leaving here.....
+T6	CounterNarrativeB 169 170	ð
+#2	AnnotatorNotes T6	Why do you say they "do not assimilate"? Is it that they don't respect the laws, or do you just don't like the food they cook, or that they speak another language?
+T7	CounterNarrativeC 168 169	¡
+#3	AnnotatorNotes T7	When your ancestors came here they also faced other cultures. And believe me, it was much less peaceful than today. You don't want to relive that

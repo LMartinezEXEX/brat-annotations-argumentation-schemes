@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 203	Ok, I am asking out of curiosity. Lets suppose a group of immigrant in Netherlands started fighting &amp; killing local security forces and requested that they want some land to form their own government
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 205 287	In your logic, those aren't terrorrists? &amp; sec. forces are legitimate targets?
+A2	QuadrantType T2 value
+T3	Collective 58 82	immigrant in Netherlands
+T4	Property 83 203	started fighting &amp; killing local security forces and requested that they want some land to form their own government
+T5	CounterNarrativeA 305 306	g
+#1	AnnotatorNotes T5	Instead of making up hypothetical situations to test me, why don't we ask ourselves where your hatred against immigrants comes from?
+T6	CounterNarrativeB 306 307	g
+#2	AnnotatorNotes T6	If a group of immigrants in the Netherlands started fighting, killed security forces and demanded land to form their own government, we would have to analyze the case, and see how to proceed. As long as it doesn't happen, it's just a hypothetical example you are using to legitimize your xenophobia...
+T7	CounterNarrativeC 307 308	T
+#3	AnnotatorNotes T7	Are you saying that something like that happened? tell me about it, but I'm sure you're making it up...

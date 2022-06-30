@@ -1,0 +1,8 @@
+T1	Premise2Justification 44 104	Paris suburb home to 300,000 illegal immigrants, report says
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 1 25	SendThemBack #NoMigrants
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 118 119	/
+#1	AnnotatorNotes T3	And that's what, ten, maybe fifteen percent? You are too worried about people who don't do you any harm
+T4	CounterNarrativeC 120 121	P
+#2	AnnotatorNotes T4	This report appears to be drawn. In fact, very poorly drawn...

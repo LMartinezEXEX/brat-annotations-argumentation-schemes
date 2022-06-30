@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 0 83	"Chief of Russian Armed Forces Calls on Syrian refugees to return to their homeland
+A1	QuadrantType T1 fact
+T2	Premise2Justification 84 121	""ISIS Completely Defeated in Syria""
+A2	QuadrantType T2 fact
+T3	pivot 40 46	Syrian
+T4	pivot 114 119	Syria
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 167 168	@
+#1	AnnotatorNotes T5	Is it real, or is it a lie to get the refugees out? Let me doubt...

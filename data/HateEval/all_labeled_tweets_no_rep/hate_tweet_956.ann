@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 63	WTF? What are we waiting for? These ppl will be the death of us
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 65 79	#BuildThatWall
+A2	QuadrantType T2 policy

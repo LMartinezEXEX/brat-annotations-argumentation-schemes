@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 243	We simply cannot allow people to pour into the United States undetected, undocumented, unchecked, and circumventing the line of people who are waiting patiently, diligently, and lawfully to become immigrants in this country.Barack Obama - 2005
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 224	We simply cannot allow people to pour into the United States undetected, undocumented, unchecked, and circumventing the line of people who are waiting patiently, diligently, and lawfully to become immigrants in this country.
+A2	QuadrantType T2 fact
+T3	Premise1Conclusion 244 257	BuildThatWall
+A3	QuadrantType T3 policy
+T4	CounterNarrativeA 259 260	M
+#1	AnnotatorNotes T4	I think Obama was talking about improving the immigration system, not building a damn wall along the entire border as if we were living in the Middle Age...
+T5	CounterNarrativeC 261 262	G
+#2	AnnotatorNotes T5	So what if he said that? That doesn't make it true...

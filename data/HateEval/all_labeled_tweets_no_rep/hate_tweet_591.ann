@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 126	Underpants which protect women against rape or harrassment. They are absolutly save and is buyed from german women as a runner
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 128 230	So they are proteced also from attacks from refugees. It would also fine for Me too women in Hollywood
+A2	QuadrantType T2 fact
+T3	Collective 172 180	refugees
+T4	Property 39 58	rape or harrassment
+T5	pivot 17 24	protect
+T6	pivot 140 148	proteced
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeA 235 236	p
+#1	AnnotatorNotes T7	It's great that someone is doing something about rape, but to say "it protects you from refugees" is stupidly racist.
+T8	CounterNarrativeB 236 237	s
+#2	AnnotatorNotes T8	Rapefugee, I heard that before. What a bunch of xenophobes
+T9	CounterNarrativeC 238 239	/
+#3	AnnotatorNotes T9	Good initiative. I hope it will not be misused. For example, to attack all immigrants, as you are trying to do.

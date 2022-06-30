@@ -1,0 +1,15 @@
+T1	Premise2Justification 12 90	The other side of the coin is how many migrants got housing in the first place
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 113 139	will we get new housing no
+A2	QuadrantType T2 policy
+T3	Collective 51 59	migrants
+T4	Property 60 90	got housing in the first place
+T5	pivot 129 136	housing
+T6	pivot 64 71	housing
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T7	What is the problem? Are the houses only for those who were born here? I don't know who lied to you like that.
+T8	CounterNarrativeB 1 2	M
+#2	AnnotatorNotes T8	If they legally complied with all the steps required by law, well, I don't see any tragedy in that.
+T9	CounterNarrativeA 2 3	a
+#3	AnnotatorNotes T9	Just because someone you don't like has something doesn't mean you should have the same thing. Did you accomplish all the requirements that housing requires?

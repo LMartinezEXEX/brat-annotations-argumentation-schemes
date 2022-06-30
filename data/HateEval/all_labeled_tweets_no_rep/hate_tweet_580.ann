@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 11 30	Our country is safe
+A1	QuadrantType T1 fact
+T2	Premise2Justification 31 79	because we didn’t accept illegal Muslim migrants
+A2	QuadrantType T2 fact
+T4	CounterNarrativeA 91 92	o
+#1	AnnotatorNotes T4	There are many countries that accept Muslim immigrants and are safe. There is no relationship
+T5	CounterNarrativeC 95 96	r
+#2	AnnotatorNotes T5	The fact that you do not accept them does not detract from the fact that they exist, and that they do not do anything bad to you or anyone else.

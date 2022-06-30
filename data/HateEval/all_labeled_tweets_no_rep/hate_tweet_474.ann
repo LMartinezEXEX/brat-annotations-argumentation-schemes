@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 161 184;187 203	This should be outlawed #Stopimmigration
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 159	This was her 5th or 6th child.  If we did not give entitlements for all these kids they would be here having so many babies on the backs of American Taxpayers.
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 222 223	u
+#1	AnnotatorNotes T3	If we stop immigration, then immigrants will stop having children? I don't understand how it works.
+T4	CounterNarrativeC 224 225	C
+#2	AnnotatorNotes T4	The number of children and the american taxpayers have nothing to do with each other. Biology does not work like that...

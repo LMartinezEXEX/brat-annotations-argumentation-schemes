@@ -1,0 +1,7 @@
+T1	Premise2Justification 0 154	BOOM!  SCOTUS  Rules  the chief executive, acting on his own, has the power to target foreign nations and block their citizens from entering this country"
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 155 192	Immigration to the U.S is not a Right
+A2	QuadrantType T2 fact
+T3	pivot 155 166	Immigration
+T4	pivot 86 93	foreign
+R1	related Arg1:T4 Arg2:T3	

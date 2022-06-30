@@ -1,0 +1,8 @@
+T1	Premise2Justification 44 177	Today in MD, 4 MA13 convicted on multiple robbery charges. 3 of the 4 are illegals. NC, an illegal kills motorcyclist in hit and run.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 178 192	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	Collective 135 142	illegal
+T4	Property 86 93	robbery
+T5	Property 143 148	kills
+T6	Property 165 176	hit and run

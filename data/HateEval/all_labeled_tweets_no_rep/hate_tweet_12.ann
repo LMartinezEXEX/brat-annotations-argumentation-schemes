@@ -1,0 +1,16 @@
+T1	Premise1Conclusion 44 63	Bangladeshi must go
+T2	Premise2Justification 0 43	Good news.We are against illegal immigrants
+T3	Property 25 43	illegal immigrants
+T4	Collective 44 55	Bangladeshi
+A1	QuadrantType T2 value
+A2	QuadrantType T1 policy
+R4	firstOrder Arg1:T1 Arg2:T2	
+T9	CounterNarrativeA 143 144	z
+#1	AnnotatorNotes T9	Just because you are against illegal immigrants doesn't mean Bangladeshi must go
+T10	CounterNarrativeB 142 143	5
+#2	AnnotatorNotes T10	Are you implying that all Bangladeshi are illegal immigrants?
+T11	CounterNarrativeC 141 142	M
+#3	AnnotatorNotes T11	We are not against illegal immigrants. You shouldn't speak for others
+T5	pivot 25 43	illegal immigrants
+T6	pivot 44 55	Bangladeshi
+R1	related Arg1:T5 Arg2:T6	

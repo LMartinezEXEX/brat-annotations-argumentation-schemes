@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 80 132	Bute refugees can swop it for a high rise in Glasgow
+A1	QuadrantType T1 fact
+T2	Premise2Justification 16 79	don't get it pity sturgeon didn't help her own homeless am sure
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	Maybe it would be better to ask them to help our homeless people too, instead of screwing everyone 
+T4	CounterNarrativeC 2 3	r
+#2	AnnotatorNotes T4	How are you so sure that Sturgeon isn't doing anything for our homeless? Or are you just saying...

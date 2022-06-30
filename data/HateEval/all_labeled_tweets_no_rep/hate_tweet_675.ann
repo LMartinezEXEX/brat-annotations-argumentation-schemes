@@ -1,0 +1,12 @@
+T1	Premise2Justification 26 90	Our country is safe because we did not accept illegal immigrants
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 113 156	Access to White people is not a human right
+A2	QuadrantType T2 fact
+T3	Collective 80 90	immigrants
+T4	Property 26 71	Our country is safe because we did not accept
+T5	CounterNarrativeA 176 177	i
+#1	AnnotatorNotes T5	I don't see the relationship between migrating and access to white people. Migrating it is a human right, you know that, don't you?
+T6	CounterNarrativeB 177 178	M
+#2	AnnotatorNotes T6	we didn't accept them, but they come in anyway. So, theres probably no relation.
+T7	CounterNarrativeC 174 175	d
+#3	AnnotatorNotes T7	By definition we could not accept "illegal" immigrants. It's a play on words, it sounds clever, but you're not really saying anything...

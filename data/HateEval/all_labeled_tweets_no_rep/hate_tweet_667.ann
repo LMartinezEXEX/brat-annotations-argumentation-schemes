@@ -1,0 +1,11 @@
+T1	Premise2Justification 153 228	#FamiliesBelongTogetherMarch is Anti American Pro Open Borders and Illegals
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 63	Abolish these #Democats Keep ICE Not 1 More Illegal in the U.S!
+A2	QuadrantType T2 policy
+T3	pivot 59 62	U.S
+T4	pivot 190 198	American
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 245 246	m
+#1	AnnotatorNotes T5	"I don't agree with these people, so they should be thrown out of the country".... Imagine how you would be now if these people said the same thing about you.
+T6	CounterNarrativeC 247 248	h
+#2	AnnotatorNotes T6	The Families Belong Together March is not anti-American, it's just pro-family, the name says so....

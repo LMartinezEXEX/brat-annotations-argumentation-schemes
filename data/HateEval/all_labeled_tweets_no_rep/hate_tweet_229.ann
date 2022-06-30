@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 35	Who actually hopes this?nobody does
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 36 49	#sendthemback
+A2	QuadrantType T2 policy

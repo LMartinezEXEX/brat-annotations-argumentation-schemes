@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 48 139	Shame on Illegal Workers who Steal SSN and IDs to Take #Jobs From Americans and lower Wages
+A1	QuadrantType T1 value
+T2	Premise2Justification 0 47	Happy #LaborDay to All LEGAL American Workers !
+A2	QuadrantType T2 fact
+T3	pivot 38 45	Workers
+T4	pivot 65 72	Workers
+T5	Collective 57 72	Illegal Workers
+T6	Property 77 94	Steal SSN and IDs
+R1	related Arg1:T3 Arg2:T4	

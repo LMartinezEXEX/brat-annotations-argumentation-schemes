@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 53 144	they just want the hard-earned money of the Getman people. They are not fleeing persecution
+A1	QuadrantType T1 fact
+T2	Premise2Justification 9 51	These migrants don’t want to become German
+A2	QuadrantType T2 fact
+T3	pivot 45 51	German
+T4	pivot 97 103	Getman
+T5	CounterNarrativeA 180 181	Y
+#1	AnnotatorNotes T5	I doubt that changing nationality is the only way to flee
+T6	CounterNarrativeC 181 182	u
+#2	AnnotatorNotes T6	Maybe they want to, but people like you don't give them the opportunity. Why don't you go and ask them?
+T7	Collective 15 23	migrants
+T8	Property 24 111	don’t want to become German; they just want the hard-earned money of the Getman people.
+R1	related Arg1:T3 Arg2:T4	
+T9	CounterNarrativeB 181 182	u
+#3	AnnotatorNotes T9	Are you sure none of these migrants want to become German? Where are your sources? How would you react if you knew they actually wanted to?

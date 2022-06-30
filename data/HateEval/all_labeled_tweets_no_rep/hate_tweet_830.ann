@@ -1,0 +1,9 @@
+T1	Premise2Justification 152 270;24 93	or it will be held hostage by actions of othersðŸ‘‰this insuring unlimited migrants &amp; endless games of “relocation Bosnia BiH: Tense situation, locals alarmed. Choices not complicated.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 94 151	Either Europe implements an ongoing deportation mechanism
+A2	QuadrantType T2 policy
+T3	pivot 130 141	deportation
+T4	pivot 227 235	migrants
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 284 285	4
+#1	AnnotatorNotes T5	It always makes me laugh how the word "migrant" is used as a threat...

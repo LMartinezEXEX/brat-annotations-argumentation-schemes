@@ -1,0 +1,4 @@
+T1	Premise2Justification 14 39	take care of your #people
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 0 13	#sendthemback
+A2	QuadrantType T2 policy

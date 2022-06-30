@@ -6,6 +6,8 @@ pivot = open("test_results_pivot", 'w')
 conclusion = open("test_results_conclusion", 'w')
 justification = open("test_results_justification", 'w')
 argumentative = open("test_results_argumentative", 'w')
+type_justification = open("test_results_type_justification", "w")
+type_conclusion = open("test_results_type_conclusion", "w")
 
 
 for filename in glob("./test_results_coling/*"):
@@ -37,6 +39,11 @@ for filename in glob("./test_results_coling/*"):
             justification.write(to_write)
         elif component == "NonArgumentative":
             argumentative.write(to_write)
+        elif component == "Type":
+            if filename_splitted[7] == "Premise1Conclusion":
+                type_conclusion.write(to_write)
+            elif filename_splitted[7] == "Premise2Justification":
+                type_justification.write(to_write)
    
 collective.close()
 proper.close()

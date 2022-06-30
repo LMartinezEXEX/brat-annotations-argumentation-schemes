@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 171 255	People who cheat the system essentially flip the bird to legal immigrants waiting in
+A1	QuadrantType T1 fact
+T3	Premise2Justification 132 170	People smugglers? Drug cartel members?
+A2	QuadrantType T3 fact
+T4	pivot 132 170	People smugglers? Drug cartel members?
+T5	pivot 171 198	People who cheat the system
+R1	related Arg1:T4 Arg2:T5	
+T6	CounterNarrativeA 132 255	People smugglers? Drug cartel members? People who cheat the system essentially flip the bird to legal immigrants waiting in
+#1	AnnotatorNotes T6	People smugglers o drug cartel members do not flip the bird to legal immigrants.

@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 57 73	stop immigration
+A1	QuadrantType T1 policy
+T2	Premise2Justification 12 73	Guess who will not be elected if they do not stop immigration
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 116 117	m
+#1	AnnotatorNotes T3	Just because you say so? You're not the only voter, you know? In fact, most of them might not even agree with you...
+T4	CounterNarrativeC 117 118	e
+#2	AnnotatorNotes T4	Just because you are not going to vote for someone does not mean they will not be elected. Maybe he will even gain two votes for every one he loses, who knows?

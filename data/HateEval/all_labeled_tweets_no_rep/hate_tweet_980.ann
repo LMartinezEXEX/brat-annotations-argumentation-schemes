@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 14	IT NEVER ENDS!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 15 43	#BuildTheWall #BuildThatWall
+A2	QuadrantType T2 policy

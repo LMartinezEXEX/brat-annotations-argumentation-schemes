@@ -1,0 +1,11 @@
+T1	Premise2Justification 19 128	according to this video by @Barbara4u2 , Iranian refugees in Sydney and Melbourne go home to Iran on vacation
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 130 164	Y'know, the place they're fleeing.
+A2	QuadrantType T2 fact
+T3	pivot 68 76	refugees
+T4	pivot 156 163	fleeing
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 184 185	K
+#1	AnnotatorNotes T5	They escape from war, not from their families. It is natural that they try to come back to help...
+T6	CounterNarrativeC 183 184	O
+#2	AnnotatorNotes T6	What video? I don't really see any evidence there...

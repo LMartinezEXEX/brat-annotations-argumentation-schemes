@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 118	Please visit today to honor the thousands of victims killed by illegal aliens!We are building a memorial wall.#RETWEET
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 123 154	#BuildThatWall in their memory!
+A2	QuadrantType T2 policy
+T3	pivot 96 104	memorial
+T4	pivot 147 153	memory
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 63 77	illegal aliens
+T6	Property 32 62	thousands of victims killed by

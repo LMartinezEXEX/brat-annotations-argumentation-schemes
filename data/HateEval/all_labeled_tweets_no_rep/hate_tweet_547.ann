@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 58	Calais Jungle refugees get a grip France they are visitors
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 60 134	they have no rights or in a position to demand ,Europe needs to get a grip
+A2	QuadrantType T2 policy
+T3	Collective 14 22	refugees
+T4	Property 41 106	they are visitors ,they have no rights or in a position to demand
+T5	CounterNarrativeA 132 133	i
+#1	AnnotatorNotes T5	The "visitors" has no rights? as if they were no humans... I think it's people like you who needs to get a grip...
+T6	CounterNarrativeB 133 134	p
+#2	AnnotatorNotes T6	They are human, have rights as humans, and should be treated and respected as such.
+T7	CounterNarrativeC 130 131	g
+#3	AnnotatorNotes T7	Refugees, tourists or anyone else has the right to demand to be treated well. It's the law, and it's universal...

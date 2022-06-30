@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 56	make up your mind your going to take their benefits away
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 57 139	so r u going to do the same to the young migrants punish ur own and let off others
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 138 139	s
+#1	AnnotatorNotes T3	Typical xenophobe who is more concerned about foreigners having rights than losing his own.
+T4	CounterNarrativeC 136 137	e
+#2	AnnotatorNotes T4	Whose benefits? You are complaining about something that has not happened....

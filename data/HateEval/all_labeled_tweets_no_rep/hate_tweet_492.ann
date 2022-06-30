@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 75 158	Have the EU the will to stop this invasion and bring them back to their homelands ?
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 74	Frontex reports the increase of refugees in the middlesea to enter Europe.
+A2	QuadrantType T2 fact
+T3	Collective 32 40	refugees
+T4	Property 109 117	invasion
+T6	CounterNarrativeB 159 160	h
+#1	AnnotatorNotes T6	Refugees are fleeing war and hunger, how could they invade anything?
+T5	CounterNarrativeA 160 161	t
+#2	AnnotatorNotes T5	Why should Europe care about people coming in? They are just people...
+T7	CounterNarrativeC 173 174	V
+#3	AnnotatorNotes T7	And you still trust frontex...

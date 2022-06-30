@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 176 246	Need to make eVerify mandatory and end chain migration. #BuildThatWall
+T2	Premise2Justification 12 175	Too bad Mitch McConnell and Paul Ryan arent listening and/or dont care. Its time to fully fund the border wall or @realDonaldTrump should shut down the government.
+A1	QuadrantType T2 value
+T3	pivot 111 122	border wall
+T4	pivot 242 246	Wall
+A2	QuadrantType T1 policy
+T5	CounterNarrativeA 251 252	A
+#1	AnnotatorNotes T5	That looks like a threat to democracy and an extorsion. Either Trump gets what he wants or he shuts down the government??
+T6	CounterNarrativeC 250 251	G
+#2	AnnotatorNotes T6	I don't think threats against normal democratic functioning is the way to accomplish anything

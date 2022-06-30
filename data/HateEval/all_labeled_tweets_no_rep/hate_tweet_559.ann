@@ -1,0 +1,12 @@
+T1	Premise2Justification 7 102	Italian man says Islamic refugees should be deported "They took over my town, it's an invasion"
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 24 59	Islamic refugees should be deported
+A2	QuadrantType T2 policy
+T3	Collective 24 31	Islamic
+T4	Property 61 101	They took over my town, it's an invasion
+T5	CounterNarrativeA 146 147	C
+#1	AnnotatorNotes T5	Ok, let's do everything that every Italian citizen says. What could possibly go wrong?
+T6	CounterNarrativeB 145 146	i
+#2	AnnotatorNotes T6	It's not really YOUR city, it belongs to all citizens. It's not YOU who decides who gets in and who doesn't....
+T7	CounterNarrativeC 142 143	3
+#3	AnnotatorNotes T7	Who exactly is this "Italian" and why does his opinion suddenly matter? Suspicious

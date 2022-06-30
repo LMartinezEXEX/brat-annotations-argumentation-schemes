@@ -1,0 +1,6 @@
+T1	Premise2Justification 51 247	Schneider:  current migrant crisis “represents a plan orchestrated and  prepared for  a long time by international powers to radically alter  Christian and  national identity of European peoples.”
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 50	@EmmanuelMacron Hello??     Stop groping my nation
+A2	QuadrantType T2 policy
+T3	Collective 71 78	migrant
+T4	Property 87 245	represents a plan orchestrated and  prepared for  a long time by international powers to radically alter  Christian and  national identity of European peoples

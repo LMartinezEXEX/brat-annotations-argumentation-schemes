@@ -1,0 +1,12 @@
+T1	Premise2Justification 114 255	Never in my years here have I heard the concerns from every level. The young in Hilo losing jobs to migrants. Several auto accidents, with 'u
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 112	@TulsiGabbard I speak for myself &amp; EVERYONE I KNOW here on Big Island- vote YES for funding to #BUILDtheWALL
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 254 255	u
+#1	AnnotatorNotes T3	The wall only serves to prevent illegal entry of people. If you don't want to lose your job, maybe you should do it properly.
+T4	Collective 214 222	migrants
+T5	Property 181 213	The young in Hilo losing jobs to
+T6	CounterNarrativeB 251 252	h
+#2	AnnotatorNotes T6	Only some of those who were doing their job badly lost it in favor of immigrants. In any case, labor laws need to be reformed, instead of going against immigrants.
+T7	CounterNarrativeC 249 250	i
+#3	AnnotatorNotes T7	You never saw it, but it is something that happens at all levels, since always, and it has nothing to do with immigrants but with the market.

@@ -1,0 +1,13 @@
+T1	Premise2Justification 0 114	Immigrants convicted of felonies and serious misdemeanors should be subject to citizen revocation and deportation.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 115 149	Why are we keeping criminals here?
+A2	QuadrantType T2 policy
+T3	pivot 11 20	convicted
+T4	pivot 134 143	criminals
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 148 149	?
+#1	AnnotatorNotes T5	Are we going to deport all criminals or only those who were not born here? I think what bothers you is not the fact that they are criminals, precisely...
+T6	CounterNarrativeC 147 148	e
+#2	AnnotatorNotes T6	If they are American citizens in the eyes of the law it doesn't matter where they were born, and the law says that....
+T7	Collective 0 10	Immigrants
+T8	Property 134 143	criminals

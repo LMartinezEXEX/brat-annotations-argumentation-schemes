@@ -1,0 +1,12 @@
+T1	Premise2Justification 1 94	TOOEdit Bishop Schneider: mass migration a plan to undermine identity https://t.co/0rnRAL1Kp6
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 27 70	mass migration a plan to undermine identity
+A2	QuadrantType T2 fact
+T3	Collective 32 41	migration
+T4	Property 42 70	a plan to undermine identity
+T5	CounterNarrativeA 93 94	6
+#1	AnnotatorNotes T5	The fact that Schneider says something does not make it true.
+T6	CounterNarrativeB 92 93	p
+#2	AnnotatorNotes T6	Identity was formed, among other things, by immigration, and it is constantly changing. A few migrations will not "undermine" your national identity.
+T7	CounterNarrativeC 91 92	K
+#3	AnnotatorNotes T7	A plan by who? Schneider is a xenophobic paranoid

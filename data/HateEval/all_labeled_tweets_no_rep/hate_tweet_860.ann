@@ -1,0 +1,17 @@
+T1	Premise2Justification 0 72	Stephen Miller the Public Charge Law has been on the books for 100 years
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 73 179	it prevents Immigrants from burdening the U.S Taxpayer if they cant take care of themselvers or their kids
+A2	QuadrantType T2 fact
+T3	Collective 85 95	Immigrants
+T4	Property 101 179	burdening the U.S Taxpayer if they cant take care of themselvers or their kids
+T5	pivot 19 36	Public Charge Law
+T6	pivot 119 127	Taxpayer
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 222 223	g
+#1	AnnotatorNotes T7	"on the books" does not mean "correct"
+T8	CounterNarrativeB 221 222	n
+#2	AnnotatorNotes T8	The fact that there are more or less immigrants does not make you pay more or less taxes. That is a fallacy
+T9	CounterNarrativeC 220 221	i
+#3	AnnotatorNotes T9	Do you have any idea how many laws existed 100 years ago that may have made sense at the time, but no longer do? You would be surprised...
+T10	CounterNarrativeA 219 220	s
+#4	AnnotatorNotes T10	You are assuming that the law actually works. The reality is that the "extra burden on taxpayers" is a myth.

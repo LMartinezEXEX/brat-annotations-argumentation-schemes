@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 103 148	This is the fruit of Merkel imigration policy
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 101	Germany has a big imported antisemitismproblem. Many fanatic muslims make demonstrations against Jews
+A2	QuadrantType T2 fact
+T3	pivot 18 26	imported
+T4	pivot 131 141	imigration
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 61 68	muslims
+T6	Property 27 46	antisemitismproblem

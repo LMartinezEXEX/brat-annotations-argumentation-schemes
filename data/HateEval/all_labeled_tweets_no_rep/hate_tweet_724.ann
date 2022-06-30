@@ -1,0 +1,8 @@
+T1	Premise2Justification 7 70	Some basic truths:  Access to White people is not a human right
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 93 132	Remigration 2018:  Easy come, easy GO!!
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 155 156	6
+#1	AnnotatorNotes T3	If they don't hurt you, why should we throw them out? just live and let live
+T4	CounterNarrativeC 157 158	v
+#2	AnnotatorNotes T4	I don't know what you meant by that. No one is trying to hurt you...

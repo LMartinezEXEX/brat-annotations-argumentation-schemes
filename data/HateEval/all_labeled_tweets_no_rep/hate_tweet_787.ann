@@ -1,0 +1,11 @@
+T1	Premise2Justification 1 107	Angry that UN @Refugees does its job and checks Lebanon isn't coercing Syrian refugees into returning home
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 109 187	Lebanon will stop giving residence permits to the agency's international staff
+A2	QuadrantType T2 fact
+T3	pivot 49 56	Lebanon
+T4	pivot 109 116	Lebanon
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 250 252	.c
+#1	AnnotatorNotes T5	As you say it, it seems that Lebanon is on the side of the refugees.... Is that really so, or haven't you learned how to write a headline properly?
+T6	CounterNarrativeC 253 254	/
+#2	AnnotatorNotes T6	I don't understand, why should refugees be coerced to return?

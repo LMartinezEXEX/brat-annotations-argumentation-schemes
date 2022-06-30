@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 142 255	THE 'TRUE #German PEOPLE' KNOW 'THIS'NOW 'THEY' ARE TELLING THE '#FakeNews #Politicians' TOO#Kothen #Germany #ref
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 129	@dwnews >YET 'AGAIN'THE ONLY 'THING' THAT SO-CALLED 'REFUGEES' BRING TO 'THE RIGHTEOUS WESTERN WORLD' IS '#Terrorism' AND 'SEXUAL
+A2	QuadrantType T2 fact
+T3	Collective 52 61	'REFUGEES
+T4	Property 63 142	BRING TO 'THE RIGHTEOUS WESTERN WORLD' IS '#Terrorism' AND 'SEXUAL CRIMINALITY'
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	If the "real" German people think this way, that doesn't make it true, it makes the "real" German people a bunch of xenophobes.
+T6	CounterNarrativeB 1 2	d
+#2	AnnotatorNotes T6	It is an exclusive attribute of immigrants? Because terrorism and sexual criminality do not exist in the Western world, right? 
+T7	CounterNarrativeC 2 3	w
+#3	AnnotatorNotes T7	Our society was built on the basis of immigrants, who brought work and intellectual production. Why would it be different this time?

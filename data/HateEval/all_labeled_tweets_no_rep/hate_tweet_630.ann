@@ -1,0 +1,15 @@
+T1	Premise2Justification 59 138	@JustinTrudeau allows MILLIONS of illegals stream across our undefended border!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 58	@MichelleRempel stands up for Real Canadians while Comrade
+A2	QuadrantType T2 fact
+T3	Premise1Conclusion 182 197	#NoMoreRefugees
+A3	QuadrantType T3 policy
+T4	pivot 93 101	illegals
+T5	pivot 189 197	Refugees
+R1	related Arg1:T4 Arg2:T5	
+T6	CounterNarrativeA 243 244	F
+#1	AnnotatorNotes T6	What's a "real Canadian" - a xenophobe like you?
+T7	CounterNarrativeC 245 246	r
+#2	AnnotatorNotes T7	Really, millions? Where are they and why didn't anyone else see them before you?
+T8	Collective 93 101	illegals
+T9	Property 102 137	stream across our undefended border

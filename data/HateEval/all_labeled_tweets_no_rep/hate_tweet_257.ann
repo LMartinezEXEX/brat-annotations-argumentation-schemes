@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 89	One-Third of 214 Arrested MS-13 Gangsters Were 'Unaccompanied Alien Children' - Breitbart
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 90 121	#EndDACA#NoAmnesty#BuildTheWall
+A2	QuadrantType T2 policy
+T3	Collective 48 76	Unaccompanied Alien Children
+T4	Property 32 41	Gangsters

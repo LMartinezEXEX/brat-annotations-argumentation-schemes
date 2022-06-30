@@ -1,0 +1,12 @@
+T1	Premise2Justification 134 280	America can no longer be a doormat & bank for these disrespectful, demanding, greedy people. If they can overrun our country, they can fix theirs"
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 133	"#FakeRefugees #AsylumAbusers #IllegalAliens #Migrants all need to be #Deported. Other countries are doing by the thous & we must to.
+A2	QuadrantType T2 policy
+T3	Collective 46 54	Migrants
+T4	Property 186 225	disrespectful, demanding, greedy people
+T5	CounterNarrativeC 132 133	.
+#1	AnnotatorNotes T5	If they could, they wouldn't be fleeing here, would they?
+T6	CounterNarrativeB 131 132	o
+#2	AnnotatorNotes T6	I'm sorry if you had a bad experience with the one refugee you met. Not everyone is like that, in the same way that not all Americans are...
+T7	CounterNarrativeA 130 131	t
+#3	AnnotatorNotes T7	Really? You're going to kick them out just because they come from a poor country?  How tolerant...

@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 112	Pressure on Spain’s maritime border: Boatloads of #Illegal #Migrants Storm Spanish Tourist Beaches &amp; Scatter
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 113 129	#StopTheInvasion
+A2	QuadrantType T2 policy
+T3	Collective 60 68	Migrants
+T4	Property 69 112	Storm Spanish Tourist Beaches &amp; Scatter
+T5	CounterNarrativeC 175 176	Q
+#1	AnnotatorNotes T5	No, really... What kind of tourists do they actually expect if they don't let immigrants in?

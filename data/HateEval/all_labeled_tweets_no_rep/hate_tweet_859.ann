@@ -1,0 +1,15 @@
+T1	Premise2Justification 11 179	8% of Illegals requesting DACA had been arrested for rape, murder, and drunk driving. 50% of DACA Illegals Commited Fraud to get #DACA 73% of DACA households on welfare
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 210 242	#NoDACA #NAomnesty #SendThemBack
+A2	QuadrantType T2 policy
+T3	Collective 17 25	Illegals
+T4	Property 118 132;64 96	Commited Fraud rape, murder, and drunk driving.
+T5	pivot 104 108	DACA
+T6	pivot 211 217	NoDACA
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 0 1	"
+#1	AnnotatorNotes T7	8% is a minor percentage, don't you think? About welfare, maybe it wouldn't be necessary if they were allowed to work.
+T8	CounterNarrativeB 1 2	@
+#2	AnnotatorNotes T8	Why do you associate illegals with such terrible crimes? Even you admit that criminals are a minority.
+T9	CounterNarrativeA 2 3	A
+#3	AnnotatorNotes T9	You don't let them work, and then you complain that they don't work. And on top of that, your solution is to run them off? Nonsense!

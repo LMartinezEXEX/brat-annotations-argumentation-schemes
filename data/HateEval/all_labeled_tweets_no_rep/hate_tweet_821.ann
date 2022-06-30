@@ -1,0 +1,12 @@
+T1	Premise2Justification 40 186	If the immigrant is undocumented, or illegal, then he broke the Law. Therefore, he can not stay in any country where the Law has to be respected."
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 39	"I do not understand the minds of some.
+A2	QuadrantType T2 value
+T3	Collective 60 72	undocumented
+T4	Property 94 108	broke the Law.
+T5	CounterNarrativeC 185 186	"
+#1	AnnotatorNotes T5	That makes no sense, because you can't require those you don't recognize to play by your rules. The system has a glitch
+T6	CounterNarrativeB 184 185	.
+#2	AnnotatorNotes T6	Maybe if we invested less in keeping them out and more in improving the immigration system, we wouldn't have these problems....
+T7	CounterNarrativeA 183 184	d
+#3	AnnotatorNotes T7	Of course you don't understand, you were never denied entry..... It's not easy, we should be more empathic.

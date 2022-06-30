@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 0 78	Prevent new refugee crisis?You can stop doing the lies n propagandas bullshit.
+A1	QuadrantType T1 policy
+T2	Premise2Justification 78 218	You can't even take care of your poor ppl at home.Space Force is too expensive for the ppl w 2 jobs.You can't even take care of Puerto Rico.
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 251 252	n
+#1	AnnotatorNotes T3	What does Puerto Rico have to do with the new refugee crisis? totally different problems
+T4	CounterNarrativeC 253 254	t
+#2	AnnotatorNotes T4	Do you have a better idea? Or are you just going to complain about absolutely everything? You're not really helping...
+T5	Collective 12 19	refugee
+T6	Property 20 26	crisis

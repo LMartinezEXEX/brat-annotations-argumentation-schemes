@@ -1,0 +1,7 @@
+T1	Premise2Justification 0 100	"#Germany : THOUSANDS #protest after #Muslim #migrants #murder German man, #Merkel condemns protests
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 101 250	#ReligionOfPeace #BanSharia #NoOpenBorders #SendThemBack#EnoughIsEnough #StopHijrah NOW!!! #NoRapeCulture #NoZoophilesCultutre SEND THEM BACK NOW!!!"
+A2	QuadrantType T2 policy
+T3	Collective 38 44	Muslim
+T4	Property 56 62	murder
+T5	Property 195 206	RapeCulture

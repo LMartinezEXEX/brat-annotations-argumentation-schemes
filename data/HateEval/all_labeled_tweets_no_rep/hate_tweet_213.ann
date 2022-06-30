@@ -1,0 +1,6 @@
+T1	Premise2Justification 16 231	Census Bureau: 44.6% in CA Don’t #SpeakEnglish at Home; 35.6%; 35.6% in TX; 34.5% in NM; 31.7% in NJ; 31.0% in NY!  Our schools R getting 150% funding for every student who doesn’t speak #English well! Parents’ job!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 15;232 248	Unbelievable!!! #StopImmigration
+A2	QuadrantType T2 policy
+T3	Collective 237 248	Immigration
+T4	Property 43 70	Don’t #SpeakEnglish at Home

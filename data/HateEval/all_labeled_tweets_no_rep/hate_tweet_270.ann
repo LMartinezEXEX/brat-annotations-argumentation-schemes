@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 81	Illegal Alien Charged With Sexually Assaulting 12-Year-Old Girl In North Carolina
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 103 169	Tell me again why there should be Amnesty?#BuildTheWall #NoAmnesty
+A2	QuadrantType T2 policy
+T3	Collective 0 13	Illegal Alien
+T4	Property 27 63	Sexually Assaulting 12-Year-Old Girl

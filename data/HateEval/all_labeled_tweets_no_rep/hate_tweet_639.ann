@@ -1,0 +1,12 @@
+T1	Premise2Justification 11 97	Nice tweet , Joyce, Truth is they flee Iran etc but want to bring their hate to the Eu
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 98 140	even in refugee camps Christians not safe.
+A2	QuadrantType T2 fact
+T3	Collective 106 113	refugee
+T4	Property 63 97	want to bring their hate to the Eu
+T5	CounterNarrativeA 2 3	0
+#1	AnnotatorNotes T5	No one is persecuting Christians. Why wouldn't they be safe?
+T6	CounterNarrativeB 3 4	0
+#2	AnnotatorNotes T6	I would not go so far as to say that ALL refugees have some kind of hate that they " want to bring into the EU".
+T7	CounterNarrativeC 5 6	l
+#3	AnnotatorNotes T7	What hate? They are escaping from war, do you know how inhumane it is to accuse them of something like that?

@@ -1,0 +1,7 @@
+T1	Premise2Justification 2 125	"#Children and #Women Are No Longer Safe Where There many """"#asylum"""" seekers, #IllegalAliens, or just #MassImmigration
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 127 204	The Nations of #Europe need to #BuildTheWall and fix #immigration LAWS NOW.""
+A2	QuadrantType T2 policy
+T3	pivot 181 192	immigration
+T4	pivot 114 125	Immigration
+R1	related Arg1:T4 Arg2:T3	

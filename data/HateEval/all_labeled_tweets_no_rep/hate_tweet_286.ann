@@ -1,0 +1,9 @@
+T1	Premise2Justification 44 144	Families are not going to holiday in a country where assault, robbery and rape is rapidly increasing
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 43;146 273	Spain needs to wake up and wake up quickly. They can have violent african migrants, they can have millions of holidaymakers but they are not going to be able to have both.
+A2	QuadrantType T2 policy
+T3	Collective 168 184	african migrants
+T4	Property 97 122	assault, robbery and rape
+T5	pivot 70 77	holiday
+T6	pivot 212 225	holidaymakers
+R1	related Arg1:T6 Arg2:T5	

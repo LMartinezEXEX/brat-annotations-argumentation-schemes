@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 257 280	Consensus won't happen.
+T2	Premise2Justification 0 255	This is how simple it is, not only for wages, but for other nice things in our country - like universal health care. Not possible with this many illegal immigrants in the country along with porous borders and employers wanting unending flow of cheap labor
+T3	Property 39 129	wages, but for other nice things in our country - like universal health care. Not possible
+T4	Collective 145 163	illegal immigrants
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

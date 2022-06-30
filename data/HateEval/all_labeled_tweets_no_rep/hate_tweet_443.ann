@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 92	Illegal Immigrant Beheads 13-Year-Old Girl  after he forces her to watch Grandmothers Murder
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 94 187	this is what @SenateDems Support Killing by Illegals as they protect them in #SanctuaryCities
+A2	QuadrantType T2 fact
+T3	pivot 8 17	Immigrant
+T4	pivot 138 146	Illegals
+T5	Collective 8 16	Immigran
+T6	CounterNarrativeA 259 260	r
+#1	AnnotatorNotes T6	If one immigrant does something bad, they are all bad. What happens then when the criminals are Americans?
+T7	Property 18 92	Beheads 13-Year-Old Girl  after he forces her to watch Grandmothers Murder
+T8	CounterNarrativeB 260 261	n
+#2	AnnotatorNotes T8	Do you think all foreigners are like that? or do you think immigrating makes you like that? Or do you think no American is that crazy? Or you just don't watch the news?
+T9	CounterNarrativeC 261 262	e
+#3	AnnotatorNotes T9	The problem with your statement is that you are assuming that he does it BECAUSE he is an immigrant and not in spite of it.
+R1	related Arg1:T4 Arg2:T3	

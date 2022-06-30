@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 165	We  already have the highest per capita immigration in the world, and the  nearly 30-minute monologue segment failed to mention that Canadians are endlessly coerced:
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 165 209	Access to White people is NOT a human right.
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 229 230	A
+#1	AnnotatorNotes T3	Nobody is trying to walk all over you. Stop the paranoia
+T4	CounterNarrativeC 231 232	i
+#2	AnnotatorNotes T4	Coerced by whom? If we really do have the highest per capita immigration in the world, then that's an argument in my favor, as it works pretty well....
+T5	Collective 40 51	immigration
+T6	Property 133 164	Canadians are endlessly coerced

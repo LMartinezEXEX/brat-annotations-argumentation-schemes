@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 43 122	Time for #congress to step up and pass a comprehensive, humanitarian, smart law
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 41	#Immigration is tearing the country apart
+A2	QuadrantType T2 fact
+T3	Collective 1 12	Immigration
+T4	Property 13 41	is tearing the country apart
+T5	CounterNarrativeA 158 159	p
+#1	AnnotatorNotes T5	Perhaps a law to facilitate the legal immigration process, no?
+T6	CounterNarrativeB 160 161	:
+#2	AnnotatorNotes T6	The immigration doesn't tear apart anything. Your xenophobia does

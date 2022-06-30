@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 6 47	stands with victims of immigrant violence
+T2	Premise2Justification 0 47	Trump stands with victims of immigrant violence
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+T3	Collective 29 38	immigrant
+T4	Property 39 47	violence
+R1	secondOrder Arg1:T1 Arg2:T2	
+T5	CounterNarrativeA 70 71	s
+#1	AnnotatorNotes T5	Trump is motivated by xenophobia and hate. You shouldn't act like him
+T6	CounterNarrativeA 69 70	t
+#2	AnnotatorNotes T6	Immigrants are not violent. Violence comes from xenophobic haters
+T7	CounterNarrativeA 68 69	d
+#3	AnnotatorNotes T7	Trump doesn't stand with victims of immigrant violence. Trump just supports xenophobia

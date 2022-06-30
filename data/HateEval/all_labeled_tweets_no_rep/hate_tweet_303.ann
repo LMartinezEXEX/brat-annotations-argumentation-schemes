@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 36 63	Can #Spain afford all this?
+T2	Premise2Justification 0 34	Looks like a bread line in Africa.
+T3	Premise2Justification 65 131	Hundreds of migrants break through border at Spanish exclave Ceuta
+T4	CounterNarrativeA 132 133	h
+#1	AnnotatorNotes T4	Can Spain afford to close their eyes on the needed?
+A1	QuadrantType T2 fact
+A2	QuadrantType T3 fact
+A3	QuadrantType T1 fact

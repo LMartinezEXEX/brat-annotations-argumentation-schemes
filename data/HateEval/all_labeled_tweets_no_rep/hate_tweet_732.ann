@@ -1,0 +1,11 @@
+T1	Premise2Justification 112 176	Republican voters will not forgive you for not building the wall
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 178 192	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	pivot 172 176	wall
+T4	pivot 188 192	Wall
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 201 202	0
+#1	AnnotatorNotes T5	So we should do something just because a small portion of the electorate wants to? I don't think it works that way...
+T6	CounterNarrativeC 200 201	2
+#2	AnnotatorNotes T6	"Republican voters" will not forgive him.. ok, so what with that?

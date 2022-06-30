@@ -1,0 +1,8 @@
+T1	Premise2Justification 29 115	Who cares what people say or think. There are getting destroyed just to show tolerance
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 27;117 130	Sweden needs to clean house #sendthemback
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 115 116	.
+#1	AnnotatorNotes T3	And could you explain how showing tolerance destroys you, or is it just your intolerant opinion?
+T4	CounterNarrativeA 114 115	e
+#2	AnnotatorNotes T4	The fact is, you don't need to send anyone back if you really are tolerant of those you should. On the other hand, if you think everyone is a criminal.... well

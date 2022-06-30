@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 0 40	"#Refugees not welcome can’t be deported
+A1	QuadrantType T1 fact
+T2	Premise2Justification 42 81	because they have gone into underground
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 105 106	K
+#1	AnnotatorNotes T3	Perhaps they were pushed underground? We should review the system... root and branch...
+T4	CounterNarrativeA 103 104	T
+#2	AnnotatorNotes T4	If you push people underground, now face the consequences. Next time, maybe try a more humane policy

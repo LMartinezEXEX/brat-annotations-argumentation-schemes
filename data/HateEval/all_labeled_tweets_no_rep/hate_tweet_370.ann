@@ -1,0 +1,12 @@
+T1	Premise2Justification 50 164	Our cities are out of control thanks to EU migration  https://t.co/pYcMN1HXFz an all to often picture of Modren UK
+T2	Premise1Conclusion 14 49	Looks like no ones running Britain!
+T3	Collective 93 102	migration
+T4	Property 54 79	cities are out of control
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	Ruling don't always mean imposing order and control. That's just fascism
+T6	CounterNarrativeB 2 3	r
+#2	AnnotatorNotes T6	Migration is not the cause of cities out of control. Migrants are just hard working people like anyone else
+T7	CounterNarrativeC 163 164	K
+#3	AnnotatorNotes T7	This is just one example, definitively doesn't look like "cities out of control" and doesn't say anything about most decent hard-working migrants
+A1	QuadrantType T2 value
+A2	QuadrantType T1 fact

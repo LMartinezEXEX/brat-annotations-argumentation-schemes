@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 23 58	Today each refugee isnt need in USA
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 21	@HISTORY This is past
+A2	QuadrantType T2 fact
+T3	Collective 34 41	refugee
+T4	Property 42 58	isnt need in USA
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	And when were they needed? There have always been people here. Immigration is a right, not a service to be bought when "needed".
+T6	CounterNarrativeB 1 2	H
+#2	AnnotatorNotes T6	Born here or not, no one is needed. Even so, it is not an excuse to kick anyone out...
+T7	CounterNarrativeC 2 3	I
+#3	AnnotatorNotes T7	It is not necessarily the past. The current context is quite similar, don't you see?

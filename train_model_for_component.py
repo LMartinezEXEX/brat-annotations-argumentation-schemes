@@ -50,6 +50,8 @@ def compute_metrics_f1(p: EvalPrediction):
     f1 = metrics.f1_score(all_true_labels, all_true_preds, average="macro")
     print("F1: {}".format(f1))
 
+    f1_binary = metrics.f1_score(all_true_labels, all_true_preds, average="binary", pos_label='1')
+
     acc = metrics.accuracy_score(all_true_labels, all_true_preds)
     print("ACC: {}".format(acc))
 
@@ -68,17 +70,21 @@ def compute_metrics_f1(p: EvalPrediction):
     precision_micro = metrics.precision_score(all_true_labels, all_true_preds, average="micro")
     print(precision_micro)
 
+    confusion_matrix = metrics.confusion_matrix(all_true_labels, all_true_preds)
+
 
     w = open("./results_{}_{}_{}-metrics".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), component), "a")
 
-    w.write("{},{},{},{},{},{},{}\n".format(str(acc), str(f1), str(precision), str(recall), str(f1_micro), str(precision_micro), str(recall_micro)))
+    w.write("{},{},{},{},{},{},{},{}\n".format(str(acc), str(f1), str(precision), str(recall), str(f1_micro), str(precision_micro), str(recall_micro), str(f1_binary)))
     w.close()
 
     return {
         'accuracy': acc,
         'f1': f1,
         'precision': precision,
-        'recall': recall
+        'recall': recall,
+        'confusion_matrix': confusion_matrix,
+        'f1_binary': f1_binary
     }
 
 
@@ -101,16 +107,20 @@ def labelComponents(text, component_text):
     return [0] * len(text.strip().split())
 
 
-def labelComponentsFromAllExamples(filePatterns, component):
+def labelComponentsFromAllExamples(filePatterns, component, multidataset = False):
     all_tweets = []
     all_labels = []
+    if multidataset:
+        datasets = []
     for filePattern in filePatterns:
         for f in glob.glob(filePattern):
             annotations = open(f, 'r')
             tweet = open(f.replace(".ann", ".txt"), 'r')
              # TODO: sacar todos los caracteres especiales
-            tweet_text = tweet.read().replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "")
+            tweet_text = tweet.read().replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "")
             component_text = []
+            if component == "Collective":
+                property_text = []
             is_argumentative = True
             filesize = 0
             for idx, word in enumerate(annotations):
@@ -121,22 +131,35 @@ def labelComponentsFromAllExamples(filePatterns, component):
                     if current_component.startswith("NonArgumentative"):
                         is_argumentative = False
                         break
-                    if ann[1].lstrip().startswith(component):
-                        component_text.append(ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", ""))
-        
+                    if current_component.startswith(component):
+                        component_text.append([ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "")])
+                    if component == "Collective" and current_component.startswith("Property"):
+                        property_text.append(ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", ""))
+
+
+            if component == "Collective":
+                tweet_text += " Property: " + " ".join(property_text)
+            preprocessed_text = preprocessing.preprocess_tweet(tweet_text) + " " + f
+            component_text = [preprocessing.preprocess_tweet(comp) for comp in component_text] 
+            normalized_text = normalize_text(preprocessed_text, component_text)
+            labels = labelComponents(" ".join(normalized_text), component_text)
             if not is_argumentative or filesize == 0:
                 continue
+
+            elif multidataset:
+                dicc = {"tokens": [normalized_text], "labels": [labels]}
+                datasets.append([Dataset.from_dict(dicc), normalized_text])
             else:
-                preprocessed_text = preprocessing.preprocess_tweet(tweet_text)
-                normalized_text = normalize_text(preprocessed_text, component_text)
-                labels = labelComponents(" ".join(normalized_text), component_text)
-    
                 all_tweets.append(normalized_text)
                 all_labels.append(labels)
+
+    if multidataset:
+        return datasets
+
     ans = {"tokens": all_tweets, "labels": all_labels}
     return Dataset.from_dict(ans)
 
-def tokenize_and_align_labels(dataset, tokenizer):
+def tokenize_and_align_labels(dataset, tokenizer, is_multi = False):
     def tokenize_and_align_labels_per_example(example):
         tokenized_inputs = tokenizer(example["tokens"], truncation=True, is_split_into_words=True)
 
@@ -158,12 +181,20 @@ def tokenize_and_align_labels(dataset, tokenizer):
         tokenized_inputs["labels"] = labels
         return tokenized_inputs
 
+    if is_multi:
+        return [{"dataset": data[0].map(tokenize_and_align_labels_per_example, batched=True), "text": data[1]} for data in dataset]
     return dataset.map(tokenize_and_align_labels_per_example, batched=True)
 
 def normalize_text(tweet_text, arg_components_text):
     parts_processed = []
     splitted_text = [tweet_text]
     for splitter in arg_components_text:
+        if (not splitter in tweet_text):
+            print("ERRORRRRRRR")
+            print(arg_components_text)
+            print(splitter)
+            print(tweet_text)
+        assert (splitter in tweet_text)
         for segment in splitted_text:
             new_splitted_text = []
             new_split = segment.split(splitter)
@@ -197,6 +228,7 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
     training_set = tokenize_and_align_labels(labelComponentsFromAllExamples(train_partition_patterns, component), tokenizer)
     dev_set = tokenize_and_align_labels(labelComponentsFromAllExamples(dev_partition_patterns, component), tokenizer)
     test_set = tokenize_and_align_labels(labelComponentsFromAllExamples(test_partition_patterns, component), tokenizer)
+    test_set_one_example = tokenize_and_align_labels(labelComponentsFromAllExamples(test_partition_patterns, component, multidataset = True), tokenizer, is_multi = True)
     
     training_args = TrainingArguments(
         output_dir="./results_eval_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), component),
@@ -209,7 +241,7 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
         num_train_epochs=EPOCHS,
         weight_decay=0.01,
         report_to="none",
-        metric_for_best_model='f1',
+        metric_for_best_model='f1_binary',
         load_best_model_at_end=True
     )
 
@@ -231,7 +263,22 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
     results = trainer.predict(test_set)
     filename = "./results_test_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), component)
     with open(filename, "w") as writer:
-        writer.write("{},{},{},{}".format(results.metrics["test_accuracy"], results.metrics["test_f1"], results.metrics["test_precision"], results.metrics["test_recall"]))
+        writer.write("{},{},{},{},{}\n".format(results.metrics["test_accuracy"], results.metrics["test_f1"], results.metrics["test_precision"], results.metrics["test_recall"], results.metrics["test_f1_binary"]))
+        writer.write("{}".format(str(results.metrics["test_confusion_matrix"])))
+
+    examples_filename = "./examples_test_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), component)
+    with open(examples_filename, "w") as writer:
+        for dtset in test_set_one_example:
+            result = trainer.predict(dtset["dataset"])
+            preds = result.predictions.argmax(-1)[0]
+            assert (len(preds) == len(result.label_ids[0]))
+            comparison = [(truth, pred) for truth, pred in zip(result.label_ids[0], preds) if truth != -100]
+            writer.write("Tweet:\n")
+            writer.write("{}\n".format(dtset["dataset"]["tokens"][0]))
+            for word, pair in zip(dtset["dataset"]["tokens"][0], comparison):
+                writer.write("{}\t\t\t{}\t{}\n".format(word, pair[0], pair[1]))
+            writer.write("-------------------------------------------------------------------------------\n")
+
 
 
 

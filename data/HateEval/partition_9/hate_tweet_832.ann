@@ -1,4 +1,5 @@
-T1	Premise2Justification 1 97;146 192	WomenDisobey The U.S Does not have Open Borders it allows 1.5 Million immigrants in every year ! Citizens must obey U.S laws and so do Illegals
+T1	Premise2Justification 1 97	WomenDisobey The U.S Does not have Open Borders it allows 1.5 Million immigrants in every year !
+T6	Premise2Justification 146 192	Citizens must obey U.S laws and so do Illegals
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 98 144	 If you want to come to the U.S do so LEGALLY!
 A2	QuadrantType T2 policy

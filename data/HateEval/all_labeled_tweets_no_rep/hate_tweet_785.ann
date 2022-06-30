@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 83	@Jim_Jordan Americans want @SpeakerRyan to fund the Wall! Also want you as speaker!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 84 104	Please #BuildTheWall
+A2	QuadrantType T2 policy
+T3	pivot 52 56	Wall
+T4	pivot 100 104	Wall
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 160 161	A
+#1	AnnotatorNotes T5	You speak for you and who else? Not me...
+T6	CounterNarrativeA 158 159	s
+#2	AnnotatorNotes T6	Just because you and your friends at the bar say so? It's so funny how these people talk about "Americans" only when it suits them.

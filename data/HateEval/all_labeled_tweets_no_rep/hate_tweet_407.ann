@@ -1,0 +1,8 @@
+T1	Premise2Justification 9 30	Maybe he get his wall
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 33 70	wonderful to stop refugees from South
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	Why should we build a wall to stop refugees from the south, when we can help them?
+T4	CounterNarrativeC 1 2	t
+#2	AnnotatorNotes T4	Or maybe not, building a wall along the entire border is such a crazy idea. It makes no sense

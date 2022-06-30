@@ -1,0 +1,12 @@
+T1	Premise2Justification 88 141	Once these people settle down they slowly move south.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 87	India should be tough on illegal immigration from Bangladesh and deport the immigrants.
+A2	QuadrantType T2 policy
+T3	Collective 76 86	immigrants
+T4	Property 88 140	Once these people settle down they slowly move south
+T5	CounterNarrativeC 159 160	8
+#1	AnnotatorNotes T5	That cannot be. Because "settling down" and "moving in" are contradictory ideas...
+T6	CounterNarrativeB 160 161	p
+#2	AnnotatorNotes T6	Actually, they're not settled if they're moving... but why does this bother you anyway?
+T7	CounterNarrativeA 162 163	C
+#3	AnnotatorNotes T7	"Oh no, people is moving, what a problem" said no one, ever....

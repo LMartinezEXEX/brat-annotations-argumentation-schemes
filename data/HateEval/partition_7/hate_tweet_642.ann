@@ -1,4 +1,5 @@
-T1	Premise2Justification 0 119;167 216	With todays #JalalabadAttack &amp; other vicious attacks claimed by ISIS, I smell a spillover of refugees in Pak again. We cant afford terrorists taking undue advantage.
+T1	Premise2Justification 0 119	With todays #JalalabadAttack &amp; other vicious attacks claimed by ISIS, I smell a spillover of refugees in Pak again.
+T6	Premise2Justification 167 216	We cant afford terrorists taking undue advantage.
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 120 165;217 267	This time we should not open borders for them Let Americans deal with it.#Afghanistan #Jalalabad
 A2	QuadrantType T2 policy

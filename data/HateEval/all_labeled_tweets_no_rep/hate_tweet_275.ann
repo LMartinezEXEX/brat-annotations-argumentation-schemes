@@ -1,0 +1,7 @@
+T1	Premise2Justification 0 92	There are so many tribes and communities in NE that doesn’t even reach 5 lakhs in population
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 94 202	Think for those too. Stop supporting IMMIGRANTS. Take those 40 immigrants in your states if you care so much
+A2	QuadrantType T2 policy
+T3	pivot 82 92	population
+T4	pivot 176 182	states
+R1	related Arg1:T3 Arg2:T4	

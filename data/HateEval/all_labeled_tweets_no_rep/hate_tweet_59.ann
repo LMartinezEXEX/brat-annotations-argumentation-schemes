@@ -1,0 +1,15 @@
+T2	Collective 12 20	Families
+T3	Property 21 73	should not bring their kids into a country illegally
+T1	Premise2Justification 12 107	Families should not bring their kids into a country illegally, would you?  We can’t afford them
+T4	Premise1Conclusion 109 121	sendthemhome
+A1	QuadrantType T1 value
+A2	QuadrantType T4 policy
+T5	pivot 113 117	them
+T6	pivot 44 73	kids into a country illegally
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T7	You are talking about kids that were separated from their parents by force, they need help and you want to send them home. It's inhumane
+T8	CounterNarrativeB 2 3	e
+#2	AnnotatorNotes T8	Families do what they do because they care about their kids and want to give them a future. What would you do for your kids?
+T9	CounterNarrativeC 3 4	p
+#3	AnnotatorNotes T9	Do you have evidence that we can't afford to keep families together?

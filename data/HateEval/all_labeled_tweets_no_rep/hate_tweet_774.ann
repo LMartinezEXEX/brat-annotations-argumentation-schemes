@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 0 136	"About 25% of illegal crossers have a criminal record in the US and an unknown percentage have committed crimes in their home countries.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 138 210	Of the 92 migrants, 65 had no criminal records. Ten were parents, all...
+A2	QuadrantType T2 fact
+T3	Collective 14 30	illegal crossers
+T4	Property 31 53	have a criminal record
+T5	pivot 168 184	criminal records
+T6	pivot 38 53	criminal record
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 231 232	v
+#1	AnnotatorNotes T7	So many without criminal records? That's good, isn't it? It should be...
+T8	CounterNarrativeB 232 233	X
+#2	AnnotatorNotes T8	A few have it, sure, it's always there. But they are the fewest, you can't use it to accuse them all...
+T9	CounterNarrativeA 230 231	F
+#3	AnnotatorNotes T9	I think you are focusing on the wrong group (besides being the minority). The important one is the other, the 75% of non-criminals...

@@ -1,0 +1,13 @@
+T1	Premise2Justification 66 136	The German Government Pays for 3 Week Vacation for Refugees to Go Home
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 64	COMMON SENSE IS GONE and NEVER COMING BACK!!  GERMAN INSANITY???
+A2	QuadrantType T2 fact
+T3	pivot 70 76	German
+T4	pivot 46 52	GERMAN
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 175 176	2
+#1	AnnotatorNotes T5	Oh no, the government pays for vacations, where's the common sense? I guess you're not going to collect yours either, are you?
+T6	CounterNarrativeC 177 179	ii
+#2	AnnotatorNotes T6	Where did you get this information? I haven't seen it anywhere else. Let me doubt it...
+T7	Collective 117 125	Refugees
+T8	Property 97 112	3 Week Vacation

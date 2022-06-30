@@ -1,0 +1,10 @@
+T1	Premise2Justification 12 101	Where were u when Pandits were made Refugees in their Homeland.U never raised voice then.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 102 135	Now fighting for illegal migrants
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	Why should it matter what he did before to judge what he is doing now? Pure hypocrisy...
+T4	CounterNarrativeFree 1 2	a
+#2	AnnotatorNotes T4	That's a pun. If you put "illegal" on anything you make it seem like it's wrong to defend it. We're all human, you know? no one is illegal.
+T5	CounterNarrativeC 12 101	Where were u when Pandits were made Refugees in their Homeland.U never raised voice then.
+#3	AnnotatorNotes T5	When did that happen? Weren't you missing a lot of history classes?

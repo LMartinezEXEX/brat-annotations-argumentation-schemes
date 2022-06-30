@@ -1,0 +1,6 @@
+T1	Premise2Justification 78 165	Black Trump Supporter "Black Community has been destroyed by RACIST ILLEGAL immigration
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 166 194	#BuildtheWall #DeportThemAll
+A2	QuadrantType T2 policy
+T3	Collective 146 165	ILLEGAL immigration
+T4	Property 139 145	RACIST

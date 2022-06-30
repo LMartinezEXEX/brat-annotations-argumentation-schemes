@@ -1,0 +1,14 @@
+T1	Premise1Conclusion 196 216	They have to go back
+T2	Premise2Justification 13 194	Their answer:  things are only getting back to how they were before you started noticing how damaging this immigration is.So its not really just 'normal'.  Okay??  NO, its not okay.
+T3	Premise2Justification 220 255	n 2018: it's time to let diversityâ
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+A3	QuadrantType T3 fact
+T4	CounterNarrativeA 11 12	a
+#1	AnnotatorNotes T4	I don't think you are making much sense right now but I can tell you that migration is normal and it is not something to be afraid of
+T5	Collective 120 131	immigration
+T6	Property 106 114	damaging
+T7	CounterNarrativeB 4 5	V
+#2	AnnotatorNotes T7	Immigration is not damaging. Only those afraid of discovering other cultures may see it that way. You should try talking to them and see they are people just like you and me
+T8	CounterNarrativeC 0 1	@
+#3	AnnotatorNotes T8	I don't understand what you are trying to say. It doesn't make sense

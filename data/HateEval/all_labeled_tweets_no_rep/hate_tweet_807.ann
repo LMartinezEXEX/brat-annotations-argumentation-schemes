@@ -1,0 +1,15 @@
+T1	Collective 0 20	Non white immigrants
+T2	Property 21 61	love freedom of speech to bash white men
+T3	Premise2Justification 66 113	who was freedom of speech created by? White men
+A1	QuadrantType T3 fact
+T4	Premise1Conclusion 0 65	Non white immigrants love freedom of speech to bash white men.But
+A2	QuadrantType T4 fact
+T5	pivot 26 43	freedom of speech
+T6	pivot 74 91	freedom of speech
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 121 122	ƒ
+#1	AnnotatorNotes T7	I don't know, I mean, I wasn't there.... Maybe by women or non white men?
+T8	CounterNarrativeB 122 123	ð
+#2	AnnotatorNotes T8	Why do you associate immigrants with non-whites? There are no non-white citizens or white immigrants? What a racist...
+T9	CounterNarrativeA 123 124	Ÿ
+#3	AnnotatorNotes T9	Bullshit, you support freedom of speech only when no one is talking about you... Well, welcome to the real world...

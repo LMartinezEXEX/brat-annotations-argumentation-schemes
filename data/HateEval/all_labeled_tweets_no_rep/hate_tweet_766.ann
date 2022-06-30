@@ -1,0 +1,11 @@
+T1	Premise2Justification 1 114	The NGO rescueship Lifeline will now go to Malta. This is the wrong signal for all the humancatcher from the NGOs
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 116 230	The Crew should send into jail, because the have ignored the law and the refugees should be brought back to Libya.
+A2	QuadrantType T2 policy
+T3	pivot 120 124	Crew
+T4	pivot 9 19	rescueship
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 0 114	"The NGO rescueship Lifeline will now go to Malta. This is the wrong signal for all the humancatcher from the NGOs
+#1	AnnotatorNotes T5	Oh no, the rescuers are rescuing people! lol
+T6	CounterNarrativeA 248 249	v
+#2	AnnotatorNotes T6	I mean, they are rescuers, and the refugees are humans? what is the crime? what law did they break?

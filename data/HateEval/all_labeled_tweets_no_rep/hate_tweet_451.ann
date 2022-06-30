@@ -1,0 +1,13 @@
+T1	Premise2Justification 65 135	The German Government Pays for 3 Week Vacation for Refugees to Go Home
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 60	Wonder how much US $$$ from unfair trade is used for this BS
+A2	QuadrantType T2 value
+T3	pivot 69 91	German Government Pays
+T4	pivot 7 22	how much US $$$
+T5	CounterNarrativeA 173 174	b
+#1	AnnotatorNotes T5	And why would they use dollars and not euros? In other words, there are more currencies in the world than you think.
+R1	related Arg1:T3 Arg2:T4	
+T6	CounterNarrativeC 171 172	T
+#2	AnnotatorNotes T6	What's the problem, or are you suggesting that it's "extra" vacation time? I don't buy it, where are your sources?
+T7	Collective 116 124	Refugees
+T8	Property 65 115	The German Government Pays for 3 Week Vacation for

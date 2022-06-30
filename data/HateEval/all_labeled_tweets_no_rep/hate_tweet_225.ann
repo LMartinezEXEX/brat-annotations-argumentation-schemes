@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 90	Tucker Carson "We need to start looking at the relationship between immigration and crime"
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 91 111	Yes we do thanks bro
+A2	QuadrantType T2 policy
+T3	Collective 68 79	immigration
+T4	Property 84 89	crime

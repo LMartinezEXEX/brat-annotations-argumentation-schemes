@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 103	Austria - locals call to deport migrants after hundreds of Muslims take to streets to embrace Hezbollah
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 22 40	to deport migrants
+A2	QuadrantType T2 policy
+T3	Collective 59 66	Muslims
+T4	Property 67 103	take to streets to embrace Hezbollah
+T5	CounterNarrativeA 118 119	T
+#1	AnnotatorNotes T5	I hope the authorities do not take these "locals" too seriously.
+T6	CounterNarrativeB 125 126	h
+#2	AnnotatorNotes T6	Maybe one or two of them did, but can you judge all of them? Can you judge all Americans just because some of them are neo-Nazis?
+T7	CounterNarrativeC 163 164	e
+#3	AnnotatorNotes T7	All locals? We're going to take the opinion of 2 or 3 xenophobes seriously just because you agree with them?

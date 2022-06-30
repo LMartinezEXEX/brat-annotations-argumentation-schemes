@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 35	It's getting worse every single day
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 37 121	#StopImmigration #CloseTheBorders #NoMoreImmigrantsHere #StandUpForYourWesternValues
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 120 121	s
+#1	AnnotatorNotes T3	"it's getting worse," but is it hurting you in some way?
+T4	CounterNarrativeC 119 120	e
+#2	AnnotatorNotes T4	What is getting worse every day? In fact, I feel that every day is better...
+T5	Collective 42 53	Immigration
+T6	Property 5 35	getting worse every single day

@@ -1,0 +1,14 @@
+T3	Collective 45 58	Some refugees
+T1	Property 0 9	Many lice
+T11	CounterNarrativeA 150 151	b
+T12	CounterNarrativeB 148 150	lf
+#2	AnnotatorNotes T12	Finding lices in Viennese schools don't mean that they were brought by refugees. You are trying to blame children that escaped a war for finding lices in schools. Really, your xenophobia have no limits
+T13	CounterNarrativeC 147 148	y
+#3	AnnotatorNotes T13	Do you have any proof that lices were brought by refugees?
+T2	Premise1Conclusion 88 126	To rescue it will cost 30 â‚¬ a person
+T4	Premise2Justification 0 86	Many lice you will find in Viennese schools. Some refugees has brought us this as gift
+#1	AnnotatorNotes T11	If treatment for lices costs the taxpayer 30$ per person then you should blame the politicians and the government because they are robbing you. Refugees are not a significant cost to the taxpayers, stupidity and xenophobia is 
+T5	pivot 5 9	lice
+T6	pivot 98 100	it
+A1	QuadrantType T4 fact
+A2	QuadrantType T2 fact

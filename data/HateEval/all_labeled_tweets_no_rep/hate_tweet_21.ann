@@ -1,0 +1,16 @@
+T2	Collective 51 59	Refugees
+T5	Premise2Justification 0 70	The German Government Pays for 3 Week Vacation for Refugees to Go Home
+A1	QuadrantType T5 fact
+T3	Premise1Conclusion 91 249	No the German government isn't paying, the German taxpayers are paying! The German government is robbing native Germans to finance the Islamization of Germany
+T9	Property 226 249	Islamization of Germany
+T10	CounterNarrativeA 274 275	4
+#1	AnnotatorNotes T10	Just because the German Government spends money on refugees that doesn't mean that they are robbing native Germans to finance the "islamization" of Germany. Germany is a country with religious freedom and refugees pay taxes too
+T11	CounterNarrativeB 273 274	n
+#2	AnnotatorNotes T11	Having people from different cultures doesn't mean there is an islamization. It means a cultural enrichment for tolerant societies.
+T12	CounterNarrativeC 271 272	4
+#3	AnnotatorNotes T12	Do you have any proof that German Government pays for 3 weeks vacation for refugees to go home? Because it sounds fake
+T6	pivot 0 20	The German Governmen
+T7	pivot 94 115	the German government
+R1	related Arg1:T6 Arg2:T7	
+R2	firstOrder Arg1:T3 Arg2:T5	
+A2	QuadrantType T3 fact

@@ -1,0 +1,10 @@
+T1	Premise2Justification 12 92	the money saved from the damage illegals do will more then compensate our budget
+T2	Premise1Conclusion 95 109	#BuildThatWall
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy
+T3	Collective 44 52	illegals
+T4	Property 33 55	the damage illegals do
+T5	CounterNarrativeA 0 109	Pretty sure the money saved from the damage illegals do will more then compensate our budget.. #BuildThatWall
+#1	AnnotatorNotes T5	Even if money is saved, it doesn't need to go to building the wall.
+T6	CounterNarrativeB 0 109	Pretty sure the money saved from the damage illegals do will more then compensate our budget.. #BuildThatWall
+#2	AnnotatorNotes T6	Illegal immigrants do not make more damage than locals.

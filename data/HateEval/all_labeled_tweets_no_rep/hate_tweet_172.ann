@@ -1,0 +1,7 @@
+T1	Premise2Justification 0 199	Things we heard on primetime last night: “The growth rate of Muslims in Assam from 1971 to 1991 is 77 per cent, that is not an indigenous population. A large part of that 77 per cent are Bangladeshis
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 201 222	Bangladeshi go home."
+A2	QuadrantType T2 policy
+T3	pivot 201 212	Bangladeshi
+T4	pivot 187 199	Bangladeshis
+R1	related Arg1:T4 Arg2:T3	

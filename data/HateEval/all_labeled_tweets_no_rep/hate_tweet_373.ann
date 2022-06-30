@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 62	92% of foreign nationals in federal prisons are illegal aliens
+T2	Premise1Conclusion 100 133	#SecureTheBorder #StopTheInvasion
+A1	QuadrantType T2 policy
+A2	QuadrantType T1 fact
+T3	Collective 48 62	illegal aliens
+T4	Property 25 43	in federal prisons
+T5	CounterNarrativeA 91 92	u
+#1	AnnotatorNotes T5	What invasion are you talking about? This only prooves that we are overwealming our penitentiary system with people because they didn't fill out the form instead of going after people who committed real crimes
+T6	CounterNarrativeC 86 87	#
+#2	AnnotatorNotes T6	This is typical fake news used to spread hate against immigrants. Blatant xenophobia
+T7	CounterNarrativeB 79 80	C
+#3	AnnotatorNotes T7	Most immigrants are people facing difficulties, with families and people that also needs support. Of course there are always exceptions but most of them are not criminals but decent honest hard-working people

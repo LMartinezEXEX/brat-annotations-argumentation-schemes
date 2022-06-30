@@ -1,0 +1,11 @@
+T1	Premise2Justification 11 74	You play with ordinary poor peoples lives like a monopoly board
+T2	Premise1Conclusion 75 139	you throw the dice and people never get out of jail migrants win
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	pivot 79 93	throw the dice
+T4	pivot 15 19	play
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	Who and how exactly is playing with people's lives? the immigrants? don't make me laugh.
+T6	CounterNarrativeA 1 2	T
+#2	AnnotatorNotes T6	Immigrants win? In reality, they are the ones who never get out of jail! You're playing with their lives, not the opposite.

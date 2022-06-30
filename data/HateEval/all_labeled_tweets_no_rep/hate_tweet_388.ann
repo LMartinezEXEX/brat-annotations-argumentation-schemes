@@ -1,0 +1,7 @@
+T2	Premise1Conclusion 64 130	better NOT take #AugustRecess until No #IllegalAliens are released
+A1	QuadrantType T2 policy
+T3	Premise2Justification 132 247	#NoAmnesty 4 #DACA #BuildTheWall #ZeroTolerance #SendThemBack  #DeportThemAll do it or u r #TheSwamp #DrainTheSwamp
+T4	pivot 100 130	No #IllegalAliens are released
+T5	pivot 132 150	#NoAmnesty 4 #DACA
+R1	related Arg1:T4 Arg2:T5	
+A2	QuadrantType T3 policy
