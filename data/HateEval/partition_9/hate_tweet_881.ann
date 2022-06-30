@@ -3,7 +3,8 @@ A1	QuadrantType T1 fact
 T2	Premise1Conclusion 173 200	#GoHome #RefugeesNotWelcome
 A2	QuadrantType T2 policy
 T3	Collective 2 10	Refugees
-T4	Property 17 44;76 171	come to the white countries to take over and become the majority,rape our women and children, and claim hey are the victims
+T4	Property 17 44	come to the white countries
+T10	Property 76 171	to take over and become the majority,rape our women and children, and claim hey are the victims
 T5	pivot 2 10	Refugees
 T6	pivot 182 190	Refugees
 R1	related Arg1:T5 Arg2:T6	

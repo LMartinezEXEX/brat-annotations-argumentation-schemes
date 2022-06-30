@@ -1,6 +1,7 @@
 T1	Premise2Justification 34 111	Losing our identity while the #IllegalAliens steal them. They steal our jobs.
 A1	QuadrantType T1 fact
-T2	Premise1Conclusion 0 33;112 126	We are living in dangerous times. #BuildThatWall
+T2	Premise1Conclusion 0 33	We are living in dangerous times.
+T8	Premise1Conclusion 112 126	#BuildThatWall
 A2	QuadrantType T2 policy
 T3	Collective 65 78	IllegalAliens
 T4	Property 96 110	steal our jobs

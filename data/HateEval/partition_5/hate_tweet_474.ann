@@ -1,4 +1,5 @@
-T1	Premise1Conclusion 161 184;187 203	This should be outlawed #Stopimmigration
+T1	Premise1Conclusion 161 184	This should be outlawed
+T5	Premise1Conclusion 187 203	#Stopimmigration
 A1	QuadrantType T1 policy
 T2	Premise2Justification 0 159	This was her 5th or 6th child.  If we did not give entitlements for all these kids they would be here having so many babies on the backs of American Taxpayers.
 A2	QuadrantType T2 fact

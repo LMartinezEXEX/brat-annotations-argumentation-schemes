@@ -1,4 +1,5 @@
-T1	Premise1Conclusion 117 131;15 75	#BuildThatWall You left out the 35million illegals that want to be American
+T1	Premise1Conclusion 117 131	#BuildThatWall
+T8	Premise1Conclusion 15 75	You left out the 35million illegals that want to be American
 A1	QuadrantType T1 fact
 T2	Premise2Justification 76 117	otherwise y would they invade our country
 A2	QuadrantType T2 fact

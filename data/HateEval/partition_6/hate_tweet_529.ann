@@ -1,5 +1,6 @@
 T1	Collective 8 15	Muslims
-T2	Property 0 7;16 40	Radical are granted extra rights
+T2	Property 0 7	Radical
+T8	Property 16 40	are granted extra rights
 T3	Premise2Justification 0 40	Radical Muslims are granted extra rights
 A1	QuadrantType T3 fact
 T4	Premise1Conclusion 85 98	BuildThatWall

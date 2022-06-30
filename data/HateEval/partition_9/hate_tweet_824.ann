@@ -1,6 +1,7 @@
 T1	Premise2Justification 91 145	You and your party have done enough to destroy America
 A1	QuadrantType T1 fact
-T2	Premise1Conclusion 0 89;147 175	@SenSchumer You know something Chucky. We the people dont give a rats behind what you say We are done with your ideals
+T2	Premise1Conclusion 0 89	@SenSchumer You know something Chucky. We the people dont give a rats behind what you say
+T6	Premise1Conclusion 147 175	We are done with your ideals
 A2	QuadrantType T2 value
 T3	pivot 164 175	your ideals
 T4	pivot 99 109	your party

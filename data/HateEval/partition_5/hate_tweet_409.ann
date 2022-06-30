@@ -1,4 +1,5 @@
-T1	Premise1Conclusion 136 198;220 233	What would YOU do #ForTrump, who has done so much for America? BuildThatWall
+T1	Premise1Conclusion 136 198	What would YOU do #ForTrump, who has done so much for America?
+T10	Premise1Conclusion 220 233	BuildThatWall
 A1	QuadrantType T1 policy
 T2	Premise2Justification 0 134	What would I do for Trump? Anything. Yes anything to keep my country FREE, to support are VETS, and to FIGHT radical Islamic terrorism
 A2	QuadrantType T2 value
