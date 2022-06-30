@@ -7,3 +7,9 @@ T4	Property 60 78	NOS CUESTAN DINERO
 T5	pivot 24 36	CREA RIQUEZA
 T6	pivot 133 151	La riqueza se crea
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeA 206 207	n
+#1	AnnotatorNotes T7	¿Pero si no se reparte como es que llega a manos de quienes la hicieron posible?
+T8	CounterNarrativeB 205 206	o
+#2	AnnotatorNotes T8	No es cierto que los inmigrantes ilegales nos cuesten dinero. En general, los impuestos no varían por la presencia de inmigrantes.
+T9	CounterNarrativeC 204 205	i
+#3	AnnotatorNotes T9	No es cierto que se les de de todo. En general, si se les da, es mucho menos que lo que se les da a los ciudadanos, y además ellos son pocos. No representan grandes gastos.

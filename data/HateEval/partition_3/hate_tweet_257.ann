@@ -4,3 +4,9 @@ T2	Premise1Conclusion 90 121	#EndDACA#NoAmnesty#BuildTheWall
 A2	QuadrantType T2 policy
 T3	Collective 48 76	Unaccompanied Alien Children
 T4	Property 32 41	Gangsters
+T5	CounterNarrativeB 162 163	n
+#1	AnnotatorNotes T5	I don't know if it's true, but if it is, maybe it's the result of the policy of separating families...
+T6	CounterNarrativeC 163 164	s
+#2	AnnotatorNotes T6	I don't believe this news is real at all.... Too convenient for your xenophobia
+T7	CounterNarrativeA 164 165	S
+#3	AnnotatorNotes T7	Do you realize that this is a product of repressive policies like the one you propose and not the other way around? You could start thinking about other solutions...

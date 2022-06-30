@@ -2,3 +2,7 @@ T1	Premise2Justification 177 197;34 109	we can't afford them stop w 'we have to 
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 110 176	Go home and make your country better or enter ours legally #NoDACA
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	But we should be concerned about the children. That should not be up for discussion.
+T4	CounterNarrativeA 1 2	c
+#2	AnnotatorNotes T4	It is not their decision, nor do they have the power to make it, so they run away. We should empathize.

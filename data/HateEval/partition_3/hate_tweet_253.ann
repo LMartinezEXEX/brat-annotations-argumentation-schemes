@@ -7,3 +7,9 @@ T4	Property 28 40	antisemitism
 T5	pivot 49 53	Jews
 T6	pivot 74 78	Jews
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeB 125 126	h
+#1	AnnotatorNotes T7	Muslims are Semites, they cannot be anti-Semitic.
+T8	CounterNarrativeC 126 127	t
+#2	AnnotatorNotes T8	What do you mean by that? Did they do anything? Do you have evidence? If not, it's just racism
+T9	CounterNarrativeA 128 129	p
+#3	AnnotatorNotes T9	You say that the Jews are afraid of the immigrants, but have you actually talked to them? Because as far as I know, the immigrants have done nothing...

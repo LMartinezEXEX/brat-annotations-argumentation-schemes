@@ -4,3 +4,9 @@ T2	Premise1Conclusion 0 31	#BanRapefugees #BanIslamInTheUS
 A2	QuadrantType T2 policy
 T3	Collective 65 72	Migrant
 T4	Property 56 60	Rape
+T5	CounterNarrativeC 115 116	w
+#1	AnnotatorNotes T5	Wait, isn't his classmate ten years old too? This is not their fault but of those who should be taking care of them.
+T6	CounterNarrativeA 114 115	e
+#2	AnnotatorNotes T6	These things should not happen, but to think that it is solved by banning immigrants is to deny that there are natives who are criminals too.
+T7	CounterNarrativeB 113 114	N
+#3	AnnotatorNotes T7	There is no direct relationship between someone's nationality and whether or not they are a criminal. Please stop with your xenophobia.

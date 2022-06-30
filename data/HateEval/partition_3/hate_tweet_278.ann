@@ -4,3 +4,9 @@ T2	Premise1Conclusion 53 143	People who have not lived in civilization before do
 A2	QuadrantType T2 fact
 T3	Collective 15 29	Muslim migrant
 T4	Property 64 94	have not lived in civilization
+T5	CounterNarrativeC 227 228	u
+#1	AnnotatorNotes T5	It is not true that immigration is changing Europe, neither for the better nor for the worse.
+T6	CounterNarrativeB 226 227	f
+#2	AnnotatorNotes T6	That Muslims do not live in society is a myth spread by the yellow press.
+T7	CounterNarrativeA 225 226	s
+#3	AnnotatorNotes T7	But they lived in civilization all their lives. They can adapt perfectly

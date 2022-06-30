@@ -4,3 +4,9 @@ T2	Premise1Conclusion 98 137	Focus on aligning them as good citizens
 A2	QuadrantType T2 policy
 T3	Collective 54 71	,illegal migrants
 T4	Property 79 97	cause of pollution
+T5	CounterNarrativeB 0 1	@
+#1	AnnotatorNotes T5	What do you mean by contamination? That is a serious accusation, and not very well founded.
+T6	CounterNarrativeC 1 2	A
+#2	AnnotatorNotes T6	What do you mean by "explosion"? Sounds like you're trying to make a not very good pun.
+T7	CounterNarrativeA 2 3	r
+#3	AnnotatorNotes T7	I may agree, as long as "aligning" means integrating and not repressing.

@@ -4,3 +4,9 @@ T2	Premise1Conclusion 102 197	Saudi Arabia does not want the financial burden or
 A2	QuadrantType T2 fact
 T3	Collective 181 187	Muslim
 T4	Property 166 177	lower class
+T5	CounterNarrativeC 1 2	T
+#1	AnnotatorNotes T5	Is there anything wrong with that? Emigration is a human right
+T6	CounterNarrativeA 0 1	@
+#2	AnnotatorNotes T6	Maybe you don't. You can't speak for your whole country
+T7	CounterNarrativeB 2 3	h
+#3	AnnotatorNotes T7	Being Muslim does not imply being lower class. Material resources and capabilities have nothing to do with religion.

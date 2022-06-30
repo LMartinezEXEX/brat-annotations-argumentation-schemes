@@ -4,3 +4,9 @@ T2	Premise1Conclusion 65 96	.#DrainTheSwamp#StopTheInvasion
 A2	QuadrantType T2 policy
 T3	Collective 13 23	Communists
 T4	Property 48 65	want open borders
+T5	CounterNarrativeC 112 113	u
+#1	AnnotatorNotes T5	I doubt very much that every person who thinks differently than you is a communist. Maybe it's time to listen to others....
+T6	CounterNarrativeA 113 114	w
+#2	AnnotatorNotes T6	The "solutions" you propose are just unfair decisions that will bring many problems. Maybe it's time to listen to others....
+T7	CounterNarrativeB 111 112	Y
+#3	AnnotatorNotes T7	Neither communists propose that, nor those who propose that are communists. The problem is that you use "communist" as an insult, so everyone is a communist to you.

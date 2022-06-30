@@ -4,3 +4,9 @@ T2	Premise2Justification 0 50	España está siendo invadida por los subsahariano
 A2	QuadrantType T2 fact
 T3	Collective 36 49	subsaharianos
 T4	Property 0 31	España está siendo invadida por
+T5	CounterNarrativeC 175 176	7
+#1	AnnotatorNotes T5	No es cierto que España esté siendo invadida por nadie.
+T6	CounterNarrativeB 174 175	W
+#2	AnnotatorNotes T6	Estas confundiendo las palabras inmigración e invasión, y sus significados son casi opuestos.
+T7	CounterNarrativeA 173 174	V
+#3	AnnotatorNotes T7	No entiendo a qué te refieres, o qué te preocupa. Ni siquiera propones nada. No tiene mucho sentido lo qué dices.

@@ -2,3 +2,7 @@ T1	Premise2Justification 45 214	Conservative party is run by a vicar's daughter 
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 0 44	Labour has mishandled cases of antisemitism.
 A2	QuadrantType T2 fact
+T3	CounterNarrativeA 256 257	4
+#1	AnnotatorNotes T3	I don't know if I understood you correctly, but are you saying you're against racism? Keep going that way!
+T4	CounterNarrativeC 257 258	c
+#2	AnnotatorNotes T4	Wait, wait, wait. I understand that you are against racism, but do you have any proof that this person did what you say?

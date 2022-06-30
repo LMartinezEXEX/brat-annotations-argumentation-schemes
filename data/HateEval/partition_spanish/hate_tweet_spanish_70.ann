@@ -4,3 +4,9 @@ T2	Premise2Justification 0 59	Estos putos negratas noos van a robar toda la past
 A2	QuadrantType T2 fact
 T3	Collective 12 20	negratas
 T4	Property 32 37	robar
+T5	CounterNarrativeC 113 114	G
+#1	AnnotatorNotes T5	Si bien existen algunos asaltos, no es cierto que haya un plan para robar todo el dinero de una porción de la sociedad. Estas siendo paranoico.
+T6	CounterNarrativeB 114 115	J
+#2	AnnotatorNotes T6	Que asocien a los negros con los robos parece una excusa, o bien, que necesitan un chivo expiatorio.
+T7	CounterNarrativeA 112 113	q
+#3	AnnotatorNotes T7	Hasta donde yo se, tener todo el dinero en Panama tampoco es legal...

@@ -5,3 +5,5 @@ A2	QuadrantType T2 policy
 T3	pivot 201 212	Bangladeshi
 T4	pivot 187 199	Bangladeshis
 R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 223 224	#
+#1	AnnotatorNotes T5	You can't run people out of a country because you don't like their religion. That's been done throughout history, and we agreed that it's wrong.

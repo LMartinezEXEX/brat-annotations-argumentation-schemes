@@ -2,3 +2,7 @@ T1	Premise2Justification 0 151	#BuildTheWall from the Pacific Ocean to the Gulf 
 A1	QuadrantType T1 policy
 T2	Premise1Conclusion 152 160	#VoteRed
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 159 160	d
+#1	AnnotatorNotes T3	All things that should not be done. Besides representing a waste of money, they will not help to anything, and will affect many people.
+T4	CounterNarrativeA 158 159	e
+#2	AnnotatorNotes T4	Precisely, if that is what they propose, I hope that the majority will not vote for them.

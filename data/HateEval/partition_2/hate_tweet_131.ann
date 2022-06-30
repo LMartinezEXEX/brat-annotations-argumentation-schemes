@@ -7,3 +7,9 @@ T4	Property 82 119	economic migrants/invaders colonizing
 T5	pivot 138 152	host countries
 T6	pivot 221 241	countries that allow
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T7	It is not at all true that they are invaders living at the expense of the country they are going to. On the contrary, they are people who are fleeing the country they come from... 
+T8	CounterNarrativeB 1 2	n
+#2	AnnotatorNotes T8	So you think we are being invaded by a minority without resources of any kind? That' s ridiculous...
+T9	CounterNarrativeA 2 3	a
+#3	AnnotatorNotes T9	In general, in countries that accept them, nothing happens. "Nothing happens" can't be a disaster

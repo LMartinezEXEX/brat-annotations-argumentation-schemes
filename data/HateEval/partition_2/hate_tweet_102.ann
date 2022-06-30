@@ -6,3 +6,7 @@ T3	pivot 7 14	Germans
 T4	pivot 62 69	Germany
 T5	Collective 41 52	immigration
 T6	Property 89 105	an Islamic state
+T7	CounterNarrativeA 163 164	s
+#1	AnnotatorNotes T7	sometimes, just because most people want something, doesn't mean it's right. Stop messing with your neighbor's religion, no one is doing it to you....
+T8	CounterNarrativeB 162 163	I
+#2	AnnotatorNotes T8	You know, not all immigrants are Islamists. In fact, most of them are not.... Besides, there is nothing wrong if they are, right?

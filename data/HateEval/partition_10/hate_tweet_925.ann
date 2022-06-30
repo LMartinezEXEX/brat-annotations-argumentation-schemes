@@ -2,3 +2,7 @@ T1	Premise2Justification 24 73	There are NO INNOCENT people in detention centres
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 74 87	#SendThemBack
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	You can't know that. With that approach you're only going to get scapegoats, instead of the truth.
+T4	CounterNarrativeA 1 2	J
+#2	AnnotatorNotes T4	The fact that they are detained is not a reason to kick them out of the country. Besides, many of them could be innocent...

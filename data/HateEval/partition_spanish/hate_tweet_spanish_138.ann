@@ -4,3 +4,9 @@ T2	Premise2Justification 74 164	A ver que dicen, cuando empiecen a matar y viola
 A2	QuadrantType T2 fact
 T3	Collective 24 34	refugiados
 T4	Property 109 123	matar y violar
+T5	CounterNarrativeB 180 181	K
+#1	AnnotatorNotes T5	Cada vez que alguien asocia a los refugiados con violaciones y asesinatos, me suena a que estan buscando un chivo expiatorio, para no hacerse cargo de los problemas de su sociedad.
+T6	CounterNarrativeC 181 182	z
+#2	AnnotatorNotes T6	Como en todos lados, el estado debería evitar que eso ocurra. Independientemente de si de nativos o de inmigrantes se trata.
+T7	CounterNarrativeA 179 180	3
+#3	AnnotatorNotes T7	Lo dices ironicamente, como si tuvieras algo solido en su contra. Pero al parecer no lo tienes...

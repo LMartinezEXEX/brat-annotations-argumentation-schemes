@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 100 106	detain
 T4	pivot 47 53	detain
 R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	Oh no! Are you telling me he died by "bond"? Come on...
+T6	CounterNarrativeA 1 2	A
+#2	AnnotatorNotes T6	I don't get it, so you care about the safety of immigrants? Great, but that's not the best solution. We should regulate, not prohibit

@@ -2,3 +2,7 @@ T1	Premise2Justification 6 93	The Judge will be overturned, the President has co
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 95 116	#NODACA #SENDTHEMHOME
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	I'm not sure that's how the government works.
+T4	CounterNarrativeA 1 2	c
+#2	AnnotatorNotes T4	There are more ethical ways to "control" immigration without running everyone off. Maybe they should aim there instead

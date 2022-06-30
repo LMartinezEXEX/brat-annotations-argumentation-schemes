@@ -2,5 +2,7 @@ T1	Premise1Conclusion 178 237	No immigrants should be granted entry that need as
 A1	QuadrantType T1 policy
 T2	Premise2Justification 30 176	America's public assistance, Medicare Medicaid, SS, et al are strained and Americans "benefits" are being cut not even able to maintain status quo
 A2	QuadrantType T2 fact
-T3	Collective 181 191	immigrants
-T4	Property 221 236	need assistance
+T3	CounterNarrativeC 248 249	E
+#1	AnnotatorNotes T3	The fact that some foreigners require assistance does not make Americans "without resources".
+T4	CounterNarrativeA 249 250	F
+#2	AnnotatorNotes T4	That's an excuse for not letting them in. Everyone is potentially sick, even citizens.

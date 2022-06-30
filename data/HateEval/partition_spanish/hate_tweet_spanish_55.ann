@@ -5,3 +5,9 @@ A2	QuadrantType T2 fact
 T3	Collective 108 115	mantero
 T4	Property 53 60	enemigo
 T5	Collective 152 157	negro
+T6	CounterNarrativeB 181 182	!
+#1	AnnotatorNotes T6	Ni los manteros ni los negros son el enemigo. Debemos aprender a tolerar y convivir con ellos.
+T7	CounterNarrativeC 180 181	!
+#2	AnnotatorNotes T7	La tolerancia no es amedrentamiento. No se trata de ser sumiso, sino de no agarrárselas con quien no nos hace ningún daño.
+T8	CounterNarrativeA 179 180	a
+#3	AnnotatorNotes T8	Esta muy bien que le enseñes a tus hijos a defenderse. Solo recuerda que no puedes defenderte de quien no te ataca. No les enseñes a ir agrediendo a grupos minoritarios que ningún daño les hicieron.

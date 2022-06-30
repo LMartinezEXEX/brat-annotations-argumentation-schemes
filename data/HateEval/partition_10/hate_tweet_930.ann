@@ -5,3 +5,7 @@ A2	QuadrantType T2 policy
 T3	pivot 0 3	Why
 T4	pivot 40 50	reason why
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 253 254	N
+#1	AnnotatorNotes T5	It is not a good analogy, a country is not a house, nor does it have an owner.
+T6	CounterNarrativeC 254 255	o
+#2	AnnotatorNotes T6	you lock the door to protect yourself from other citizens, who are already inside the country. It's not a good analogy

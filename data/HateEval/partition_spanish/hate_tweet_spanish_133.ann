@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	Collective 93 99	Árabes
 T4	Property 100 137	impondrán sus religiones y su cultura
 T5	Collective 144 153	Africanos
+T6	CounterNarrativeB 186 188	fi
+#1	AnnotatorNotes T6	Nadie intenta imponer su cultura sobre las otras. Existe un proceso de asimilación en ambas direcciones, que por lo general resulta en cambios positivos.
+T7	CounterNarrativeA 188 189	e
+#2	AnnotatorNotes T7	Que hoy emigren algunos cuantos no va a convertir a los nuestros en minoría. De hecho, a la larga se asimilaran y terminan siendo uno de nosotros también.

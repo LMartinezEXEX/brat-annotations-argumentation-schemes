@@ -7,3 +7,9 @@ T4	Property 48 55	problem
 T5	pivot 140 154	Illegal aliens
 T6	pivot 29 43	illegal aliens
 R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 233 234	e
+#1	AnnotatorNotes T7	Perhaps because the law is not to be feared, but respected. 
+T8	CounterNarrativeB 232 233	i
+#2	AnnotatorNotes T8	It is not true that immigrants represent a problem. I understand that there are isolated cases, but you cannot generalize.
+T9	CounterNarrativeA 231 232	d
+#3	AnnotatorNotes T9	Build a wall, and then what? Perhaps implementing more effective controls would be a better strategy.

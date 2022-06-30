@@ -7,3 +7,9 @@ T4	Property 39 62	jobless and not trained
 T5	pivot 39 46	jobless
 T6	pivot 134 147	socialwelfare
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 271 272	n
+#1	AnnotatorNotes T7	90% according to a made-up study? I don't see any source.
+T8	CounterNarrativeB 272 273	h
+#2	AnnotatorNotes T8	That's a play on words. Most of them are looking for a job, it's obvious that they arrive without one...
+T9	CounterNarrativeA 273 274	k
+#3	AnnotatorNotes T9	You are underestimating them. Just because they are unemployed doesn't mean they can't get one.

@@ -6,3 +6,9 @@ T3	Collective 1 10	Africanos
 T4	Property 36 43	armados
 T5	Property 46 74	hieren a 22 Guardias civiles
 T6	Property 90 135	no pagan impuestos y arruinan a los comercios
+T7	CounterNarrativeC 300 301	k
+#1	AnnotatorNotes T7	No veo ninguna fuente, y sin embargo la información es demasiado detallada. Acaso la inventaste?
+T8	CounterNarrativeA 299 300	G
+#2	AnnotatorNotes T8	Eso seguro es porque la lucha del feminismo tiene que ver con cuestiones sociales de genero, y no de nacionalidad o raza. Simplemente no es su lucha.
+T9	CounterNarrativeB 298 299	O
+#3	AnnotatorNotes T9	Cualquiera que cometa esos delitos debe ser procesado. Te estas enfocando en su nacionalidad, cuando eso no importa. Hay tantos delincuentes aquí como personas honestas allí.

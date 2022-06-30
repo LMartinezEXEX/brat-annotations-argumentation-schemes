@@ -7,3 +7,9 @@ T4	pivot 121 128	SALVINI
 R1	related Arg1:T3 Arg2:T4	
 T5	Collective 88 96	migrants
 T6	Property 179 187	invasion
+T7	CounterNarrativeC 237 238	o
+#1	AnnotatorNotes T7	Are you sure that's why he was prosecuted, and not for, I don't know... maybe corruption?
+T8	CounterNarrativeB 238 239	n
+#2	AnnotatorNotes T8	Comparing immigration to an invasion is not correct, immigrants come to adapt to our society, not to impose their culture on us.
+T9	CounterNarrativeA 236 237	i
+#3	AnnotatorNotes T9	Preventing the entry of immigrants is not a good way to defend culture. In any case, there are ways to promote the culture of a society without being xenophobic.

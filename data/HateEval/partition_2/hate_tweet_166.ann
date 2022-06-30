@@ -4,3 +4,7 @@ T2	Premise1Conclusion 57 112	What u meant to say  was third world illegal immigr
 A2	QuadrantType T2 fact
 T3	Collective 94 112	illegal immigrants
 T4	Property 15 30	streets sellers
+T5	CounterNarrativeB 0 1	@
+#1	AnnotatorNotes T5	In many cases they are street sellers because they are not allowed to work on other things. It's not really their fault
+T6	CounterNarrativeA 1 2	L
+#2	AnnotatorNotes T6	It's fine that you don't like street sellers, but to say that they are third world illegals without basis, is not right

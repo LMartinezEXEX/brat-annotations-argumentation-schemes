@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 11 32	coming back to Africa
 T4	pivot 126 147	coming back to Africa
 R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 212 213	t
+#1	AnnotatorNotes T5	It is not right to run off people. Just because another country is racist does not give you the right to be racist.
+T6	CounterNarrativeA 211 212	H
+#2	AnnotatorNotes T6	Well, running people works, if you want to run people. The problem is not that, it's that it's wrong.

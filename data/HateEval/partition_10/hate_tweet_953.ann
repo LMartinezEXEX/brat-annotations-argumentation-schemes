@@ -2,3 +2,5 @@ T1	Premise2Justification 14 39	take care of your #people
 A1	QuadrantType T1 policy
 T2	Premise1Conclusion 0 13	#sendthemback
 A2	QuadrantType T2 policy
+T3	CounterNarrativeA 65 66	t
+#1	AnnotatorNotes T3	Taking care of your people is not sending back to anyone. You can take care of your people without being a racist

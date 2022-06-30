@@ -7,3 +7,9 @@ T4	pivot 214 218	ISIS
 R1	related Arg1:T4 Arg2:T3	
 T5	Collective 169 180	Immigration
 T6	Property 190 204	Rape and crime
+T7	CounterNarrativeB 0 1	@
+#1	AnnotatorNotes T7	It is not true that immigrants are rapists or criminals. You're just being racist.
+T8	CounterNarrativeC 1 2	M
+#2	AnnotatorNotes T8	They who? The immigrant families? You have no evidence to link them to murders.
+T9	CounterNarrativeA 2 3	a
+#3	AnnotatorNotes T9	Why would you use their political leanings to run them out of your country? They don't vote, nor do they have any influence.

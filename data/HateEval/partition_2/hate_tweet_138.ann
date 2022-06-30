@@ -2,3 +2,7 @@ T1	Premise2Justification 15 33	Its not that hard.
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 34 222	Build a wall. Make it much, much easier to come into America. Background checks. Don’t pay for illegal immigrants needs. They can get a job and pay taxes or they will have to go back home.
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	In fact, yes, it is difficult. The decisions have costs.
+T4	CounterNarrativeA 1 2	f
+#2	AnnotatorNotes T4	I understand what you are trying to get at, but I believe that building a wall will only increase violence, and will be counterproductive.

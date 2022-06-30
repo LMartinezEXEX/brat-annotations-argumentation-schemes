@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 101 108	COUNTRY
 T4	pivot 184 192	citizens
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	You make it sound as if immigrants are killing citizens, which is not happening.
+T6	CounterNarrativeA 1 2	O
+#2	AnnotatorNotes T6	What crimes? Why "they shouldn't be here"? All this is an invention to justify the building of a useless wall.

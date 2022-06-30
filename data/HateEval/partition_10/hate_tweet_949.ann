@@ -2,3 +2,7 @@ T1	Premise2Justification 7 85	Treasonous individuals paid for by Soros and globa
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 0 6	Danger
 A2	QuadrantType T2 value
+T3	CounterNarrativeC 120 121	i
+#1	AnnotatorNotes T3	And you got that information from where? Sounds like you just made it up.
+T4	CounterNarrativeA 119 120	N
+#2	AnnotatorNotes T4	Danger because he agrees with Soros on something? I don't think that endangers anyone.

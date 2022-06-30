@@ -6,3 +6,9 @@ T3	Collective 135 142	illegal
 T4	Property 86 93	robbery
 T5	Property 143 148	kills
 T6	Property 165 176	hit and run
+T7	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T7	A wall to protect us from an assault on a motorcycle? That's a little much, don't you think?Too much paranoia
+T8	CounterNarrativeB 2 3	e
+#2	AnnotatorNotes T8	Let's assume that the news is true. Why does his nationality matter only when he is a foreigner and a criminal? Are our criminals less criminal?
+T9	CounterNarrativeC 3 4	a
+#3	AnnotatorNotes T9	Where can I check the news? I mean, if it's not another invention of the yellow press.

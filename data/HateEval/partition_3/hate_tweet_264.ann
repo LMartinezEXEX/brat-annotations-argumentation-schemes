@@ -2,3 +2,5 @@ T1	Premise2Justification 0 130	@realDonaldTrump 2977 people were murdered by ill
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 130 158;172 231	Help memorialize them today! Please #RETWEET#ThursdayThoughts#NeverForget #BuildThatWall
 A2	QuadrantType T2 policy
+T3	CounterNarrativeA 167 168	h
+#1	AnnotatorNotes T3	There are better ways to memorialize someone than building a wall along the entire border. In fact, I don't think anyone would have wanted to be memorialized like that.

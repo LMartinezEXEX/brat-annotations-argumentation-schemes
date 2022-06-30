@@ -4,3 +4,9 @@ T2	Premise1Conclusion 119 132	enough enough
 A2	QuadrantType T2 policy
 T3	Collective 15 26	Immigration
 T4	Property 38 64	punishments for our people
+T5	CounterNarrativeC 1 2	D
+#1	AnnotatorNotes T5	All the problems you refer to, have nothing to do with immigration.
+T6	CounterNarrativeA 0 1	@
+#2	AnnotatorNotes T6	Enough of what? People blaming the poor immigrants for every problem there is...
+T7	CounterNarrativeB 2 3	a
+#3	AnnotatorNotes T7	Immigration does not generate any problem, as to associate it with a "punishment".

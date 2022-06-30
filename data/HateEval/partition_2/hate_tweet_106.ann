@@ -2,3 +2,7 @@ T1	Premise2Justification 0 173	Has the penny, or should I say peseta, finally dr
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 174 204	Push too far and we push back!
 A2	QuadrantType T2 fact
+T3	CounterNarrativeC 227 228	9
+#1	AnnotatorNotes T3	I really don't see the correlation between migration and currency value. In fact, I don't think there is one....
+T4	CounterNarrativeA 226 227	v
+#2	AnnotatorNotes T4	So, your country is not doing well and you complain to those who don't make the decisions? No wonder...

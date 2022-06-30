@@ -3,4 +3,10 @@ A1	QuadrantType T1 policy
 T2	Premise1Conclusion 109 137	Feminazis al ataque en 3-2-1
 A2	QuadrantType T2 fact
 T3	Collective 26 31	mujer
-T4	Property 109 118	Feminazis
+T4	Property 113 118	nazis
+T5	CounterNarrativeC 136 137	1
+#1	AnnotatorNotes T5	Pues, eso es un delito si lo haces sin el consentimiento del otro, seas varon o seas mujer.
+T6	CounterNarrativeB 135 136	-
+#2	AnnotatorNotes T6	Las acusas de nazis, como si hubieran perpetrado un genocidio, lo cual claramente no hicieron.
+T7	CounterNarrativeA 134 135	2
+#3	AnnotatorNotes T7	Quienes reclaman por el acoso que reciben, entienden la diferencia entre que te envíen una foto con tu consentimiento, y sin el. Algo que al parecer no estaría quedandote del todo claro.

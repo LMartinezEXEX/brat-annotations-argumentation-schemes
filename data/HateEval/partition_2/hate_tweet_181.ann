@@ -2,3 +2,7 @@ T1	Premise2Justification 7 85	-Since they have for years sent their best &amp; b
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 86 208	NOW is the time to #sendThemBack to help in their homelands. We have a MORAL OBLIGATION to do so before situations worsen!
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	Neither the best nor the worst. Just people
+T4	CounterNarrativeA 1 2	P
+#2	AnnotatorNotes T4	Why this urgency to run them out? They have done nothing wrong to you

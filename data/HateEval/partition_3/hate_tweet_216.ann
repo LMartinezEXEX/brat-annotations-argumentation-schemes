@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 101 109	American
 T4	pivot 132 139	America
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 275 276	e
+#1	AnnotatorNotes T5	There are no open borders, nor is it true that immigrants do not assimilate....
+T6	CounterNarrativeA 274 275	g
+#2	AnnotatorNotes T6	America is a country of immigrants, it has always been, in a sense, there. There is no need to be shocked

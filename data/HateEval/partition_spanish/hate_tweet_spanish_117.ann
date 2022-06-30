@@ -7,3 +7,9 @@ T4	Property 64 93	ilegales y con muy mala leche
 T5	pivot 45 50	mafia
 T6	pivot 217 225	ilegales
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 269 270	.
+#1	AnnotatorNotes T7	No es cierto que se exija tanto en la mayoría de los paises. Por lo general, suele ser mas fácil inmigrar.
+T8	CounterNarrativeB 268 269	d
+#2	AnnotatorNotes T8	No es cierto ni que la mayoría sean "mala leche" ni que sean ilegales. De hecho, muchos ni siquiera son extranjeros. 
+T9	CounterNarrativeA 267 268	a
+#3	AnnotatorNotes T9	Respecto a lo de regularizar, supongo que esta bien, siempre y cuando eso no implique reprimirlos, lo cual parece ser lo que propones realmente.

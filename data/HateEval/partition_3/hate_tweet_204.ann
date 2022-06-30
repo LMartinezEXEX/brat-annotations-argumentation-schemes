@@ -2,3 +2,7 @@ T1	Premise2Justification 64 240	They would rather inundate their nation with Mus
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 1 62	The Spanish authorities have here made their priorities clear
 A2	QuadrantType T2 fact
+T3	CounterNarrativeC 257 258	W
+#1	AnnotatorNotes T3	I do not think there is any incompatibility in caring for both at the same time.
+T4	CounterNarrativeA 256 257	t
+#2	AnnotatorNotes T4	Maybe their priority is to do the right thing and care about both of them. 

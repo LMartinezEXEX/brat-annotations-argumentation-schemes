@@ -5,3 +5,7 @@ A2	QuadrantType T2 policy
 T3	pivot 181 192	immigration
 T4	pivot 114 125	Immigration
 R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 0 1	"
+#1	AnnotatorNotes T5	There is no real reason to believe that. You're just being xenophobic.
+T6	CounterNarrativeA 1 2	"
+#2	AnnotatorNotes T6	Not true, a wall is just a waste of money.  Maybe the laws can be "fixed", but it should be to improve it, not to ban immigrants.

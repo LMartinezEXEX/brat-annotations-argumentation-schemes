@@ -7,3 +7,9 @@ T4	Property 169 178	Criminals
 T5	pivot 46 53	illegal
 T6	pivot 131 138	Illegal
 R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 1 2	a
+#1	AnnotatorNotes T7	Only because your law does not recognize them. It's not as if they deliberately did any harm.
+T8	CounterNarrativeA 0 1	@
+#2	AnnotatorNotes T8	It's a pun. If you recognized them, and treated them like any other citizen, you would surely find no reason to want to run them off.
+T9	CounterNarrativeB 3 4	d
+#3	AnnotatorNotes T9	It is not true that they are all criminals; most of them, in fact, are not. But if you don't even consider them people.... well

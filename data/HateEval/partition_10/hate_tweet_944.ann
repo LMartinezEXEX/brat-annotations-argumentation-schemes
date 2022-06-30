@@ -5,3 +5,7 @@ A2	QuadrantType T2 policy
 T3	pivot 48 56	refugees
 T4	pivot 168 176	Refugees
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 229 230	u
+#1	AnnotatorNotes T5	Well, it's not really YOUR decision, so....
+T6	CounterNarrativeA 230 231	?
+#2	AnnotatorNotes T6	Why not? There are treaties, and there are laws about it, it is not a whim.

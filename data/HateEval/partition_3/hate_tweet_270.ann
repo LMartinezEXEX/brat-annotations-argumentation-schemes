@@ -4,3 +4,9 @@ T2	Premise1Conclusion 103 169	Tell me again why there should be Amnesty?#BuildTh
 A2	QuadrantType T2 policy
 T3	Collective 0 13	Illegal Alien
 T4	Property 27 63	Sexually Assaulting 12-Year-Old Girl
+T5	CounterNarrativeC 180 181	e
+#1	AnnotatorNotes T5	Are you sure it was the immigrant who did it? We already know the trick of the fall guy....
+T6	CounterNarrativeA 181 182	p
+#2	AnnotatorNotes T6	There must be amnesty because the vast majority are not like him.
+T7	CounterNarrativeB 182 183	o
+#3	AnnotatorNotes T7	Not because there are some criminals we are going to say that all immigrants are criminals....

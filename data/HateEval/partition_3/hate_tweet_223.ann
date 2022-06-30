@@ -7,3 +7,9 @@ T4	Property 53 119	Kill Bladks, Take Jobs From Blacks and Destroy the Black Comm
 T5	pivot 19 22	MLK
 T6	pivot 121 124	MLK
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 252 253	C
+#1	AnnotatorNotes T7	And who is this black Trump supporter? I don't see why we should take him so seriously.
+T8	CounterNarrativeB 251 252	o
+#2	AnnotatorNotes T8	It is not true that illegal aliens kill blacks, or steal jobs. That's yellow press.
+T9	CounterNarrativeA 250 251	Q
+#3	AnnotatorNotes T9	You say that about MLK, but I don't think that many people would agree.

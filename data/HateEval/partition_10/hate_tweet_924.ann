@@ -7,3 +7,9 @@ T4	Property 26 40	Public Charges
 T5	pivot 78 85	welfare
 T6	pivot 26 40	Public Charges
 R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 130 131	#
+#1	AnnotatorNotes T7	It is not true that immigrants are a "burden" on taxpayers. Taxes are the same, with or without them.
+T8	CounterNarrativeB 131 132	I
+#2	AnnotatorNotes T8	Most immigrants come for work. They are not a public charge.
+T9	CounterNarrativeA 132 133	m
+#3	AnnotatorNotes T9	Many people need welfare at some point in their lives, but it is transitory, until they get a job. You can't kick them out just for that

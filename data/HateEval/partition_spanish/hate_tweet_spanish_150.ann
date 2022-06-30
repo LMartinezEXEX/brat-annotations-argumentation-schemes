@@ -4,3 +4,7 @@ T2	Premise1Conclusion 168 249	No temáis. Sólo vienen con el ánimo de hacer vi
 A2	QuadrantType T2 fact
 T3	Collective 4 17	subsaharianos
 T4	Property 83 166	se organizan para asaltar nuestra frontera y hacerse cargo de nuestras jubilaciones
+T5	CounterNarrativeB 266 267	1
+#1	AnnotatorNotes T5	No es cierto que se organicen para "robar" nuestras jubilaciones. Nuestras jubilaciones no estan en riesgo por unos inmigrantes.
+T6	CounterNarrativeA 267 268	d
+#2	AnnotatorNotes T6	Tampoco hay que ridiculizar al punto de vista opuesto. Seguro vienen buscando una mejor vida, y ya.

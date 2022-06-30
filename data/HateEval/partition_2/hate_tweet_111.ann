@@ -7,3 +7,9 @@ T4	pivot 131 141	imigration
 R1	related Arg1:T3 Arg2:T4	
 T5	Collective 61 68	muslims
 T6	Property 27 46	antisemitismproblem
+T7	CounterNarrativeB 172 173	m
+#1	AnnotatorNotes T7	Muslims are Semites, how could they be anti-Semitic?
+T8	CounterNarrativeC 171 172	6
+#2	AnnotatorNotes T8	Imported anti-Semitism? hm.... that sounds like an excuse
+T9	CounterNarrativeA 170 171	m
+#3	AnnotatorNotes T9	We cannot blame immigration for all our problems. We should at least take charge of some things....

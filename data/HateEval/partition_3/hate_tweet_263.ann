@@ -2,3 +2,7 @@ T1	Premise2Justification 0 182	Corey Lewandowski #Democrats didnt complain when 
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 183 232	BUT HE WILL USE THE SH^T OUT OF THEM TO RAISE $$$
 A2	QuadrantType T2 fact
+T3	CounterNarrativeA 283 284	p
+#1	AnnotatorNotes T3	I understand that you resent hypocrisy, but you can't use that as an excuse to do the same. Be better
+T4	CounterNarrativeC 284 285	s
+#2	AnnotatorNotes T4	Are you sure that really happened? Can you prove it?

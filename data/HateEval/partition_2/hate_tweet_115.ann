@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 23 30	Hungary
 T4	pivot 0 7	Hungary
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 134 135	b
+#1	AnnotatorNotes T5	Ok, and that's fine why? Do you think the rest of the world should do the same with you? No, don't you?
+T6	CounterNarrativeA 135 136	u
+#2	AnnotatorNotes T6	Not accepting any immigrants is not right. And to be proud of that... well

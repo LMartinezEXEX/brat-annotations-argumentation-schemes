@@ -4,3 +4,7 @@ T2	Premise1Conclusion 44 146	no para que gente sin papeles venda falsificaciones
 A2	QuadrantType T2 fact
 T3	Collective 56 73	gente sin papeles
 T4	Property 74 112	venda falsificaciones de manera ilegal
+T5	CounterNarrativeB 170 171	7
+#1	AnnotatorNotes T5	Ni todos los vendedores callejeros son personas sin papeles, ni todas las personas sin papeles se dedican a vender falsificaciones. Ademas, legal o ilegal no significa que esté bien o mal, necesariamente.
+T6	CounterNarrativeA 169 170	V
+#2	AnnotatorNotes T6	Pues eso depende. Las ferias callejeras no tienen nada de malo, y podrían regularse para evitar que pasen cosas malas.

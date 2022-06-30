@@ -8,3 +8,9 @@ T5	Collective 78 85	rumanas
 T6	Property 86 97	carteristas
 T7	Collective 123 129	árabes
 T8	Property 130 148	agreden a turistas
+T9	CounterNarrativeC 173 174	O
+#1	AnnotatorNotes T9	El telediario no es una fuente seria. No deberíamos confiar en lo que dicen.
+T10	CounterNarrativeB 172 173	N
+#2	AnnotatorNotes T10	Ni los alemanes siembran el pánico, ni las rumanas son carteristas, ni los árabes agreden turistas. En todo caso, si hay gente que hace esas cosas, su nacionalidad no es importante, pues no tiene nada que ver con que sean criminales.
+T11	CounterNarrativeA 172 173	N
+#3	AnnotatorNotes T11	Racismo? SI. Estas diciendo que su nacionalidad tiene relación con el hecho de que hayan cometido algún delito, cuando no es así.

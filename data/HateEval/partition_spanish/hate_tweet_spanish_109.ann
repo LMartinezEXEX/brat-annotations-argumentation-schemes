@@ -4,3 +4,9 @@ T2	Premise1Conclusion 0 45	Que patético, vergonzosa la historia de chile
 A2	QuadrantType T2 value
 T3	Collective 40 45	chile
 T4	Property 47 86	un país del tercer mundo sometido a USA
+T5	CounterNarrativeC 179 180	Y
+#1	AnnotatorNotes T5	Pues la historia es compleja, pero no es el pueblo quien puso a los dictadores.
+T6	CounterNarrativeB 178 179	S
+#2	AnnotatorNotes T6	No puedes decir que son un país de tercer mundo sin negar los procesos de independencia que vivieron estas décadas.
+T7	CounterNarrativeA 177 178	9
+#3	AnnotatorNotes T7	Todos los países tuvieron sus buenos y malos momentos. Nadie debería avergonzarse de su país.

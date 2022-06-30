@@ -7,3 +7,9 @@ T4	pivot 81 86	White
 R1	related Arg1:T3 Arg2:T4	
 T5	Collective 61 69	Refugees
 T6	Property 20 28	Genocide
+T7	CounterNarrativeC 90 91	e
+#1	AnnotatorNotes T7	I mean, no. White genocide is not real.
+T8	CounterNarrativeB 89 90	d
+#2	AnnotatorNotes T8	How does a minority group with no resources perpetuate a genocide? I think you are confusing concepts
+T9	CounterNarrativeA 88 89	i
+#3	AnnotatorNotes T9	You use something that doesn't exist as an excuse to run off people you don't like. That is just pure xenophobia

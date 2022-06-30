@@ -2,5 +2,7 @@ T1	Premise2Justification 0 102	American Citizens are being Victimized by Illegal
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 0 56	American Citizens are being Victimized by Illegal Aliens
 A2	QuadrantType T2 fact
-T3	Collective 42 56	Illegal Aliens
-T4	Property 22 41	being Victimized by
+T5	CounterNarrativeC 228 229	u
+#1	AnnotatorNotes T5	And where is this report? It seems it doesn't exist.
+T3	CounterNarrativeA 227 228	o
+#2	AnnotatorNotes T3	According to this study that does not exist, and in a way that is never explained? This is a joke

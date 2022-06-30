@@ -5,3 +5,5 @@ A2	QuadrantType T2 fact
 T3	pivot 32 34	EU
 T4	pivot 95 101	Brexit
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 175 176	e
+#1	AnnotatorNotes T5	You mean treat everyone better? Or treating everyone like shit? I hope the first one...

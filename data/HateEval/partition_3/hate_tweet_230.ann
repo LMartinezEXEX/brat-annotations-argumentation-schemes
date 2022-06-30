@@ -8,3 +8,9 @@ T6	Property 211 226	federal murders
 T7	Property 236 242	frauds
 T8	Premise1Conclusion 242 249	#NODACA
 A2	QuadrantType T8 policy
+T9	CounterNarrativeC 0 1	D
+#1	AnnotatorNotes T9	This study appears to be biased
+T10	CounterNarrativeA 1 2	i
+#2	AnnotatorNotes T10	There are better ways to prevent crime than discriminating against people. By integrating them, for example
+T11	CounterNarrativeB 2 3	d
+#3	AnnotatorNotes T11	You accuse them of that on the basis of a biased study. Moreover, you are skipping the context

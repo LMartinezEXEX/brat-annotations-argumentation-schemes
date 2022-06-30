@@ -2,3 +2,7 @@ T1	Premise2Justification 0 63	WTF? What are we waiting for? These ppl will be th
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 65 79	#BuildThatWall
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 63 64	.
+#1	AnnotatorNotes T3	I understand that you don't like them, but being "death" is too much. I'd say you're being paranoid.
+T4	CounterNarrativeA 62 63	s
+#2	AnnotatorNotes T4	Instead of spending money on a wall, they could improve the controls, making it easier for the honest to enter, and harder for the criminals.

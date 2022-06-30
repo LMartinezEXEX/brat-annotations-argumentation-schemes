@@ -4,3 +4,9 @@ T2	Premise1Conclusion 156 170	#BuildThatWall
 A2	QuadrantType T2 policy
 T3	Property 138 153	CRIME & DISEASE
 T4	Collective 70 107	people who come through the BACK DOOR
+T5	CounterNarrativeC 2 3	R
+#1	AnnotatorNotes T5	Maybe honest work among other good things. Why judge them early?
+T6	CounterNarrativeB 3 4	i
+#2	AnnotatorNotes T6	The fact that their status is irregular in no way links them to crime and disease. You are just looking for excuses
+T7	CounterNarrativeA 4 5	c
+#3	AnnotatorNotes T7	Will a wall prevent diseases from entering or crime from occurring? No, it will only make life more difficult for honest foreigners who wish to come.

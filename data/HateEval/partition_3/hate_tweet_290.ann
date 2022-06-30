@@ -4,3 +4,9 @@ T2	Premise1Conclusion 141 154	how can they?
 A2	QuadrantType T2 value
 T3	Collective 91 110	sheltered immigrant
 T4	Property 111 133	whisked into being MPs
+T5	CounterNarrativeC 177 178	O
+#1	AnnotatorNotes T5	That your ancestors came before theirs does not make you more British....
+T6	CounterNarrativeA 176 177	h
+#2	AnnotatorNotes T6	How can they what? Have a different idea of what it means to be British? Well, that's their right
+T7	CounterNarrativeB 175 176	H
+#3	AnnotatorNotes T7	You underestimate these people by thinking they have no idea where they stand.

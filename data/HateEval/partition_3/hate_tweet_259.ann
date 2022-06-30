@@ -2,3 +2,7 @@ T1	Premise2Justification 37 104	How can a woman under Sharia Law be a feminist? 
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 0 36	#WeThePeople want TRUTH and JUSTICE!
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 109 110	o
+#1	AnnotatorNotes T3	A pun does not make you right. I think you're missing the context.
+T4	CounterNarrativeA 108 109	r
+#2	AnnotatorNotes T4	That's fine, as long as "truth and justice" doesn't mean discriminating against Arabs, which you seem to be doing here.

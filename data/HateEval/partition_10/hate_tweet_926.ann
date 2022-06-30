@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 165 180	allowed to stay
 T4	pivot 197 207	got you in
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 0 1	"
+#1	AnnotatorNotes T5	Why kick someone you like so much out of the country? I don't understand
+T6	CounterNarrativeC 1 2	T
+#2	AnnotatorNotes T6	They seem like nice people, I don't understand whats your problem with them...

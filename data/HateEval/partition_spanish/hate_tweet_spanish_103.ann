@@ -7,3 +7,9 @@ T4	Property 208 257	te quitan el empleo, la polola, la casa o la vida
 T5	pivot 186 197	inmigrantes
 T6	pivot 99 110	inmigrantes
 R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 171 172	.
+#1	AnnotatorNotes T7	No creo que eso este pasando realmente, suena exagerado.
+T8	CounterNarrativeB 170 171	s
+#2	AnnotatorNotes T8	Cada empleo es de quien es contratado. No puedes culpar a quien acepta un empleo de "robarlo". Y lo mismo con "la polola".
+T9	CounterNarrativeA 169 170	e
+#3	AnnotatorNotes T9	No es incompatible apoyar a los inmigrantes y a tu gente. Nadie tiene que perder, nos puede ir bien a todos.

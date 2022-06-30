@@ -3,4 +3,10 @@ A1	QuadrantType T1 fact
 T2	Premise1Conclusion 102 150	#DeportThemAll #ImmigrationReform #BuildThatWall
 A2	QuadrantType T2 policy
 T3	Collective 55 63	illegals
-T4	Property 64 90	killing innocent Americans
+T4	Property 64 71	killing
+T5	CounterNarrativeB 214 215	p
+#1	AnnotatorNotes T5	It is not true that illegal immigrants are essentially murderers.
+T6	CounterNarrativeC 213 214	m
+#2	AnnotatorNotes T6	We're all sick and tired of crime, but fighting against a minority group doesn't solve anything.
+T7	CounterNarrativeA 212 213	u
+#3	AnnotatorNotes T7	And then what? When did we really start worrying about the crimes instead of the immigrants?

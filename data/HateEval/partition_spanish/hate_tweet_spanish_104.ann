@@ -7,3 +7,9 @@ T4	Property 137 145	BARBAROS
 T5	pivot 265 276	INMIGRANTES
 T6	pivot 3 14	INMIGRACIÒN
 R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 299 300	5
+#1	AnnotatorNotes T7	No tiene sentido que alguien intente destruir el lugar donde vive. Esta gente va en busca de una mejor vida.
+T8	CounterNarrativeB 298 299	x
+#2	AnnotatorNotes T8	Los inmigrantes no son barbaros, ni intentan invadir nada. Vienen por su cuenta a intentar ganarse la vida.
+T9	CounterNarrativeA 297 298	7
+#3	AnnotatorNotes T9	Que a ti te caigan mal ellos, no significa que tenga razón. No se toma una decisión tan grande en base a prejuicios.

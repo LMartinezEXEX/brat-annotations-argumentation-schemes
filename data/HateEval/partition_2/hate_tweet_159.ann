@@ -7,3 +7,9 @@ T4	pivot 105 113	refugees
 R1	related Arg1:T3 Arg2:T4	
 T5	Collective 21 29	refugees
 T6	Property 47 78	that its a selfkilling programm
+T7	CounterNarrativeC 170 171	J
+#1	AnnotatorNotes T7	It does not make sense. When you receive visitors in your home are you selfkilling? Well, it's the same thing
+T8	CounterNarrativeA 171 172	x
+#2	AnnotatorNotes T8	I don't think he is right. A few immigrants will not put society at risk.
+T9	CounterNarrativeB 168 169	L
+#3	AnnotatorNotes T9	I don't understand the need to associate refugees with problems. You know they are fleeing from them, right? If anything, you should be concerned about who is causing them.

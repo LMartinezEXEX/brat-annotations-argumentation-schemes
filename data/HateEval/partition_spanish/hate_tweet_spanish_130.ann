@@ -3,4 +3,10 @@ A1	QuadrantType T1 fact
 T2	Premise1Conclusion 79 165	pero eso ni lo mencionas. Tampoco mencionas que esos negros y arabes causan problemas.
 A2	QuadrantType T2 fact
 T3	Collective 132 147	negros y arabes
-T4	Property 26 44	matando y violando
+T4	Property 148 164	causan problemas
+T5	CounterNarrativeC 174 175	t
+#1	AnnotatorNotes T5	Lo dices como si Europa estuviera en guerra. ¿Hay delito? Sí. ¿Genocidio? Estas siendo paranoico.
+T6	CounterNarrativeB 173 174	/
+#2	AnnotatorNotes T6	Dices que los árabes y negros causan problemas, pero no es cierto. Como en todos lados, algunos quizá delinquen, muchos otros trabajan y aportan.
+T7	CounterNarrativeA 171 172	:
+#3	AnnotatorNotes T7	Es dificil mencionar algo tan delirante como eso cuando se intenta ser objetivo. Es normal que no se mencione.

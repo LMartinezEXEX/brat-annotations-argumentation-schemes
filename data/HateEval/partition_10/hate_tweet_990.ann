@@ -7,3 +7,9 @@ T4	Property 51 62	freeloaders
 T5	pivot 150 155	taxes
 T6	pivot 51 62	freeloaders
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 195 196	n
+#1	AnnotatorNotes T7	Well, they come looking for a job to try to change that.
+T8	CounterNarrativeB 196 197	c
+#2	AnnotatorNotes T8	Nobody is a freeloader, or at least nobody wants to be one. And those who really are, are trying to stop being one.
+T9	CounterNarrativeA 198 199	u
+#3	AnnotatorNotes T9	What a waste of money, there are simpler ways to solve it, for example, more jobs could be created. 

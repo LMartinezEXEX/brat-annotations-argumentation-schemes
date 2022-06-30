@@ -5,3 +5,7 @@ A2	QuadrantType T2 policy
 T3	pivot 12 19	Swedish
 T4	pivot 154 160	Europe
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 239 240	T
+#1	AnnotatorNotes T5	A journalist has no credibility at all. Besides, what they say is too much. They are being paranoid.
+T6	CounterNarrativeA 238 239	R
+#2	AnnotatorNotes T6	It makes no sense to stop immigration for fear of something that is not going to happen, besides, it is neither better nor worse to be of a particular ethnicity.

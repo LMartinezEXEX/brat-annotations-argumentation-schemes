@@ -7,3 +7,9 @@ T4	Property 5 13	invasión
 T5	pivot 59 65	cuesta
 T6	pivot 129 134	pasta
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 240 241	.
+#1	AnnotatorNotes T7	No debe haber mucha diferencia en la cantidad de dinero que el estado tiene que disponer para mantener las ciudades en condiciones. No es así como dices.
+T8	CounterNarrativeB 239 240	s
+#2	AnnotatorNotes T8	No es cierto que los inmigrantes subsaharianos representen una invasión. No están intentando adueñarse de nada.
+T9	CounterNarrativeA 238 239	e
+#3	AnnotatorNotes T9	En primer lugar, porque no puedes obligar a nadie a volver. En segundo lugar, porque el dinero no es tanto como crees. Y por ultimo, porque hacer volver a profesionales si seria mucho mas costoso que aceptar a algunos inmigrantes.

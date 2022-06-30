@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 93 104	procedencia
 T4	pivot 182 188	países
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 0 1	L
+#1	AnnotatorNotes T5	Incluso si fuera facil, no creo que sea lo correcto.
+T6	CounterNarrativeA 1 2	e
+#2	AnnotatorNotes T6	Pues sí. Es ilegal. Atenta contra su privacidad, no tienes derecho a espiarlos de esa manera.

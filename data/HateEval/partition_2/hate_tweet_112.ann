@@ -5,3 +5,7 @@ A2	QuadrantType T2 policy
 T3	pivot 86 90	door
 T4	pivot 216 221	knock
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 2 3	i
+#1	AnnotatorNotes T5	It's not a good analogy, you know? A country is not a house.
+T6	CounterNarrativeC 3 4	a
+#2	AnnotatorNotes T6	No, but obviously it is not the same.... Bad example

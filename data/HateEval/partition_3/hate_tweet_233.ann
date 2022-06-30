@@ -4,3 +4,9 @@ T2	Premise2Justification 0 64	Germany: Mass migration of un-assimilatable illega
 A2	QuadrantType T2 fact
 T3	Collective 44 57	illegal alien
 T4	Property 27 43	un-assimilatable
+T5	CounterNarrativeB 190 191	i
+#1	AnnotatorNotes T5	It is easy to call others unassimilatable when no one treats them well wherever they go.
+T6	CounterNarrativeC 191 192	r
+#2	AnnotatorNotes T6	Mass migration involves millions of people. Are you sure is that what is happening?
+T7	CounterNarrativeA 189 190	F
+#3	AnnotatorNotes T7	Talk of civil war over a few immigrants is too much.

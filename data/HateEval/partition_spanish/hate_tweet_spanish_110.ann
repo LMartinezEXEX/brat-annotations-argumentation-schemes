@@ -8,3 +8,9 @@ T5	Property 224 231	enemigo
 T6	pivot 2 17	pedirle papeles
 T7	pivot 127 134	control
 R1	related Arg1:T6 Arg2:T7	
+T8	CounterNarrativeC 296 297	O
+#1	AnnotatorNotes T8	Si tenemos controles. Quizás deberíamos preguntarnos si son suficientes. Yo creo que sí
+T9	CounterNarrativeB 297 298	R
+#2	AnnotatorNotes T9	Los ilegales no son ni una invasión silenciosa, ni son el enemigo. Son personas que quieren vivir aquí, pero que por algún motivo se les ha hecho dificil.
+T10	CounterNarrativeA 298 299	L
+#3	AnnotatorNotes T10	Es demasiado que les pidas papeles a todos. Nadie esta obligado a andar con sus papeles encima.

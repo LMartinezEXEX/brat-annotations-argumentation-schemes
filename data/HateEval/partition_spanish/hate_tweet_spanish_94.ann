@@ -7,3 +7,9 @@ T4	Property 148 178	agredir a turistas y policias.
 T5	pivot 60 71	sin papeles
 T6	pivot 228 239	sin papeles
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 0 1	#
+#1	AnnotatorNotes T7	La relación entre indocumentados y violencia no es tan alta como te quieren hacer creer. Están buscando chivos expiatorios para problemas que llevan existen desde hace mucho tiempo.
+T8	CounterNarrativeB 1 2	A
+#2	AnnotatorNotes T8	No recuerdo haber visto manteros agrediendo turistas. Si recuerdo haber visto gente agrediendo manteros. La violencia no es unidireccional como nos quieren hacer creer.
+T9	CounterNarrativeA 2 3	g
+#3	AnnotatorNotes T9	Se puede regular la actividad de los manteros sin tener que deportar a nadie. No hay que ser tan drásticos. No es necesario.

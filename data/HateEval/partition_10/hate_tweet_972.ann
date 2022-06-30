@@ -7,3 +7,9 @@ T4	Property 118 153	fraud committed or money sucked out
 T5	pivot 31 49	IllegalImmigration
 T6	pivot 158 171	IllegalAliens
 R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 242 243	d
+#1	AnnotatorNotes T7	You have no evidence to accuse immigrants of committing fraud. And in any case, it is to be expected, if you deny them basic things like medical care.
+T8	CounterNarrativeA 241 242	n
+#2	AnnotatorNotes T8	You are underestimating the people who are against you, thinking that they don't know what you are proposing. 
+T9	CounterNarrativeA 239 241	ie
+#3	AnnotatorNotes T9	What kind of fraud do you say they commit? Trying to access health care, a human right that should not be denied to anyone.

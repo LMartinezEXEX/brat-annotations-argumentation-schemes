@@ -5,3 +5,5 @@ A2	QuadrantType T2 policy
 T3	pivot 0 9	Hungarian
 T4	pivot 50 60	Hungarians
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 136 137	C
+#1	AnnotatorNotes T5	So, the prime minister said something, should we believe him just because it's him? No, we should not

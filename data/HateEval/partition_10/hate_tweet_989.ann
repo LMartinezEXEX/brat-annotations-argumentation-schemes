@@ -2,3 +2,7 @@ T1	Premise2Justification 1 31	Sweden has finally had enough.
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 32 110	If only, our lame-brained government would do something similar. #BuildTheWall
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 185 186	a
+#1	AnnotatorNotes T3	Enough of what? It sounds like you are tired, but not that you have reason to be.
+T4	CounterNarrativeA 184 185	h
+#2	AnnotatorNotes T4	There is no need to build a wall in Sweden. Besides, that's never a good idea.

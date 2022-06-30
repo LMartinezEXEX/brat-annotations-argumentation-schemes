@@ -7,3 +7,9 @@ T4	Property 107 162	viene a consumir los recursos sociales de los españoles
 T5	pivot 242 252	inmigrante
 T6	pivot 84 90	patera
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 162 163	.
+#1	AnnotatorNotes T7	Eso es un prejuicio. El que viene a buscar trabajo tiene tanto para aportar como el otro.
+T8	CounterNarrativeA 303 304	I
+#2	AnnotatorNotes T8	Te quejas como si no hubiera espacio suficiente para ellos.
+T9	CounterNarrativeB 302 303	g
+#3	AnnotatorNotes T9	Todas las personas consumen recursos, y aportan de una u otra forma a la sociedad. Los inmigrantes no son la excepción

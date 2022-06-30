@@ -2,3 +2,5 @@ T1	Premise2Justification 0 36	Another wonderful dreamer youngster.
 T2	Premise1Conclusion 37 103	#NoAmnesty #BuildTheWall #NoDACA #NoDreamAct #MakeAmericaSafeAgain
 A1	QuadrantType T2 policy
 A2	QuadrantType T1 fact
+T3	CounterNarrativeA 102 103	n
+#1	AnnotatorNotes T3	They're called dreamers for a reason, you know? They have, at least, some yearnings.

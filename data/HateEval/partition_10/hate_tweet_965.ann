@@ -7,3 +7,9 @@ T4	Property 87 101	arrest records
 T5	pivot 110 114	BEST
 T6	pivot 43 47	best
 R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 124 125	a
+#1	AnnotatorNotes T7	And why wouldn't it be? Surely there are great people among them
+T8	CounterNarrativeA 125 126	m
+#2	AnnotatorNotes T8	There are also many citizens who were once arrested, many unfairly. You can't judge someone for crimes they have already paid for.
+T9	CounterNarrativeB 126 127	a
+#3	AnnotatorNotes T9	Dreamers are looking to make a life, it's not fair to invent a negative past for them in order to run them off

@@ -7,3 +7,7 @@ T4	pivot 65 72	Workers
 T5	Collective 57 72	Illegal Workers
 T6	Property 77 94	Steal SSN and IDs
 R1	related Arg1:T3 Arg2:T4	
+T7	CounterNarrativeA 158 159	k
+#1	AnnotatorNotes T7	Hey, they're just trying to work. It costs money to live...
+T8	CounterNarrativeB 157 158	c
+#2	AnnotatorNotes T8	You can't accuse immigrants of stealing IDs to work. Many don't, and many had no choice, but it wasn't their fault.

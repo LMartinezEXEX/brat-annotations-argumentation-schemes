@@ -2,3 +2,7 @@ T1	Premise1Conclusion 54 212	Build Wall/EndDACA/End Sanctuary Cities/End Chain M
 A1	QuadrantType T1 policy
 T2	Premise2Justification 213 255	WE ARE IN FIGHT 4 HEART & SOUL OF USA/VOTE
 A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	You know that at least half the country (and, I hope, more than that) disagrees with you, right?
+T4	CounterNarrativeC 1 2	C
+#2	AnnotatorNotes T4	It's only a election, the repercussions are never that big.

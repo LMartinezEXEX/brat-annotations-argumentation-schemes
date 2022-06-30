@@ -7,3 +7,7 @@ T4	Property 49 56	rapists
 T5	pivot 242 248	Aliens
 T6	pivot 41 48	refugee
 R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeB 0 1	"
+#1	AnnotatorNotes T7	It is not true that all refugees are rapists, nor that all rapists are refugees.
+T8	CounterNarrativeC 1 2	A
+#2	AnnotatorNotes T8	But if you name the wrong problem you can't solve the real problem either.

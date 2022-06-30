@@ -2,5 +2,7 @@ T1	Premise2Justification 85 278	¿Con el mogollón de negros subsaharianos mante
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 0 84	Nos hicimos una pregunta el #17A de 2017 en #Barcelona. Otros muchos se la hicieron.
 A2	QuadrantType T2 value
-T3	Collective 105 125	negros subsaharianos
-T4	Property 177 236	ninguno fue arrasado por la furgoneta de Younes Abouyaaqoub
+T6	CounterNarrativeC 300 301	7
+#2	AnnotatorNotes T6	Estas sugiriendo que tienen algo que ver, aunque no tienes ninguna prueba. Solo estas sacando a relucir tu racismo.
+T3	CounterNarrativeA 301 302	Q
+#1	AnnotatorNotes T3	¿Y qué? Que a mucha gente le resulte sospechoso no significa que realmente tengan algo que ver.

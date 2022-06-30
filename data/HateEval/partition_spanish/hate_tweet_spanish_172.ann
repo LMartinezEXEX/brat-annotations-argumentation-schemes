@@ -7,3 +7,9 @@ T5	Collective 48 57	Mexicanos
 T3	pivot 48 57	Mexicanos
 T6	pivot 79 88	exicanos 
 R1	related Arg1:T6 Arg2:T3	
+T7	CounterNarrativeC 269 270	O
+#1	AnnotatorNotes T7	¿Y tu como te enteraste? No veo ninguna fuente publicada, tranquilamente podría ser mentira.
+T8	CounterNarrativeB 268 269	N
+#2	AnnotatorNotes T8	Que hayan encontrado a unos ladrones indocumentados mexicanos no significa que todos los mexicanos sean indocumentados o ladrones. No puedes generalizar solo porque sí.
+T9	CounterNarrativeA 267 268	E
+#3	AnnotatorNotes T9	En todos los países hay ladrones, y con ese argumento podríamos odiar a todos, pero sencillamente no esta bien. 

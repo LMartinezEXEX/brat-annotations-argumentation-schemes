@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 42 53	immigration
 T4	pivot 91 99	illegals
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 197 198	4
+#1	AnnotatorNotes T5	Not all of them. Besides, decisions are not made on the basis of "what people want" but on the basis of what is right.
+T6	CounterNarrativeA 196 197	3
+#2	AnnotatorNotes T6	I think there is sufficient for everyone. Unless you're suggesting not giving it to anyone, but I don't think that's what you're proposing, is it?

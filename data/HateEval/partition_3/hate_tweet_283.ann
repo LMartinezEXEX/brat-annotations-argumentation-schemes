@@ -2,3 +2,7 @@ T1	Premise1Conclusion 0 154	Wash DC judge ordered Trump to reinstate DACA but by
 A1	QuadrantType T1 fact
 T2	Premise2Justification 155 257	whether judge, known as an immigration hawk, will rule in favor of killing DACA, but when he’ll do it.
 A2	QuadrantType T2 fact
+T3	CounterNarrativeC 155 156	w
+#1	AnnotatorNotes T3	Are you speculating, or are you insinuating that it's all staged? That's called fraud
+T4	CounterNarrativeA 156 157	h
+#2	AnnotatorNotes T4	Sounds like a technicality game. All worked out in order to make the wrong decisions

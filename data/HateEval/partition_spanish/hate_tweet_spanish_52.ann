@@ -7,3 +7,9 @@ T4	Property 192 217	delinquiendo y agrediendo
 T5	pivot 27 34	entrado
 T6	pivot 143 149	entran
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeA 278 279	!
+#1	AnnotatorNotes T7	En ambos casos estas describiendo a una persona por su color, solo que en uno de ellos lo haces de forma peyorativa. Eso es racismo
+T8	CounterNarrativeB 277 278	!
+#2	AnnotatorNotes T8	No tienes razones de peso para decir que los negros e islamitas son delincuentes o personas agresivas, solo es un prejuicio.
+T9	CounterNarrativeC 276 277	!
+#3	AnnotatorNotes T9	Que reconozcas que hay "excepciones" a tu prejuicio, no lo hace menos racista.

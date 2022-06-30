@@ -4,3 +4,9 @@ T2	Premise1Conclusion 101 229	Geoff Diehl is the only candidate with a proven re
 A2	QuadrantType T2 policy
 T3	Collective 168 187	illegal immigration
 T4	Property 30 44	radical agenda
+T5	CounterNarrativeC 1 2	s
+#1	AnnotatorNotes T5	Are you sure that this "radical" agenda you say is not a product of the yellow press?
+T6	CounterNarrativeA 0 1	@
+#2	AnnotatorNotes T6	No one who is in favor of treating them as people is going to vote against them, think about it.
+T7	CounterNarrativeB 2 3	e
+#3	AnnotatorNotes T7	Even leaving aside "radical agendas," helping immigrants and refugees is a good cause. Don't confuse everything

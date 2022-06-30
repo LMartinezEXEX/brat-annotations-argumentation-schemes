@@ -4,3 +4,9 @@ T2	Premise1Conclusion 0 15;232 248	Unbelievable!!! #StopImmigration
 A2	QuadrantType T2 policy
 T3	Collective 237 248	Immigration
 T4	Property 43 70	Don’t #SpeakEnglish at Home
+T5	CounterNarrativeB 271 272	1
+#1	AnnotatorNotes T5	You should not mind the language they choose to speak at home, it is a free country.
+T6	CounterNarrativeA 272 273	b
+#2	AnnotatorNotes T6	And would ending immigration improve English? I don't think so...
+T7	CounterNarrativeC 270 271	k
+#3	AnnotatorNotes T7	Well, that includes not only the children of immigrants, but also orphans, and other children with problems. It is not a question of nationality but of pedagogy.

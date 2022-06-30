@@ -5,3 +5,7 @@ A2	QuadrantType T2 value
 T3	pivot 92 97	store
 T4	pivot 162 168	owners
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 38 39	o
+#1	AnnotatorNotes T5	You have no evidence to accuse anyone of that.
+T6	CounterNarrativeA 40 41	l
+#2	AnnotatorNotes T6	Nobody wants legal owners to be repressed, you are misunderstanding everything.

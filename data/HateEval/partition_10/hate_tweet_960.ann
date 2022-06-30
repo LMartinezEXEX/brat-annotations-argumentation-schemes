@@ -5,3 +5,7 @@ A2	QuadrantType T2 policy
 T3	pivot 63 70	PROMiSE
 T4	pivot 148 155	promise
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 250 251	o
+#1	AnnotatorNotes T5	Maybe he realized it wasn't a good idea, or maybe he lied.
+T6	CounterNarrativeC 249 250	N
+#2	AnnotatorNotes T6	Well, it was a wrong promise. I hope he doesn't honor it, there's no reason to mess with immigrants.

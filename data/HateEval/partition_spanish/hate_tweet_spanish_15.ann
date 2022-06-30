@@ -7,3 +7,9 @@ T4	Property 172 217	AUMENTAR EL GRAVE PROBLEMA DE ATENCION MEDICA
 T5	pivot 112 121	PROBLEMAS
 T6	pivot 190 198	PROBLEMA
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 0 1	l
+#1	AnnotatorNotes T7	No hay relación directa entre la llegada de inmigrantes y que el sistema de salud empeore.
+T8	CounterNarrativeB 2 3	#
+#2	AnnotatorNotes T8	No tiene sentido que los inmigrantes agraven los problemas de salud pública. Eso es un problema de infraestructura, y no de cantidad de personas.
+T9	CounterNarrativeA 3 4	I
+#3	AnnotatorNotes T9	Si usas a los inmigrantes como excusa, solo estas evitando dar con los verdaderos culpables.

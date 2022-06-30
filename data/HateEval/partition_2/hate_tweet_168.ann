@@ -2,3 +2,7 @@ T1	Premise2Justification 0 71	My #Amsterdam is being un-created by mass #immigra
 T2	Premise1Conclusion 0 54	My #Amsterdam is being un-created by mass #immigration
 A1	QuadrantType T2 fact
 A2	QuadrantType T1 fact
+T3	CounterNarrativeC 88 89	L
+#1	AnnotatorNotes T3	I do not know who is he, but I have no reason to believe him.
+T4	CounterNarrativeA 89 90	V
+#2	AnnotatorNotes T4	It is not true, and the fact that he is the one who says it does not add anything.

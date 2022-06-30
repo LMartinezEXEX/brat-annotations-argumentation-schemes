@@ -4,3 +4,9 @@ T2	Premise1Conclusion 166 194	#BuildtheWall #DeportThemAll
 A2	QuadrantType T2 policy
 T3	Collective 146 165	ILLEGAL immigration
 T4	Property 139 145	RACIST
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	Why do you say the black community was destroyed? Just because this guy says so?
+T6	CounterNarrativeA 2 3	a
+#2	AnnotatorNotes T6	A wall is by far the worst way to fight against racism.
+T7	CounterNarrativeB 3 4	n
+#3	AnnotatorNotes T7	Actually, its unusual for illegal immigrants, who generally belong to minorities, to be racist....

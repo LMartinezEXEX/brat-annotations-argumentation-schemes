@@ -2,3 +2,7 @@ T1	Premise2Justification 1 57	Where is this? Brazil? Uganda? Sudan? Nope, it is 
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 59 152	Got to love that cultural enrichment thing going on. #openborders #refugeesnotwelcome #slums"
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 151 152	"
+#1	AnnotatorNotes T3	Why would Brazil or Uganda be insults? You are being closed minded to real cultural enrichment.
+T4	CounterNarrativeA 150 151	s
+#2	AnnotatorNotes T4	If you only accept people like you there is no cultural enrichment, only preservation.

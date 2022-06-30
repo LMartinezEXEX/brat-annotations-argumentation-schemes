@@ -2,3 +2,7 @@ T1	Premise2Justification 0 72	WATCH WHAT HAPPENS NEXT! Muslim migrant challenges
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 112 142	THAT'S EXACTLY WHAT WE MUST DO
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 94 95	6
+#1	AnnotatorNotes T3	"And..." The information is incomplete, what an argument.
+T4	CounterNarrativeA 95 96	8
+#2	AnnotatorNotes T4	And " that" is what? You wrote only half of the message

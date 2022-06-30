@@ -4,3 +4,9 @@ T2	Premise1Conclusion 183 282	should dig his head in mud with shame before preac
 A2	QuadrantType T2 policy
 T3	Property 241 260	unlawful activities
 T4	Collective 264 282	illegal immigrants
+T5	CounterNarrativeC 0 1	F
+#1	AnnotatorNotes T5	You know? Most people can't worry about their far past, because they are worried about their present... So much to have to deal with you too...
+T6	CounterNarrativeB 1 2	o
+#2	AnnotatorNotes T6	It' s obvious, if you label someone as " illegal" that everything they do is going to be "unlawful". It's just a pun,, but is not their fault
+T7	CounterNarrativeA 2 3	r
+#3	AnnotatorNotes T7	It is not clear what you mean, but it is clear from far away that it is a prejudice....

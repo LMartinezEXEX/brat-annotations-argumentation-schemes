@@ -7,3 +7,9 @@ T4	Property 180 198	invasión inminente
 T7	pivot 16 22	Yankis
 T8	pivot 149 163	norteamericana
 R2	related Arg1:T7 Arg2:T8	
+T5	CounterNarrativeC 261 262	Y
+#1	AnnotatorNotes T5	Me permito dudar de que no existan intenciones ocultas en su "advertencia".
+T6	CounterNarrativeB 260 261	M
+#2	AnnotatorNotes T6	Hablan de invasión como si vinieran a saquear o a adueñarse de algo, cuando vienen en busca de trabajo, o estudio.
+T9	CounterNarrativeA 259 260	7
+#3	AnnotatorNotes T9	Pues si. En casos como este no deberíamos dejarnos llevar por la opinión extranjera, sobre todo si lo que proponen esta mal.

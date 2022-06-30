@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 152 165	bathingpeople
 T4	pivot 39 50	bathbeaches
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 203 204	3
+#1	AnnotatorNotes T5	If they have not been registered, you cannot know how many there are.
+T6	CounterNarrativeA 204 205	z
+#2	AnnotatorNotes T6	Tourists will not come because they are afraid of... people? I don't think so...

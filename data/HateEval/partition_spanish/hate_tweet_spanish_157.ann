@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 3 14	inmigración
 T4	pivot 129 140	inmigrantes
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 251 252	P
+#1	AnnotatorNotes T5	¿Y que problema habría? Tu mismo estas reconociendo que vienen los mas sanos.
+T6	CounterNarrativeC 252 253	G
+#2	AnnotatorNotes T6	Estoy seguro que no hay relación entre la edad de un inmigrante y si tiene o no relación con el turismo sexual.

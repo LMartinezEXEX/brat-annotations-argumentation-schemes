@@ -5,5 +5,7 @@ A2	QuadrantType T2 value
 T3	pivot 226 228	NZ
 T4	pivot 6 8	NZ
 R1	related Arg1:T4 Arg2:T3	
-T5	Collective 115 123	refugees
-T6	Property 136 145	Caliphate
+T5	CounterNarrativeC 252 253	E
+#1	AnnotatorNotes T5	Too bad. Luckily it is not the only country where refugees could find a better life.
+T6	CounterNarrativeA 251 252	m
+#2	AnnotatorNotes T6	Not accepting refugees is not "saving themselves". It's just not accepting refugees (and it's wrong).

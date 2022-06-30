@@ -2,4 +2,10 @@ T1	Premise2Justification 0 102	Los manteros subsaharianos desbocados...Las mafia
 T2	Premise1Conclusion 104 125	ELECCIONESGENERALESYA
 A1	QuadrantType T2 policy
 T3	Collective 4 26	manteros subsaharianos
-T4	Property 27 37	desbocados
+T4	Property 44 50	mafias
+T5	CounterNarrativeB 148 149	M
+#1	AnnotatorNotes T5	Los vendedores ambulantes ¿Mafias? Que delirante.
+T6	CounterNarrativeC 147 148	s
+#2	AnnotatorNotes T6	¿Tienes alguna información mas concreta, y quizás no tan tendenciosa de lo que ocurrió realmente?
+T7	CounterNarrativeA 146 147	j
+#3	AnnotatorNotes T7	¿Qué conseguirías con las elecciones generales? No es que las leyes vayan a cambiar a tu antojo ¿No?

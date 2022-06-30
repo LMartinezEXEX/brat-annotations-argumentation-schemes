@@ -2,3 +2,7 @@ T1	Premise1Conclusion 43 107	will Scotland have Immigration controls if they sta
 A1	QuadrantType T1 policy
 T2	Premise2Justification 108 136	or will we have more beggers
 A2	QuadrantType T2 fact
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	That's horrible, but you seem to focus more on criticizing the existence of the "beggers" than you really care about them....
+T4	CounterNarrativeA 1 2	S
+#2	AnnotatorNotes T4	There is no serious study that points to a real link between immigration and "beggers"...

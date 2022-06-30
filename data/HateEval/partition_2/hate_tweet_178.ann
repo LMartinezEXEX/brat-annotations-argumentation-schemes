@@ -2,3 +2,7 @@ T1	Premise1Conclusion 15 109	China we want a square deal ... and  America want a
 A1	QuadrantType T1 value
 T2	Premise2Justification 114 242	There is No blue wave, they #FakeNews are setting you up for a Russian  interference once The #RedTsunami slaps them silly Watch
 A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	What does China have to do with a wall and America's immigration policy? There is an ocean in between...
+T4	CounterNarrativeC 2 3	n
+#2	AnnotatorNotes T4	Sometimes you lose elections. Russia had nothing to do with it

@@ -5,3 +5,7 @@ T3	pivot 4 13	Important
 T4	pivot 118 127	Important
 R1	related Arg1:T3 Arg2:T4	
 A2	QuadrantType T1 value
+T5	CounterNarrativeC 235 236	n
+#1	AnnotatorNotes T5	As long as no one's rights are violated....
+T6	CounterNarrativeA 234 235	o
+#2	AnnotatorNotes T6	The problem is not border security, but what you think it means.

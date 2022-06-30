@@ -7,3 +7,9 @@ T4	Property 48 54	Crisis
 T5	pivot 184 192	refugees
 T6	pivot 40 47	Refugee
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeB 255 256	e
+#1	AnnotatorNotes T7	The "refugee crisis" is a way of saying that there are a lot of people you don't like. There is no real crisis.
+T8	CounterNarrativeC 254 255	m
+#2	AnnotatorNotes T8	And these protests, where did they happen? How many people were there? Are you sure they are Germans? Why are there no sources?
+T9	CounterNarrativeA 253 254	o
+#3	AnnotatorNotes T9	I don't think it's a "good job". If anything, it is a failure. They failed culturally assimilating foreigners.

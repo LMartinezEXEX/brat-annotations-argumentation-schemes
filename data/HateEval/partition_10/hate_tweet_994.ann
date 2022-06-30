@@ -2,3 +2,7 @@ T1	Premise2Justification 0 67	This is what the streets of the #uk will look like
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 68 95	#Brexitnow #stopimmigration
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 94 95	n
+#1	AnnotatorNotes T3	How? And according to whom? I don't see that you have a point.
+T4	CounterNarrativeA 93 94	o
+#2	AnnotatorNotes T4	Why should we? It's not like anything bad is going to happen.

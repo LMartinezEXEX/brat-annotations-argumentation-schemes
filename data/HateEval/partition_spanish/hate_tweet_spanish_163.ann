@@ -6,3 +6,9 @@ T4	pivot 7 18	Reconquista
 R1	related Arg1:T4 Arg2:T3	
 T5	Collective 65 70	árabe
 T6	Property 72 150	religión musulmana, poligamia, mujeres con burka, enorme analfabetismo, sharia
+T7	CounterNarrativeC 253 254	h
+#1	AnnotatorNotes T7	Creo que tienes una idea errónea de la cultura árabe. No es cierto que todos sean malas personas.
+T8	CounterNarrativeB 254 255	t
+#2	AnnotatorNotes T8	Ni todos los arabes son musulmanes, ni mucho menos machistas o analfabetas.
+T9	CounterNarrativeA 255 256	t
+#3	AnnotatorNotes T9	Obvio que es indispensable conocer la historia. Lo que esta mal es intentar justificar algo a partir de una concepción racista y completamente errada de otra cultura.

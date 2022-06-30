@@ -4,3 +4,9 @@ T2	Premise1Conclusion 0 33;112 126	We are living in dangerous times. #BuildThatW
 A2	QuadrantType T2 policy
 T3	Collective 65 78	IllegalAliens
 T4	Property 96 110	steal our jobs
+T5	CounterNarrativeC 191 192	t
+#1	AnnotatorNotes T5	Neither a job is an identity, nor is any alien stealing it. That's xenophobic propaganda
+T6	CounterNarrativeB 190 191	s
+#2	AnnotatorNotes T6	Immigrants usually end up working in the jobs that nobody wants to take, so, no, they are not stealing anything.
+T7	CounterNarrativeA 189 190	r
+#3	AnnotatorNotes T7	I don't understand how a wall would prevent someone else from taking our jobs. What it would be, though, is a huge waste of money.

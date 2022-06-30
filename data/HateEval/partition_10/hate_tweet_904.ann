@@ -2,3 +2,7 @@ T1	Premise2Justification 27 69	You saw what they did in their own country
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 71 84	#SendThemBack
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 1 2	@
+#1	AnnotatorNotes T3	In fact, no, I didn't see it. But as far as I know, what happened was not his fault.
+T4	CounterNarrativeA 2 3	F
+#2	AnnotatorNotes T4	You cannot send them back to the place from which they fled. It is inhumane

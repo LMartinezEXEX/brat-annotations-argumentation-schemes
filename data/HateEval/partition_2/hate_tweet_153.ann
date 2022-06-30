@@ -4,3 +4,9 @@ T2	Premise1Conclusion 200 214	#BuildThatWall
 A2	QuadrantType T2 policy
 T3	Collective 94 102	illegals
 T4	Property 103 198	are housed at ICE centers that rival the best elementary schools & college dorms in the country
+T5	CounterNarrativeC 272 273	n
+#1	AnnotatorNotes T5	It is not true that immigrants live in first class for free. Where did you get that lie?
+T6	CounterNarrativeA 273 274	i
+#2	AnnotatorNotes T6	And you think building a wall is going to help allocate funds better? Seems like a way to spend more
+T7	CounterNarrativeB 271 272	n
+#3	AnnotatorNotes T7	It is not true that illegals are treated so well.

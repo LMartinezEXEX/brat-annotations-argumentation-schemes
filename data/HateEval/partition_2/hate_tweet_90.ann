@@ -2,3 +2,7 @@ T1	Premise2Justification 0 126	Is this one of hard working immigrants just looki
 A1	QuadrantType T1 value
 T2	Premise1Conclusion 127 154	#BuildTheWall #SendThemBack
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 172 173	b
+#1	AnnotatorNotes T3	I don't know what he did, but perhaps... Do you have any accusations to make, or is it just your xenophobia?
+T4	CounterNarrativeA 173 174	O
+#2	AnnotatorNotes T4	Build a wall for what? You didn't show any problem. There is no argument

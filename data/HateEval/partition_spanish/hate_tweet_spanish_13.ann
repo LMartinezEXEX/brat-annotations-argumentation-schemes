@@ -5,3 +5,7 @@ A2	QuadrantType T2 policy
 T3	pivot 143 154	inmigrantes
 T4	pivot 15 26	INMIGRANTES
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 232 233	l
+#1	AnnotatorNotes T5	Solo los que te caigan bien, al parecer. Pero por suerte, así no es como funciona.
+T6	CounterNarrativeA 231 232	2
+#2	AnnotatorNotes T6	Me alegra que aceptes a los refugiados. Me preocupa que solo aceptes a los inmigrantes que "podamos mantener", como si asumieras que son incapaces de trabajar.

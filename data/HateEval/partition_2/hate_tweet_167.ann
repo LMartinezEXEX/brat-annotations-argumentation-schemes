@@ -2,3 +2,7 @@ T1	Premise2Justification 0 141	Democratic Party has moved so far to the left, ic
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 142 207	Do they understand what they are doing to this country?See ISSUES
 A2	QuadrantType T2 value
+T3	CounterNarrativeA 226 227	W
+#1	AnnotatorNotes T3	No, I do not understand. You tell him problems just because you don't agree?
+T4	CounterNarrativeC 227 228	a
+#2	AnnotatorNotes T4	It is not true. Who could accuse these people of being conservative...

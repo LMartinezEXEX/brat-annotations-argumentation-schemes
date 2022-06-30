@@ -2,3 +2,7 @@ T1	Premise2Justification 0 48	Jihadists in action more reason to #sendthemback
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 35 48	#sendthemback
 A2	QuadrantType T2 policy
+T3	CounterNarrativeA 83 84	r
+#1	AnnotatorNotes T3	To those who commit crimes, okay, but the others, what is their fault? You are generalizing, and getting the wrong conclusions.
+T4	CounterNarrativeC 82 83	e
+#2	AnnotatorNotes T4	It's not a good reason to send them back that a few of them have committed a crime. In any case, one should be fair and judge only those responsible.

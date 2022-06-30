@@ -2,8 +2,15 @@ T1	Premise1Conclusion 116 248	Mi casa fue la que expusieron en el Prado hasta el
 A1	QuadrantType T1 fact
 T2	Premise2Justification 10 114	cuando me hicieron la casa vinieron trabajadores indocumentados de Argentina que no estaban registrados.
 A2	QuadrantType T2 fact
-T3	Collective 46 86	trabajadores indocumentados de Argentina
+T3	Collective 77 86	Argentina
 T4	Property 218 248	problemas enormes sin solución
 T5	pivot 32 36	casa
 T6	pivot 119 123	casa
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T7	Entiendo tu queja, pero ¿acaso no es ilegal contratar trabajadores no registrados? es decir, creo que le verdadero infractor eres tu.
+T8	CounterNarrativeB 1 2	s
+#2	AnnotatorNotes T8	Que sean argentinos no tiene nada que ver, sabes? Ni con que sean indocumentados, ni con que generen problemas. Es solo una desafortunada coincidencia.
+T9	Property 46 73	trabajadores indocumentados
+T10	CounterNarrativeA 2 3	a
+#3	AnnotatorNotes T10	Pues, hay varias explicaciones que podrían servir. Ninguna tiene que ver con que sean argentinos.

@@ -7,3 +7,9 @@ T4	Property 198 249	consiguen lo que quieren en España a cambio de sexo
 T5	pivot 33 40	señoras
 T6	pivot 131 137	señora
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeB 298 299	W
+#1	AnnotatorNotes T7	Realmente hay gente que cree eso de los inmigrantes. Es una lastima.
+T8	CounterNarrativeA 299 300	O
+#2	AnnotatorNotes T8	De todas formas, nadie niega que existen personas racistas. Por suerte son solo unos pocos
+T9	CounterNarrativeC 297 298	s
+#3	AnnotatorNotes T9	Por suerte no es representativo de la opinión de la mayoría de los españoles.

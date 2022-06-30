@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 147 152	pagar
 T4	pivot 12 16	paga
 R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 191 192	d
+#1	AnnotatorNotes T5	¿De qué factura hablas? Si los inmigrantes no representan ningún gasto.
+T6	CounterNarrativeA 192 193	J
+#2	AnnotatorNotes T6	Pues sería una lastima que el resultado de las elecciones cambie tanto por aceptar a algunos inmigrantes. Hablaría muy mal de la sociedad.

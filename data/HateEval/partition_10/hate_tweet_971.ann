@@ -7,3 +7,9 @@ T4	Property 111 124	social mayhem
 T5	pivot 49 65	world government
 T6	pivot 202 212	superstate
 R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 263 264	.
+#1	AnnotatorNotes T7	It is not true, the absence of borders does not generate mayhem. There are many historical examples of borders that disappeared without major consequences.
+T8	CounterNarrativeB 262 263	o
+#2	AnnotatorNotes T8	Globalism is not about Mayhem but about connecting different cultures. It is in fact the opposite
+T9	CounterNarrativeA 261 262	t
+#3	AnnotatorNotes T9	Building a wall will not prevent chaos. If anything, keeping society satisfied will.

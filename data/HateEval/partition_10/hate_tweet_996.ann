@@ -7,3 +7,9 @@ T4	Property 166 196	do not respect our way of life
 T5	pivot 141 149	our laws
 T6	pivot 181 196	our way of life
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeB 210 211	K
+#1	AnnotatorNotes T7	It is not true that they do not respect your way of life. The problem is that you do not respect theirs.
+T8	CounterNarrativeC 209 210	C
+#2	AnnotatorNotes T8	What about your lives and the future of your children? Well, nothing, no one is doing anything bad to you.
+T9	CounterNarrativeA 208 209	A
+#3	AnnotatorNotes T9	Sending them back just because you don't like their way of life is not that different from what you are complaining about.

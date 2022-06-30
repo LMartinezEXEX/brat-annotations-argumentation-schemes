@@ -7,3 +7,9 @@ T4	pivot 160 169	Marruecos
 R1	related Arg1:T3 Arg2:T4	
 T5	Collective 233 244	INMIGRANTES
 T6	Property 247 275	ENVIADOS PARA INVADIR ESPAÑA
+T7	CounterNarrativeC 298 299	i
+#1	AnnotatorNotes T7	80000? Estas seguro que es una noticia real y no solo un rumor? Porque suena inventado.
+T8	CounterNarrativeA 299 300	i
+#2	AnnotatorNotes T8	¿Quién puede tener un proyecto a tan largo plazo para invadir España, como para enviar menores de edad? No tiene sentido.
+T9	CounterNarrativeB 297 298	X
+#3	AnnotatorNotes T9	Son menores! no pueden tener ninguna intención de invadir, seguro ni siquiera entienden lo que eso significa.

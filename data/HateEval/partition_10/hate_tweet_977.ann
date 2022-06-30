@@ -5,3 +5,7 @@ A2	QuadrantType T2 policy
 T3	Collective 114 121	foreign
 T4	Property 211 229	invading criminals
 T5	Property 101 108	enemies
+T6	CounterNarrativeB 6 7	h
+#1	AnnotatorNotes T6	Foreigners are not enemies, nor invaders, or even criminals. They were just born in another country, that's all. Deal with it.
+T7	CounterNarrativeA 5 6	e
+#2	AnnotatorNotes T7	It is not true that taxpayers support immigrants, nor is it true that they "steal" work from anyone. You are not fighting a real problem.

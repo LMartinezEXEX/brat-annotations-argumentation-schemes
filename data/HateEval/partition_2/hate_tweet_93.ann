@@ -4,3 +4,9 @@ T2	Premise1Conclusion 31 110	"Send all migrants back to where they came from. Th
 A2	QuadrantType T2 policy
 T3	Collective 41 49	migrants
 T4	Property 85 106	block streets to pray
+T5	CounterNarrativeA 147 148	d
+#1	AnnotatorNotes T5	Just because the Italians say so doesn't mean they're right...
+T6	CounterNarrativeC 148 149	Q
+#2	AnnotatorNotes T6	Who do you mean by "the Italians"? It sounds like they all agree, and I'm sure it's just a few of them.
+T7	CounterNarrativeB 146 147	5
+#3	AnnotatorNotes T7	All religions do it at least once a year. It shouldn't bother you that they do it too.

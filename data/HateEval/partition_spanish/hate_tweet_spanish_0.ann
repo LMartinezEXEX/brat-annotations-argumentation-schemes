@@ -4,3 +4,9 @@ T2	Premise1Conclusion 0 95	El gobierno debe crear un control estricto de inmigra
 A2	QuadrantType T2 policy
 T3	Collective 46 57	inmigración
 T4	Property 126 139	venir en masa
+T5	CounterNarrativeC 138 139	a
+#1	AnnotatorNotes T5	Dudo que quieran venir en masa, porque además no se organizan para venir. Por lo general, viene cada uno por su cuenta.
+T6	CounterNarrativeB 137 138	s
+#2	AnnotatorNotes T6	Los inmigrantes suelen emigrar en grupos familiares, rara vez son mas de cuatro o cinco.
+T7	CounterNarrativeA 136 137	a
+#3	AnnotatorNotes T7	El gobierno debe preocuparse por otros asuntos mas urgentes como la delincuencia. Esta bien que se registre la entrada de inmigrantes, pero un control demasiado estricto solo será peor.

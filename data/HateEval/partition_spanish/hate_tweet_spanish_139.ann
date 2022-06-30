@@ -7,3 +7,9 @@ T4	Property 85 116	nunca existieron en la historia
 T5	pivot 57 67	PALESTINOS
 T6	pivot 74 84	Palestinos
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 236 237	L
+#1	AnnotatorNotes T7	Puede que sepas menos de historia de lo que crees realmente.
+T8	CounterNarrativeB 238 239	W
+#2	AnnotatorNotes T8	Los palestinos SI existen en la historia. Deberías informarte mejor.
+T9	CounterNarrativeA 238 239	W
+#3	AnnotatorNotes T9	Incluso si los palestinos son árabes y no cananeos, no tienen derecho a quitarles sus tierras. Ellos viven ahí hace varios siglos.

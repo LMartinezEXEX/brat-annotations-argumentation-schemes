@@ -4,3 +4,9 @@ T2	Premise1Conclusion 208 222	#BuildThatWall
 A2	QuadrantType T2 policy
 T3	Collective 1 8	DREAMER
 T4	Property 190 196	crimes
+T5	CounterNarrativeA 198 199	M
+#1	AnnotatorNotes T5	Bad idea! A wall does nothing against the criminals who already live here, immigrants or natives.
+T6	CounterNarrativeB 199 200	S
+#2	AnnotatorNotes T6	Dreamer means immigrant? What's that got to do with anything? Is this crime worse than if it had been committed by a native? That is xenophobic
+T7	CounterNarrativeC 200 201	M
+#3	AnnotatorNotes T7	How terrible! but you can't know if it was really him or not, you are not the judge.

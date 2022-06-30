@@ -1,4 +1,6 @@
-T1	Premise1Conclusion 156 260	We are not in 1950, we have to start limiting legal immigration. And completely stop illegal immigration
+T1	Premise1Conclusion 176 260	we have to start limiting legal immigration. And completely stop illegal immigration
 A1	QuadrantType T1 policy
-T2	Premise2Justification 0 131	Stephen Miller (right) and Larry McKenney of Capitol Radiology listen as Trump speaks during a meeting at the White House last year
+T2	Premise2Justification 156 174	We are not in 1950
 A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	S
+#1	AnnotatorNotes T3	How much hypocrisy. "When we came here, immigration was okay, now that we are here, it is not".

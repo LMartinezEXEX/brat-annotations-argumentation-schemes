@@ -5,3 +5,7 @@ A2	QuadrantType T2 value
 T3	pivot 4 16	KamalaHarris
 T4	pivot 190 193	her
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 251 252	#
+#1	AnnotatorNotes T5	Or maybe he's just trying to do something about it. It doesn't have to be a hoax
+T6	CounterNarrativeA 252 253	W
+#2	AnnotatorNotes T6	Doing what you think is right is not cynical.

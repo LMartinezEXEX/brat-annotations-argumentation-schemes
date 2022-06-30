@@ -7,3 +7,9 @@ T4	Property 12 27	SHOCKING damage
 T5	pivot 188 194	hotels
 T6	pivot 31 37	hotels
 R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 105 106	Y
+#1	AnnotatorNotes T7	Even so, there is not enough information. Who caused the damage, them, or those who were protesting against them?
+T8	CounterNarrativeB 106 107	o
+#2	AnnotatorNotes T8	There is no reason to believe that refugees have anything to do with it. At most, perhaps an isolated case.
+T9	CounterNarrativeA 104 105	@
+#3	AnnotatorNotes T9	Well, if you care about our homeless, you could try to do the same for them, and not just complain that others are getting something....

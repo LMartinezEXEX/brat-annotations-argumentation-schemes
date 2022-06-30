@@ -7,3 +7,9 @@ T4	Property 87 92	sheep
 T5	pivot 212 220	refugees
 T6	pivot 124 132	refugees
 R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeB 248 249	b
+#1	AnnotatorNotes T7	People are not sheep, and should not be herded.
+T8	CounterNarrativeA 249 250	A
+#2	AnnotatorNotes T8	If he doesn't do anything, what's the problem? They are literally opposing someone who does not do what bothers them.
+T9	CounterNarrativeC 247 248	F
+#3	AnnotatorNotes T9	I guess he's trying to help in his own way...

@@ -4,3 +4,7 @@ T2	Premise2Justification 0 54	@CanBorder @rcmpgrcpolice And meanwhile as they bi
 A2	QuadrantType T2 fact
 T3	Collective 121 129	refugees
 T4	Property 141 157	country shoppers
+T5	CounterNarrativeB 243 244	U
+#1	AnnotatorNotes T5	I don't understand, are you accusing refugees of not being refugees? Then they don't bother you, do they?
+T6	CounterNarrativeA 242 243	i
+#2	AnnotatorNotes T6	Well, maybe if they didn't hold back with repressive proposals....

@@ -7,3 +7,9 @@ T4	Property 224 263	hostiguen a señoras y peguen a turistas
 T5	pivot 224 233	hostiguen
 T6	pivot 140 149	hostigada
 R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeB 298 299	c
+#1	AnnotatorNotes T7	No es cierto que los manteros hostiguen y peguen a los turistas, piénsalo. ¿Quién querría tratar mal a sus clientes?
+T8	CounterNarrativeC 299 300	E
+#2	AnnotatorNotes T8	No se de que hablas, ni se donde viste eso. Hasta donde se, esto podría no haber ocurrido nunca.
+T9	CounterNarrativeA 297 298	P
+#3	AnnotatorNotes T9	Ni todos los manteros son ilegales, ni todos los ilegales violentos. Dejemos de estigmatizar, que terminaremos culpando a los inocentes y defendiendo culpables.

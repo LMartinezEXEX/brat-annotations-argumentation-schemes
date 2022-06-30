@@ -7,3 +7,9 @@ T4	Property 210 224	crime going up
 T5	pivot 105 116	immigration
 T6	pivot 236 244	Migrants
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeA 0 1	n
+#1	AnnotatorNotes T7	There is no real contradiction between "putting our people first" and accepting immigrants....
+T8	CounterNarrativeB 1 2	o
+#2	AnnotatorNotes T8	Why would immigration increase crime? There is no serious study linking these two facts.
+T9	CounterNarrativeC 2 3	t
+#3	AnnotatorNotes T9	I think you are confusing things that have nothing to do with immigration or crime....

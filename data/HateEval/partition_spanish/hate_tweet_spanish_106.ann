@@ -7,3 +7,9 @@ T4	Property 30 78	desempleo en sectores más básicos de la economía
 T5	pivot 0 9	Pregunta:
 T6	pivot 134 142	pregunta
 R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 159 160	.
+#1	AnnotatorNotes T7	Acaso alguien te prohíbe preguntar? Pues no.
+T8	CounterNarrativeB 158 159	s
+#2	AnnotatorNotes T8	No es cierto que los inmigrantes generen desempleo, porque tampoco es cierto que los puestos de trabajo sean escasos o limitados.
+T9	CounterNarrativeA 157 158	o
+#3	AnnotatorNotes T9	Que la gente no te siga la corriente con esa pregunta no significa que estés tocando un tema prohibido, sino que la gente no quiere perder el tiempo preguntando cosas que no tienen sentido.

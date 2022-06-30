@@ -2,3 +2,7 @@ T1	Premise2Justification 0 35	Who actually hopes this?nobody does
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 36 49	#sendthemback
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 62 63	/
+#1	AnnotatorNotes T3	You can't speak for everyone. I'm sure someone does.
+T4	CounterNarrativeA 63 64	6
+#2	AnnotatorNotes T4	Why? As far as I know, they didn't make anything wrong.

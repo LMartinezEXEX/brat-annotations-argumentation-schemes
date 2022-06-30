@@ -2,3 +2,5 @@ T1	Premise2Justification 0 17	Enough is enough.
 T2	Premise1Conclusion 18 31	#SENDTHEMBACK
 A1	QuadrantType T2 policy
 A2	QuadrantType T1 fact
+T3	CounterNarrativeA 35 36	L
+#1	AnnotatorNotes T3	"Enough" is just an opinion. It's not as if anything bad really happened.

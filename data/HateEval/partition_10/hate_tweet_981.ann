@@ -5,3 +5,5 @@ A2	QuadrantType T2 fact
 T3	pivot 52 60	ballpark
 T4	pivot 154 160	ticket
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 197 198	s
+#1	AnnotatorNotes T5	You are taking it personal, building a wall is not the same as not letting someone into a private party.

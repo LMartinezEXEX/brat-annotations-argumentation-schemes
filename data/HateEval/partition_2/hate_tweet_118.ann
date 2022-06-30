@@ -2,3 +2,7 @@ T2	Premise1Conclusion 0 56	leave our young people alone and their benefits out c
 A2	QuadrantType T2 policy
 T3	Premise2Justification 57 134	the EU act outwith its remit as most of the migrants are from the Middle-East
 A3	QuadrantType T3 fact
+T1	CounterNarrativeC 133 134	t
+#1	AnnotatorNotes T1	East, west, middle, far, far away.... People are people, please stop judging them
+T4	CounterNarrativeA 132 133	s
+#2	AnnotatorNotes T4	No one is messing with young people... In fact, quite the opposite

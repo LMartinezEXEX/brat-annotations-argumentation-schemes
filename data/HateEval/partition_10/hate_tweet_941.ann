@@ -5,3 +5,7 @@ A2	QuadrantType T2 policy
 T3	pivot 59 67	illegals
 T4	pivot 98 107	illegally
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	Or maybe you care about both, you are being biased.
+T6	CounterNarrativeA 1 2	K
+#2	AnnotatorNotes T6	So what? There are no ways to regularize the situation? let them use it.

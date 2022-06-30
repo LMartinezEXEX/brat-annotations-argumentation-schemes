@@ -4,3 +4,9 @@ T2	Premise1Conclusion 15 64;202 218	And this is exactly how it should be in Engl
 A2	QuadrantType T2 value
 T3	Collective 207 218	immigration
 T4	Property 106 114	scumbags
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	Your analysis is too simple, what does crime have to do with immigrants?
+T6	CounterNarrativeA 1 2	O
+#2	AnnotatorNotes T6	So you think that banning immigration will stop crime. How wrong is that.
+T7	CounterNarrativeB 2 3	n
+#3	AnnotatorNotes T7	If you were to travel to another country, would you also call yourself a scumbag? No, wouldn't you? Then why do you do it with them?

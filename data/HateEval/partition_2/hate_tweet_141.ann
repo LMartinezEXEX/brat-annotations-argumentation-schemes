@@ -2,3 +2,7 @@ T1	Premise2Justification 1 66	Knifeman is arrested after injuring seven people i
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 99 113	#BuildThatWall
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 87 88	u
+#1	AnnotatorNotes T3	I did not see this article. There doesn't seem to be a source to check it
+T4	CounterNarrativeA 88 89	s
+#2	AnnotatorNotes T4	Building a wall is not going to protect us from the people inside. Besides, how do you know if he is not a citizen?
