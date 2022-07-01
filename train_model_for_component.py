@@ -123,6 +123,9 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
             component_text = []
             if component == "Collective":
                 property_text = []
+            if component == "pivot":
+                justification_text = []
+                conclusion_text = []
             is_argumentative = True
             filesize = 0
             for idx, word in enumerate(annotations):
@@ -137,12 +140,18 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
                         component_text.append([delete_unwanted_chars(ann[2].lstrip())])
                     if component == "Collective" and current_component.startswith("Property"):
                         property_text.append(delete_unwanted_chars(ann[2].lstrip()))
+                    if component == "pivot" and current_component.startswith("Premise1Conclusion"):
+                        conclusion_text.append(delete_unwanted_chars(ann[2].lstrip()))
+                    if component == "pivot" and current_component.startswith("Premise2Justification"):
+                        justification_text.append(delete_unwanted_chars(ann[2].lstrip()))
 
 
             if component == "Collective":
                 tweet_text += " Property: " + " ".join(property_text)
+            if component == "pivot":
+                tweet_text += " Just: " + " ".join(justification_text) + " Conc: " + " ".join(conclusion_text)
             preprocessed_text = preprocessing.preprocess_tweet(tweet_text, lang='en')
-            component_text = [preprocessing.preprocess_tweet(comp, lang='en') for comp in component_text] 
+            component_text = [preprocessing.preprocess_tweet(comp, lang='en') for comp in component_text]
             normalized_text = normalize_text(preprocessed_text, component_text)
             labels = labelComponents(" ".join(normalized_text), component_text)
             if not is_argumentative or filesize == 0:
@@ -152,6 +161,7 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
                 dicc = {"tokens": [normalized_text], "labels": [labels]}
                 datasets.append([Dataset.from_dict(dicc), normalized_text])
             else:
+                assert(len(normalized_text) > 0)
                 all_tweets.append(normalized_text)
                 all_labels.append(labels)
 
@@ -163,6 +173,7 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
 
 def tokenize_and_align_labels(dataset, tokenizer, is_multi = False):
     def tokenize_and_align_labels_per_example(example):
+        print(example)
         tokenized_inputs = tokenizer(example["tokens"], truncation=True, is_split_into_words=True)
 
         labels = []
@@ -191,17 +202,13 @@ def normalize_text(tweet_text, arg_components_text):
     parts_processed = []
     splitted_text = [tweet_text]
     for splitter in arg_components_text:
-        if (not splitter in tweet_text):
-            print("ERRORRRRRRR")
-            print(arg_components_text)
-            print(splitter)
-            print(tweet_text)
         assert (splitter in tweet_text)
         for segment in splitted_text:
-            new_splitted_text = []
-            new_split = segment.split(splitter)
-            for idx, splitt in enumerate(new_split):
-                new_splitted_text.append(splitt)
+            if segment != "":
+                new_splitted_text = []
+                new_split = segment.split(splitter)
+                for idx, splitt in enumerate(new_split):
+                    new_splitted_text.append(splitt)
         splitted_text = new_splitted_text
 
     reconstructed_text = []
