@@ -12,22 +12,20 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.model_selection import train_test_split
 import numpy as np
+from transformers import RobertaConfig, RobertaModel
+from transformers import RobertaTokenizer
 
 parser = argparse.ArgumentParser(description="Train models for identifying argumentative components inside the ASFOCONG dataset")
 parser.add_argument('components', type=str, nargs='+', help="Name of the component that wants to be identified")
-parser.add_argument('--modelname', type=str, default="roberta-base", help="Name of the language model to be downloaded from huggingface")
-parser.add_argument('--lr', type=float, default=2e-05, help="Learning rate for training the model. Default value is 2e-05")
-parser.add_argument('--batch_size', type=int, default=16, help="Batch size for training and evaluation. Default size is 16")
+parser.add_argument('--sover', type=str, default="liblinear", help="Name of the solver to be used in the Logistic regression")
+parser.add_argument('--c', type=float, default=1.0, help="Inverse of regularization strength")
 
 args = parser.parse_args()
 
-
-LEARNING_RATE = args.lr
+REP = 0
 NUMBER_OF_PARTITIONS = 10
-device = "cuda"
-EPOCHS = 20
-BATCH_SIZE = args.batch_size
-MODEL_NAME = args.modelname
+C = args.c
+SOLVER = args.solver
 components = args.components
 component = components[0]
 
@@ -134,10 +132,11 @@ def normalize_text(tweet_text, arg_components_text):
     splitted_text = [tweet_text]
     for splitter in arg_components_text:
         for segment in splitted_text:
-            new_splitted_text = []
-            new_split = segment.split(splitter)
-            for idx, splitt in enumerate(new_split):
-                new_splitted_text.append(splitt)
+            if segment != '':
+                new_splitted_text = []
+                new_split = segment.split(splitter)
+                for idx, splitt in enumerate(new_split):
+                    new_splitted_text.append(splitt)
         splitted_text = new_splitted_text
 
     reconstructed_text = []
@@ -161,16 +160,43 @@ def normalize_text(tweet_text, arg_components_text):
     return parts_processed
 
 
-def train(model, train_partition_patterns, dev_partition_patterns, test_partition_patterns, component):
+def tokenize_examples(dataset, tokenizer):
+    def tokenize_and_align_labels_per_example(example):
+        tokenized_inputs = tokenizer(example["tokens"], truncation=True, is_split_into_words=True)
+
+        labels = []
+        for i, label in enumerate(example["labels"]):
+            word_ids = tokenized_inputs.word_ids(batch_index=i)
+            previous_word_idx = None
+            label_ids = []
+            for word_idx in word_ids:  # Set the special tokens to -100.
+                if word_idx is None:
+                    label_ids.append(-100)
+                elif word_idx != previous_word_idx:  # Only label the first token of a given word.
+                    label_ids.append(label[word_idx])
+                else:
+                    label_ids.append(-100)
+                previous_word_idx = word_idx
+            labels.append(label_ids)
+
+        tokenized_inputs["labels"] = labels
+        return tokenized_inputs
+    dataset["text_tokenized"] = dataset.apply(tokenize_and_align_labels_per_example, axis=1)
+    return dataset
+
+def train(model, embeddings_model, tokenizer, train_partition_patterns, dev_partition_patterns, test_partition_patterns, component, with_embeddings = False):
 
     
 
     training_set = labelComponentsFromAllExamples(train_partition_patterns, component)
+    if with_embeddings:
+        training_set = tokenize_examples(training_set, tokenizer)
     
     X = training_set.drop("labels", axis=1)
     X.fillna(0, inplace=True)
 
 
+    
     v = DictVectorizer(sparse=False)
     X = v.fit_transform(X.to_dict('records'))
     y = training_set.labels.values
@@ -178,30 +204,40 @@ def train(model, train_partition_patterns, dev_partition_patterns, test_partitio
 
 
     classes = np.unique(y)
-    print(classes.tolist())
+#    print(classes.tolist())
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.1, shuffle=False)
 
-    logreg = LogisticRegression(C=1e-5, class_weight = "balanced")
+    logreg = LogisticRegression(C=c, solver=solver, class_weight = "balanced")
     logreg.fit(X_train, y_train)
 
     y_pred = logreg.predict(X_test)
 
-    print(y_pred)
+    filename = "results_test_{}_{}_LR_{}_{}".format(C, SOLVER, REP, component)
 
-    print(f1_score(y_test, y_pred))
+    with open(filename, 'w') as w:
+        w.write("{},{},{},{}".format(accuracy_score(y_test, y_pred), precision_score(y_test, y_pred, average="binary", pos_label='1'), recall_score(y_test, y_pred, average="binary", pos_label='1'), f1_score(y_test, y_pred, average="binary", pos_label='1'))
+
+#    print(y_pred)
+
+#    print(f1_score(y_test, y_pred))
 
 
 #    print(list(zip(y_test, y_pred)))
 
 #    print(X)
 
+filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS + 1)]
+dataset_combinations = [[filePatterns[:9], filePatterns[9:]], [filePatterns[1:], filePatterns[0:1]], [[*filePatterns[:1], *filePatterns[2:]], filePatterns[1:2]]]
 
-
-for cmpnent in components:
-    component = cmpnent
-    model = LogisticRegression()
-    filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS + 1)]
-    train(model, filePatterns, filePatterns[8:9], filePatterns[9:], cmpnent)
+for combination in dataset_combinations:
+    REP = REP + 1
+    for cmpnent in components:
+        component = cmpnent
+        model = LogisticRegression()
+        configuration = RobertaConfig()
+        embeddings_model = RobertaModel(configuration)
+        tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
+        train(model, embeddings_model, tokenizer, filePatterns, combination[0], combination[1], cmpnent)
 
 
