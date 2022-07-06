@@ -1,6 +1,7 @@
 T1	Premise2Justification 66 192	Germans protested and fought counter protesters today. Spain sent back a bunch of migrants and Europe no longer wants refugees
 A1	QuadrantType T1 fact
-T2	Premise1Conclusion 0 65;194 210	The fight against the Great Replacement/Refugee Crisis has begun. Good job Europe!
+T2	Premise1Conclusion 0 65	The fight against the Great Replacement/Refugee Crisis has begun.
+T10	Premise1Conclusion 194 210	Good job Europe!
 A2	QuadrantType T2 value
 T3	Collective 40 47	Refugee
 T4	Property 48 54	Crisis

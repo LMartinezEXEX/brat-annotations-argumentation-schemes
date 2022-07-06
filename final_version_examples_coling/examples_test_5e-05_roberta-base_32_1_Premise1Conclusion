@@ -1,0 +1,2495 @@
+Tweet:
+['"@USER', 'As', 'long', 'as', 'you', 'are', 'not', 'a', 'knife', 'migrant', 'or', 'rapefugee', 'and', 'have', 'assimilated', 'into', 'German', 'society', 'you', 'will', 'be', 'safe']
+"@USER			0	0
+As			0	0
+long			0	0
+as			0	0
+you			0	0
+are			0	0
+not			0	0
+a			0	0
+knife			0	0
+migrant			0	0
+or			0	0
+rapefugee			0	0
+and			0	0
+have			0	0
+assimilated			0	0
+into			0	0
+German			0	0
+society			0	0
+you			0	1
+will			0	1
+be			0	1
+safe			0	1
+-------------------------------------------------------------------------------
+Tweet:
+['We', 'need', 'to', 'show', 'people', 'more', 'of', "what's", 'really', 'happening', 'in', 'the', 'EU', 'countries', 'who', 'have', 'open', 'borders', '@USER', '@USER', '@USER', '@USER', '@USER', '@USER', 'BuildThatWall', 'WakeUpAmerica', '@USER', 'MAGA', 'TuesdayThoughts']
+We			1	0
+need			1	0
+to			1	0
+show			1	0
+people			1	0
+more			1	0
+of			1	0
+what's			1	0
+really			1	0
+happening			1	0
+in			1	0
+the			1	0
+EU			1	0
+countries			0	0
+who			0	0
+have			0	0
+open			0	0
+borders			0	0
+@USER			0	0
+@USER			0	0
+@USER			0	0
+@USER			0	0
+@USER			0	0
+@USER			0	0
+BuildThatWall			0	1
+WakeUpAmerica			0	0
+@USER			0	0
+MAGA			0	0
+TuesdayThoughts			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', '@USER', 'String', 'him', 'up', 'to', 'show', 'the', 'message', 'that', 'you', 'will', 'pay', 'for', 'your', 'crimes', 'in', 'a', 'COUNTRY', 'where', 'you', 'are', 'NOT', 'supposed', 'to', 'be', 'inBuildThatWall', 'We', 'are', 'losing', 'our', 'legal', 'citizens', 'to', 'those', 'who', 'should', 'not', 'be', 'here', 'in', 'the', 'first', 'place', 'If', 'they', "weren't", 'here', 'we', 'would', 'still', 'have', 'our', 'loved', 'ones']
+@USER			0	0
+@USER			0	0
+String			1	1
+him			1	1
+up			1	1
+to			1	1
+show			1	1
+the			1	1
+message			1	1
+that			1	1
+you			1	1
+will			1	1
+pay			1	1
+for			1	1
+your			1	1
+crimes			1	1
+in			1	1
+a			1	1
+COUNTRY			1	1
+where			1	1
+you			1	1
+are			1	1
+NOT			1	1
+supposed			1	1
+to			1	1
+be			1	1
+inBuildThatWall			1	1
+We			0	0
+are			0	0
+losing			0	0
+our			0	0
+legal			0	0
+citizens			0	0
+to			0	0
+those			0	0
+who			0	0
+should			0	0
+not			0	0
+be			0	0
+here			0	0
+in			0	0
+the			0	0
+first			0	0
+place			0	0
+If			0	0
+they			0	0
+weren't			0	0
+here			0	0
+we			0	0
+would			0	0
+still			0	0
+have			0	0
+our			0	0
+loved			0	0
+ones			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"@USER', 'I', 'dont', 'want', 'any', 'effing', 'refugees', 'Not', 'in', 'Greece', 'not', 'in', 'America', 'not', 'anywhere', 'in', 'the', 'West', 'SendThemBack', '"']
+"@USER			0	0
+I			0	0
+dont			0	1
+want			0	1
+any			0	0
+effing			0	1
+refugees			0	1
+Not			0	0
+in			0	0
+Greece			0	0
+not			0	0
+in			0	0
+America			0	0
+not			0	0
+anywhere			0	0
+in			0	0
+the			0	0
+West			0	0
+SendThemBack			1	1
+"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', '@USER', 'are', 'fighting', 'back', 'with', 'You', 'Now', 'lets', 'BuildthatWall', 'DeportThemAll', 'and', 'Ask', 'a', 'Democrat', 'Why', 'they', 'Support', 'Illegals', 'and', 'Wont', 'Mention', 'Americans', 'killed', 'by', 'Illegals', 'every', 'chance', 'we', 'get']
+@USER			0	0
+@USER			0	0
+are			0	1
+fighting			0	1
+back			0	1
+with			0	1
+You			0	1
+Now			1	1
+lets			1	1
+BuildthatWall			1	1
+DeportThemAll			1	1
+and			0	0
+Ask			0	0
+a			0	0
+Democrat			0	0
+Why			0	0
+they			0	0
+Support			0	0
+Illegals			0	0
+and			0	0
+Wont			0	0
+Mention			0	0
+Americans			0	0
+killed			0	0
+by			0	0
+Illegals			0	0
+every			0	0
+chance			0	0
+we			0	0
+get			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['sendthemback', 'take', 'care', 'of', 'your', 'people', '@USER', '@USER']
+sendthemback			1	0
+take			0	0
+care			0	1
+of			0	1
+your			0	1
+people			0	1
+@USER			0	0
+@USER			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"Where', 'is', 'this?', 'Brazil?', 'Uganda?', 'Sudan?', 'Nope', 'it', 'is', 'France']
+"Where			0	0
+is			0	0
+this?			0	0
+Brazil?			0	0
+Uganda?			0	0
+Sudan?			0	0
+Nope			0	0
+it			0	0
+is			0	0
+France			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', '@USER', 'Since', "it's", 'Hispanic', 'night', 'at', 'the', 'ballpark', 'Did', 'they', 'just', 'open', 'up', 'the', 'gates', 'and', 'let', 'anybody', 'and', 'everybody', 'in', 'or', 'did', 'they', 'have', 'to', 'have', 'a', 'ticket?', 'BuildThatWall', 'Trump2020', '@USER', 'ChopOn', '@USER']
+@USER			0	0
+@USER			0	0
+Since			0	0
+it's			0	0
+Hispanic			0	0
+night			0	0
+at			0	0
+the			0	0
+ballpark			0	0
+Did			1	0
+they			1	0
+just			1	0
+open			1	0
+up			1	0
+the			1	0
+gates			1	0
+and			1	0
+let			1	0
+anybody			1	0
+and			1	0
+everybody			1	0
+in			1	0
+or			1	0
+did			1	0
+they			1	0
+have			1	0
+to			1	0
+have			1	0
+a			1	0
+ticket?			1	0
+BuildThatWall			1	1
+Trump2020			0	0
+@USER			0	0
+ChopOn			0	0
+@USER			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"@USER', '@USER', '@USER', 'U', 'tell', 'ME-What', 'could', 'people', 'who', 'come', 'through', 'the', 'BACK', 'DOORbring', 'to', 'our', 'country-Except', '4', 'CRIME', '&', 'DISEASE', '??', 'BuildThatWall', 'U', 'Can', 'share"']
+"@USER			0	0
+@USER			0	0
+@USER			0	0
+U			0	0
+tell			0	0
+ME-What			0	0
+could			0	0
+people			0	0
+who			0	0
+come			0	0
+through			0	0
+the			0	0
+BACK			0	0
+DOORbring			0	0
+to			0	0
+our			0	0
+country-Except			0	0
+4			0	0
+CRIME			0	0
+&			0	0
+DISEASE			0	0
+??			0	1
+BuildThatWall			1	1
+U			0	1
+Can			0	1
+share"			0	1
+-------------------------------------------------------------------------------
+Tweet:
+['"Sweden', 'has', 'finally', 'had', 'enough', 'If', 'only', 'our', 'lame-brained', 'government', 'would', 'do', 'something', 'similar', 'BuildTheWall', 'BuildTheDamnWall', 'DeportTheSoftInvaders', 'StopAnchorBabyCitizenship', 'EndChainMigration"']
+"Sweden			0	0
+has			0	1
+finally			0	1
+had			0	1
+enough			0	1
+If			1	0
+only			1	0
+our			1	0
+lame-brained			1	0
+government			1	0
+would			1	0
+do			1	0
+something			1	0
+similar			1	0
+BuildTheWall			1	0
+BuildTheDamnWall			0	0
+DeportTheSoftInvaders			0	0
+StopAnchorBabyCitizenship			0	0
+EndChainMigration"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['Mexican', 'Fugitive', 'Wanted', 'For', 'Murder', 'Found', 'In', 'South', 'Carolina', 'We', 'need', 'a', 'wall', 'to', 'keep', 'these', 'scum', 'out', 'of', 'our', 'countryBuildTheWall', 'NoDACANoAmnesty', 'MAGAKAG', 'VoteRed', 'WalkAway']
+Mexican			0	0
+Fugitive			0	0
+Wanted			0	0
+For			0	0
+Murder			0	0
+Found			0	0
+In			0	0
+South			0	0
+Carolina			0	0
+We			1	0
+need			1	0
+a			1	0
+wall			1	0
+to			1	0
+keep			1	0
+these			1	0
+scum			1	0
+out			1	0
+of			1	0
+our			1	0
+countryBuildTheWall			1	0
+NoDACANoAmnesty			0	0
+MAGAKAG			0	0
+VoteRed			0	0
+WalkAway			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"The', 'Hillary', 'server/unmasking', 'of', 'US', 'citizens/FBI-CIA-DOJ', 'conspiracy', 'perjury', '&', 'obstruction', '-', 'A', 'SILENT', 'COUP', '-', 'to', 'take', 'down', 'a', 'US', 'President;', 'by', 'far', 'the', 'largest', '&', 'deepest', 'scandal', 'to', 'ever', 'hit', 'US', 'government', 'MAGA', 'KAG', 'Trump', 'POTUS', 'NEWS', 'USA', 'WalkAway', 'DrainTheSwamp', 'NoDACA"']
+"The			0	0
+Hillary			0	0
+server/unmasking			0	0
+of			0	0
+US			0	0
+citizens/FBI-CIA-DOJ			0	0
+conspiracy			0	0
+perjury			0	0
+&			0	0
+obstruction			0	0
+-			0	0
+A			0	0
+SILENT			0	0
+COUP			0	0
+-			0	0
+to			0	0
+take			0	0
+down			0	0
+a			0	0
+US			0	0
+President;			0	0
+by			1	1
+far			1	1
+the			1	1
+largest			1	1
+&			1	1
+deepest			1	1
+scandal			1	1
+to			1	1
+ever			1	1
+hit			1	1
+US			1	1
+government			1	1
+MAGA			0	0
+KAG			0	0
+Trump			0	0
+POTUS			0	0
+NEWS			0	0
+USA			0	0
+WalkAway			0	0
+DrainTheSwamp			0	0
+NoDACA"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"@USER', 'GOD', 'BLESS', 'ICE', 'THANK', 'YOU', 'FOR', 'GETTING', 'ILLEGAL', 'ALIENS', 'OUT', 'OF', 'OUR', 'SOVEREIGN', 'COUNTRY', 'AND', 'OFF', 'OUR', 'STREETS', 'NoSanctuaryStates', 'NoSanctuaryCities', 'NoDACA', 'NoAmnesty', 'NoCommunists', 'NoSocialism', 'AmericaFirst', 'AmericansAreDreamersToo', 'MAGA', 'KAG"']
+"@USER			1	0
+GOD			1	0
+BLESS			1	0
+ICE			1	0
+THANK			0	0
+YOU			0	0
+FOR			0	0
+GETTING			0	0
+ILLEGAL			0	0
+ALIENS			0	0
+OUT			0	0
+OF			0	0
+OUR			0	0
+SOVEREIGN			0	0
+COUNTRY			0	0
+AND			0	0
+OFF			0	0
+OUR			0	0
+STREETS			0	0
+NoSanctuaryStates			0	0
+NoSanctuaryCities			0	0
+NoDACA			0	0
+NoAmnesty			0	0
+NoCommunists			0	0
+NoSocialism			0	0
+AmericaFirst			0	0
+AmericansAreDreamersToo			0	0
+MAGA			0	0
+KAG"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"Akin', 'to', 'rape', 'victims', 'apologizing', 'to', 'the', 'refugee', 'rapists', 'in', "EuropeIt's", 'just', 'wrongIf', 'you', 'cannot', 'name', 'the', 'problem', 'you', "can't", 'solve', 'the', 'problem']
+"Akin			0	0
+to			0	0
+rape			0	0
+victims			0	0
+apologizing			0	0
+to			0	0
+the			0	0
+refugee			0	0
+rapists			0	0
+in			0	0
+EuropeIt's			0	0
+just			0	0
+wrongIf			0	0
+you			0	0
+cannot			0	0
+name			0	0
+the			0	0
+problem			0	0
+you			0	0
+can't			0	0
+solve			0	0
+the			0	0
+problem			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', 'Arrest', 'Mayor', 'Keisha', 'Lance', 'BottomsWe', 'stand', 'with', '@USER', '&', '@USER', 'against', 'all', 'enemies', 'both', 'foreign', 'and', 'domesticNoAmnestyNoDACA']
+@USER			0	0
+Arrest			0	0
+Mayor			0	0
+Keisha			0	0
+Lance			0	0
+BottomsWe			0	0
+stand			0	0
+with			0	0
+@USER			0	0
+&			0	0
+@USER			0	0
+against			0	0
+all			0	0
+enemies			0	0
+both			0	0
+foreign			0	0
+and			0	0
+domesticNoAmnestyNoDACA			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"', 'Another', 'fine', 'example', 'of', 'why', 'illegal', 'aliens', 'are', 'problem', 'If', 'your', 'here', 'illegally', 'why', 'would', 'you', 'want', 'to', 'draw', 'attention', 'to', 'yourself', 'this', 'way', 'Illegal', 'aliens', 'have', 'no', 'fear', 'of', 'our', 'legal', 'system', '&', 'only', 'care', 'about', 'themselves', 'Awful', 'way', 'to', 'die', 'BuildThatWall', '"']
+"			0	0
+Another			1	0
+fine			1	0
+example			1	0
+of			1	0
+why			1	0
+illegal			1	1
+aliens			1	1
+are			1	1
+problem			1	1
+If			0	0
+your			0	0
+here			0	0
+illegally			0	0
+why			0	0
+would			0	0
+you			0	0
+want			0	0
+to			0	0
+draw			0	0
+attention			0	0
+to			0	0
+yourself			0	0
+this			0	0
+way			0	0
+Illegal			0	0
+aliens			0	0
+have			0	0
+no			0	0
+fear			0	0
+of			0	0
+our			0	0
+legal			0	0
+system			0	0
+&			0	0
+only			0	0
+care			0	0
+about			0	0
+themselves			0	0
+Awful			0	0
+way			0	0
+to			0	0
+die			0	0
+BuildThatWall			1	0
+"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', '@USER', 'stop', 'w', "'we", 'have', 'to', 'worry', 'about', 'the', "children'", 'No', 'we', 'do', 'not-many', 'R', '>20yrs', 'old', 'Go', 'home', 'and', 'make', 'your', 'country', 'better', 'or', 'enter', 'ours', 'legally', 'NoDACA', 'we', "can't", 'afford', 'them']
+@USER			0	0
+@USER			0	0
+stop			0	0
+w			0	0
+'we			0	0
+have			0	0
+to			0	0
+worry			0	0
+about			0	0
+the			0	0
+children'			0	0
+No			0	0
+we			0	0
+do			0	0
+not-many			0	0
+R			0	0
+>20yrs			0	0
+old			0	0
+Go			1	1
+home			1	1
+and			1	1
+make			1	1
+your			1	1
+country			1	1
+better			1	1
+or			1	1
+enter			1	1
+ours			1	1
+legally			1	1
+NoDACA			1	1
+we			0	0
+can't			0	0
+afford			0	0
+them			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['Learn', 'from', 'Most', 'of', 'Europe', "that's", 'been', 'Invaded', 'by', 'Mostly', 'Muslims', 'Then', 'look', 'at', 'Italy', 'Poland', '&', 'others', 'who', 'Elected', 'Politicians', 'to', 'StopImmigration', '&', 'DeportIllegals', 'Sweden', '&', 'Germany', 'now', 'trying', 'to', 'Reverse', 'the', 'Huge', 'Mistakes', 'of', 'Unlimited', 'Migration', 'of', 'ppl', 'who', 'Refuse', 'to', 'Assimilate']
+Learn			1	0
+from			1	0
+Most			1	0
+of			1	0
+Europe			1	0
+that's			1	0
+been			1	0
+Invaded			1	0
+by			1	0
+Mostly			1	0
+Muslims			1	0
+Then			0	0
+look			0	0
+at			0	0
+Italy			0	0
+Poland			0	0
+&			0	0
+others			0	0
+who			0	0
+Elected			0	0
+Politicians			0	0
+to			0	0
+StopImmigration			0	0
+&			0	0
+DeportIllegals			0	1
+Sweden			0	0
+&			0	0
+Germany			0	0
+now			0	0
+trying			0	0
+to			0	0
+Reverse			0	0
+the			0	0
+Huge			0	0
+Mistakes			0	0
+of			0	0
+Unlimited			0	0
+Migration			0	0
+of			0	0
+ppl			0	0
+who			0	0
+Refuse			0	0
+to			0	0
+Assimilate			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['Enough', 'is', 'enough', 'SENDTHEMBACK', '@USER']
+Enough			0	0
+is			0	0
+enough			0	0
+SENDTHEMBACK			1	0
+@USER			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"Germany', ':', 'THOUSANDS', 'protest', 'after', 'Muslim', 'migrants', 'murder', 'German', 'man', 'Merkel', 'condemns', 'protests']
+"Germany			0	0
+:			0	0
+THOUSANDS			0	0
+protest			0	0
+after			0	0
+Muslim			0	0
+migrants			0	0
+murder			0	0
+German			0	0
+man			0	0
+Merkel			0	0
+condemns			0	0
+protests			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"@USER', '@USER', 'You', 'really', 'listen', 'to', 'yourself', 'dont', 'u?', "That's", 'why', 'there', 'are', '121', 'illegals', 'here', 'now', 'costing', 'us', 'billions', 'Seems', 'to', 'me', 'WE', 'HAVE', 'HAD', 'OPEN', 'BORDERS', 'Close', 'them', 'BuildThatWall', '"']
+"@USER			0	0
+@USER			0	0
+You			0	0
+really			0	0
+listen			0	0
+to			0	0
+yourself			0	0
+dont			0	0
+u?			0	0
+That's			0	0
+why			0	0
+there			0	0
+are			0	0
+121			0	0
+illegals			0	0
+here			0	0
+now			0	0
+costing			0	0
+us			0	0
+billions			0	0
+Seems			1	1
+to			1	1
+me			1	1
+WE			1	1
+HAVE			1	1
+HAD			1	1
+OPEN			1	1
+BORDERS			1	1
+Close			1	1
+them			1	1
+BuildThatWall			1	1
+"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"', 'Spoken', 'like', 'a', 'true', 'globalist', 'A', 'borderless', 'one', 'world', 'government', 'has', 'always', 'been', 'their', 'goal', 'No', 'borders', 'means', 'social', 'mayhem', 'The', 'more', 'chaos', 'they', 'foment', 'the', 'more', 'the', 'public', 'will', 'demand', 'an', 'all', 'powerful', 'superstate', 'Ordo', 'ab', 'chao', '(out', 'of', 'chaos', 'order)', 'is', 'their', 'motto']
+"			0	0
+Spoken			1	0
+like			1	0
+a			1	0
+true			1	0
+globalist			1	0
+A			1	0
+borderless			1	0
+one			1	0
+world			1	0
+government			1	0
+has			1	0
+always			1	0
+been			1	0
+their			1	0
+goal			1	0
+No			0	0
+borders			0	0
+means			0	0
+social			0	0
+mayhem			0	0
+The			0	0
+more			0	0
+chaos			0	0
+they			0	0
+foment			0	0
+the			0	0
+more			0	0
+the			0	0
+public			0	0
+will			0	0
+demand			0	0
+an			0	0
+all			0	0
+powerful			0	0
+superstate			0	0
+Ordo			0	0
+ab			0	0
+chao			0	0
+(out			0	0
+of			0	0
+chaos			0	0
+order)			0	0
+is			0	0
+their			0	0
+motto			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', '@USER', 'There', 'are', 'NO', 'INNOCENT', 'people', 'in', 'detention', 'centres']
+@USER			0	0
+@USER			0	0
+There			0	0
+are			0	0
+NO			0	0
+INNOCENT			0	0
+people			0	0
+in			0	0
+detention			0	0
+centres			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"@USER', '@USER', 'You', 'saw', 'what', 'they', 'did', 'in', 'their', 'own', 'country', 'SendThemBack', '"']
+"@USER			0	0
+@USER			0	0
+You			0	0
+saw			0	0
+what			0	0
+they			0	0
+did			0	0
+in			0	0
+their			0	0
+own			0	0
+country			0	0
+SendThemBack			1	1
+"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"@USER', 'He', 'is', '100%', 'accurate', 'Diversity', 'is', 'our', 'greatest', 'weakness', 'Unity', 'is', 'our', 'strength', 'United', 'we', 'stand', 'divided', 'we', 'fall', 'BuildTheWall', 'DeportThemAll', 'StopTheInvasion', 'AmericaFirst', '"']
+"@USER			0	0
+He			0	0
+is			0	0
+100%			0	0
+accurate			0	0
+Diversity			0	0
+is			0	0
+our			0	0
+greatest			0	0
+weakness			0	0
+Unity			0	0
+is			0	0
+our			0	0
+strength			0	0
+United			1	0
+we			1	0
+stand			1	0
+divided			1	0
+we			1	0
+fall			1	0
+BuildTheWall			1	1
+DeportThemAll			1	0
+StopTheInvasion			1	0
+AmericaFirst			1	0
+"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', 'says', 'Dreamers', 'represent', 'the', 'best', 'of', 'what', 'America', 'has', 'to', 'offer', '60K', 'with', 'arrest', 'records', 'NOT', 'OUR', 'BEST', 'Note', 'to', 'KamalaHarris', 'USCIS', 'Director', 'Cissnayou', 'could', 'be', 'arrested', 'a', 'whole', 'lot', 'of', 'times', 'and', 'still', 'get', 'DACANoDACA']
+@USER			0	0
+says			0	0
+Dreamers			0	0
+represent			0	0
+the			0	0
+best			0	0
+of			0	0
+what			0	0
+America			0	0
+has			0	0
+to			0	0
+offer			0	0
+60K			1	0
+with			1	0
+arrest			1	0
+records			1	0
+NOT			1	0
+OUR			1	0
+BEST			1	0
+Note			0	0
+to			0	0
+KamalaHarris			0	0
+USCIS			0	0
+Director			0	0
+Cissnayou			0	0
+could			0	0
+be			0	0
+arrested			0	0
+a			0	0
+whole			0	0
+lot			0	0
+of			0	0
+times			0	0
+and			0	0
+still			0	0
+get			0	0
+DACANoDACA			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', 'Looks', 'like', 'he', 'doesnt', 'keep', 'his', 'front', 'door', 'open', 'but', 'they', 'expect', 'everyone', 'else', 'to', 'BuildThatWall', 'SaturdayVibes']
+@USER			0	0
+Looks			0	0
+like			0	0
+he			0	0
+doesnt			0	0
+keep			0	0
+his			0	0
+front			0	0
+door			0	0
+open			0	0
+but			0	0
+they			0	0
+expect			0	0
+everyone			0	0
+else			0	0
+to			0	0
+BuildThatWall			1	1
+SaturdayVibes			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['Danger', 'Treasonous', 'individuals', 'paid', 'for', 'by', 'Soros', 'and', 'globalist', '@USER', '@USER', 'LockHerUp', 'BuildTheWall', 'BoycottNike', 'BoycottNFL', 'EndDACA', 'now']
+Danger			1	0
+Treasonous			0	0
+individuals			0	0
+paid			0	0
+for			0	0
+by			0	0
+Soros			0	0
+and			0	0
+globalist			0	0
+@USER			0	0
+@USER			0	0
+LockHerUp			0	1
+BuildTheWall			0	1
+BoycottNike			0	0
+BoycottNFL			0	0
+EndDACA			0	0
+now			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', 'SendThemHome', 'we', 'do', 'not', 'need', 'those', 'Students', 'here', 'in', 'Canada']
+@USER			0	0
+SendThemHome			1	1
+we			0	0
+do			0	0
+not			0	0
+need			0	0
+those			0	0
+Students			0	0
+here			0	0
+in			0	0
+Canada			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"As', 'President', 'Obama', 'traveled', 'the', 'world', '&', 'regularly', 'criticized', '&', 'apologized', 'for', 'US', 'policy', '&', 'actions', 'Why', 'in', 'the', 'world', 'would', 'the', 'rest', 'of', 'the', 'world', 'respect', 'us', 'if', 'our', 'President', "didn't?", 'MAGA', 'KAG', 'POTUS', 'Trump', 'NEWS', 'VoteRed', 'NoDACA', 'WalkAway', 'AmericaFirst', 'USA', 'BackTheBlue"']
+"As			0	0
+President			0	0
+Obama			0	0
+traveled			0	0
+the			0	0
+world			0	0
+&			0	0
+regularly			0	0
+criticized			0	0
+&			0	0
+apologized			0	0
+for			0	0
+US			0	0
+policy			0	0
+&			0	0
+actions			0	0
+Why			1	1
+in			1	1
+the			1	1
+world			1	1
+would			1	1
+the			1	1
+rest			1	1
+of			1	1
+the			1	1
+world			1	1
+respect			1	1
+us			1	1
+if			1	1
+our			1	1
+President			1	1
+didn't?			1	1
+MAGA			0	0
+KAG			0	0
+POTUS			0	0
+Trump			0	0
+NEWS			0	0
+VoteRed			0	0
+NoDACA			0	0
+WalkAway			0	0
+AmericaFirst			0	0
+USA			0	0
+BackTheBlue"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', 'There', 'goes', 'the', 'neighborhood']
+@USER			0	0
+There			0	0
+goes			0	0
+the			0	0
+neighborhood			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['BuildThatWall', 'We', "can't", 'afford', 'any', 'more', 'dummies', 'who', "can't", 'make', 'it', 'on', 'their', 'own']
+BuildThatWall			1	1
+We			0	0
+can't			0	0
+afford			0	0
+any			0	0
+more			0	0
+dummies			0	0
+who			0	0
+can't			0	0
+make			0	0
+it			0	0
+on			0	0
+their			0	0
+own			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"@USER', 'Chuck', 'Todd', 'will', 'not', 'debate', 'you', 'for', 'the', 'same', 'reason', 'that', 'Carrot', 'Top', 'would', 'not', 'fight', 'Mike', 'Tyson', 'in', 'his', 'prime', 'BOTH', 'Todd', '&', 'CT', 'w/be', 'decimated', '&', 'never', 'the', 'same', 'Which', 'in', "Todd's", 'case', 'w/be', 'a', 'good', 'thingMAGA', 'KAG', 'POTUS', 'Trump', 'NEWS', 'VoteRed', 'NoDACA', 'WalkAway', 'USA"']
+"@USER			0	0
+Chuck			1	0
+Todd			1	0
+will			1	0
+not			1	0
+debate			1	0
+you			1	0
+for			1	0
+the			1	0
+same			1	0
+reason			1	0
+that			1	0
+Carrot			1	0
+Top			1	0
+would			1	0
+not			1	0
+fight			1	0
+Mike			1	0
+Tyson			1	0
+in			1	0
+his			1	0
+prime			1	0
+BOTH			0	0
+Todd			0	0
+&			0	0
+CT			0	0
+w/be			0	0
+decimated			0	0
+&			0	0
+never			0	0
+the			0	0
+same			0	0
+Which			0	1
+in			0	1
+Todd's			0	1
+case			0	1
+w/be			0	1
+a			0	1
+good			0	1
+thingMAGA			0	1
+KAG			0	0
+POTUS			0	0
+Trump			0	0
+NEWS			0	0
+VoteRed			0	0
+NoDACA			0	0
+WalkAway			0	0
+USA"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['WTF?', 'What', 'are', 'we', 'waiting', 'for?', 'These', 'ppl', 'will', 'be', 'the', 'death', 'of', 'us']
+WTF?			0	0
+What			0	0
+are			0	0
+we			0	0
+waiting			0	0
+for?			0	0
+These			0	0
+ppl			0	0
+will			0	0
+be			0	0
+the			0	0
+death			0	0
+of			0	0
+us			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['Why', 'do', 'you', 'lock', 'your', 'door?', "It's", 'the', 'same', 'reason', 'why', 'we', 'need', 'to', 'BuildTheWall', 'We', 'love', '&', 'want', 'to', 'protect', 'those', 'inside', 'our', 'homes', '&', 'country', 'We', 'welcome', 'those', 'who', 'enter', 'America', 'LEGALLY', 'NoAmnesty', 'NoDACA', 'EndChainMigration', 'EndVisaLottery', 'MandatoryEverify', 'NoAnchorBabies']
+Why			0	0
+do			0	0
+you			0	0
+lock			0	0
+your			0	0
+door?			0	0
+It's			1	0
+the			1	0
+same			1	0
+reason			1	0
+why			1	0
+we			1	0
+need			1	0
+to			1	0
+BuildTheWall			1	1
+We			0	0
+love			0	0
+&			0	0
+want			0	0
+to			0	0
+protect			0	0
+those			0	0
+inside			0	0
+our			0	0
+homes			0	0
+&			0	0
+country			0	0
+We			0	1
+welcome			0	1
+those			0	1
+who			0	1
+enter			0	1
+America			0	1
+LEGALLY			0	0
+NoAmnesty			0	0
+NoDACA			0	0
+EndChainMigration			0	0
+EndVisaLottery			0	0
+MandatoryEverify			0	0
+NoAnchorBabies			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', '@USER', 'USA', 'NEEDS', 'TO', 'WAKE', 'UP', 'NoRefugeesNoMigrants', 'NoChainMigrationNoDACANoImmigrantsNoOrphans']
+@USER			0	0
+@USER			0	0
+USA			0	1
+NEEDS			0	1
+TO			0	1
+WAKE			0	1
+UP			0	1
+NoRefugeesNoMigrants			1	1
+NoChainMigrationNoDACANoImmigrantsNoOrphans			0	1
+-------------------------------------------------------------------------------
+Tweet:
+['"The', 'Nature', 'of', 'the', 'Hispanic', 'is', 'to', 'Abuse', 'Corrupt', 'and', 'Subvert', 'All', 'Anchors', 'must', 'Go', 'And', 'the', '14th', 'Amendment', 'Retroactively', 'ClarifiedDeportThemAll', 'BuildTheWall', 'MAWA', 'MAGA', 'AmericaFirst', 'USATrumpTrain', 'CCOT', 'WhiteGenocide', '@USER', '@USER"']
+"The			0	0
+Nature			0	0
+of			0	0
+the			0	0
+Hispanic			0	0
+is			0	0
+to			0	0
+Abuse			0	0
+Corrupt			0	0
+and			0	0
+Subvert			0	0
+All			1	1
+Anchors			1	1
+must			1	1
+Go			1	1
+And			1	1
+the			1	1
+14th			1	1
+Amendment			1	1
+Retroactively			1	1
+ClarifiedDeportThemAll			1	1
+BuildTheWall			1	1
+MAWA			0	0
+MAGA			0	0
+AmericaFirst			0	0
+USATrumpTrain			0	0
+CCOT			0	0
+WhiteGenocide			0	0
+@USER			0	0
+@USER"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['We', 'let', 'these', 'migrants', 'in', 'to', 'our', 'country', 'for', 'a', 'better', 'life', 'but', "what's", 'about', 'our', 'lives', 'and', 'our', "children's", 'future', 'That', 'do', 'not', 'want', 'to', 'live', 'by', 'our', 'laws']
+We			0	0
+let			0	0
+these			0	0
+migrants			0	0
+in			0	0
+to			0	0
+our			0	0
+country			0	0
+for			0	0
+a			0	0
+better			0	0
+life			0	0
+but			0	0
+what's			0	0
+about			0	0
+our			0	0
+lives			0	0
+and			0	0
+our			0	0
+children's			0	0
+future			0	0
+That			0	0
+do			0	0
+not			0	0
+want			0	0
+to			0	0
+live			0	0
+by			0	0
+our			0	0
+laws			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['Immigrants', 'Should', 'Not', 'Be', 'Public', 'Charges', 'Burdening', 'US', 'Taxpayers', 'if', 'they', 'need', 'welfare-SendThemBack', 'Trump', 'MAGA', 'RedNationRising', 'Immigration', 'NoDACA']
+Immigrants			0	0
+Should			0	0
+Not			0	0
+Be			0	0
+Public			0	0
+Charges			0	0
+Burdening			0	0
+US			0	0
+Taxpayers			0	0
+if			1	0
+they			1	0
+need			1	0
+welfare-SendThemBack			1	0
+Trump			0	0
+MAGA			0	0
+RedNationRising			0	0
+Immigration			0	0
+NoDACA			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['newday', 'they', 'are', 'not', 'asylum', 'seekers', 'they', 'are', 'illegal', 'immigrants']
+newday			0	0
+they			0	0
+are			0	0
+not			0	0
+asylum			0	0
+seekers			0	0
+they			0	0
+are			0	0
+illegal			0	0
+immigrants			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', 'promoting', 'a', 'petition', 'to', 'stop', 'Kavanaugh', "She's", 'intentionally', 'misleading', 'her', 'clueless', 'constituents', 'to', 'believe', 'that', 'a', 'PETITION', 'will', 'stop', 'Kavanaugh', 'How', 'cynical;', 'but', 'typical', 'of', 'her', 'tactics', 'MAGA', 'KAG', 'POTUS', 'Trump', 'NEWS', 'VoteRed', 'NoDACA', 'WalkAway', 'AmericaFirst']
+@USER			0	0
+promoting			0	0
+a			0	0
+petition			0	0
+to			0	0
+stop			0	0
+Kavanaugh			0	0
+She's			0	0
+intentionally			0	0
+misleading			0	0
+her			0	0
+clueless			0	0
+constituents			0	0
+to			0	0
+believe			0	0
+that			0	0
+a			0	0
+PETITION			0	0
+will			0	0
+stop			0	0
+Kavanaugh			0	0
+How			1	1
+cynical;			1	1
+but			1	1
+typical			1	1
+of			1	1
+her			1	1
+tactics			1	1
+MAGA			0	0
+KAG			0	0
+POTUS			0	0
+Trump			0	0
+NEWS			0	0
+VoteRed			0	0
+NoDACA			0	0
+WalkAway			0	0
+AmericaFirst			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', 'The', 'fact', 'that', 'they', 'are', 'here', 'illegally', 'makes', 'them', 'criminals', '-why', 'reward', 'that', 'behavior?', 'Not', 'coming', 'here', 'for', 'Freedom', 'more', 'like', 'the', 'FREE', 'STUFF']
+@USER			0	0
+The			0	0
+fact			0	0
+that			0	0
+they			0	0
+are			0	0
+here			0	0
+illegally			0	0
+makes			0	0
+them			0	0
+criminals			0	0
+-why			0	0
+reward			0	1
+that			0	1
+behavior?			0	1
+Not			0	0
+coming			0	0
+here			0	0
+for			0	0
+Freedom			0	0
+more			0	0
+like			0	0
+the			0	0
+FREE			0	0
+STUFF			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['BanRapefugees', 'BanIslamInTheUS', 'Ten-Year-Old', 'German', 'Boy', 'Raped', 'by', 'Migrant', 'Classmates', 'on', 'School', 'Trip', 'via', '@USER']
+BanRapefugees			1	1
+BanIslamInTheUS			1	1
+Ten-Year-Old			0	0
+German			0	0
+Boy			0	0
+Raped			0	0
+by			0	0
+Migrant			0	0
+Classmates			0	0
+on			0	0
+School			0	0
+Trip			0	0
+via			0	0
+@USER			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['500', 'ex', 'DACA', 'Criminal', 'GangMembers', 'still', 'at', 'Large', 'Will', 'they', 'get', 'Amnesty', 'too?', '@USER@USER', '@USER', 'risk', 'is', 'just', 'too', 'greatEndDACA', 'BuildTheWall', 'ReturnLawAndOrderKeepAmericansSafeEndChainMigration', 'EVerifyEnforceUSLaws']
+500			0	0
+ex			0	0
+DACA			0	0
+Criminal			0	0
+GangMembers			0	0
+still			0	0
+at			0	0
+Large			0	0
+Will			1	1
+they			1	1
+get			1	1
+Amnesty			1	1
+too?			1	1
+@USER@USER			0	0
+@USER			0	0
+risk			0	0
+is			0	0
+just			0	0
+too			0	0
+greatEndDACA			0	0
+BuildTheWall			0	1
+ReturnLawAndOrderKeepAmericansSafeEndChainMigration			0	1
+EVerifyEnforceUSLaws			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['Happy', 'LaborDay', 'to', 'All', 'LEGAL', 'American', 'Workers', 'Shame', 'on', 'Illegal', 'Workers', 'who', 'Steal', 'SSN', 'and', 'IDs', 'to', 'Take', 'Jobs', 'From', 'Americans', 'and', 'lower', 'Wages', 'MAGA', 'SendThemBack', 'laborday']
+Happy			0	0
+LaborDay			0	0
+to			0	0
+All			0	1
+LEGAL			0	1
+American			0	0
+Workers			0	0
+Shame			1	0
+on			1	0
+Illegal			1	0
+Workers			1	0
+who			1	0
+Steal			1	0
+SSN			1	0
+and			1	0
+IDs			1	0
+to			1	0
+Take			1	0
+Jobs			1	0
+From			1	0
+Americans			1	0
+and			1	0
+lower			1	0
+Wages			1	0
+MAGA			0	0
+SendThemBack			0	0
+laborday			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['Time', 'to', 'Stop', 'Illegals', 'from', 'using', 'kids', 'as', 'a', 'get', 'out', 'of', 'jail', 'card', 'Detain', 'and', 'Deport', 'Never', 'let', 'them', 'see', 'a', 'US', 'City', 'Stop', 'CatchNRelease', 'SendThemBack', 'ASAP', 'Trump', 'MAGA', 'RedNationRising', 'Immigration', 'No', 'Illegals']
+Time			0	0
+to			0	0
+Stop			0	0
+Illegals			0	0
+from			0	0
+using			0	0
+kids			0	0
+as			0	0
+a			0	0
+get			0	0
+out			0	0
+of			0	0
+jail			0	0
+card			0	0
+Detain			1	1
+and			1	1
+Deport			1	1
+Never			1	1
+let			1	1
+them			1	1
+see			1	1
+a			1	1
+US			1	1
+City			1	1
+Stop			1	1
+CatchNRelease			1	0
+SendThemBack			1	0
+ASAP			1	0
+Trump			0	0
+MAGA			0	0
+RedNationRising			0	0
+Immigration			0	0
+No			0	0
+Illegals			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', 'And', 'this', 'is', 'exactly', 'how', 'it', 'should', 'be', 'in', 'England', 'Crime', 'is', 'low', 'in', 'Slovakia', 'etc', 'but', 'all', 'the', 'scumbags', 'come', 'to', 'to', 'commit', 'crimes', 'as', 'they', 'know', 'they', 'can', 'get', 'away', 'with', 'it', '-', 'THEY', 'NEVER', 'RETURN']
+@USER			0	0
+And			1	0
+this			1	0
+is			1	0
+exactly			1	0
+how			1	0
+it			1	0
+should			1	0
+be			1	0
+in			1	0
+England			1	0
+Crime			0	0
+is			0	0
+low			0	0
+in			0	0
+Slovakia			0	0
+etc			0	0
+but			0	0
+all			0	0
+the			0	0
+scumbags			0	0
+come			0	0
+to			0	0
+to			0	0
+commit			0	0
+crimes			0	0
+as			0	0
+they			0	0
+know			0	0
+they			0	0
+can			0	0
+get			0	0
+away			0	0
+with			0	0
+it			0	0
+-			0	0
+THEY			0	0
+NEVER			0	0
+RETURN			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"@USER', '@USER', '@USER', 'NoDACA', 'MAGA', 'howdoyoulikeusnowMale', 'illegal', 'aliens', 'dont', 'have', 'the', 'honor', 'to', 'sign', 'up', 'for', 'selective', 'services', 'which', 'is', 'obligatory', 'by', 'law', 'for', 'all', 'male', 'citizens', 'No', 'signature', 'NO', 'JOB', 'Women', 'citizens', 'and', 'illegals', 'dont', 'have', 'the', 'honor', 'Yep', 'I', 'see', 'EQUALITY', 'happening', 'all', 'over', 'this', 'place', '"']
+"@USER			0	0
+@USER			0	0
+@USER			0	0
+NoDACA			0	0
+MAGA			0	0
+howdoyoulikeusnowMale			0	0
+illegal			0	0
+aliens			0	0
+dont			0	0
+have			0	0
+the			0	0
+honor			0	0
+to			0	0
+sign			0	0
+up			0	0
+for			0	0
+selective			0	0
+services			0	0
+which			0	0
+is			0	0
+obligatory			0	0
+by			0	0
+law			0	0
+for			0	0
+all			0	0
+male			0	0
+citizens			0	0
+No			1	0
+signature			1	0
+NO			1	0
+JOB			1	0
+Women			0	0
+citizens			0	0
+and			0	0
+illegals			0	0
+dont			0	0
+have			0	0
+the			0	0
+honor			0	0
+Yep			1	0
+I			1	0
+see			1	0
+EQUALITY			1	0
+happening			1	0
+all			1	0
+over			1	0
+this			1	0
+place			1	0
+"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['About', 'Time', 'Non', 'Citizens', 'and', 'DACA', 'Illegals', 'Who', 'Voted', 'Must', 'be', 'Arrested', 'For', 'Voter', 'Fraud', 'Serve', 'their', 'time', 'then', 'Deported', 'ASAP', 'All', 'Forms', 'ask', 'you', 'to', 'Swear', 'Your', 'a', 'Citizen', 'they', 'lied', 'SendThemBack', 'Trump', 'MAGA', 'RedNationRising', 'Immigration']
+About			1	0
+Time			1	0
+Non			1	0
+Citizens			1	0
+and			1	0
+DACA			1	0
+Illegals			1	0
+Who			1	0
+Voted			1	0
+Must			1	0
+be			1	0
+Arrested			1	0
+For			1	0
+Voter			1	0
+Fraud			1	0
+Serve			1	0
+their			1	0
+time			1	0
+then			1	0
+Deported			1	0
+ASAP			1	0
+All			0	0
+Forms			0	0
+ask			0	0
+you			0	0
+to			0	0
+Swear			0	0
+Your			0	0
+a			0	0
+Citizen			0	0
+they			0	0
+lied			0	0
+SendThemBack			0	0
+Trump			0	0
+MAGA			0	0
+RedNationRising			0	0
+Immigration			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['Where', 'are', 'the', 'Women', 'and', 'Children', 'the', 'Dems', 'are', 'always', 'Bitchin', 'about?']
+Where			0	0
+are			0	0
+the			0	0
+Women			0	0
+and			0	0
+Children			0	0
+the			0	0
+Dems			0	0
+are			0	0
+always			0	0
+Bitchin			0	0
+about?			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', 'Again', 'going', 'on', 'record', 'that', 'you', 'care', 'more', 'for', 'illegals', 'than', 'US', 'Citizens']
+@USER			0	0
+Again			0	0
+going			0	0
+on			0	0
+record			0	0
+that			0	0
+you			0	0
+care			0	0
+more			0	0
+for			0	0
+illegals			0	0
+than			0	0
+US			0	0
+Citizens			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"', 'We', 'have', 'got', 'to', 'get', 'these', 'Obama', 'DACA', 'illegal', 'alien', 'freeloaders', 'the', 'hell', 'out', 'of', 'our', 'country', 'If', "they're", 'too', 'broke', 'to', 'afford', 'an', 'application', 'how', 'much', 'in', 'taxes', 'do', 'you', 'think', 'they', 'contribute?MAGAnosanctuarybrewster', 'BuildTheWal', 'lNoDACA"']
+"			0	0
+We			1	1
+have			1	1
+got			1	1
+to			1	1
+get			1	1
+these			1	1
+Obama			1	1
+DACA			1	1
+illegal			1	1
+alien			1	1
+freeloaders			1	1
+the			1	1
+hell			1	1
+out			1	1
+of			1	1
+our			1	1
+country			1	1
+If			0	0
+they're			0	0
+too			0	0
+broke			0	0
+to			0	0
+afford			0	0
+an			0	0
+application			0	0
+how			0	0
+much			0	0
+in			0	0
+taxes			0	0
+do			0	0
+you			0	0
+think			0	0
+they			0	0
+contribute?MAGAnosanctuarybrewster			0	0
+BuildTheWal			1	0
+lNoDACA"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['Another', 'wonderful', 'dreamer', 'youngster']
+Another			0	0
+wonderful			0	0
+dreamer			0	0
+youngster			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['Watch', 'this', 'Swedish', 'journalist', 'IngridCarlqvist:', 'Ethnic', 'Swedes', 'will', 'become', 'minority', 'in', '2', 'to', '3', 'decades', 'Let', 'this', 'be', 'a', 'warning', 'to', 'Germany', 'and', 'the', 'rest', 'of', 'Europe', 'Stop', 'this', 'madness', 'RefugeesNotWelcome', 'SwedenElection', 'SwedenDemocrats', 'AfD', 'RT']
+Watch			0	0
+this			0	0
+Swedish			0	0
+journalist			0	0
+IngridCarlqvist:			0	0
+Ethnic			0	0
+Swedes			0	0
+will			0	0
+become			0	0
+minority			0	0
+in			0	0
+2			0	0
+to			0	0
+3			0	0
+decades			0	0
+Let			1	1
+this			1	1
+be			1	1
+a			1	1
+warning			1	1
+to			1	1
+Germany			1	1
+and			1	1
+the			1	1
+rest			1	1
+of			1	1
+Europe			1	1
+Stop			1	1
+this			1	1
+madness			1	1
+RefugeesNotWelcome			1	0
+SwedenElection			0	0
+SwedenDemocrats			0	0
+AfD			0	0
+RT			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['EVERY', 'DAMN', 'DAY', 'REPORTED', 'A', 'CHILD', 'RAPED', 'BY', 'AN', 'ILLEGAL', 'AM', 'SHOUTING', 'ALL', 'CAPS', 'BECAUSE', 'TODAY', 'IT', 'WAS', 'TWO', 'REPORTED', 'THE', 'OTHER', 'IN', 'ALABAMA']
+EVERY			0	0
+DAMN			0	0
+DAY			0	0
+REPORTED			0	0
+A			0	0
+CHILD			0	0
+RAPED			0	0
+BY			0	0
+AN			0	0
+ILLEGAL			0	0
+AM			0	0
+SHOUTING			0	0
+ALL			0	0
+CAPS			0	0
+BECAUSE			0	0
+TODAY			0	0
+IT			0	0
+WAS			0	0
+TWO			0	0
+REPORTED			0	0
+THE			0	0
+OTHER			0	0
+IN			0	0
+ALABAMA			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['The', 'fight', 'against', 'the', 'Great', 'Replacement/Refugee', 'Crisis', 'has', 'begun', 'Germans', 'protested', 'and', 'fought', 'counter', 'protesters', 'today', 'Spain', 'sent', 'back', 'a', 'bunch', 'of', 'migrants', 'and', 'Europe', 'no', 'longer', 'wants', 'refugees', 'Good', 'job', 'Europe', 'FightBack', 'WhiteGenocide', 'RefugeesNotWelcome']
+The			1	1
+fight			1	1
+against			1	1
+the			1	1
+Great			1	1
+Replacement/Refugee			1	1
+Crisis			1	1
+has			1	1
+begun			1	1
+Germans			0	0
+protested			0	0
+and			0	0
+fought			0	0
+counter			0	0
+protesters			0	0
+today			0	0
+Spain			0	0
+sent			0	0
+back			0	0
+a			0	0
+bunch			0	0
+of			0	0
+migrants			0	0
+and			0	0
+Europe			0	0
+no			0	0
+longer			0	0
+wants			0	0
+refugees			0	0
+Good			1	0
+job			1	0
+Europe			1	0
+FightBack			0	0
+WhiteGenocide			0	0
+RefugeesNotWelcome			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['Why', 'these', 'white', 'hating', 'racist', 'Africans', 'fleeing', 'to', 'white', 'Europe', 'goback', 'sendthemback', 'go', 'back', 'to', 'YOUR', 'Africa', 'Stunned', 'tourists', 'watch', '50', 'migrants', 'on', 'packed', 'boat', 'storm', 'Spanish', 'beach', 'via']
+Why			0	0
+these			0	0
+white			0	0
+hating			0	0
+racist			0	0
+Africans			0	0
+fleeing			0	0
+to			0	0
+white			0	0
+Europe			0	0
+goback			1	1
+sendthemback			1	1
+go			1	1
+back			1	1
+to			1	1
+YOUR			1	1
+Africa			1	1
+Stunned			0	0
+tourists			0	0
+watch			0	0
+50			0	0
+migrants			0	0
+on			0	0
+packed			0	0
+boat			0	0
+storm			0	0
+Spanish			0	0
+beach			0	0
+via			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"""Children', 'and', 'Women', 'Are', 'No', 'Longer', 'Safe', 'Where', 'There', 'many', '"""asylum"""', 'seekers', 'IllegalAliens', 'or', 'just', 'MassImmigration', 'The', 'Nations', 'of', 'Europe', 'need', 'to', 'BuildTheWall', 'and', 'fix', 'immigration', 'LAWS', 'NOW', '"']
+"""Children			0	0
+and			0	0
+Women			0	0
+Are			0	0
+No			0	0
+Longer			0	0
+Safe			0	0
+Where			0	0
+There			0	0
+many			0	0
+"""asylum"""			0	0
+seekers			0	0
+IllegalAliens			0	0
+or			0	0
+just			0	0
+MassImmigration			0	0
+The			0	1
+Nations			0	1
+of			0	1
+Europe			0	1
+need			0	1
+to			0	1
+BuildTheWall			0	1
+and			0	1
+fix			0	1
+immigration			0	1
+LAWS			0	0
+NOW			0	0
+"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"""@USER', '@USER', 'Yes', 'it', 'does', 'RCMP', 'Waiting', 'to', 'Carry', 'Luggage', 'of', 'IllegalMigrants', 'who', 'Have', 'NO', 'RIGHTS', 'TO', 'ENTER', 'Canada', 'They', 'Came', 'From', 'A', 'Safe', 'CountryUSA', 'BROKE', 'OUR', 'LAWS', 'BY', 'CROSSING', 'Illegally', 'So', 'They', "Aren't", 'Eligible', 'to', 'Stay', 'Even', 'if', '"""']
+"""@USER			0	0
+@USER			0	0
+Yes			0	0
+it			0	0
+does			0	0
+RCMP			0	0
+Waiting			0	0
+to			0	0
+Carry			0	0
+Luggage			0	0
+of			0	0
+IllegalMigrants			0	0
+who			0	0
+Have			0	0
+NO			0	0
+RIGHTS			0	0
+TO			0	0
+ENTER			0	0
+Canada			0	0
+They			0	0
+Came			0	0
+From			0	0
+A			0	0
+Safe			0	0
+CountryUSA			0	0
+BROKE			0	0
+OUR			0	0
+LAWS			0	0
+BY			0	0
+CROSSING			0	0
+Illegally			0	0
+So			0	0
+They			0	0
+Aren't			0	0
+Eligible			0	0
+to			0	0
+Stay			0	0
+Even			0	0
+if			0	0
+"""			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['DREAMER', 'Stomps', '83', 'yr', 'old', 'man', 'to', 'death', 'in', 'TXSSilvano', 'Echavarria', 'stomped', 'the', 'victims', 'head', '74', 'times', 'and', 'punched', 'him', '25', 'times', 'before', 'leaving', 'his', 'body', 'in', 'a', 'parking', 'lotHis', 'rap', 'sheetincludesother', 'crimesMSMSilence']
+DREAMER			0	0
+Stomps			0	0
+83			0	0
+yr			0	0
+old			0	0
+man			0	0
+to			0	0
+death			0	0
+in			0	0
+TXSSilvano			0	0
+Echavarria			0	0
+stomped			0	0
+the			0	0
+victims			0	0
+head			0	0
+74			0	0
+times			0	0
+and			0	0
+punched			0	0
+him			0	0
+25			0	0
+times			0	0
+before			0	0
+leaving			0	0
+his			0	0
+body			0	0
+in			0	0
+a			0	0
+parking			0	0
+lotHis			0	0
+rap			0	0
+sheetincludesother			0	0
+crimesMSMSilence			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', 'Whatever', 'it', 'takes', 'Take', 'the', 'money', 'out', 'of', 'welfare', 'payments', 'to', 'the', 'lazy', 'and', 'use', 'that', 'Take', 'it', 'from', 'aid', 'to', 'Mexico', 'and', 'South', 'and', 'Central', 'America']
+@USER			0	0
+Whatever			0	0
+it			0	0
+takes			0	0
+Take			0	0
+the			0	0
+money			0	0
+out			0	0
+of			0	0
+welfare			0	0
+payments			0	0
+to			0	0
+the			0	0
+lazy			0	0
+and			0	0
+use			0	0
+that			0	0
+Take			0	0
+it			0	0
+from			0	0
+aid			0	0
+to			0	0
+Mexico			0	0
+and			0	0
+South			0	0
+and			0	0
+Central			0	0
+America			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['This', 'is', 'what', 'the', 'streets', 'of', 'the', 'uk', 'will', 'look', 'like', 'in', '10', 'more', 'years']
+This			0	0
+is			0	0
+what			0	0
+the			0	0
+streets			0	0
+of			0	0
+the			0	0
+uk			0	0
+will			0	0
+look			0	0
+like			0	0
+in			0	0
+10			0	0
+more			0	0
+years			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"""@USER', '@USER', '@USER', '100%', 'agreed', 'These', 'are', 'illegal', 'aliens', 'not', 'immigrants', 'Boat', 'people', 'are', 'a', 'sugar-coated', 'way', 'of', 'putting', 'it', 'It', 'scares', 'me', 'that', 'many', 'Australians', 'on', 'Twitter', 'still', 'think', 'its', 'okay', 'for', 'these', '"""immigrants"""', 'to', 'just', 'turn', 'up', 'sendthemback"""']
+"""@USER			0	0
+@USER			0	0
+@USER			0	0
+100%			0	0
+agreed			0	0
+These			0	0
+are			0	0
+illegal			0	0
+aliens			0	0
+not			0	0
+immigrants			0	0
+Boat			0	0
+people			0	0
+are			0	0
+a			0	0
+sugar-coated			0	0
+way			0	0
+of			0	0
+putting			0	0
+it			0	0
+It			1	0
+scares			1	0
+me			1	0
+that			1	0
+many			1	0
+Australians			1	0
+on			1	0
+Twitter			1	0
+still			1	0
+think			1	0
+its			1	0
+okay			1	0
+for			1	0
+these			1	0
+"""immigrants"""			1	0
+to			1	0
+just			1	0
+turn			1	0
+up			1	0
+sendthemback"""			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', 'Its', 'time', 'for', 'the', 'refugees', 'to', 'go', 'home', 'Inclusion', 'failed']
+@USER			0	0
+Its			1	1
+time			1	1
+for			1	1
+the			1	1
+refugees			1	1
+to			1	1
+go			1	1
+home			1	1
+Inclusion			0	0
+failed			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', 'Looks', 'like', 'an', 'army']
+@USER			0	0
+Looks			0	0
+like			0	0
+an			0	0
+army			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"@USER', '@USER', '@USER', 'NoDACA', 'EVER', 'DACA', 'hurts', 'Utah', 'it', 'hurts', 'American', 'Citizens', 'and', 'irreparably', 'damages', 'the', 'real', 'AmericanDreamers', '-', 'My', 'Children', 'American', 'Children']
+"@USER			0	0
+@USER			0	0
+@USER			0	0
+NoDACA			0	0
+EVER			0	0
+DACA			0	0
+hurts			0	0
+Utah			0	0
+it			0	0
+hurts			0	0
+American			0	0
+Citizens			0	0
+and			0	0
+irreparably			0	0
+damages			0	0
+the			0	0
+real			0	0
+AmericanDreamers			0	0
+-			0	0
+My			0	0
+Children			0	0
+American			0	0
+Children			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"""There', 'will', 'be', 'NO', 'Amnesty"""', 'was', '@USER', 'CLEAR', 'Campaign', 'PROMiSE', 'made', 'at', 'his', 'WELL', 'PUBLICIZED', '"""Arizona', 'Speech"""', 'so', 'Trump', 'MUST', 'HONOR', 'that', 'promise', '&', 'CANCEL', "OBAMA's", 'illegalAlien', 'DACA', 'EO', '&', 'also', 'VETO', 'any', 'GOPe', 'Amnesty', '=>NoDACA', 'or', 'NO', '2020', 'Nomination', 'for', 'ANYONE"""']
+"""There			0	0
+will			0	0
+be			0	0
+NO			0	0
+Amnesty"""			0	0
+was			0	0
+@USER			0	0
+CLEAR			0	0
+Campaign			0	0
+PROMiSE			0	0
+made			0	0
+at			0	0
+his			0	0
+WELL			0	0
+PUBLICIZED			0	0
+"""Arizona			0	0
+Speech"""			0	0
+so			1	1
+Trump			1	1
+MUST			1	1
+HONOR			1	1
+that			1	1
+promise			1	1
+&			1	1
+CANCEL			1	1
+OBAMA's			1	1
+illegalAlien			1	1
+DACA			1	0
+EO			1	0
+&			1	1
+also			1	1
+VETO			1	1
+any			1	1
+GOPe			1	1
+Amnesty			1	1
+=>NoDACA			0	0
+or			0	0
+NO			0	0
+2020			0	0
+Nomination			0	0
+for			0	0
+ANYONE"""			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['BuildTheWall', 'from', 'the', 'Pacific', 'Ocean', 'to', 'the', 'Gulf', 'of', 'Mexico', '-', 'Deport', 'all', 'illegals', 'and', 'their', 'families', '-', 'NoDACA', 'NoAmnesty', '-', 'ProudAmerica', 'AmericaFirst']
+BuildTheWall			0	1
+from			0	0
+the			0	0
+Pacific			0	0
+Ocean			0	0
+to			0	0
+the			0	0
+Gulf			0	0
+of			0	0
+Mexico			0	0
+-			0	0
+Deport			0	1
+all			0	1
+illegals			0	1
+and			0	1
+their			0	1
+families			0	1
+-			0	0
+NoDACA			0	0
+NoAmnesty			0	0
+-			0	0
+ProudAmerica			0	0
+AmericaFirst			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"@USERd', 'you', 'want', 'to', 'restart', 'Catch', 'and', 'Release???', 'NoHR392NoDACANoH1b', 'until', 'labor', 'participation', 'rate', 'is', 'at', 'least', '80%', 'NoCatch&ReleaseIllegal', 'Alien', 'Accused', 'of', 'Raping', 'Trafficking', 'Girl', 'in', 'Louisiana', '|', 'Breitbart', 'via', '@USER"']
+"@USERd			0	0
+you			0	0
+want			0	0
+to			0	0
+restart			0	0
+Catch			0	0
+and			0	0
+Release???			0	0
+NoHR392NoDACANoH1b			1	1
+until			1	1
+labor			1	1
+participation			1	1
+rate			1	1
+is			1	1
+at			1	1
+least			1	1
+80%			1	1
+NoCatch&ReleaseIllegal			0	0
+Alien			0	0
+Accused			0	0
+of			0	0
+Raping			0	0
+Trafficking			0	0
+Girl			0	0
+in			0	0
+Louisiana			0	0
+|			0	0
+Breitbart			0	0
+via			0	0
+@USER"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['@USER', '@USER', 'My', 'question', 'to', 'Obama', '&', 'the', 'libs:', 'Do', 'you', 'leave', 'your', "home's", 'door', 'wide', 'open', 'when', 'you', 'sleep', 'so', 'that', 'anyone', 'can', 'walk', 'in?']
+@USER			0	0
+@USER			0	0
+My			0	0
+question			0	0
+to			0	0
+Obama			0	0
+&			0	0
+the			0	0
+libs:			0	0
+Do			0	0
+you			0	0
+leave			0	0
+your			0	0
+home's			0	0
+door			0	0
+wide			0	0
+open			0	0
+when			0	0
+you			0	0
+sleep			0	0
+so			0	0
+that			0	0
+anyone			0	0
+can			0	0
+walk			0	0
+in?			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"This', 'is', 'a', 'couple', 'who', 'just', 'moved', 'on', 'in', 'to', 'Australia', 'and', 'thought', 'if', 'we', 'behave', 'ourselves', 'and', 'involve', 'ourselves', 'in', 'the', 'Community', 'and', 'have', 'a', 'child', 'here', 'then', 'we', 'will', 'be', 'allowed', 'to', 'stay']
+"This			0	0
+is			0	0
+a			0	0
+couple			0	0
+who			0	0
+just			0	0
+moved			0	0
+on			0	0
+in			0	0
+to			0	0
+Australia			0	0
+and			0	0
+thought			0	0
+if			0	0
+we			0	0
+behave			0	0
+ourselves			0	0
+and			0	0
+involve			0	0
+ourselves			0	0
+in			0	0
+the			0	0
+Community			0	0
+and			0	0
+have			0	0
+a			0	0
+child			0	0
+here			0	0
+then			0	0
+we			0	0
+will			0	0
+be			0	0
+allowed			0	0
+to			0	0
+stay			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['Salvini', 'prosecuted', 'for', 'defending', 'Italian', 'sovereignty', 'and', 'finally', 'preventing', 'hundreds', 'of', 'migrants', 'to', 'invade', 'Italy', 'GRANDE', 'SALVINIHelp', 'us', 'preserve', 'the', 'European', 'culture', 'against', 'the', 'invasion', 'stop_islamization', 'complicediSalvini', 'stopInvasion', 'REFUGEESNOTWELCOME']
+Salvini			0	0
+prosecuted			0	0
+for			0	0
+defending			0	0
+Italian			0	0
+sovereignty			0	0
+and			0	0
+finally			0	0
+preventing			0	0
+hundreds			0	0
+of			0	0
+migrants			0	0
+to			0	0
+invade			0	0
+Italy			0	0
+GRANDE			1	0
+SALVINIHelp			1	0
+us			1	1
+preserve			1	1
+the			1	1
+European			1	1
+culture			1	1
+against			1	1
+the			1	1
+invasion			1	1
+stop_islamization			0	0
+complicediSalvini			0	0
+stopInvasion			0	0
+REFUGEESNOTWELCOME			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['Jihadists', 'in', 'action', 'more', 'reason', 'to', 'sendthemback', 'Auspol', '@USER', '@USER', '@USER']
+Jihadists			0	0
+in			0	0
+action			0	0
+more			0	1
+reason			0	1
+to			0	1
+sendthemback			1	1
+Auspol			0	0
+@USER			0	0
+@USER			0	0
+@USER			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['We', 'are', 'living', 'in', 'dangerous', 'times', 'Losing', 'our', 'identity', 'while', 'the', 'IllegalAliens', 'steal', 'them', 'They', 'steal', 'our', 'jobs', 'BuildThatWall', 'stopillegals', 'saveourjobs', 'MAGA', 'DrainTheDeepState', 'AmericaFirst', 'AmericansFirst']
+We			1	0
+are			1	0
+living			1	0
+in			1	0
+dangerous			1	0
+times			1	0
+Losing			0	0
+our			0	0
+identity			0	0
+while			0	0
+the			0	0
+IllegalAliens			0	0
+steal			0	0
+them			0	0
+They			0	0
+steal			0	0
+our			0	0
+jobs			0	0
+BuildThatWall			1	1
+stopillegals			0	1
+saveourjobs			0	1
+MAGA			0	0
+DrainTheDeepState			0	0
+AmericaFirst			0	0
+AmericansFirst			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"""University', 'of', 'Illinois"""', 'While', 'Thousands', 'of', 'Americans', 'are', 'killed', 'by', 'Illegal', 'Aliens', 'Democrats', 'want', 'to', 'Reward', 'them', 'with', 'a', 'Illegal', 'DACA', 'Memo', 'Trump', 'MAGA', 'SendThemHome"""']
+"""University			0	0
+of			0	0
+Illinois"""			0	0
+While			0	0
+Thousands			0	0
+of			0	0
+Americans			0	0
+are			0	0
+killed			0	0
+by			0	0
+Illegal			0	0
+Aliens			0	0
+Democrats			1	0
+want			1	0
+to			1	0
+Reward			1	0
+them			1	0
+with			1	0
+a			1	0
+Illegal			1	0
+DACA			1	0
+Memo			1	0
+Trump			0	0
+MAGA			0	0
+SendThemHome"""			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"', 'Another', 'day', 'and', 'another', 'one', 'of', '@USER', 'pedophile', 'Dreamers', 'have', 'raped', 'another', 'little', 'girl', 'Polk', 'Sheriff:', 'Illegal', 'Alien', 'Arrested', 'for', 'Rape', 'of', '8-Year-Old', 'Girl', 'in', 'FloridaNoDACA', 'NoAmnesty', 'BuildTheDamnWall', 'ThanQ', 'QAnon"']
+"			0	0
+Another			1	0
+day			1	0
+and			1	0
+another			1	0
+one			1	0
+of			1	0
+@USER			1	0
+pedophile			1	0
+Dreamers			1	0
+have			1	0
+raped			1	0
+another			1	0
+little			1	0
+girl			1	0
+Polk			0	0
+Sheriff:			0	0
+Illegal			0	0
+Alien			0	0
+Arrested			0	0
+for			0	0
+Rape			0	0
+of			0	0
+8-Year-Old			0	0
+Girl			0	0
+in			0	0
+FloridaNoDACA			0	0
+NoAmnesty			0	1
+BuildTheDamnWall			0	1
+ThanQ			0	0
+QAnon"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"That', "'anonymous", "source'", 'piece', 'in', 'the', 'NYT', 'is', 'so', 'over-the-top', '&', 'anti-POTUS', 'it', 'smells', 'like', 'Omarosa', 'had', 'something', 'to', 'do', 'with', 'it', 'MAGA', 'KAG', 'POTUS', 'Trump', 'NEWS', 'VoteRed', 'NoDACA', 'WalkAway', 'AmericaFirst', 'USA', 'BackTheBlue', 'AllLivesMatter', 'DrainTheSwamp', 'LiberalismIsAMentalDisorder"']
+"That			0	0
+'anonymous			0	0
+source'			0	0
+piece			0	0
+in			0	0
+the			0	0
+NYT			0	0
+is			0	0
+so			0	0
+over-the-top			0	0
+&			0	0
+anti-POTUS			0	0
+it			1	0
+smells			1	0
+like			1	0
+Omarosa			1	0
+had			1	0
+something			1	0
+to			1	0
+do			1	0
+with			1	0
+it			1	0
+MAGA			0	0
+KAG			0	0
+POTUS			0	0
+Trump			0	0
+NEWS			0	0
+VoteRed			0	0
+NoDACA			0	0
+WalkAway			0	0
+AmericaFirst			0	0
+USA			0	0
+BackTheBlue			0	0
+AllLivesMatter			0	0
+DrainTheSwamp			0	0
+LiberalismIsAMentalDisorder"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"""Presidential', 'determination', 'for', 'the', 'number', 'of', 'refugees', 'that', 'COULD', 'be', 'admitted', 'to', 'the', 'US', 'in', 'coming', 'fiscal', 'year', '"""due', 'Sept', '30"""?', 'via', '@USER', '@USER', 'NOMORERefugees', 'NOmoreSomaliRefugees', '@USER', 'Where', 'the', 'heck', 'r', 'u??"""']
+"""Presidential			0	0
+determination			0	0
+for			0	0
+the			0	0
+number			0	0
+of			0	0
+refugees			0	0
+that			0	0
+COULD			0	0
+be			0	0
+admitted			0	0
+to			0	0
+the			0	0
+US			0	0
+in			0	0
+coming			0	0
+fiscal			0	0
+year			0	0
+"""due			0	0
+Sept			0	0
+30"""?			0	0
+via			0	0
+@USER			0	0
+@USER			0	0
+NOMORERefugees			1	0
+NOmoreSomaliRefugees			1	0
+@USER			0	0
+Where			0	0
+the			0	0
+heck			0	0
+r			0	0
+u??"""			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['BuildThatWallNow', 'I', 'do', 'not', 'want', 'those', 'vile', 'thugs', 'in', 'our', 'country', 'EndChainMigration', 'EndSanctuaryCities', 'EndVisaLottery', 'AngelFamlies']
+BuildThatWallNow			1	1
+I			0	1
+do			0	0
+not			0	1
+want			0	1
+those			0	1
+vile			0	1
+thugs			0	1
+in			0	1
+our			0	1
+country			0	1
+EndChainMigration			0	0
+EndSanctuaryCities			0	0
+EndVisaLottery			0	0
+AngelFamlies			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['IT', 'NEVER', 'ENDS']
+IT			0	0
+NEVER			0	0
+ENDS			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['American', 'Citizens', 'are', 'being', 'Victimized', 'by', 'Illegal', 'Aliens', 'The', 'shocking', 'findings', 'by', 'a', 'new', 'DOJ-DHS', 'report', '@USER', 'NOAmnesty', 'NoSanctuary', 'EndChainMigrationDeportThemAll', 'HonorYourOathProtectUSAKeepAmericansSafeIt', 'is', 'your', 'JOB']
+American			1	0
+Citizens			1	0
+are			1	0
+being			1	0
+Victimized			1	0
+by			1	0
+Illegal			1	0
+Aliens			1	0
+The			0	0
+shocking			0	0
+findings			0	0
+by			0	0
+a			0	0
+new			0	0
+DOJ-DHS			0	0
+report			0	0
+@USER			0	0
+NOAmnesty			0	1
+NoSanctuary			0	1
+EndChainMigrationDeportThemAll			0	1
+HonorYourOathProtectUSAKeepAmericansSafeIt			0	0
+is			0	0
+your			0	0
+JOB			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['"IllegalAliens', 'are', 'robbing', 'Americans', 'of', 'retirement', 'who', 'do', 'you', 'think', 'pays', 'for', 'their', 'healthcare', 'and', 'emergency', 'room', 'visits', 'my', 'ObamaCare', 'costs', 'me', '$36000', 'per', 'year', 'because', 'of', 'them', '@USER', '@USER', '@USER', '@USER', '@USER', '@USER', 'BuildThatWall"']
+"IllegalAliens			0	1
+are			0	1
+robbing			0	1
+Americans			0	1
+of			0	1
+retirement			0	1
+who			0	0
+do			0	0
+you			0	0
+think			0	0
+pays			0	0
+for			0	0
+their			0	0
+healthcare			0	0
+and			0	0
+emergency			0	0
+room			0	0
+visits			0	0
+my			1	0
+ObamaCare			1	0
+costs			1	0
+me			1	0
+$36000			1	0
+per			1	0
+year			1	0
+because			1	0
+of			1	0
+them			1	0
+@USER			0	0
+@USER			0	0
+@USER			0	0
+@USER			0	0
+@USER			0	0
+@USER			0	0
+BuildThatWall"			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['How', 'often', 'does', 'this', 'have', 'to', 'happen??', 'BuildThatWall', 'Criminal', 'Illegal', 'Alien', 'Accused', 'of', 'Sexually', 'Assaulting', 'Eight-Year-Old', 'Florida', 'Girl']
+How			1	0
+often			1	0
+does			1	0
+this			1	0
+have			1	0
+to			1	0
+happen??			1	0
+BuildThatWall			1	1
+Criminal			0	0
+Illegal			0	0
+Alien			0	0
+Accused			0	0
+of			0	0
+Sexually			0	0
+Assaulting			0	0
+Eight-Year-Old			0	0
+Florida			0	0
+Girl			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['DACA', 'is', 'Illegal', 'Will', 'End-', 'Because', 'their', 'Parents', 'Are', 'Criminals', 'Crossing', 'a', 'Border', 'Illegally', 'or', 'OverStaying', 'their', 'Visas', 'Doesnt', 'mean', 'their', 'kids', 'get', 'to', 'stay', 'Stop', 'Rewarding', 'Illegal', 'Immigration', 'Enforce', 'the', 'Laws', 'NoDACA', 'NoAmnesty', 'Trump', 'MAGA', 'SendThemBack']
+DACA			0	0
+is			0	0
+Illegal			0	0
+Will			0	0
+End-			0	0
+Because			0	0
+their			0	0
+Parents			0	0
+Are			0	0
+Criminals			0	0
+Crossing			0	0
+a			0	0
+Border			0	0
+Illegally			0	0
+or			0	0
+OverStaying			0	0
+their			0	0
+Visas			0	0
+Doesnt			0	0
+mean			0	0
+their			0	0
+kids			0	0
+get			0	0
+to			0	0
+stay			0	0
+Stop			1	1
+Rewarding			1	1
+Illegal			1	0
+Immigration			1	0
+Enforce			1	1
+the			1	1
+Laws			1	1
+NoDACA			1	0
+NoAmnesty			0	0
+Trump			0	0
+MAGA			0	0
+SendThemBack			0	0
+-------------------------------------------------------------------------------
+Tweet:
+['SaturdayMorning', 'people', 'think', 'IllegalImmigration', 'is', 'just', 'about', 'BuildThatWall', 'and', 'Jobs', 'no', 'one', 'talks', 'about', 'the', 'fraud', 'committed', 'or', 'money', 'sucked', 'out', 'by', 'IllegalAliens', 'from', 'social', 'services', 'MAGA', 'KAG', 'trump', 'AmericaFirst', 'foxandfriends']
+SaturdayMorning			1	0
+people			1	0
+think			1	0
+IllegalImmigration			1	0
+is			1	0
+just			1	0
+about			1	0
+BuildThatWall			1	1
+and			1	0
+Jobs			1	0
+no			0	0
+one			0	0
+talks			0	0
+about			0	0
+the			0	0
+fraud			0	0
+committed			0	0
+or			0	0
+money			0	0
+sucked			0	0
+out			0	0
+by			0	0
+IllegalAliens			0	0
+from			0	0
+social			0	0
+services			0	0
+MAGA			0	0
+KAG			0	0
+trump			0	0
+AmericaFirst			0	0
+foxandfriends			0	0
+-------------------------------------------------------------------------------
+Tweet:
+["Here's", 'some', 'elite', 'globalist', 'Jews', 'plotting', 'to', 'take-over', 'Poland', 'You', "can't", 'make', 'this', 'stuff', 'up', 'EU', 'Europe', 'Zionism', 'Judaism', 'AntiWhite', 'globalism', 'leftism', 'OpenBorders', 'IllegalImmigration', 'CulturalSubversion', 'nationalism', 'Jewish', 'NWO']
+Here's			0	0
+some			0	0
+elite			0	0
+globalist			0	0
+Jews			0	0
+plotting			0	0
+to			0	0
+take-over			0	0
+Poland			0	0
+You			1	0
+can't			1	0
+make			1	0
+this			1	0
+stuff			1	0
+up			1	0
+EU			0	0
+Europe			0	0
+Zionism			0	0
+Judaism			0	0
+AntiWhite			0	0
+globalism			0	0
+leftism			0	0
+OpenBorders			0	0
+IllegalImmigration			0	0
+CulturalSubversion			0	0
+nationalism			0	0
+Jewish			0	0
+NWO			0	0
+-------------------------------------------------------------------------------

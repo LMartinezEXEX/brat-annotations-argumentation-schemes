@@ -1,6 +1,7 @@
 T1	Premise2Justification 62 192	#DACA hurts #Utah it hurts #American Citizens and irreparably damages the real #AmericanDreamers - My Children, American Children.
 A1	QuadrantType T1 fact
-T2	Premise1Conclusion 193 266;48 60	@GOP has the power to #EndDACA Use it! Don't be afraid of #IllegalAliens" #NoDACA EVER
+T2	Premise1Conclusion 193 266	@GOP has the power to #EndDACA Use it! Don't be afraid of #IllegalAliens"
+T7	Premise1Conclusion 48 60	#NoDACA EVER
 A2	QuadrantType T2 policy
 T3	pivot 63 67	DACA
 T4	pivot 219 223	DACA

@@ -2,7 +2,7 @@ T1	Premise2Justification 0 161	@SenKamalaHarris promoting a petition to stop Kav
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 162 202	How cynical; but typical of her tactics.
 A2	QuadrantType T2 value
-T3	pivot 4 16	KamalaHarris
+T3	pivot 3 16	@KamalaHarris
 T4	pivot 190 193	her
 R1	related Arg1:T3 Arg2:T4	
 T5	CounterNarrativeC 251 252	#

@@ -1,6 +1,7 @@
 T1	Premise2Justification 84 200	More refugees, more weapons for NATO means less welfare and fine life- OR: No refugees, no weapons means happy life.
 A1	QuadrantType T1 fact
-T2	Premise1Conclusion 0 83;201 241	Where Europe will go ? The people will vote different, because they have to decide: I think they will decide the last option
+T2	Premise1Conclusion 0 83	Where Europe will go ? The people will vote different, because they have to decide:
+T8	Premise1Conclusion 201 241	I think they will decide the last option
 A2	QuadrantType T2 value
 T3	Collective 89 97	refugees
 T4	Property 121 153	means less welfare and fine life

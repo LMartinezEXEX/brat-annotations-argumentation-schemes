@@ -26,10 +26,11 @@ args = parser.parse_args()
 
 LEARNING_RATE = args.lr
 NUMBER_OF_PARTITIONS = 10
-device = "cuda"
-EPOCHS = 20
+device = "cuda:0"
 BATCH_SIZE = args.batch_size
+EPOCHS = 20 * (BATCH_SIZE / 16)
 MODEL_NAME = args.modelname
+REP=1
 components = args.components
 component = components[0]
 
@@ -48,32 +49,25 @@ def compute_metrics_f1(p: EvalPrediction):
     all_true_preds = [p for preed in true_predictions for p in preed]
 
     f1 = metrics.f1_score(all_true_labels, all_true_preds, average="macro")
-    print("F1: {}".format(f1))
 
     f1_binary = metrics.f1_score(all_true_labels, all_true_preds, average="binary", pos_label='1')
 
     acc = metrics.accuracy_score(all_true_labels, all_true_preds)
-    print("ACC: {}".format(acc))
 
-    recall = metrics.recall_score(all_true_labels, all_true_preds, average="macro")
-    print("Recall: {}".format(recall))
+    recall = metrics.recall_score(all_true_labels, all_true_preds, average="binary", pos_label='1')
 
-    precision = metrics.precision_score(all_true_labels, all_true_preds, average="macro")
-    print("Precision: {}".format(precision))
+    precision = metrics.precision_score(all_true_labels, all_true_preds, average="binary", pos_label='1')
 
     f1_micro = metrics.f1_score(all_true_labels, all_true_preds, average="micro")
-    print(f1_micro)
 
     recall_micro = metrics.recall_score(all_true_labels, all_true_preds, average="micro")
-    print(recall_micro)
 
     precision_micro = metrics.precision_score(all_true_labels, all_true_preds, average="micro")
-    print(precision_micro)
 
     confusion_matrix = metrics.confusion_matrix(all_true_labels, all_true_preds)
 
 
-    w = open("./results_{}_{}_{}-metrics".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), component), "a")
+    w = open("./results_{}_{}_{}_{}_{}-metrics".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), BATCH_SIZE, component, REP), "a")
 
     w.write("{},{},{},{},{},{},{},{}\n".format(str(acc), str(f1), str(precision), str(recall), str(f1_micro), str(precision_micro), str(recall_micro), str(f1_binary)))
     w.close()
@@ -106,6 +100,8 @@ def labelComponents(text, component_text):
         return rec1 + [1] * len(component_text[0].strip().split()) + rec2
     return [0] * len(text.strip().split())
 
+def delete_unwanted_chars(text):
+    return text.replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "").replace("·", "")
 
 def labelComponentsFromAllExamples(filePatterns, component, multidataset = False):
     all_tweets = []
@@ -117,10 +113,13 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
             annotations = open(f, 'r')
             tweet = open(f.replace(".ann", ".txt"), 'r')
              # TODO: sacar todos los caracteres especiales
-            tweet_text = tweet.read().replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "")
+            tweet_text = delete_unwanted_chars(tweet.read())
             component_text = []
             if component == "Collective":
                 property_text = []
+            if component == "pivot":
+                justification_text = []
+                conclusion_text = []
             is_argumentative = True
             filesize = 0
             for idx, word in enumerate(annotations):
@@ -132,15 +131,21 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
                         is_argumentative = False
                         break
                     if current_component.startswith(component):
-                        component_text.append([ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "")])
+                        component_text.append([delete_unwanted_chars(ann[2].lstrip())])
                     if component == "Collective" and current_component.startswith("Property"):
-                        property_text.append(ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", ""))
+                        property_text.append(delete_unwanted_chars(ann[2].lstrip()))
+                    if component == "pivot" and current_component.startswith("Premise1Conclusion"):
+                        conclusion_text.append(delete_unwanted_chars(ann[2].lstrip()))
+                    if component == "pivot" and current_component.startswith("Premise2Justification"):
+                        justification_text.append(delete_unwanted_chars(ann[2].lstrip()))
 
 
             if component == "Collective":
                 tweet_text += " Property: " + " ".join(property_text)
-            preprocessed_text = preprocessing.preprocess_tweet(tweet_text) + " " + f
-            component_text = [preprocessing.preprocess_tweet(comp) for comp in component_text] 
+            if component == "pivot":
+                tweet_text += " Just: " + " ".join(justification_text) + " Conc: " + " ".join(conclusion_text)
+            preprocessed_text = preprocessing.preprocess_tweet(tweet_text, lang='en')
+            component_text = [preprocessing.preprocess_tweet(comp, lang='en') for comp in component_text]
             normalized_text = normalize_text(preprocessed_text, component_text)
             labels = labelComponents(" ".join(normalized_text), component_text)
             if not is_argumentative or filesize == 0:
@@ -150,6 +155,7 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
                 dicc = {"tokens": [normalized_text], "labels": [labels]}
                 datasets.append([Dataset.from_dict(dicc), normalized_text])
             else:
+                assert(len(normalized_text) > 0)
                 all_tweets.append(normalized_text)
                 all_labels.append(labels)
 
@@ -189,17 +195,13 @@ def normalize_text(tweet_text, arg_components_text):
     parts_processed = []
     splitted_text = [tweet_text]
     for splitter in arg_components_text:
-        if (not splitter in tweet_text):
-            print("ERRORRRRRRR")
-            print(arg_components_text)
-            print(splitter)
-            print(tweet_text)
         assert (splitter in tweet_text)
+        new_splitted_text = []
         for segment in splitted_text:
-            new_splitted_text = []
-            new_split = segment.split(splitter)
-            for idx, splitt in enumerate(new_split):
-                new_splitted_text.append(splitt)
+            if segment != "":
+                new_split = segment.split(splitter)
+                for idx, splitt in enumerate(new_split):
+                    new_splitted_text.append(splitt)
         splitted_text = new_splitted_text
 
     reconstructed_text = []
@@ -231,15 +233,15 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
     test_set_one_example = tokenize_and_align_labels(labelComponentsFromAllExamples(test_partition_patterns, component, multidataset = True), tokenizer, is_multi = True)
     
     training_args = TrainingArguments(
-        output_dir="./results_eval_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), component),
+        output_dir="./results_eval_{}_{}".format(MODEL_NAME.replace("/", "-"), component),
         evaluation_strategy="steps",
-        eval_steps=20,
-        save_total_limit=15,
+        eval_steps=10,
+        save_total_limit=8,
         learning_rate=LEARNING_RATE,
         per_device_train_batch_size=BATCH_SIZE,
         per_device_eval_batch_size=BATCH_SIZE,
         num_train_epochs=EPOCHS,
-        weight_decay=0.01,
+        weight_decay=0.05,
         report_to="none",
         metric_for_best_model='f1_binary',
         load_best_model_at_end=True
@@ -253,20 +255,19 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
         tokenizer=tokenizer,
         data_collator=data_collator,
         compute_metrics= compute_metrics_f1,
-        callbacks = [EarlyStoppingCallback(early_stopping_patience=30)]
+        callbacks = [EarlyStoppingCallback(early_stopping_patience=4)]
     ) 
 
     trainer.train()
-    print("--------------------------------------------------------------------------------------------------evaluation---------------------------------------------------------------------------------------------------------------------")
     print(trainer.evaluate())
 
     results = trainer.predict(test_set)
-    filename = "./results_test_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), component)
+    filename = "./results_test_{}_{}_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), BATCH_SIZE, REP, component)
     with open(filename, "w") as writer:
         writer.write("{},{},{},{},{}\n".format(results.metrics["test_accuracy"], results.metrics["test_f1"], results.metrics["test_precision"], results.metrics["test_recall"], results.metrics["test_f1_binary"]))
         writer.write("{}".format(str(results.metrics["test_confusion_matrix"])))
 
-    examples_filename = "./examples_test_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), component)
+    examples_filename = "./examples_test_{}_{}_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), BATCH_SIZE, REP, component)
     with open(examples_filename, "w") as writer:
         for dtset in test_set_one_example:
             result = trainer.predict(dtset["dataset"])
@@ -281,14 +282,17 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
 
 
 
-
-for cmpnent in components:
-    component = cmpnent
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, add_prefix_space=True)
-    data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer)
-    model = AutoModelForTokenClassification.from_pretrained(MODEL_NAME, num_labels=2)
-    model.to(device)
-    filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS + 1)]
-    train(0, model, tokenizer, filePatterns[:8], filePatterns[8:9], filePatterns[9:], cmpnent)
+filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS + 1)]
+# dataset_combination is a list of lists with three combinations of possible partitions for the dataset, being the first one a list with 8 folders of tweets used for training and the second and third lists with one folder of tweets used for eval and test
+dataset_combinations = [[filePatterns[2:], filePatterns[0:1], filePatterns[1:2]], [filePatterns[1:9], filePatterns[9:], filePatterns[:1]]]
+for combination in dataset_combinations:
+    REP = REP + 1
+    for cmpnent in components:
+        component = cmpnent
+        tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, add_prefix_space=True)
+        data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer)
+        model = AutoModelForTokenClassification.from_pretrained(MODEL_NAME, num_labels=2)
+        model.to(device)
+        train(0, model, tokenizer, combination[0], combination[1], combination[2], cmpnent)
 
 

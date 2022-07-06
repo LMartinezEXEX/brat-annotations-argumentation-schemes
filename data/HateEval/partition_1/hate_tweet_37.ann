@@ -1,6 +1,6 @@
 T2	Collective 40 58	illegal immigrants
 T3	Property 0 36	Border agent killed, partner injured
-T1	Premise1Conclusion 127 144	#PreventableDeath
+T1	Premise1Conclusion 127 145	#Preventable Death
 T4	Premise2Justification 0 83	Border agent killed, partner injured by illegal immigrants using rocks, report says
 A1	QuadrantType T4 fact
 A2	QuadrantType T1 fact
