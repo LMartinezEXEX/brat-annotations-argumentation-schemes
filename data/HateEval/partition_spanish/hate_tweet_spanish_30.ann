@@ -2,3 +2,7 @@ T1	Premise2Justification 46 60	DESTINO SUDACA
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 12 44	Si no te gusta, puedes cambiarlo
 A2	QuadrantType T2 policy
+T3	CounterNarrativeC 79 80	P
+#1	AnnotatorNotes T3	¿Qué cosa tiene de malo los sudacas?
+T4	CounterNarrativeA 80 81	a
+#2	AnnotatorNotes T4	¿Por qué intentaría cambiar algo a lo que no le veo nada malo?

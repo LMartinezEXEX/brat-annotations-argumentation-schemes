@@ -2,3 +2,5 @@ T1	Premise1Conclusion 0 65	Que les pasa a todos que me quieren hacer usar turban
 A1	QuadrantType T1 value
 T2	Premise2Justification 66 99	soy negro pero tampoco para tanto
 A2	QuadrantType T2 fact
+T3	CounterNarrativeA 98 99	o
+#1	AnnotatorNotes T3	Tranquilo, nadie te va a obligar a nada.

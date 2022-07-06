@@ -5,3 +5,7 @@ A2	QuadrantType T2 policy
 T3	pivot 207 213	España
 T4	pivot 75 84	españoles
 R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 274 275	s
+#1	AnnotatorNotes T5	¿Te parece confiable esta fuente? A mi no me termina de convencer...
+T6	CounterNarrativeA 275 276	p
+#2	AnnotatorNotes T6	No creo que sea necesario tomar medidas, porque no creo que la inmigración vaya a destruir España. Me parece una exageración.

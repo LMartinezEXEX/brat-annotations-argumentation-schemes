@@ -2,5 +2,7 @@ T1	Premise1Conclusion 0 23	Tu peloteo es ridiculo,
 A1	QuadrantType T1 value
 T2	Premise2Justification 24 130	para ti un latinoamericano siempre será un sudaca o panchito, nunca lo trataras h consideraras de tu nivel
 A2	QuadrantType T2 fact
-T3	Collective 35 50	latinoamericano
-T4	Property 67 84	sudaca o panchito
+T5	CounterNarrativeC 148 149	V
+#1	AnnotatorNotes T5	No se a quien te diriges, pero que mal que exista gente así. ¿No crees?
+T3	CounterNarrativeA 147 148	J
+#2	AnnotatorNotes T3	Realmente, que alguien discrimine a los latinoamericanos solo por ser de Latinoamérica, es ridículo.

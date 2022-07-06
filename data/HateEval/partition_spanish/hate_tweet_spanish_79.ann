@@ -4,3 +4,9 @@ T3	Premise1Conclusion 128 251;67 125	Gracias de todo corazón! Además de acorta
 A3	QuadrantType T3 fact
 T4	Collective 56 65	africanos
 T5	Property 99 124	heroína y comercio ilegal
+T1	CounterNarrativeA 0 1	M
+#1	AnnotatorNotes T1	Lo dices como si todos los problemas del país fueran culpa de los africanos. En realidad, son muy pocos, si es que realmente hay alguno...
+T6	CounterNarrativeB 1 2	u
+#2	AnnotatorNotes T6	No entiendo la relación entre africanos y heroína. ¿Piensas que ellos y solo ellos trafican? Pues no...
+T7	CounterNarrativeC 2 3	c
+#3	AnnotatorNotes T7	La inmigración de los africanos que nunca genero problema hasta ahora. Me suena a racismo...

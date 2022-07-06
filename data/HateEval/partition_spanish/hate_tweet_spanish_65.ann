@@ -4,3 +4,9 @@ T2	Premise2Justification 0 195	Las cámaras de seguridad del metro de Milán han
 A2	QuadrantType T2 fact
 T4	Property 136 144	violarla
 T5	Collective 248 268	inmigrantes ilegales
+T3	CounterNarrativeA 292 293	G
+#1	AnnotatorNotes T3	El problema está en que no todos los inmigrantes ilegales son violadores. No puedes generalizar a partir de un solo caso.
+T6	CounterNarrativeB 291 292	n
+#2	AnnotatorNotes T6	No sabes si el sujeto en cuestión era inmigrante ilegal o no, además, asumir que todos los inmigrantes son violadores a partir de un solo caso es sumamente prejuicioso.
+T7	CounterNarrativeC 290 291	t
+#3	AnnotatorNotes T7	Me alegro que haya podido defenderse. Es una lastima que se enfoquen tanto en la nacionalidad del criminal y no en el crimen en sí.

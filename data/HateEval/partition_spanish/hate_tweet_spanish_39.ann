@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 53 58	Islam
 T4	pivot 100 109	musulmana
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 136 137	.
+#1	AnnotatorNotes T5	No creo que un país cristiano se vuelva islámico en tan poco tiempo.
+T6	CounterNarrativeA 135 136	e
+#2	AnnotatorNotes T6	Aunque lo digas con sarcasmo, quizás si deberían enseñarlo, así los niños aprenden a tolerar a los demas.

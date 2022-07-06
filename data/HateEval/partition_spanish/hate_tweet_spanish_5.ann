@@ -4,3 +4,9 @@ T2	Premise2Justification 83 189	Extreme heat linked with reduced cognitive perfo
 A2	QuadrantType T2 fact
 T3	Collective 34 60	caribeño y el subsahariano
 T4	Property 25 33	brutismo
+T5	CounterNarrativeC 212 213	H
+#1	AnnotatorNotes T5	Me parece que estás tomando un estudio científico serio, y sacándolo completamente de contexto. No se puede tomar en serio algo así.
+T6	CounterNarrativeB 211 212	j
+#2	AnnotatorNotes T6	No es cierto que los caribeños o subsaharianos sean brutos. Es solo un prejuicio.
+T7	CounterNarrativeA 210 211	7
+#3	AnnotatorNotes T7	Es difícil que algo tenga relación con algún estudio de internet completamente descontextualizado...

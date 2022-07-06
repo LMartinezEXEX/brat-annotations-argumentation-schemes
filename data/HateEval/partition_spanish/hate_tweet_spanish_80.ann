@@ -5,3 +5,7 @@ A2	QuadrantType T2 fact
 T3	pivot 169 177	la valla
 T4	pivot 42 50	la valla
 R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 272 273	G
+#1	AnnotatorNotes T5	Lo dices como si un mensaje pudiera generar grandes problemas en un país... Vamos, no seas paranoico.
+T6	CounterNarrativeC 273 274	c
+#2	AnnotatorNotes T6	¿Tendrás alguna fuente seria que respalde todo esto que dices? Mientras tanto es solo rumor...

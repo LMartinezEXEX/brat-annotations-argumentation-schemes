@@ -2,3 +2,7 @@ T1	Premise2Justification 46 134	@realDonaldTrump dijo que sus comentarios en cam
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 72 134	sus comentarios en campaña son nada comparados con la realidad
 A2	QuadrantType T2 fact
+T3	CounterNarrativeC 157 158	Y
+#1	AnnotatorNotes T3	Pues a mí me parece un recurso para generar desesperación en las personas...
+T4	CounterNarrativeA 156 157	S
+#2	AnnotatorNotes T4	Ya, pero que el lo diga no significa que sea cierto. Están exagerando, y ya.

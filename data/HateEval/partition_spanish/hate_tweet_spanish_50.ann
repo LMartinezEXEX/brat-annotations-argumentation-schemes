@@ -3,3 +3,9 @@ T2	Premise1Conclusion 133 220	Parece que si los violadores son inmigrantes, es m
 A1	QuadrantType T2 fact
 T3	Collective 166 177	inmigrantes
 T4	Property 151 161	violadores
+T5	CounterNarrativeB 238 239	5
+#1	AnnotatorNotes T5	No está bien que generalices así, como si los inmigrantes fueran todos violadores...
+T6	CounterNarrativeA 239 240	k
+#2	AnnotatorNotes T6	No creo que alguien piense que es "menos delito". Lo que sí veo, es que muchos piensan que es "mas delito", y eso no tiene ningún sentido.
+T7	CounterNarrativeC 240 241	B
+#3	AnnotatorNotes T7	¿Tampoco es la única forma de solidarizarse, sabes? Además no te consta que estén o no preparando algo.

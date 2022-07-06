@@ -2,3 +2,7 @@ T1	Premise2Justification 15 168	Sin papeles, sin dirección conocida... Puede es
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 0 14	Menudo chiste.
 A2	QuadrantType T2 value
+T3	CounterNarrativeC 189 190	s
+#1	AnnotatorNotes T3	No se entiende a quien te refieres. ¿Acaso cometio algún delito? Deberías ser mas especifico.
+T4	CounterNarrativeA 188 189	6
+#2	AnnotatorNotes T4	¿Cual es el chiste? No se entiende a que vas.

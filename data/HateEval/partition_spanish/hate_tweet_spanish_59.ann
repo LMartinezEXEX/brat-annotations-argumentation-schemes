@@ -4,3 +4,7 @@ A1	QuadrantType T2 fact
 T3	pivot 36 44	africana
 T4	pivot 180 190	marroquíes
 R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	No tiene sentido que alguien denuncie ayuda humanitaria, en ningún país es considerado un delito.
+T6	CounterNarrativeA 1 2	S
+#2	AnnotatorNotes T6	Técnicamente, no puede ser una invasión si los estas dejando entrar. En todo caso, puedes sospechar de sus motivos para ir, pero creo que estarías siendo paranoico.

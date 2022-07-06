@@ -2,3 +2,7 @@ T1	Premise2Justification 0 167	Es muy lógico, hay que pagar los inmigrantes ile
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 168 182	VERGÜENZA!!!!!
 A2	QuadrantType T2 value
+T3	CounterNarrativeC 206 207	E
+#1	AnnotatorNotes T3	Se puede atender a unos sin descuidar a los otros. No hay que "elegir"
+T4	CounterNarrativeA 205 206	M
+#2	AnnotatorNotes T4	¿Te da vergüenza que se atienda a unos, o que se descuide a los otros? Si es lo segundo, se puede trabajar. Si es lo primero, simplemente es racismo. 
