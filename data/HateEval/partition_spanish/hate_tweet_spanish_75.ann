@@ -4,3 +4,9 @@ T2	Premise1Conclusion 1 72	Alguna de sus co secuencias, no siendo las peores que
 A2	QuadrantType T2 fact
 T3	Collective 155 163	manteros
 T4	Property 74 87	"sin papeles"
+T5	CounterNarrativeC 196 197	Y
+#1	AnnotatorNotes T5	Lamentable. De todas formas, ni te consta que la noticia sea real, ni te consta que los manteros sean responsables.
+T6	CounterNarrativeB 197 198	7
+#2	AnnotatorNotes T6	Es un prejuicio muy extendido, este según el cual los manteros y feriantes son todos inmigrantes indocumentados. Nada mas lejos de la realidad.
+T7	CounterNarrativeA 195 196	l
+#3	AnnotatorNotes T7	Si todo es tal cual lo cuentas, pues que triste. Sin embargo, ni que sean manteros, ni que sean "sin papeles" tiene alguna relevancia aquí.

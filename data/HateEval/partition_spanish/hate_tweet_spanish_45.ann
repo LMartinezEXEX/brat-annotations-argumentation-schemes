@@ -4,3 +4,9 @@ T2	Premise2Justification 103 170	La agresión de los manteros a un turista pone 
 A2	QuadrantType T2 fact
 T3	Collective 50 68	INMIGRACION ILEGAL
 T4	Property 106 114	agresión
+T5	CounterNarrativeC 210 211	o
+#1	AnnotatorNotes T5	Que curioso, que ese crimen la ponga en aprieto, y no todos los otros que se cometen día a día.
+T6	CounterNarrativeB 209 210	c
+#2	AnnotatorNotes T6	Ya, pero ni todos los inmigrantes son agresores, ni todos los agresores, inmigrantes...
+T7	CounterNarrativeA 208 209	i
+#3	AnnotatorNotes T7	Pues no, esas cosas seguro seguiran pasando, con o sin inmigración ilegal. La solución debe venir por otro lado.

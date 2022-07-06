@@ -1,3 +1,7 @@
 T1	Premise1Conclusion 0 56	Campaña para que ley Rapa Nui se extienda a todo el país
 A1	QuadrantType T1 policy
 T2	Premise2Justification 57 84	y así frenar la inmigración
+T3	CounterNarrativeA 83 84	n
+#1	AnnotatorNotes T3	¿Y por que querrías frenar la inmigración? No es como si te hicieran algún daño
+T4	CounterNarrativeC 82 83	ó
+#2	AnnotatorNotes T4	Emigrar es un derecho humano. No puedes simplemente prohibirlo por un capricho...

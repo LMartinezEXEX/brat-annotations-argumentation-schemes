@@ -4,3 +4,9 @@ T2	Premise1Conclusion 0 63	"El efecto llamada existe. Es una llamada de verdad. 
 A2	QuadrantType T2 fact
 T3	Collective 68 78	inmigrante
 T4	Property 191 210	imitaciones baratas
+T5	CounterNarrativeC 269 270	0
+#1	AnnotatorNotes T5	Natural, nadie quiere poner en riesgo su sustento económico.
+T6	CounterNarrativeB 268 269	Q
+#2	AnnotatorNotes T6	Pensar que los inmigrantes venden imitaciones baratas es un prejuicio, y un error. 
+T7	CounterNarrativeA 267 268	/
+#3	AnnotatorNotes T7	No entiendo que tendría que ver una llamada telefónica con lo demás. No tiene sentido.

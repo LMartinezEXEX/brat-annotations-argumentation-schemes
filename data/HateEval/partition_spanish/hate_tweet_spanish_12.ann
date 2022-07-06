@@ -2,3 +2,7 @@ T1	Premise2Justification 0 67	Los que asaltaron la valla de Ceuta con lanza-Llam
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 69 91	¿ También son victimas
 A2	QuadrantType T2 value
+T3	CounterNarrativeC 110 111	6
+#1	AnnotatorNotes T3	¿Eso realmente pasó? Suena demasiado drástico para ser cierto. 
+T4	CounterNarrativeC 109 110	c
+#2	AnnotatorNotes T4	Desconozco el caso, pero no deberías asumir tan a la ligera que no pueda ser...

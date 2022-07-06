@@ -2,3 +2,7 @@ T1	Premise2Justification 0 51	Otras voces: ¿Una sudaca y un discapacitado junto
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 52 83	Por los papeles, o por la pasta
 A2	QuadrantType T2 fact
+T3	CounterNarrativeA 114 115	@
+#1	AnnotatorNotes T3	No tienes por qué asumir algo como eso. No conoces el caso. No tienes idea.
+T4	CounterNarrativeC 115 116	r
+#2	AnnotatorNotes T4	¿Y sí asi fuese, qué tiene eso de malo?

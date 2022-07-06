@@ -2,3 +2,5 @@ T1	Premise1Conclusion 43 53	mal vamos.
 A1	QuadrantType T1 value
 T2	Premise2Justification 0 41	Si estamos cogiendo ejemplo de los Arabes
 A2	QuadrantType T2 fact
+T3	CounterNarrativeA 69 70	A
+#1	AnnotatorNotes T3	¿Por qué iríamos mal? ¿Qué problema tienes con los árabes? Son una cultura brillante, ¿Sabes?

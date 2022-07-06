@@ -4,3 +4,7 @@ T2	Premise1Conclusion 0 14	Estoy FLIPANDO
 A2	QuadrantType T2 value
 T3	Collective 271 276	árabe
 T4	Property 120 139	violencia de género
+T5	CounterNarrativeB 277 278	h
+#1	AnnotatorNotes T5	No entiendo. ¿Él sugirió que los árabes (y solo los árabes) son violentos? Que racista...
+T6	CounterNarrativeA 278 279	t
+#2	AnnotatorNotes T6	Que triste que aun hoy en día haya gente que piense así...

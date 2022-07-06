@@ -4,3 +4,7 @@ T2	Premise1Conclusion 39 124	y nosotros acogiendo como refugiados y regalandoles
 A2	QuadrantType T2 fact
 T3	Collective 65 75	refugiados
 T4	Property 28 38	invadiendo
+T5	CounterNarrativeB 147 148	W
+#1	AnnotatorNotes T5	Solo estás siendo racista al decir que los refugiados nos invaden.
+T6	CounterNarrativeA 146 147	w
+#2	AnnotatorNotes T6	Que consideres que es una invasión no va a cambiar el hecho de que se acojan refugiados y se les brinde atención basica. Eso es ser humanitario.

@@ -2,3 +2,7 @@ T1	Premise1Conclusion 0 31	Dios los cría y ellos se juntan
 A1	QuadrantType T1 fact
 T2	Premise2Justification 31 67	,los sin papeles con los sin papeles
 A2	QuadrantType T2 fact
+T3	CounterNarrativeA 88 89	U
+#1	AnnotatorNotes T3	Creo que, mas bien, es producto del rechazo de la gente. Deberíamos intentar cambiar eso.
+T4	CounterNarrativeC 87 88	e
+#2	AnnotatorNotes T4	No sería un fenomeno tan fuerte si tomaramos otra actitud al respecto. Está en nosotros

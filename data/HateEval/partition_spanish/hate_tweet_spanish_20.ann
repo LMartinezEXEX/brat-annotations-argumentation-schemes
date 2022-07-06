@@ -2,5 +2,7 @@ T1	Premise2Justification 29 247	cuando huyes de una guerra no vuelves a tu país
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 1 28	NO huyen de ninguna guerra,
 A2	QuadrantType T2 fact
-T3	Collective 182 199	mujeres ""sirias"
-T4	Property 201 212	llevan velo
+T5	CounterNarrativeA 270 271	4
+#1	AnnotatorNotes T5	Las guerras acaban, y uno a veces quiere ir a visitar a su familia. No es como si estuviera prohibido.
+T3	CounterNarrativeC 269 270	O
+#2	AnnotatorNotes T3	Estás siendo paranoico. Además, hasta donde sé, no es cierto que Siria sea un país cristiano.

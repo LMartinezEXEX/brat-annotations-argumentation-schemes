@@ -2,3 +2,7 @@ T1	Premise2Justification 0 157	Pregunta seria: los pro vida se quejan de que en 
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 158 212	o solo nosotras no podemos tener derechos por sudacas?
 A2	QuadrantType T2 fact
+T3	CounterNarrativeA 211 212	?
+#1	AnnotatorNotes T3	Supongo que la misma ideología, se da de la misma forma en todos lados...
+T4	CounterNarrativeC 210 211	s
+#2	AnnotatorNotes T4	Que triste que a día de hoy haya quienes piensen, y peor aún, argumenten, así...

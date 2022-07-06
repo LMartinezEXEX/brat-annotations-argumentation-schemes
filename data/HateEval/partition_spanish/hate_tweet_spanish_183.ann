@@ -4,3 +4,9 @@ T2	Premise1Conclusion 0 176	La muerte, puede llegarte en cualquier momento y en 
 A2	QuadrantType T2 fact
 T3	Collective 149 159	israelitas
 T4	Property 224 234	traicionan
+T5	CounterNarrativeC 274 275	9
+#1	AnnotatorNotes T5	Estás acusando a alguien, de algo muy grave, sin prueba alguna. No está nada bien...
+T6	CounterNarrativeA 273 274	0
+#2	AnnotatorNotes T6	No se a donde es "aquí en el norte", pero suena a que estás exagerando un poco.
+T7	CounterNarrativeB 272 273	/
+#3	AnnotatorNotes T7	¿A qué te refieres exactamente con "traicionar"? Si tienes pruebas de algo, deberías mostrarlas. Si no, solo estás siendo racista.

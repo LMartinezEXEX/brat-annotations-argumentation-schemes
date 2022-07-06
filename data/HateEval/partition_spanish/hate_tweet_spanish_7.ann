@@ -5,3 +5,5 @@ A2	QuadrantType T2 fact
 T3	pivot 73 79	Sáhara
 T4	pivot 7 20	subsaharianos
 R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 97 98	s
+#1	AnnotatorNotes T5	¿Te das cuenta que estás asumiendo, al menos dos cosas, de personas que no conoces? Su nacionalidad, y su color de piel.

@@ -2,3 +2,5 @@ T1	Premise1Conclusion 70 87	#GravedadAnteTodo
 A1	QuadrantType T1 policy
 T2	Premise2Justification 0 69	Lo único que debe votar una mujer son sus tetas cuando hacen deporte.
 A2	QuadrantType T2 fact
+T3	CounterNarrativeC 68 69	.
+#1	AnnotatorNotes T3	Comentarios de este tipo, aunque se escondan en forma de "humor", son discriminadores, y muy peligrosos.
