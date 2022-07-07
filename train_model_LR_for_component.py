@@ -12,12 +12,12 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.model_selection import train_test_split
 import numpy as np
-from transformers import RobertaConfig, RobertaModel
-from transformers import RobertaTokenizer
+from transformers import AutoConfig, AutoModel
+from transformers import AutoTokenizer
 
 parser = argparse.ArgumentParser(description="Train models for identifying argumentative components inside the ASFOCONG dataset")
 parser.add_argument('components', type=str, nargs='+', help="Name of the component that wants to be identified")
-parser.add_argument('--sover', type=str, default="liblinear", help="Name of the solver to be used in the Logistic regression")
+parser.add_argument('--solver', type=str, default="liblinear", help="Name of the solver to be used in the Logistic regression")
 parser.add_argument('--c', type=float, default=1.0, help="Inverse of regularization strength")
 
 args = parser.parse_args()
@@ -48,7 +48,7 @@ def labelComponents(text, component_text):
     return [0] * len(text.strip().split())
 
 
-def labelComponentsFromAllExamples(filePatterns, component):
+def labelComponentsFromAllExamples(filePatterns, component, with_embeddings=False):
     all_tweets = []
     all_labels = []
 #    if multidataset:
@@ -97,6 +97,9 @@ def labelComponentsFromAllExamples(filePatterns, component):
 #        return datasets
 
 #    ans = {"tokens": all_tweets, "labels": all_labels}
+    if with_embeddings:
+        return pd.DataFrame([all_tweets, all_labels], index=["text", "labels"]).T
+
     all_tweets_flattened = [word for tweet in all_tweets for word in tweet]
     all_labels_flattened = [label for labels in all_labels for label in labels]
     return pd.DataFrame([all_tweets_flattened, all_labels_flattened], index=["text", "labels"]).T
@@ -160,45 +163,54 @@ def normalize_text(tweet_text, arg_components_text):
     return parts_processed
 
 
-def tokenize_examples(dataset, tokenizer):
+def tokenize_examples(dataset, tokenizer, embeddings_model):
     def tokenize_and_align_labels_per_example(example):
-        tokenized_inputs = tokenizer(example["tokens"], truncation=True, is_split_into_words=True)
+        tokenized_inputs = tokenizer(example["text"], truncation=True, is_split_into_words=True)
 
+        previous_word_id = None
         labels = []
-        for i, label in enumerate(example["labels"]):
-            word_ids = tokenized_inputs.word_ids(batch_index=i)
-            previous_word_idx = None
-            label_ids = []
-            for word_idx in word_ids:  # Set the special tokens to -100.
-                if word_idx is None:
-                    label_ids.append(-100)
-                elif word_idx != previous_word_idx:  # Only label the first token of a given word.
-                    label_ids.append(label[word_idx])
-                else:
-                    label_ids.append(-100)
-                previous_word_idx = word_idx
-            labels.append(label_ids)
+        for word_id in tokenized_inputs.word_ids():
+            if word_id is None:
+                labels.append(-100)
+            elif word_id != previous_word_id:
+                labels.append(example["labels"][word_id])
+            else:
+                labels.append(-100)
+            previous_word_id = word_id
 
-        tokenized_inputs["labels"] = labels
-        return tokenized_inputs
-    dataset["text_tokenized"] = dataset.apply(tokenize_and_align_labels_per_example, axis=1)
-    return dataset
+
+        output = embeddings_model(**tokenized_inputs)
+        embeddings = output.last_hidden_state
+
+        return labels
+
+    def extract_embeddings(example):
+        tokenized_inputs = tokenizer(example["text"], truncation=True, is_split_into_words=True, return_tensor="pt")
+        output = embeddings_model(**tokenized_inputs)
+        embeddings = output.last_hidden_state
+        return embeddings
+
+    all_labels = [label for labels in dataset.apply(tokenize_and_align_labels_per_example, axis=1) for label in labels]
+    print("LABEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEELLLLLLLLLLLLLLLLLLSSSSSSSSSSSSSSSSSSSSSSSSSS")
+    all_embeddings = dataset.apply(extract_embeddings, axis=1)
+    all_embeddings_unpacked = [embed for embeddings in all_embeddings for embed in embeddings]
+    print("EMBEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDIIIIIIIIIIIIIIIIIIIIIIIIIIINNNNNNNNNNNNNNNNNNNNGGGGGGGGGGGGGGGGGGGSSSSSSSSSSS")
+    return pd.DataFrame([all_embeddings, all_labels], index=["text", "labels"]).T
 
 def train(model, embeddings_model, tokenizer, train_partition_patterns, dev_partition_patterns, test_partition_patterns, component, with_embeddings = False):
 
-    
-
-    training_set = labelComponentsFromAllExamples(train_partition_patterns, component)
+    training_set = labelComponentsFromAllExamples(train_partition_patterns, component, with_embeddings=with_embeddings)
     if with_embeddings:
-        training_set = tokenize_examples(training_set, tokenizer)
+        training_set = tokenize_examples(training_set, tokenizer, embeddings_model)
     
     X = training_set.drop("labels", axis=1)
     X.fillna(0, inplace=True)
 
 
+    if not with_embeddings:
+        v = DictVectorizer(sparse=False)
+        X = v.fit_transform(X.to_dict('records'))
     
-    v = DictVectorizer(sparse=False)
-    X = v.fit_transform(X.to_dict('records'))
     y = training_set.labels.values
     y = y.astype('int')
 
@@ -208,7 +220,7 @@ def train(model, embeddings_model, tokenizer, train_partition_patterns, dev_part
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.1, shuffle=False)
 
-    logreg = LogisticRegression(C=c, solver=solver, class_weight = "balanced")
+    logreg = LogisticRegression(C=C, solver=SOLVER, class_weight = "balanced")
     logreg.fit(X_train, y_train)
 
     y_pred = logreg.predict(X_test)
@@ -216,16 +228,19 @@ def train(model, embeddings_model, tokenizer, train_partition_patterns, dev_part
     filename = "results_test_{}_{}_LR_{}_{}".format(C, SOLVER, REP, component)
 
     with open(filename, 'w') as w:
-        w.write("{},{},{},{}".format(accuracy_score(y_test, y_pred), precision_score(y_test, y_pred, average="binary", pos_label='1'), recall_score(y_test, y_pred, average="binary", pos_label='1'), f1_score(y_test, y_pred, average="binary", pos_label='1'))
+        w.write("{},{},{},{}".format(metrics.accuracy_score(y_test, y_pred), metrics.precision_score(y_test, y_pred, average="binary", pos_label=1), metrics.recall_score(y_test, y_pred, average="binary", pos_label=1), metrics.f1_score(y_test, y_pred, average="binary", pos_label=1)))
+
 
 #    print(y_pred)
 
-#    print(f1_score(y_test, y_pred))
+    print("FFFFFFFFFFFFFF1111111111111111111111111111")
+    print(f1_score(y_test, y_pred))
 
 
 #    print(list(zip(y_test, y_pred)))
 
 #    print(X)
+
 
 filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS + 1)]
 dataset_combinations = [[filePatterns[:9], filePatterns[9:]], [filePatterns[1:], filePatterns[0:1]], [[*filePatterns[:1], *filePatterns[2:]], filePatterns[1:2]]]
@@ -235,9 +250,8 @@ for combination in dataset_combinations:
     for cmpnent in components:
         component = cmpnent
         model = LogisticRegression()
-        configuration = RobertaConfig()
-        embeddings_model = RobertaModel(configuration)
-        tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
-        train(model, embeddings_model, tokenizer, filePatterns, combination[0], combination[1], cmpnent)
+        embeddings_model = AutoModel.from_pretrained("roberta-base")
+        tokenizer = AutoTokenizer.from_pretrained("roberta-base", add_prefix_space=True)
+        train(model, embeddings_model, tokenizer, filePatterns, combination[0], combination[1], cmpnent, with_embeddings=True)
 
 
