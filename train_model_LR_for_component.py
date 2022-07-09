@@ -165,7 +165,7 @@ def normalize_text(tweet_text, arg_components_text):
 
 def tokenize_examples(dataset, tokenizer, embeddings_model):
     def tokenize_and_align_labels_per_example(example):
-        tokenized_inputs = tokenizer(example["text"], truncation=True, is_split_into_words=True)
+        tokenized_inputs = tokenizer(example["text"], truncation=True, is_split_into_words=True, return_tensors="pt")
 
         previous_word_id = None
         labels = []
@@ -178,52 +178,53 @@ def tokenize_examples(dataset, tokenizer, embeddings_model):
                 labels.append(-100)
             previous_word_id = word_id
 
-
-        output = embeddings_model(**tokenized_inputs)
-        embeddings = output.last_hidden_state
-
         return labels
 
     def extract_embeddings(example):
-        tokenized_inputs = tokenizer(example["text"], truncation=True, is_split_into_words=True, return_tensor="pt")
+        tokenized_inputs = tokenizer(example["text"], truncation=True, is_split_into_words=True, return_tensors="pt")
         output = embeddings_model(**tokenized_inputs)
         embeddings = output.last_hidden_state
-        return embeddings
+        return embeddings.squeeze()
 
-    all_labels = [label for labels in dataset.apply(tokenize_and_align_labels_per_example, axis=1) for label in labels]
-    print("LABEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEELLLLLLLLLLLLLLLLLLSSSSSSSSSSSSSSSSSSSSSSSSSS")
+    all_labels = dataset.apply(tokenize_and_align_labels_per_example, axis=1)
+    all_labels_unpacked = [label for labels in all_labels for label in labels]
     all_embeddings = dataset.apply(extract_embeddings, axis=1)
     all_embeddings_unpacked = [embed for embeddings in all_embeddings for embed in embeddings]
-    print("EMBEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDIIIIIIIIIIIIIIIIIIIIIIIIIIINNNNNNNNNNNNNNNNNNNNGGGGGGGGGGGGGGGGGGGSSSSSSSSSSS")
-    return pd.DataFrame([all_embeddings, all_labels], index=["text", "labels"]).T
+    return pd.DataFrame([all_embeddings_unpacked, all_labels_unpacked], index=["text", "labels"]).T
 
-def train(model, embeddings_model, tokenizer, train_partition_patterns, dev_partition_patterns, test_partition_patterns, component, with_embeddings = False):
+def train(model, embeddings_model, tokenizer, train_partition_patterns, component, random_state=0, with_embeddings = False):
 
     training_set = labelComponentsFromAllExamples(train_partition_patterns, component, with_embeddings=with_embeddings)
     if with_embeddings:
-        training_set = tokenize_examples(training_set, tokenizer, embeddings_model)
-    
-    X = training_set.drop("labels", axis=1)
-    X.fillna(0, inplace=True)
+        training_set = tokenize_examples(training_set, tokenizer, embeddings_model).to_numpy()
+        
+        X = np.array([t.detach().numpy() for t in training_set[:,0]])
+        y = training_set[:,1]
+        y = y.astype('int')
+        filter_cond = [True if x != -100 else False for x in y]
+        y = y[filter_cond]
+        X = X[filter_cond]
 
-
-    if not with_embeddings:
+    else:
+        X = training_set.drop("labels", axis=1)
+        X.fillna(0, inplace=True)
         v = DictVectorizer(sparse=False)
         X = v.fit_transform(X.to_dict('records'))
     
-    y = training_set.labels.values
-    y = y.astype('int')
+        y = training_set.labels.values
+        y = y.astype('int')
 
 
-    classes = np.unique(y)
+#    classes = np.unique(y)
 #    print(classes.tolist())
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.1, shuffle=False)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.1, shuffle=True, random_state=random_state)
 
     logreg = LogisticRegression(C=C, solver=SOLVER, class_weight = "balanced")
     logreg.fit(X_train, y_train)
 
     y_pred = logreg.predict(X_test)
+
 
     filename = "results_test_{}_{}_LR_{}_{}".format(C, SOLVER, REP, component)
 
@@ -233,8 +234,6 @@ def train(model, embeddings_model, tokenizer, train_partition_patterns, dev_part
 
 #    print(y_pred)
 
-    print("FFFFFFFFFFFFFF1111111111111111111111111111")
-    print(f1_score(y_test, y_pred))
 
 
 #    print(list(zip(y_test, y_pred)))
@@ -243,15 +242,14 @@ def train(model, embeddings_model, tokenizer, train_partition_patterns, dev_part
 
 
 filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS + 1)]
-dataset_combinations = [[filePatterns[:9], filePatterns[9:]], [filePatterns[1:], filePatterns[0:1]], [[*filePatterns[:1], *filePatterns[2:]], filePatterns[1:2]]]
 
-for combination in dataset_combinations:
+for i in range(3):
     REP = REP + 1
     for cmpnent in components:
         component = cmpnent
         model = LogisticRegression()
         embeddings_model = AutoModel.from_pretrained("roberta-base")
         tokenizer = AutoTokenizer.from_pretrained("roberta-base", add_prefix_space=True)
-        train(model, embeddings_model, tokenizer, filePatterns, combination[0], combination[1], cmpnent, with_embeddings=True)
+        train(model, embeddings_model, tokenizer, filePatterns, cmpnent, random_state=i, with_embeddings=True)
 
 

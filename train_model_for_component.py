@@ -28,9 +28,9 @@ LEARNING_RATE = args.lr
 NUMBER_OF_PARTITIONS = 10
 device = "cuda:0"
 BATCH_SIZE = args.batch_size
-EPOCHS = 20 * (BATCH_SIZE / 16)
+EPOCHS = 12 * (BATCH_SIZE / 16)
 MODEL_NAME = args.modelname
-REP=1
+REP=0
 components = args.components
 component = components[0]
 
@@ -165,7 +165,7 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
     ans = {"tokens": all_tweets, "labels": all_labels}
     return Dataset.from_dict(ans)
 
-def tokenize_and_align_labels(dataset, tokenizer, is_multi = False):
+def tokenize_and_align_labels(dataset, tokenizer, is_multi = False, is_bertweet=False):
     def tokenize_and_align_labels_per_example(example):
         tokenized_inputs = tokenizer(example["tokens"], truncation=True, is_split_into_words=True)
 
@@ -187,9 +187,34 @@ def tokenize_and_align_labels(dataset, tokenizer, is_multi = False):
         tokenized_inputs["labels"] = labels
         return tokenized_inputs
 
+
+    def tokenize_and_align_labels_per_example_bertweet(example):
+        tkns = example["tokens"]
+        labels = example["labels"]
+        if len(tkns) == 0 and len(labels) == 0:
+            return {"input_ids": [], "labels": [], "attention_mask": []}
+        tokenized_input = tokenizer(tkns, truncation=True, is_split_into_words=True)
+        label_ids = [-100]
+        for word, label in zip(tkns, labels):
+            tokens = tokenizer(word).input_ids
+            label_ids.append(label)
+            for i in range(len(tokens)-3):
+                label_ids.append(-100)
+        label_ids.append(-100)
+        assert(len(tokenized_input.input_ids) == len(label_ids))
+        assert(len(tokenized_input.input_ids) == len(tokenized_input.attention_mask))
+        return {"input_ids": tokenized_input.input_ids, "labels": label_ids, "attention_mask": tokenized_input.attention_mask}
+
+
+    function_to_apply = tokenize_and_align_labels_per_example
+    if is_bertweet:
+        function_to_apply = tokenize_and_align_labels_per_example_bertweet
+        if is_multi:
+            return [{"dataset": data[0].map(function_to_apply), "text": data[1]} for data in dataset]
+        return dataset.map(function_to_apply)
     if is_multi:
-        return [{"dataset": data[0].map(tokenize_and_align_labels_per_example, batched=True), "text": data[1]} for data in dataset]
-    return dataset.map(tokenize_and_align_labels_per_example, batched=True)
+        return [{"dataset": data[0].map(function_to_apply, batched=True), "text": data[1]} for data in dataset]
+    return dataset.map(function_to_apply, batched=True)
 
 def normalize_text(tweet_text, arg_components_text):
     parts_processed = []
@@ -225,12 +250,13 @@ def normalize_text(tweet_text, arg_components_text):
     return parts_processed
 
 
-def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patterns, test_partition_patterns, component):
+def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patterns, test_partition_patterns, component, is_bertweet=False):
 
-    training_set = tokenize_and_align_labels(labelComponentsFromAllExamples(train_partition_patterns, component), tokenizer)
-    dev_set = tokenize_and_align_labels(labelComponentsFromAllExamples(dev_partition_patterns, component), tokenizer)
-    test_set = tokenize_and_align_labels(labelComponentsFromAllExamples(test_partition_patterns, component), tokenizer)
-    test_set_one_example = tokenize_and_align_labels(labelComponentsFromAllExamples(test_partition_patterns, component, multidataset = True), tokenizer, is_multi = True)
+
+    training_set = tokenize_and_align_labels(labelComponentsFromAllExamples(train_partition_patterns, component), tokenizer, is_bertweet = is_bertweet)
+    dev_set = tokenize_and_align_labels(labelComponentsFromAllExamples(dev_partition_patterns, component), tokenizer, is_bertweet = is_bertweet)
+    test_set = tokenize_and_align_labels(labelComponentsFromAllExamples(test_partition_patterns, component), tokenizer, is_bertweet = is_bertweet)
+    test_set_one_example = tokenize_and_align_labels(labelComponentsFromAllExamples(test_partition_patterns, component, multidataset = True), tokenizer, is_multi = True, is_bertweet = is_bertweet)
     
     training_args = TrainingArguments(
         output_dir="./results_eval_{}_{}".format(MODEL_NAME.replace("/", "-"), component),
@@ -284,7 +310,8 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
 
 filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS + 1)]
 # dataset_combination is a list of lists with three combinations of possible partitions for the dataset, being the first one a list with 8 folders of tweets used for training and the second and third lists with one folder of tweets used for eval and test
-dataset_combinations = [[filePatterns[2:], filePatterns[0:1], filePatterns[1:2]], [filePatterns[1:9], filePatterns[9:], filePatterns[:1]]]
+#dataset_combinations = [[filePatterns[2:], filePatterns[0:1], filePatterns[1:2]], [filePatterns[1:9], filePatterns[9:], filePatterns[:1]]]
+dataset_combinations = [[filePatterns[:8], filePatterns[8:9], filePatterns[9:]], [filePatterns[2:], filePatterns[0:1], filePatterns[1:2]], [filePatterns[1:9], filePatterns[9:], filePatterns[:1]]]
 for combination in dataset_combinations:
     REP = REP + 1
     for cmpnent in components:
@@ -293,6 +320,6 @@ for combination in dataset_combinations:
         data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer)
         model = AutoModelForTokenClassification.from_pretrained(MODEL_NAME, num_labels=2)
         model.to(device)
-        train(0, model, tokenizer, combination[0], combination[1], combination[2], cmpnent)
+        train(0, model, tokenizer, combination[0], combination[1], combination[2], cmpnent, is_bertweet = MODEL_NAME == "bertweet-base")
 
 
