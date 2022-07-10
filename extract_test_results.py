@@ -10,7 +10,7 @@ type_justification = open("test_results_type_justification", "w")
 type_conclusion = open("test_results_type_conclusion", "w")
 
 
-for filename in glob("./test_results_coling/*"):
+for filename in glob("./tests_final_version_with_correct_metrics/*"):
     filename_splitted = filename.split("/")[2].split("_")
     print(filename_splitted)
     if filename_splitted[1] == "test":
@@ -25,8 +25,12 @@ for filename in glob("./test_results_coling/*"):
                 f1 = line_splitted[1]
                 precision = line_splitted[2]
                 recall = line_splitted[3]
+                f1_bin = line_splitted[4]
 
-                to_write = "{},{},{},{},{},{}\n".format(modelname, lr, acc, f1, precision, recall)
+                to_write = "{},{},{},{},{},{},{}".format(modelname, lr, acc, f1, precision, recall, f1_bin)
+
+                break
+
         if component == "Collective":
             collective.write(to_write)
         elif component == "Property":
