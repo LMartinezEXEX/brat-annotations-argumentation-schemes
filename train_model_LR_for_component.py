@@ -48,7 +48,7 @@ def labelComponents(text, component_text):
     return [0] * len(text.strip().split())
 
 
-def labelComponentsFromAllExamples(filePatterns, component, with_embeddings=False):
+def labelComponentsFromAllExamples(filePatterns, component, with_embeddings=False, add_annotator_info=False):
     all_tweets = []
     all_labels = []
 #    if multidataset:
@@ -74,12 +74,20 @@ def labelComponentsFromAllExamples(filePatterns, component, with_embeddings=Fals
                         break
                     if current_component.startswith(component):
                         component_text.append(ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", ""))
-                    if component == "Collective" and current_component.startswith("Property"):
-                        property_text.append(ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", ""))
+                    if add_annotator_info:
+                        if component == "Collective" and current_component.startswith("Property"):
+                            property_text.append(ann[2].lstrip().replace("\n","").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", ""))
+                        if component == "pivot" and current_component.startswith("Premise1Conclusion"):
+                            conclusion_text.append(delete_unwanted_chars(ann[2].lstrip()))
+                        if component == "pivot" and current_component.startswith("Premise2Justification"):
+                            justification_text.append(delete_unwanted_chars(ann[2].lstrip()))
 
 
-            if component == "Collective":
-                tweet_text += " Property: " + " ".join(property_text)
+            if add_annotator_info:
+                if component == "Collective":
+                    tweet_text += " Property: " + " ".join(property_text)
+                if component == "pivot":
+                    tweet_text += " Just: " + " ".join(justification_text) + " Conc: " + " ".join(conclusion_text)
             preprocessed_text = preprocessing.preprocess_tweet(tweet_text) 
             normalized_text = normalize_text(preprocessed_text, component_text)
             labels = labelComponents(" ".join(normalized_text), component_text)
@@ -226,7 +234,7 @@ def train(model, embeddings_model, tokenizer, train_partition_patterns, componen
     y_pred = logreg.predict(X_test)
 
 
-    filename = "results_test_{}_{}_LR_{}_{}".format(C, SOLVER, REP, component)
+    filename = "results_test_{}_{}_LR_{}_{}_no_embed_no_info".format(C, SOLVER, REP, component)
 
     with open(filename, 'w') as w:
         w.write("{},{},{},{}".format(metrics.accuracy_score(y_test, y_pred), metrics.precision_score(y_test, y_pred, average="binary", pos_label=1), metrics.recall_score(y_test, y_pred, average="binary", pos_label=1), metrics.f1_score(y_test, y_pred, average="binary", pos_label=1)))
@@ -248,8 +256,8 @@ for i in range(3):
     for cmpnent in components:
         component = cmpnent
         model = LogisticRegression()
-        embeddings_model = AutoModel.from_pretrained("roberta-base")
-        tokenizer = AutoTokenizer.from_pretrained("roberta-base", add_prefix_space=True)
-        train(model, embeddings_model, tokenizer, filePatterns, cmpnent, random_state=i, with_embeddings=True)
+#        embeddings_model = AutoModel.from_pretrained("roberta-base")
+#        tokenizer = AutoTokenizer.from_pretrained("roberta-base", add_prefix_space=True)
+        train(model, None, None, filePatterns, cmpnent, random_state=i, with_embeddings=False)
 
 
