@@ -12,7 +12,9 @@ labels_justifications_dami = []
 labels_justifications_jose = []
 
 
-filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS + 1)]
+#filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS + 1)]
+
+filePatterns = ["./data/HateEval/partition_spanish/hate_tweet_*.ann"]
 
 def delete_unwanted_chars(text):
         return text.replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "").replace("·", "")
@@ -22,6 +24,9 @@ def labelComponentsFromAllExamples(filePattern, component):
     have_component = 0
     component_words = 0
     all_words = 0
+    type_fact = 0
+    type_value = 0
+    type_policy = 0
     for idxx, f in enumerate(glob.glob(filePattern)):
         print("{}: {}".format(idxx, f))
         annotations = open(f, 'r')
@@ -31,6 +36,10 @@ def labelComponentsFromAllExamples(filePattern, component):
         all_words += len(tweet_text.split())
         component_text = []
         is_argumentative = True
+        premise_codes = []
+        fact = False
+        value = False
+        policy = False
         for idx, word in enumerate(annotations):
             ann = word.replace("\n", "").split("\t")
             #TODO: Si la justificacion esta dividida en mas de una parte esto no va a funcionar. Tampoco funciona si la anotacion corta una palabra a la mitad (por ejemplo, deja el punto final afuera)
@@ -40,25 +49,35 @@ def labelComponentsFromAllExamples(filePattern, component):
                    is_argumentative = False
                    break
                if current_component.startswith(component):
-                   print("insie")
-                   print(delete_unwanted_chars(ann[2]))
                    component_text.append(delete_unwanted_chars(ann[2]))
-                   print(component_text)
-            else:
-                print("NOT LONG ENOUGH")
-                print(f)
-                print(ann)
+                   if component.startswith("Premise"):
+                       premise_codes.append(ann[0])
+               if current_component.startswith("QuadrantType"):
+                   info_splitted = current_component.split(" ")
+                   if info_splitted[1].strip() in premise_codes:
+                       type_of_premise = info_splitted[2].strip()
+                       if type_of_premise == "fact":
+                           fact = True
+                       elif type_of_premise == "value":
+                           value = True
+                       else:
+                           policy = True
+
 
         if not is_argumentative:
-            print("NOT ARGGGG")
             non_argumentatives += 1
         elif len(component_text) > 0:
-            print("COMPONENT TEXT")
-            print(component_text)
             have_component += 1
             component_words += len([word for component in component_text for  word in component.split()])
 
-    return [non_argumentatives, have_component, component_words, all_words]
+        if fact:
+            type_fact += 1
+        elif value:
+            type_value += 1
+        elif policy:
+            type_policy += 1
+
+    return [non_argumentatives, have_component, component_words, all_words, type_fact, type_value, type_policy]
 
 # TODO
 #def labelsAgreementOverlap(annotator1, annotator2, percentage):
@@ -73,10 +92,16 @@ def labelComponentsFromAllExamples(filePattern, component):
 non_argumentative = 0
 have = {}
 words = {}
+facts = {}
+values = {}
+policies = {}
 all_words = 0
 for component in components:
     have[component] = 0
     words[component] = 0
+    facts[component] = 0
+    values[component] = 0
+    policies[component] = 0
     non_argumentative = 0
     all_words = 0
     print("Data for component " + component)
@@ -88,6 +113,9 @@ for component in components:
         have[component] += results[1]
         words[component] += results[2]
         all_words += results[3]
+        facts[component] += results[4]
+        values[component] += results[5]
+        policies[component] += results[6]
     
 print("Total words")
 print(all_words)
@@ -100,3 +128,12 @@ print(have)
 
 print("words")
 print(words)
+
+print("facts")
+print(facts)
+
+print("values")
+print(values)
+
+print("policies")
+print(policies)
