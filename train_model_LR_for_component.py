@@ -200,7 +200,7 @@ def tokenize_examples(dataset, tokenizer, embeddings_model):
     all_embeddings_unpacked = [embed for embeddings in all_embeddings for embed in embeddings]
     return pd.DataFrame([all_embeddings_unpacked, all_labels_unpacked], index=["text", "labels"]).T
 
-def train(model, embeddings_model, tokenizer, train_partition_patterns, component, random_state=0, with_embeddings = False):
+def train(model, embeddings_model, tokenizer, train_partition_patterns, component, random_state=0, with_embeddings = True):
 
     training_set = labelComponentsFromAllExamples(train_partition_patterns, component, with_embeddings=with_embeddings)
     if with_embeddings:
@@ -234,7 +234,7 @@ def train(model, embeddings_model, tokenizer, train_partition_patterns, componen
     y_pred = logreg.predict(X_test)
 
 
-    filename = "results_test_{}_{}_LR_{}_{}_no_embed_no_info".format(C, SOLVER, REP, component)
+    filename = "results_test_{}_{}_LR_{}_{}_w_embed_no_info".format(C, SOLVER, REP, component)
 
     with open(filename, 'w') as w:
         w.write("{},{},{},{}".format(metrics.accuracy_score(y_test, y_pred), metrics.precision_score(y_test, y_pred, average="binary", pos_label=1), metrics.recall_score(y_test, y_pred, average="binary", pos_label=1), metrics.f1_score(y_test, y_pred, average="binary", pos_label=1)))
@@ -256,8 +256,8 @@ for i in range(3):
     for cmpnent in components:
         component = cmpnent
         model = LogisticRegression()
-#        embeddings_model = AutoModel.from_pretrained("roberta-base")
-#        tokenizer = AutoTokenizer.from_pretrained("roberta-base", add_prefix_space=True)
-        train(model, None, None, filePatterns, cmpnent, random_state=i, with_embeddings=False)
+        embeddings_model = AutoModel.from_pretrained("roberta-base")
+        tokenizer = AutoTokenizer.from_pretrained("roberta-base", add_prefix_space=True)
+        train(model, embeddings_model, tokenizer, filePatterns, cmpnent, random_state=i, with_embeddings=True)
 
 

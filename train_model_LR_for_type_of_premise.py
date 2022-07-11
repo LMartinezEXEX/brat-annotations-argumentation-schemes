@@ -33,7 +33,7 @@ component = components[0]
 def delete_unwanted_chars(text):
         return text.replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "").replace("·", "")
 
-def labelAllExamples(filePatterns, component, multidataset = False):
+def labelAllExamples(filePatterns, component, multidataset = False, add_annotator_info = False):
     all_tweets = []
     all_labels = []
     if multidataset:
@@ -68,8 +68,9 @@ def labelAllExamples(filePatterns, component, multidataset = False):
                                type_of_premise = 1
                            elif type_of_premise_text == "policy":
                                type_of_premise = 2
-            if not is_not_argumentative:         
-                tweet_text = tweet_text + " " + component + ": " + " ".join(component_text)
+            if not is_not_argumentative:
+                if add_annotator_info:
+                    tweet_text = tweet_text + " " + component + ": " + " ".join(component_text)
                 preprocessed_text = preprocessing.preprocess_tweet(tweet_text)
                 if multidataset:
                     dicc = {"text": [preprocessed_text], "label": [is_not_argumentative]}
@@ -123,7 +124,7 @@ def tokenize_examples(dataset, tokenizer, embeddings_model):
     all_embeddings = dataset.apply(extract_embeddings, axis=1)
     return pd.DataFrame([all_embeddings, dataset["labels"]], index=["text", "labels"]).T
 
-def train(model, embeddings_model, tokenizer, component, train_partition_patterns, random_state=0, with_embeddings = False):
+def train(model, embeddings_model, tokenizer, component, train_partition_patterns, random_state=0, with_embeddings = True):
 
     training_set = labelAllExamples(train_partition_patterns, component)
     if with_embeddings:
