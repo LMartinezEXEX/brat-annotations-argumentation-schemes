@@ -155,6 +155,6 @@ for i in range(3):
     model = LogisticRegression()
     embeddings_model = AutoModel.from_pretrained("roberta-base")
     tokenizer = AutoTokenizer.from_pretrained("roberta-base", add_prefix_space=True)
-    train(model, embeddings_model, tokenizer, filePatterns, random_state=i, with_embeddings=True)
+    train(model, embeddings_model, tokenizer, filePatterns, random_state=i, with_embeddings=False)
 
 

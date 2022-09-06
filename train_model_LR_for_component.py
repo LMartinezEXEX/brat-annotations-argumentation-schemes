@@ -29,6 +29,8 @@ SOLVER = args.solver
 components = args.components
 component = components[0]
 
+def delete_unwanted_chars(text):
+        return text.replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "").replace("·", "")
 
 def labelComponents(text, component_text):
     if len(text.strip()) == 0:
@@ -48,7 +50,7 @@ def labelComponents(text, component_text):
     return [0] * len(text.strip().split())
 
 
-def labelComponentsFromAllExamples(filePatterns, component, with_embeddings=False, add_annotator_info=False):
+def labelComponentsFromAllExamples(filePatterns, component, with_embeddings=False, add_annotator_info=True):
     all_tweets = []
     all_labels = []
 #    if multidataset:
@@ -62,6 +64,9 @@ def labelComponentsFromAllExamples(filePatterns, component, with_embeddings=Fals
             component_text = []
             if component == "Collective":
                 property_text = []
+            if component == "pivot":
+                justification_text = []
+                conclusion_text = []
             is_argumentative = True
             filesize = 0
             for idx, word in enumerate(annotations):
@@ -234,7 +239,7 @@ def train(model, embeddings_model, tokenizer, train_partition_patterns, componen
     y_pred = logreg.predict(X_test)
 
 
-    filename = "results_test_{}_{}_LR_{}_{}_no_embed_no_info".format(C, SOLVER, REP, component)
+    filename = "results_test_{}_{}_LR_{}_{}_no_embed".format(C, SOLVER, REP, component)
 
     with open(filename, 'w') as w:
         w.write("{},{},{},{}".format(metrics.accuracy_score(y_test, y_pred), metrics.precision_score(y_test, y_pred, average="binary", pos_label=1), metrics.recall_score(y_test, y_pred, average="binary", pos_label=1), metrics.f1_score(y_test, y_pred, average="binary", pos_label=1)))

@@ -27,6 +27,10 @@ def labelComponentsFromAllExamples(filePattern, component):
     type_fact = 0
     type_value = 0
     type_policy = 0
+    cna = 0
+    cnb = 0
+    cnc = 0
+    cnf = 0
     for idxx, f in enumerate(glob.glob(filePattern)):
         print("{}: {}".format(idxx, f))
         annotations = open(f, 'r')
@@ -48,6 +52,14 @@ def labelComponentsFromAllExamples(filePattern, component):
                if current_component.startswith("NonArgumentative"):
                    is_argumentative = False
                    break
+               if current_component.startswith("CounterNarrativeA"):
+                   cna += 1
+               if current_component.startswith("CounterNarrativeB"):
+                   cnb += 1
+               if current_component.startswith("CounterNarrativeC"):
+                   cnc += 1
+               if current_component.startswith("CounterNarrativeFree"):
+                   cnf += 1
                if current_component.startswith(component):
                    component_text.append(delete_unwanted_chars(ann[2]))
                    if component.startswith("Premise"):
@@ -77,7 +89,7 @@ def labelComponentsFromAllExamples(filePattern, component):
         elif policy:
             type_policy += 1
 
-    return [non_argumentatives, have_component, component_words, all_words, type_fact, type_value, type_policy]
+    return [non_argumentatives, have_component, component_words, all_words, type_fact, type_value, type_policy, cna, cnb, cnc, cnf]
 
 # TODO
 #def labelsAgreementOverlap(annotator1, annotator2, percentage):
@@ -96,6 +108,10 @@ facts = {}
 values = {}
 policies = {}
 all_words = 0
+cna = 0
+cnb = 0
+cnc = 0
+cnf = 0
 for component in components:
     have[component] = 0
     words[component] = 0
@@ -104,6 +120,10 @@ for component in components:
     policies[component] = 0
     non_argumentative = 0
     all_words = 0
+    cna = 0
+    cnb = 0
+    cnc = 0
+    cnf = 0
     print("Data for component " + component)
     for partition in filePatterns:
         results = labelComponentsFromAllExamples(partition, component)
@@ -116,6 +136,10 @@ for component in components:
         facts[component] += results[4]
         values[component] += results[5]
         policies[component] += results[6]
+        cna += results[7]
+        cnb += results[8]
+        cnc += results[9]
+        cnf += results[10]
     
 print("Total words")
 print(all_words)
@@ -137,3 +161,15 @@ print(values)
 
 print("policies")
 print(policies)
+
+print("CNA")
+print(cna)
+
+print("CNB")
+print(cnb)
+
+print("CNC")
+print(cnc)
+
+print("CNF")
+print(cnf)

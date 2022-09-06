@@ -12,7 +12,7 @@ type_conclusion = open("test_results_type_conclusion", "w")
 
 
 averages = {}
-for filename in glob("./final_version_test_results_LR/*"):
+for filename in glob("./final_version_test_results_LR_no_embed/*"):
     filename_splitted = filename.split("/")[2].split("_")
     print(filename_splitted)
     if filename_splitted[1] == "test":

@@ -2,8 +2,8 @@ T1	Premise2Justification 62 252	Certainly not the average person's take on a "re
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 23 61	Get off your left wing high horse @cbc
 A2	QuadrantType T2 policy
-T3	Collective 108 115	refugee
-T4	Property 129 145	country shoppers
-T5	Property 151 171	opportunist migrants
-T6	Property 184 210	criminal or terrorist ties
+T3	Collective 107 117	"refugee".
+T4	Property 129 146	country shoppers,
+T5	Property 151 172	opportunist migrants,
+T6	Property 184 211	criminal or terrorist ties,
 T7	Property 223 236	hidden wealth
