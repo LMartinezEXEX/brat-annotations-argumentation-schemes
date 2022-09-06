@@ -124,7 +124,7 @@ def tokenize_examples(dataset, tokenizer, embeddings_model):
     all_embeddings = dataset.apply(extract_embeddings, axis=1)
     return pd.DataFrame([all_embeddings, dataset["labels"]], index=["text", "labels"]).T
 
-def train(model, embeddings_model, tokenizer, component, train_partition_patterns, random_state=0, with_embeddings = False):
+def train(model, embeddings_model, tokenizer, component, train_partition_patterns, random_state=0, with_embeddings = True):
 
     training_set = labelAllExamples(train_partition_patterns, component)
     if with_embeddings:

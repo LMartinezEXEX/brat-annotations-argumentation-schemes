@@ -20,6 +20,7 @@ parser.add_argument('components', type=str, nargs='+', help="Name of the compone
 parser.add_argument('--modelname', type=str, default="roberta-base", help="Name of the language model to be downloaded from huggingface")
 parser.add_argument('--lr', type=float, default=2e-05, help="Learning rate for training the model. Default value is 2e-05")
 parser.add_argument('--batch_size', type=int, default=16, help="Batch size for training and evaluation. Default size is 16")
+parser.add_argument('--add_annotator_info', type=bool, default=False, help="For Pivot and Collective add information about premises and Property respectively that an annotator would have when annotating these components")
 
 args = parser.parse_args()
 
@@ -33,6 +34,7 @@ MODEL_NAME = args.modelname
 REP=0
 components = args.components
 component = components[0]
+add_annotator_info = args.add_annotator_info
 
 def compute_metrics_f1(p: EvalPrediction):
     preds = p.predictions.argmax(-1)
@@ -103,7 +105,7 @@ def labelComponents(text, component_text):
 def delete_unwanted_chars(text):
     return text.replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "").replace("·", "")
 
-def labelComponentsFromAllExamples(filePatterns, component, multidataset = False):
+def labelComponentsFromAllExamples(filePatterns, component, multidataset = False, add_annotator_info = False):
     all_tweets = []
     all_labels = []
     if multidataset:
@@ -115,11 +117,12 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
              # TODO: sacar todos los caracteres especiales
             tweet_text = delete_unwanted_chars(tweet.read())
             component_text = []
-            if component == "Collective":
-                property_text = []
-            if component == "pivot":
-                justification_text = []
-                conclusion_text = []
+            if add_annotator_info:
+                if component == "Collective":
+                    property_text = []
+                if component == "pivot":
+                    justification_text = []
+                    conclusion_text = []
             is_argumentative = True
             filesize = 0
             for idx, word in enumerate(annotations):
@@ -132,18 +135,20 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
                         break
                     if current_component.startswith(component):
                         component_text.append([delete_unwanted_chars(ann[2].lstrip())])
-                    if component == "Collective" and current_component.startswith("Property"):
-                        property_text.append(delete_unwanted_chars(ann[2].lstrip()))
-                    if component == "pivot" and current_component.startswith("Premise1Conclusion"):
-                        conclusion_text.append(delete_unwanted_chars(ann[2].lstrip()))
-                    if component == "pivot" and current_component.startswith("Premise2Justification"):
-                        justification_text.append(delete_unwanted_chars(ann[2].lstrip()))
+                    if add_annotator_info:
+                        if component == "Collective" and current_component.startswith("Property"):
+                            property_text.append(delete_unwanted_chars(ann[2].lstrip()))
+                        if component == "pivot" and current_component.startswith("Premise1Conclusion"):
+                            conclusion_text.append(delete_unwanted_chars(ann[2].lstrip()))
+                        if component == "pivot" and current_component.startswith("Premise2Justification"):
+                            justification_text.append(delete_unwanted_chars(ann[2].lstrip()))
 
 
-            if component == "Collective":
-                tweet_text += " Property: " + " ".join(property_text)
-            if component == "pivot":
-                tweet_text += " Just: " + " ".join(justification_text) + " Conc: " + " ".join(conclusion_text)
+            if add_annotator_info:
+                if component == "Collective":
+                    tweet_text += " Property: " + " ".join(property_text)
+                if component == "pivot":
+                    tweet_text += " Just: " + " ".join(justification_text) + " Conc: " + " ".join(conclusion_text)
             preprocessed_text = preprocessing.preprocess_tweet(tweet_text, lang='en')
             component_text = [preprocessing.preprocess_tweet(comp, lang='en') for comp in component_text]
             normalized_text = normalize_text(preprocessed_text, component_text)
@@ -250,13 +255,13 @@ def normalize_text(tweet_text, arg_components_text):
     return parts_processed
 
 
-def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patterns, test_partition_patterns, component, is_bertweet=False):
+def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patterns, test_partition_patterns, component, is_bertweet=False, add_annotator_info=False):
 
 
-    training_set = tokenize_and_align_labels(labelComponentsFromAllExamples(train_partition_patterns, component), tokenizer, is_bertweet = is_bertweet)
-    dev_set = tokenize_and_align_labels(labelComponentsFromAllExamples(dev_partition_patterns, component), tokenizer, is_bertweet = is_bertweet)
-    test_set = tokenize_and_align_labels(labelComponentsFromAllExamples(test_partition_patterns, component), tokenizer, is_bertweet = is_bertweet)
-    test_set_one_example = tokenize_and_align_labels(labelComponentsFromAllExamples(test_partition_patterns, component, multidataset = True), tokenizer, is_multi = True, is_bertweet = is_bertweet)
+    training_set = tokenize_and_align_labels(labelComponentsFromAllExamples(train_partition_patterns, component, add_annotator_info=add_annotator_info), tokenizer, is_bertweet = is_bertweet)
+    dev_set = tokenize_and_align_labels(labelComponentsFromAllExamples(dev_partition_patterns, component, add_annotator_info=add_annotator_info), tokenizer, is_bertweet = is_bertweet)
+    test_set = tokenize_and_align_labels(labelComponentsFromAllExamples(test_partition_patterns, component, add_annotator_info=add_annotator_info), tokenizer, is_bertweet = is_bertweet)
+    test_set_one_example = tokenize_and_align_labels(labelComponentsFromAllExamples(test_partition_patterns, component, multidataset = True, add_annotator_info=add_annotator_info), tokenizer, is_multi = True, is_bertweet = is_bertweet)
     
     training_args = TrainingArguments(
         output_dir="./results_eval_{}_{}".format(MODEL_NAME.replace("/", "-"), component),
@@ -285,7 +290,6 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
     ) 
 
     trainer.train()
-    print(trainer.evaluate())
 
     results = trainer.predict(test_set)
     filename = "./results_test_{}_{}_{}_{}_{}".format(LEARNING_RATE, MODEL_NAME.replace("/", "-"), BATCH_SIZE, REP, component)
@@ -320,6 +324,6 @@ for combination in dataset_combinations:
         data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer)
         model = AutoModelForTokenClassification.from_pretrained(MODEL_NAME, num_labels=2)
         model.to(device)
-        train(0, model, tokenizer, combination[0], combination[1], combination[2], cmpnent, is_bertweet = MODEL_NAME == "bertweet-base")
+        train(0, model, tokenizer, combination[0], combination[1], combination[2], cmpnent, is_bertweet = MODEL_NAME == "bertweet-base", add_annotator_info=add_annotator_info)
 
 
