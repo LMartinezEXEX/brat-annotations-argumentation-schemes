@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 70 136	we just do not need more migrants a country who want paid for this
+A1	QuadrantType T1 policy
+T2	Premise2Justification 13 56	Turkey is a big place with a big population
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	If there are so many of us, maybe we could also stop having children, right?
+T4	CounterNarrativeC 1 2	D
+#2	AnnotatorNotes T4	"Turkey is a big place with a big population". That seems normal to me, I don't understand the problem with that.

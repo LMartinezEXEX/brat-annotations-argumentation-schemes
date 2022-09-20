@@ -1,0 +1,12 @@
+T1	Premise2Justification 185 249	America can’t in everyone. If a country does not enforce its ow"
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 42 184	“Looking for a better life”, then bloody do it properly. Get in line like the rest of the legal immigrants. Don’t sneak through the back door.
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 1 2	@
+#1	AnnotatorNotes T3	Who says so? Have you seen all the unpopulated land we still have? There is still room for a few more
+T4	Collective 138 148	immigrants
+T5	Property 156 183	sneak through the back door
+T6	CounterNarrativeB 3 4	h
+#2	AnnotatorNotes T6	Maybe if you didn't close the front door to so many people....
+T7	CounterNarrativeA 4 5	e
+#3	AnnotatorNotes T7	But you don't own the country. The decision of who gets in and who doesn't is not on you

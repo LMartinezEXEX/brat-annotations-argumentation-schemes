@@ -1,0 +1,8 @@
+T1	Premise2Justification 13 101	I dont want any effing refugees! Not in Greece, not in America, not anywhere in the West
+A1	QuadrantType T1 value
+T2	Premise1Conclusion 103 117	#SendThemBack!
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	"
+#1	AnnotatorNotes T3	Ok, but just because you don't want something doesn't mean you're right. There still are ethical and legal reasons to receive them.
+T4	CounterNarrativeA 1 2	@
+#2	AnnotatorNotes T4	We're not going to send them back just because a few people don't want them here, you know that's not how it works.

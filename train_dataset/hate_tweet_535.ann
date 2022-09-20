@@ -1,0 +1,14 @@
+T1	Premise2Justification 49 120	Illegal Immigrant Philly Refused To Hand Over To The Feds Raped A Child
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 47	@janeslusser & @PhillyMayor must feel so proud.
+A2	QuadrantType T2 fact
+T3	Premise1Conclusion 145 216	#BanSanctuaryCities #MakeAmericaSafeAgain #DeportIllegals #BuildTheWall
+A3	QuadrantType T3 policy
+T4	Collective 49 66	Illegal Immigrant
+T5	Property 107 120	Raped A Child
+T6	CounterNarrativeC 248 249	t
+#1	AnnotatorNotes T6	I didn't see that news item, but even if it were true, you can't generalize.
+T7	CounterNarrativeA 247 248	S
+#2	AnnotatorNotes T7	Deporting all immigrants because ONE of them committed a crime does not sound fair at all.
+T8	CounterNarrativeB 249 250	o
+#3	AnnotatorNotes T8	So you think all immigrants are kidnappers? That's not true

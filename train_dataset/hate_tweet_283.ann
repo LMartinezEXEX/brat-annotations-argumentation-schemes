@@ -1,0 +1,8 @@
+T1	Premise2Justification 83 155	which requires all adults entering illegally to be criminally prosecuted
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 82	The news is full of stories and outrage over our governments Zero Tolerance policy
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 239 240	A
+#1	AnnotatorNotes T3	It's a little more complex than that. Not only do they persecute the legal ones, but they endanger the lives of many by making them take risky decisions to protect themselves...
+T4	CounterNarrativeA 238 239	5
+#2	AnnotatorNotes T4	Perhaps because that policy is excessively inhumane....

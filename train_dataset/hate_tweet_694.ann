@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 99 138	#BuildTheWall #SecureBorders #NoAmnesty
+T2	Premise2Justification 0 73	In stretch of #Arizona border, #illegalalien migrant families keep coming
+T3	CounterNarrativeA 92 93	P
+#1	AnnotatorNotes T3	You are assuming that migrants coming is a bad thing per se
+T4	CounterNarrativeA 75 76	h
+#2	AnnotatorNotes T4	How do you know how many migrant families are coming and from where? I think you are just trying to induce fear
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy

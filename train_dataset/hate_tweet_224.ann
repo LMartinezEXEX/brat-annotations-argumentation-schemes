@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 78	About 3700 refugeemedicinedoctors are allowed to work in Germany in hospitals.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 79 241	Now they realize that some of them are not on the standard of western medicine and often some buyed the certificats home without knowledge. So some patients died.
+A2	QuadrantType T2 fact
+T3	Collective 11 18	refugee
+T4	Property 173 217	buyed the certificats home without knowledge
+T5	pivot 18 33	medicinedoctors
+T6	pivot 149 157	medicine
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeA 252 253	c
+#1	AnnotatorNotes T7	Don't test the foreign professionals in your country? If not... well, whose fault is it?
+T8	CounterNarrativeB 253 254	o
+#2	AnnotatorNotes T8	It is as if you believe that there are no good universities outside your country. That's completely wrong
+T9	CounterNarrativeC 254 255	/
+#3	AnnotatorNotes T9	So many? Sounds like an invention to complain about those they don't like. Sorry, but I don't believe that

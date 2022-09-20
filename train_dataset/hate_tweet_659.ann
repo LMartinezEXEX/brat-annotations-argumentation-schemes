@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 58	Mexican Fugitive Wanted For Murder Found In South Carolina
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 59 125	We need a wall to keep these scum out of our country!#BuildTheWall
+A2	QuadrantType T2 policy
+T3	Collective 0 7	Mexican
+T4	Property 28 34	Murder
+T5	pivot 100 111	our country
+T6	pivot 44 58	South Carolina
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeA 145 146	M
+#1	AnnotatorNotes T7	Or just better controls to keep criminals out. A wall is a waste of time and money
+T8	CounterNarrativeB 146 147	A
+#2	AnnotatorNotes T8	Well, criminals are everywhere. As long as you don't generalize...
+T9	CounterNarrativeC 147 148	G
+#3	AnnotatorNotes T9	Does it bother you that he is a murderer? Because it seems to bother you more that he's Mexican.

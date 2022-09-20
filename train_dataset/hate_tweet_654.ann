@@ -1,0 +1,14 @@
+T1	Premise2Justification 44 177	Today in MD, 4 MA13 convicted on multiple robbery charges. 3 of the 4 are illegals. NC, an illegal kills motorcyclist in hit and run.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 178 192	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	Collective 135 142	illegal
+T4	Property 86 93	robbery
+T5	Property 143 148	kills
+T6	Property 165 176	hit and run
+T7	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T7	A wall to protect us from an assault on a motorcycle? That's a little much, don't you think?Too much paranoia
+T8	CounterNarrativeB 2 3	e
+#2	AnnotatorNotes T8	Let's assume that the news is true. Why does his nationality matter only when he is a foreigner and a criminal? Are our criminals less criminal?
+T9	CounterNarrativeC 3 4	a
+#3	AnnotatorNotes T9	Where can I check the news? I mean, if it's not another invention of the yellow press.

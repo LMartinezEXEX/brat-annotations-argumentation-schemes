@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 18 124	Chuck Todd will not debate you for the same reason that Carrot Top would not fight Mike Tyson in his prime
+A1	QuadrantType T1 fact
+T2	Premise2Justification 126 212	BOTH Todd & CT w/be decimated & never the same. Which in Todd's case w/be a good thing
+T3	pivot 131 135	Todd
+T4	pivot 24 28	Todd
+R1	related Arg1:T3 Arg2:T4	
+A2	QuadrantType T2 fact
+T5	CounterNarrativeA 232 233	T
+#1	AnnotatorNotes T5	Are you comparing politics to a boxing match? There's no way to progress that.
+T6	CounterNarrativeC 233 234	r
+#2	AnnotatorNotes T6	Fear is not the only reason to not to do something, sometimes it just doesn't seem like the right thing to do, and that's it.

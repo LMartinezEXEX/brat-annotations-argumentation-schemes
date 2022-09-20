@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 72 108	stop migrants dictating to us via eu
+A1	QuadrantType T1 policy
+T2	Premise2Justification 15 67	Stop being spineless and tell the Eu its our country
+A2	QuadrantType T2 policy
+T3	pivot 106 108	eu
+T4	pivot 49 51	Eu
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 1 2	C
+#1	AnnotatorNotes T5	To be independent is not to decide "against" others, but to decide freely. It is one thing to demand that the EU does not dictate to us. Another is to pretend that this is sufficient reason to argue for a radical change of policies.
+T6	CounterNarrativeC 3 4	n
+#2	AnnotatorNotes T6	Technically, you are not the one who decides whose country is and whose is not...
+T7	Collective 77 85	migrants
+T8	Property 86 108	dictating to us via eu

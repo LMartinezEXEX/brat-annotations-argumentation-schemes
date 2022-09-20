@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 93	Are you fucking kidding me, the EU has forced us to treat non EU migrants like shit for years
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 95 159	Brexit will allow us to treat everyone on an equal playing field
+A2	QuadrantType T2 fact
+T3	pivot 32 34	EU
+T4	pivot 95 101	Brexit
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 175 176	e
+#1	AnnotatorNotes T5	You mean treat everyone better? Or treating everyone like shit? I hope the first one...

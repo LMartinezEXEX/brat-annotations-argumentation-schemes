@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 125	Hispanics are the hardest hit by Illegal Immigration it impacts their wages, jobs and communites as well as African Americans
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 136 201	#WalkAwayFromDemocrats Socialist Pro Illegal Immigration Policies
+A2	QuadrantType T2 policy
+T3	Collective 33 52	Illegal Immigration
+T4	Property 56 96	impacts their wages, jobs and communites
+T5	pivot 173 192	Illegal Immigration
+T6	pivot 33 52	Illegal Immigration
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 202 203	@
+#1	AnnotatorNotes T7	No. It makes no sense that a group of immigrants should be affected by immigration...
+T8	CounterNarrativeB 203 204	S
+#2	AnnotatorNotes T8	Why would immigration affect wages and jobs? Besides, they are usually the ones who take the jobs that no one wants.
+T9	CounterNarrativeA 204 205	e
+#3	AnnotatorNotes T9	This is opposition political propaganda. Because I don't think any party is in favor of something "illegal.

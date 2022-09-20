@@ -1,0 +1,14 @@
+T1	Premise1Conclusion 111 134	GOOD!!! ONLY THE BEST!!
+A1	QuadrantType T1 value
+T2	Premise1Conclusion 135 166	Welfare leeches Go back home!!!
+A2	QuadrantType T2 policy
+T3	Premise2Justification 0 69	White House wants to make it harder for legal migrants to be citizens
+A3	QuadrantType T3 fact
+T4	Collective 40 54	legal migrants
+T5	Property 135 150	Welfare leeches
+T6	CounterNarrativeA 89 90	U
+#1	AnnotatorNotes T6	I do not believe that paperwork is an effective filter for welfare leechers. It's not an economic issue, they are just making life difficult for a lot of people.
+T7	CounterNarrativeC 88 89	8
+#2	AnnotatorNotes T7	What exactly does "harder" mean? I don't think it's a good idea
+T8	CounterNarrativeB 87 88	P
+#3	AnnotatorNotes T8	It makes no sense for you to accuse people who come looking for work of being "welfare leechers". They are precisely the opposite

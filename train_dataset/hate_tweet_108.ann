@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 79	ICE officers arrest 32 sex offenders on Long Island as part of 'Operation SOAR'
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 103 136	#StopTheInvasion #SecureTheBorder
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 95 96	k
+#1	AnnotatorNotes T3	Are you sure they were immigrants? I don't see that you included any source

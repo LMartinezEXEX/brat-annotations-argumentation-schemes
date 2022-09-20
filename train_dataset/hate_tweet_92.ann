@@ -1,0 +1,15 @@
+T1	Premise2Justification 40 144	100% agreed. These are illegal aliens, not immigrants. Boat people are a sugar-coated way of putting it.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 145 257	It scares me that many Australians on Twitter still think its okay for these """"immigrants"""" to just turn up.
+A2	QuadrantType T2 value
+T3	Collective 95 106	Boat people
+T4	Property 63 77	illegal aliens
+T5	pivot 226 236	immigrants
+T6	pivot 83 93	immigrants
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 0 1	"
+#1	AnnotatorNotes T7	How they arrived does not change the fact that they are people, trying to make a living.
+T8	CounterNarrativeB 1 2	"
+#2	AnnotatorNotes T8	It's not like they're trying to cheat the system. It's just that they had no choice.
+T9	CounterNarrativeA 2 3	"
+#3	AnnotatorNotes T9	Well, it's their country, and if they agree with it, what's the problem?

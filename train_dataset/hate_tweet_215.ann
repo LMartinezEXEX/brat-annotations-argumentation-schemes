@@ -1,0 +1,8 @@
+T1	Premise2Justification 56 108	it will never be a christian-jewish nation in future
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 14 55	If USA not stop the imigration of muslims
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	And why should they be a Jewish-Christian nation? Historically were many religions and cultures there, you cannot impose only the one you like.
+T4	CounterNarrativeA 1 2	T
+#2	AnnotatorNotes T4	Are you saying that Muslims attack Jews and Christians? Because it really just seems like you're being racist towards them.

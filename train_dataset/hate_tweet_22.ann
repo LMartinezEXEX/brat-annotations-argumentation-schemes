@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 140 249	This father is very misguidedAnd it's wrong of the father to blame America for the actions of #IllegalAliens"
+A1	QuadrantType T1 fact
+T2	Premise2Justification 1 140	Akin to rape victims apologizing to the refugee rapists in EuropeIt's just wrongIf you cannot name the problem, you can't solve the problem
+A2	QuadrantType T2 fact
+T3	Collective 41 48	refugee
+T4	Property 49 56	rapists
+T5	pivot 242 248	Aliens
+T6	pivot 41 48	refugee
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeB 0 1	"
+#1	AnnotatorNotes T7	It is not true that all refugees are rapists, nor that all rapists are refugees.
+T8	CounterNarrativeC 1 2	A
+#2	AnnotatorNotes T8	But if you name the wrong problem you can't solve the real problem either.

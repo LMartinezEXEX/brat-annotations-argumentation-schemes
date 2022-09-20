@@ -1,0 +1,8 @@
+T1	Premise2Justification 75 162	or you can have scores of illegal immigrants; you can NOT afford both. Plain and simple
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 25 74	You can have a decent society that works properly
+A2	QuadrantType T2 policy
+T4	CounterNarrativeA 1 2	L
+#1	AnnotatorNotes T4	A decent society that works properly is not shocked by immigrants.
+T3	CounterNarrativeC 0 1	@
+#2	AnnotatorNotes T3	Why can't you face both, I mean, just like everywhere else in the world?

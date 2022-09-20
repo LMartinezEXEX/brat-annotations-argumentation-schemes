@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 95	It's the drugs pouring across our southern border that is killing our children and young people
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 96 110	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 122 123	T
+#1	AnnotatorNotes T3	A wall will not prevent drugs from entering, but it will make life difficult for immigrants, and it will be an important waste of money...
+T4	CounterNarrativeC 124 125	u
+#2	AnnotatorNotes T4	Are you suggesting that there is no other danger, entering through any other way, in any other direction? Or does this one matter too much to you because of your prejudices?

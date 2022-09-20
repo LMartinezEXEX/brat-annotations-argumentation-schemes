@@ -1,0 +1,8 @@
+T1	Premise2Justification 34 54	USA NEEDS TO WAKE UP
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 55 77	#NoRefugees#NoMigrants
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 94 95	n
+#1	AnnotatorNotes T3	It is not as if they were "asleep". "Awakening" and "No Migrants" have nothing to do with each other.
+T4	CounterNarrativeA 93 94	o
+#2	AnnotatorNotes T4	"Wake up" is just a way of asking others to think like you. Don't believe that your point of view is special.

@@ -1,0 +1,8 @@
+T1	Premise2Justification 14 88	IT'S 'NICE' OF 'YOU' TO 'ADMIT' THAT '#Labour VOTERS' DO NOT HAVE ANY 'ID'
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 87 139	'I 'WONDER' WHY 'THAT' COULD 'BE'#refugeesNOTwelcome
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	I don't think there are people voting without ID. It is an indispensable requirement
+T4	CounterNarrativeA 1 2	s
+#2	AnnotatorNotes T4	Are you suggesting that refugees vote? I doubt that they do.

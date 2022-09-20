@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 74 147	Please shut them down & arrest/prosecute all criminal Governors & Mayors.
+A1	QuadrantType T1 policy
+T2	Premise2Justification 36 72	Sanctuary Cities are against the Law
+T3	pivot 36 52	Sanctuary Cities
+T4	pivot 86 90	them
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 36 146	Sanctuary Cities are against the Law. Please shut them down & arrest/prosecute all criminal Governors & Mayors
+#1	AnnotatorNotes T5	There is no such thing as Sanctuary Cities.
+A2	QuadrantType T2 fact

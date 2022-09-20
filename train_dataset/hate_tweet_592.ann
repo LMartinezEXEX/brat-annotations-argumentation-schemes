@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 60	Why should people here illegally be counted and represented?
+A1	QuadrantType T1 value
+T2	Premise1Conclusion 61 116	Send them home and build the wall.#ncpol #BuildThatWall
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 114 115	l
+#1	AnnotatorNotes T3	Let's assume they shouldn't be counted or represented. Why would a wall be necessary?
+T4	CounterNarrativeC 113 114	a
+#2	AnnotatorNotes T4	Why they shouldn't be counted and represented? I mean, they are people, and they are here too, right?
+T5	Collective 11 32	people here illegally
+T6	Property 36 59	counted and represented

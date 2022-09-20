@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 124	When did Angela Merkel last said something "hello germany/berlin/cologne/munich I LOVE YOU, THANK YOU!" ?Oh. Never happened.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 125 278	She even threw away our country flag.Oh, and invited 2 billion of illegal aliens into our country, while other imigrants like turks, are already so toxic
+A2	QuadrantType T2 fact
+T3	Collective 236 245	imigrants
+T4	Property 258 278	are already so toxic
+T5	CounterNarrativeA 293 294	R
+#1	AnnotatorNotes T5	I don't see the relationship between behaving in an undemonstrative way and hating your whole country.... I think you are the toxic one
+T6	CounterNarrativeB 294 295	4
+#2	AnnotatorNotes T6	Every country was built with immigrant labor. If they were ALL toxic how would this be possible? Don't let your bad experience cloud your judgment....
+T7	CounterNarrativeC 295 296	R
+#3	AnnotatorNotes T7	Maybe you should watch all his speeches, and not always the same one...

@@ -1,0 +1,12 @@
+T1	Premise2Justification 48 113	the city of London shortly run to destroyed by foreign immigrants
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 14 46	Here you see the waste of Europe
+A2	QuadrantType T2 fact
+T3	Collective 103 113	immigrants
+T4	Property 48 102	the city of London shortly run to destroyed by foreign
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	You are assuming that it is a waste because the immigrants would do something in the future. Something that hasn't happened yet, and may never happen...
+T6	CounterNarrativeB 1 2	T
+#2	AnnotatorNotes T6	London has endured for hundreds of years, it's not going to be destroyed by a couple of immigrants...
+T7	CounterNarrativeC 4 5	E
+#3	AnnotatorNotes T7	The City of London, destroyed? Just lies. I see it shining like never before

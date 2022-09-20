@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 162 210	But white countries are suppose to accept them??
+T2	Premise2Justification 0 162	Rich African Countries don't take in African MigrantsRich muslim countries don't take in muslim migrantsRich latin american countries don't take it latin migrants
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy
+T3	pivot 45 53	Migrants
+T4	pivot 204 208	them
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 209 210	?
+#1	AnnotatorNotes T5	So you are suggesting that Rich African Countries should be our role model to lead? Which Rich African Country do you think we should follow?
+T6	CounterNarrativeC 208 209	?
+#2	AnnotatorNotes T6	What you are saying is not true, there is immigration between all African countries, all muslim countries and all Latin American Countries

@@ -1,0 +1,13 @@
+T1	Premise2Justification 219 266	Women citizens and illegals dont have the honor
+T7	Premise2Justification 73 195	Male illegal aliens dont have the honor to sign up for selective services which is obligatory by law for all male citizens
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 197 218	No signature, NO JOB!
+T8	Premise1Conclusion 268 318	Yep, I see EQUALITY happening all over this place.
+A2	QuadrantType T2 policy
+T3	pivot 200 209	signature
+T4	pivot 116 123	sign up
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 20 21	n
+#1	AnnotatorNotes T5	Because they are not citizens. You can't demand that they fulfill their obligations if you don't recognize their rights first.
+T6	CounterNarrativeA 21 22	y
+#2	AnnotatorNotes T6	Would you do the same for citizens who are exempt from signing up? No, wouldn't you? Then why.

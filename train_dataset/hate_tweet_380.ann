@@ -1,0 +1,14 @@
+T1	Premise1Conclusion 203 255	#SendThemBack  Cut off the welfare  Mandatory E-Veri
+T2	Premise2Justification 0 156	@RealDonaldTrump FAIRIimmigration Esimates 12.5 Million Illegals in the U.S and their cost which doesnt include the welfare their collect for #AnchorBabies!
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy
+T3	CounterNarrativeA 201 202	A
+#1	AnnotatorNotes T3	You are talking about cutting aid for people in need while the US has the richest companies in the world
+T4	CounterNarrativeC 195 196	p
+#2	AnnotatorNotes T4	I think you are exagerating the cost of illegal immigration just to justify xenophobia and hate. You should check your sources.
+T5	Collective 56 64	Illegals
+T6	Property 86 90	cost
+T7	CounterNarrativeB 185 186	d
+#3	AnnotatorNotes T7	Illegals pay taxes because they spend their money on taxed things. They are not an important cost to the state.
+T8	pivot 56 64	Illegals
+T9	pivot 208 212	Them

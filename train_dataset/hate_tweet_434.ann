@@ -1,0 +1,8 @@
+T1	Premise2Justification 41 191	Should #Trump do the same thing as Obama an give them to Child Trafficers with no DNA test and no immigration status check just give them to criminals
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 192 212	is that your stance?
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 231 232	K
+#1	AnnotatorNotes T3	why do you assume that this should be my stance? what you are saying is very wrong...
+T4	CounterNarrativeC 232 233	a
+#2	AnnotatorNotes T4	Do you have any proof that Obama did anything like that, or did you get that from a conspiratorial Facebook post?

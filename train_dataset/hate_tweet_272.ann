@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 121	"""""""There will be NO #Amnesty"""" was @POTUS CLEAR Campaign PROMiSE made at his WELL PUBLICIZED """"Arizona Speech""""
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 122 227	so #Trump MUST HONOR that promise & CANCEL #OBAMA's #illegalAlien #DACA EO & also VETO any #GOPe #Amnesty
+A2	QuadrantType T2 policy
+T3	pivot 63 70	PROMiSE
+T4	pivot 148 155	promise
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 250 251	o
+#1	AnnotatorNotes T5	Maybe he realized it wasn't a good idea, or maybe he lied.
+T6	CounterNarrativeC 249 250	N
+#2	AnnotatorNotes T6	Well, it was a wrong promise. I hope he doesn't honor it, there's no reason to mess with immigrants.

@@ -1,0 +1,8 @@
+T1	Premise2Justification 16 56	Those ppl create chaos wherever they go!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 57 70	#SendThemBack
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 93 94	e
+#1	AnnotatorNotes T3	Some of ours also create chaos, where do we send them, or they don't bother you?
+T4	CounterNarrativeC 94 95	v
+#2	AnnotatorNotes T4	Who are "those people"? Put this way, it sounds like you are talking about some crazy anarchist, like the ones that exist in every country.

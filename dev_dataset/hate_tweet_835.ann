@@ -1,0 +1,13 @@
+T1	Premise2Justification 80 114	Whole refugee industry is a racket
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 16 79	These refugee groups need to get into another line of business.
+A2	QuadrantType T2 fact
+T3	pivot 22 29	refugee
+T4	pivot 86 93	refugee
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	In which way do you suggest that immigration is a business, and why exactly would it be a fraud? Do you have arguments or is it just your xenophobic opinion? 
+T6	CounterNarrativeC 1 2	M
+#2	AnnotatorNotes T6	What industry, man? Most of them don't even have a guaranteed plate of food
+T7	Collective 86 93	refugee
+T8	Property 108 114	racket

@@ -1,0 +1,17 @@
+T1	Premise1Conclusion 0 26	Democratic straw clutching
+T2	Premise1Conclusion 144 206	therefore they seek to insult rather than tell a better story.
+T3	Premise2Justification 29 142	They know they dont appeal to the real voters with policies for the few globalists immigrants and illegal voters.
+T4	pivot 29 33	They
+T5	pivot 0 10	Democratic
+T6	CounterNarrativeA 208 209	@
+#1	AnnotatorNotes T6	Are you saying that anyone who supports migrants rights is automatically desperate and needs a better story? Maybe try stop navel-gazing?
+T7	CounterNarrativeC 211 212	a
+#2	AnnotatorNotes T7	What proof do you have that real voters are not appealed by inclusive policies that contemplates all human beings?
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+A3	QuadrantType T3 fact
+T8	Collective 112 122	immigrants
+T9	Property 101 111	globalists
+T10	Property 127 141	illegal voters
+T11	CounterNarrativeB 223 224	p
+#3	AnnotatorNotes T11	Immigrants are people trying to improve their life. They are not illegal voters and they are not necessarily "globalists"

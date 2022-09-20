@@ -1,0 +1,17 @@
+T1	Premise1Conclusion 9 93	Just deport all these illegal aliens and their kids back to their 3rd world nations.
+T2	Premise2Justification 95 218	merican citizens taxpayers are tired of being robbed by the 3rd world nation paying for these illegal aliens and their kids
+T3	Collective 31 60	illegal aliens and their kids
+T4	Collective 189 218	illegal aliens and their kids
+R6	firstOrder Arg1:T1 Arg2:T2	
+T9	CounterNarrativeA 254 255	e
+#1	AnnotatorNotes T9	Some American taxpayers being tired of "being robbed" don't justify deporting kids
+T11	CounterNarrativeB 253 254	n
+#2	AnnotatorNotes T11	Illegal aliens and their kids are not robbing anyone
+T12	CounterNarrativeC 252 253	m
+#3	AnnotatorNotes T12	All American citizens? Or maybe just the xenophobous ones?
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+T5	pivot 31 60	illegal aliens and their kids
+T6	pivot 189 219	illegal aliens and their kids!
+R1	related Arg1:T5 Arg2:T6	
+T7	Property 172 218	paying for these illegal aliens and their kids

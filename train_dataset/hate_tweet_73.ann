@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 90	Tucker Carson "We need to start looking at the relationship between immigration and crime"
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 91 111	Yes we do thanks bro
+A2	QuadrantType T2 policy
+T3	Collective 68 79	immigration
+T4	Property 84 89	crime
+T5	CounterNarrativeC 122 123	’
+#1	AnnotatorNotes T5	That relationship does not exist... by the way, who is he?
+T6	CounterNarrativeA 121 122	Ÿ
+#2	AnnotatorNotes T6	just because that guy said so? No,  I don't think so.
+T7	CounterNarrativeB 120 121	ð
+#3	AnnotatorNotes T7	The majority of immigrants are not criminals, but honest workers looking to make a living.

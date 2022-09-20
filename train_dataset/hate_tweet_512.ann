@@ -1,0 +1,8 @@
+T1	Premise2Justification 13 26	See it WORKS!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 27 55	#BuildThatWall #BuildTheWall
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	Why do you say so? I only see that it doesn't
+T4	CounterNarrativeA 1 2	R
+#2	AnnotatorNotes T4	Look, even if you're right that it "works," what matters is not that, but that it's the right thing to do.

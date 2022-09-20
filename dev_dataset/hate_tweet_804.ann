@@ -1,0 +1,15 @@
+T1	Premise2Justification 151 178	Always a Scam with Illegals
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 14 147	Arrest the #DACA  Illegals that Voted in #Texas and all illegals and non citizens that voted give them 20 years then Deport them ASAP
+A2	QuadrantType T2 policy
+T3	pivot 32 40	Illegals
+T4	pivot 170 178	Illegals
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 247 248	0
+#1	AnnotatorNotes T5	Can you explain to me how this scam works and what they are stealing from you? no? i thought so....
+T6	Collective 170 178	Illegals
+T7	Property 160 164	Scam
+T8	CounterNarrativeB 245 246	U
+#2	AnnotatorNotes T8	What kind of scam is that? they are only illegal because people like you decided to make illegal all those who were born in other places?
+T9	CounterNarrativeA 243 244	7
+#3	AnnotatorNotes T9	Would you rather pay with your taxes to support these people, instead of overhauling the system, which is clearly wrong? What a stupid decision...

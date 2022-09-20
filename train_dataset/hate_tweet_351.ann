@@ -1,0 +1,12 @@
+T1	Premise2Justification 23 127	Dark-side of OpenBordersðŸ‘‰Greek police arrest 8 migrants (6 Afghans, 2 Pakistani) for killing migrant.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 127 266	What awaits Europe? Why expose Europeans to multicult madness? Afghans?  Many come from violent cultures, bringing “tribal clashes” w-them.
+A2	QuadrantType T2 fact
+T3	Collective 73 81	migrants
+T4	Property 215 231	violent cultures
+T5	CounterNarrativeB 276 277	#
+#1	AnnotatorNotes T5	Just because a person is violent does not mean that his or her culture is violent. Stop generalizing
+T6	CounterNarrativeC 277 278	V
+#2	AnnotatorNotes T6	Did they really get caught for that? Or did they invent that to arrest them for being immigrants?
+T7	CounterNarrativeA 277 278	V
+#3	AnnotatorNotes T7	There should be ways to prevent criminals and violent people from entering without banning immigration altogether....  better controls, for example.

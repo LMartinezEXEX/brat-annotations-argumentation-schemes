@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 152	#DACA is Illegal Will End- Because their Parents Are Criminals Crossing a Border Illegally or OverStaying their Visas Doesnt mean their kids get to stay
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 153 213	Stop Rewarding Illegal #Immigration Enforce the Laws #NoDACA
+A2	QuadrantType T2 policy
+T3	Collective 168 188	Illegal #Immigration
+T4	Property 53 62	Criminals
+T5	pivot 9 16	Illegal
+T6	pivot 168 175	Illegal
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeA 250 251	k
+#1	AnnotatorNotes T7	Nobody is rewarding illegal immigration, but the children are not to blame for anything, it is not right to treat them like that.
+T8	CounterNarrativeB 249 250	c
+#2	AnnotatorNotes T8	Illegal immigration is a crime only because it was established that way, not because it does any real harm. Let's stop treating them like real criminals.
+T9	CounterNarrativeC 248 249	a
+#3	AnnotatorNotes T9	I thought that if a child was raised here he/she had the right to citizenship. Doesn't the law say so?

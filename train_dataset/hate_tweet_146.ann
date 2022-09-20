@@ -1,0 +1,16 @@
+ 
+T3	Collective 0 11	Immigration
+T1	Premise1Conclusion 0 22	Immigration gone crazy
+T2	Premise2Justification 23 164	100 trainee doctors from abroad what about Nurse Practitioners who are their equivalent get pain peanuts and are trained and come from the UK
+T4	Property 12 22	gone crazy
+T5	pivot 43 54	from abroad
+T6	pivot 0 11	Immigration
+R1	related Arg1:T6 Arg2:T5	
+A1	QuadrantType T1 value
+A2	QuadrantType T2 fact
+T7	CounterNarrativeA 163 164	K
+#1	AnnotatorNotes T7	Are you implying that immigration is out of control just because 100 doctors came from abroad? Do you know how many people live in this country?
+T8	CounterNarrativeB 162 163	U
+#2	AnnotatorNotes T8	The only thing that has gone crazy are the xenophobic ignorants like you
+T10	CounterNarrativeC 160 161	e
+#3	AnnotatorNotes T10	And you think that Nurse Practitioners are being poorly paid because 100 doctors came from abroad?

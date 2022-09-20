@@ -1,0 +1,11 @@
+T1	Premise2Justification 160 244	We are losing our legal citizens to those who should not be here in the first place!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 28 159	String him up to show the message that you will pay for your crimes in a COUNTRY where you are NOT supposed to be in!#BuildThatWall
+A2	QuadrantType T2 policy
+T3	pivot 184 192	citizens
+T4	pivot 101 108	COUNTRY
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	People are free to travel the world. That "they should not be here" is just xenophobia.
+T6	CounterNarrativeA 1 2	O
+#2	AnnotatorNotes T6	Building a wall to prevent human rights such as migration is wrong, and probably illegal.

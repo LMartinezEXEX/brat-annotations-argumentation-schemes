@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 127	Michelle Malkin provides proof that European governments and press are actively covering up epidemic rape by Muslim immigrants.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 36 126	European governments and press are actively covering up epidemic rape by Muslim immigrants
+A2	QuadrantType T2 fact
+T3	Collective 109 126	Muslim immigrants
+T4	Property 92 126	epidemic rape by Muslim immigrants
+T5	CounterNarrativeA 215 216	b
+#1	AnnotatorNotes T5	And the evidence is... "just believe me"?
+T6	CounterNarrativeB 216 217	y
+#2	AnnotatorNotes T6	Can you prove that all refugees are rapists? You're just another xenophobe behind a keyboard.
+T7	CounterNarrativeC 228 229	/
+#3	AnnotatorNotes T7	I saw no proof of anything. Stop making up numbers to justify your xenophobia!

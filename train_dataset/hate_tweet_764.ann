@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 185 239	Really didnt care about his Family huh ? #SendthemBack
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 184	An Illegal Alien took his own life because he decide he would break into the U.S Steal IDs and SSN to Work Illegally Robbing the U.S instead of sending for his family he killed himself
+A2	QuadrantType T2 fact
+T3	Collective 11 16	Alien
+T4	Property 62 132	break into the U.S Steal IDs and SSN to Work Illegally Robbing the U.S
+T5	pivot 156 166	his family
+T6	pivot 209 219	his Family
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 247 248	a
+#1	AnnotatorNotes T7	I don't understand how someone "kills himself" by working illegally. In any case, it is not the fault of the one who hires...that is, after all, a citizen?
+T8	CounterNarrativeB 246 247	r
+#2	AnnotatorNotes T8	It's a pun. Everyone is illegal if you don't recognize it...

@@ -1,0 +1,13 @@
+T1	Premise2Justification 36 98	the rest goes to the humongous benefit bill for the immigrants
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 1 33	Germany can't even afford the 1%
+A2	QuadrantType T2 fact
+T3	Collective 88 98	immigrants
+T4	Property 53 83	the humongous benefit bill for
+T5	pivot 20 26	afford
+T6	pivot 75 79	bill
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 116 117	e
+#1	AnnotatorNotes T7	The rest of what? Can you justify that this money should not be used for aid? or are you simply one of those who do not believe in aid?
+T8	CounterNarrativeB 117 118	A
+#2	AnnotatorNotes T8	"humongous benefit bills" that are not enough to live on? 

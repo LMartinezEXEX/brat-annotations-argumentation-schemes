@@ -1,0 +1,11 @@
+T1	Premise2Justification 12 52	Does Great Britain need a Wall too now??
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 53 67	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	pivot 38 42	Wall
+T4	pivot 63 67	Wall
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	No, it doesn't
+T6	CounterNarrativeA 1 2	x
+#2	AnnotatorNotes T6	Why? It won't make any difference

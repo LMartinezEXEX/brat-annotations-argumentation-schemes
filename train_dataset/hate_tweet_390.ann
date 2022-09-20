@@ -1,0 +1,9 @@
+T1	Premise2Justification 24 110	THANK YOU FOR GETTING ILLEGAL ALIENS OUT OF OUR SOVEREIGN COUNTRY AND OFF OUR STREETS.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 23	"@ICEgov GOD BLESS ICE,
+A2	QuadrantType T2 value
+T3	pivot 54 60	ALIENS
+T4	pivot 19 22	ICE
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 112 113	N
+#1	AnnotatorNotes T5	It is not necessarily good what they are doing. Maybe if it were easier to immigrate legally...

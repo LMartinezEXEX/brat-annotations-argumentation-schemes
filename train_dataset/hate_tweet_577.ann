@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 0 13	Why #NoDACA ?
+A1	QuadrantType T1 policy
+T2	Premise2Justification 13 230	Illegals est. between 11 - 30 millionIllegal vote 80% Dem or 600,000 Dem vote advantage / 1,000,000 illegal voters70,000 votes gave @POTUS 2016 electionWHY do you think DEMS pushing no walls, no borders, no VOTER IDs?
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 268 269	d
+#1	AnnotatorNotes T3	Those are pretty strong statistics. Too bad they look invented.
+T4	CounterNarrativeA 267 268	e
+#2	AnnotatorNotes T4	It doesn't seem to be a relationship between these statistics and DACA....

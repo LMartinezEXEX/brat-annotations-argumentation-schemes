@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 42	Tried and true method with proven results.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 43 57	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 40 41	s
+#1	AnnotatorNotes T3	When have you ever seen such a thing actually attempted?  Stop kidding...
+T4	CounterNarrativeA 38 39	l
+#2	AnnotatorNotes T4	Just because some random guy on the internet says so... how's that!

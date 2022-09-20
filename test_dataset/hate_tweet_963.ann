@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 0 40	Seriously. Get these people out of there
+A1	QuadrantType T1 policy
+T2	Premise2Justification 42 166	If we can't due to current EU or UN directives then we can at least stem Western to Western migration to get them to safety.
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 185 186	z
+#1	AnnotatorNotes T3	Making people safe from... other people? You want to do the same thing you're complaining about.
+T4	CounterNarrativeA 186 187	8
+#2	AnnotatorNotes T4	Why so much paranoia? It is not necessary to get out anyone from anywhere.

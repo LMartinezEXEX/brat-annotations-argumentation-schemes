@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 136 216	Why does anyone expect them to be rewarded for committing a crime? #SendThemBack
+T2	Premise2Justification 0 134	If ILLEGALS don't want to be separated from their children at the border,this can easily be prevented. Don't illegally cross the order
+T3	CounterNarrativeA 267 268	s
+#1	AnnotatorNotes T3	No matter what someone did, isolating children and separating them from their parents is an awful crime in itself, you just can not justify it.
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy
+T4	CounterNarrativeC 255 256	c
+#2	AnnotatorNotes T4	No one should be separated from their children. It doesn't matter what they did, isolating children is an outrageous crime.

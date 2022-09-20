@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 65	Why? Everywhere they go!! WHY?? Act like normal phucking people!!
+T2	Premise1Conclusion 73 88	#NoMoreRefugees
+T3	Collective 80 88	Refugees
+T4	Property 32 47	Act like normal
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 policy

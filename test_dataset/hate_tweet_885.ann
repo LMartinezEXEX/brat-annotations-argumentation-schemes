@@ -1,0 +1,11 @@
+T1	Premise2Justification 30 75	Maine and part of New Hampshire  are full up!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 28	#no room. Go home immigrants
+A2	QuadrantType T2 policy
+T3	pivot 1 8	no room
+T4	pivot 67 74	full up
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 97 98	u
+#1	AnnotatorNotes T5	"full up" is your way of saying "I have no real arguments"?
+T6	CounterNarrativeA 96 97	Z
+#2	AnnotatorNotes T6	Suppose ONE city is really full, what do we do with the uninhabited rest of the country?

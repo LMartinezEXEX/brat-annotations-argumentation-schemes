@@ -1,0 +1,8 @@
+T1	Premise2Justification 16 97	Looks like he doesnt keep his front door open.. but they expect everyone else to.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 97 111	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 114 115	a
+#1	AnnotatorNotes T3	Well, just because someone is a hypocrite doesn't mean they are wrong.
+T4	CounterNarrativeA 115 116	t
+#2	AnnotatorNotes T4	A wall is too much. There are better ways to control borders without making life difficult for anyone.

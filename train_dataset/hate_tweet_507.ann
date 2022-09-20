@@ -1,0 +1,13 @@
+T1	Premise2Justification 58 151	supporting such ferocious illegal migrants,making India further vulnerable to Muslim radicals
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 14 100	Very unfortunate SC not realizing danger of supporting such ferocious illegal migrants
+T3	pivot 84 100	illegal migrants
+A2	QuadrantType T2 fact
+T4	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T4	Supporting the human right to migrate has nothing to do with supporting "radical Muslims". Macro-politics is way more complex than you think.
+T5	Collective 92 100	migrants
+T6	Property 136 151	Muslim radicals
+T7	CounterNarrativeB 1 2	t
+#2	AnnotatorNotes T7	Not all immigrants are radical Muslims. Some are not even Muslim.
+T8	CounterNarrativeC 3 4	m
+#3	AnnotatorNotes T8	It just doesn't make sense. We've been letting people in forever, and we've never had a problem with radical Muslims. Why would we have them now that they are a minority?

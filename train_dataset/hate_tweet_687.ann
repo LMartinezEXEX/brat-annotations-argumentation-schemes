@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 64	This video is more relevant than ever. ABVP are goons with guns.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 65 102	DU #SendThemHome. No votes for thugs.
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 121 122	a
+#1	AnnotatorNotes T3	Maybe youre missing out the context
+T4	CounterNarrativeA 122 123	U
+#2	AnnotatorNotes T4	I don't think a video should be enough to send back someone.

@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 7 62	Who care for these children of criminal refugees really
+A1	QuadrantType T1 policy
+T2	Premise2Justification 64 108	They play no role in times of overpopulation
+A2	QuadrantType T2 fact
+T3	CounterNarrativeFree 0 1	@
+#1	AnnotatorNotes T3	 And what exactly is your role? Would society collapse if you weren't here? If the "real" German people think this way, that doesn't make it true, it makes the "real" German people a bunch of xenophobes.
+T4	CounterNarrativeA 1 2	M
+#2	AnnotatorNotes T4	Why should a person have to play a role to matter to anyone?
+T5	CounterNarrativeC 2 3	S
+#3	AnnotatorNotes T5	Of course they play a role. They will be, together with the children of our people, the future of our nation.
+T6	Collective 47 55	refugees
+T7	Property 38 46	criminal

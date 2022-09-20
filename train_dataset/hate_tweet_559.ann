@@ -1,0 +1,8 @@
+T1	Premise2Justification 11 66	MAYBE that will stop illegal immigrants from crossing?!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 67 81	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	By land is not the only way to cross the border. Maybe a better immigration policy is a better and more ethical idea than wasting money on a useless wall.
+T4	CounterNarrativeC 2 3	a
+#2	AnnotatorNotes T4	You know that a wall is not going to stop anyone from crossing. Besides, no one is illegal.

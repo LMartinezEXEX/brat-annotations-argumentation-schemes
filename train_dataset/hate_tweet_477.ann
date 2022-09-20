@@ -1,0 +1,14 @@
+T1	Premise1Conclusion 137 202	This is a crime from Merkel, which not learned from the Holocaust
+T2	Premise2Justification 0 135	Lagerfeld - fashiondesigner says he hates Merkel. 1 mio. refugees find place in Germany, which are antisemitic muslims, which hate Jews
+T3	CounterNarrativeA 225 226	g
+#1	AnnotatorNotes T3	You are the one who didn't learn anything from the Holocaust. The Holocaust was based on antisemitisc, predjudice and discrimination. Back then it was against the jews, now it's against the muslims, but it's just the same
+T4	CounterNarrativeC 221 222	Q
+#2	AnnotatorNotes T4	Muslims are semites too! They are not antisemitic and they don't hate jews. You are the one spreading hate and antisemitism
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T5	Collective 57 65	refugees
+T6	Property 95 135	are antisemitic muslims, which hate Jews
+T7	CounterNarrativeB 216 217	/
+#3	AnnotatorNotes T7	Refugees are people escaping a war. Muslims are not antisemitic (they are semites too) and most of them don't hate jews. They probably hate xenophobic fascist like you
+T8	pivot 42 48	Merkel
+T9	pivot 158 164	Merkel

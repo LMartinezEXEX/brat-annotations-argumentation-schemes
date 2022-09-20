@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 56 173	No more baguettes or pizza. People in the UK will be reduced to just eating traditional UK foods. Like chicken Balti.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 55	Imagine when all the EU migrants go home after #Brexit.
+A2	QuadrantType T2 fact
+T3	pivot 48 54	Brexit
+T4	pivot 98 100	UK
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 193 194	t
+#1	AnnotatorNotes T5	Well, that wouldn't be good at all...
+T6	CounterNarrativeA 194 195	z
+#2	AnnotatorNotes T6	I don't think it's so bad either, in any case, that's what they wanted, right?

@@ -1,0 +1,12 @@
+T1	Premise2Justification 22 128	Illegal Aliens should all be deported along with their entire family NOT, I repeat NOT given free anything
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 132 243	#NoHealthCare #NoHousing #NoFinancialSupport #NoDACA #NoAmnesty #SendThemBack #StopTheInvasion #BuildTheWallNow
+A2	QuadrantType T2 policy
+T3	Collective 22 36	Illegal Aliens
+T4	Property 109 119	given free
+T5	CounterNarrativeC 251 252	e
+#1	AnnotatorNotes T5	No one gives them anything for free, but deporting them is too much if they did nothing wrong.
+T6	CounterNarrativeB 250 251	h
+#2	AnnotatorNotes T6	It is a lie that immigrants get things for free. 
+T7	CounterNarrativeA 249 250	t
+#3	AnnotatorNotes T7	There are less violent ways to avoid living with those you dislike, you know that, don't you?

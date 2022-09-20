@@ -1,0 +1,6 @@
+T1	Premise2Justification 7 35	There goes the neighborhood!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 36 49	#SENDTHEMBACK
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	I don't understand why send them back. What's the problem with their neighborhood?

@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 84	@BarackObama, 1 illegal alien who opened the floodgates for millions more to follow.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 85 115	#BuildThatWall #DeportIllegals
+A2	QuadrantType T2 policy
+T3	pivot 16 23	illegal
+T4	pivot 107 115	Illegals
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 138 139	m
+#1	AnnotatorNotes T5	An "illegal" with that much power of decision? Really? wait... You mean the president? Lol
+T6	CounterNarrativeA 137 138	u
+#2	AnnotatorNotes T6	Let me clarify this. You want to build a wall, because you don't like the skin color of your president. What a... nonsense.

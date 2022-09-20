@@ -1,0 +1,13 @@
+T1	Premise2Justification 8 94	This country is being led by crawlers to other religions from immigration to Education
+T2	Premise1Conclusion 95 136	vote no to Europe and save our nation now
+T3	pivot 13 20	country
+T4	pivot 126 132	nation
+R1	related Arg1:T3 Arg2:T4	
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	And how are you going to save the country by voting "no" to europe? I don't see any relation...
+T6	CounterNarrativeC 1 2	M
+#2	AnnotatorNotes T6	I thought we were free to choose whatever religion we wanted. What's that to you?
+T7	Collective 70 81	immigration
+T8	Property 37 45	crawlers

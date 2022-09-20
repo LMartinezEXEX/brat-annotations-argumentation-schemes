@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 0 28	Where's US taxpayer $s going
+T2	Premise2Justification 31 119	here's one place.  Cost $4.8 million last year for ICE to fly illegal immigrant children
+T3	CounterNarrativeA 118 119	n
+#1	AnnotatorNotes T3	Do you realize that if you let them stay here then you don't have to fly them and the taxpayers save money?
+T4	Collective 93 119	illegal immigrant children
+T5	Property 50 67	Cost $4.8 million
+T6	CounterNarrativeB 111 112	c
+#2	AnnotatorNotes T6	Migrants are taxpayers too! And they are children, not a "cost"
+T7	CounterNarrativeC 109 110	t
+#3	AnnotatorNotes T7	Where did you get that information from? I think it's just fake news used to spread hate against immigrants
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact

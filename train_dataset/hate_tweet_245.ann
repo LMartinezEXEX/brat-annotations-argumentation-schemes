@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 145 204	Why refugees get more money than the originated citiziens ?
+T2	Premise2Justification 0 144	In Austria the elder people in homes need 4 Euro for food daily each. Now the goverment like to reduce the benefit for refugees to 5 Euro daily.
+T3	Collective 149 157	refugees
+T4	Property 158 202	get more money than the originated citiziens
+T5	pivot 133 137	Euro
+T6	pivot 167 172	money
+R1	related Arg1:T5 Arg2:T6	
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

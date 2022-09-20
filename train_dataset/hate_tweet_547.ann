@@ -1,0 +1,11 @@
+T1	Premise2Justification 40 93	#Burning If this is the effects of #Migrant #Migrants
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 94 144	what about #IllegalImmigration Illegal Migrants ??
+A2	QuadrantType T2 fact
+T3	pivot 76 83	Migrant
+T4	pivot 133 141	Migrants
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 256 257	b
+#1	AnnotatorNotes T5	You talk all the time about consequences, but you don't say what these consequences are. Do you have anything to say besides your xenophobia?
+T6	CounterNarrativeA 257 258	p
+#2	AnnotatorNotes T6	Maybe the same? I don't know... Why should it be any different?

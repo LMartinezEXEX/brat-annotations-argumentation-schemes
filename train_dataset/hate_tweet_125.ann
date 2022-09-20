@@ -1,0 +1,13 @@
+T1	Premise2Justification 0 100	"#Germany : THOUSANDS #protest after #Muslim #migrants #murder German man, #Merkel condemns protests
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 101 250	#ReligionOfPeace #BanSharia #NoOpenBorders #SendThemBack#EnoughIsEnough #StopHijrah NOW!!! #NoRapeCulture #NoZoophilesCultutre SEND THEM BACK NOW!!!"
+A2	QuadrantType T2 policy
+T3	Collective 38 44	Muslim
+T4	Property 56 62	murder
+T5	Property 195 206	RapeCulture
+T6	CounterNarrativeB 0 1	"
+#1	AnnotatorNotes T6	It is not true that Muslims are murderers or have rape culture. That's just xenophobic propaganda.
+T7	CounterNarrativeA 2 3	G
+#2	AnnotatorNotes T7	And run everyone for what ONE of them did? That's not fair to anyone.
+T8	CounterNarrativeC 3 4	e
+#3	AnnotatorNotes T8	I understand why condemn the protests. Is this crime worse than those committed by non-immigrants?

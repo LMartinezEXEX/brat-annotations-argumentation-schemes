@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 145	Africans having their say about Blacks in Europe, and Europeans in Africa, at the #LandExpropriationHearings, currently underway in #SouthAfrica.
+T2	Premise1Conclusion 147 160	#SendThemBack
+T3	pivot 152 156	Them
+T4	pivot 0 8	Africans
+T5	CounterNarrativeA 161 162	h
+#1	AnnotatorNotes T5	I'm really not getting you point. What does the public land expropiation hearings in South Africa have to do with Blacks in Europe or with sending anyone back home?
+T6	CounterNarrativeC 163 164	t
+#2	AnnotatorNotes T6	Do you have any problem with Africans speaking freely about their colonial inheritance?
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy

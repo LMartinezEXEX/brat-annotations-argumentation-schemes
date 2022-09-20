@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 97	Excellent.Since we can't separate families, lock all their asses up until a judge can deport them
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 98 135	I'm all in.Thank you @realDonaldTrump
+A2	QuadrantType T2 value
+T3	pivot 98 108	I'm all in
+T4	pivot 0 9	Excellent
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 183 184	A
+#1	AnnotatorNotes T5	Why would you want to separate them or lock them up? They didn't do anything to you.
+T6	CounterNarrativeA 182 183	C
+#2	AnnotatorNotes T6	Too bad your racism leads you to that. I'm not in

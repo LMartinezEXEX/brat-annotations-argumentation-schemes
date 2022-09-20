@@ -1,0 +1,8 @@
+T1	Premise2Justification 72 138	knowing Disabled peoples Benefits were being attacked migrants not
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 11 71	Cameron some hands are bigger than yours saying hi with Obma
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	New benefits for some people do not take away anyone's old benefits. That is a lie to turn us against each other
+T4	CounterNarrativeA 1 2	T
+#2	AnnotatorNotes T4	You know? The role that some politicians play in immigration policy is because that's what they were voted for...

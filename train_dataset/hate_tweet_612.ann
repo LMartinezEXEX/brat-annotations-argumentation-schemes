@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 139	India for Indians.Modiji make the EASTERN BORDER TOTALLY SEALED LIKE WEASTERN BORDER so that not a single infiltrator can come to our land.
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 139 259	Those who are talking on behalf of these immigrants must not get support from all of us.Hindus and nationalist   careful
+A2	QuadrantType T2 policy
+T3	Collective 180 190	immigrants
+T4	Property 106 117	infiltrator
+T5	pivot 227 233	Hindus
+T6	pivot 10 17	Indians
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 263 264	p
+#1	AnnotatorNotes T7	Perhaps there are better ways to discourage mass immigration without closing the door to those who really need it, or those who can contribute to our country. I invite you to consider some of them.
+T8	CounterNarrativeB 264 265	s
+#2	AnnotatorNotes T8	An immigrant is not an infiltrator. Generally, they are people who never return home, and sometimes do not even maintain contact with their families.
+T9	CounterNarrativeA 265 266	:
+#3	AnnotatorNotes T9	Or maybe we should listen to those who invite us not to be so rude to our neighbors.

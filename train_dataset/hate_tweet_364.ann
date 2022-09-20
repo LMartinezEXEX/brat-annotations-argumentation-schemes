@@ -1,0 +1,11 @@
+T1	Premise2Justification 13 47	They illegally invaded our nation.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 48 72	They should get NOTHING.
+A2	QuadrantType T2 fact
+T3	pivot 13 17	They
+T4	pivot 48 52	They
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	Invade is a strong word. They haven't taken anything....
+T6	CounterNarrativeA 1 2	A
+#2	AnnotatorNotes T6	We are not going to violate anyone's human rights just because you can't accept that people have the right to migrate....

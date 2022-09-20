@@ -1,0 +1,9 @@
+T1	Premise2Justification 49 65	Inclusion failed
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 11 48	Its time for the refugees to go home.
+T5	Premise1Conclusion 66 79	#sendthemback
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	The inclusion didn't failed. You fail to include them.
+T4	CounterNarrativeA 1 2	A
+#2	AnnotatorNotes T4	That's a terrible solution. There are many ways to help them integrate, sending their children to school, for example.

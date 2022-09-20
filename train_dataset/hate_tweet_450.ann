@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 66	UN wants ‘˜immediate halt’ to separation of migrant families in US
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 92 148	Tell the UN to kiss our azs and stay out of our business
+A2	QuadrantType T2 policy
+T3	pivot 0 2	UN
+T4	pivot 101 103	UN
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 84 85	N
+#1	AnnotatorNotes T5	The UN is right, separating families is wrong.
+T6	CounterNarrativeA 83 84	I
+#2	AnnotatorNotes T6	Well, you're going to make some enemies that way. Particularly because the UN is right

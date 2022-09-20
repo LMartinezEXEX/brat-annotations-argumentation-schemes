@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 102	"As President, Obama traveled the world & regularly criticized & apologized for U.S. policy & actions.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 103 183	Why in the world would the rest of the world respect us if our President didn't?
+A2	QuadrantType T2 fact
+T3	pivot 4 13	President
+T4	pivot 166 175	President
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 210 211	E
+#1	AnnotatorNotes T5	Well, if the government did something wrong, it's okay to apologize for it.
+T6	CounterNarrativeA 209 210	N
+#2	AnnotatorNotes T6	You know... People usually respect those who know how to apologize for their mistakes...

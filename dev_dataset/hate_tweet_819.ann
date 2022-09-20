@@ -1,0 +1,16 @@
+T2	Collective 6 13	migrant
+T1	Premise1Conclusion 70 83	#sendthemback
+T3	Premise2Justification 0 23	Daily migrant invasions
+R6	firstOrder Arg1:T1 Arg2:T3	
+T8	Property 14 23	invasions
+T9	CounterNarrativeA 106 107	J
+#1	AnnotatorNotes T9	The frequency or amount of people who migrates don't justify deportation. Migrants are honest working people trying to find a better future
+T10	CounterNarrativeB 105 106	r
+#2	AnnotatorNotes T10	An invasion is usually done by an army, migrants are often trying to escape from real invasions on their homelands
+T11	CounterNarrativeC 103 104	7
+#3	AnnotatorNotes T11	Do you have any proof that migrants are making an invasion?
+A1	QuadrantType T3 fact
+A2	QuadrantType T1 policy
+T4	pivot 75 79	them
+T5	pivot 6 13	migrant
+R1	related Arg1:T5 Arg2:T4	

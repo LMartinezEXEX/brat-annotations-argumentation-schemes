@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 176 260	we have to start limiting legal immigration. And completely stop illegal immigration
+A1	QuadrantType T1 policy
+T2	Premise2Justification 156 174	We are not in 1950
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	S
+#1	AnnotatorNotes T3	How much hypocrisy. "When we came here, immigration was okay, now that we are here, it is not".

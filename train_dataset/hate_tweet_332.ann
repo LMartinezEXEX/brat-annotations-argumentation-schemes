@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 0 53	Japan is able to keep clean his country from refugees
+A1	QuadrantType T1 fact
+T2	Premise2Justification 55 107	2017 they accept only 20 from nearly 20.000 requests
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 146 147	X
+#1	AnnotatorNotes T3	Only 20? I think they exaggerate with their controls.
+T4	CounterNarrativeA 145 146	6
+#2	AnnotatorNotes T4	Maybe that's true, but you know, it's not right. It's racism. Explicit racism.

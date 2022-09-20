@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 0 25	Yes we can #BuildThatWall
+T2	Premise2Justification 28 163	And yes it does keep people, includiing bloodthirsty drug cartels & disease carriers out. He's mad he can't keep giving cartels weapons
+T3	CounterNarrativeA 162 163	s
+#1	AnnotatorNotes T3	Do you have any proof that building the wall is going to stop drug cartels from getting into US? Do you have any proof that persecuting migrants have reduced drugs traffic?
+T4	Collective 49 55	people
+T5	Property 68 112	bloodthirsty drug cartels & disease carriers
+T6	CounterNarrativeB 159 160	p
+#2	AnnotatorNotes T6	Your argument to build the wall is that all migrants are part of bloodthirsty drug cartels and disease carriers? That sound just like predjudice
+T7	CounterNarrativeC 154 155	s
+#3	AnnotatorNotes T7	Do you have any proof that the wall is going to keep drug cartels and disease carriers out?
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact

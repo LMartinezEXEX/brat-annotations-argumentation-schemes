@@ -1,0 +1,8 @@
+T1	Premise2Justification 15 63	Guatemala is sending their finest #BuildThatWall
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 49 63	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	I doubt that the country is sending anyone. In any case, people are running away from it.... It's not the same thing
+T4	CounterNarrativeA 1 2	B
+#2	AnnotatorNotes T4	Do you dislike people from Guatemala? I will not waste that  money on a whim

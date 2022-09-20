@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 0 51	Soon turists will stay away from Spain bathbeaches.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 52 187	Today  new refugees come to Spain from Maroco and escaped without registration and walk through the bathingpeople. 1600 come last days.
+A2	QuadrantType T2 fact
+T3	pivot 152 165	bathingpeople
+T4	pivot 39 50	bathbeaches
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 203 204	3
+#1	AnnotatorNotes T5	If they have not been registered, you cannot know how many there are.
+T6	CounterNarrativeA 204 205	z
+#2	AnnotatorNotes T6	Tourists will not come because they are afraid of... people? I don't think so...

@@ -1,0 +1,13 @@
+T1	Premise2Justification 41 104	"Based on the idea that the WELFARE STATE has limited resources
+T2	Premise1Conclusion 108 135	immigration must be limited
+T3	Premise1Conclusion 8 37	Migrant Quality, not Quantity
+A1	QuadrantType T3 policy
+A2	QuadrantType T1 fact
+A3	QuadrantType T2 policy
+T4	CounterNarrativeC 151 152	g
+#1	AnnotatorNotes T4	"the Welfare state has limited resources", according to who?
+T5	CounterNarrativeA 150 151	T
+#2	AnnotatorNotes T5	What would be the correlation between immigration and resources? And how do you think that limiting immigration would solve the problem of limited resources?
+T6	pivot 87 94	limited
+T7	pivot 128 135	limited
+R1	related Arg1:T6 Arg2:T7	

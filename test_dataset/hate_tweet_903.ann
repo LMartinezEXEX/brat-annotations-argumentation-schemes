@@ -1,0 +1,12 @@
+T1	Premise2Justification 68 242	Diversity is the process whereby your nations are sought to be handed away to people who don't want it to be what it once was, by people who didn't help to make it what it is
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 21 45	Immigration in a picture
+A2	QuadrantType T2 fact
+T3	Collective 21 32	Immigration
+T4	Property 101 193	your nations are sought to be handed away to people who don't want it to be what it once was
+T5	CounterNarrativeC 1 2	T
+#1	AnnotatorNotes T5	Nope, diversity means accepting that we are not all the same. Particularly, that not everyone is the same as you.
+T6	CounterNarrativeB 2 3	O
+#2	AnnotatorNotes T6	I don't think anyone would mind living in a "glorious" country. The problem is, when "glorious" means to attack those who are different
+T7	CounterNarrativeA 3 4	O
+#3	AnnotatorNotes T7	Diversity and immigration are not necessarily the same thing. Besides, no one wants to "ruin" the country where they live.

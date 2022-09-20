@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 46 84	Now lets #BuildthatWall #DeportThemAll
+A1	QuadrantType T1 policy
+T2	Premise2Justification 89 196	Ask a #Democrat Why they Support Illegals and Wont Mention Americans killed by Illegals every chance we get
+A2	QuadrantType T2 fact
+T3	Collective 122 130	Illegals
+T4	Property 148 176	Americans killed by Illegals
+T5	CounterNarrativeB 42 43	u
+#1	AnnotatorNotes T5	You say it as if there is a relationship between immigrants and murdered Americans, and there is not. Not all murderers are immigrants, and not all immigrants are murderers.
+T6	CounterNarrativeC 41 42	o
+#2	AnnotatorNotes T6	Maybe they don't mention it simply because everything you say is not true.
+T7	CounterNarrativeA 40 41	Y
+#3	AnnotatorNotes T7	Deporting everyone is wrong. Most of them are not criminals, just honest workers.

@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 63	Victims of Illegal Alien Crime describe heartbreak, frustration
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 64 203	#BuildTheWall #ProtectAmerica#EndChainMigration#EndIllegalBirthrightCitizenship#NeverForget the American Victims of Illegal Alien Migration
+A2	QuadrantType T2 policy
+T3	pivot 19 24	Alien
+T4	pivot 188 193	Alien
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 19 24	Alien
+T6	Property 25 30	Crime
+T7	CounterNarrativeA 199 201	ti
+#1	AnnotatorNotes T7	Being a victim does not make you right. We can't go around doing stupid things just because someone who has suffered says so....
+T8	CounterNarrativeB 201 202	o
+#2	AnnotatorNotes T8	What is this special link between aliens and crime? Either you suggest that the aliens' crime is more important, or you suggest that they are all criminals. In both cases you are wrong.
+T9	CounterNarrativeC 202 203	n
+#3	AnnotatorNotes T9	Why should we care more about the victims of these crimes than the victims of other crimes committed by citizens? Aren't we all equal before the law?

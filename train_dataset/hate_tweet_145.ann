@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 11	O = traitor
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 13 99	when is he going to prison finally for all of his crimes against the American public ?
+A2	QuadrantType T2 policy
+T3	pivot 4 11	traitor
+T4	pivot 63 69	crimes
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 110 111	?
+#1	AnnotatorNotes T5	Why exactly are you calling him a traitor? As far as I know he hasn't committed any crime...
+T6	CounterNarrativeC 112 113	?
+#2	AnnotatorNotes T6	Why would be a traitor? just because you dont like him? 

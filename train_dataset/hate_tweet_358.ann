@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 0 17	#BuildThatWallNow
+A1	QuadrantType T1 policy
+T2	Premise2Justification 18 64	I do not want those vile thugs in our country!
+A2	QuadrantType T2 value
+T3	CounterNarrativeC 130 131	i
+#1	AnnotatorNotes T3	But they are not vile thugs, they are actually workers. 
+T4	CounterNarrativeA 129 130	l
+#2	AnnotatorNotes T4	We're not going to build a wall just because you don't like your neighbors.

@@ -1,0 +1,10 @@
+T1	CounterNarrativeA 272 273	w
+#1	AnnotatorNotes T1	Free movement of people is a right. Immigration is how the US became what it is today
+T2	Premise1Conclusion 0 87	Could some Tell the  #Democrat Idiot Cortez that #Immigration to the U.S is Not a Right
+T3	Premise2Justification 88 140	The US Does Not have Open Borders ILLEGAL is ILLEGAL
+A1	QuadrantType T2 fact
+A2	QuadrantType T3 fact
+T4	pivot 82 87	Right
+T5	pivot 109 121	Open Borders
+T6	CounterNarrativeC 261 262	B
+#2	AnnotatorNotes T6	Legality can change, illegal can be legal. We should try to include people into our societies

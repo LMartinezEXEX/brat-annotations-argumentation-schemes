@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 102	Watch this #Swedish journalist #IngridCarlqvist: Ethnic #Swedes will become minority in 2 to 3 decades
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 103 198	Let this be a warning to #Germany and the rest of #Europe Stop this madness #RefugeesNotWelcome
+A2	QuadrantType T2 policy
+T3	pivot 12 19	Swedish
+T4	pivot 154 160	Europe
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 239 240	T
+#1	AnnotatorNotes T5	A journalist has no credibility at all. Besides, what they say is too much. They are being paranoid.
+T6	CounterNarrativeA 238 239	R
+#2	AnnotatorNotes T6	It makes no sense to stop immigration for fear of something that is not going to happen, besides, it is neither better nor worse to be of a particular ethnicity.

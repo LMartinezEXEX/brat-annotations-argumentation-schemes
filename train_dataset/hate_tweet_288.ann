@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 59	Take Further note America! They want to do this to America!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 59 115	#BuildThatWall #EndIllegalImmigration #DeportALLIllegals
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 113 114	l
+#1	AnnotatorNotes T3	What is exactly "this" and why should we resolve that by building a wall?
+T4	CounterNarrativeC 111 112	g
+#2	AnnotatorNotes T4	They want to do this! We have no idea what "this" is, but, take note! Ha

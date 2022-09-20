@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 168 252	global criticism will shift from #Myanmar to #Bangladesh faster than you can imagine
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 166	Note to PM Sheikh Hasina re #refugees: if you move forward w/ "problematic, rights-abusing plan to force #Rohingya to move to risky &amp; remote island of Bhasan Char
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 278 279	@
+#1	AnnotatorNotes T3	I don't understand, are you asking us to be respectful of refugees? I'm fine with that...
+T4	Collective 29 37	refugees
+T5	Property 63 95	problematic, rights-abusing plan

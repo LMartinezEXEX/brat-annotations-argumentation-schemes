@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 43 134	any action against ISIS ,should be welcomed after that start talking, No more migrants then
+A1	QuadrantType T1 policy
+T2	Premise2Justification 1 42	Russia is building up its forces in Syria
+A2	QuadrantType T2 fact
+T3	Collective 121 129	migrants
+T4	Property 62 66	ISIS
+T5	CounterNarrativeB 134 135	"
+#1	AnnotatorNotes T5	I don't understand the relationship between ISIS and immigrants. What is the fault of those who come escaping from war?
+T6	CounterNarrativeA 133 134	n
+#2	AnnotatorNotes T6	We should not be charging against the immigrants or against all the Syrian people. If your problem is with ISIS, go against them, stop looking for excuses to go against innocent people....
+T7	CounterNarrativeC 132 133	e
+#3	AnnotatorNotes T7	Is Russia building up for Syria or against Syria? There is not enough information to draw conclusions. Stop misinforming people

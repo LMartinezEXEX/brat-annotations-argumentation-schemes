@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 168 184	#stoptheinvasion
+T2	Premise2Justification 0 152	This would be amusing if it didn’t empower our enemies. Libprog cucks out to little brown people(whom, of course, are majorities in their OWN countries)
+T3	CounterNarrativeA 206 207	h
+#1	AnnotatorNotes T3	This is not about who is or is not majority or minority, we are all just people trying to have a better future. There is no invasion
+T4	CounterNarrativeC 188 189	p
+#2	AnnotatorNotes T4	Our enemies are xenophobia and racism. What empowers our enemies are comments like yours
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy
+T5	Collective 84 96	brown people
+T6	Property 114 151	are majorities in their OWN countries
+T7	CounterNarrativeB 198 200	gj
+#3	AnnotatorNotes T7	You know nothing about immigrants, not even where are they from, but you claim they are majorities in their country? Why are they escaping then, if they have all this support?

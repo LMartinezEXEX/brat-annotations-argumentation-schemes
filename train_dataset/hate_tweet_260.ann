@@ -1,0 +1,15 @@
+T1	Premise2Justification 122 182	seven masked illegal immigrants storm jewelry store in Texas
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 54 102	And you want open borders and more immigration??
+A2	QuadrantType T2 fact
+T3	pivot 89 100	immigration
+T4	pivot 143 153	immigrants
+R1	related Arg1:T4 Arg2:T3	
+T5	Collective 135 153	illegal immigrants
+T6	Property 154 173	storm jewelry store
+T7	CounterNarrativeC 216 217	n
+#1	AnnotatorNotes T7	Ok, one case. What do we do about the thousands of thefts by non-migrants?
+T8	CounterNarrativeB 214 215	l
+#2	AnnotatorNotes T8	We are going to assume that all immigrants are thieves, just because one of them is? I'm not a mathematician, but... I'm sure it doesn't work that way.
+T9	CounterNarrativeA 213 214	n
+#3	AnnotatorNotes T9	When you take a single case and generalize it, you are missing the big picture. Are you sure that, proportionally, there are more criminals on one side than the other? Are you sure which side?

@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 254	This is a couple who just moved on in to Australia and thought if we behave ourselves and involve ourselves in the Community, and have a child here then we will be allowed to stay.Sorry - if that got you in we would be swamped with MILLIONS just like you
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 255 268	#SendThemBack
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	T
+#1	AnnotatorNotes T3	I don't understand the problem, you are describing the ideal citizen.
+T4	CounterNarrativeA 0 1	T
+#2	AnnotatorNotes T4	Why would you want to send back someone you speak so nicely about?

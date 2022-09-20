@@ -1,0 +1,15 @@
+T1	Premise2Justification 60 177	Illegal Immigrants make up 5% of the population so of Course More Americans Commit Crimes because its more Citizens !
+A1	QuadrantType T1 fact
+T5	Premise1Conclusion 178 255	Yet 34% Of Federal Prisoners are Illegals these does not include State Prison
+A3	QuadrantType T5 fact
+T2	pivot 60 67	Illegal
+T3	pivot 211 219	Illegals
+T4	CounterNarrativeC 253 254	o
+#1	AnnotatorNotes T4	If you think it's because all immigrants (or at least most of them) are criminals, and the corruption of our penal system has nothing to do with it, then you are very wrong, my friend.
+T6	Collective 211 219	Illegals
+T7	Property 182 206	34% Of Federal Prisoners
+R1	related Arg1:T2 Arg2:T3	
+T8	CounterNarrativeB 252 253	s
+#2	AnnotatorNotes T8	You are saying that immigrants are more likely to end up in prison. But have you ever thought that maybe it's not because they commit crimes, but simply because they are immigrants?
+T9	CounterNarrativeA 254 255	n
+#3	AnnotatorNotes T9	If the difference is so big, why is it not reflected in the prison system? Perhaps we are being too soft on our own.

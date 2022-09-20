@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 129	EVERY DAMN DAY REPORTED A CHILD RAPED BY AN ILLEGAL. AM SHOUTING ALL CAPS BECAUSE TODAY IT WAS TWO REPORTED. THE OTHER IN ALABAMA
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 131 166	@GOP THIS IS ON YOU! #BuildThatWall
+A2	QuadrantType T2 policy
+T3	Collective 44 51	ILLEGAL
+T4	Property 26 37	CHILD RAPED
+T5	CounterNarrativeA 128 129	A
+#1	AnnotatorNotes T5	I don't see how a wall would prevent rape. It would only make life more difficult for immigrant workers.
+T6	CounterNarrativeB 127 128	M
+#2	AnnotatorNotes T6	There is no more relation between rapists and immigrants than some coincidences, just as with no-migrants.
+T7	CounterNarrativeC 126 127	A
+#3	AnnotatorNotes T7	That's terrible, but whether the rapist is an immigrant or a native doesn't change anything, you're focusing on the wrong angle.

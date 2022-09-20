@@ -1,0 +1,14 @@
+T1	Premise2Justification 0 72	"Migration is the mother of all problems"" says German Interior Minister
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 41	"Migration is the mother of all problems"
+A2	QuadrantType T2 fact
+T3	Premise1Conclusion 73 85	#BuildtheWal
+A3	QuadrantType T3 policy
+T4	CounterNarrativeC 109 110	l
+#1	AnnotatorNotes T4	When did he say it? I didn't hear it. In any case, everyone makes mistakes, even him.
+T5	Collective 1 10	Migration
+T6	Property 14 40	the mother of all problems
+T7	CounterNarrativeA 112 113	g
+#2	AnnotatorNotes T7	And winning elections is synonymous with being right since when?
+T8	CounterNarrativeB 108 109	o
+#3	AnnotatorNotes T8	Why would migration be the mother of all problems? I mean, historically it was even the solution.

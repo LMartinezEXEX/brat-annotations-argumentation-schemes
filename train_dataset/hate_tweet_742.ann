@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 38	I welcome those who want to assimilate
+T2	Premise1Conclusion 39 57	but Muslims do not
+T3	CounterNarrativeA 81 82	y
+#1	AnnotatorNotes T3	Have you ever talked with one of them and ask them?
+A1	QuadrantType T1 value
+A2	QuadrantType T2 fact
+T4	CounterNarrativeC 67 69	t.
+#2	AnnotatorNotes T4	I don't think you welcome anyone trully

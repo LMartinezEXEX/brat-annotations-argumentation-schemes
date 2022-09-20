@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 0 43	‘˜We will decide who enters our countries!'
+A1	QuadrantType T1 fact
+T2	Premise2Justification 44 87	Hungary and Poland REJECT EU refugee quotas
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 104 105	t
+#1	AnnotatorNotes T3	The problem is not that, but they not only turn away criminals, they don't let absolutely no one in.
+T4	CounterNarrativeC 105 106	V
+#2	AnnotatorNotes T4	Don't you think that could cause them even more problems?

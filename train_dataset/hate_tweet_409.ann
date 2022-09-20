@@ -1,0 +1,18 @@
+T1	Premise1Conclusion 162 176	#DeportThemAll
+T2	Premise1Conclusion 220 234	#BuildThatWall
+T3	Premise2Justification 0 161	This should be every country. They come here seeking asylum, better life then become a burden to our financials system and criminal system. Why do we allow this.
+T4	Premise2Justification 178 202	No respect for #America.
+T5	Collective 30 34	They
+T6	Property 85 138	a burden to our financials system and criminal system
+T7	pivot 30 34	They
+T8	pivot 169 173	Them
+T9	CounterNarrativeA 236 237	M
+#1	AnnotatorNotes T9	Deporting people seeking asylum (victims of human trafficking, natural disasters, wars) is inhuman. Not being humans is worse than a small burden to our financial system
+T10	CounterNarrativeB 237 238	A
+#2	AnnotatorNotes T10	How do you know they are really a burden to our financial system? How much do we spend in refugees compared to military, for example?
+T11	CounterNarrativeC 239 240	A
+#3	AnnotatorNotes T11	Should this be every country? Deporting people seeking asylum? Where do you espect this people to go if they can't return to their countries?
+A1	QuadrantType T3 fact
+A2	QuadrantType T1 policy
+A3	QuadrantType T4 fact
+A4	QuadrantType T2 policy

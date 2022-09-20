@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 70	So the economic migration crisis will now get rapidly worse into 2021.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 71 268	And anyone opining that a province like Ontario can absorb a million people into the social infrastructure is not understanding the macro events underway and the system collapse that would trigger.
+A2	QuadrantType T2 fact
+T3	pivot 26 32	crisis
+T4	pivot 240 248	collapse
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 266 267	r
+#1	AnnotatorNotes T5	Why do you say it will get worse? Even if it increases, that doesn't make it "worse" in any sense.
+T6	CounterNarrativeA 265 266	e
+#2	AnnotatorNotes T6	One million is too much, let's stop exaggerating.

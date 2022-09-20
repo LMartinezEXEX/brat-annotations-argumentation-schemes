@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 39	Watch: Britons protest against Migrants
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 40 61	"Deport all migrants"
+A2	QuadrantType T2 policy
+T3	pivot 31 39	Migrants
+T4	pivot 52 60	migrants
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 113 114	o
+#1	AnnotatorNotes T5	We are not going to do something that is wrong just because they say so.
+T6	CounterNarrativeC 112 113	p
+#2	AnnotatorNotes T6	If you say it like that, it seems that they are all of them, but they are only a few...

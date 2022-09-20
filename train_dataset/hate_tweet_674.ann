@@ -1,0 +1,8 @@
+T1	Premise2Justification 8 63	they are not asylum seekers they are illegal immigrants
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 64 77	#sendthemback
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	#
+#1	AnnotatorNotes T3	You grossly underestimate them by thinking that they decided to immigrate in the worst possible way, instead of accepting that they could not have done it any other way.
+T4	CounterNarrativeA 1 2	n
+#2	AnnotatorNotes T4	At the end of the day, they did nothing wrong. It makes no sense to send them back.

@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 195 274	The only help would be now concentrationcamps, hopefully without food and water
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 194	EU is a big spender of taxmoney. Turkey gets again many  â‚¬ for keeping the refugees away from Europe. Of course also other countries in Africa want now money from the EU, like Libya,Sudan aso.
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 296 297	6
+#1	AnnotatorNotes T3	I can't decide which is worse. that you without hesitation propose concentration camps, or the fact that you actually believe that systematically killing people and covering it up would be cheaper
+T4	CounterNarrativeC 297 298	q
+#2	AnnotatorNotes T4	Where did you get that Turkey receives money to keep out immigrants? no sources, no credibility.
+T5	Collective 138 144	Africa
+T6	Property 145 171	want now money from the EU

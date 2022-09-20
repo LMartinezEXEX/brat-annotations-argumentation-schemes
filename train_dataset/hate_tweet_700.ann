@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 10 55	what did we learn by Greenland leaving the EU
+T2	Premise2Justification 56 125	no immigration no rapes , violence , or meddling fools imposing rules
+T3	Collective 59 70	immigration
+T4	Property 74 125	rapes , violence , or meddling fools imposing rules
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+R1	secondOrder Arg1:T1 Arg2:T2	
+T5	CounterNarrativeA 133 134	2
+#1	AnnotatorNotes T5	Leaving the EU doesn't necessary mean restricting immigration, how do you know that is the policy there?
+T6	CounterNarrativeB 131 132	e
+#2	AnnotatorNotes T6	Your discourse is plain xenophobia. Immigrants are not violent or rapist. Most of them are peaceful working people that just wants to feed their families
+T7	CounterNarrativeC 129 130	a
+#3	AnnotatorNotes T7	How do you know that there are no rapes, violence or meddling fools imposing rules in Greenland? And what does that have to do with immigrants?

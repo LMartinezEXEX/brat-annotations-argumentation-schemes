@@ -1,0 +1,13 @@
+T1	Premise2Justification 0 110	Only USA and Hungary dont agree the UN migrationpact. These two know that humanity isnt possible in this case,
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 119 216	all people should stay home and not move to other countries. Moving will destroy the own culture.
+A2	QuadrantType T2 policy
+T3	pivot 39 48	migration
+T5	pivot 180 186	Moving
+R1	related Arg1:T3 Arg2:T5	
+T4	CounterNarrativeA 232 233	I
+#1	AnnotatorNotes T4	Humanity has been migrating since forever, how can you say it "isn't possible in this case"?
+T6	CounterNarrativeC 233 234	o
+#2	AnnotatorNotes T6	I find it very naive to assume that other countries do not accept it because "it is the right thing to do" and not because of their own interests.
+T7	Collective 39 48	migration
+T8	Property 74 96	humanity isnt possible

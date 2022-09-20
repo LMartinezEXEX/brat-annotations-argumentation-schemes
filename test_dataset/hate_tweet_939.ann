@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 105 119	#BuildThatWall
+A1	QuadrantType T1 policy
+T2	Premise2Justification 5 104	Finally, we have a @POTUS puts #AmericansFirst & our #VeteransFirst, not a few really rich kneelers
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 273 274	t
+#1	AnnotatorNotes T3	I am sure that our people, and especially our veterans, have other priorities before the wall.
+T4	CounterNarrativeC 270 271	i
+#2	AnnotatorNotes T4	Are you sure? Because every economic decision taken indicates the opposite.

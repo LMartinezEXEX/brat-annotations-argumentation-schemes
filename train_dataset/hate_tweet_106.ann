@@ -1,0 +1,8 @@
+T1	Premise2Justification 50 112	they will go back quick, here the President havnt to do much !
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 8 47	If the refugees dont get food and water
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	"
+#1	AnnotatorNotes T3	You're assuming they can't do much on their own... It will be nice to see how wrong you are
+T4	CounterNarrativeA 1 2	@
+#2	AnnotatorNotes T4	That is precisely the most inhumane policy we could adopt. What a country...

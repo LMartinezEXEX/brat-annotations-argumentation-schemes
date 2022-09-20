@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 79	An illegal alien has been charged with murder, arson and mutilation of a corpse
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 80 173	n #Democrats Want to make sure more Illegals can cross U.S Border  and  they want to End #ICE
+A2	QuadrantType T2 fact
+T3	pivot 3 10	illegal
+T4	pivot 116 124	Illegals
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 11 16	alien
+T6	Property 17 79	has been charged with murder, arson and mutilation of a corpse
+T7	CounterNarrativeA 238 239	c
+#1	AnnotatorNotes T7	When you propose to take countermeasures you are charging innocent immigrants for the crimes of a few. How would you feel if the same were done to the natives?
+T8	CounterNarrativeB 240 241	/
+#2	AnnotatorNotes T8	Ok, but he did it because he's a criminal, not because he's an alien....  I think we are missing the point here
+T9	CounterNarrativeC 240 241	/
+#3	AnnotatorNotes T9	Did he at least commit the crime for which he was convicted? Or did they need a scapegoat and took the immigrant?

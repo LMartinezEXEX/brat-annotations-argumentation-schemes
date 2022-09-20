@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 132	'Let the exodus begin... For the high tax states, it is a disaster' (The 'blue state refugee' exodus began a few years ago actually)
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 164 176	Sad story...
+A2	QuadrantType T2 value
+T3	CounterNarrativeC 143 144	s
+#1	AnnotatorNotes T3	Many things are a disaster, but the link between high taxes and refugees you speak of does not exist.
+T4	CounterNarrativeA 145 146	/
+#2	AnnotatorNotes T4	You claim it's a sad story because you don't like refugees. The problem, is that you are trying to convince us that it is "a disaster", when it clearly is not.

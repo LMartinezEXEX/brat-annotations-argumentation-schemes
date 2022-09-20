@@ -1,0 +1,13 @@
+T1	Premise2Justification 0 67	This is what the streets of the #uk will look like in 10 more years
+T2	Premise1Conclusion 68 95	#Brexitnow #stopimmigration
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 0 1	T
+#1	AnnotatorNotes T3	What does immigration have to do with that image?
+T4	CounterNarrativeB 1 2	h
+#2	AnnotatorNotes T4	You are trying to associate immigration with that image but you are only associating yourself with xenophobia
+T5	CounterNarrativeC 3 4	s
+#3	AnnotatorNotes T5	You are just trying to provoke fear into people to incentivize hate towards immigrants
+T6	Property 41 67	look like in 10 more years
+T7	Collective 84 95	immigration
+R1	secondOrder Arg1:T2 Arg2:T1	

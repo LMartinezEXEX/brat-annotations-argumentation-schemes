@@ -1,0 +1,15 @@
+T1	Premise2Justification 67 280	Then look at #Italy #Poland & others who Elected Politicians to #StopImmigration & #DeportIllegals #Sweden & #Germany now trying to Reverse the Huge Mistakes of Unlimited Migration of ppl who Refuse to #Assimilate
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 66	Learn from Most of #Europe that's been #Invaded by Mostly Muslims!
+A2	QuadrantType T2 policy
+T3	Collective 58 65	Muslims
+T4	Property 259 280	Refuse to #Assimilate
+T5	pivot 58 65	Muslims
+T6	pivot 238 247	Migration
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 67 68	T
+#1	AnnotatorNotes T7	It was not a mistake. I understand that you didn't like that, but you have to admit that nothing bad really happened.
+T8	CounterNarrativeB 68 69	h
+#2	AnnotatorNotes T8	Where do you get that Muslims refuse to assimilate? That is not true
+T9	CounterNarrativeA 69 70	e
+#3	AnnotatorNotes T9	There is nothing to "learn", because one learns from mistakes, and there was no "mistake".

@@ -1,0 +1,16 @@
+T1	Premise1Conclusion 1 93	Spoken like a true globalist. A borderless, one world government has always been their goal.
+T10	Premise1Conclusion 265 280	#BuildThatWall"
+A1	QuadrantType T1 policy
+T2	Premise2Justification 94 264	No borders means social mayhem. The more chaos they foment, the more the public will demand an all powerful superstate. Ordo ab chao (out of chaos, order) is their motto.
+A2	QuadrantType T2 fact
+T3	Collective 20 29	globalist
+T4	Property 111 124	social mayhem
+T5	pivot 49 65	world government
+T6	pivot 202 212	superstate
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 263 264	.
+#1	AnnotatorNotes T7	It is not true, the absence of borders does not generate mayhem. There are many historical examples of borders that disappeared without major consequences.
+T8	CounterNarrativeB 262 263	o
+#2	AnnotatorNotes T8	Globalism is not about Mayhem but about connecting different cultures. It is in fact the opposite
+T9	CounterNarrativeA 261 262	t
+#3	AnnotatorNotes T9	Building a wall will not prevent chaos. If anything, keeping society satisfied will.

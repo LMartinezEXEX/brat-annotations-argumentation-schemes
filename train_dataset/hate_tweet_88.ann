@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 56	The blue wave is coming if we don't build that damn wall
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 58 72	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 79 80	A
+#1	AnnotatorNotes T3	Probably the blue wave will arrive even if you build it....
+T4	CounterNarrativeA 78 79	G
+#2	AnnotatorNotes T4	We have nothing to gain by building a wall, and you know it.

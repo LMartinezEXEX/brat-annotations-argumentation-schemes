@@ -1,0 +1,8 @@
+T1	Premise2Justification 25 72	Bloody disgraceful keep politics out of schools
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 73 88	#nomoremigrants
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	h
+#1	AnnotatorNotes T3	Why would it be a disgrace? Don't you think it's right to protect children?
+T4	CounterNarrativeA 2 3	t
+#2	AnnotatorNotes T4	What is the connection between keeping politics out of schools and immigrants? I just see people, you know? You should too.

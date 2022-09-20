@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 69 139	do not leave our own people b hind there is a growing disdain emerging
+A1	QuadrantType T1 policy
+T2	Premise2Justification 13 68	while being proud of how many refugees we have taken in
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 3 4	o
+#1	AnnotatorNotes T3	Don't get it wrong... It is not about "being proud" but about "doing the right thing"...
+T4	CounterNarrativeA 6 7	x
+#2	AnnotatorNotes T4	No one is choosing. Both are possible...

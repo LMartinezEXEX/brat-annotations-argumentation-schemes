@@ -1,0 +1,13 @@
+T1	Premise2Justification 23 218	“Mass migration from the Islamic world, seeded with terrorist cells, is the greatest threat to Europe from Middle East. But would not a U.S. war w-Iran increase rather than diminish that threat”?
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 218 272	Another neocon nightmare; Bolton a discredited failure
+A2	QuadrantType T2 fact
+T3	Collective 29 38	migration
+T4	Property 92 141	is the greatest threat to Europe from Middle East
+T5	Property 39 90	from the Islamic world, seeded with terrorist cells
+T6	CounterNarrativeA 273 274	#
+#1	AnnotatorNotes T6	No country should interfere in the affairs of others. That this is a neocon nightmare is a problem for the neocon's, not from us.
+T7	CounterNarrativeB 274 275	V
+#2	AnnotatorNotes T7	Most of them are women and children escaping from the war. If the countries do not invest enough in their migration systems to prevent the entry of criminals with that excuse, it is not the fault of the first ones...
+T8	CounterNarrativeC 8 10	t.
+#3	AnnotatorNotes T8	It is not true that there are terrorist cells planted in immigration. They are mostly people who just want to escape the war. Try to be more humanitarian

@@ -1,0 +1,10 @@
+T1	Premise2Justification 28 86	It is the third anniversary of her deathWe must not forget
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 27	Remember Kate Steinle today
+A2	QuadrantType T2 policy
+T3	Premise1Conclusion 126 139	BuildThatWall
+A3	QuadrantType T3 policy
+T4	CounterNarrativeA 99 100	#
+#1	AnnotatorNotes T4	Ok, that's sad but... Building the wall wouldn't change anything, and you know it. It's just a waste of time and money.
+T5	CounterNarrativeC 103 104	e
+#2	AnnotatorNotes T5	I think you are using an unfortunate fact for your own benefit, and that's even more deplorable...

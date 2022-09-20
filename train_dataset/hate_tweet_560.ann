@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 159	One may get dizzy trying to keep up w-EU on migration, as never-ending game of “running around in circles” continues.ðŸŽ ðŸŽ¡We call it “migrant shuffling”ðŸ‘‰
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 159 255	a waste of time/money that accomplishes nothing, except to give Merkel &amp; migrants more time.
+A2	QuadrantType T2 fact
+T3	pivot 44 53	migration
+T4	pivot 236 244	migrants
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 284 285	Q
+#1	AnnotatorNotes T5	The European Union is gigantic, it is easy to get dizzy, that does not mean that someone is just "running in circles" to "gain time".
+T6	CounterNarrativeC 285 286	l
+#2	AnnotatorNotes T6	The world is complex, it is not always within our reach to understand it. And that is the reason why there are government offices that deal with it specifically. 

@@ -1,0 +1,8 @@
+T1	Premise2Justification 28 140	A Frame trailer with sound system delivering the most important message to the country. "SAY NO TO IMMIGRATION."
+A1	QuadrantType T1 value
+T2	Premise1Conclusion 116 140	"SAY NO TO IMMIGRATION."
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 0 1	V
+#1	AnnotatorNotes T3	I'm not going to do something just because a trailer with a speaker tells me to. We are not that easy to convince.
+T4	CounterNarrativeC 2 3	D
+#2	AnnotatorNotes T4	"The most important message" to you is an act of racism. That tells about your priorities.

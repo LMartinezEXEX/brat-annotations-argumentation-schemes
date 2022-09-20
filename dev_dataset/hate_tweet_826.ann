@@ -1,0 +1,7 @@
+T1	Premise2Justification 126 216	Are they coming to move in to #Americans/#Democrats home who support #DACA or his own home
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 217 246	Lets hope he has enough space
+T6	Premise1Conclusion 9 125	How is #AndrewGillum @AndrewGillum plan on paying for the Millions of #IllegalImmigrants that he plan on letting in?
+A2	QuadrantType T2 value
+T5	CounterNarrativeA 254 255	a
+#1	AnnotatorNotes T5	You are underestimating these people. Surely they have already thought about what you are so worried about....

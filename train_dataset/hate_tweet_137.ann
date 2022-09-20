@@ -1,0 +1,15 @@
+T1	Premise2Justification 15 161	Million Illegal Aliens Costing U.S Taxpyers $135 Billion a year! Now Illegals Refuse to take their kids back want them to stay in U.S for Freebies
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 162 223	thats an Illegal #Immigration CRISIS ! #WalkAway #VoteDemsOut
+A2	QuadrantType T2 policy
+T3	Collective 23 37	Illegal Aliens
+T4	Property 38 79	Costing U.S Taxpyers $135 Billion a year!
+T5	pivot 171 177	Illega
+T6	pivot 84 92	Illegals
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeB 245 246	m
+#1	AnnotatorNotes T7	Immigrants do not cost taxpayers money. Where did you get that lie?
+T8	CounterNarrativeA 246 247	B
+#2	AnnotatorNotes T8	How can it be illegal? Isn't there a protocol for such cases? If it is contemplated, then it is not unlawful...
+T9	CounterNarrativeC 244 245	e
+#3	AnnotatorNotes T9	I don't think someone would refuse to take their children with them, I think you are underestimating them.

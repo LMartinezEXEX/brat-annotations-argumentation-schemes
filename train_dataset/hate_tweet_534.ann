@@ -1,0 +1,16 @@
+T1	Premise1Conclusion 14 138	Sir,pl don't bow to mad Mamta/TMC whims&amp;threats.Centre must go ahead&amp;deport all illegal migrants from all over India
+T9	Premise1Conclusion 196 221	Pl don't abt consequences
+A1	QuadrantType T1 policy
+T2	Premise2Justification 140 195	India must not be made home to Muslim illegal migrants.
+T9	Premise2Justification 222 255	Entire India is with u in throwin
+A2	QuadrantType T2 fact
+T3	pivot 133 138	India
+T4	pivot 140 145	India
+R1	related Arg1:T3 Arg2:T4	
+T5	pivot 102 118	illegal migrants
+T6	pivot 178 194	illegal migrants
+R2	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T7	Ok, I know that there is a legal way to emigrate, but it seems that what bothers you is not that, but their religion.., and that is actually racist.
+T8	CounterNarrativeA 1 2	r
+#2	AnnotatorNotes T8	There is no need to deport them if they did no harm, there should be a way to regularize the status of these people.

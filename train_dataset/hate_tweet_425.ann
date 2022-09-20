@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 57 137	Delhi is full of bad roads,jhugis,encroachment,filth all around.Illegal migrants
+A1	QuadrantType T1 fact
+T2	Premise2Justification 10 56	Have u realized that after AAP coming to power
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	Are you suggesting that there is a relationship? Do you have any evidence to offer?
+T4	Collective 121 137	Illegal migrants
+T5	Property 74 103	bad roads,jhugis,encroachment

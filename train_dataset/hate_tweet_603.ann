@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 157 176	Just #BuildThatWall
+A1	QuadrantType T1 policy
+T2	Premise2Justification 15 155	Whatever it takes. Take the money out of welfare payments to the lazy and use that. Take it from aid to Mexico and South and Central America
+A2	QuadrantType T2 value
+T3	pivot 15 32	Whatever it takes
+T4	pivot 157 161	Just
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 6 7	d
+#1	AnnotatorNotes T5	Whatever it takes, it's going to be too much. Besides, taking money out of those sides would hurt a lot of people.
+T6	CounterNarrativeA 5 6	n
+#2	AnnotatorNotes T6	Or just don't do it. If there is a problem, there must be a better solution, plus it's sure to be cheaper.

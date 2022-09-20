@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 14 78	The EU is on his end, if they arnt able to stop the immigration.
+T2	Premise2Justification 79 255	A country which isnt able to protect his borders, isnt a country of souveranity. And this also will make problems in economic, include the overpopulation. Protectionism will be
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T3	Collective 66 77	immigration
+T4	Property 18 34	EU is on his end
+T5	Property 184 232	problems in economic, include the overpopulation
+T6	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T6	Immigrants aren't a threat and are definitelly not making the EU to end. The ones making the EU to end are the xenophobous migrant-haters that support, among other things, the brexit
+T7	CounterNarrativeB 2 3	h
+#2	AnnotatorNotes T7	Immigration does not cause economic problems. They work and pay taxes by spending the money they earn in stuff. The problem is that immigrants are used to cover up the real responsables of the economic problems
+T8	CounterNarrativeC 4 5	E
+#3	AnnotatorNotes T8	How do you know immigration will create problems in the economy or overpopulation? You have bad information

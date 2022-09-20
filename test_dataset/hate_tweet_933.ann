@@ -1,0 +1,12 @@
+T1	Premise2Justification 3 147	@SenBlumenthal⁩ ➡️ Liar. Just like your “service in Vietnam.” BTW, Liar they’re ILLEGAL Immigrants aka Invaders. Glad I could educate you, dummy
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 149 196	#StopTheInvasion #DeportThemAll   #BuildTheWall
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 219 220	B
+#1	AnnotatorNotes T3	"You're a liar" is not an argument. You are wrong, and you know it, that's why you insult.....
+T4	Collective 91 101	Immigrants
+T5	Property 106 114	Invaders
+T6	CounterNarrativeB 218 219	Q
+#2	AnnotatorNotes T6	There is a huge difference between immigrants and invaders, and you know it.
+T7	CounterNarrativeA 216 217	X
+#3	AnnotatorNotes T7	It's so funny how you propose the worst argument ever, and then a call to action. Well, no one will listen to you.... Why should they?

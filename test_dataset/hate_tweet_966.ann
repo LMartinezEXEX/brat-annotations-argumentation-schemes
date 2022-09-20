@@ -1,0 +1,15 @@
+T1	Premise2Justification 16 94	When you have too many people living in one place you are going to get trouble
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 96 217	Sadiq Khan keeps on encouraging more &amp; more people to come. It won't end well immigration has reached a tipping point
+A2	QuadrantType T2 fact
+T3	Collective 178 189	immigration
+T4	Property 87 94	trouble
+T5	pivot 30 45	too many people
+T6	pivot 139 158	more people to come
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T7	This is not necessarily true. There are many big cities and most of them don't have BIG problems.
+T8	CounterNarrativeA 1 2	L
+#2	AnnotatorNotes T8	It doesn't have to end badly, cause actually there is no direct relationship between too many people and problems
+T9	CounterNarrativeB 2 3	B
+#3	AnnotatorNotes T9	You are assuming that immigrants bring problems, but they usually bring work and culture.

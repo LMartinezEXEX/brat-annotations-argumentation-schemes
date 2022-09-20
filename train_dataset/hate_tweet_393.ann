@@ -1,0 +1,13 @@
+T1	Premise2Justification 76 140	America doesn't need a tidal wave of 300,000 Indians ushered in.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 19 61	Stop the India First Immigration Proposals
+A2	QuadrantType T2 policy
+T3	pivot 28 33	India
+T4	pivot 121 128	Indians
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 215 216	t
+#1	AnnotatorNotes T5	No one needs any kind of immigration. That doesn't make it illegal, or unethical...stop complaining about things that don't harm you in any way.
+T6	CounterNarrativeC 217 219	on
+#2	AnnotatorNotes T6	Probably no one needs anyone. The right to immigrate has no relation to any kind of "need"
+T7	Collective 40 51	Immigration
+T8	Property 99 136	tidal wave of 300,000 Indians ushered

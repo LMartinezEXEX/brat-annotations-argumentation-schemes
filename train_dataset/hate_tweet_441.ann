@@ -1,0 +1,8 @@
+T1	Premise2Justification 80 108	I don't mean to protect them
+A1	QuadrantType T1 value
+T2	Premise1Conclusion 0 78	We need to make the illegal immigrants "endangered" if they cross into the US!
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 132 133	j
+#1	AnnotatorNotes T3	That's fine, but you could at least not be a danger to them.
+T4	CounterNarrativeA 133 134	c
+#2	AnnotatorNotes T4	There is no need to endanger anyone. Not in a civilized society...

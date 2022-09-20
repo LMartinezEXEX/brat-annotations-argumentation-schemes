@@ -1,0 +1,15 @@
+T1	Premise2Justification 96 172	.Polk Sheriff: Illegal Alien Arrested for Rape of 8-Year-Old Girl in Florida
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 1 96	Another day, and another one of @NancyPelosis pedophile Dreamers have raped another little girl
+A2	QuadrantType T2 fact
+T3	pivot 138 161	Rape of 8-Year-Old Girl
+T4	pivot 71 96	raped another little girl
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 111 124	Illegal Alien
+T6	Property 138 142	Rape
+T7	CounterNarrativeC 203 204	n
+#1	AnnotatorNotes T7	But did he really commit the crime, or is he being used as a patsy?
+T8	CounterNarrativeB 202 203	m
+#2	AnnotatorNotes T8	There is no greater relationship between immigrants and rapists than with other groups. They are isolated cases, and nationality has nothing related to it.
+T9	CounterNarrativeA 201 202	a
+#3	AnnotatorNotes T9	You say it as if it happens all the time, when in fact what they do is repeat the same case over and over again, until people believe that there are many different ones.

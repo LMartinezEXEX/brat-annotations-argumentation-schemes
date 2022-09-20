@@ -1,0 +1,12 @@
+T1	Premise2Justification 1 62	The Nature of the Hispanic is to Abuse, Corrupt and Subvert!!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 62 158	All Anchors must Go. And the 14th Amendment Retroactively Clarified.#DeportThemAll #BuildTheWall
+A2	QuadrantType T2 policy
+T3	Collective 19 27	Hispanic
+T4	Property 34 60	Abuse, Corrupt and Subvert
+T5	CounterNarrativeC 167 168	A
+#1	AnnotatorNotes T5	You are being racist. There is no reason to believe that is true.
+T6	CounterNarrativeB 168 169	G
+#2	AnnotatorNotes T6	There are as many criminals on one side as on the other, if you can't see it it's because of your xenophobia.
+T7	CounterNarrativeA 169 170	A
+#3	AnnotatorNotes T7	Deport them just because they were born somewhere else? If you are bothered by criminals, I understand, so am I, but there are ways to fight them without being a racist.

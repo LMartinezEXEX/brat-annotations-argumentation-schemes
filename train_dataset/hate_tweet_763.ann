@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 60	"Governor Cuomo on Wednesday called ICE ""a bunch of thugs""
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 60 167	Trying to remember when he used such harsh language when describing MS-13 bloodthirsty killersOh. He didn't
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 248 249	t
+#1	AnnotatorNotes T3	And why should we care about what this person says?
+T4	CounterNarrativeA 249 250	e
+#2	AnnotatorNotes T4	So what about that? You're not saying anything, really...

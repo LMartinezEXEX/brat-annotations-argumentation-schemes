@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 102 174	should be illegal! When did we vote for that?????????!!! #NoMoreRefugees
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 100	American taxpayers are billed $8 BILLION EVERY YEAR for REFUGEES ???????? ðŸ˜²ðŸ¤¬That’s ABSURD &amp
+A2	QuadrantType T2 fact
+T5	pivot 56 64	REFUGEES
+T6	pivot 166 174	Refugees
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 180 181	:
+#1	AnnotatorNotes T7	It is not true, taxes do not change according to the situation, in any case they change where they are destined to.
+T3	CounterNarrativeA 181 182	/
+#2	AnnotatorNotes T3	Not all government decisions are made on the basis of elections, and even if they do not accept immigrants, taxes will remain the same.

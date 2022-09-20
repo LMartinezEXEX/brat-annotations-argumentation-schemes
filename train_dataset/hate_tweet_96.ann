@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 90	Like Germany - also in Austria left minded clerks support refugees, like democrats in USA.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 91 116	Beware of such elements !
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 139 140	J
+#1	AnnotatorNotes T3	What you mean is that you are scared of people who think differently than you.
+T4	CounterNarrativeC 138 139	g
+#2	AnnotatorNotes T4	Like everything else, there are all kinds of opinions on all sides.

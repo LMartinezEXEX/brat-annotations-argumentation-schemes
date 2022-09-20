@@ -1,0 +1,12 @@
+T1	Premise2Justification 36 187	wr R the far Lefties now (Global kooks)..  why R they not protesting in these countries where these immigrants are fleeing from (come on George $orOh$)
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 188 253	and that’s why we #Conservatives R smart enough not to buy into t
+A2	QuadrantType T2 fact
+T3	Property 62 74	Global kooks
+T4	Collective 45 56	far Lefties
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	Maybe because they don't live there
+T6	CounterNarrativeA 1 2	I
+#2	AnnotatorNotes T6	With that argument no one should buy anything from you either, you see?
+T7	CounterNarrativeB 2 3	n
+#3	AnnotatorNotes T7	Not all the left is globalist... Not all conservatives are nationalists...

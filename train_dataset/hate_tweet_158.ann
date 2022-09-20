@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 95 235	The migrants have to assimilate and to work, or have to go home.  I'm also expecting the deislamisation of Europe. It doesn't work that way!
+A1	QuadrantType T1 value
+T2	Premise2Justification 0 94	Now the USA, the EU and Russia can close their borders for illegal migration of fake refugees.
+A2	QuadrantType T2 fact
+T3	Collective 67 76	migration
+T4	Property 80 93	fake refugees
+T5	CounterNarrativeA 231 232	w
+#1	AnnotatorNotes T5	Just because the USA or Russia is banning something doesn't mean it's wrong. Stop fighting against immigrants, they haven't done anything to you.
+T6	CounterNarrativeB 232 233	a
+#2	AnnotatorNotes T6	Do you know how offensive it is to call someone fleeing war or hunger a "fake refugee"? You should reconsider several things
+T7	CounterNarrativeC 233 234	y
+#3	AnnotatorNotes T7	Closing the borders? I'm pretty sure they are in fact doing just the opposite....

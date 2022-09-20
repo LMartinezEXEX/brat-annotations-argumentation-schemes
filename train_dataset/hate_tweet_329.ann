@@ -1,0 +1,12 @@
+T1	Premise2Justification 13 119	Seems ISIS rape document is being followed by young male Arabs immigrants and others in Germany add France
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 120 139	no respect no entry
+A2	QuadrantType T2 policy
+T3	Property 24 28	rape
+T4	Collective 65 86	male Arabs immigrants
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	What are you talking about? It doesn't make any sense
+T6	CounterNarrativeA 1 2	D
+#2	AnnotatorNotes T6	As long as you don't assume they are all bad, and therefore don't let anyone in....
+T7	CounterNarrativeB 2 3	a
+#3	AnnotatorNotes T7	The relationship between Arabs and rape is a xenophobic invention.

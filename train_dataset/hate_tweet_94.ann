@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 71 188	The agenda may be more dark than we can imagine. Something is up. What kind of people would destroy their own people?
+A1	QuadrantType T1 fact
+T2	Premise2Justification 17 70	Someone really wants these "migrants" in the country.
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 5 6	r
+#1	AnnotatorNotes T3	I mean... I have no problem with them, why should I? By the way, why the quotes in "migrants"? 
+T4	CounterNarrativeA 3 4	f
+#2	AnnotatorNotes T4	I don't know what conspiracy theory you bought, but none of that has any solid foundation, you know?

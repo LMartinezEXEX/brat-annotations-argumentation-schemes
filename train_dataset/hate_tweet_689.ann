@@ -1,0 +1,8 @@
+T1	Premise2Justification 17 46	This is absolutely disgusting
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 48 141	Legal immigrants that waited years must be darn upset, hopefully it will make them #Walkaway!
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 1 2	@
+#1	AnnotatorNotes T3	"Disgusting"... That's just an opinion. Quite honestly, a wrong one...
+T4	CounterNarrativeA 2 3	M
+#2	AnnotatorNotes T4	Why would the immigrants be upset? It doesn't make sense...

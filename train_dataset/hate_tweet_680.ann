@@ -1,0 +1,14 @@
+T1	Premise2Justification 5 169	Polish MP shocks British media:"Our country is safe because we didn’t accept illegal Muslim migrants -  this is the reason why we had not even one terrorist attack"
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 36 169	"Our country is safe because we didn’t accept illegal Muslim migrants -  this is the reason why we had not even one terrorist attack"
+A2	QuadrantType T2 fact
+T3	Premise1Conclusion 169 196	"We can be called Populists
+A3	QuadrantType T3 policy
+T4	Collective 90 105	Muslim migrants
+T5	Property 152 161	terrorist
+T6	CounterNarrativeB 219 220	h
+#1	AnnotatorNotes T6	It is not true that Muslims are terrorists. Being a good or bad person does not depend on your religion.
+T7	CounterNarrativeA 220 221	U
+#2	AnnotatorNotes T7	You know, just because the prime minister says it doesn't mean it's true. Don't you always complain about lying politicians?
+T8	CounterNarrativeC 218 219	I
+#3	AnnotatorNotes T8	It may be true that it is a safe country, but I doubt it has anything to do with that. Many safe countries accept them. Many countries accept them and are not safe.

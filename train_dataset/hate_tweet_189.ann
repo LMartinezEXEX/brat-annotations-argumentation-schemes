@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 67	Where are the Women and Children the Dems are always Bitchin about?
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 68 126	#NoIllegals #NoDACA #NoChainMigration #AmericanPeopleFirst
+A2	QuadrantType T2 policy
+T3	CounterNarrativeC 0 1	W
+#1	AnnotatorNotes T3	Where are you to ensure that they do not exist? Have you seen them all?
+T4	CounterNarrativeA 1 2	h
+#2	AnnotatorNotes T4	To discriminate against male immigrants just to be males ir unfair in several ways. Be better.

@@ -1,0 +1,8 @@
+T1	Premise2Justification 41 186	Are you aware of the NGO and people smuggling initiative in Europe that are illegally importing massive numbers of economic migrants into Europe?
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 187 239	In Italy, Sicily has basically turned into a warzone
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	Neither do I believe that sicily is a warzone, nor do I believe that its problems are due to immigrants who, you know, have always existed.
+T4	CounterNarrativeC 1 2	C
+#2	AnnotatorNotes T4	I am aware and I don't think it is anything to worry about.

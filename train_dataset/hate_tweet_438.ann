@@ -1,0 +1,14 @@
+T1	Premise1Conclusion 17 76	had every right to shutdown Central American Minors Program
+T2	Premise2Justification 77 172	those kids are not refugees has nothng to do with Race Just Another Illegal Obama Program Ended
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T3	Collective 96 104	refugees
+T4	Property 88 95	are not
+T5	pivot 45 76	Central American Minors Program
+T6	pivot 137 172	Another Illegal Obama Program Ended
+T7	CounterNarrativeA 178 179	p
+#1	AnnotatorNotes T7	You are talking about kids! You are backing closing a program to aid kids in need.
+T8	CounterNarrativeB 176 177	u
+#2	AnnotatorNotes T8	They are kids in distress depending on a program! How can they not be refugees?
+T9	CounterNarrativeC 176 177	u
+#3	AnnotatorNotes T9	What proof do you have that they are not real refugees?

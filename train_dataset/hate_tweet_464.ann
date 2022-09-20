@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 207 253	Stop allowng Illegals to game the #immigration
+A1	QuadrantType T1 policy
+T2	Premise2Justification 17 205	Why is it that Illegals  that have been in the U.S for years that are being deported get to claim asylum when the laws states they must claim aslyum within one year of their last arrival ?
+A2	QuadrantType T2 fact
+T3	pivot 32 40	Illegals
+T4	pivot 220 228	Illegals
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	Being humanitarian in interpreting the law is not the same as allowing someone to game the immigration system. Who cares if someone takes a little while to complete their paperwork...everyone does it.
+T6	CounterNarrativeC 1 2	R
+#2	AnnotatorNotes T6	You cannot prove that they have been in the country for more than one year. Besides, what's your problem with us being supportive of them? They are not hurting anyone anyway....
+T7	Collective 32 40	Illegals
+T8	Property 232 253	game the #immigration

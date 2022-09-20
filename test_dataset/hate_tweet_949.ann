@@ -1,0 +1,17 @@
+T1	Premise1Conclusion 113 153	Political Islamist's are very dangerous.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 154 277	They are not refugees they are fleeing the scene of the crime and the far Left welcome them here in Britain with open arms.
+A2	QuadrantType T2 fact
+T3	Premise2Justification 0 112	Another perpetrator from the Middle East. Where are the Coptic Christians who where the real victims over there.
+A3	QuadrantType T3 fact
+T4	Collective 123 133	Islamist's
+T5	Property 154 276	They are not refugees they are fleeing the scene of the crime and the far Left welcome them here in Britain with open arms
+T6	pivot 210 215	crime
+T7	pivot 143 152	dangerous
+T8	CounterNarrativeB 298 299	A
+#1	AnnotatorNotes T8	If by crime you mean war, yes, they are fleeing from it, especially the children. Wouldn't you?
+T9	CounterNarrativeC 297 298	h
+#2	AnnotatorNotes T9	Where do you get that refugees are all criminals? Stop making things up to justify your xenophobia.
+R1	related Arg1:T7 Arg2:T6	
+T10	CounterNarrativeA 300 301	x
+#3	AnnotatorNotes T10	Political means living in a community. All religious are political. Why would that make only Muslims dangerous?  They are not so different from Christians, you know.

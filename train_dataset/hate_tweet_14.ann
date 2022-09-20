@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 55 219	our lettuce strainer of a border sees well dressed and outfitted "refugees" (code for country shoppers), other illegals and undocumented crossing the border daily..
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 54	@CanBorder @rcmpgrcpolice And meanwhile as they bicker
+A2	QuadrantType T2 fact
+T3	Collective 121 129	refugees
+T4	Property 141 157	country shoppers
+T5	CounterNarrativeB 243 244	U
+#1	AnnotatorNotes T5	I don't understand, are you accusing refugees of not being refugees? Then they don't bother you, do they?
+T6	CounterNarrativeA 242 243	i
+#2	AnnotatorNotes T6	Well, maybe if they didn't hold back with repressive proposals....

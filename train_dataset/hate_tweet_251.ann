@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 10 86	Time to start firing Judges who dont detain Immigrants so @ICegov can deport
+A1	QuadrantType T1 policy
+T2	Premise2Justification 90 155	If he was detain and not given a bond that Citizen would be alive
+A2	QuadrantType T2 fact
+T3	pivot 100 106	detain
+T4	pivot 47 53	detain
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	Oh no! Are you telling me he died by "bond"? Come on...
+T6	CounterNarrativeA 1 2	A
+#2	AnnotatorNotes T6	I don't get it, so you care about the safety of immigrants? Great, but that's not the best solution. We should regulate, not prohibit

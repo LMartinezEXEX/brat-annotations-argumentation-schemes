@@ -1,0 +1,15 @@
+T1	Premise2Justification 14 79	You will NEVER see CNN/MSNBC call Linda Sarsour a racist or bigot
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 81 178	OTOH, #POTUS #TRUMP is called a racist, bigot, Nazi or Hitler every day on these Fake News shows.
+A2	QuadrantType T2 fact
+T3	pivot 172 177	shows
+T4	pivot 33 42	CNN/MSNBC
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 204 205	N
+#1	AnnotatorNotes T5	Why would they do that? Did you see her say anything racist? I didn't...
+T6	Collective 33 42	CNN/MSNBC
+T7	Property 162 177	Fake News shows
+T8	CounterNarrativeA 206 207	W
+#2	AnnotatorNotes T8	I mean, maybe she's not a racist. He, on the other hand... well...
+T9	CounterNarrativeB 207 208	S
+#3	AnnotatorNotes T9	Why is it that every time a politician doesn't like a piece of news it is labeled as "fake news"? I begin to suspect that they are at war with reality...

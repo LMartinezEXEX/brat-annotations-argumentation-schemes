@@ -1,0 +1,14 @@
+T1	Premise1Conclusion 79 128	This costs Germany 25 Mrd. â‚¬ a year for nothing
+T2	Premise2Justification 0 77	Only 15 % of refugees has got a job in Germany.The rest stay in socialwelfare
+T3	Collective 13 21	refugees
+T4	Property 56 77	stay in socialwelfare
+T5	CounterNarrativeA 152 153	1
+#1	AnnotatorNotes T5	Refugees are granted asylum because their life is in danger or they can not go back to their homes. It doesn't matter if they have a job or not, you are not wasting money, you are saving someone
+T6	CounterNarrativeB 147 148	q
+#2	AnnotatorNotes T6	You assume they don't want to have a job and they want to live from social walfare. Many times they can not work or people don't want to hire them. We are talking about people escaping extreme situations, they do what they can.
+T7	CounterNarrativeC 143 144	p
+#3	AnnotatorNotes T7	I think those numbers are made up to make immigrants look bad
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T8	pivot 64 77	socialwelfare
+T9	pivot 79 83	This

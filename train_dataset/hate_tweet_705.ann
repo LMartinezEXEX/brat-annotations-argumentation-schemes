@@ -1,0 +1,15 @@
+T1	Premise2Justification 1 89	When some1 is very sick, you send a doctor, not ask them to come to hospital themselves.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 90 250	Now explain me why are we bringing in Syrians, especially adults, into Turkey letting them steal our jobs, lower the wages and ridicule our values?#sendthemback
+A2	QuadrantType T2 policy
+T3	Collective 128 135	Syrians
+T4	Property 181 236	steal our jobs, lower the wages and ridicule our values
+T6	pivot 116 124	bringing
+T5	pivot 58 65	to come
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeA 276 277	"
+#1	AnnotatorNotes T7	Your analogy is a fallacy. A country at war is not the same as a sick person.
+T8	CounterNarrativeB 275 276	y
+#2	AnnotatorNotes T8	It's not the immigrants' fault if your country does not enforce laws such as "minimum wage" .
+T9	CounterNarrativeC 274 275	e
+#3	AnnotatorNotes T9	Well, that depends... Not all diseases can be treated at home. 

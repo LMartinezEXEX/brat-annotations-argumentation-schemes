@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 65 150	American Citizens need @ICEgov Illegals can reunite back across the border in Mexico!
+A1	QuadrantType T1 fact
+T2	Premise2Justification 151 234	We dont need the extra crime that the illegal or refugees invaders bring to America
+A2	QuadrantType T2 fact
+T3	Collective 200 208	refugees
+T4	Property 174 179	crime
+T5	pivot 96 104	Illegals
+T6	pivot 189 196	illegal
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 250 251	L
+#1	AnnotatorNotes T7	There is no actually basis for arguing that accepting immigrants would increase the crime rate. That is an invention of the yellow press.
+T8	CounterNarrativeB 251 252	o
+#2	AnnotatorNotes T8	Not all refugees are criminals, and not all citizens are honest. Let's stop stereotyping
+T9	CounterNarrativeA 249 250	a
+#3	AnnotatorNotes T9	Maybe if you didn't look at them from your prejudice, you wouldn't think it was so necessary to control immigration...

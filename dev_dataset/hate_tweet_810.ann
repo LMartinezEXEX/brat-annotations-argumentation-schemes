@@ -1,0 +1,14 @@
+T1	Premise2Justification 0 114	Illegals Do Not have Constitutional Rights  per #SCOTUS therfeore no Right to Free Education on U.S Taxpayers Back
+T2	Premise1Conclusion 118 155	Stop Rewarding Illegals #SendThemHome
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy
+T3	CounterNarrativeB 115 116	!
+#1	AnnotatorNotes T3	Everyone has constitutional rights no matter their country of origin, otherwise murdering tourists wouldn't be a crime.
+T4	CounterNarrativeA 227 228	@
+#2	AnnotatorNotes T4	Illegals are not getting any reward. All the contrary, they receive hate and predjudice from ignorant xenophobous like you
+T5	Collective 0 8	Illegals
+T6	Property 9 42	Do Not have Constitutional Rights
+T7	CounterNarrativeC 223 224	v
+#3	AnnotatorNotes T7	Where did you heard that illegals do not have contitutional rights? Everyone has. And education is a human right too no matter where you where born
+T8	pivot 133 141	Illegals
+T9	pivot 0 8	Illegals

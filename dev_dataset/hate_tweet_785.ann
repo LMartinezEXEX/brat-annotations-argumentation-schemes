@@ -1,0 +1,13 @@
+T1	Premise2Justification 0 127	"Good for Bulgaria but their leaders also have responsibility to secure their border to prevent migrants from roaming northward
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 129 269	Actions must start matching rhetoric in Europe.This is what makes #Orban unique.Unlike others, Orban “walks his talk” and is a man of action
+A2	QuadrantType T2 policy
+T3	Collective 96 104	migrants
+T4	Property 110 127	roaming northward
+T5	pivot 29 36	leaders
+T6	pivot 196 201	Orban
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 301 302	O
+#1	AnnotatorNotes T7	Why should the government stop people from moving where they want? I guess it was a human right
+T8	CounterNarrativeB 300 301	D
+#2	AnnotatorNotes T8	You speak of immigrants as if they were a mass, moving in groups of thousands in the same direction. Which, by the way, there is nothing wrong with that. Many honest groups have done it throughout history...

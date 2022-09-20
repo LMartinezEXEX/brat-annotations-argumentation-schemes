@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 35 126	The land you claim is yours was there’s until our IMMIGRANT ancestors stole it from them...
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 33	These people are NATIVE AMERICANS
+A2	QuadrantType T2 fact
+T3	Collective 85 94	IMMIGRANT
+T4	Property 105 123	stole it from them
+T5	CounterNarrativeA 232 233	t
+#1	AnnotatorNotes T5	While it is true that the natives are the original owners of this land, immigration is a right. They are not in all cases "stealing" land.
+T6	CounterNarrativeB 234 235	s
+#2	AnnotatorNotes T6	Immigrants stole what? Uninhabited land?

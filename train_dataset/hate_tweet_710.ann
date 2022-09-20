@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 91	"""""""University of Illinois"""" While Thousands of Americans are killed by Illegal Aliens
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 92 147	#Democrats want to Reward them with a Illegal DACA Memo
+A2	QuadrantType T2 fact
+T3	Collective 77 91	Illegal Aliens
+T4	Property 40 76	Thousands of Americans are killed by
+T5	pivot 130 137	Illegal
+T6	pivot 77 84	Illegal
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeB 165 166	d
+#1	AnnotatorNotes T7	It is not true that immigrants are murderers. There are even many of them unjustly convicted to keep the statistics.
+T8	CounterNarrativeA 166 167	T
+#2	AnnotatorNotes T8	Even if what you say is true, it is fine that those who did nothing wrong will not be punished for the others' fault...
+T9	CounterNarrativeC 164 165	n
+#3	AnnotatorNotes T9	I am very doubtful that the crime committed by immigrants is higher than that committed by non-immigrants.

@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 0 84	To believe that if Europe will help the poor in Africa will stop migration is wrong.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 84 257	Its not possible to help them, because the grow to much - overpopulation. So they will come always more. To stop them only camps to bring them back and no welfare will help.
+A2	QuadrantType T2 fact
+T4	pivot 31 44	help the poor
+T3	pivot 104 113	help them
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeA 259 260	t
+#1	AnnotatorNotes T5	let's assume that it is indeed not possible to help everyone. That does not mean that we should not help anyone. In fact, it's crazy to think that helping these people won't make any difference at all.
+T6	CounterNarrativeC 260 261	t
+#2	AnnotatorNotes T6	I understand that high population growth rates makes it difficult to sustain aid over time. However, proposing to isolate them in camps to return them to their country is too much, don't you think? I think I have read something like that in history books... ah yes...
+T7	Collective 48 54	Africa
+T8	Property 142 187	overpopulation. So they will come always more

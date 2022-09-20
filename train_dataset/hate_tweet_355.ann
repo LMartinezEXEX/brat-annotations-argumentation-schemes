@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 0 121	About Time! Non Citizens and DACA Illegals Who Voted Must be Arrested For Voter Fraud Serve their time then Deported ASAP
+A1	QuadrantType T1 policy
+T2	Premise2Justification 122 173	All Forms ask you to Swear Your a Citizen they lied
+A2	QuadrantType T2 fact
+T3	Collective 12 42	Non Citizens and DACA Illegals
+T4	Property 80 85	Fraud
+T5	pivot 156 163	Citizen
+T6	pivot 16 24	Citizens
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeB 231 232	n
+#1	AnnotatorNotes T7	I do not believe it is true that so many foreigners have voted without being eligible to vote
+T8	CounterNarrativeA 230 231	o
+#2	AnnotatorNotes T8	it makes no sense to propose deporting someone who has already paid for his mistake in jail. It's not that way how our system works.

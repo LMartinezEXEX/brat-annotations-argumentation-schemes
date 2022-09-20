@@ -1,0 +1,17 @@
+T1	Collective 185 193	refugees
+T2	Premise1Conclusion 152 272	It's because the majority of the refugees are not actually refugees they are economic migrants trying to get into Europe
+T3	Premise2Justification 0 152	Why would young fighting age men be the vast majority of the ones escaping a war &amp; not those who cannot fight like women, children, and the elderly?
+R1	firstOrder Arg1:T2 Arg2:T3	
+T4	Collective 57 80	the ones escaping a war
+A1	QuadrantType T3 fact
+A2	QuadrantType T2 fact
+T11	CounterNarrativeA 299 300	n
+#1	AnnotatorNotes T11	Are you saying that if you are young and healthy and not a children, elderly or women then you can't be a refugee?
+T12	CounterNarrativeB 298 299	q
+#2	AnnotatorNotes T12	People can be refugees and also economic migrants. Wars cause severe economic crises among other terrible things and economic crises can also cause wars. They are people escaping for their lives and we should help.
+T10	Property 194 272	are not actually refugees they are economic migrants trying to get into Europe
+T13	CounterNarrativeC 297 298	Y
+#3	AnnotatorNotes T13	Do you have proof to support that young fighting age men are the vast majority of the ones escaping a war and not women, children and the elderly? Because that  sounds fake
+T5	pivot 57 80	the ones escaping a war
+T6	pivot 185 193	refugees
+R2	related Arg1:T6 Arg2:T5	

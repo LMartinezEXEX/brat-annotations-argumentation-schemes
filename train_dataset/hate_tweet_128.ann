@@ -1,0 +1,15 @@
+T2	Collective 0 10	Immigrants
+T1	Premise1Conclusion 85 128	Dont Blame the U.S for Your ILLEGAL ACTIONS
+T3	Premise2Justification 0 84	Immigrants Come LEGALLY like 1.5 Milion Do Every year Not Cross the Border ILLEGALLY
+T4	Property 113 128	ILLEGAL ACTIONS
+T5	pivot 75 84	ILLEGALLY
+T6	pivot 113 120	ILLEGAL
+R1	related Arg1:T5 Arg2:T6	
+A1	QuadrantType T3 fact
+A2	QuadrantType T1 policy
+T7	CounterNarrativeA 213 214	s
+#1	AnnotatorNotes T7	Are you implying that migrants are illegals because they want to? That they could enter the country legally but for some reason they do it illegally?
+T8	CounterNarrativeA 212 213	w
+#2	AnnotatorNotes T8	Migrants are usually desperate people looking for a better life. You shouldn't judge the illegality of a desperate action
+T9	CounterNarrativeC 210 211	N
+#3	AnnotatorNotes T9	How do you know that so much people come legally to the US? Where is your source? People cross the border illegally because they are desperate and there is no other way to cross it

@@ -1,0 +1,10 @@
+T1	Premise2Justification 33 136	You really listen to yourself, dont u? That's why there are 12.1 illegals here now costing us billions.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 137 201	Seems to me WE HAVE HAD OPEN BORDERS! Close them. #BuildThatWall
+A2	QuadrantType T2 policy
+T3	Collective 98 106	illegals
+T4	Property 116 135	costing us billions
+T5	CounterNarrativeB 3 4	h
+#1	AnnotatorNotes T5	It is not true that the presence of immigrants "costs us". Taxes are the same, with or without them. 
+T6	CounterNarrativeA 4 5	a
+#2	AnnotatorNotes T6	That's not true. Open borders is just a figure. If it were true, there would be no distinction between legal and "illegal" immigrants.

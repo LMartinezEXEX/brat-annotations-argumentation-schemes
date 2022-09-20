@@ -1,0 +1,8 @@
+T1	Premise2Justification 1 87	Apparently @POTUS considered setting annual refugee admissions cap at 5,000 #Refugees.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 89 203	If that low number was admitted, it would blow to smithereens the budgets of nine federal resettlement contractors
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 297 298	U
+#1	AnnotatorNotes T3	I mean... It could be worse, but... is there really a justification for such a low number? It looks like a decision motivated entirely by xenophobia.
+T4	CounterNarrativeA 296 297	y
+#2	AnnotatorNotes T4	If they were only concerned about the "quality" of the immigrants, as they say, then they wouldn't worry about "quantity", don't you think?

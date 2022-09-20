@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 217	1200 refuegges went to Spain in the last 2 days. Spain decided to let them in free without any registration. Sozialists say, this is a problem for Europe and the refugees will run now against north to foolish Germany.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 125 217	this is a problem for Europe and the refugees will run now against north to foolish Germany.
+A2	QuadrantType T2 fact
+T3	pivot 5 14	refuegges
+T4	pivot 162 170	refugees
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 5 14	refuegges
+T6	Property 135 153	problem for Europe
+T7	CounterNarrativeC 235 236	1
+#1	AnnotatorNotes T7	I don't think a country would let so many people in without registration. You are making this up
+T8	CounterNarrativeB 234 235	X
+#2	AnnotatorNotes T8	Refugees do nothing wrong to be considered "a problem for Europe". 
+T9	CounterNarrativeA 233 234	m
+#3	AnnotatorNotes T9	If they are not registered, how can you know where they are or where they are going? Your story does not add up

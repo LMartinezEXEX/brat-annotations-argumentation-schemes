@@ -1,0 +1,16 @@
+T1	Premise1Conclusion 162 255	Liberals are Anti American and Anti Americans !  Dancing on the grave of Dead Americans kille
+T2	Premise2Justification 25 159	Liberals always calling people racists because they dont believe in Open borders and illegal  #Immigration that hurts American workers
+A1	QuadrantType T1 value
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 12 13	B
+#1	AnnotatorNotes T3	You are criticizing liberals because they call you racist if you don't think like them and them you are calling them anti-americans just because they don't think like you. Do you realize that in the best scenario you are the same thing you criticise?
+T4	pivot 25 33	Liberals
+T5	pivot 162 170	Liberals
+R1	related Arg1:T5 Arg2:T4	
+R2	firstOrder Arg1:T1 Arg2:T2	
+T6	Collective 110 131	illegal  #Immigration
+T7	Property 137 159	hurts American workers
+T8	CounterNarrativeB 14 15	a
+#2	AnnotatorNotes T8	Why do you say that illegal immigration hurts American workers? That seems just like a xenophobic hypothesis not backed up by any evidence
+T9	CounterNarrativeC 14 15	a
+#3	AnnotatorNotes T9	Are you sure that liberals call people racist because they don't believe in open borders and illegal immigration? Or maybe it's because the people they call like that are racist?

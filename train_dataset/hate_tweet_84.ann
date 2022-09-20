@@ -1,0 +1,8 @@
+T1	Premise2Justification 76 188	endangering children like this should never happen, girls, females will be attacked and raped due to it, so dumb
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 74	HUGE mistake, anyone living there should immediately move out of the state
+A2	QuadrantType T2 value
+T3	CounterNarrativeC 211 212	p
+#1	AnnotatorNotes T3	Of course endangering children is wrong. But no one is doing it.
+T4	CounterNarrativeA 210 211	m
+#2	AnnotatorNotes T4	Leaving the state just because you don't like the government? Sounds too drastic

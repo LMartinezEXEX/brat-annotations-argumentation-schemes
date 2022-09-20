@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 150 219	That is literally the only reason the Democrats care about this issue
+A1	QuadrantType T1 fact
+T2	Premise2Justification 27 148	The idea is to bring in the "dreamers" so that they vote for Democrats because Dems know they have to import their voters
+A2	QuadrantType T2 fact
+T3	pivot 88 97	Democrats
+T4	pivot 188 197	Democrats
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 55 65	"dreamers"
+T6	Property 66 97	so that they vote for Democrats
+T7	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T7	Politicians care about doing good for their voters so that they will vote for them. What's wrong with that? Sounds like the way democracy works.
+T8	CounterNarrativeB 1 2	P
+#2	AnnotatorNotes T8	Many of them cannot vote, and many of those who can vote, vote differently, even though it seems that only they care about them....
+T9	CounterNarrativeA 3 4	t
+#3	AnnotatorNotes T9	For people who came into government, it doesn't sound like a good plan. Are you sure you're not making it up?

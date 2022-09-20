@@ -1,0 +1,13 @@
+T1	Premise2Justification 210 280	NO MORE SOFT TOUCHES ps Gulf States and Saudi intake of 'refugees' = 0
+T2	Premise1Conclusion 0 209	Easy solution no benefits after child 2 and wife 1 and no votes for 1st and 2nd generation immigrants simple solution.   No combined benefits and no guarantees of jobs or homes unless they apply before arrival
+T3	pivot 266 275	'refugees
+T4	pivot 91 101	immigrants
+R1	related Arg1:T3 Arg2:T4	
+R2	firstOrder Arg1:T2 Arg2:T1	
+T5	Collective 91 101	immigrants
+T6	Property 133 141	benefits
+T7	Property 149 176	guarantees of jobs or homes
+A1	QuadrantType T2 policy
+A2	QuadrantType T1 fact
+T8	CounterNarrativeA 303 304	h
+#1	AnnotatorNotes T8	You ask for no more soft touches but you are talking about people. There is no easy solution when their problem isn't easy

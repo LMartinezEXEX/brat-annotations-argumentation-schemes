@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 96	Viktor Orban: The new EU leadership should punish those who let millions of migrants into Europe
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 14 96	The new EU leadership should punish those who let millions of migrants into Europe
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 114 115	P
+#1	AnnotatorNotes T3	Ok, so, Viktor Orban said something. Like anyone cares...
+T4	CounterNarrativeA 116 117	Q
+#2	AnnotatorNotes T4	Who is this Viktor Orban, by the way?...

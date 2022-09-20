@@ -1,0 +1,16 @@
+T3	Property 164 210	ake jobs from Citizens and steal U.S Resources
+T2	Premise2Justification 0 87	Here Illegally you are breaking the law!  The laws states you get deported not a choice
+T4	Collective 0 14	Here Illegally
+T1	Premise1Conclusion 90 237	You dont get to come to the U.S Illegally ,feel Entitled Demand to stay , ake jobs from Citizens and steal U.S Resources #Trump #MAGA #SendThemHome
+T10	CounterNarrativeA 260 261	D
+#1	AnnotatorNotes T10	The law states illegals get deported but also who is legal and who is not. If the problem is the legality, we can change the law and make immigrants legal
+T11	CounterNarrativeB 258 259	5
+#2	AnnotatorNotes T11	Do you have any proof that immigrants take jobs from citizens and steal US resources?
+T12	CounterNarrativeC 257 258	v
+#3	AnnotatorNotes T12	Some decades ago the law stated that slavery was legal. Laws change.
+R1	firstOrder Arg1:T1 Arg2:T2	
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy
+T5	pivot 15 18	you
+T6	pivot 90 93	You
+R2	related Arg1:T6 Arg2:T5	

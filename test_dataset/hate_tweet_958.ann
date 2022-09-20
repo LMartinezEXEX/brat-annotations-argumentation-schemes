@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 89 106	Will you join me?
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 87	I’m fighting to stop U.S. Customs and Border Protection from abusing immigrant children
+A2	QuadrantType T2 fact
+T3	Collective 21 55	U.S. Customs and Border Protection
+T4	Property 61 87	abusing immigrant children

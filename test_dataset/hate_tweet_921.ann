@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 37	EU to migrants: Go home and stay home
+T2	Premise1Conclusion 16 37	Go home and stay home
+A1	QuadrantType T2 policy
+A2	QuadrantType T1 fact
+T3	CounterNarrativeC 60 61	Q
+#1	AnnotatorNotes T3	Are you speaking on behalf of all the EU? We are many supporting the right to free migration and movement
+T4	CounterNarrativeA 52 53	B
+#2	AnnotatorNotes T4	Their home is in the country they choose, not where you say it is

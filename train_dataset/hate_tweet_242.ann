@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 151 190	Who will pay this and everything else??
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 149	@FareedZakaria @NRO @NickKristof Please discuss who will pay for all the services immigrants receive. 10K or more per child per year, education alone
+A2	QuadrantType T2 policy
+T3	Collective 82 92	immigrants
+T4	Property 57 149	pay for all the services immigrants receive. 10K or more per child per year, education alone
+T5	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T5	Don't worry, that money will go into the pockets of citizens, in exchange for doing their job, just like anywhere else in the world.
+T6	CounterNarrativeB 1 2	F
+#2	AnnotatorNotes T6	Who will pay depends on many factors, as it always has. Why are you suddenly upset?
+T7	CounterNarrativeC 3 4	r
+#3	AnnotatorNotes T7	where did you get that someone else is going to pay for that? At worst it will be with the tax money you already pay (or should be paying).

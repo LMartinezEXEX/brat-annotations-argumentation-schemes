@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 51	Delhi is National Capital&amp;centre for all States
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 52 142	so if mad KEJI is allowed his way,it will soon become full of encroachers,illegal migrants
+A2	QuadrantType T2 fact
+T3	Collective 126 142	illegal migrants
+T4	Property 114 125	encroachers
+T5	CounterNarrativeA 0 1	D
+#1	AnnotatorNotes T5	People don't leave their homes just because they want to. What you fear is not going to happen
+T6	CounterNarrativeB 1 2	e
+#2	AnnotatorNotes T6	Nobody tries to "encroach" another country. They go seeking for make a living. As simple as that

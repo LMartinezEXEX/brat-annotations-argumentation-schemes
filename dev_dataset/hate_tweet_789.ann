@@ -1,0 +1,12 @@
+T1	Premise2Justification 83 217	While Western Europe opened its borders and accelerated its #Islamisation during the #migrant crisis, Eastern Europe did the opposite.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 82	It is no secret that #Hungary has become one of the safest countries in the world.
+A2	QuadrantType T2 fact
+T3	Collective 169 176	migrant
+T4	Property 144 156	Islamisation
+T5	CounterNarrativeC 240 241	Q
+#1	AnnotatorNotes T5	So what? The Europeans did it so it's okay? That's not true, and you know it. Don't make me start with the examples
+T6	CounterNarrativeB 239 240	5
+#2	AnnotatorNotes T6	Not all migrants are Islamists, nor is it wrong to be an Islamist.
+T7	CounterNarrativeA 237 238	O
+#3	AnnotatorNotes T7	Assuming you are right, can you prove that there is a relationship between the two? It seems like a coincidence.

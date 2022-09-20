@@ -1,0 +1,15 @@
+T1	Premise2Justification 31 114	Where is the Outrage an Illegal Alien Permanently Separated This woman from her son
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 115 170	or does #FamiliesBelongTogether Only apply to ILLEGALS!
+A2	QuadrantType T2 fact
+T3	Collective 55 68	Illegal Alien
+T4	Property 81 114	Separated This woman from her son
+T7	pivot 124 132	Families
+T8	pivot 107 114	her son
+R2	related Arg1:T8 Arg2:T7	
+T5	CounterNarrativeB 0 1	@
+#1	AnnotatorNotes T5	I don't know what really happened, but even if it did, you can't generalize from a single case.
+T6	CounterNarrativeC 1 2	S
+#2	AnnotatorNotes T6	It makes no sense that crimes committed by foreigners are worse than those committed by citizens. Especially if they are the same crime
+T9	CounterNarrativeA 2 3	e
+#3	AnnotatorNotes T9	I guess not. But I don't think you're understanding it correctly....

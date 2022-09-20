@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 66 94	You can't make this stuff up
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 65	Here's some #elite #globalist #Jews plotting to take-over #Poland
+A2	QuadrantType T2 fact
+T3	Collective 31 35	Jews
+T4	Property 36 44	plotting
+T5	CounterNarrativeC 217 219	al
+#1	AnnotatorNotes T5	Where do you get that the Jews are trying to take over Poland? That's anti-Semitic propaganda
+T6	CounterNarrativeA 219 220	i
+#2	AnnotatorNotes T6	Apparently it is possible, because many people believe it is real.
+T7	CounterNarrativeB 216 217	n
+#3	AnnotatorNotes T7	Do you really believe that all people of one religion can organize politically so easily? No, it is not that simple.

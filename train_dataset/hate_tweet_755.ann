@@ -1,0 +1,11 @@
+T1	Premise2Justification 24 41	We need that wall
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 43 57	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	pivot 37 41	wall
+T4	pivot 53 57	Wall
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeA 19 20	o
+#1	AnnotatorNotes T5	Who are you, and why should we pay attention to you?
+T6	CounterNarrativeC 20 21	d
+#2	AnnotatorNotes T6	No we don't. In fact, it would be a waste of time and resources...

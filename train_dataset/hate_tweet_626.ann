@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 120 151	#BuildTheDamnWall #BuildThatWal
+T2	Premise2Justification 15 118	We need to improve our country, schools, neighborhoods, hospitals, prisons, by kicking out the illegals
+R3	secondOrder Arg1:T1 Arg2:T2	
+T8	CounterNarrativeA 150 151	l
+#1	AnnotatorNotes T8	Building a wall won't solve the problem of desperate people trying to find a better place to live. Less than anything, it won't improve schools, neighborhoods, hospitals or prisons. All the contrary, it will waste the money we need for that
+A1	QuadrantType T2 policy
+A2	QuadrantType T1 policy
+T9	CounterNarrativeC 149 150	a
+#2	AnnotatorNotes T9	Kicking out the illegals won't change the poor budget for schools, neighborhoods, hospitals and prisons

@@ -1,0 +1,11 @@
+T1	Premise2Justification 121 213	Corrupt Democrats Can't WinWith Hard Working Americans Because They Are #WalkAway From Lies!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 120	This Should Make Every American Called SenatorsTell Them Build The Dam WallNo Chain Migration/Visa Lottery & No Amnesty!
+A2	QuadrantType T2 policy
+T3	pivot 166 175	Americans
+T4	pivot 23 31	American
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 222 223	D
+#1	AnnotatorNotes T5	Or perhaps entering into a lie. Your truth is not the only one, you know....
+T6	CounterNarrativeA 223 224	A
+#2	AnnotatorNotes T6	So, we are going to do what will ensure that we win the election, and not what is right? Don't count with me.

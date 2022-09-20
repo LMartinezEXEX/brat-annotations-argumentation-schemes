@@ -1,0 +1,12 @@
+T1	Premise2Justification 84 230	The #NWO wants the destruction of Europe That's been their purpose all along. First, take away your #Soverignty then they take away your security.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 69 82	#SendThemBack
+A2	QuadrantType T2 policy
+T3	Collective 14 29	IslamicMigrants
+T4	Property 99 124	the destruction of Europe
+T5	CounterNarrativeB 301 302	R
+#1	AnnotatorNotes T5	If bad things are happening in Europe, it is not true that it has to do with Islamic immigrants.
+T6	CounterNarrativeC 300 301	Y
+#2	AnnotatorNotes T6	The NWO is the conspiracists' way of avoiding taking charge of their own problems.
+T7	CounterNarrativeA 299 300	j
+#3	AnnotatorNotes T7	It's not right to run people off just because a conspiracy theory associates them with problems. It's not civilized.
