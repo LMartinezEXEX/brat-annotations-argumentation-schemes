@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 53 122	@AnnCoulter:"President Trump doesn't need Congress to Build The Wall.
+T2	Premise2Justification 122 255	We are being invaded by a foreign country; defending our Borders is the # 1 job of the Commander-In-Chief, use DOD funds."PLEASE @POT
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact

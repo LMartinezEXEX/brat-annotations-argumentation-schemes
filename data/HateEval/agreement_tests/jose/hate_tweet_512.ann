@@ -1,6 +1,6 @@
 T1	Premise2Justification 12 32	The wall would HELP!
 A1	QuadrantType T1 fact
-T2	Premise1Conclusion 33 46	#BuildThatWal
+T2	Premise1Conclusion 33 47	#BuildThatWall
 A2	QuadrantType T2 policy
 T3	pivot 16 20	wall
 T4	pivot 43 47	Wall

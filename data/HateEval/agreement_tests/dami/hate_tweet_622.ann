@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 99 181	The whole world laughs about Europe which isnt able to protect the own countries !
+T2	Premise2Justification 0 98	Duterte from Phillipines says Europe should take over muslimrefugees from Myanmar, called Rohinga.
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T3	pivot 30 36	Europe
+T4	pivot 128 134	Europe

@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 88	Fast-Food Workers Union Demands Restaurant to Allow Employees to Wear 'Abolish ICE' Pins
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 101 136	#BuildTheWALL #AmericaFirst #NoDACA
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 163 164	A
+#1	AnnotatorNotes T3	"You have to do this because some restaurant employees agree with it" is the worst argument ever.
+T4	CounterNarrativeC 165 166	A
+#2	AnnotatorNotes T4	And why should restaurants let their employees wear pins with hateful slogans against some of their customers? It doesn't seem right to me, and I don't think you understand how business works.

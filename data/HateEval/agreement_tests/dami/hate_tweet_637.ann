@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 71 115	We don't need their money and their programs
+T2	Premise2Justification 0 69	Why do foreign individual dump money (and refugees) into our country?
+T3	pivot 31 36	money
+T4	pivot 91 96	money
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy
+T5	Collective 7 25	foreign individual
+T6	Property 26 69	dump money (and refugees) into our country?

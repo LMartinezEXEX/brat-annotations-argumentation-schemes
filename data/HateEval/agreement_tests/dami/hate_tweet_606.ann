@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 146 274	How about taking or Our OWN Citizens, Veterans and other AMERICANS in need?  To HELL with these ungrateful idiots; #SendThemBack
+T2	Premise2Justification 0 144	These savages invade Our Country, disrupt cities, turn many into shitholes like where they came from and WE THE PEOPLE are paying for this SHIT.
+T3	Collective 6 13	savages
+T4	Property 14 100	invade Our Country, disrupt cities, turn many into shitholes like where they came from
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy

@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 92 150	Help #SendthemBack instead of Burdening the U.S Taxpayer !
+T2	Premise2Justification 152 255	U.S Is NOT nCentral America's dumping ground for their kids we have .,S Homeless kids we need to help f
+T3	Premise2Justification 6 90	Aiding Illegals is against Federal Immigration laws a Felon up to 5 years in Prison!
+A1	QuadrantType T3 fact
+A2	QuadrantType T2 fact
+A3	QuadrantType T1 policy
+T4	pivot 13 21	Illegals
+T5	pivot 97 110	#SendthemBack

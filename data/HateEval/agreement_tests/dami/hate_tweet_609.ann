@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 101 114	#BuildTheWALL
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 88	Fast-Food Workers Union Demands Restaurant to Allow Employees to Wear 'Abolish ICE' Pins
+A2	QuadrantType T2 fact

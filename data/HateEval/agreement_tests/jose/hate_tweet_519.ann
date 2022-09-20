@@ -2,8 +2,8 @@ T1	Premise2Justification 12 190	American taxpayers are subsidizing labor costs o
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 191 255	If hiring immigrants puts Americans out of work, we're paying th
 A2	QuadrantType T2 fact
-T3	pivot 90 100	immigrants
-T4	pivot 201 211	immigrants
+T3	pivot 85 101	hire immigrants,
+T4	pivot 194 211	hiring immigrants
 R1	related Arg1:T3 Arg2:T4	
 T5	Collective 90 100	immigrants
 T6	Property 12 100	American taxpayers are subsidizing labor costs of American employers who hire immigrants

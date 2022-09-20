@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 224 259	Leadership changing in EU.#Visegrad
+T2	Premise2Justification 0 223	https://t.co/C1yDQMHkVNReality taking hold in Germany. “We can do it” has turned into begging/pleading w-others to take back migrants.GER no longer controls own destiny. Conservative wing of CDU/CSU wants #Merkel to resign.
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

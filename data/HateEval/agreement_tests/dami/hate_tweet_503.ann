@@ -1,6 +1,6 @@
 T1	Premise1Conclusion 74 276	Visa-free status or EU membership would be an absolute disaster.Erdogan a global tyrant who flooded Europe w-aggressive male migrants, helped destabilize Syria and supported Islamic extremists.#Visegrad
 T2	Premise2Justification 27 73	Rep. agrees w-Sebastian Kurz regarding Turkey.
-T4	Collective 199 207	migrants
+T4	Collective 199 208	migrants,
 T5	Property 183 198	aggressive male
 T6	Property 209 266	helped destabilize Syria and supported Islamic extremists
 A1	QuadrantType T1 fact

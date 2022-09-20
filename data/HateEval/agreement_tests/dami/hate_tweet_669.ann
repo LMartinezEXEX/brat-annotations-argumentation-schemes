@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 214 247	We don’t need more immigration to
+T2	Premise2Justification 0 213	@phoenixkhost @ChenGonSol I’m not sure about the situations of where you guys live, but in the UK, we’re full. Nearly 70 million people on a tiny island that’s already the most densely populated country in Europe.
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

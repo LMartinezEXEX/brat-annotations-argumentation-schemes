@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 199 269	If you care so much for immigrats, you can take them home in your town
+T2	Premise2Justification 0 198	People in India be worried like where would those 40lakhs immigrants go. But what bout those indigenous people whose communities doesn’t even reach 40 lakhs. Think for those Indians living in Assam.
+T3	pivot 223 233	immigrats,
+T4	pivot 58 68	immigrants
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact

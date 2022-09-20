@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 109 140	taking ur time o yes we know it
+T2	Premise2Justification 0 108	@DailyMailUK ur were voted in to protect our borders not let migrants or the EU dictate how many you let in.
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	Collective 61 69	migrants
+T4	Property 80 107	dictate how many you let in

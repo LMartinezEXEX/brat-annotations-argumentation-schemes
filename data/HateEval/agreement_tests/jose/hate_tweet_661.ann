@@ -1,0 +1,8 @@
+T1	Premise2Justification 15 56	And you want to restart Catch and Release
+T2	Premise2Justification 144 206	Illegal Alien Accused of Raping, Trafficking Girl in Louisiana
+T3	Premise1Conclusion 82 144	until labor participation rate is at least 80%#NoCatch&Release
+T4	Collective 152 157	Alien
+T5	Property 158 206	Accused of Raping, Trafficking Girl in Louisiana
+A1	QuadrantType T3 policy
+A2	QuadrantType T1 fact
+A3	QuadrantType T2 fact

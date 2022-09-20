@@ -3,5 +3,5 @@ A1	QuadrantType T1 fact
 T2	Premise1Conclusion 40 61	"Deport all migrants"
 A2	QuadrantType T2 policy
 T3	pivot 31 39	Migrants
-T4	pivot 52 60	migrants
+T4	pivot 52 61	migrants"
 R1	related Arg1:T3 Arg2:T4	

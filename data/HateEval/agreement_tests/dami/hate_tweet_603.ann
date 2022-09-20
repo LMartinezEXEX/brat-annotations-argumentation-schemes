@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 33	Good this makes it a safe country
+T2	Premise1Conclusion 39 65	immigrants can now go home
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy

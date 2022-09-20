@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 0 47	@narendramodi Must deport all illegal migrants.
+T2	Premise2Justification 48 126	India already reeling under constant threat of Muslim Radicals.Curb population
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact

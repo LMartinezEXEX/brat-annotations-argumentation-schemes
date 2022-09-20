@@ -1,10 +1,11 @@
-T1	Premise1Conclusion 14 138;196 221	Sir,pl don't bow to mad Mamta/TMC whims&amp;threats.Centre must go ahead&amp;deport all illegal migrants from all over India Pl don't abt consequences
+T1	Premise1Conclusion 67 140	Centre must go ahead&amp;deport all illegal migrants from all over India.
 A1	QuadrantType T1 policy
-T2	Premise2Justification 140 195;222 255	India must not be made home to Muslim illegal migrants. Entire India is with u in throwin
+T2	Premise2Justification 141 196;224 257	India must not be made home to Muslim illegal migrants. Entire India is with u in throwin
 A2	QuadrantType T2 fact
-T3	pivot 133 138	India
-T4	pivot 140 145	India
-R1	related Arg1:T3 Arg2:T4	
-T5	pivot 102 118	illegal migrants
-T6	pivot 178 194	illegal migrants
+T5	pivot 99 119	all illegal migrants
+T6	pivot 179 196	illegal migrants.
 R2	related Arg1:T5 Arg2:T6	
+T3	Premise1Conclusion 14 66	Sir,pl don't bow to mad Mamta/TMC whims&amp;threats.
+A3	QuadrantType T3 policy
+T4	Premise1Conclusion 197 223	Pl don't abt consequences.
+A4	QuadrantType T4 policy

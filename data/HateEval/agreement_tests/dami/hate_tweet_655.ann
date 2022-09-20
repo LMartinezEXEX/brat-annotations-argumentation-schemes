@@ -1,0 +1,9 @@
+T1	Premise2Justification 38 250	Skyrocketing rapes in Sweden that correlate with increased immigration? 2000+ women raped on New Years by migrants in Cologne? Paris becoming littered with tent cities? Acid attacks and ethnic clusters in London?
+T2	Premise1Conclusion 251 255	None
+T4	Collective 144 152	migrants
+T5	Property 116 127	women raped
+T6	Property 38 56	Skyrocketing rapes
+T7	Property 180 205	littered with tent cities
+T8	Property 207 239	Acid attacks and ethnic clusters
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact

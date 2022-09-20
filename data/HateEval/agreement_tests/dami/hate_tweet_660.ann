@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 164 271	so #DeportAliens they are called "Scofflaws" they scoff our laws!#EjectThem#RejectImmigrantApplicants@POTUS
+T2	Premise2Justification 0 163	Enforce National security by enforcing ALL Immigration and VISA lawsCome On, Feds: it is not that hard to do the few jobs the federal government was formed to do -
+T3	Collective 174 180	Aliens
+T4	Property 181 229	they are called "Scofflaws" they scoff our laws!
+T5	pivot 43 54	Immigration
+T6	pivot 174 180	Aliens
+A1	QuadrantType T2 policy
+A2	QuadrantType T1 policy

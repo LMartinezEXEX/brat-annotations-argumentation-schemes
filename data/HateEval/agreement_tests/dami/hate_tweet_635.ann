@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 39	Lost in the hysteria over #immigration:
+T2	Premise2Justification 40 107	The #Trump #MuslimBan is about keeping Americans fearful, not safe.
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T3	pivot 26 39	#immigration:
+T4	pivot 51 61	#MuslimBan

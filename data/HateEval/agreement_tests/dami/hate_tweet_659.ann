@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 119 152	Deport ASAP  stop the #AsylumScam
+T2	Premise1Conclusion 166 179	#SendThemBack
+T3	Premise2Justification 0 116	Under Obama Illegal Aliens Claim Credible Fear at the Border once released into the US they never applied for Asylum
+T4	Collective 12 26	Illegal Aliens
+T5	Property 92 116	never applied for Asylum
+T6	pivot 110 116	Asylum
+T7	pivot 141 148	#Asylum
+A1	QuadrantType T3 fact
+A2	QuadrantType T1 policy
+A3	QuadrantType T2 policy

@@ -1,0 +1,6 @@
+T1	Premise2Justification 15 74	Sheme there is no attention on our own people and foodbanks
+T2	Premise1Conclusion 75 136	while do you have to be a migrant to be treated with respect?
+T3	Collective 101 108	migrant
+T4	Property 21 74	there is no attention on our own people and foodbanks
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact

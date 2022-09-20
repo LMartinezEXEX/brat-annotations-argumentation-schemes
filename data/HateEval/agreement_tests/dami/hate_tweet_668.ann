@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 12 73	Guess who will not be elected if they do not stop immigration
+T2	Premise2Justification 74 137	now blame Germany the bankrupt country blame lies at their door
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact

@@ -9,17 +9,21 @@ all_tweets = []
 labels_justifications_dami = []
 labels_justifications_jose = []
 
-def labelComponents(text, justifications):
+def labelComponents(text, component_text):
     if len(text.strip()) == 0:
         return []
-    if len(justifications) == 0:
+    if len(component_text) == 0:
         return [0] * len(text.strip().split())
 
-    if justifications[0] in text:
-        parts = text.split(justifications[0])
-        rec1 = labelComponents(parts[0], justifications[1:])
-        rec2 = labelComponents(parts[1], justifications[1:])
-        return rec1 + [1] * len(justifications[0].strip().split()) + rec2
+    if component_text[0] != "" and component_text[0] in text:
+        parts = text.split(component_text[0])
+        rec1 = labelComponents(parts[0], component_text[1:])
+        rec2 = []
+        if len(parts) > 2:
+            rec2 = labelComponents(component_text[0].join(parts[1:]), component_text)
+        else:
+            rec2 = labelComponents(parts[1], component_text[1:])
+        return rec1 + [1] * len(component_text[0].strip().split()) + rec2
     return [0] * len(text.strip().split())
 
 filePatterns = ["./data/HateEval/agreement_tests/dami/*.ann", "./data/HateEval/agreement_tests/jose/*.ann"]
@@ -46,7 +50,7 @@ def labelComponentsFromAllExamples(filePattern, component):
         labels = [-1]
         if is_argumentative:
             labels = labelComponents(tweet_text, component_text)
-        labels_per_example.append((f, labelComponents(tweet_text, component_text)))
+        labels_per_example.append((f, labels))
 
     return labels_per_example
 
@@ -77,8 +81,8 @@ for component in components:
             print(jose)
         idx += 1
 
-    dami_k = [l for label in dami_examples for l in label]
-    jose_k = [l for label in jose_examples for l in label]
+    dami_k = [l for label in only_argumentative_dami for l in label[1]]
+    jose_k = [l for label in only_argumentative_jose for l in label[1]]
 
     print("Length of examples to compare (all the following numbers should be equal)")
     print(len(dami_k))

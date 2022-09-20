@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 147 255	He should be allowed a say on ONE migrant at most.  And be personally and directly responsible for everythin
+T2	Premise2Justification 0 147	@StefanMolyneux One man one vote right?Yet here we have one man assuming he can demand the importation of millions of non citizens for  HIS agenda.
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy
+T3	pivot 118 130	non citizens
+T4	pivot 181 188	migrant

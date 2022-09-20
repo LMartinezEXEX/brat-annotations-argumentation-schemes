@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 205 287	In your logic, those aren't terrorrists? &amp; sec. forces are legitimate targets?
+T2	Premise2Justification 34 204	Lets suppose a group of immigrant in Netherlands started fighting &amp; killing local security forces and requested that they want some land to form their own government.
+T3	Collective 58 67	immigrant
+T4	Property 91 203	fighting &amp; killing local security forces and requested that they want some land to form their own government
+T5	pivot 220 225	those
+T6	pivot 47 67	a group of immigrant
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 value

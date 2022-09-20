@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 39 65	immigrants can now go home
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 33	Good this makes it a safe country
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 134 135	9
+#1	AnnotatorNotes T3	I doubt that there is a relation between a safe country and immigrants leaving. Do you think citizens don't commit crimes?
+T4	CounterNarrativeA 137 138	D
+#2	AnnotatorNotes T4	What is "this"? You should be more specific with your arguments.... 

@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 127 245	“Not one...the immigration policies in Europe are a disaster, you’re destroying Europe, you’re destroying the cultureâ
+T2	Premise2Justification 8 124	“Can you think of a place that has been improved by mass immigration or the movements of large numbers of refugees?”
+T3	Collective 142 153	immigration
+T4	Property 196 214	destroying Europe,
+T5	Property 222 245	destroying the cultureâ
+T6	pivot 65 76	immigration
+T7	pivot 142 153	immigration
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact

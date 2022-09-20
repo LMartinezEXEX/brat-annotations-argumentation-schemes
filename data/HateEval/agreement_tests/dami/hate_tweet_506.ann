@@ -2,5 +2,5 @@ T1	Premise1Conclusion 125 254	We call it “migrant shuffling”ðŸ‘‰a wast
 T2	Premise2Justification 0 116	One may get dizzy trying to keep up w-EU on migration, as never-ending game of “running around in circles” continues
 A1	QuadrantType T1 fact
 A2	QuadrantType T2 fact
-T3	pivot 58 106	never-ending game of “running around in circles”
-T4	pivot 136 155	“migrant shuffling”
+T3	pivot 44 54	migration,
+T4	pivot 136 144	“migrant

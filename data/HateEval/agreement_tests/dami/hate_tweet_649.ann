@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 72 120	Its time we take back our Country  #SendThemBack
+T2	Premise2Justification 9 69	#Democrats and Liberals are Lying About Illegal #immigration
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy

@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 144 158	#BuildThatWall
+T2	Premise2Justification 0 143	The illegal aliens are treated better than American children with facilities that are luxurious and the liberal socialists want to abolish ICE.
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy
+T3	Collective 4 18	illegal aliens
+T4	Property 19 95	are treated better than American children with facilities that are luxurious

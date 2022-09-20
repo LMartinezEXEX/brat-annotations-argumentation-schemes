@@ -1,0 +1,8 @@
+T3	Collective 97 105	refugees
+T4	Property 182 216	terrorists taking undue advantage.
+T1	Premise2Justification 0 119	With todays #JalalabadAttack &amp; other vicious attacks claimed by ISIS, I smell a spillover of refugees in Pak again.
+T2	Premise1Conclusion 120 267	This time we should not open borders for them. We cant afford terrorists taking undue advantage. Let Americans deal with it.#Afghanistan #Jalalabad
+A1	QuadrantType T2 policy
+A2	QuadrantType T1 value
+T5	pivot 68 72	ISIS
+T6	pivot 182 192	terrorists

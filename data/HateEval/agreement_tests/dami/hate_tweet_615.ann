@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 207 255	Stop allowng Illegals to game the #immigration s
+T2	Premise2Justification 17 205	Why is it that Illegals  that have been in the U.S for years that are being deported get to claim asylum when the laws states they must claim aslyum within one year of their last arrival ?
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy
+T3	pivot 220 231	Illegals to
+T4	pivot 32 40	Illegals
+T5	Property 232 253	game the #immigration
+T6	Collective 32 40	Illegals

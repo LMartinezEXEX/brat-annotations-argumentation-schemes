@@ -1,0 +1,7 @@
+T1	Premise2Justification 27 57	Subramanian Swamy makes sense!
+T2	Premise1Conclusion 58 186	Illegal immigrants have two options:-1. _Go back Home. Because you wanted partition._2. _Merge Pakistan and Bangladesh with us._
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T3	Collective 58 76	Illegal immigrants
+T5	Property 125 142	wanted partition.
+T4	Property 142 186	_2. _Merge Pakistan and Bangladesh with us._

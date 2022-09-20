@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 120 140	Christians not safe.
+T2	Premise2Justification 11 119	Nice tweet , Joyce, Truth is they flee Iran etc but want to bring their hate to the Eu even in refugee camps
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	Property 71 97	bring their hate to the Eu
+T4	Collective 50 54	Iran

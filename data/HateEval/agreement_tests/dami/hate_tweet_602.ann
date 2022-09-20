@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 189 257	To stop them only camps to bring them back and no welfare will help.
+T2	Premise2Justification 0 188	To believe that if Europe will help the poor in Africa will stop migration is wrong.Its not possible to help them, because the grow to much - overpopulation. So they will come always more.
+T3	Collective 48 54	Africa
+T4	Property 142 156	overpopulation
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

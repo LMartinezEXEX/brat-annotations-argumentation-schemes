@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 31 72	Don't change it to refugee country please
+T2	Premise2Justification 0 30	Canada is an immigrant country
+T3	pivot 23 30	country
+T4	pivot 58 65	country
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact

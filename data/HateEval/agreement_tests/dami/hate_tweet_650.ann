@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 0 75	You're right, sadlyStop the India First Immigration Proposals a.k.a. #HR392
+T2	Premise2Justification 76 140	America doesn't need a tidal wave of 300,000 Indians ushered in.
+T3	Premise1Conclusion 141 219	#KeepCountryCaps #NoHR392 #StandWithAmericanWorkers #endOPT #endChainMigration
+A1	QuadrantType T1 policy
+A2	QuadrantType T3 policy
+A3	QuadrantType T2 fact
+T4	Collective 121 128	Indians
+T5	Property 99 109	tidal wave
+T6	pivot 28 33	India
+T7	pivot 121 128	Indians

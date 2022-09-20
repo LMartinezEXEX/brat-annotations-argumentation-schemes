@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 113 161	#BuildThatWall and tighten our immigration laws.
+T2	Premise2Justification 40 112	this is the mindset of the people the left are aligning themselves with.
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy

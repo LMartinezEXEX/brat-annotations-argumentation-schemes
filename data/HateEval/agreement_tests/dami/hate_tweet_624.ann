@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 255 278	So sad. What treachery.
+T2	Premise2Justification 0 254	Many years ago I remember the "Bradford experiment" starting. This was to see how many immigrants could be packed into a town before things went seriously wrong. As nothing happened, other towns were selected and today we are past the point of no return.
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T3	Collective 87 97	immigrants
+T4	Property 133 160	things went seriously wrong

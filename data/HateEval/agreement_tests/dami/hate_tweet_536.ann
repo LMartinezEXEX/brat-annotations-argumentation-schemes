@@ -1,5 +1,5 @@
 T1	Premise1Conclusion 0 45	Democrats need to change that Hispanic split:
-T2	Premise2Justification 46 228	59 % of Hispanics surveyed here think most immigrants are in the United States illegally. That is likely a contributor to Dems not being able to win Hispanic votes by a bigger margin
+T2	Premise2Justification 46 252	59 % of Hispanics surveyed here think most immigrants are in the United States illegally. That is likely a contributor to Dems not being able to win Hispanic votes by a bigger margin:https://t.co/95FlssX4hi
 T3	Collective 84 99	most immigrants
 T4	Property 100 134	are in the United States illegally
 T5	pivot 30 38	Hispanic

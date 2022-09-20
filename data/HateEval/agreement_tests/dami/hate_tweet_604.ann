@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 103 215	This means social welfare must cutted or the refugees have to go home, otherwise the countries will go bankrupt.
+T2	Premise2Justification 14 102	90 % are not able to take over a job. They will stay in social welfare their whole life.
+T3	Collective 148 156	refugees
+T4	Property 19 50	are not able to take over a job
+T5	Property 62 101	stay in social welfare their whole life
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy
+T6	pivot 70 84	social welfare
+T7	pivot 114 128	social welfare

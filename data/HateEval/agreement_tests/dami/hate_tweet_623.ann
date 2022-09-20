@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 64	COMMON SENSE IS GONE and NEVER COMING BACK!!  GERMAN INSANITY???
+T2	Premise2Justification 66 136	The German Government Pays for 3 Week Vacation for Refugees to Go Home
+T3	pivot 46 52	GERMAN
+T4	pivot 70 76	German
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

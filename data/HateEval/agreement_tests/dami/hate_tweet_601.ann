@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 28 84	You come out with the usual ignorance, lies and insults.
+T2	Premise2Justification 85 255	Fact is that mass immigration into Ireland has been ongoing for decades now, most legal and from other EU countries, still trans-formative All the people seeking Asylum s
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+T3	Collective 103 114	immigration
+T4	Property 208 223	trans-formative

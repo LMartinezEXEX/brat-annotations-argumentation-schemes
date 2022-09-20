@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 14 26	Dont be Fool
+T2	Premise2Justification 27 115	African Americans Supporting Illegal #Immigration is a Slap in the Face to Black America
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 fact
+T3	Collective 56 76	Illegal #Immigration
+T4	Property 82 115	Slap in the Face to Black America

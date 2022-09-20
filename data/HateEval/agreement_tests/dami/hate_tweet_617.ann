@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 119 133	#BuildThatWall
+T2	Premise2Justification 0 118	@realDonaldTrump If we had the wall, it wouldnt even be close. I guess Congressional GOP just like living on the edge.
+T3	pivot 27 35	the wall
+T4	pivot 129 133	Wall
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy

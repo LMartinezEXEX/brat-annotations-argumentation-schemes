@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 186 234	Illegals can never be good  &amp; loyal citizens
+T2	Premise2Justification 0 186	For Burkha it is Nuclear Science to distinguish between Immigrant who  entered a country legally complying with the country's requirement and illegal one who broke the law &amp; cheated.
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+T3	Collective 186 194	Illegals
+T4	Property 195 234	can never be good  &amp; loyal citizens
+T5	pivot 142 149	illegal
+T6	pivot 186 194	Illegals

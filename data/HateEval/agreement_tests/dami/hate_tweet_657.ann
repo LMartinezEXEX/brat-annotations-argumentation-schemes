@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 42 56	#BuildThatWall
+T2	Premise2Justification 0 41	Hey jackass liberals see a wall DOES work
+T3	pivot 27 31	wall
+T4	pivot 52 56	Wall
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy

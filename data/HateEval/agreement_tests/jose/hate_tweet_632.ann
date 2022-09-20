@@ -1,0 +1,10 @@
+T1	Premise2Justification 13 107	ur were voted in to protect our borders not let migrants or the EU dictate how many you let in
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 109 140	taking ur time o yes we know it
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 0 1	@
+#1	AnnotatorNotes T3	Taking time or what? going to lose a vote in the next four years? Do you really believe that only your interests count?
+T4	CounterNarrativeC 1 2	D
+#2	AnnotatorNotes T4	Maybe YOU voted for it. You can't expect all his voters to think the same way you do.
+T5	Collective 61 69	migrants
+T6	Property 88 107	how many you let in
