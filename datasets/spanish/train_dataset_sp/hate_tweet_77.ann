@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 54	La ropa de los indocumentados es cada vez más horrible
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 56 117	me dan pena chabon, los colores, los modelos, todo, asqueroso
+A2	QuadrantType T2 value
+T3	Collective 15 29	indocumentados
+T4	Property 108 117	asqueroso
+T5	CounterNarrativeC 0 1	L
+#1	AnnotatorNotes T5	¿Qué tan seguro estás, de que son ellos los que están mal, y no eres tu el del mal gusto?
+T6	CounterNarrativeB 1 2	a
+#2	AnnotatorNotes T6	Decir que los indocumentados son asquerosos solo deja en evidencia tu prejuicio racista/xenofobo.
+T7	CounterNarrativeA 3 4	r
+#3	AnnotatorNotes T7	Nadie te obliga a vestirte como ellos. Déjalos ser...

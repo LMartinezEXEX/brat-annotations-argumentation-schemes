@@ -1,0 +1,8 @@
+T1	Premise2Justification 13 94	No nos confundamos, muchas mujeres posan de victimas de acoso solo con una mirada
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 96 196	ridículas; ¿estas se habrán comparado con lo que sufrieron las guerrilleras en las Farc por ejemplo?
+A2	QuadrantType T2 value
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	Quizás son menos de las que tu crees, realmente.
+T4	CounterNarrativeA 1 2	C
+#2	AnnotatorNotes T4	No me consta que nadie se haya comparado. Son cosas distintas. Me parece que eso lo estas inventando tú.

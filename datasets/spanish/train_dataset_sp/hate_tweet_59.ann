@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 79	Con la Sanidad abierta a todo el mundo y cobrando del paro con pocos requisitos
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 81 138	yo si fuera inmigrante me venia de cabeza, menudo chollo.
+A2	QuadrantType T2 value
+T3	CounterNarrativeA 0 1	C
+#1	AnnotatorNotes T3	Pues en todos los países es mas o menos igual, no creo que sea un factor decisivo.
+T4	CounterNarrativeC 1 2	o
+#2	AnnotatorNotes T4	¿No crees que está bien que así sea? Piensalo, algun día podrías ser tú quien lo necesite.

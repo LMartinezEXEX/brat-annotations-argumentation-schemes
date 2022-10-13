@@ -1,0 +1,10 @@
+T2	Premise1Conclusion 0 41	Por las mujeres tienen cuatro neuronas???
+A1	QuadrantType T2 fact
+T3	Premise2Justification 42 61	Una para cada fogon
+A2	QuadrantType T3 fact
+T1	Collective 8 15	mujeres
+T4	Property 16 38	tienen cuatro neuronas
+T5	CounterNarrativeB 60 61	n
+#1	AnnotatorNotes T5	No es cierto que las mujeres sean tontas. Incluso hubo y hay grandes mentes de la historia, mujeres.
+T6	CounterNarrativeA 59 60	o
+#2	AnnotatorNotes T6	Tu chiste sobre las mujeres y la cocina no hace gracia.

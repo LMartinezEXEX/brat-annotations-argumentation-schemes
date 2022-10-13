@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 74	Asiaticos devastados por la Guerra hoy tienen mejor estructura que Chilito
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 76 91	Cosas Sudacas..
+A2	QuadrantType T2 value
+T3	pivot 67 74	Chilito
+T4	pivot 82 89	Sudacas
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 114 115	7
+#1	AnnotatorNotes T5	Son dos circunstancias muy diferentes, no puedes comparar de forma tan simplificada.
+T6	CounterNarrativeA 113 114	G
+#2	AnnotatorNotes T6	Pues no, no es porque sean "sudacas", sino porque sus circunstancias materiales son diferentes.

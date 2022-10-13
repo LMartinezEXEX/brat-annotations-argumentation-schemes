@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 161	Los árabes inteligentes y creadores de civilización brillaron desde los inicios de la humanidad hasta la época en que el Islamismo poseyó totalmente a ese pueblo
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 118 201	el Islamismo poseyó totalmente a ese pueblo y lo relegó al oscurantismo y el atraso
+A2	QuadrantType T2 fact
+T3	Collective 121 130	Islamismo
+T4	Property 177 201	oscurantismo y el atraso
+T5	CounterNarrativeC 201 202	.
+#1	AnnotatorNotes T5	No es cierto que eso haya ocurrido. En muchos países árabes la ciencia y la cultura siguen prosperando como siempre lo hicieron.
+T6	CounterNarrativeB 200 201	o
+#2	AnnotatorNotes T6	El islam es una religión más, como lo es el cristianismo o el judaísmo. No se puede establecer una relación directa entre ella y el atraso o el oscurantismo.
+T7	CounterNarrativeA 199 200	s
+#3	AnnotatorNotes T7	Incluso si fuera cierto lo que dices, estas reconociendo que la cultura árabe es brillante y prospera, así que, ¿por qué no dejamos los prejuicios de lado?                                

@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 0 44	De los moros no se puede esperar nada bueno,
+A1	QuadrantType T1 fact
+T2	Premise2Justification 45 120	y esto te lo dicen los propios árabes. Que también han luchado contra ellos
+A2	QuadrantType T2 fact
+T3	Collective 7 12	moros
+T4	Property 33 43	nada bueno
+T5	CounterNarrativeC 123 124	#
+#1	AnnotatorNotes T5	Es obvio que, si esperas que te digan algo bueno de alguien, no puedes preguntarle a quien está en guerra con el.
+T6	CounterNarrativeB 124 125	S
+#2	AnnotatorNotes T6	Estas siendo exagerado. De todo el mundo se puede esperar algo bueno
+T7	CounterNarrativeA 125 126	t
+#3	AnnotatorNotes T7	Que un grupo haya estado en guerra con otro, no significa que no tengan nada bueno para ofrecer.

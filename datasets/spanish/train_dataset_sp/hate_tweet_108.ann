@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 150	Suriel hace años en Venezuela vivimos eso mismo, la entrada incontrolable de indocumentados de los paises vecinos llevo todo tipo de personas al país.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 151 247	Que los metan presos o que los deporten. Y extremar medidas para que no entre este tipo de gente
+A2	QuadrantType T2 policy
+T3	Collective 77 91	indocumentados
+T4	Property 120 141	todo tipo de personas
+T5	CounterNarrativeB 278 279	Y
+#1	AnnotatorNotes T5	Quizás la baja de controles sí facilitó la entrada de delincuentes, pero eso no tiene que ver con que sean documentados o no.
+T6	CounterNarrativeC 277 278	0
+#2	AnnotatorNotes T6	Se debería hacer un estudio en profundidad para determinar si hay alguna relación de ese tipo. No puedes simplemente culpar a los extranjeros de todo.
+T7	CounterNarrativeA 276 277	d
+#3	AnnotatorNotes T7	No puede ser tan sencillo como eso. Cada caso es diferente, y además no pueden todos los indocumentados pagar por los errores de unos pocos.

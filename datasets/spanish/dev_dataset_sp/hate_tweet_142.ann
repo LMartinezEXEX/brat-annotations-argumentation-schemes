@@ -1,0 +1,13 @@
+T1	Premise2Justification 0 214	Mientras el común de los mortales padecemos una oleada violenta de musulmanes subsaharianos y una ola de calor  subsahariano abrasante, los proletarios @sanchezcastejon y sus adlateres de vacaciones de millonario. 
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 214 259	Que bien viven los proletarios de hoy en día.
+A2	QuadrantType T2 fact
+T3	Collective 67 91	musulmanes subsaharianos
+T4	Property 48 63	oleada violenta
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeB 260 261	#
+#3	AnnotatorNotes T7	No hay motivo para pensar que los musulmanes son violentos. Y si lo son, no tiene que ver con que sean musulmanes, hay violentos en todas las religiones y paises.
+T9	CounterNarrativeC 261 262	S
+#4	AnnotatorNotes T9	Entiendo la hipocresía que señalas, pero eso no te da derecho a culpar de los pobres inmigrantes de nada. Sobre todo del calor.
+T5	pivot 140 151	proletarios
+T6	pivot 233 244	proletarios

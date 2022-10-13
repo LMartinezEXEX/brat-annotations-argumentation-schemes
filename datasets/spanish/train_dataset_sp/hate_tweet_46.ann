@@ -1,0 +1,11 @@
+T1	Premise2Justification 46 190	Salvamento Marítimo como cooperador necesario y oneges ni te cuento, de que viven??. Nadie denuncia que van a por inmigrantes a aguas marroquíes
+T2	Premise1Conclusion 15 44;192 216	esto es una invasión africana Vaya futuro tiene España
+A1	QuadrantType T2 fact
+T3	pivot 36 44	africana
+T4	pivot 180 190	marroquíes
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T5	No tiene sentido que alguien denuncie ayuda humanitaria, en ningún país es considerado un delito.
+T6	CounterNarrativeA 1 2	S
+#2	AnnotatorNotes T6	Técnicamente, no puede ser una invasión si los estas dejando entrar. En todo caso, puedes sospechar de sus motivos para ir, pero creo que estarías siendo paranoico.
+A2	QuadrantType T1 fact

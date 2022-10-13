@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 0 24	Algo se pudre en el Perú
+A1	QuadrantType T1 fact
+T2	Premise2Justification 27 93	Es el caos organizado ,surrealista ,subsahariano nuestra realidad.
+A2	QuadrantType T2 fact
+T3	Collective 63 75	subsahariano
+T4	Property 33 48	caos organizado
+T5	CounterNarrativeA 116 117	V
+#1	AnnotatorNotes T5	Estas exagerando. Que algunas personas no te caigan bien no significa que el país se este "pudriendo".
+T6	CounterNarrativeB 115 116	7
+#2	AnnotatorNotes T6	Ni están organizados, si con el caos. Solo son inmigrantes.
+T7	CounterNarrativeC 114 115	x
+#3	AnnotatorNotes T7	Sugieres que, de alguna forma, la presencia de inmigrantes los está haciendo sufrir. Lo cual no es verdad.

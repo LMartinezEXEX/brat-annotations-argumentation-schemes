@@ -1,0 +1,12 @@
+T1	Premise2Justification 1 98	Pablo Casado acusa a los inmigrantes de las altas temperaturas porque ""el negro atrae el calor""
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 71 98	""el negro atrae el calor""
+A2	QuadrantType T2 fact
+T3	Collective 76 81	negro
+T4	Property 82 96	atrae el calor
+T5	CounterNarrativeA 122 123	"
+#1	AnnotatorNotes T5	Es un chiste, ¿verdad?
+T6	CounterNarrativeB 121 122	7
+#2	AnnotatorNotes T6	Aunque según donde vives, eso puede ser algo bueno...
+T7	CounterNarrativeC 120 121	t
+#3	AnnotatorNotes T7	Me parece tan risible, que estoy seguro lo dijo en broma, y alguien lo saco de contexto.

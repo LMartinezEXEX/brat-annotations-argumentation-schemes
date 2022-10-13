@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 136	Italia: Una mujer evita con gas pimienta un intento de agresión sexual de un inmigrante ilegal nigeriano en la estación de tren de Milán
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 138 182	Esta es la realidad de la inmigración ilegal
+A2	QuadrantType T2 fact
+T3	pivot 77 94	inmigrante ilegal
+T4	pivot 164 182	inmigración ilegal
+T5	Collective 95 104	nigeriano
+T6	Property 55 70	agresión sexual
+R1	related Arg1:T3 Arg2:T4	
+T7	CounterNarrativeC 202 203	L
+#1	AnnotatorNotes T7	Que mal que ocurran esas cosas. Aun así, su nacionalidad no tiene nada que ver.
+T8	CounterNarrativeB 203 204	T
+#2	AnnotatorNotes T8	Si intentas establecer una relación entre nigerianos y agresión sexual, pues te equivocas.
+T9	CounterNarrativeA 201 202	I
+#3	AnnotatorNotes T9	Ni siquiera puedes saber si el sujeto era realmente inmigrante ilegal. Estas buscando excusas para seguir discriminando, y eso no esta bien.

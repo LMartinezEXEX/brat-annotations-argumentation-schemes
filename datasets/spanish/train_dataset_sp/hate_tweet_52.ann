@@ -1,0 +1,14 @@
+T1	Premise1Conclusion 0 56	El enojo de una mujer es como la luz de 'Check Engine'..
+A1	QuadrantType T1 fact
+T2	Premise2Justification 58 137	no tienes ni puta idea qué está pasando y es mejor esperar a que se apague solo
+A2	QuadrantType T2 fact
+T3	Collective 16 21	mujer
+T4	Property 3 8	enojo
+T5	CounterNarrativeB 138 139	.
+#1	AnnotatorNotes T5	El viejo estereotipo de las mujeres "histéricas". No hace gracia, lo sabes, ¿no?
+T6	CounterNarrativeA 137 138	.
+#2	AnnotatorNotes T6	Quizás no sepas tanto de autos como crees...
+T7	CounterNarrativeC 139 140	.
+#3	AnnotatorNotes T7	Si no sabes lo que esta pasando, pues deberías intentar averiguarlo. Los problemas no se solucionan solos.
+T8	CounterNarrativeFree 136 137	o
+#4	AnnotatorNotes T8	¿Alguna vez has probado con ir al mecánico? Intenta hacer encajar esa idea en tu analogía...

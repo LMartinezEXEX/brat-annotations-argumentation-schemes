@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 0 113	Andrej Babiš, Presidente del Gbno Checo rechaza de plano la inmigracion subsahariana.  No los queremos en Chequia
+A1	QuadrantType T1 fact
+T2	Premise2Justification 115 255	nunca tendrian un empleo y para mantenerlos aqui, q se les ayude en sus paises de origen, sus costumbres no son compatibles con las nuestras
+A2	QuadrantType T2 fact
+T3	Collective 60 84	inmigracion subsahariana
+T4	Property 115 139	nunca tendrian un empleo
+T5	Property 205 255	sus costumbres no son compatibles con las nuestras
+T6	CounterNarrativeB 279 280	N
+#1	AnnotatorNotes T6	Dicen que sus costumbres son incompatibles con las nuestras sin siquiera conocerlos, muchos incluso hablan el idioma del lugar a donde emigraron.
+T7	CounterNarrativeC 278 279	F
+#2	AnnotatorNotes T7	No serían un gasto ni necesitarían ayuda si no les prohibieran tener un empleo. Si te das cuenta, todo empieza a raíz de la discriminación.
+T8	CounterNarrativeA 277 278	N
+#3	AnnotatorNotes T8	Rechaza la inmigración por culpa de problemas que el ayudo a crear. No creas que esta bien lo que está haciendo, no lo está.

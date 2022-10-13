@@ -1,0 +1,13 @@
+T1	Premise2Justification 114 279	Tendencia a retroceder ante lo nuevo,desprecio por la mujer, por lo inferior según el criterio de estas simple minds; los animales,las mujeres,las niñas los pobres..
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 113	Pues la India de Gandhi Ese país tan espiritual... Son razas dominadas..como los árabes, dominados por un libro..
+A2	QuadrantType T2 fact
+T3	Collective 5 23	la India de Gandhi
+T4	Property 126 173	retroceder ante lo nuevo,desprecio por la mujer
+T5	Property 218 230	simple minds
+T6	CounterNarrativeB 300 301	H
+#1	AnnotatorNotes T6	Estas subestimando a todos los miembros de un país. Realmente crees que solo en donde tu vives el mundo ha evolucionado?
+T7	CounterNarrativeC 299 300	C
+#2	AnnotatorNotes T7	En todos lados hay gente que rechaza lo nuevo, pero la tendencia general es hacia el progreso, y no en su contra.
+T8	CounterNarrativeA 299 300	C
+#3	AnnotatorNotes T8	Que las religiones se hayan parecido en un pasado, no quiere decir que todos ellos sigan viviendo exactamente igual que en aquellas épocas.  

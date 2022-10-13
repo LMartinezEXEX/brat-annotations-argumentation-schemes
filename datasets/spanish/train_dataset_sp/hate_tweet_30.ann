@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 112	La inmigracion de personas de cultura similar o dispuestos a adaptarse y respetar nuestra cultura es beneficiosa
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 114 245	Cientos de miles de indocumentados violentos, ignorantes y fanatizados por la religión que vienen a vivir de ayudas es una invasión
+A2	QuadrantType T2 fact
+T3	Collective 134 148	indocumentados
+T4	Property 149 200	violentos, ignorantes y fanatizados por la religión
+T5	CounterNarrativeC 273 274	E
+#1	AnnotatorNotes T5	Pues sí. Al igual que la de personas de cultura diferente que pueden enriquecer la nuestra.
+T6	CounterNarrativeB 275 276	Q
+#2	AnnotatorNotes T6	No es cierto que todos los indocumentados sean así. La mayoría solo está intentando ganarse la vida como puede.
+T7	CounterNarrativeA 276 277	4
+#3	AnnotatorNotes T7	Los estás subestimando al pensar que no pueden ser cultos o educados por haber nacido en otro país.

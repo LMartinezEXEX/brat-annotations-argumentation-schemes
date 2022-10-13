@@ -1,0 +1,12 @@
+T1	Premise2Justification 1 236	Mientras los manteros atacan a turistas y hay reyertas en el Raval, Ada Colau ha visitado el pueblo italiano de Riace, repoblado dando casas a inmigrantes y refugiados, un ""ejemplo de acogida, integración y lucha contra la xenofobia""
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 238 278	Pues que se quede allí. Indefinidamente.
+A2	QuadrantType T2 policy
+T3	Collective 14 22	manteros
+T4	Property 23 40	atacan a turistas
+T5	CounterNarrativeB 277 278	.
+#1	AnnotatorNotes T5	Estas suponiendo que solo los manteros agreden personas, y eso es prejuicioso. Ademas, no es cierto
+T6	CounterNarrativeC 278 279	"
+#2	AnnotatorNotes T6	No entiendo que tiene de malo que se de "un ejemplo de acogida, integración y lucha contra la xenofobia".  Además, los manteros y las agresiones a turistas no tienen nada que ver.
+T7	CounterNarrativeA 276 277	e
+#3	AnnotatorNotes T7	Lo dices solo porque te caen mal los inmigrantes, y eso. Realmente no es que este mal lo que hizo.

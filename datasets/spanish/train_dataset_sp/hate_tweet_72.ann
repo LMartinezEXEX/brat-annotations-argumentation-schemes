@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 111	En las últimas 24h varias peleas callejeras en ceuta por parte de los últimos en saltar violentamente la valla.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 112 141	Y el gobierno pide respeto???
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 110 111	.
+#1	AnnotatorNotes T3	No puedes saber si fueron ellos. Deja de culparlos de todo.
+T4	CounterNarrativeA 109 110	a
+#2	AnnotatorNotes T4	Pues sí, incluso si alguno de ellos es una persona problemática, los demas no tienen la culpa de nada.

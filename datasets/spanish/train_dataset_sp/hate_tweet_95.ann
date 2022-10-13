@@ -1,0 +1,15 @@
+T1	Premise2Justification 140 279	PORQUE ACTUALMENTE HAN VENIDO A AUMENTAR EL GRAVE PROBLEMA DE ATENCION MEDICA DE  CHILENOS ,OCUPANDO LAS POCAS HORAS DE ATENCION Y RECURSOS
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 24 139	LOS RESEPONSABLES DEL INGRESO AL PAIS DE TANTOS INMIGRANTES DEBEN HACERSE CARGO DEL LOS PROBLEMAS DE SALUD DE ELLOS
+A2	QuadrantType T2 policy
+T3	Collective 72 83	INMIGRANTES
+T4	Property 172 217	AUMENTAR EL GRAVE PROBLEMA DE ATENCION MEDICA
+T5	pivot 112 121	PROBLEMAS
+T6	pivot 190 198	PROBLEMA
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 0 1	l
+#1	AnnotatorNotes T7	No hay relación directa entre la llegada de inmigrantes y que el sistema de salud empeore.
+T8	CounterNarrativeB 2 3	#
+#2	AnnotatorNotes T8	No tiene sentido que los inmigrantes agraven los problemas de salud pública. Eso es un problema de infraestructura, y no de cantidad de personas.
+T9	CounterNarrativeA 3 4	I
+#3	AnnotatorNotes T9	Si usas a los inmigrantes como excusa, solo estas evitando dar con los verdaderos culpables.

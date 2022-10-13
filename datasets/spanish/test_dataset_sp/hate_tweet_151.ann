@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 43 87	de verdad que esto ya pasa de castaño oscuro
+A1	QuadrantType T1 value
+T2	Premise2Justification 0 42;89 142	¿y de donde sacan para irse de vacaciones? ¿refugiados y vuelven al lugar donde les maltrataban?
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 164 165	q
+#1	AnnotatorNotes T3	Pueden tener sus motivos. No deberías juzgar tan apresuradamente.
+T4	CounterNarrativeA 163 164	u
+#2	AnnotatorNotes T4	No se entiende que quisiste decir con eso de castaño oscuro... Suena como si te molestara el color de las personas. Que racista.

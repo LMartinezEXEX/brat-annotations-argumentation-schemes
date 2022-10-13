@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 38;118 207	Llegan 900 venezolanos por día al Perú Qué ya no es una inmigración,a las autoridades peruanas no les da ni la tos por este tema
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 208 249;39 117	solo reaccionarán cuando esto se desborde cuantos más tendrán que venir para que ya se ponga coto y fin a esta invasión?
+A2	QuadrantType T2 fact
+T3	Collective 11 22	venezolanos
+T4	Property 108 116	invasión
+T5	CounterNarrativeB 248 249	e
+#1	AnnotatorNotes T5	Lo llamas invasión pero solo te refieres a los venezolanos, y no a los demás inmigrantes. ¿No estás siendo un poco racista?
+T6	CounterNarrativeA 247 248	d
+#2	AnnotatorNotes T6	Estás siendo paranoico. No se va a "desbordar", y es por eso que no hace falta ponerle "coto y fin"
+T7	CounterNarrativeC 246 247	r
+#3	AnnotatorNotes T7	Ponerle un alto no es la única forma de hacer algo al respecto. Hay formas de controlar una situación sin reprimir a nadie.

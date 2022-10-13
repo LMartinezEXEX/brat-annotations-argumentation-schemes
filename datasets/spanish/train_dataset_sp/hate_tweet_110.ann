@@ -1,0 +1,10 @@
+T1	Premise2Justification 0 60	Me quieren seguir en ig un montón de árabes/turcos/israelíes
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 60 112	,creo que tengo cara de terrorista y no me di cuenta
+A2	QuadrantType T2 value
+T3	Collective 37 60	árabes/turcos/israelíes
+T4	Property 84 94	terrorista
+T5	CounterNarrativeB 0 1	M
+#1	AnnotatorNotes T5	Lo dices como si todos los árabes/turcos/israelíes fuesen terroristas. Nada mas lejos de la realidad.
+T6	CounterNarrativeA 1 2	e
+#2	AnnotatorNotes T6	Lo que dices solo deja en evidencia que tienes un gran prejuicio, que te impide vincularte y conocer gente de otros lugares...

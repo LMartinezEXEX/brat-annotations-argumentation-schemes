@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 52 103	deben abstenerse de acercarse a la valla de Melilla
+A1	QuadrantType T1 policy
+T2	Premise2Justification 105 175	al menos hasta que los ""lindos negritos visitantes"" estén ESTREÑIDOS
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 189 190	/
+#1	AnnotatorNotes T3	No tienes el derecho a decidir quién puede estar en donde...
+T4	CounterNarrativeC 188 189	o
+#2	AnnotatorNotes T4	Queda claro, sin embargo, que el unico motivo por el que te caen mal, es que son negros. Racismo puro.

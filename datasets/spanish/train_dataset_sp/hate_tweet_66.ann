@@ -1,0 +1,8 @@
+T1	Premise2Justification 0 148	Yo si fuese @pablocasado_ incluiría en mi programa la construcción de un muro en el estrecho de gibraltar y que lo paguen los propios subsaharianos.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 51 147	la construcción de un muro en el estrecho de gibraltar y que lo paguen los propios subsaharianos
+A2	QuadrantType T2 policy
+T3	CounterNarrativeA 174 175	p
+#1	AnnotatorNotes T3	No vamos a cometer semejante error solo porque tú dices que te gustaría... 
+T4	CounterNarrativeC 173 174	m
+#2	AnnotatorNotes T4	Por suerte no lo eres, porque realmente, no sería correcto.

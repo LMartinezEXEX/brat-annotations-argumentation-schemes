@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 122	Rennes (Francia) :   Un hombre d 28 años salvajemente agredido y atacado con un cuchillo por 6 jovenes inmigrantes afganos
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 124 217	¿Quien quiere llenar su pais de esta gente pensando q a el o a su familia no l puede afectar?
+A2	QuadrantType T2 fact
+T3	Collective 103 122	inmigrantes afganos
+T4	Property 21 88	Un hombre d 28 años salvajemente agredido y atacado con un cuchillo
+T5	CounterNarrativeC 278 279	e
+#1	AnnotatorNotes T5	Es triste, sin embargo no tiene sentido enfocarse en la nacionalidad del criminal, como si eso cambiara algo.
+T6	CounterNarrativeB 277 278	h
+#2	AnnotatorNotes T6	No es cierto que los inmigrantes afganos sean violentos. No puedes inferirlo a partir de un solo caso.
+T7	CounterNarrativeA 276 277	c
+#3	AnnotatorNotes T7	Nadie pretende llenar el país de criminales, la idea es aceptar inmigrantes. Tú sabes que la mayoria de ellos no son así.

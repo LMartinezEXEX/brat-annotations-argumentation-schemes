@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 167 218	recuerde senor presidente el xq ni arabes ni chinos
+A1	QuadrantType T1 policy
+T2	Premise2Justification 49 166	ni arabes xq como payasos ponen su cara en mi familua y chinos xq ponen a un loco y un cinico assesino como mi mirada
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T3	Intento entender tu crítica, pero lo que dices directamente no tiene sentido alguno.
+T4	CounterNarrativeA 1 2	r
+#2	AnnotatorNotes T4	Pues no eres tu quién decide quién entra y quién no. Incluso tampoc es él. Hay leyes al respecto...
