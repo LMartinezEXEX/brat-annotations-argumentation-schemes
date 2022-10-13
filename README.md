@@ -6,29 +6,39 @@ This repo contains a dataset of Hate Tweets against immigrants annotated with Ar
 [brat]:         http://brat.nlplab.org
 [brat_repo]:    https://github.com/nlplab/brat/
 
-## Ready to run ##
-Brat server can be run locally after cloning this repo by typing:
-
-    python standalone.py
-
-This will automatically launch a server running on localhost on port 8080
-
-The code for running this server was forked from [brat repo][brat_repo]. We want to thanks the brat developer team for creating this awsome annotation tool that we love.
-
 ## Where is the data? ##
 
-The annotated hate tweets can be found on the data/HateEval folder. Dataset is organized in 11 partitions containing a total of 1084 tweets in English and one partition containing 196 tweets in Spanish. All tweets were extracted from [SemEval 2019 task 5] (a.k.a. HatEval) filtering only those that were non-aggressive, non-targeted against individuals and targeted against immigrants (HatEval also contains hateful tweets targeted agains women). For more details on how the dataset was constructed please check (and cite!) our soon to be published publication (the link will be uploaded very soon!).
+The annotated hate tweets can be found in two different formats. Dataset in brat style format can be found in the "datasets" folder. Dataset in Conll format can be found in the "datasets_CONLL" folder. They are both divided in three partitions: train, dev and test. Brat style annotations contains two files per each tweet: a ".txt" file with the text of the tweet and a ".ann" file with the argumentative information and the counter-narratives associated to that tweet. CONLL style annotations also contains two files per tweet: a ".conll" file with the text of the tweet and the argumentative information in CONLL standard format and a ".cn" file with one counter-narrative per line per each type respecting the following order: the first line holds a counter-narrative of type A, the second line a counte-narrative of type B, the third a counter-narrative of type C and the fourth line a counter-narrative of type D. If the tweet doesn't have a counter-narrative of a specific type, the corresponding line is left blank.
+
+If a brat server is run locally, data will be read from data/HateEval folder. Modifications or additions using the brat annotation tool will be reflected on that folder.
+
+All tweets were extracted from [SemEval 2019 task 5] (a.k.a. HatEval) filtering only those that were non-aggressive, non-targeted against individuals and targeted against immigrants (HatEval also contains hateful tweets targeted agains women). For more details on how the dataset was constructed please check (and cite!) [this paper][https://arxiv.org/abs/2208.01099]
 
 [SemEval 2019 task 5]:  https://aclanthology.org/S19-2007/
 
 ## Tools for using the data ##
 
-To Be completed soon!
+This repo contains scripts that can be used to train models to recognice different types of argumentative information. They can also be used to reproduce the experiments described in the previously mentioned paper. Scripts works also for new types of annotations, so if you are interested on labelling a new or different kind or argumentative component you can use them. The repo also contains scripts for calculating statistics and agreement between annotators
 
+
+## Ready to run ##
+Brat server can be run locally after cloning this repo. To run it follow this steps:
+
+1 - Rename the config_template.py file into config.py
+    ``cp config_template.py config.py``
+    
+2 - Uptade the environment variables that you need. The only one needed to run brat is adding at least one user:password inside the USER_PASSWORD variable
+
+3 - Run the server on localhost:
+    ``python standalone.py``
+
+This will automatically launch a server running on localhost on port 8080
+
+The code for running this server was forked from [brat repo][brat_repo]. We want to thanks the brat developer team for creating this awsome annotation tool that we love.
 
 ## Citing ##
 
-To Be completed soon!
+Damian A. Furman, Pablo Torres, Jose A. Rodriguez, Lautaro Martinez, Laura Alonso Alemany, Diego Letzen, Maria Vanina Martinez, 2022, Parsimonious Argument Annotations for Hate Speech Counter-narratives, https://arxiv.org/abs/2208.01099
 
 ## Contributing ##
 
