@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 107	Money which are payed for social welfare - it increase. Together money for refugees will destroy the budget
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 109 202	People must decide: Welfare less and refugees or welfare without refugees. Both isnt possible
+A2	QuadrantType T2 fact
+T3	Collective 75 83	refugees
+T4	Property 84 107	will destroy the budget
+T5	pivot 33 40	welfare
+T6	pivot 158 165	welfare
+R1	related Arg1:T5 Arg2:T6	

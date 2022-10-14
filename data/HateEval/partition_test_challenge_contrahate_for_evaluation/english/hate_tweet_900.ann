@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 65 150	American Citizens need @ICEgov Illegals can reunite back across the border in Mexico!
+A1	QuadrantType T1 fact
+T2	Premise2Justification 151 234	We dont need the extra crime that the illegal or refugees invaders bring to America
+A2	QuadrantType T2 fact
+T3	Collective 200 208	refugees
+T4	Property 174 179	crime
+T5	pivot 96 104	Illegals
+T6	pivot 189 196	illegal
+R1	related Arg1:T6 Arg2:T5	

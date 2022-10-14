@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 94 140	not such a thing as a poor migrant with a phon
+T2	Premise2Justification 15 93	Migrants get here then they phone for the next load to come mobile phones cost
+T3	pivot 15 23	Migrants
+T4	pivot 121 128	migrant
+T5	Property 94 120	not such a thing as a poor
+T6	Collective 121 128	migrant
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact
+R1	related Arg1:T3 Arg2:T4	

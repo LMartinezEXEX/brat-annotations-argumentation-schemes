@@ -1,0 +1,6 @@
+T1	Premise2Justification 48 275	Si abrimos las fronteras indiscriminadamente y sin control, y un inmigrante agrede a una mujer, inmigrante también, con la que está en una relación sentimental, ¿cómo se le localiza para citarle a juicio después de la agresión?
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 45	Pregunta para la izquierda. Esta es para nota
+A2	QuadrantType T2 value
+T3	Collective 113 123	inmigrante
+T4	Property 124 142	agrede a una mujer

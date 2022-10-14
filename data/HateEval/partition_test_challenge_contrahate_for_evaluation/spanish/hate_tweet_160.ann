@@ -1,0 +1,6 @@
+T1	Premise2Justification 0 38	Estos son los que nos están invadiendo
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 39 124	y nosotros acogiendo como refugiados y regalandoles todos nuestros servicios sociales
+A2	QuadrantType T2 fact
+T3	Collective 65 75	refugiados
+T4	Property 28 38	invadiendo

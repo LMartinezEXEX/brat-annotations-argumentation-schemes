@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 0 26	Democratic straw clutching
+T2	Premise1Conclusion 144 206	therefore they seek to insult rather than tell a better story.
+T3	Premise2Justification 29 142	They know they dont appeal to the real voters with policies for the few globalists immigrants and illegal voters.
+T4	pivot 29 33	They
+T5	pivot 0 10	Democratic
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 fact
+A3	QuadrantType T3 fact
+T8	Collective 112 122	immigrants
+T9	Property 101 111	globalists
+T10	Property 127 141	illegal voters

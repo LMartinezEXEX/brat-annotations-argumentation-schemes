@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 1 53	Nosotros NO, son mas los sudacas y centroamirdicanos
+A1	QuadrantType T1 fact
+T2	Premise2Justification 73 196	pasan por mi país violentando gente porque ""no tienen dinero"", ""porque van en busca de una vida mejor""; Y ADEMAS ILEGAL
+A2	QuadrantType T2 fact
+T3	Collective 26 33	sudacas
+T4	Property 91 108	violentando gente

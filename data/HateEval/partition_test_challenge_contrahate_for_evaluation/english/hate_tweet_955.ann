@@ -1,0 +1,6 @@
+T1	Premise2Justification 32 103	Call to tax Mexico $2,000 per illegal immigrant to pay for Trump’s wall
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 31	Please. 2 Million Dollars Each:
+A2	QuadrantType T2 policy
+T5	Collective 44 50	Mexico
+T6	Property 62 79	illegal immigrant

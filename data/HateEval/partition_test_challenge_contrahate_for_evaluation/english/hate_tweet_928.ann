@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 98 140	a better life for them doesn't mean 1. 4 u
+T2	Premise2Justification 0 97	The real truth is after Cologne and in the Nordic countries and Others no one trusts any refugees
+T3	Collective 89 97	refugees
+T4	Property 78 84	trusts
+T5	Property 100 111	better life
+T6	pivot 116 120	them
+T7	pivot 89 97	refugees
+R1	related Arg1:T7 Arg2:T6	
+R2	firstOrder Arg1:T1 Arg2:T2	
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 fact

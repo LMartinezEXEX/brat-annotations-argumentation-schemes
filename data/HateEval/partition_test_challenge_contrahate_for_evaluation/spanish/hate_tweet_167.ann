@@ -1,0 +1,11 @@
+T1	Premise2Justification 0 61	SI YO MANDARA EN ESPAÑA AQUI NO ENTRABA NI CRISTO SIN PAPELES
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 62 84	QUE SE VALLA A SU PAIS
+A2	QuadrantType T2 policy
+T3	pivot 29 39	NO ENTRABA
+T4	pivot 62 74	QUE SE VALLA
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 104 105	g
+#1	AnnotatorNotes T5	Por suerte ni mandas ni es tu decisión. No creo que la mayoría de España este de acuerdo contigo.
+T6	CounterNarrativeA 105 106	E
+#2	AnnotatorNotes T6	Que no estes de acuerdo con las políticas que se estan llevando adelante no significa nada. La democracia no funciona así. No vamos a correr a nadie solo porque tú quieras.
