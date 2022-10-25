@@ -1,0 +1,7 @@
+T1	Premise2Justification 30 75	Maine and part of New Hampshire  are full up!
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 28	#no room. Go home immigrants
+A2	QuadrantType T2 policy
+T3	pivot 1 8	no room
+T4	pivot 67 74	full up
+R1	related Arg1:T3 Arg2:T4	

@@ -1,0 +1,9 @@
+T1	Premise2Justification 14 90	Unchecked Population&amp;migration to cities is biggest evil for dirty India
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 90 144	.Disincentive large families,such as withdrawl of sops
+A2	QuadrantType T2 policy
+T3	pivot 24 34	Population
+T4	pivot 104 118	large families
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 39 48	migration
+T6	Property 59 90	is biggest evil for dirty India

@@ -1,0 +1,9 @@
+T1	Premise2Justification 141 284	Former colonial powers like France &amp; Britain are not without guilt in the creation of the mess that is most of the African continent today.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 34 139	the truth that all of the potential millions of migrants and refugees can not be taken into the Euro Zone
+A2	QuadrantType T2 fact
+T3	pivot 70 103	millions of migrants and refugees
+T4	pivot 231 277	the mess that is most of the African continent
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 82 103	migrants and refugees
+T6	Property 206 284	guilt in the creation of the mess that is most of the African continent today.

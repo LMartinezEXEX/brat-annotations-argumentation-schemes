@@ -1,0 +1,9 @@
+T1	Premise2Justification 75 139	to prevent rampant illegal migration encouraged by one community
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 74	@BJPRajnathSingh Must take decisive action for sealing borders with B'desh
+A2	QuadrantType T2 policy
+T3	pivot 55 62	borders
+T4	pivot 102 111	migration
+R1	related Arg1:T3 Arg2:T4	
+T7	Collective 94 111	illegal migration
+T8	Property 86 93	rampant

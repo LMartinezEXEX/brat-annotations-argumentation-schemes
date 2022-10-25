@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 154 242	les mantienen aquí, les adoctrinan  y les dan beneficios a costa de tu  dinero y el mío.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 153	La izquierdona ha encontrado su mina de oro. Votará a su favor todo inmigrante que esté aquí unas cuantas semanas y votará a quienes les han traído aquí,
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 294 295	0
+#1	AnnotatorNotes T3	¿Tienes acaso alguna prueba de que están haciendo eso? Lo siento, pero no te creo...
+T4	CounterNarrativeA 293 294	n
+#2	AnnotatorNotes T4	No creo que alguien este haciendo eso realmente, sencillamente porque no parece un buen plan...

@@ -1,0 +1,4 @@
+T1	Premise2Justification 6 93	The Judge will be overturned, the President has control over immigration not the courts
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 95 116	#NODACA #SENDTHEMHOME
+A2	QuadrantType T2 policy

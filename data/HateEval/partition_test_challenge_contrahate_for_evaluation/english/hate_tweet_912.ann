@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 11 30	Our country is safe
+A1	QuadrantType T1 fact
+T2	Premise2Justification 31 79	because we didn’t accept illegal Muslim migrants
+A2	QuadrantType T2 fact
