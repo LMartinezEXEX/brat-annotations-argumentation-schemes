@@ -39,7 +39,6 @@ add_annotator_info = args.add_annotator_info
 def compute_metrics_f1(p: EvalPrediction):
     preds = p.predictions.argmax(-1)
     labels = p.label_ids
-
     true_labels = [[str(l) for l in label if l != -100] for label in labels]
     true_predictions = [
         [str(p) for (p, l) in zip(prediction, label) if l != -100]
@@ -105,18 +104,26 @@ def labelComponents(text, component_text):
 def delete_unwanted_chars(text):
     return text.replace("\n", "").replace("\t", "").replace(".", "").replace(",", "").replace("!", "").replace("#", "").replace('“', '"').replace('”', '"').replace('…', '').replace("’", "").replace("–", " ").replace("‘", "").replace("—", "").replace("·", "")
 
+def getLabel(label):
+    if label == "O":
+        return 0
+    else:
+        return 1
+
+
 def labelComponentsFromAllExamples(filePatterns, component, multidataset = False, add_annotator_info = False):
     all_tweets = []
     all_labels = []
     if multidataset:
         datasets = []
+    print(filePatterns)
     for filePattern in filePatterns:
         for f in glob.glob(filePattern):
-            annotations = open(f, 'r')
-            tweet = open(f.replace(".ann", ".txt"), 'r')
-             # TODO: sacar todos los caracteres especiales
-            tweet_text = delete_unwanted_chars(tweet.read())
-            component_text = []
+            print("IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII")
+            print(f)
+            conll_file = open(f, 'r')
+            tweet = []
+            labels = []
             if add_annotator_info:
                 if component == "Collective":
                     property_text = []
@@ -124,51 +131,64 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
                     justification_text = []
                     conclusion_text = []
             is_argumentative = True
-            filesize = 0
-            for idx, word in enumerate(annotations):
-                filesize += 1
-                ann = word.replace("\n", "").split("\t")
-                if len(ann) > 1:
-                    current_component = ann[1].lstrip()
-                    if current_component.startswith("NonArgumentative"):
-                        is_argumentative = False
-                        break
-                    if current_component.startswith(component):
-                        component_text.append([delete_unwanted_chars(ann[2].lstrip())])
-                    if add_annotator_info:
-                        if component == "Collective" and current_component.startswith("Property"):
-                            property_text.append(delete_unwanted_chars(ann[2].lstrip()))
-                        if component == "pivot" and current_component.startswith("Premise1Conclusion"):
-                            conclusion_text.append(delete_unwanted_chars(ann[2].lstrip()))
-                        if component == "pivot" and current_component.startswith("Premise2Justification"):
-                            justification_text.append(delete_unwanted_chars(ann[2].lstrip()))
-
+            for idx, line in enumerate(conll_file):
+                line_splitted = line.split("\t")
+                if line_splitted[1] != "O":
+                    is_argumentative = False
+                    break
+                word = delete_unwanted_chars(line_splitted[0])
+                word = preprocessing.preprocess_tweet(word, lang="en")
+                processed_words = word.split(" ")
+                l = len(processed_words)
+                tweet += processed_words
+                if component == "Premise2Justification":
+                    labels += [getLabel(line_splitted[2])] * l
+                elif component == "Premise1Conclusion":
+                    labels += [getLabel(line_splitted[3])] * l
+                elif component == "Collective":
+                    labels += [getLabel(line_splitted[4])] * l
+                    if add_annotator_info and getLabel(line_splitted[5]) == 1:
+                        property_text += processed_words
+                elif component == "Property":
+                    labels += [getLabel(line_splitted[5])] * l
+                elif component == "pivot":
+                    labels += [getLabel(line_splitted[6])] * l
+                    if add_annotator_info and getLabel(line_splitted[2]) == 1:
+                        justification_text += processed_words
+                    if add_annotator_info and getLabel(line_splitted[3]) == 1:
+                        conclusion_text += processed_words
 
             if add_annotator_info:
+                to_add = []
                 if component == "Collective":
-                    tweet_text += " Property: " + " ".join(property_text)
+                    to_add = ["Property:"] + property_text
                 if component == "pivot":
-                    tweet_text += " Just: " + " ".join(justification_text) + " Conc: " + " ".join(conclusion_text)
-            preprocessed_text = preprocessing.preprocess_tweet(tweet_text, lang='en')
-            component_text = [preprocessing.preprocess_tweet(comp, lang='en') for comp in component_text]
-            normalized_text = normalize_text(preprocessed_text, component_text)
-            labels = labelComponents(" ".join(normalized_text), component_text)
-            if not is_argumentative or filesize == 0:
-                continue
+                    to_add = ["Justification:"] + justification_text + ["Conclusion:"] + conclusion_text
+                tweet += to_add
+                labels += [0] * len(to_add)
 
+            print("-----------------------------------")
+            print(len(tweet))
+            print(len(labels))
+            print(tweet)
+            print(labels)
+            print("===================================")
+            if not is_argumentative:
+                continue
             elif multidataset:
-                dicc = {"tokens": [normalized_text], "labels": [labels]}
-                datasets.append([Dataset.from_dict(dicc), normalized_text])
+                dicc = {"tokens": [tweet], "labels": [labels]}
+                datasets.append([Dataset.from_dict(dicc), tweet])
             else:
-                assert(len(normalized_text) > 0)
-                all_tweets.append(normalized_text)
+                all_tweets.append(tweet)
                 all_labels.append(labels)
+
 
     if multidataset:
         return datasets
 
     ans = {"tokens": all_tweets, "labels": all_labels}
     return Dataset.from_dict(ans)
+
 
 def tokenize_and_align_labels(dataset, tokenizer, is_multi = False, is_bertweet=False):
     def tokenize_and_align_labels_per_example(example):
@@ -312,11 +332,12 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
 
 
 
-filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS + 1)]
+filePatterns = ["./datasets_CoNLL/{}_dataset/hate_tweet_*.conll".format(dataset) for dataset in ["train", "dev", "test"]]
 # dataset_combination is a list of lists with three combinations of possible partitions for the dataset, being the first one a list with 8 folders of tweets used for training and the second and third lists with one folder of tweets used for eval and test
 #dataset_combinations = [[filePatterns[2:], filePatterns[0:1], filePatterns[1:2]], [filePatterns[1:9], filePatterns[9:], filePatterns[:1]]]
-dataset_combinations = [[filePatterns[:8], filePatterns[8:9], filePatterns[9:]], [filePatterns[2:], filePatterns[0:1], filePatterns[1:2]], [filePatterns[1:9], filePatterns[9:], filePatterns[:1]]]
+dataset_combinations = [[[filePatterns[0]], [filePatterns[1]], [filePatterns[2]]]]
 for combination in dataset_combinations:
+    print(combination)
     REP = REP + 1
     for cmpnent in components:
         component = cmpnent
