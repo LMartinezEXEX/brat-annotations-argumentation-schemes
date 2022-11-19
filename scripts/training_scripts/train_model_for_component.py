@@ -27,9 +27,9 @@ args = parser.parse_args()
 
 LEARNING_RATE = args.lr
 NUMBER_OF_PARTITIONS = 10
-device = "cuda:0"
+device = torch.device("cuda:0")
 BATCH_SIZE = args.batch_size
-EPOCHS = 12 * (BATCH_SIZE / 16)
+EPOCHS = 20 * (BATCH_SIZE / 16)
 MODEL_NAME = args.modelname
 REP=0
 components = args.components
@@ -137,7 +137,7 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
                     is_argumentative = False
                     break
                 word = delete_unwanted_chars(line_splitted[0])
-                word = preprocessing.preprocess_tweet(word, lang="en")
+                word = preprocessing.preprocess_tweet(word, lang="en", user_token="@user", hashtag_token="hashtag", preprocess_hashtags=True, demoji=True)
                 processed_words = word.split(" ")
                 l = len(processed_words)
                 tweet += processed_words
@@ -167,18 +167,18 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
                 tweet += to_add
                 labels += [0] * len(to_add)
 
-            print("-----------------------------------")
-            print(len(tweet))
-            print(len(labels))
-            print(tweet)
-            print(labels)
-            print("===================================")
             if not is_argumentative:
                 continue
             elif multidataset:
                 dicc = {"tokens": [tweet], "labels": [labels]}
                 datasets.append([Dataset.from_dict(dicc), tweet])
             else:
+                print("-----------------------------------")
+                print(len(tweet))
+                print(len(labels))
+                print(tweet)
+                print(labels)
+                print("===================================")
                 all_tweets.append(tweet)
                 all_labels.append(labels)
 
