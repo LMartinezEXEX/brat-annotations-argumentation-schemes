@@ -1,0 +1,13 @@
+T1	Premise1Conclusion 0 207	Q en los vuelos desde VENEZUELA pongan un billete d 10$ en el baño dl avión. Q abran un taquilla d inmigración cuando ya todos estén formados. Q pongan bolígrafos sueltos par llenar la plantilla de migración
+A1	QuadrantType T1 policy
+T2	Premise2Justification 209 279	Allí pudieran filtrar justamente a los abusadores y deportarlos PATRAS
+A2	QuadrantType T2 fact
+T3	Collective 22 31	VENEZUELA
+T4	Property 248 258	abusadores
+T5	pivot 198 207	migración
+T6	pivot 261 272	deportarlos
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeA 279 280	!
+#1	AnnotatorNotes T7	No entiendo como es que reconocerías a los abusadores así. Ni siquiera parece que estés hablando en serio. Suena a que estas contando un chiste sin gracia.
+T8	CounterNarrativeB 278 279	S
+#2	AnnotatorNotes T8	Entiendo que no quieras permitir que inmigren delincuentes, pero pareciera que te las estas agarrando con los venezolanos, como si todos ellos lo fueran.

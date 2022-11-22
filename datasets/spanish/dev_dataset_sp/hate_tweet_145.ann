@@ -1,0 +1,12 @@
+T1	Premise2Justification 65 116	3 moromierdas que han abusado en Tudela de una niña
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 66	Obviamente, @A3Noticias no iba a desvelar la nacionalidad de los 3
+A2	QuadrantType T2 fact
+T3	Collective 67 71	moro
+T4	Property 71 116	mierdas que han abusado en Tudela de una niña
+T5	CounterNarrativeC 116 117	.
+#1	AnnotatorNotes T5	Es muy triste que ocurra eso, pero si te enfocas solo en su nacionalidad, estas dejando ver que es lo unico que te importa.
+T6	CounterNarrativeB 115 116	a
+#2	AnnotatorNotes T6	Que sea moro no tiene nada que ver. Hay tantos violadores moros como en cualquier otro grupo.
+T7	CounterNarrativeA 114 115	ñ
+#3	AnnotatorNotes T7	Pues quizás porque no es relevante realmente.

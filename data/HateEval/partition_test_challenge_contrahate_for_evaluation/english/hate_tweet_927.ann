@@ -1,0 +1,9 @@
+T1	Premise2Justification 61 223	You do not belong among ordinary people. Killing, raping, enslaving and torturing people is not allowed even if you call it a religion. You have no rights over me
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 26 60	#migrants #muslimmigrants go home.
+A2	QuadrantType T2 policy
+T3	Collective 37 51	muslimmigrants
+T4	Property 102 149	Killing, raping, enslaving and torturing people
+T5	pivot 37 43	muslim
+T6	pivot 187 195	religion
+R1	related Arg1:T5 Arg2:T6	

@@ -1,0 +1,8 @@
+T1	Premise2Justification 27 256	El populismo es lo que tienen ellos declarando un igualitarismo y socialismo fracasado , un estado de bienestar para inmigrantes ilegales y para quienes no trabajan y de malestar para el que produce y le quitan todo con impuestos
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 26	Absurda Europa y Bruselas.
+A2	QuadrantType T2 value
+T3	CounterNarrativeC 279 280	9
+#1	AnnotatorNotes T3	Nadie quiere ver a su país mal. Creo que no estás prestando atención realmente.
+T4	CounterNarrativeA 278 279	2
+#2	AnnotatorNotes T4	Oye, el hecho que a tí no te gusten sus ideas no las hace absurdas, solo piensan diferente. Quizás hasta tengan razón, quién sabe...

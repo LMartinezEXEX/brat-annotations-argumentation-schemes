@@ -1,0 +1,12 @@
+T1	Premise2Justification 0 120	"La ""marcha negra"" acelera el paso: más de 40.000 subsaharianos esperan en Marruecos para entrar ilegalmente en España
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 149 278	Okupa Monclovita,...¿Ya tienes pensado donde cobijar a toda esta gente...?Prepara barracas en Moncloa, creo que hay terreno...!!"
+A2	QuadrantType T2 fact
+T3	Collective 52 65	subsaharianos
+T4	Property 92 120	entrar ilegalmente en España
+T5	CounterNarrativeC 143 144	z
+#1	AnnotatorNotes T5	¿De donde sacaste esa información? ¿Realmente crees que alguien se tomó el trabajo de contarlos?
+T6	CounterNarrativeB 142 143	o
+#2	AnnotatorNotes T6	No se realmente si son mas los que entran legalmente o ilegalmente. Lo que sí se, es lo dificil que se lo ponen a todos ellos.
+T7	CounterNarrativeA 141 142	J
+#3	AnnotatorNotes T7	No creo que sea demasiado dificil encontrar una forma de ubicar a los inmigrantes, sin molestar a nadie. Un poco de creatividad, vamos...

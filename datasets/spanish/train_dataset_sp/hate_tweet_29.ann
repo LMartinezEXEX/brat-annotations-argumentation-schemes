@@ -1,0 +1,10 @@
+T1	Premise1Conclusion 0 85	Hay varias paginas de feministas a las que deberia darles verguenza exponer sus ideas
+A1	QuadrantType T1 fact
+T2	Premise2Justification 86 120	ya que no tienen ni pies ni cabeza
+A2	QuadrantType T2 fact
+T3	Collective 22 32	feministas
+T4	Property 93 120	no tienen ni pies ni cabeza
+T5	CounterNarrativeB 119 120	a
+#1	AnnotatorNotes T5	Si consideras que están equivocadas, podemos debatirlo. Pero decir que no tienen ni pies ni cabeza, pues te equivocas, y mucho.
+T6	CounterNarrativeA 118 119	z
+#2	AnnotatorNotes T6	Nadie debería tener verguenza de exponer sus ideas, ya sea que estén en lo cierto o no. A menos que sus ideas hagan daño a otros, claro esta.

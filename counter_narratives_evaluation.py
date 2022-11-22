@@ -2,6 +2,8 @@
 from nltk.translate.bleu_score import sentence_bleu
 import glob
 from sentence_transformers import SentenceTransformer, util
+import gensim.downloader as api
+import numpy as np
 
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
@@ -56,7 +58,17 @@ def evaluate_with_sentence_embeddings(cn, ground_truth):
     cosine_scores = util.cos_sim(embeddings_cn, embeddings_truth)
     print(cosine_scores)
 
+def evaluate_with_word_embeddings(cn, ground_truth):
+    glove_vector = api.load('glove-twitter-200')
+    cn_words = [word for word in cn.split() if word in glove_vector]
+    word_embeddings_cn = np.mean(glove_vector[cn_words], axis=0)
 
+    word_embeddings_truth = []
+    for truth_cn in ground_truth:
+        words = [word for word in truth_cn.split() if word in glove_vector]
+        word_embeddings_truth.append(np.mean(glove_vector[words], axis=0))
+    cosine_scores = util.cos_sim(word_embeddings_cn, np.array(word_embeddings_truth))
+    print(cosine_scores)
 
 def evaluate_cn(tweet_number, cn):
 	cn_map = get_counter_narratives_map(filePatterns)
@@ -68,6 +80,7 @@ def evaluate_cn(tweet_number, cn):
 			not_empty_cns.append(cnn)
 
 	evaluate_with_sentence_embeddings(cn, not_empty_cns)
+	evaluate_with_word_embeddings(cn, not_empty_cns)
 
 
 evaluate_cn("1-8", "If the streets of the UK are like that is not because of immigrants but because of poverty. Don't blame those who don't have nothing")

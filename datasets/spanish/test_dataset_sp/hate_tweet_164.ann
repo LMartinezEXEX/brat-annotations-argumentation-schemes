@@ -1,0 +1,10 @@
+T1	Premise2Justification 59 195	sangraros gracias a las ayudas y subvenciones que nuestros mayores no reciben, se llevan el dinero a traves de mezquitas y locutorios...
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 195	Cuando veais a los pobres muslims, acordaron que ademas de sangraros gracias a las ayudas y subvenciones que nuestros mayores no reciben, se llevan el dinero a traves de mezquitas y locutorios...
+A2	QuadrantType T2 policy
+T3	Collective 26 33	muslims
+T4	Property 59 136	sangraros gracias a las ayudas y subvenciones que nuestros mayores no reciben
+T5	CounterNarrativeA 218 219	c
+#1	AnnotatorNotes T5	Creo que todas las religiones hacen eso. Podemos discutir si está bien o no, pero no deberías enfocarte solo en una, porque eso deja en evidencia que lo que te molesta realmente es su religión, y no lo demás.
+T6	CounterNarrativeB 217 218	b
+#2	AnnotatorNotes T6	No es cierto que las subvenciones vengan del dinero de los servicios que nuestros mayores no perciben.

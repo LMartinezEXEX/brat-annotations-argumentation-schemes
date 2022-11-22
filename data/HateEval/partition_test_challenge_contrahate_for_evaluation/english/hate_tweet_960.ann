@@ -1,0 +1,7 @@
+T1	Premise2Justification 0 53	Americans Agree with @RealDonaldTrump on #immigration
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 54 131	we can not afford to give welfare to illegals while U.S Citizens are homeless
+A2	QuadrantType T2 fact
+T3	pivot 42 53	immigration
+T4	pivot 91 99	illegals
+R1	related Arg1:T3 Arg2:T4	

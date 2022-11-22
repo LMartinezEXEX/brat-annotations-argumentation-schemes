@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 60	Oversupply of cheap labor. We have parollees that need work.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 61 75	#BuildThatWall
+A2	QuadrantType T2 policy

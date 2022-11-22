@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 151 248	Somos la plataforma europea ""ideal"" para refugiados e inmigrantes de cualquier parte del mundo.
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 149	"A nuestro país llegan ya no solamente los migrantes “tradicionales” desde la fachada noroccidental africana. Ahora proceden de toda África y de Asia
+A2	QuadrantType T2 fact
+T3	pivot 43 52	migrantes
+T4	pivot 207 218	inmigrantes
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 296 297	"
+#1	AnnotatorNotes T5	¿Y eso tiene algo de malo? No es como si solo en algunos lugares hubiera buena gente...
+T6	CounterNarrativeA 295 296	K
+#2	AnnotatorNotes T6	Celebro que así sea. Significa que los tratamos bien. Si te preocupa que pudiera surgir un problema, tranquilo, que seguro habrá tiempo de revisar el sistema, los cambios no son de un día al otro.

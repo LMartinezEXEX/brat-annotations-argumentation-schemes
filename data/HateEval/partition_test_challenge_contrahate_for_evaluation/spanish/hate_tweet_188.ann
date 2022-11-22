@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 0 170	Lo primero que tendría que hacer Pdr Snchz cuando vuelva de vacaciones  es una sesión de fotos practicando footing en la Moncloa rodeado de  negros. Perdón, subsaharianos
+A1	QuadrantType T1 policy
+T2	Premise2Justification 172 239	Con eso lo arreglábamos todo. Hasta podríamos usar a Obama de extra
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 238 239	a
+#1	AnnotatorNotes T3	No se entiende cual es tu problema con los subsaharianos. Es como si te cayeran mal, pero no se sabe por qué.
+T4	CounterNarrativeA 237 238	r
+#2	AnnotatorNotes T4	¿Realmente crees que todo lo que se hace, se hace para quedar bien? Pues no...

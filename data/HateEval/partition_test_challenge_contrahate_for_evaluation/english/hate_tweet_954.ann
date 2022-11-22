@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 15	That's very odd
+A1	QuadrantType T1 fact
+T2	Premise2Justification 45 129	Angel Mom: 'I'm Offended' Mollie Tibbetts' Dad Won't Recognize 'Illegal Alien Crime'
+A2	QuadrantType T2 fact
+T5	Collective 109 122	Illegal Alien
+T6	Property 123 128	Crime

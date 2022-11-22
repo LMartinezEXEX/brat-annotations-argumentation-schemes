@@ -1,0 +1,6 @@
+T1	Premise2Justification 50 157	U tell ME-What could people who come through the BACK DOOR,bring to our country-Except 4 CRIME & DISEASE ??
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 157 171	#BuildThatWall
+A2	QuadrantType T2 policy
+T3	Property 139 154	CRIME & DISEASE
+T4	Collective 71 108	people who come through the BACK DOOR

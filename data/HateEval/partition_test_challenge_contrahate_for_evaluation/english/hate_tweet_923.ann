@@ -1,0 +1,9 @@
+T3	Collective 22 36	asylum seekers
+T4	Property 37 50	are criminals
+T1	Premise1Conclusion 73 140	#LiberalLogic #closeborders #deportillegalimmigrants #BuildThatWall
+T2	Premise2Justification 0 72	You mean, some of the asylum seekers are criminals?! WhaaaaasAAAAAAAAA?!
+T5	pivot 108 125	illegalimmigrants
+T6	pivot 22 36	asylum seekers
+R1	related Arg1:T5 Arg2:T6	
+A1	QuadrantType T2 fact
+A2	QuadrantType T1 policy

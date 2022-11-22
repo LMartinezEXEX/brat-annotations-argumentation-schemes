@@ -1,0 +1,9 @@
+T1	Premise2Justification 0 117	No sé dónde vives pero la delincuencia que he visto yo cuando he ido de vacaciones a Madrid y a Barcelona es absoluta
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 118 236	vale y estos señores al no tener papeles se ven totalmente Internet de lo que les pueda pasar sin miedo total a la ley
+A2	QuadrantType T2 fact
+T3	pivot 233 236	ley
+T4	pivot 26 38	delincuencia
+R1	related Arg1:T4 Arg2:T3	
+T5	Collective 125 158	estos señores al no tener papeles
+T6	Property 26 38	delincuencia

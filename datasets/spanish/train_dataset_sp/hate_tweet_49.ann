@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 230 267	inmigrante económico como él dice....
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 229	Un tio de 26 años de Camerún (pais en guerra, espero que note la ironia). Con dos hijos que no puede mantener (como la mitad de los africanos). Que dice que se ha dedicado a violar menores y animales desde que salió de Camerún...
+A2	QuadrantType T2 fact
+T3	Collective 230 250	inmigrante económico
+T4	Property 174 199	violar menores y animales
+T5	CounterNarrativeC 0 1	U
+#1	AnnotatorNotes T5	Estas cometiendo un error muy grande al dejarte llevar por un rumor. Incluso si fuera cierto, no parece más que un caso aislado.
+T6	CounterNarrativeB 1 2	n
+#2	AnnotatorNotes T6	No puedes asumir que todos los inmigrantes economicos son así. Ni siquiera puedes decir que todos los que vienen del mismo país lo sean. Estas generalizando cuando no corresponde.
+T7	CounterNarrativeA 3 4	t
+#3	AnnotatorNotes T7	Es un error muy grande generalizar a partir de un solo caso. Obviamente existen delincuentes, en todos lados, no significa que todos lo sean.

@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 22 280	1º No renovar residencia y expulsar a tantos marroquíes como subsaharianos entren desde Marruecos. No habría nadie en la valla.. 2º Deducir de las ayudas al desarrollo a un país, el coste de la repatriación de sus inmigrantes que lleguen ilegalmente a España
+A1	QuadrantType T1 policy
+T2	Premise2Justification 0 21	La solución política:
+A2	QuadrantType T2 fact
+T3	CounterNarrativeA 303 304	N
+#1	AnnotatorNotes T3	Pues, aunque "sea la solución", si esta mal, por ende, no debería hacerse.
+T4	CounterNarrativeC 302 303	6
+#2	AnnotatorNotes T4	¿La solución según quién? Creo que no estoy del todo convencido...

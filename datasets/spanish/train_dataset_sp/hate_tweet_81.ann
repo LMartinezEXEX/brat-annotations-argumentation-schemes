@@ -1,0 +1,8 @@
+T1	Premise2Justification 19 110	los ""malditos sudacas"" son los que tienen en pie a las ligas del fútbol español y europeo
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 1 18	Sea insulto o no,
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 128 129	p
+#1	AnnotatorNotes T3	Y si es así, ¿por qué lo de "malditos"?
+T4	CounterNarrativeA 127 128	D
+#2	AnnotatorNotes T4	Creo que si lo es. Y no entiendo por qué insultarlos, cuando incluso estas diciendo cosas buenas de ellos.

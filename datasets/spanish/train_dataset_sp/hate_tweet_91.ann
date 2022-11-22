@@ -1,0 +1,16 @@
+T1	Premise2Justification 42 264	Con q vengan muchos ya sobra, aquí. Hay demasiados d todos. Subsaharianos en las calles tirados, manteros perjudicando comercios legales y vendiendo copias, marroquíes donde trabaja el y viven la mujer 4 niños y 4 abuelos.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 265 313	En ciudades y pueblos estamos llenos. A su casa!
+A2	QuadrantType T2 policy
+T3	Collective 102 115	Subsaharianos
+T4	Property 130 137	tirados
+T5	Property 181 197	vendiendo copias
+T7	pivot 287 301	estamos llenos
+T8	pivot 78 92	Hay demasiados
+R2	related Arg1:T8 Arg2:T7	
+T6	CounterNarrativeC 0 1	@
+#1	AnnotatorNotes T6	No es cierto que seamos demasiados, como tampoco es verdad lo que dices de ellos.
+T9	CounterNarrativeA 1 2	C
+#2	AnnotatorNotes T9	Dices que están llenos porque en realidad no quieres que haya ninguno. ¿O acaso dejarías que se queden los que ya están aquí? Solo estas siendo racista.
+T10	CounterNarrativeB 2 3	a
+#3	AnnotatorNotes T10	No es cierto que anden "tirados, vendiendo copias". Además ser vendedor ambulante es un empleo tan digno como cualquier otro.

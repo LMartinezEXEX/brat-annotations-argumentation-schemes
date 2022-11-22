@@ -1,0 +1,15 @@
+T1	Premise2Justification 53 168	Te lo digo xq me ha pasado lo mismo! @clauconserva @LaFranConserva descendencia árabe siguen inculcando el machismo
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 19 51	cultura árabe = cultura machista
+A2	QuadrantType T2 fact
+T3	pivot 160 168	machismo
+T4	pivot 43 51	machista
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 27 32	árabe
+T6	Property 43 51	machista
+T7	CounterNarrativeC 0 1	#
+#1	AnnotatorNotes T7	No es cierto que los árabes sean tan machistas como la propaganda racista dice.
+T8	CounterNarrativeB 1 2	i
+#2	AnnotatorNotes T8	No es cierto que todos los árabes sean machistas. Ademas hay tanto machismo en su cultura como en las demás.
+T9	CounterNarrativeA 2 3	m
+#3	AnnotatorNotes T9	Que haya algunos árabes machistas no implica que su cultura lo sea.  Aquí hay machistas también, y no dices que nuestra cultura sea machista.

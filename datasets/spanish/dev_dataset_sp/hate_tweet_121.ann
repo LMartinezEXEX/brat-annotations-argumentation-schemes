@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 171	Como siempre, nuestras autoridades a última hora se dan cuenta d todos los problemas q generan los inmigrantes venezolanos sin haber cumplido los requisitos para este fin.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 172 280	Una vez más, se demuestra q son improvisadores y no previsores; en conclusión terminan siendo informal todo.
+A2	QuadrantType T2 fact
+T3	Collective 99 122	inmigrantes venezolanos
+T4	Property 75 84	problemas
+T5	pivot 37 48	última hora
+T6	pivot 204 218	improvisadores
+R1	related Arg1:T5 Arg2:T6	
+T7	CounterNarrativeC 170 171	.
+#1	AnnotatorNotes T7	Y a que te refieres con esos problemas? Porque no creo que generen ninguno realmente.
+T8	CounterNarrativeB 169 170	n
+#2	AnnotatorNotes T8	No entiendo por que los inmigrantes venezolanos generarían problemas, cuando son exactamente como cualquier otra persona, inmigrante o no.
+T9	CounterNarrativeA 167 169	fi
+#3	AnnotatorNotes T9	Dices que son improvisadores porque no quieres que haya inmigrantes venezolanos aquí, y lo entiendo, pero te equivocas. Sencillamente se previó que habría ningún problema, y ya.

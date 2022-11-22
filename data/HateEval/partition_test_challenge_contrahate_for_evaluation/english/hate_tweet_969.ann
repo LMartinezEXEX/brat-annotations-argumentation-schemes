@@ -1,0 +1,9 @@
+T1	Premise1Conclusion 150 233	Embarrassing that we pay these lying losers large salaries to corrupt our democracy
+A1	QuadrantType T1 value
+T2	Premise2Justification 0 149	@dbongino Dan, WAY too tough to choose between all the lying, deceitful corrupt losers representing Dems (& some GOP). The list is long & disgusting.
+A2	QuadrantType T2 fact
+T3	Property 209 233	to corrupt our democracy
+T4	Collective 72 86	corrupt losers
+T5	pivot 72 79	corrupt
+T6	pivot 212 219	corrupt
+R1	related Arg1:T6 Arg2:T5	

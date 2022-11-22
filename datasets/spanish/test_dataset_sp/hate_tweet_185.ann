@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 0 40	Y pase lo que pase no votéis a una mujer
+A1	QuadrantType T1 policy
+T2	Premise2Justification 42 138	que no podrá ocuparse de su cargo por tener que cuidar la casa y lavar la ropa del hombre #deber
+A2	QuadrantType T2 fact
+T3	Collective 35 40	mujer
+T4	Property 90 131	cuidar la casa y lavar la ropa del hombre
+T5	pivot 70 75	cargo
+T6	pivot 22 28	votéis
+R1	related Arg1:T6 Arg2:T5	
+T7	CounterNarrativeC 137 138	r
+#1	AnnotatorNotes T7	Sabes que esos "deberes" como les llamas no existen hace mas de 100 años, ¿verdad?
+T8	CounterNarrativeB 136 137	e
+#2	AnnotatorNotes T8	Hablas de las mujeres como si vinieras de hace varios siglos. El mundo cambió...
+T9	CounterNarrativeA 135 136	b
+#3	AnnotatorNotes T9	Y así es como se reducen las propuestas de una candidata y su aptitud, a su genero, y los prejuicios asociados a el. Que triste.

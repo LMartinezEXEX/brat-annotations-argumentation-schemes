@@ -1,0 +1,15 @@
+T1	Premise1Conclusion 89 234	Denunciar que un GC y un militar violaron a una cría de 18 años no queda muy patriota... Gays y un marroquí. ¿Serán gays negros, sudacas o moros?
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 87	En Mierditerráneo Digital andan un poco obsesionados con las violaciones. Las ficticias
+A2	QuadrantType T2 fact
+T3	pivot 61 72	violaciones
+T4	pivot 122 130	violaron
+R1	related Arg1:T3 Arg2:T4	
+T5	Collective 205 233	gays negros, sudacas o moros
+T6	Property 61 72	violaciones
+T7	CounterNarrativeC 257 258	w
+#1	AnnotatorNotes T7	¿Por que alguien saldría a inventar algo tan terrible? No estas siendo escéptico, estas siendo paranoico.
+T8	CounterNarrativeB 256 257	b
+#2	AnnotatorNotes T8	No entiendo qué vinculo intentas establecer entre los negros y los gays con las violaciones. Acaso crees que hay mas violadores entre ellos que entre otros grupos? Pues no.
+T9	CounterNarrativeA 255 256	J
+#3	AnnotatorNotes T9	¿Y qué con el patriotismo o lo que "queda bien"? No por eso lo que dicen es mentira.

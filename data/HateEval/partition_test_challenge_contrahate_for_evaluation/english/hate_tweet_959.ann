@@ -1,0 +1,6 @@
+T1	Premise1Conclusion 0 26	Thank You @RealDonaldTrump
+A1	QuadrantType T1 policy
+T2	Premise2Justification 35 131	Enforcing the laws on the book dont make it easy for Illegals and Immigrants To Break U.S laws !
+A2	QuadrantType T2 fact
+T5	Collective 88 111	Illegals and Immigrants
+T6	Property 115 129	Break U.S laws

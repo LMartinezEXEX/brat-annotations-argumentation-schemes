@@ -1,0 +1,11 @@
+T1	Premise1Conclusion 36 168	un día los Alemanes, Españoles no será de Alemania y los Árabes impondrán sus religiones y su cultura y los Africanos harán lo mismo
+A1	QuadrantType T1 fact
+T2	Premise2Justification 0 35	Con estas emigraciones hacia Europa
+A2	QuadrantType T2 fact
+T3	Collective 93 99	Árabes
+T4	Property 100 137	impondrán sus religiones y su cultura
+T5	Collective 144 153	Africanos
+T6	CounterNarrativeB 186 188	fi
+#1	AnnotatorNotes T6	Nadie intenta imponer su cultura sobre las otras. Existe un proceso de asimilación en ambas direcciones, que por lo general resulta en cambios positivos.
+T7	CounterNarrativeA 188 189	e
+#2	AnnotatorNotes T7	Que hoy emigren algunos cuantos no va a convertir a los nuestros en minoría. De hecho, a la larga se asimilaran y terminan siendo uno de nosotros también.

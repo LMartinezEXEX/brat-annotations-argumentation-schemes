@@ -1,0 +1,8 @@
+T1	Premise1Conclusion 0 40	¿Por que las mujeres se casan de blanco?
+A1	QuadrantType T1 fact
+T2	Premise2Justification 41 110	Para hacer juego con el refrigerador, la cocina y la lavadora. #Humor
+A2	QuadrantType T2 fact
+T3	CounterNarrativeC 109 110	r
+#1	AnnotatorNotes T3	No es humor, sencillamente porque no hace gracia.
+T4	CounterNarrativeA 108 109	o
+#2	AnnotatorNotes T4	Que "chiste" mas misógino... 

@@ -1,0 +1,4 @@
+T1	Premise2Justification 0 102	American Citizens are being Victimized by Illegal AliensThe shocking findings by a new DOJ-DHS report.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 56	American Citizens are being Victimized by Illegal Aliens
+A2	QuadrantType T2 fact

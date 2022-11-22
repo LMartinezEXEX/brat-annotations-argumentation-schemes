@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 3 57	We will send back the illegal immigrants to Bangladesh
+T2	Premise2Justification 59 134	Tough days are ahead, we will not tolerate any illegal immigrants in Bengal
+A1	QuadrantType T1 policy
+A2	QuadrantType T2 policy

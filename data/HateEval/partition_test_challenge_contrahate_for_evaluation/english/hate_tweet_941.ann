@@ -1,0 +1,7 @@
+T1	Premise2Justification 33 103	The German Government Pays for 3 Week Vacation for Refugees to Go Home
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 0 32	The Insane Re Truly In Charge...
+A2	QuadrantType T2 fact
+T3	pivot 44 54	Government
+T4	pivot 23 29	Charge
+R1	related Arg1:T4 Arg2:T3	

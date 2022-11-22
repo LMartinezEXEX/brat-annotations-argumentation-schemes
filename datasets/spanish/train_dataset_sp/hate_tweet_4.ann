@@ -1,0 +1,11 @@
+T1	Premise2Justification 58 156	RADICAL TRANSEÚNTES Y AUTOS TRANSPORTE DE TODO TIPO ADEMAS TODO COLOMBIANO INDOCUMENTADO DEPORTADO
+A1	QuadrantType T1 policy
+T2	Premise1Conclusion 0 57;158 170	NO SE PORQUE NO EXISTE UN CONTROL FRONTERIZO CON COLOMBIA BASTA CARAJO
+A2	QuadrantType T2 policy
+T3	pivot 122 132	COLOMBIANO
+T4	pivot 49 57	COLOMBIA
+R1	related Arg1:T3 Arg2:T4	
+T5	CounterNarrativeC 155 156	O
+#1	AnnotatorNotes T5	Creo que exageras, como si todo lo que viniera de Colombia fuera malo.
+T6	CounterNarrativeA 154 155	D
+#2	AnnotatorNotes T6	Somos países vecinos, con culturas similares. No podemos reprimir a todo aquel que intente cruzar la frontera. No esta bién.

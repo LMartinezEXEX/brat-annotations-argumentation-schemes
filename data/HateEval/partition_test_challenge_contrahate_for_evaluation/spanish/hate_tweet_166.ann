@@ -1,0 +1,12 @@
+T1	Premise1Conclusion 0 48;133 155	Como cuando juegas billar con un arabe, musulman y mejor lo dejas ganar
+A1	QuadrantType T1 fact
+T2	Premise2Justification 54 132	falla un tiro y normal se enfada, es como “todos abajo puede traer una bomba “
+A2	QuadrantType T2 fact
+T3	Collective 40 48	musulman
+T4	Property 115 130	traer una bomba
+T5	CounterNarrativeB 159 160	a
+#1	AnnotatorNotes T5	Ese estereotipo del musulmán con la bomba es, de todos los prejuicios racistas, uno de los mas ofensivos y desacertados.
+T6	CounterNarrativeC 160 161	j
+#2	AnnotatorNotes T6	Nadie iría armado a jugar al billar con los amigos, no importa la situación en la que este viviendo.
+T7	CounterNarrativeA 157 158	a
+#3	AnnotatorNotes T7	Entiendo que es un chiste, y quizás el sea tu amigo, pero debes entender que para quienes no te conocen, es ofensivo. Estas diciendo cosas que no son ciertas de mucha gente.

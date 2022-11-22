@@ -1,0 +1,11 @@
+T1	Premise2Justification 1 91	Nos vamos a convertir como Venezuela” decían, ahora hasta en los semáforos se habla chamo.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 93 199	Quiero ver al señor Duque y a los ministerios y cancillería que van hacer con tanto inmigrante chamozolano
+A2	QuadrantType T2 fact
+T3	pivot 188 199	chamozolano
+T4	pivot 85 90	chamo
+R1	related Arg1:T4 Arg2:T3	
+T5	CounterNarrativeC 0 1	“
+#1	AnnotatorNotes T5	¿Por qué te molestarían los venezolanos aquí? Son inmigrantes como cualquier otro.
+T6	CounterNarrativeA 1 2	N
+#2	AnnotatorNotes T6	No creo que deban hacer nada. No estan molestando a nadie, ni lastiman a nadie con su presencia.

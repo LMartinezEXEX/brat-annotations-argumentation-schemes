@@ -1,0 +1,15 @@
+T1	Premise2Justification 0 196	Los traficantes de inmigrantes Proactiva Open Arms están dando vueltas entre Cerdeña y Túnez con 87 inmigrantes.Malta e Italia no les dan permiso para desembarcar y otra vez quiere venir a España.
+A1	QuadrantType T1 fact
+T2	Premise1Conclusion 196 280	Que los desembarque en Túnez,Libia, Egipto...que Europa está llena.Sobran la mayoría
+A2	QuadrantType T2 policy
+T3	Collective 100 111	inmigrantes
+T4	pivot 151 162	desembarcar
+T5	pivot 204 215	desembarque
+R1	related Arg1:T4 Arg2:T5	
+T6	Property 263 269	Sobran
+T7	CounterNarrativeC 0 1	L
+#1	AnnotatorNotes T7	No son traficantes, son personas que brindan servicio humanitario. Nadie gana ayudando a los inmigrantes mas que ellos, y a fin de cuentas es eso lo que importa.
+T8	CounterNarrativeB 1 2	o
+#2	AnnotatorNotes T8	Decir que los inmigrantes sobran es decir que tenemos poco espacio o pocos recursos, y eso no es cierto. Hay para todos.
+T9	CounterNarrativeA 2 3	s
+#3	AnnotatorNotes T9	¿Y que diferencia hay entre esos países y estos? No puede ser que siempre sea otro el que tenga que ayudar.

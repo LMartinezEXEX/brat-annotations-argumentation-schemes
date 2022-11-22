@@ -1,0 +1,4 @@
+T1	Premise1Conclusion 43 87	de verdad que esto ya pasa de castaño oscuro
+A1	QuadrantType T1 value
+T2	Premise2Justification 0 42;89 142	¿y de donde sacan para irse de vacaciones? ¿refugiados y vuelven al lugar donde les maltrataban?
+A2	QuadrantType T2 fact
