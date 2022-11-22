@@ -7,3 +7,6 @@ config.py
 
 # Standard locations of data and server temporary files
 work/
+
+# Cache files
+*.stats_cache
