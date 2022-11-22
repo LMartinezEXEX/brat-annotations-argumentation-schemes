@@ -2,7 +2,7 @@ T1	Premise1Conclusion 1 65	#Europe, you've got a problem!   We must hurry and #B
 A1	QuadrantType T1 policy
 T2	Premise2Justification 66 196	before we become overrun with the thugs and drugs smuggled across the border by #IllegalImmigrants. It's happening while we wait!"
 A2	QuadrantType T2 fact
-T3	Collective 147 164	IllegalImmigrants
+T3	Collective 146 164	#IllegalImmigrants
 T4	Property 100 124	thugs and drugs smuggled
 T5	CounterNarrativeC 195 196	"
 #1	AnnotatorNotes T5	Yea, sure... because problems only come from outside, how is that!

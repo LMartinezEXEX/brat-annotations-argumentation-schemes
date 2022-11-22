@@ -1,7 +1,7 @@
 T1	Premise2Justification 64 120	We cannot sustain this and still try to #Help the #World
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 0 62	Wake up #America! ! We are currently giving our #Country away!
-T5	Premise1Conclusion 126 148	Stopillegalimmigration
+T5	Premise1Conclusion 125 148	#Stopillegalimmigration
 A2	QuadrantType T2 policy
 T3	CounterNarrativeC 158 159	r
 #1	AnnotatorNotes T3	Why is it that, according to you, we can't hold this and try to help at the same time? Don't the numbers add up? Because it seems that they do.

@@ -1,4 +1,4 @@
-T1	Premise2Justification 24 97	TheyAreReturning To Their Home Countries Educated, Healthy & MultiLingual
+T1	Premise2Justification 23 97	#TheyAreReturning To Their Home Countries Educated, Healthy & MultiLingual
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 1 22	#SendThemHome #NoDACA
 A2	QuadrantType T2 policy

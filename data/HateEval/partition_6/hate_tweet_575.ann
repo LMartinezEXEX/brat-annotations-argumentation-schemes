@@ -1,9 +1,9 @@
 T1	Premise2Justification 0 91	Chain Migration Imported 120K Foreign Nationals from Terrorist-Funding Countries Since 2005
 A1	QuadrantType T1 fact
-T2	Premise1Conclusion 125 142	EndChainMigration
-T3	pivot 0 15	Chain Migration
-T4	pivot 128 142	ChainMigration
+T2	Premise1Conclusion 124 142	#EndChainMigration
+T4	pivot 124 142	#EndChainMigration
 R1	related Arg1:T3 Arg2:T4	
+T3	pivot 0 15	Chain Migration
 T5	CounterNarrativeA 154 155	o
 #1	AnnotatorNotes T5	What governments do has little to do with ordinary people. don't be xenophobic.
 T6	CounterNarrativeC 156 157	m

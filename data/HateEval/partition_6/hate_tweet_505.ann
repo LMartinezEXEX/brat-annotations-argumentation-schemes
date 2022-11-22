@@ -2,7 +2,7 @@ T1	Premise2Justification 28 86	It is the third anniversary of her deathWe must n
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 0 27	Remember Kate Steinle today
 A2	QuadrantType T2 policy
-T3	Premise1Conclusion 126 139	BuildThatWall
+T3	Premise1Conclusion 125 139	#BuildThatWall
 A3	QuadrantType T3 policy
 T4	CounterNarrativeA 99 100	#
 #1	AnnotatorNotes T4	Ok, that's sad but... Building the wall wouldn't change anything, and you know it. It's just a waste of time and money.

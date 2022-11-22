@@ -2,8 +2,8 @@ T1	Premise2Justification 0 72	#Diversity in England. Need any more proof that th
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 73 86	#SendThemBack
 A2	QuadrantType T2 fact
-T3	Collective 1 10	Diversity
-T4	Property 57 70	WhiteGenocide
+T3	Collective 0 10	#Diversity
+T4	Property 56 70	#WhiteGenocide
 T5	CounterNarrativeC 85 86	k
 #1	AnnotatorNotes T5	Which proof? I don't understand how diversity would be white genocide. Can't you tolerate not being the only one here? 
 T6	CounterNarrativeB 84 85	c

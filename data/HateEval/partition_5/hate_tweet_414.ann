@@ -1,4 +1,4 @@
-T1	Premise1Conclusion 114 126	SendThemHome
+T1	Premise1Conclusion 113 126	#SendThemHome
 A1	QuadrantType T1 policy
 T2	Premise2Justification 0 98	More Than 130 Homes and 170 Square Miles Burned Due to Wildfire Allegedly Started by Illegal Alien
 A2	QuadrantType T2 fact

@@ -1,6 +1,6 @@
 T1	Premise2Justification 0 165	More Migrants from Terrorist Nation Enter Texas Via Mexico This Week How many terrorists have already successfully crossed n2 the USA from Mexico? We will never know
 A1	QuadrantType T1 fact
-T2	Premise1Conclusion 168 195	BuildTheWall #BuildThatWall
+T2	Premise1Conclusion 167 195	#BuildTheWall #BuildThatWall
 A2	QuadrantType T2 policy
 T3	Collective 5 13	Migrants
 T4	Property 14 58	from Terrorist Nation Enter Texas Via Mexico
