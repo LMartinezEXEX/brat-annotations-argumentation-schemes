@@ -9,4 +9,5 @@ config.py
 work/
 
 # Cache files
-*.stats_cache
+*/.stats_cache
+.stats_cache
