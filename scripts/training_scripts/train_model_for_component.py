@@ -283,11 +283,11 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
         model=model,
         args=training_args,
         train_dataset=training_set,
-        eval_dataset=test_set,
+        eval_dataset=dev_set,
         tokenizer=tokenizer,
         data_collator=data_collator,
         compute_metrics= compute_metrics_f1,
-        callbacks = [EarlyStoppingCallback(early_stopping_patience=4)]
+        callbacks = [EarlyStoppingCallback(early_stopping_patience=10)]
     ) 
 
     trainer.train()
