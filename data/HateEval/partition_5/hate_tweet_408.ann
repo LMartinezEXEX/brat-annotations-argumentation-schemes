@@ -1,11 +1,11 @@
 T1	Property 101 122	basket of deplorables
-T2	Collective 93 100	african
+T2	Collective 92 100	#african
 T3	Premise2Justification 175 235	we can’t afford sustaining all the riff-raff Africa sends us
 T4	Premise1Conclusion 75 133	We don’t want an #african basket of deplorables in #Europe
 A1	QuadrantType T4 value
 A2	QuadrantType T3 fact
-T5	pivot 220 226	Africa
-T6	pivot 93 100	african
+T6	pivot 92 100	#african
+T5	pivot 221 226	Africa 
 T7	CounterNarrativeA 276 277	o
 #1	AnnotatorNotes T7	Are you telling me that you're financially supporting who? Don't make me laugh.
 T8	CounterNarrativeB 275 276	k

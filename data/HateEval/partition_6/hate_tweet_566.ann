@@ -2,8 +2,8 @@ T1	Premise2Justification 17 82	@LouDobbs Agree with your idea to use the Army to
 A1	QuadrantType T1 value
 T2	Premise1Conclusion 83 118	Do it! #BuildThatWall #BuildTheWall
 A2	QuadrantType T2 policy
-T3	pivot 67 81	build the wall
-T4	pivot 106 118	BuildTheWall
+T3	pivot 64 82	to build the wall!
+T4	pivot 105 118	#BuildTheWall
 R1	related Arg1:T3 Arg2:T4	
 T5	CounterNarrativeA 0 2	@r
 #1	AnnotatorNotes T5	Just because someone agrees with your idea doesn't make it a good idea.

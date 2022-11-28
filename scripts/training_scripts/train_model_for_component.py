@@ -14,6 +14,7 @@ from sklearn import metrics
 import argparse
 from transformers import EarlyStoppingCallback
 from pysentimiento import preprocessing
+import random
 
 parser = argparse.ArgumentParser(description="Train models for identifying argumentative components inside the ASFOCONG dataset")
 parser.add_argument('components', type=str, nargs='+', help="Name of the component that wants to be identified")
@@ -110,8 +111,8 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
     all_labels = []
     if multidataset:
         datasets = []
-    for filePattern in filePatterns:
-        for f in glob.glob(filePattern):
+    for f in filePatterns:
+        #for f in glob.glob(filePattern):
             annotations = open(f, 'r')
             tweet = open(f.replace(".ann", ".txt"), 'r')
              # TODO: sacar todos los caracteres especiales
@@ -149,7 +150,7 @@ def labelComponentsFromAllExamples(filePatterns, component, multidataset = False
                     tweet_text += " Property: " + " ".join(property_text)
                 if component == "pivot":
                     tweet_text += " Just: " + " ".join(justification_text) + " Conc: " + " ".join(conclusion_text)
-            preprocessed_text = preprocessing.preprocess_tweet(tweet_text, lang='en')
+            preprocessed_text = preprocessing.preprocess_tweet(tweet_text, lang='en', user_token="@user", url_token="link", hashtag_token="hashtag")
             component_text = [preprocessing.preprocess_tweet(comp, lang='en') for comp in component_text]
             normalized_text = normalize_text(preprocessed_text, component_text)
             labels = labelComponents(" ".join(normalized_text), component_text)
@@ -282,11 +283,11 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
         model=model,
         args=training_args,
         train_dataset=training_set,
-        eval_dataset=test_set,
+        eval_dataset=dev_set,
         tokenizer=tokenizer,
         data_collator=data_collator,
         compute_metrics= compute_metrics_f1,
-        callbacks = [EarlyStoppingCallback(early_stopping_patience=4)]
+        callbacks = [EarlyStoppingCallback(early_stopping_patience=10)]
     ) 
 
     trainer.train()
@@ -313,9 +314,21 @@ def train(epochs, model, tokenizer, train_partition_patterns, dev_partition_patt
 
 
 filePatterns = ["./data/HateEval/partition_{}/hate_tweet_*.ann".format(partition_num) for partition_num in range(1, NUMBER_OF_PARTITIONS + 1)]
+
+allFiles = []
+for pattern in filePatterns:
+    for f in glob.glob(pattern):
+        allFiles.append(f)
+
+dataset_combinations = []
+for i in range(3):
+    allFilesCp = allFiles.copy()    
+    random.Random(41 + i).shuffle(allFilesCp)
+    dataset_combinations.append([allFilesCp[:770], allFilesCp[770:870], allFilesCp[870:]])
+
 # dataset_combination is a list of lists with three combinations of possible partitions for the dataset, being the first one a list with 8 folders of tweets used for training and the second and third lists with one folder of tweets used for eval and test
 #dataset_combinations = [[filePatterns[2:], filePatterns[0:1], filePatterns[1:2]], [filePatterns[1:9], filePatterns[9:], filePatterns[:1]]]
-dataset_combinations = [[filePatterns[:8], filePatterns[8:9], filePatterns[9:]], [filePatterns[2:], filePatterns[0:1], filePatterns[1:2]], [filePatterns[1:9], filePatterns[9:], filePatterns[:1]]]
+#dataset_combinations = [[filePatterns[:8], filePatterns[8:9], filePatterns[9:]], [filePatterns[2:], filePatterns[0:1], filePatterns[1:2]], [filePatterns[1:9], filePatterns[9:], filePatterns[:1]]]
 for combination in dataset_combinations:
     REP = REP + 1
     for cmpnent in components:

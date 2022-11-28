@@ -2,10 +2,10 @@ T1	Premise2Justification 0 121	"#IllegalAliens are robbing #Americans of retirem
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 122 177	my #ObamaCare costs me $36,000 per year because of them
 A2	QuadrantType T2 fact
-T3	Collective 2 15	IllegalAliens
+T3	Collective 1 15	#IllegalAliens
 T4	Property 20 27	robbing
 T5	pivot 85 95	healthcare
-T6	pivot 126 135	ObamaCare
+T6	pivot 125 135	#ObamaCare
 R1	related Arg1:T5 Arg2:T6	
 T7	CounterNarrativeB 178 179	@
 #1	AnnotatorNotes T7	It is not true that they are stealing. It's not even their decision.

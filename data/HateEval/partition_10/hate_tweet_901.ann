@@ -1,11 +1,11 @@
-T1	Premise2Justification 0 63	Why these white hating racist #Africans fleeing to white Europe
-A1	QuadrantType T1 fact
 T2	Premise1Conclusion 64 108	#goback #sendthemback go back to YOUR Africa
-A2	QuadrantType T2 policy
-T3	Collective 31 39	Africans
 T4	Property 10 29	white hating racist
-T5	pivot 102 108	Africa
-T6	pivot 31 39	Africans
+T6	pivot 30 39	#Africans
+T3	Collective 30 39	#Africans
+T1	Premise2Justification 0 63	Why these white hating racist #Africans fleeing to white Europe
+T5	pivot 102 109	Africa 
+A1	QuadrantType T1 fact
+A2	QuadrantType T2 policy
 R1	related Arg1:T6 Arg2:T5	
 T7	CounterNarrativeC 130 131	h
 #1	AnnotatorNotes T7	Perhaps because they are not racists who hate white people, but people who only hate racists, who are mostly white., but that's just a coincidence

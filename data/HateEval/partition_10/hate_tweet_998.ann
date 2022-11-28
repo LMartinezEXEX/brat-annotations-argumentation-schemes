@@ -1,13 +1,13 @@
-T1	Premise2Justification 1 59	@RepKevinYoderAnd you want to restart Catch and Release???
-T7	Premise2Justification 143 205	Illegal Alien Accused of Raping, Trafficking Girl in Louisiana
+T1	Premise2Justification 1 60	@RepKevinYoder And you want to restart Catch and Release???
+T7	Premise2Justification 144 206	Illegal Alien Accused of Raping, Trafficking Girl in Louisiana
 A1	QuadrantType T1 fact
-T2	Premise1Conclusion 60 127	NoHR392#NoDACA#NoH1b until labor participation rate is at least 80%
+T2	Premise1Conclusion 61 128	NoHR392#NoDACA#NoH1b until labor participation rate is at least 80%
 A2	QuadrantType T2 policy
-T3	Collective 143 156	Illegal Alien
-T4	Property 168 192	Raping, Trafficking Girl
-T5	CounterNarrativeC 228 229	b
+T3	Collective 144 157	Illegal Alien
+T4	Property 169 193	Raping, Trafficking Girl
+T5	CounterNarrativeC 229 230	b
 #1	AnnotatorNotes T5	How terrible, but let's not forget that it says "accused" and not "found guilty of". Let's not jump to conclusions
-T6	CounterNarrativeB 229 230	a
+T6	CounterNarrativeB 230 231	a
 #2	AnnotatorNotes T6	You know that the fact that he is an immigrant has nothing to do with it, right?
-T7	CounterNarrativeA 227 228	t
-#3	AnnotatorNotes T7	What do crimes have to do with jobs and immigrants? What you are proposing does not make sense.
+T8	CounterNarrativeA 228 229	t
+#4	AnnotatorNotes T8	What do crimes have to do with jobs and immigrants? What you are proposing does not make sense.

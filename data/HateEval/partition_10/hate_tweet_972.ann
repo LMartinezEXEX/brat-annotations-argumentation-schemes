@@ -2,10 +2,10 @@ T1	Premise1Conclusion 0 88	#SaturdayMorning people think #IllegalImmigration is 
 A1	QuadrantType T1 fact
 T2	Premise2Justification 95 192	no one talks about the fraud committed or money sucked out by #IllegalAliens from social services
 A2	QuadrantType T2 fact
-T3	Collective 158 171	IllegalAliens
+T3	Collective 157 171	#IllegalAliens
 T4	Property 118 153	fraud committed or money sucked out
-T5	pivot 31 49	IllegalImmigration
-T6	pivot 158 171	IllegalAliens
+T5	pivot 30 49	#IllegalImmigration
+T6	pivot 157 171	#IllegalAliens
 R1	related Arg1:T6 Arg2:T5	
 T7	CounterNarrativeC 242 243	d
 #1	AnnotatorNotes T7	You have no evidence to accuse immigrants of committing fraud. And in any case, it is to be expected, if you deny them basic things like medical care.

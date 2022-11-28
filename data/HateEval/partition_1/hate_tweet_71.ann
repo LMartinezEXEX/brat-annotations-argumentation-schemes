@@ -1,13 +1,13 @@
 T7	Collective 26 39	Cinco de Mayo
-T1	Property 163 174	Replacement
+T1	Property 164 175	Replacement
 T2	Premise2Justification 0 129	How long will it take for Cinco de Mayo to become a national holiday and the 4th of July to become a day of mournful remembrance?
-T3	Premise1Conclusion 129 221	#ImmigrationInvasion #StopTheGreatReplacement #StopTheInvasion #Immigration #SecureTheBorder
+T3	Premise1Conclusion 129 222	#ImmigrationInvasion #StopTheGreat Replacement #StopTheInvasion #Immigration #SecureTheBorder
 R1	secondOrder Arg1:T3 Arg2:T2	
 A1	QuadrantType T2 value
 A2	QuadrantType T3 policy
-T4	CounterNarrativeB 277 278	g
+T4	CounterNarrativeB 278 279	g
 #1	AnnotatorNotes T4	The US was always a multi-cultured country populated by immigrants. That is part of the identity of the US and most families come from immigrant families. There is no replacement of US culture. All the contrary, US culture is enriched by diversity
-T5	CounterNarrativeA 276 277	n
+T5	CounterNarrativeA 277 278	n
 #2	AnnotatorNotes T5	Why do you claim there is an invasion? Is there an army invading the US? Are you claiming that this army is going to impose 5 de Mayo as the oficial national holiday? It seems crazy, honestly
-T6	CounterNarrativeC 274 275	s
+T6	CounterNarrativeC 275 276	s
 #3	AnnotatorNotes T6	Usually migrants acquire culture from the country they migrate a lot more than locals acquire culture from immigrants. Do you have any proof that Cinco de Mayo is displacing 4th of July?                  

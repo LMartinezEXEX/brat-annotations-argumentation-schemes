@@ -1,4 +1,4 @@
-T1	Premise2Justification 111 243	If they deported few, millions came during their tenures&amp; they encouraged Muslim illegal migrants&amp;shooed away Hindu migrants
+T1	Premise2Justification 111 244	If they deported few, millions came during their tenures&amp; they encouraged Muslim illegal migrants &amp;shooed away Hindu migrants
 T2	Premise1Conclusion 10 109	Total lie. CONG is the main culprit for influx of illegal migrants both Bangladeshis&amp; Rhongyias
 A1	QuadrantType T2 fact
 A2	QuadrantType T1 fact
@@ -6,7 +6,7 @@ T3	pivot 68 76	migrants
 T4	pivot 204 212	migrants
 R1	related Arg1:T3 Arg2:T4	
 T5	Collective 21 25	CONG
-T6	Property 133 243	millions came during their tenures&amp; they encouraged Muslim illegal migrants&amp;shooed away Hindu migrants
+T6	Property 133 244	millions came during their tenures&amp; they encouraged Muslim illegal migrants &amp;shooed away Hindu migrants
 T7	CounterNarrativeA 14 56	l lie. CONG is the main culprit for influx
 #1	AnnotatorNotes T7	How can the same person shoo someone away and encourage their entry?
 T8	CounterNarrativeB 0 1	@

@@ -4,7 +4,7 @@ T2	Premise1Conclusion 131 166	#BlacksForTrump #DemocreatsForTrump
 T9	Premise1Conclusion 14 26	Dont be Fool
 A2	QuadrantType T2 policy
 T3	pivot 102 115	Black America
-T4	pivot 132 146	BlacksForTrump
+T4	pivot 131 146	#BlacksForTrump
 R1	related Arg1:T3 Arg2:T4	
 T5	CounterNarrativeA 196 197	k
 #1	AnnotatorNotes T5	Do you really base your decisions on what the black community decides? That's so irrational, and clearly motivated by hate.

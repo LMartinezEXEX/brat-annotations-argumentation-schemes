@@ -5,7 +5,7 @@ A2	QuadrantType T2 policy
 T3	Collective 8 25	ILLEGAL IMMIGRANT
 T4	Property 26 45	ASSAULTS YOUNG GIRL
 T5	pivot 8 25	ILLEGAL IMMIGRANT
-T6	pivot 57 75	IllegalImmigration
+T6	pivot 56 75	#IllegalImmigration
 R1	related Arg1:T5 Arg2:T6	
 T7	CounterNarrativeC 0 1	A
 #1	AnnotatorNotes T7	And what is the relationship? Are you sure he was an immigrant? And you think that had something to do with him stealing? Well, you're wrong.

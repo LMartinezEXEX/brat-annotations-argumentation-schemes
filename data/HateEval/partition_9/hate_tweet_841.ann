@@ -2,7 +2,7 @@ T1	Premise2Justification 0 108	Boo hoo! says KY refugee contractor---not enough 
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 108 214	Amazing how leftwing media conveniently forgets things like this---Iraqi refugee terrorists arrested in BG
 A2	QuadrantType T2 fact
-T3	Collective 57 65	Refugees
+T3	Collective 56 65	#Refugees
 T4	Property 189 199	terrorists
 T5	pivot 175 188	Iraqi refugee
 T6	pivot 49 65	Muslim #Refugees

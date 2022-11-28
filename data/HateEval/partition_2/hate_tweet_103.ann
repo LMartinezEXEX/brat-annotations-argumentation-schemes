@@ -1,16 +1,16 @@
+T4	Property 152 169	Human trafficking
 T1	Premise2Justification 0 171	A common occurrence at our borders is #HumanTrafficking and #SexTraffickimg. Did you know that there are many cases where #DACA recipients arrested for Human trafficking ?
 A1	QuadrantType T1 fact
-T2	Premise1Conclusion 185 225	#BulldTheWall #EndDACA#EndChainMigration
+T2	Premise1Conclusion 185 227	#BulldTheWall #End DACA #EndChainMigration
 A2	QuadrantType T2 policy
 T3	Collective 123 127	DACA
-T4	Property 152 169	Human trafficking
-T5	Property 61 75	SexTraffickimg
-T6	pivot 203 207	DACA
+T5	Property 60 75	#SexTraffickimg
+T6	pivot 204 208	DACA
 T7	pivot 123 127	DACA
 R1	related Arg1:T7 Arg2:T6	
-T8	CounterNarrativeC 247 248	s
+T8	CounterNarrativeC 249 250	s
 #1	AnnotatorNotes T8	Who says? Do you have sources to support what you say, or is it just something you made up to justify your xenophobia?
-T9	CounterNarrativeB 246 247	a
+T9	CounterNarrativeB 248 249	a
 #2	AnnotatorNotes T9	You are accusing a whole group of people for something terrible, based on what? Your prejudices? A coincidence?
-T10	CounterNarrativeA 248 249	e
+T10	CounterNarrativeA 250 251	e
 #3	AnnotatorNotes T10	Even supposing you are right, a wall will not solve anything, and will only make life more difficult for many who don't really commit crimes, migrants or not...

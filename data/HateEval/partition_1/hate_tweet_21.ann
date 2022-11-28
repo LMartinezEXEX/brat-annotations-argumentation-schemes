@@ -9,7 +9,7 @@ T11	CounterNarrativeB 273 274	n
 #2	AnnotatorNotes T11	Having people from different cultures doesn't mean there is an islamization. It means a cultural enrichment for tolerant societies.
 T12	CounterNarrativeC 271 272	4
 #3	AnnotatorNotes T12	Do you have any proof that German Government pays for 3 weeks vacation for refugees to go home? Because it sounds fake
-T6	pivot 0 20	The German Governmen
+T6	pivot 0 21	The German Government
 T7	pivot 94 115	the German government
 R1	related Arg1:T6 Arg2:T7	
 R2	firstOrder Arg1:T3 Arg2:T5	
