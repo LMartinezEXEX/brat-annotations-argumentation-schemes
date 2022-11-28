@@ -2,13 +2,13 @@ T1	Premise2Justification 0 98	"The left wants to change ""Illegal immigrant"" to
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 99 155	Let's call them what they REALLY are. ILLEGAL INVADERS."
 A2	QuadrantType T2 policy
-T3	pivot 28 35	Illegal
+T3	pivot 28 45	Illegal immigrant
 T4	pivot 137 144	ILLEGAL
 R1	related Arg1:T3 Arg2:T4	
 T5	CounterNarrativeC 97 98	!
 #1	AnnotatorNotes T5	Do you have a serious argument about it, or do you really think your opinion is that important?
 T6	Property 137 153	ILLEGAL INVADERS
-T7	Collective 28 44	Illegal immigran
+T7	Collective 28 45	Illegal immigrant
 T8	CounterNarrativeB 95 96	a
 #2	AnnotatorNotes T8	By definition, an immigrant, a person who flees his land trying to get ahead in a new place, could not be an invader...
 T9	CounterNarrativeA 93 94	t

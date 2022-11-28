@@ -1,3 +1,4 @@
+T6	pivot 212 225	holidaymakers
 T1	Premise2Justification 44 144	Families are not going to holiday in a country where assault, robbery and rape is rapidly increasing
 A1	QuadrantType T1 fact
 T2	Premise1Conclusion 0 43	Spain needs to wake up and wake up quickly.
@@ -5,10 +6,9 @@ T10	Premise1Conclusion 146 273	They can have violent african migrants, they can 
 A2	QuadrantType T2 policy
 T3	Collective 168 184	african migrants
 T4	Property 97 122	assault, robbery and rape
-T5	pivot 70 77	holiday
-T6	pivot 212 225	holidaymakers
 R1	related Arg1:T6 Arg2:T5	
 T7	CounterNarrativeB 143 144	g
+T5	pivot 70 77	holiday
 #1	AnnotatorNotes T7	Even if it is true that crime is on the rise, there is no reason to believe that African migrants have anything to do with it....
 T8	CounterNarrativeA 142 143	n
 #2	AnnotatorNotes T8	It is not true that the presence of immigrants is a decisive factor for families when choosing where to go to holiday.
